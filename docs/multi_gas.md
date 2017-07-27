@@ -80,7 +80,7 @@ RED传感器性能
 |典型的CO探测范围	|FS	|-	|1	|1000	|ppm|
 |灵敏系数|	SR	|-	|1.2|	50|	-|
 
-![](https://raw.githubusercontent.com/SeeedDocument/wiki_chinese/master/docs/images/multi_gas/5.jpg)
+![](https://raw.githubusercontent.com/SeeedDocument/wiki_chinese/master/docs/images/multi_gas/5-1.jpg)
  
 
 NH3传感器性能
@@ -91,6 +91,7 @@ NH3传感器性能
 |典型的NH3探测范围|FS|-|1|300|ppm|
 |灵敏系数|SR|-|1.5|15|-|
 
+![](https://raw.githubusercontent.com/SeeedDocument/wiki_chinese/master/docs/images/multi_gas/5-2.jpg)
  
 ## 固件与库
 
