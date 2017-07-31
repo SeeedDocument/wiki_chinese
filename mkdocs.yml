@@ -75,10 +75,7 @@ markdown_extensions:
 # Page tree
 pages:
   - Seeed文档中文站点介绍: index.md
-  - Respeaker麦克风整列FAQ: respeaker_array_faq.md
-  - Grove - MP3 V2: mp3_v2.md
-  - Grove - Encoder: encoder.md
-  - Grove - Multi Channel Gas Sensor: multi_gas.md
+  - 2KM Long Range RF link kits w encoder and decoder: 2KM_Long_Range_RF_link_kits_w_encoder_and_decoder.md 
   - 文档协议: license.md
 
 # Google Analytics
