@@ -1,4 +1,4 @@
-## Seeed中文文档
+## Seeed中文文档维护说明
 
 这里你可以找到部分Seeed产品的[中文文档](http://seeed.wiki)，由于这个站点刚建立，所以只有部分已经翻译的文档。
 
@@ -8,8 +8,7 @@
 
 ## 基本操作
 
-Git clone 这个库到本地，可以在docs文件夹里面添加文档，在docs/images添加图片，在docs/res文件夹添加资源。
-添加完文档后，需要手动修改mkdocs.yml文件。
+Git clone 这个库到本地，可以在docs文件夹里面添加文档。添加完文档后，需要手动修改mkdocs.yml文件。
 
 ```
 # Page tree
@@ -19,12 +18,23 @@ pages:
   - 新添加的文档: new_docs_name.md
   - License: license.md
 ```
-执行 **mkdocs serve** 进行预览没有问题后，执行 **mkdocs build --clean**，编译的静态文件会出现在 **site** 文件夹。
 
-Git clone [SeeedDocument.github.io](https://github.com/SeeedDocument/SeeedDocument.github.io) 到本地，把Site的内容替代原来的内容，重新上传，既可以更新网页。
+- 首先执行 **pip install mkdocs-material**
+- 执行执行 **mkdocs serve** 进行预览
+- 执行 **mkdocs build --clean**，编译的静态文件会出现在 **site** 文件夹。
+- Git clone [SeeedDocument.github.io](https://github.com/SeeedDocument/SeeedDocument.github.io) 到本地，把Site的内容替代原来的内容，重新上传，既可以更新网页。
 
-!!! note 
+!!! note
     CNAME文件不要删掉
+
+## 文档格式
+
+- **1. 简介**
+- **2. 规格参数**
+- **3. 创意应用**
+- **4. 硬件概述**
+- **5. 入门指导**
+- **6. 资源**
 
 ## 贡献
 
