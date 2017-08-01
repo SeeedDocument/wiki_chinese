@@ -25,7 +25,7 @@ tags: grove_digital, io_3v3, io_5v, plat_duino, plat_linkit, plat_wio
 Grove – Encoder 是一个增量旋转编码器。它将轴的旋转信号编码成电子脉冲输出信号。这个模块也属于Grove系列，有标准的Grove接口。
 
 
-当你的项目需要添加一个旋钮时，比如说音量旋钮，数字旋钮等，这个产品是一个不错的选择。
+当您的项目需要添加一个旋钮时，比如说音量旋钮，数字旋钮等，这个产品是一个不错的选择。
 
 [![](https://github.com/SeeedDocument/wiki_chinese/raw/master/docs/images/click_to_buy.PNG)](https://item.taobao.com/item.htm?spm=a1z10.5-c.w4002-11172345288.10.5e47879700GJ3i&id=45502678203)
 
@@ -38,8 +38,9 @@ Grove – Encoder 是一个增量旋转编码器。它将轴的旋转信号编�
 
 !!!小提示
 
-    关于Grove接口的更多信息请参考下面链接 [Grove System](http://wiki.seeed.cc/Grove_System/)
 
+
+关于Grove接口的更多信息请参考下面链接 [Grove System](http://seeed.wiki/Grove_System/)
 规格参数
 -------------
 
@@ -129,14 +130,14 @@ Arduino101 (with the [community library](https://github.com/dantler/GroveEncoder
 入门指导
 ---------------
 #### 开始之前
-如果您是第一次安装Arduino库文件，请点击[这里](http://wiki.seeed.cc/How_to_install_Arduino_Library/)查看库文件的安装方法。
+如果您是第一次安装Arduino库文件，请点击 [这里](http://seeed.wiki/How_to_install_Arduino_Library/) 查看库文件的安装方法。
 
-Grove-Encoder 使用的为seeedstudio编写的库简单易用，首先请点击后面的库名下载库[seeedstudio Encoder Lib](https://raw.githubusercontent.com/SeeedDocument/Grove-Encoder/master/res/Encoder.zip), 或者点击这里[community GroveEncoder library](https://github.com/dantler/GroveEncoder).  然后只需要把它接在BaseShield的D2接口上，你就可以开始使用了.
+Grove-Encoder 使用的为seeedstudio编写的库简单易用，首先请点击后面的库名下载库 [seeedstudio Encoder Lib](https://raw.githubusercontent.com/SeeedDocument/Grove-Encoder/master/res/Encoder.zip), 或者点击这里[community GroveEncoder library](https://github.com/dantler/GroveEncoder).  然后只需要把它接在BaseShield的D2接口上，你就可以开始使用了.
 
 ### 环形LED灯条示例
 ----------------
 - 1.接下来的这个示例，就是展示了如何操做一个圆形的LED灯条。
-这个圆形的LED灯条由Encoder和 [Grove-CircularLED](/Grove-Circular_LED)两个模块组成 。将这两个模块按照下图所示连接起来:
+这个圆形的LED灯条由Encoder和  [Grove-CircularLED](/Grove-Circular_LED) 两个模块组成 。将这两个模块按照下图所示连接起来:
 
 ![](https://raw.githubusercontent.com/SeeedDocument/Grove-Encoder/master/img/Cirhard.jpg)
 
@@ -191,10 +192,7 @@ void SenttocircularBar(int index)
 }
 ```
 
--   4.下载代码到您的Arduino或Seeeduino板子里。效果如下图所示。
-
-
-如果您不清楚怎么下载代码，请点击[这里](http://www.seeedstudio.com/wiki/Upload_Code)。
+-   4.下载代码到您的Arduino或Seeeduino板子里。效果如下图所示。如果您不清楚怎么下载代码，请点击[这里](http://seeed.wiki/Upload_Code/)。
 
 ![](https://raw.githubusercontent.com/SeeedDocument/Grove-Encoder/master/img/EncoderAndCircular_LED.gif)
 
