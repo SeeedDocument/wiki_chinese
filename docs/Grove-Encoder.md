@@ -139,7 +139,7 @@ Grove-Encoder 使用的为seeedstudio编写的库简单易用，首先请点击�
 ### 环形LED灯条示例
 ----------------
 - 1.接下来的这个示例，就是展示了如何操做一个圆形的LED灯条。
-这个圆形的LED灯条由Encoder和  [Grove-CircularLED](/Grove-Circular_LED) 两个模块组成 。将这两个模块按照下图所示连接起来:
+这个圆形的LED灯条由Encoder和  [Grove-CircularLED](https://item.taobao.com/item.htm?spm=a1z10.3-c.w4002-11172317909.17.5e478797WCo1TF&id=45506850976) （可点击查看）两个模块组成 。将这两个模块按照下图所示连接起来:
 
 ![](https://raw.githubusercontent.com/SeeedDocument/Grove-Encoder/master/img/Cirhard.jpg)
 
