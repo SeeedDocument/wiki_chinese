@@ -36,11 +36,13 @@ Grove – Encoder 是一个增量旋转编码器。它将轴的旋转信号编�
 * Grove接口
 * 360度旋转
 
-!!!小提示
 
-
-
+!!!小提示 ：
 关于Grove接口的更多信息请参考下面链接 [Grove System](http://seeed.wiki/Grove_System/)
+
+
+
+
 规格参数
 -------------
 
