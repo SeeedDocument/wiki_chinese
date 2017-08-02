@@ -1,4 +1,4 @@
-# Copyright (c) 2016-2017 Martin Donath <martin.donath@squidfunk.com>
+﻿# Copyright (c) 2016-2017 Martin Donath <martin.donath@squidfunk.com>
 
 # Permission is hereby granted, free of charge, to any person obtaining a copy
 # of this software and associated documentation files (the "Software"), to
@@ -75,7 +75,10 @@ markdown_extensions:
 # Page tree
 pages:
   - Seeed文档中文站点介绍: index.md
-  - 2KM Long Range RF link kits w encoder and decoder: 2KM_Long_Range_RF_link_kits_w_encoder_and_decoder.md 
+  - 2KM Long Range RF link kits w encoder and decoder: 2KM_Long_Range_RF_link_kits_w_encoder_and_decoder.md
+  - Grove-Encoder.md
+  - Grove-MP3_v2.0.md
+  - Grove-Multichannel_Gas_Sensor.md
   - 文档协议: license.md
 
 # Google Analytics

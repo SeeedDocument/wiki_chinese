@@ -36,9 +36,12 @@ Grove – Encoder 是一个增量旋转编码器。它将轴的旋转信号编�
 * Grove接口
 * 360度旋转
 
+<div class="admonition note">
+<p class="admonition-title">！！！小提示：</p>
 
-!!!小提示 ：
-关于Grove接口的更多信息请参考下面链接 [Grove System](http://seeed.wiki/Grove_System/)
+  关于Grove接口的更多信息请参考下面链接：
+</div>
+ [Grove System](http://seeed.wiki/Grove_System/)
 
 
 
@@ -138,14 +141,20 @@ Grove-Encoder 使用的为seeedstudio编写的库简单易用，首先请点击�
 
 ### 环形LED灯条示例
 ----------------
-- 1.接下来的这个示例，就是展示了如何操做一个圆形的LED灯条。
+- 1.
+
+   接下来的这个示例，就是展示了如何操做一个圆形的LED灯条。
 这个圆形的LED灯条由Encoder和  [Grove-CircularLED](https://item.taobao.com/item.htm?spm=a1z10.3-c.w4002-11172317909.17.5e478797WCo1TF&id=45506850976) （可点击查看）两个模块组成 。将这两个模块按照下图所示连接起来:
 
 ![](https://raw.githubusercontent.com/SeeedDocument/Grove-Encoder/master/img/Cirhard.jpg)
 
-- 2.这个项目需要先点击安装下面这几个库： [TimerOne Lib](https://raw.githubusercontent.com/SeeedDocument/Grove-Encoder/master/res/TimerOne.zip) 库、 [Encoder Lib](https://raw.githubusercontent.com/SeeedDocument/Grove-Encoder/master/res/Encoder.zip) 库和 [CircularLED Library](https://raw.githubusercontent.com/SeeedDocument/Grove-Encoder/master/res/CircularLED.zip)库 。下载完上面几个库后安装在你的Arduino IDE上。
+- 2.
 
-- 3.重启并打开Arduino IDE，打开 **File->Examples->Encoder->EncodeCircuiBar**。代码如下所示
+  这个项目需要先点击安装下面这几个库： [TimerOne Lib](https://raw.githubusercontent.com/SeeedDocument/Grove-Encoder/master/res/TimerOne.zip) 库、 [Encoder Lib](https://raw.githubusercontent.com/SeeedDocument/Grove-Encoder/master/res/Encoder.zip) 库和 [CircularLED Library](https://raw.githubusercontent.com/SeeedDocument/Grove-Encoder/master/res/CircularLED.zip)库 。下载完上面几个库后安装在你的Arduino IDE上。
+
+- 3.
+
+  重启并打开Arduino IDE，打开 **File->Examples->Encoder->EncodeCircuiBar**。代码如下所示
 
 ```
 #include <CircularLED.h>
@@ -194,7 +203,9 @@ void SenttocircularBar(int index)
 }
 ```
 
--   4.下载代码到您的Arduino或Seeeduino板子里。效果如下图所示。如果您不清楚怎么下载代码，请点击[这里](http://seeed.wiki/Upload_Code/)。
+-  4.
+
+  下载代码到您的Arduino或Seeeduino板子里。效果如下图所示。如果您不清楚怎么下载代码，请点击[这里](http://seeed.wiki/Upload_Code/)。
 
 ![](https://raw.githubusercontent.com/SeeedDocument/Grove-Encoder/master/img/EncoderAndCircular_LED.gif)
 
