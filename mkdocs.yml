@@ -80,6 +80,7 @@ pages:
   - Grove-MP3_v2.0: Grove-MP3_v2.0.md
   - Grove-Multichannel_Gas_Sensor: Grove-Multichannel_Gas_Sensor.md
   - Respeaker_Mic_Array: Respeaker_Mic_Array.md
+  - Respeaker_Core: Respeaker_Core.md
   - 文档协议: license.md
 
 # Google Analytics
