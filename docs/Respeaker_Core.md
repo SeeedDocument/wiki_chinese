@@ -22,7 +22,7 @@ ReSpeaker是一个开放的模块化语音接口，用于接入您周围的各�
 
 - **它是孩子们学习的工具**
 
-  ReSpeaker控制模块是基于ATmega32u4芯片，该芯片完全兼容Arduino驱动。这意味着，我们可以使用ReSpeaker作为强大的Arduino学习板，并做了许多“Arduino”开发板能做的事情。这是为了学习，这是为了练习，这是乐趣。
+  ReSpeaker控制模块是基于ATmega32u4芯片，该芯片完全兼容Arduino驱动。这意味着，我们可以使用ReSpeaker作为强大的Arduino学习板，并做了许多“Arduino”开发板能做的事情。这是为了学习，这是为了练习，这是乐趣！！！
 
 
 [![](https://github.com/SeeedDocument/wiki_chinese/raw/master/docs/images/click_to_buy.PNG)](https://item.taobao.com/item.htm?spm=a1z10.3-c.w4002-11172317909.14.5e478797r0BkWN&id=538922110430)
@@ -31,12 +31,14 @@ ReSpeaker是一个开放的模块化语音接口，用于接入您周围的各�
 ---
 ![](https://github.com/SeeedDocument/Respeaker_Core/raw/master/img/respeaker_core_futures.jpg)
 
-- Set Your Hands Free: Speech recognition with or without the Internet
-- Wireless Streaming: stream music via Airplay/DLNA
-- Easy-to-use SDK: For Python and C/C++ developers
-- Growing Features: Download and plug-in to enrich its features and functionalities.
-- Plug-n-play Add-ons: Extendable with Mic Array, Grove Extension Board, Grove Modules.
-- Installation-free App: Set all things on webbased App. (Not Available Yet)
+
+
+- 解放您的双手：离线或在线模式下的语音识别
+- 无线音频流传输： 通过Airplay/DLNA传输音频流
+- 易于使用的SDK：适用于Python和C / C ++开发人员
+- 日益增长的功能：下载和插件不断丰富其功能与应用
+- 即插即用插件：可扩展使用麦克风阵列，Grove扩展板，Grove模块
+- 免安装应用程序：可基于Web应用程序设置所有功能、参数（暂时不可用）
 
 ##   规格参数
 ---
