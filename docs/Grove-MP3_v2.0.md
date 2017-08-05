@@ -35,8 +35,8 @@ Grove – MP3 V2.0是一款外形小巧，设计紧凑的音频模块。本模�
 * 支持多种音频格式，MP3, WAV, WMV灯
 * 10种均衡模式
 
-!!!Tip
-    更多关于Grove接口的信息请点击下面链接 [Grove System](http://wiki.seeed.cc/Grove_System/)
+!!!note
+    - 更多关于Grove接口的信息请点击下面链接 [Grove System](http://wiki.seeed.cc/Grove_System/)
 
 创意应用
 -----------------
@@ -112,7 +112,8 @@ Arduino, Raspberrypi, bbg, linkitone
 如果您是第一次安装Arduino库文件，请点击 [这里](http://seeed.wiki/How_to_install_Arduino_Library/) 查看库文件的安装方法。
 
 
-如果您不清楚怎么下载代码到您的板子里，请点击[这里](http://seeed.wiki/Upload_Code/)。
+!!!tip
+    - 如果您不清楚怎么下载代码到您的板子里，请点击[这里](http://seeed.wiki/Upload_Code/)。
 
 
 #### 烧录例程

@@ -13,7 +13,7 @@ sku:   113990018
 
 这是一款超长距离的433MHz RF通信模块套件，通信距离可达2公里，包含发射和接收两个模块。模块内置VCO, PLL技术，频率稳定以及抗干扰能力强。你可以在需要无线数据传输和远程控制等应用使用本模块。
 
-[![](https://github.com/SeeedDocument/Seeed-WiKi/raw/master/docs/images/300px-Get_One_Now_Banner-ragular.png)](https://www.seeedstudio.com/2km-long-range-rf-link-kits-w-encoder-and-decoder-p-321.html?cPath=139_140)
+[![](https://github.com/SeeedDocument/wiki_chinese/raw/master/docs/images/click_to_buy.PNG)](https://item.taobao.com/item.htm?spm=a1z10.3-c.w4002-11172317909.10.5e478797pm0Yu9&id=527004631129)
 
 ##   2.	规格参数
 ---
@@ -49,16 +49,14 @@ sku:   113990018
 - 连接电池, 按钮和发射板.
 ![](https://github.com/SeeedDocument/2KM_Long_Range_RF_link_kits_w_encoder_and_decoder/raw/master/img/2KM_TX.JPG)
 
-!!!注意
-
-- 请使用3-5V电源！ 9V电源会损坏接收板.
-- 连接电池, LEDs and 接收板.
+!!!note
+    - 请使用3-5V电源！ 9V电源会损坏接收板.
+    - 连接电池, LEDs and 接收板.
 ![](https://github.com/SeeedDocument/2KM_Long_Range_RF_link_kits_w_encoder_and_decoder/raw/master/img/2KM_RX.JPG)
 
 !!!注意
-
-- 不要把RX 模块和 TX模块靠的很近: 这将阻止他们正常工作。 确保RX模块和TX模块距离至少1米。
-- 当我们按发射机侧的按钮时，接收机侧的相关LED将被打开。
+    - 不要把RX 模块和 TX模块靠的很近: 这将阻止他们正常工作。 确保RX模块和TX模块距离至少1米。
+    - 当我们按发射机侧的按钮时，接收机侧的相关LED将被打开。
 
 ## 6. 资源
 ---

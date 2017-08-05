@@ -255,8 +255,8 @@ void loop()
 
 ![](https://raw.githubusercontent.com/SeeedDocument/Grove-Multichannel_Gas_Sensor/master/img/Mutichannel_Gas_Sensor_Grove_Print.jpg)
 
-!!!小提示
-    更多的关于Grove模块的信息请点击参考 [Grove System](http://seeed.wiki/Grove_System/)
+!!!tip
+    - 更多的关于Grove模块的信息请点击参考 [Grove System](http://seeed.wiki/Grove_System/)
 
 更新固件
 -----------------
