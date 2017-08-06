@@ -75,7 +75,6 @@ markdown_extensions:
 # Page tree
 pages:
   - Seeed文档中文站点介绍: 'index.md'
-  - 2KM Long Range RF link kits w encoder and decoder: '2KM_Long_Range_RF_link_kits_w_encoder_and_decoder.md'
   - Grove:
     - Grove_System: Grove_System.md
     - Grove-Encoder: Grove-Encoder.md
@@ -84,6 +83,8 @@ pages:
   - Respeaker:
     - Respeaker_Mic_Array: Respeaker_Mic_Array.md
     - Respeaker_Core: Respeaker_Core.md
+  - MakerPro:
+    - 2KM_Long_Range_RF_link_kits_w_encoder_and_decoder: 2KM_Long_Range_RF_link_kits_w_encoder_and_decoder.md
  
   - 文档协议: license.md
 
