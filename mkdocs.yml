@@ -75,6 +75,10 @@ markdown_extensions:
 # Page tree
 pages:
   - Seeed文档中文站点介绍: 'index.md'
+  - Platform:
+    - shield:
+      - Base_Shield_V2: Base_Shield_V2.md
+  
   - Grove:
     - Grove_System: Grove_System.md
     - Grove-Encoder: Grove-Encoder.md
@@ -86,6 +90,7 @@ pages:
   - Tutorial:
     - 怎样安装Arduino库: How_to_install_Arduino_Library.md
     - 怎样上传代码: Upload_Code.md
+    - Seeeduino入门指导: Getting_Started_with_Seeeduino.md
   - MakerPro:
     - 2KM_Long_Range_RF_link_kits_w_encoder_and_decoder: 2KM_Long_Range_RF_link_kits_w_encoder_and_decoder.md
   - 文档协议: license.md
