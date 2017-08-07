@@ -54,7 +54,7 @@ sku:   113990018
     - 连接电池, LEDs and 接收板.
 ![](https://github.com/SeeedDocument/2KM_Long_Range_RF_link_kits_w_encoder_and_decoder/raw/master/img/2KM_RX.JPG)
 
-!!!注意
+!!!warning
     - 不要把RX 模块和 TX模块靠的很近: 这将阻止他们正常工作。 确保RX模块和TX模块距离至少1米。
     - 当我们按发射机侧的按钮时，接收机侧的相关LED将被打开。
 

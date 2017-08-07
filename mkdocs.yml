@@ -83,9 +83,10 @@ pages:
   - Respeaker:
     - Respeaker_Mic_Array: Respeaker_Mic_Array.md
     - Respeaker_Core: Respeaker_Core.md
+  - Tutorial:
+    - 怎样安装Arduino库: How_to_install_Arduino_Library.md
   - MakerPro:
     - 2KM_Long_Range_RF_link_kits_w_encoder_and_decoder: 2KM_Long_Range_RF_link_kits_w_encoder_and_decoder.md
- 
   - 文档协议: license.md
 
 # Google Analytics
