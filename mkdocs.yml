@@ -79,7 +79,8 @@ pages:
     - Shield:
       - Base_Shield_V2: Base_Shield_V2.md
     - Arduino:
-      - Seeeduino_Cloud: Seeeduino_Cloud.md  
+      - Seeeduino_Cloud: Seeeduino_Cloud.md
+      - Seeeduino_LoRAWAN: Seeeduino_LoRAWAN.md  
     - Respeaker:
       - Respeaker_Mic_Array: Respeaker_Mic_Array.md
       - Respeaker_Core: Respeaker_Core.md  

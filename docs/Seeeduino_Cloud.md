@@ -214,7 +214,7 @@ The Bridge Library 简化了Arduino Board和Dragino HE之间的通讯。 来自A
 
 [Arduino Official Website](https://www.arduino.cc/en/Reference/YunBridgeLibrary)有详细的解释和很多例子来展示如何使用Bridge. 以下是使用Bridge Library的一些示例.
 
-**Example 1: Say hello to Linux**
+**Example 1: 跟Linux打招呼**
 
 This example is a hello test between the Arduino and Seeeduino Cloud. The example can be found on the Arduino IDE--> File --> Examples --> Bridge --> ConsoleRead. A tutorial of this example can be found [here](https://www.arduino.cc/en/Tutorial/ConsoleRead). You can see the code below with some additional details to understand it with the Seeeduino Cloud:
 这个例子是Arduino和Seeeduino Cloud之间的一个hello测试。该示例可以在Arduino IDE-> File - > Examples - > Bridge - > ConsoleRead中找到。这个例子的教程可以在[这里](https://www.arduino.cc/en/Tutorial/ConsoleRead)找到。您可以在下面的代码中查看一些其他详细信息:
@@ -257,7 +257,7 @@ void loop() {
 
 ```
 
-**Example 2: Upload data to IoT Server**
+**例程 2: 上传数据到物联网服务器**
 
 此示例显示如何将数据记录到公共IoT服务器“Xively”。示例是从Arduino IDE-> File - > Examples - > Bridge - > XivelyClient. 这个例子的教程可以在[这里](https://www.arduino.cc/en/Tutorial/YunXivelyClient)这里参考。上传程序之前，请确保：
 
@@ -375,10 +375,7 @@ void sendData() {
 ![](https://raw.githubusercontent.com/SeeedDocument/Seeeduino_Cloud/master/img/500px-SeeeduinoCloud_Sketch_xively.png)
 
 
-**Example 3: Log Data to USB flash**
-
-This example shows how to log data to a USB flash. The sketch used in this example is same as [here](http://wiki.dragino.com/index.php?title=Arduino_Yun_examples#Log_sensor_data_to_USB_flash). And the source code can be found there.
-The Seeeduino Cloud will auto mount the USB flash to directory /mnt/sda1. And the sketch will append the sensor data to the file /mnt/sda1/data/datalog.csv. So make sure there is such a file in the USB flash before running the sketch.
+**例程 3: 将数据记录在USB闪存中**
 
 此示例显示如何将数据记录到USB闪存。本示例中使用的程序与[此处](http://wiki.dragino.com/index.php?title=Arduino_Yun_examples#Log_sensor_data_to_USB_flash)相同。并且可以在那里找到源代码。Seeeduino Cloud将自动将USB闪存映射到目录/ mnt /sda1。而程序会将传感器数据附加到文件/mnt/sda1/data/datalog.csv。因此，在运行程序之前，请确保在USB闪存中有这样的文件。
 
@@ -448,7 +445,7 @@ String getTimeStamp() {
 ![](https://raw.githubusercontent.com/SeeedDocument/Seeeduino_Cloud/master/img/500px-SeeeduinoCloud_Sketch_USB.png)
 
 
-**IoT Server Configuration**
+**物联网服务器配置**
 
 IoT Server页面允许您将数据上传到诸如Xively之类的IoT网站，而您只需要将传感器数据写入串口。
 
@@ -491,14 +488,14 @@ void loop() {
 
 ## 资源下载
 
-* **Schematic**
+* **原理图**
     * [Seeeduino Cloud Eagle file](https://github.com/SeeedDocument/Seeeduino_Cloud/raw/master/res/Seeeduino_Cloud_v1.0.zip)
     * [Seeeduino Cloud PDF file](https://github.com/SeeedDocument/Seeeduino_Cloud/raw/master/res/Seeeduino_Cloud_PDF.pdf)
 
-* **Firmware**
+* **固件**
     * [Seeeduino Cloud Firmware](https://github.com/SeeedDocument/Seeeduino_Cloud/raw/master/res/Seeeduino_Cloud_Firmware--v1.3.4--20140815-1100.zip)
 
-* **References**
+* **参考资料**
     * [Getting Started with Arduino](https://www.arduino.cc/en/Guide/HomePage)
     * [Arduino Language Reference](https://www.arduino.cc/en/Reference/HomePage)
     * [Download the Arduino Software(IDE)](https://www.arduino.cc/en/Main/Software)
