@@ -12,7 +12,7 @@ sku: 102010021
 
 Seeeduino Cloud是基于[Dragino WiFi IoT模块HE](http://www.dragino.com/products/linux-module/item/87-he.html)和ATmega32u4 的微控制器板。HE是一种高性能，低成本的150M，2.4G WiFi模块，这意味着中文的“核心”和内部的开源OpenWrt系统。Seeeduino Cloud也是Arduino兼容板，与Grove，Shield和IDE（Arduino IDE 1.5.3及更高版本）100%兼容。除了Arduino的正常接口，Seeeduino Cloud内置了以太网和WiFi支持，一个USB-A端口，非常适合那些需要网络连接和大容量存储的原型设计。使Seeeduino Cloud成为一个IoT网关也是一个好主意。
 
-[![](https://github.com/SeeedDocument/wiki_chinese/raw/master/docs/images/click_to_buy.PNG)](https://www.seeedstudio.com/Seeeduino-Cloud-Arduino-Yun-compatible-openWRT-controller-p-2123.html)
+[![](https://github.com/SeeedDocument/wiki_chinese/raw/master/docs/images/click_to_buy.PNG)](https://item.taobao.com/item.htm?spm=a1z10.3-c.w4002-11172317909.9.5e478797f85QbT&id=45487778399)
 
 
 ## 创意应用
