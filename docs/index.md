@@ -3,7 +3,7 @@
 
 ## Platform
 
-| **Arduino**  |    **Beaglebone** < |    **Raspberry**   |
+| **Arduino**  |    **Beaglebone**  |    **Raspberry**   |
 |:---:|:---:|:---:|
 |![](https://github.com/SeeedDocument/wiki_chinese/raw/master/docs/images/arduino.png)   |![](https://github.com/SeeedDocument/wiki_chinese/raw/master/docs/images/Beaglebone.png)   |![](https://github.com/SeeedDocument/wiki_chinese/raw/master/docs/images/Respberry%20Pi.png)   |
 
