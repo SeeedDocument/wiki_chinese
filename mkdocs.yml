@@ -74,7 +74,7 @@ markdown_extensions:
 
 # Page tree
 pages:
-  - Seeed文档中文站点介绍: 'index.md'
+  - Seeed产品中文Wiki: 'index.md'
   - Platform:
     - Shield:
       - Base_Shield_V2: Base_Shield_V2.md
@@ -93,6 +93,7 @@ pages:
     - 怎样安装Arduino库: How_to_install_Arduino_Library.md
     - 怎样上传代码: Upload_Code.md
     - Seeeduino入门指导: Getting_Started_with_Seeeduino.md
+    - Seeed中文文档维护说明: How_to_edit_Wiki.md
   - MakerPro:
     - 2KM_Long_Range_RF_link_kits_w_encoder_and_decoder: 2KM_Long_Range_RF_link_kits_w_encoder_and_decoder.md
   - 文档协议: license.md
