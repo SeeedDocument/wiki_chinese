@@ -215,7 +215,7 @@ void SenttocircularBar(int index)
     当Grove – Encoder 被按下时，也会产生一个信号，但是基于Grove线的限制，并没有将该信号引出来。
 </div>
 
-资源
+资料下载
 ---------
 
 -   [Encoder Spec](https://raw.githubusercontent.com/SeeedDocument/Grove-Encoder/master/res/Encoder_Spe.zip)
