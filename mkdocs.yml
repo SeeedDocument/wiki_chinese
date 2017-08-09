@@ -74,28 +74,36 @@ markdown_extensions:
 
 # Page tree
 pages:
-  - Seeed产品中文Wiki: 'index.md'
-  - Platform:
+  - Seeed文档中文站点介绍: 'index.md'
+  
+  - 平台:
     - Shield:
       - Base_Shield_V2: Base_Shield_V2.md
+      - CAN-BUS_Shield_V1.2: CAN-BUS_Shield_V1.2.md
     - Arduino:
       - Seeeduino_Cloud: Seeeduino_Cloud.md
       - Seeeduino_LoRAWAN: Seeeduino_LoRAWAN.md  
     - Respeaker:
       - Respeaker_Mic_Array: Respeaker_Mic_Array.md
       - Respeaker_Core: Respeaker_Core.md  
+  
   - Grove:
-    - Grove_System: Grove_System.md
-    - Grove-Encoder: Grove-Encoder.md
-    - Grove-MP3_v2.0: Grove-MP3_v2.0.md
-    - Grove-Multichannel_Gas_Sensor: Grove-Multichannel_Gas_Sensor.md
-  - Tutorial:
-    - 怎样安装Arduino库: How_to_install_Arduino_Library.md
-    - 怎样上传代码: Upload_Code.md
+    - Grove系统: Grove_System.md
+    - 传感器:
+      - Grove-Encoder: Grove-Encoder.md
+      - Grove-Multichannel_Gas_Sensor: Grove-Multichannel_Gas_Sensor.md
+      - Grove-Piezo_Vibration_Sensor: Grove-Piezo_Vibration_Sensor.md
+    - 执行器:
+      - Grove-MP3_v2.0: Grove-MP3_v2.0.md
+
+  - 使用教程:
+    - 如何安装Arduino库: How_to_install_Arduino_Library.md
+    - 如何上传代码: Upload_Code.md
     - Seeeduino入门指导: Getting_Started_with_Seeeduino.md
-    - Seeed中文文档维护说明: How_to_edit_Wiki.md
+  
   - MakerPro:
     - 2KM_Long_Range_RF_link_kits_w_encoder_and_decoder: 2KM_Long_Range_RF_link_kits_w_encoder_and_decoder.md
+  
   - 文档协议: license.md
 
 # Google Analytics
