@@ -4,8 +4,7 @@ category: Sensor
 bzurl: https://seeedstudio.com/Grove-Encoder-p-1352.html
 oldwikiname: Grove_-_Encoder
 prodimagename: Encoder2.jpg
-bzprodimageurl: http://statics3.seeedstudio.com/images/product/Grove Encoder.jpg
-surveyurl: https://www.research.net/r/Grove-Encoder
+wikiurl: http://seeed.wiki/Grove-Encoder
 sku: 111020001
 tags: grove_digital, io_3v3, io_5v, plat_duino, plat_linkit, plat_wio
 ---

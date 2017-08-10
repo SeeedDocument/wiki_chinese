@@ -77,33 +77,66 @@ pages:
   - Seeed文档中文站点介绍: 'index.md'
   
   - 平台:
-    - Shield:
-      - Base_Shield_V2: Base_Shield_V2.md
-      - CAN-BUS_Shield_V1.2: CAN-BUS_Shield_V1.2.md
     - Arduino:
+      - Arduino: Arduino.md
       - Seeeduino_Cloud: Seeeduino_Cloud.md
       - Seeeduino_LoRAWAN: Seeeduino_LoRAWAN.md  
+    - BeagleBone:
+      - BeagleBone: BeagleBone.md
+    - Raspberry:
+      - Raspberry: Raspberry.md
+    - Wio:
+      - Wio: Wio.md
+    - LinkIt:
+      - LinkIt: LinkIt.md
+    - mbed:
+      - mbed: mbed.md
+    - Rephone:
+      - Rephone: Rephone.md
     - Respeaker:
+      - Respeaker: Respeaker.md
       - Respeaker_Mic_Array: Respeaker_Mic_Array.md
       - Respeaker_Core: Respeaker_Core.md  
+    - Shield:
+      - Shield: Shield.md
+      - Base_Shield_V2: Base_Shield_V2.md
+      - CAN-BUS_Shield_V1.2: CAN-BUS_Shield_V1.2.md
+    - Essentials:
+      - Essentials: Essentials.md
+    - Wireless:
+      - Wireless: Wireless.md
   
   - Grove:
     - Grove系统: Grove_System.md
     - 传感器:
+      - Sensor: Sensor.md
       - Grove-Encoder: Grove-Encoder.md
       - Grove-Multichannel_Gas_Sensor: Grove-Multichannel_Gas_Sensor.md
       - Grove-Piezo_Vibration_Sensor: Grove-Piezo_Vibration_Sensor.md
     - 执行器:
+      - Actuator: Actuator.md
       - Grove-MP3_v2.0: Grove-MP3_v2.0.md
+    - Display:
+      - Display: Display.md
+    - Communication:
+      - Communication: Communication.md
+    - Others:
+      - Others: Others.md
 
+  - IoT:
+    - IoT: IoT.md
+  
+  - MakerPro:
+    - MakerPro: MakerPro.md
+    - 2KM_Long_Range_RF_link_kits_w_encoder_and_decoder: 2KM_Long_Range_RF_link_kits_w_encoder_and_decoder.md
+    - Piezo_Sensor-MiniSense_100: Piezo_Sensor-MiniSense_100.md
+  
   - 使用教程:
+    - Tutorial: Tutorial.md
     - 如何安装Arduino库: How_to_install_Arduino_Library.md
     - 如何上传代码: Upload_Code.md
     - Seeeduino入门指导: Getting_Started_with_Seeeduino.md
-  
-  - MakerPro:
-    - 2KM_Long_Range_RF_link_kits_w_encoder_and_decoder: 2KM_Long_Range_RF_link_kits_w_encoder_and_decoder.md
-    - Piezo_Sensor-MiniSense_100: Piezo_Sensor-MiniSense_100.md
+    - How_to_edit_Wiki: How_to_edit_Wiki.md
   
   - 文档协议: license.md
 

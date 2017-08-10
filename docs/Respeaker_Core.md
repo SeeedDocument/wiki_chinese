@@ -4,7 +4,7 @@ category: Respeaker
 bzurl: https://www.seeedstudio.com/ReSpeaker-Core-Based-On-MT7688-and-OpenWRT-p-2716.html
 oldwikiname:  Respeaker Core
 prodimagename:  respeaker_core.jpg
-surveyurl:  https://www.research.net/r/Respeaker_Core
+wikiurl: http://seeed.wiki/Respeaker_Core/
 sku:     102010088
 ---
 ![](https://github.com/SeeedDocument/Respeaker_Core/raw/master/img/respeaker_core.jpg)

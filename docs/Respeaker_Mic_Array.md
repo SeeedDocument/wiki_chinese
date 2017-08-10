@@ -4,7 +4,7 @@ category: Respeaker
 bzurl: https://www.seeedstudio.com/ReSpeaker-Mic-Array-Far-field-w--7-PDM-Microphones--p-2719.html
 oldwikiname: ReSpeaker Mic Array
 prodimagename: respeaker_mic_array.jpeg
-surveyurl: https://www.research.net/r/Respeaker_Mic_Array
+wikiurl: http://seeed.wiki/Respeaker_Mic_Array/
 sku: 107010001
 ---
 

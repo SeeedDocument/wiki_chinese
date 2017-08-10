@@ -4,7 +4,7 @@ category: Arduino
 bzurl: http://www.seeedstudio.com/Seeeduino-V4.2-p-2517.html
 oldwikiname:
 prodimagename: cover.png
-surveyurl: https://www.research.net/r/SeeeduinoLoRa
+wikiurl: http://seeed.wiki/Seeeduino_LoRAWAN
 sku: 102010026
 ---
 

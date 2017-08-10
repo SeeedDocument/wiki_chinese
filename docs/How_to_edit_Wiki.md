@@ -1,3 +1,14 @@
+---
+title: How to edit Wiki
+category: Tutorial
+bzurl: 
+oldwikiname: 
+prodimagename: 
+wikiurl: http://seeed.wiki/How_to_edit_Wiki
+sku: 
+tags: 
+---
+
 ## Seeed中文文档维护说明
 
 这里你可以找到部分Seeed产品的[中文文档](http://seeed.wiki)，由于这个站点刚建立，所以只有部分已经翻译的文档。

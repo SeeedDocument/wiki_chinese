@@ -4,8 +4,7 @@ category: Sensor
 bzurl: https://seeedstudio.com/Grove-Multichannel-Gas-Sensor-p-2502.html
 oldwikiname: Grove_-_Multichannel_Gas_Sensor
 prodimagename: Multi_sensor1.png
-bzprodimageurl: http://statics3.seeedstudio.com/images/product/101020088 1.jpg
-surveyurl: https://www.research.net/r/Grove-Multichannel_Gas_Sensor
+wikiurl: http://seeed.wiki/Grove-Multichannel_Gas_Sensor
 sku: 101020088
 tags: grove_i2c, io_3v3, io_5v, plat_duino, plat_linkit, plat_wio
 ---

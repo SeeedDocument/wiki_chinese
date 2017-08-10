@@ -1,10 +1,13 @@
 ---
 title: Upload Code
 category: Tutorial
+bzurl: 
 oldwikiname:  Upload Code
 prodimagename:
-surveyurl: https://www.research.net/r/Upload_Code
+wikiurl: http://seeed.wiki/Upload_Code
+sku: 
 ---
+
 **The specific steps for uploading the code:**
 
 1.按照以下路径选择您正在使用的Arduino板子：Tools（工具） --&gt; Board（开发板） --&gt;  （例如）Arduino UNO

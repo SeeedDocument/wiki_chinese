@@ -1,6 +1,12 @@
 ---
 title: How to install an Arduino library
 category: Tutorial
+bzurl: 
+oldwikiname:
+prodimagename: 
+wikiurl: http://seeed.wiki/How_to_install_Arduino_Library
+sku: 
+
 ---
 
 !!!Note

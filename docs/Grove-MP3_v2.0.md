@@ -4,8 +4,7 @@ category: Actuator
 bzurl: https://seeedstudio.com/Grove-MP3-v2.0-p-2597.html
 oldwikiname: Grove_-_MP3_v2.0
 prodimagename: Grove-MP3_v2.0_Product_View_700_S.jpg
-bzprodimageurl: http://statics3.seeedstudio.com/images/product/107020008 2.jpg
-surveyurl: https://www.research.net/r/Grove-MP3_v2_0
+wikiurl: http://seeed.wiki/Grove-MP3_v2.0
 sku: 107020008
 tags: plat_duino, plat_pi, plat_bbg, plat_linkit
 ---
