@@ -7,7 +7,7 @@
 
 | **Wio**  |    **mbed**  |    **RePhone**   |  
 |:---:|:---:|:---:|
-|[![](https://github.com/SeeedDocument/wiki_chinese/raw/master/docs/images/Wio.png)](http://seeed.wiki/Wio)   |[![](https://github.com/SeeedDocument/wiki_chinese/raw/master/docs/images/arch%20ble.jpg)](http://seeed.wiki/mbed)   |[![](https://github.com/SeeedDocument/wiki_chinese/raw/master/docs/images/Rephone.png)](http://seeed.wiki/RePhone)    |
+|[![](https://github.com/SeeedDocument/wiki_chinese/raw/master/docs/images/Wio.png)](http://seeed.wiki/Wio)   |[![](https://github.com/SeeedDocument/wiki_chinese/raw/master/docs/images/arch%20ble.jpg)](http://seeed.wiki/mbed)   |[![](https://github.com/SeeedDocument/wiki_chinese/raw/master/docs/images/Rephone.png)](http://seeed.wiki/Rephone)    |
 
 | **LinkIt**   |  **ReSpeaker**     |    **Shield**   |  
 |:---:|:---:|:---:|
