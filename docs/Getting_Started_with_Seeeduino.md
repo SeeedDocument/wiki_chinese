@@ -4,7 +4,7 @@ category: Tutorial
 bzurl: 
 oldwikiname:  Getting Started with Seeeduino
 prodimagename:  Hello_world.jpg
-wikiurl: https://seeed.wiki/Getting_Started_with_Seeeduino
+wikiurl: http://seeed.wiki/Getting_Started_with_Seeeduino
 ---
 ![](https://github.com/SeeedDocument/Getting_Started_with_Seeeduino/raw/master/img/Hello_world.jpg)
 

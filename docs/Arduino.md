@@ -18,4 +18,4 @@ Seeed Studio的座右铭之一是“增长差异”，现在已成为公司文�
 
 
 * [Seeeduino_Cloud](http://seeed.wiki/Seeeduino_Cloud)
-* [Seeeduino_LoRAWAN](http://seeed.wiki/SeeeduinoLoRa)
+* [Seeeduino_LoRAWAN](http://seeed.wiki/Seeeduino_LoRAWAN)
