@@ -11,4 +11,3 @@ Grove - 执行器包括电机驱动器，LED显示屏，继电器，扬声器，
 
 
 
-* [Grove-MP3_v2.0](http://seeed.wiki/Grove-MP3_v2.0)

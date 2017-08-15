@@ -246,14 +246,54 @@ if __name__ == '__main__':
 
 ## FAQ
 
-- Q1：如何使用 **xvsm版本固件** 从Mic Array获取音频源方向？
+### Q1： Respeaker Mic Array驱动安装问题？
+Windows需要安装驱动，linux（Ubuntu,Raspberry,MAC等）不需要安装驱动。点击[这里](https://github.com/Fuhua-Chen/ReSpeaker_Microphone_Array_Driver/raw/master/ReSpeakerMicrophoneArrayDriver.exe)下载驱动。在windows系统的设备管理器，看到麦克风阵列不能被识别，请安装以下流程来操作。
 
-    - 使用Windows时, 请遵循[指南](https://github.com/respeaker/get_started_with_respeaker/wiki/Mic-Array) 或者使用 [HID tool](https://github.com/Fuhua-Chen/ReSpeaker-Microphone-Array-HID-tool).
-    - [Python & C hidapi 示例](https://github.com/elthef/respeaker-xmos-hid)
+-  [安装驱动](https://github.com/Fuhua-Chen/ReSpeaker_Microphone_Array_Driver/raw/master/ReSpeakerMicrophoneArrayDriver.exe)
+
+-  换USB线
+
+-  [禁用数字签名](http://jingyan.baidu.com/article/624e74594dbc8d34e8ba5aa6.html)
+
+-  换其他电脑尝试
+
+### Q2： Respeaker Mic Array如何采集音频？
+
+- 下载[Audacity](http://www.audacityteam.org/)软件来采集, 在windows下具体参数设置，请参卡![](https://github.com/SeeedDocument/ReSpeaker_Mic_Array/raw/master/img/audacity.png) 。
+
+如果按照以上设置采集数据失败，请重新安装驱动。
+
+-  利用Python脚本来采集音频数据：
+
+    - XVSM固件采集2通道音频： （支持Unbuntu/Raspberry/Mac）
+            
+        - 首先用[XVSM_RecordAudio_Ubuntu_Raspberry_Mac_getDeviceInfo.py](https://github.com/SeeedDocument/ReSpeaker_Mic_Array/raw/master/res/Respeaker_Mic_array_Scripts/2_Channel_XVSM_firmware_Python_Scripts/Record_Audio/XVSM_RecordAudio_Ubuntu_Raspberry_Mac_getDeviceInfo.py)   检测麦克风阵列的输入通道。
+        
+        - 然后更改[XVSM_RecordAudio_Ubuntu_Raspberry_Mac_recordaudio.py](https://github.com/SeeedDocument/ReSpeaker_Mic_Array/raw/master/res/Respeaker_Mic_array_Scripts/2_Channel_XVSM_firmware_Python_Scripts/Record_Audio/XVSM_RecordAudio_Ubuntu_Raspberry_Mac_recordaudio.py) 的 **RESPEAKER_INDEX = 2** 的 2为检测到的通道， 运行程序来采集音频。
+
+    - RAW固件采集8通道音频：（支持Unbuntu/Raspberry/Mac）
+        
+        - 首先用[Raw_RecordAudio_Ubuntu_Raspberry_Mac_getDeviceInfo.py](https://github.com/SeeedDocument/ReSpeaker_Mic_Array/raw/master/res/Respeaker_Mic_array_Scripts/8_Channel_Raw_firmware_Python_Scripts/Record_Audio/Raw_RecordAudio_Ubuntu_Raspberry_Mac_getDeviceInfo.py) 麦克风阵列的输入通道。
+        
+        - 然后更改[Raw_RecordAudio_Ubuntu_Raspberry_Mac_recordaudio.py](https://github.com/SeeedDocument/ReSpeaker_Mic_Array/raw/master/res/Respeaker_Mic_array_Scripts/8_Channel_Raw_firmware_Python_Scripts/Record_Audio/Raw_RecordAudio_Ubuntu_Raspberry_Mac_recordaudio.py) 的**RESPEAKER_INDEX = 2** 的 2为检测到的通道 ， 运行程序来采集音频。
+
+### Q3： Respeaker Mic Array如何定位？
+
+- XVSM固件来定位： （支持Unbuntu/Raspberry/Mac）
+    
+    - 运行脚本[XVSM_VAD_Ubuntu_Raspberry_Mac_get_direction.py](https://github.com/SeeedDocument/ReSpeaker_Mic_Array/raw/master/res/Respeaker_Mic_array_Scripts/2_Channel_XVSM_firmware_Python_Scripts/VAD/XVSM_VAD_Ubuntu_Raspberry_Mac_get_direction.py) 来定位
+
+- RAW固件来定位： （支持Unbuntu）
+    - 运行脚本[Raw_vad_doa_Ubuntu_get_direction.py](https://github.com/SeeedDocument/ReSpeaker_Mic_Array/raw/master/res/Respeaker_Mic_array_Scripts/8_Channel_Raw_firmware_Python_Scripts/VAD/Raw_vad_doa_Ubuntu_get_direction.py) 来定位， 注意需要下载 [gcc_phat.py](https://github.com/SeeedDocument/ReSpeaker_Mic_Array/raw/master/res/Respeaker_Mic_array_Scripts/8_Channel_Raw_firmware_Python_Scripts/VAD/gcc_phat.py)， [mic_array.py](https://github.com/SeeedDocument/ReSpeaker_Mic_Array/raw/master/res/Respeaker_Mic_array_Scripts/8_Channel_Raw_firmware_Python_Scripts/VAD/mic_array.py)， [pixel_ring.py](https://github.com/SeeedDocument/ReSpeaker_Mic_Array/raw/master/res/Respeaker_Mic_array_Scripts/8_Channel_Raw_firmware_Python_Scripts/VAD/pixel_ring.py)3个库文件，放在同一个目录下。 
+
+### Q4： Respeaker Mic Array Python程序下载？
+
+请点击[这里](https://github.com/SeeedDocument/ReSpeaker_Mic_Array/raw/master/res/Respeaker_Mic_array_Scripts.zip)下载Python采集音频和定位的全部程序。
+
 
 ## 资源下载
 
-- **[Eagle]**[ReSpeaker Microphone Array SCH](https://github.com/SeeedDocument/ReSpeaker_Mic_Array/raw/master/res/Respeaker%20Microphone%20Array%20v1.0.sch)
-- **[Eagle]**[ReSpeaker Microphone Array BRD](https://github.com/SeeedDocument/ReSpeaker_Mic_Array/raw/master/res/Respeaker%20Microphone%20Array%20v1.0.brd)
+- **[Eagle]**[ReSpeaker Microphone Array SCH](hhttps://github.com/SeeedDocument/ReSpeaker_Mic_Array/raw/master/res/Respeaker%20Microphone%20Array%20v1.0.sch.zip)
+- **[Eagle]**[ReSpeaker Microphone Array BRD](https://github.com/SeeedDocument/ReSpeaker_Mic_Array/raw/master/res/Respeaker%20Microphone%20Array%20v1.0.brd.zip)
 - **[PDF]** [ReSpeaker Microphone Array SCH](https://github.com/SeeedDocument/ReSpeaker_Mic_Array/raw/master/res/Respeaker%20Microphone%20Array%20v1.0%20Sch.pdf)
 - **[PDF]** [ReSpeaker Microphone Array PCB](https://github.com/SeeedDocument/ReSpeaker_Mic_Array/raw/master/res/Respeaker%20Microphone%20Array%20v1.0%20PCB.pdf)
