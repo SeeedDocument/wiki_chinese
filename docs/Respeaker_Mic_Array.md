@@ -145,11 +145,6 @@ wf.close()
 
 ## ReSpeaker麦克风阵列固件
 
-You could download ReSpeaker Mic array firmwares for DFU [here](https://github.com/Fuhua-Chen/ReSpeaker_Microphone_Array_Firmware). We have provided two versions:
-
-- *xvsm version* : initial version, outputs 2 channels data with dsp support.
-- *raw version* : outputs 8 channels mic raw data, this firmware is without xvsm dsp support, so it does not support some functions such as DOA, AEC and so on.
-
 您可以在[这里](https://github.com/Fuhua-Chen/ReSpeaker_Microphone_Array_Firmware)下载适用于DFU的ReSpeaker麦克风阵列固件。我们提供了两个版本：
 
 - **xvsm版本**：初始版本，支持dsp输出2通道数据。
@@ -289,6 +284,14 @@ Windows需要安装驱动，linux（Ubuntu,Raspberry,MAC等）不需要安装驱
 ### Q4： Respeaker Mic Array Python程序下载？
 
 请点击[这里](https://github.com/SeeedDocument/ReSpeaker_Mic_Array/raw/master/res/Respeaker_Mic_array_Scripts.zip)下载Python采集音频和定位的全部程序。
+
+### Q5： Respeaker Mic Array咪头的物理位置和Audacity的通道位置？
+
+- 咪头位置如下图所示
+![](https://github.com/SeeedDocument/ReSpeaker_Mic_Array/raw/master/img/MIC_Physic_location.png)
+
+- Audacity的通道位置
+![](https://github.com/SeeedDocument/ReSpeaker_Mic_Array/raw/master/img/mic_array_channels_Audacity.png)
 
 
 ## 资源下载
