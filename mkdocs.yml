@@ -89,6 +89,7 @@ pages:
       - Wio: Wio.md
     - LinkIt:
       - LinkIt: LinkIt.md
+      - LinkIt_Smart_7688: LinkIt_Smart_7688.md
     - mbed:
       - mbed: mbed.md
     - Rephone:
