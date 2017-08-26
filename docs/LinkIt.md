@@ -11,4 +11,5 @@ nointro:
 
 以下是您可以在Seeed WiKi中找到的LinkIt Board的列表。 该列表将不断更新。
 
-* [LinkIt_Smart_7688](http://seeed.wiki/LinkIt_Smart_7688)
+
+* [LinkIt_Smart_7688](l: https://www.research.net/r/LinkIt_Smart_7688)

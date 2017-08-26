@@ -7,7 +7,7 @@ import linecache
 import shutil
 
 #Get file name  from given directory
-directoryPath = "C:\\Users\\xyu6\\Desktop\\Document\\Wiki\\SeeedDocument\\wiki_chinese"
+directoryPath = os.getcwd() + "\\docs"
 file_extension = ".md"
 
 
@@ -19,14 +19,14 @@ def productListGen(productCategory):
 
     for fileName in os.listdir(directoryPath):
         if(fileName.endswith(file_extension)):
-            with open((directoryPath + '\\docs\\' + fileName), 'r') as f:
+            with open((directoryPath + '\\' + fileName), 'r') as f:
                 for eachLine in f:
                     if eachLine.find('category:') != -1:
                         category = pattern.search(eachLine, pos = 8)
                         if category:
                             #print fileName
                             fileNameNew = fileName[:-3]
-                            tempurl = linecache.getline((directoryPath + '\\docs\\' + fileName), 7)
+                            tempurl = linecache.getline((directoryPath + '\\' + fileName), 7)
                             url = tempurl[8:]
                             url = url.strip()
                             url = "* ["+fileNameNew + "](" + url +")"
@@ -35,24 +35,18 @@ def productListGen(productCategory):
                                         
         #print fileList
         urlListStr = '\n'.join(urlList)   
-        os.chdir(directoryPath + "\\docs\\template")
-        shutil.copy2((directoryPath + "\\docs\\template\\"+productCategory+".md"), directoryPath + "\\docs")
-        with open(directoryPath + "\\docs\\"+productCategory+".md" , 'a') as fd:
+        os.chdir(directoryPath + "\\template")
+        shutil.copy2((directoryPath + "\\template\\"+productCategory+".md"), directoryPath)
+        with open(directoryPath + "\\"+productCategory+".md" , 'a') as fd:
             fd.write(urlListStr)
 
 
 if __name__ == '__main__':
-    for fileTemplateName in os.listdir(directoryPath+"\\docs\\template"):
+    for fileTemplateName in os.listdir(directoryPath+"\\template"):
         if(fileTemplateName.endswith(file_extension)):
             fileTemplateName = fileTemplateName[:-3]
             print fileTemplateName
-            productListGen(fileTemplateName)
-#    retval = os.getcwd()
-#    print retval
-#    os.chdir(directoryPath) 
-#    retval = os.getcwd()
-#    print retval
-#    os.system("mkdocs serve")     
+            productListGen(fileTemplateName)          
 
 
 

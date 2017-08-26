@@ -19,21 +19,98 @@ tags:
 
 ## 基本操作
 
-Git clone 这个库到本地，可以在docs文件夹里面添加文档。添加完文档后，需要手动修改mkdocs.yml文件。
+### 0. 执行初始化操作 
+- 按照[mkdocs.org](http://www.mkdocs.org/)安装python, pip, mkdocs
+- 执行 pip install mkdocs-material
+- git clone https://github.com/SeeedDocument/wiki_chinese.git 到本地目录 （mkdocs源文件）
+- git clone https://github.com/SeeedDocument/SeeedDocument.github.io.git 到本地目录 （编译的html文件）
+
+### 1. 新增新产品的md文件， 文件的前面部分必须参照下面格式
 
 ```
-# Page tree
+title: CAN-BUS Shield V1.2
+category: Shield
+bzurl: https://www.seeedstudio.com/CAN-BUS-Shield-V1.2-p-2256.html
+oldwikiname: CAN-BUS_Shield_V1.2
+prodimagename: Can_bus_shield_all.jpg
+wikiurl: http://seeed.wiki/CAN-BUS_Shield_V1.2
+sku: 113030021
+
+```
+### 2. 编写wiki_chinese目录下的mkdocs.yml文件
+
+```
+
 pages:
-  - Seeed.Wiki: index.md
-  - Respeaker麦克风整列FAQ: respeaker_array_faq.md
-  - 新添加的文档: new_docs_name.md
-  - License: license.md
+  - Seeed文档中文站点介绍: 'index.md'
+  
+  - 平台:
+    - Arduino:
+      - Arduino: Arduino.md
+      - Seeeduino_Cloud: Seeeduino_Cloud.md
+      - Seeeduino_LoRAWAN: Seeeduino_LoRAWAN.md  
+    - LinkIt:
+      - LinkIt: LinkIt.md
+      - LinkIt_Smart_7688: LinkIt_Smart_7688.md
+  
+  - Grove:
+    - Grove系统: Grove_System.md
+    - 传感器:
+      - Sensor: Sensor.md
+      - Grove-Encoder: Grove-Encoder.md
+      - Grove-Multichannel_Gas_Sensor: Grove-Multichannel_Gas_Sensor.md
+      - Grove-Piezo_Vibration_Sensor: Grove-Piezo_Vibration_Sensor.md
+    - 执行器:
+      - Actuator: Actuator.md
+      - Grove-MP3_v2.0: Grove-MP3_v2.0.md
+
 ```
 
-- 首先执行 **pip install mkdocs-material**
-- 执行执行 **mkdocs serve** 进行预览
-- 执行 **mkdocs build --clean**，编译的静态文件会出现在 **site** 文件夹。
-- Git clone [SeeedDocument.github.io](https://github.com/SeeedDocument/SeeedDocument.github.io) 到本地，把Site的内容替代原来的内容，重新上传，既可以更新网页。
+
+### 3. 在wiki_chinese下，运行 python Category_Generator.py 来生成各个category的md文件
+
+- 从wiki_chinese\docs\template目录下复制category的md文件
+
+```
+
+title: Grove - Actuator
+nointro:
+
+Grove - 执行器包括电机驱动器，LED显示屏，继电器，扬声器，蜂鸣器等模块。
+
+## 产品清单
+
+以下是您可以在Seeed WiKi中找到的Grove - 执行器列表。 该列表将不断更新。
+
+```
+
+- 在docs下生成相关category的索引
+
+```
+
+title: Grove - Actuator
+nointro:
+
+Grove - 执行器包括电机驱动器，LED显示屏，继电器，扬声器，蜂鸣器等模块。
+
+## 产品清单
+
+以下是您可以在Seeed WiKi中找到的Grove - 执行器列表。 该列表将不断更新。
+
+* [Grove-MP3_v2.0](http://seeed.wiki/Grove-MP3_v2.0)
+
+```
+
+### 4. 执行执行 **mkdocs serve** 进行预览
+### 5. 执行 **mkdocs build --clean**，编译的静态文件会出现在 **site** 文件夹
+### 6. 在wiki_chinese下，运行 python SKU_generator_wiki_CN.py 在site下生成sku html文件
+### 7. 上传mkdocs文档和html网页文件到github
+
+```
+git add. 
+git commit -m "update"
+git push origin master 
+```
 
 !!! note
     CNAME文件不要删掉
