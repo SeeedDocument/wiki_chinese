@@ -102,6 +102,7 @@ pages:
       - Shield: Shield.md
       - Base_Shield_V2: Base_Shield_V2.md
       - CAN-BUS_Shield_V1.2: CAN-BUS_Shield_V1.2.md
+      - CAN-BUS_Shield_V2.0: CAN-BUS_Shield_V2.0.md
     - Essentials:
       - Essentials: Essentials.md
     - Wireless:
@@ -131,6 +132,7 @@ pages:
     - MakerPro: MakerPro.md
     - 2KM_Long_Range_RF_link_kits_w_encoder_and_decoder: 2KM_Long_Range_RF_link_kits_w_encoder_and_decoder.md
     - Piezo_Sensor-MiniSense_100: Piezo_Sensor-MiniSense_100.md
+    - Arduboy: Arduboy.md 
   
   - 使用教程:
     - Tutorial: Tutorial.md

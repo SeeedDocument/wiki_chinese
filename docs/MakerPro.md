@@ -12,4 +12,5 @@ nointro:
 
 
 * [2KM_Long_Range_RF_link_kits_w_encoder_and_decoder](http://seeed.wiki/2KM_Long_Range_RF_link_kits_w_encoder_and_decoder)
+* [Arduboy](http://seeed.wiki/Arduboy)
 * [Piezo_Sensor-MiniSense_100](http://seeed.wiki/Piezo_Sensor-MiniSense_100)
