@@ -70,7 +70,7 @@ tags: plat_duino
 ### 硬件连接
 这是一个演示，演示如何从这个Grove - Dust传感器获取PM浓度数据。
 
-将Dust传感器插入Grove-[BaseShield](https://item.taobao.com/item.htm?spm=a1z10.3-c.w4002-11172317909.10.3ff19e11crrag2&id=520233320144) 数字端口 ** D8 ** 并且它只能是通过D8接口，因为这个传感器的操作涉及采样。 此功能只能通过Arduino / Seeeduino上ATmega328P的输入引脚D8来实现。
+将Dust传感器插入Grove-[BaseShield](https://item.taobao.com/item.htm?spm=a1z10.3-c.w4002-11172317909.10.3ff19e11crrag2&id=520233320144) 数字端口 **D8** 并且它只能是通过D8接口，因为这个传感器的操作涉及采样。 此功能只能通过Arduino / Seeeduino上ATmega328P的输入引脚D8来实现。
 
 
 |Arduino UNO	| Dust Sensor Pin| Cable Color|

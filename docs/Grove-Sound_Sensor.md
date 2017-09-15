@@ -68,7 +68,7 @@ tags: io_3v3, io_5v, plat_duino, plat_linkit, plat_bbg, plat_wio, plat_pi, plat_
 
 由于Grove系列模块的优点，您不需要制作焊接或面包板，您需要做的是将模块连接到Base Shield的正确端口。 对于这个演示，我们只需要一个Grove模块。
 
-*  Grove - Sound传感器是一个模拟量输入模块，我们在此演示中将其连接到 ** A0 **
+*  Grove - Sound传感器是一个模拟量输入模块，我们在此演示中将其连接到 **A0**
 
 
 ![enter image description here](https://raw.githubusercontent.com/SeeedDocument/Grove_Sound_Sensor/master/images/connection.jpg)
