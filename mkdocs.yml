@@ -83,6 +83,8 @@ pages:
       - Seeeduino_LoRAWAN: Seeeduino_LoRAWAN.md  
     - BeagleBone:
       - BeagleBone: BeagleBone.md
+      - BeagleBone_Green: BeagleBone_Green.md
+
     - Raspberry:
       - Raspberry: Raspberry.md
     - Wio:
@@ -115,6 +117,11 @@ pages:
       - Grove-Encoder: Grove-Encoder.md
       - Grove-Multichannel_Gas_Sensor: Grove-Multichannel_Gas_Sensor.md
       - Grove-Piezo_Vibration_Sensor: Grove-Piezo_Vibration_Sensor.md
+      - Grove-Sound_Sensor: Grove-Sound_Sensor.md
+      - Grove-Ultrasonic_Ranger: Grove-Ultrasonic_Ranger.md
+      - Grove-GSR_Sensor: Grove-GSR_Sensor.md
+      - Grove-Dust_Sensor: Grove-Dust_Sensor.md
+      
     - 执行器:
       - Actuator: Actuator.md
       - Grove-MP3_v2.0: Grove-MP3_v2.0.md
