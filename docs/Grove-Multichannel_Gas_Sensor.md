@@ -153,8 +153,10 @@ Arduino, linkit, wio
 入门指导
 -------------
 
-!!!注意
-    为了得到稳定的数据，这个传感器需要预加热十分钟以上。
+<div class="admonition caution">
+<p class="admonition-title">注意提示</p>
+为了得到稳定的数据，这个传感器需要预加热十分钟以上。
+</div>
 
 **硬件连接图:**
 
