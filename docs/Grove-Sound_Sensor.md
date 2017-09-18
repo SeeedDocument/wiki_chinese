@@ -52,7 +52,7 @@ tags: io_3v3, io_5v, plat_duino, plat_linkit, plat_bbg, plat_wio, plat_pi, plat_
 !!!注意
     本章基于Win10和Arduino IDE 1.6.9
 
-这是一个易于使用的模块，您需要做的是将信号引脚（Grove连接线的YELLOW引脚）连接到控制器的ADC输入。 如果控制器中没有内部ADC，建议使用[Grove - I2C ADC](http://www.seeedstudio.com/Grove-I2C-ADC-p-1580.html)
+这是一个易于使用的模块，您需要将信号引脚（Grove连接线的YELLOW引脚）连接到控制器的ADC输入。 如果控制器中没有内部ADC，建议使用[Grove - I2C ADC](http://www.seeedstudio.com/Grove-I2C-ADC-p-1580.html)
 
 
 在这里，我们将向您通过一个简单的操作去演示Grove - Sound传感器是如何工作的。 首先，您需要准备以下内容：

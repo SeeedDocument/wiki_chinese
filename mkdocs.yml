@@ -121,7 +121,18 @@ pages:
       - Grove-Ultrasonic_Ranger: Grove-Ultrasonic_Ranger.md
       - Grove-GSR_Sensor: Grove-GSR_Sensor.md
       - Grove-Dust_Sensor: Grove-Dust_Sensor.md
-      
+      - Grove-Air_Quality_Sensor_v1.3: Grove-Air_Quality_Sensor_v1.3.md
+      - Grove-Barometer_Sensor-BMP280: Grove-Barometer_Sensor-BMP280.md
+      - Grove-Ear-clip_Heart_Rate_Sensor: Grove-Ear-clip_Heart_Rate_Sensor.md
+      - Grove-Gas_Sensor-O2: Grove-Gas_Sensor-O2.md
+      - Grove-Light_Sensor: Grove-Light_Sensor.md
+      - Grove-MOSFET: Grove-MOSFET.md
+      - Grove-Temperature_Sensor: Grove-Temperature_Sensor.md
+      - Grove-Temperature_and_Humidity_Sensor_Pro: Grove-Temperature_and_Humidity_Sensor_Pro.md
+      - Grove-TemperatureAndHumidity_Sensor: Grove-TemperatureAndHumidity_Sensor.md
+      - Grove-UV_Sensor: Grove-UV_Sensor.md
+      - Grove-Vibration_Motor: Grove-Vibration_Motor.md
+    
     - 执行器:
       - Actuator: Actuator.md
       - Grove-MP3_v2.0: Grove-MP3_v2.0.md
