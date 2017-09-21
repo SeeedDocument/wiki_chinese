@@ -21,8 +21,8 @@ sku: 103030216
 * Raspberry Pi兼容（支持Raspberry Pi Zero和Zero W，Raspberry Pi B +，Raspberry Pi 2 B和Raspberry Pi 3 B）
 * 4个麦克风
 * 3米半径的语音捕捉
-* 2 Grove接口
-* 12 APA102用户指示灯
+* 2个Grove接口
+* 12个APA102板载指示灯
 * 软件算法：VAD（语音活动检测），DOA（到达方向）和KWS（关键词搜索）
 
 !!!Note
