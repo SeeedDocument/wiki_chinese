@@ -100,6 +100,7 @@ pages:
       - Respeaker: Respeaker.md
       - Respeaker_Mic_Array: Respeaker_Mic_Array.md
       - Respeaker_Core: Respeaker_Core.md  
+      - Respeaker_4-Mics_Pi_HAT: Respeaker_4-Mics_Pi_HAT.md
     - Shield:
       - Shield: Shield.md
       - Base_Shield_V2: Base_Shield_V2.md
