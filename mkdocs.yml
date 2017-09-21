@@ -129,7 +129,7 @@ pages:
       - Grove-MOSFET: Grove-MOSFET.md
       - Grove-Temperature_Sensor: Grove-Temperature_Sensor.md
       - Grove-Temperature_and_Humidity_Sensor_Pro: Grove-Temperature_and_Humidity_Sensor_Pro.md
-      - Grove-TemperatureAndHumidity_Sensor: Grove-TemperatureAndHumidity_Sensor.md
+      - Grove-Temperature_and_Humidity_Sensor: Grove-Temperature_and_Humidity_Sensor.md
       - Grove-UV_Sensor: Grove-UV_Sensor.md
       - Grove-Vibration_Motor: Grove-Vibration_Motor.md
     

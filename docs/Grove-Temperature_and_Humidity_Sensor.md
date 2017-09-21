@@ -1,5 +1,5 @@
 ---
-title: Grove - Temperature&Humidity Sensor
+title: Grove - Temperature and Humidity Sensor
 category: Sensor
 bzurl: https://www.seeedstudio.com/Grove-Temp&Humi-Sensor-p-745.html
 oldwikiname: Grove_-_Temperature&Humidity_Sensor
