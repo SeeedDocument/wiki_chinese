@@ -12,9 +12,9 @@ sku: 103030216
 
 基于Raspberry Pi的ReSpeaker 4-Mic阵列是一款适用于AI和语音应用的Raspberry Pi的四通道麦克风扩展板。 这意味着您可以借助它构建一个集成Amazon Alexa语音服务，Google助手等，功能更强大，更灵活的语音产品。
 
-区别于 [ReSpeaker 2-Mics Pi HAT](https://item.taobao.com/item.htm?spm=a1z10.1-c.w13838425-11172345252.1.542035bczDBegW&id=557884254210), 该板是基于AC108开发的，这是一款高度集成四通道ADC，具有用于高清晰度语音捕获，I2S / TDM输出，拾取3米半径的声音的语音设备。 此外，这款4-Mics版本提供了超酷LED环，其中包含12个APA102可编程LED。 就像Amazon Echo或 Google assist一样， 使用4个麦克风和LED环，Raspberry Pi具有VAD（语音活动检测），DOA（到达方向），KWS（关键字搜索），并通过LED环显示方向灯功能。
+区别于 [ReSpeaker 2-Mics Pi HAT](https://item.taobao.com/item.htm?spm=a1z10.3-c.w4002-11172317909.2.48d67e33NrSwXZ&id=553438198956), 该板是基于AC108开发的，这是一款高度集成四通道ADC，具有用于高清晰度语音捕获，I2S / TDM输出，拾取3米半径的声音的语音设备。 此外，这款4-Mics版本提供了超酷LED环，其中包含12个APA102可编程LED。 就像Amazon Echo或 Google assist一样， 使用4个麦克风和LED环，Raspberry Pi具有VAD（语音活动检测），DOA（到达方向），KWS（关键字搜索），并通过LED环显示方向灯功能。
 
-[![](https://github.com/SeeedDocument/Seeed-WiKi/raw/master/docs/images/300px-Get_One_Now_Banner-ragular.png)](https://www.seeedstudio.com/ReSpeaker-4-Mic-Array-for-Raspberry-Pi-p-2941.html)
+[![](https://github.com/SeeedDocument/wiki_chinese/raw/master/docs/images/click_to_buy.PNG)](https://item.taobao.com/item.htm?spm=a1z10.1-c.w13838425-11172345252.1.542035bczDBegW&id=557884254210)
 
 ## 产品特征
 
