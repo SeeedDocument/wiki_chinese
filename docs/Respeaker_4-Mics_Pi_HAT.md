@@ -63,8 +63,10 @@ sku: 103030216
 ### 安装驱动
 
 因为当前的Pi内核目前不支持AC108编解码器，所以我们需要手动构建。
-确保您正在您的Pi上运行[最新的Raspbian操作系统（debian 9）](https://www.raspberrypi.org/downloads/raspbian/)。 *（更新于2017.09.15）*
-根据以下流程安装驱动：
+
+#### 1. 确保您正在您的Pi上运行[最新的Raspbian操作系统（debian 9）](https://www.raspberrypi.org/downloads/raspbian/)。 *（更新于2017.09.15）*
+
+#### 2. 根据以下流程安装驱动：
 
 
 ```
@@ -74,7 +76,7 @@ sudo ./install.sh 4mic
 reboot
 ```
 
-然后选择Raspberry Pi上的耳机插孔进行音频输出：
+#### 3. 选择Raspberry Pi上的耳机插孔进行音频输出：
 
 ```
 sudo raspi-config
@@ -84,7 +86,7 @@ sudo raspi-config
 # Select Finish
 ```
 
-检查声卡名称如下所示：
+#### 4. 检查声卡名称如下所示：
 
 ```
 pi@raspberrypi:~/seeed-voicecard $ arecord -L
@@ -117,8 +119,7 @@ plughw:CARD=seeed4micvoicec,DEV=0
 
 如果要更改alsa设置，可以使用`sudo alsactl --file=ac108_asound.state store`保存。 当你需要再次使用这些设置时，将它复制到：`sudo cp ./ac108_asound.state /var/lib/alsa/asound.state`
 
-
-打开Audacity，选择 **AC108和4通道** 作为输入，**bcm2835 alsa: - (hw：0，0)** 作为输出来测试：
+####  5. 打开Audacity，选择 **AC108和4通道** 作为输入，**bcm2835 alsa: - (hw：0，0)** 作为输出来测试：
 
 ```
 $ sudo apt update
@@ -128,7 +129,7 @@ $ audacity                      // 运行 audacity
 
 ![](https://github.com/SeeedDocument/ReSpeaker-4-Mic-Array-for-Raspberry-Pi/blob/master/img/audacity.png?raw=true)
 
-或者你可以用`arecord`录制，然后用`aplay`播放：
+####  6. 或者你可以用`arecord`录制，然后用`aplay`播放：
 
 ```
 arecord -Dac108 -f S32_LE -r 16000 -c 4 hello.wav    // 只支持4通道
@@ -142,7 +143,7 @@ aplay hello.wav                                      // 确保选择默认设备
 
 ![](https://github.com/SeeedDocument/ReSpeaker-4-Mic-Array-for-Raspberry-Pi/blob/master/img/rainbow.jpg?raw=true)
 
-- 打开SPI: 
+#### 1. 打开SPI: 
     - 输入： `sudo raspi-config`; 
     - 选择 "Interfacing Options"; 
     - 选择 "SPI"; 
@@ -150,7 +151,7 @@ aplay hello.wav                                      // 确保选择默认设备
     - 选择 “OK”
     - 选择 “Finish”
 
-- 控制APA102 LED的示例 
+#### 2. 控制APA102 LED的示例 
 
 ```
 pi@raspberrypi:~ $ cd /home/pi
@@ -162,12 +163,13 @@ pi@raspberrypi:~ $ source ~/env/bin/activate                   # 激活 python �
 (env) pi@raspberrypi:~ $ pip install spidev gpiozero           # 安装 spidev 和 gpiozero
 ```
 
-- 运行 `python pixels.py`, 你可以看到LED像Google Assistant灯光一样闪烁。
+- 在虚拟环境下运行 `python pixels.py`, 你可以看到LED像Google Assistant灯光一样闪烁。
 
 ### ReSpeaker 4-Mic Array的DOA功能
 
 使用DoA（到达方向）功能，ReSpeaker 4-Mic Array能够找到声源所在的方向。
 
+#### 1. 配置Voice engine
 ```
 pi@raspberrypi:~ $ source ~/env/bin/activate                    # 激活Python虚拟环境, 如果已经激活，调到下一步。
 (env) pi@raspberrypi:~ $ cd ~/4mics_hat
@@ -183,7 +185,7 @@ pi@raspberrypi:~ $ source ~/env/bin/activate                    # 激活Python�
 (env) pi@raspberrypi:~ $ nano kws_doa.py
 ```
 
-然后修改`kws_doa.py`的第14-21行，以适应4-Mics：
+#### 2. 修改`kws_doa.py`的第14-21行，以适应4-Mics：
 
 ```
 from voice_engine.doa_respeaker_4mic_array import DOA
@@ -195,7 +197,83 @@ def main():
     kws = KWS()
     doa = DOA(rate=16000)
 ```
-保存，退出，然后运行 `python kws_doa.py`
+
+#### 3. 保存，退出，然后在虚拟环境下运行 `python kws_doa.py`。请用snowboy来唤醒，我们就可以看到方位的信息。
+
+### 用百度来进行语音互动
+
+#### 1. 百度授权
+
+```
+pi@raspberrypi:~ $ source ~/env/bin/activate                    # activate the virtual, if we have already activated, skip this step
+(env) pi@raspberrypi:~ $ cd ~/
+(env) pi@raspberrypi:~ $ git clone https://github.com/respeaker/avs
+(env) pi@raspberrypi:~ $ cd avs                                 # install Requirements
+(env) pi@raspberrypi:~ $ python setup.py install                               
+(env) pi@raspberrypi:~/avs $ sudo apt install gstreamer1.0 gstreamer1.0-plugins-good gstreamer1.0-plugins-ugly
+(env) pi@raspberrypi:~/avs $ sudo apt install python-gi gir1.2-gstreamer-1.0
+(env) pi@raspberrypi:~/avs $ pip install tornado
+```
+用 [VNC](https://www.raspberrypi.org/documentation/remote-access/vnc/)连接树莓派, 在终端运行 `alexa-auth` ，然后登陆获取alexa的授权， 或者运行 `dueros-auth` 获取百度的授权。 授权的文件保存在`/home/pi/.avs.json`。
+
+![](https://github.com/SeeedDocument/ReSpeaker-4-Mic-Array-for-Raspberry-Pi/raw/master/img/auth.png)
+
+!!!Note
+    如果我们在 `alexa-auth` 和 `dueros-auth`之间切换, 请先删除 `/home/pi/.avs.json` 。 这个是隐藏文件，请用 `ls -la` 显示文件。
+
+#### 2. 配置
+
+```
+(env) pi@raspberrypi:~ $ cd /home/pi
+(env) pi@raspberrypi:~ $ git clone https://github.com/respeaker/respeaker_v2_eval.git
+(env) pi@raspberrypi:~ $ cd respeaker_v2_eval/alexa
+(env) pi@raspberrypi:~/respeaker_v2_eval/alexa $ cp ~/4mics_hat/pixels.py ./pixels.py
+(env) pi@raspberrypi:~/respeaker_v2_eval/alexa $ nano ns_kws_doa_alexa.py
+```
+按照下面的信息更新第15-50行的设置:
+
+```
+    from voice_engine.kws import KWS
+    #from voice_engine.ns import NS
+    #from voice_engine.doa_respeaker_4mic_array import DOA
+    from avs.alexa import Alexa
+    from pixels import pixels
+
+    def main():
+        logging.basicConfig(level=logging.DEBUG)
+
+        src = Source(rate=16000, channels=4, frames_size=800)
+        ch1 = ChannelPicker(channels=4, pick=1)
+        #ns = NS(rate=16000, channels=1)
+        kws = KWS(model='snowboy')
+        #doa = DOA(rate=16000)
+        alexa = Alexa()
+
+        alexa.state_listener.on_listening = pixels.listen
+        alexa.state_listener.on_thinking = pixels.think
+        alexa.state_listener.on_speaking = pixels.speak
+        alexa.state_listener.on_finished = pixels.off
+
+        src.link(ch1)
+        ch1.link(kws)
+        #ch1.link(ns)
+        #ns.link(kws)
+        kws.link(alexa)
+
+        #src.link(doa)
+        def on_detected(keyword):
+            #logging.info('detected {} at direction {}'.format(keyword, doa.get_direction()))
+            logging.info('detected {}'.format(keyword))
+            alexa.listen()
+
+        kws.set_callback(on_detected)
+```
+![](https://github.com/SeeedDocument/ReSpeaker-4-Mic-Array-for-Raspberry-Pi/raw/master/img/alexa.png)
+
+#### 3. 让我们High起来!
+
+现在请在虚拟环境下运行 `python ns_kws_doa_alexa.py` , 我们会在终端看到很多debug的消息. 当我们看到 **status code: 204**的时候, 请说 `snowboy`来唤醒respeaker。接下来respeaker上的led灯亮起来, 我们可以跟他对话, 比如问，"谁是最帅的?" 或者 "播放刘德华的男人哭吧哭吧不是罪"。小伙伴，尽情的High起来吧。
+
 
 ## 资源下载
 
