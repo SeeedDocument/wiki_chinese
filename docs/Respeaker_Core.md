@@ -286,7 +286,7 @@ mount /dev/mmcblk0p2 /mnt ; tar -C /overlay -cvf - . | tar -C /mnt -xf - ; umoun
   /dev/mmcblk0p2            5.2G     11.8M      4.9G   0% /overlay
 ```
 
--  重启ReSpeaker并重新检查。如果SD卡自动安装，就完成了。更多关于extroot的信息，请点击 [这里](https://wiki.openwrt.org/doc/howto/extroot).
+-  重启ReSpeaker并重新检查。如果SD卡如上自动加载，就成功了。更多关于extroot的信息，请点击 [这里](https://wiki.openwrt.org/doc/howto/extroot).
 
 #### 5. 在ReSpeaker上安装软件
 
