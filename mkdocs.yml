@@ -79,11 +79,11 @@ pages:
   - 平台:
     - Arduino:
       - Arduino: Arduino.md
-      - Seeeduino_Cloud: Seeeduino_Cloud.md
-      - Seeeduino_LoRAWAN: Seeeduino_LoRAWAN.md  
+      - Seeeduino Cloud: Seeeduino_Cloud.md
+      - Seeeduino LoRAWAN: Seeeduino_LoRAWAN.md  
     - BeagleBone:
       - BeagleBone: BeagleBone.md
-      - BeagleBone_Green: BeagleBone_Green.md
+      - BeagleBone Green: BeagleBone_Green.md
 
     - Raspberry:
       - Raspberry: Raspberry.md
@@ -91,21 +91,22 @@ pages:
       - Wio: Wio.md
     - LinkIt:
       - LinkIt: LinkIt.md
-      - LinkIt_Smart_7688: LinkIt_Smart_7688.md
+      - LinkIt Smart 7688: LinkIt_Smart_7688.md
     - mbed:
       - mbed: mbed.md
     - Rephone:
       - Rephone: Rephone.md
     - Respeaker:
       - Respeaker: Respeaker.md
-      - Respeaker_Mic_Array: Respeaker_Mic_Array.md
-      - Respeaker_Core: Respeaker_Core.md  
-      - Respeaker_4-Mics_Pi_HAT: Respeaker_4-Mics_Pi_HAT.md
+      - Respeaker Mic Array: Respeaker_Mic_Array.md
+      - Respeaker Core: Respeaker_Core.md
+      - Respeaker 2-Mics Pi HAT: Respeaker_2-Mics_Pi_HAT.md  
+      - Respeaker 4-Mics Pi HAT: Respeaker_4-Mics_Pi_HAT.md
     - Shield:
       - Shield: Shield.md
-      - Base_Shield_V2: Base_Shield_V2.md
-      - CAN-BUS_Shield_V1.2: CAN-BUS_Shield_V1.2.md
-      - CAN-BUS_Shield_V2.0: CAN-BUS_Shield_V2.0.md
+      - Base Shield V2: Base_Shield_V2.md
+      - CAN-BUS Shield V1.2: CAN-BUS_Shield_V1.2.md
+      - CAN-BUS Shield V2.0: CAN-BUS_Shield_V2.0.md
     - Essentials:
       - Essentials: Essentials.md
     - Wireless:
@@ -116,27 +117,27 @@ pages:
     - 传感器:
       - Sensor: Sensor.md
       - Grove-Encoder: Grove-Encoder.md
-      - Grove-Multichannel_Gas_Sensor: Grove-Multichannel_Gas_Sensor.md
-      - Grove-Piezo_Vibration_Sensor: Grove-Piezo_Vibration_Sensor.md
-      - Grove-Sound_Sensor: Grove-Sound_Sensor.md
-      - Grove-Ultrasonic_Ranger: Grove-Ultrasonic_Ranger.md
-      - Grove-GSR_Sensor: Grove-GSR_Sensor.md
-      - Grove-Dust_Sensor: Grove-Dust_Sensor.md
-      - Grove-Air_Quality_Sensor_v1.3: Grove-Air_Quality_Sensor_v1.3.md
-      - Grove-Barometer_Sensor-BMP280: Grove-Barometer_Sensor-BMP280.md
-      - Grove-Ear-clip_Heart_Rate_Sensor: Grove-Ear-clip_Heart_Rate_Sensor.md
-      - Grove-Gas_Sensor-O2: Grove-Gas_Sensor-O2.md
-      - Grove-Light_Sensor: Grove-Light_Sensor.md
+      - Grove-Multichannel Gas Sensor: Grove-Multichannel_Gas_Sensor.md
+      - Grove-Piezo Vibration Sensor: Grove-Piezo_Vibration_Sensor.md
+      - Grove-Sound Sensor: Grove-Sound_Sensor.md
+      - Grove-Ultrasonic Ranger: Grove-Ultrasonic_Ranger.md
+      - Grove-GSR Sensor: Grove-GSR_Sensor.md
+      - Grove-Dust Sensor: Grove-Dust_Sensor.md
+      - Grove-Air Quality Sensor v1.3: Grove-Air_Quality_Sensor_v1.3.md
+      - Grove-Barometer Sensor BMP280: Grove-Barometer_Sensor-BMP280.md
+      - Grove-Ear-clip Heart Rate Sensor: Grove-Ear-clip_Heart_Rate_Sensor.md
+      - Grove-Gas Sensor O2: Grove-Gas_Sensor-O2.md
+      - Grove-Light Sensor: Grove-Light_Sensor.md
       - Grove-MOSFET: Grove-MOSFET.md
-      - Grove-Temperature_Sensor: Grove-Temperature_Sensor.md
-      - Grove-Temperature_and_Humidity_Sensor_Pro: Grove-Temperature_and_Humidity_Sensor_Pro.md
-      - Grove-Temperature_and_Humidity_Sensor: Grove-Temperature_and_Humidity_Sensor.md
-      - Grove-UV_Sensor: Grove-UV_Sensor.md
-      - Grove-Vibration_Motor: Grove-Vibration_Motor.md
+      - Grove-Temperature Sensor: Grove-Temperature_Sensor.md
+      - Grove-Temperature and Humidity Sensor Pro: Grove-Temperature_and_Humidity_Sensor_Pro.md
+      - Grove-Temperature and Humidity Sensor: Grove-Temperature_and_Humidity_Sensor.md
+      - Grove-UV Sensor: Grove-UV_Sensor.md
+      - Grove-Vibration Motor: Grove-Vibration_Motor.md
     
     - 执行器:
       - Actuator: Actuator.md
-      - Grove-MP3_v2.0: Grove-MP3_v2.0.md
+      - Grove-MP3 v2.0: Grove-MP3_v2.0.md
     - Display:
       - Display: Display.md
     - Communication:
@@ -149,8 +150,8 @@ pages:
   
   - MakerPro:
     - MakerPro: MakerPro.md
-    - 2KM_Long_Range_RF_link_kits_w_encoder_and_decoder: 2KM_Long_Range_RF_link_kits_w_encoder_and_decoder.md
-    - Piezo_Sensor-MiniSense_100: Piezo_Sensor-MiniSense_100.md
+    - 2KM Long Range RF link kits w encoder and decoder: 2KM_Long_Range_RF_link_kits_w_encoder_and_decoder.md
+    - Piezo Sensor MiniSense 100: Piezo_Sensor-MiniSense_100.md
     - Arduboy: Arduboy.md 
   
   - 使用教程:
@@ -158,7 +159,7 @@ pages:
     - 如何安装Arduino库: How_to_install_Arduino_Library.md
     - 如何上传代码: Upload_Code.md
     - Seeeduino入门指导: Getting_Started_with_Seeeduino.md
-    - How_to_edit_Wiki: How_to_edit_Wiki.md
+    - 如何编辑Wiki: How_to_edit_Wiki.md
   
   - 文档协议: license.md
 
