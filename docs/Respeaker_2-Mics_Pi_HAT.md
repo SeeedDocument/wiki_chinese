@@ -336,9 +336,9 @@ $ googlesamples-assistant-pushtotalk
 
 ### 树莓派系统
 
-由于Raspbian操作系统更新为Debian 9，我们将不再提供我们的Raspbian系统。 点击[这里]（https://www.raspberrypi.org/downloads/raspbian/）获得最新的Raspbian操作系统。
+由于Raspbian操作系统更新为Debian 9，我们将不再提供我们的Raspbian系统。 点击[这里](https://www.raspberrypi.org/downloads/raspbian/)获得最新的Raspbian操作系统。
 
-- [如何安装书没爬系统指南](https://www.raspberrypi.org/documentation/installation/installing-images/)
+- [如何安装树莓派系统指南](https://www.raspberrypi.org/documentation/installation/installing-images/)
 
 
 ## 资源下载
