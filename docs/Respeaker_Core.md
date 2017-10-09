@@ -155,7 +155,7 @@ ReSpeaker默认设置为中继模式，您必须将其连接到现有的无线wi
 如果您没有弹出wifi登陆页面，可以使用putty串口模式下连接Respeaker_Core, 并且在putty中使用wictl扫描wifi并连接
 
 ```
-root@mylinkit:~# wictl
+root@ReSpeaker:~# wictl
 0, SEEED-MKT
 1, Xiaomi_Youth
 2, ChinaNet-Z5C4
@@ -180,7 +180,7 @@ Lease of 192.168.199.153 obtained, lease time 43200
 udhcpc: ifconfig apcli0 192.168.199.153 netmask 255.255.255.0 broadcast 192.168.199.255
 udhcpc: setting default routers: 192.168.199.1
 success
-root@mylinkit:~#
+root@ReSpeaker:~#
 ```
 
 !!!注意
@@ -272,7 +272,7 @@ mount /dev/mmcblk0p2 /mnt ; tar -C /overlay -cvf - . | tar -C /mnt -xf - ; umoun
 - 检查是否安装到 overlay.
 
 ```
-	root@mylinkit:/# mount /dev/mmcblk0p2 /overlay/
+	root@ReSpeaker:/# mount /dev/mmcblk0p2 /overlay/
 	root@ReSpeaker:/# df -h
   Filesystem                Size      Used Available Use% Mounted on
   rootfs                    1.8M    832.0K    960.0K  46% /
