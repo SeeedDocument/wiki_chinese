@@ -19,3 +19,4 @@ BeagleBone Green由Beaglebone Black（简称BBB）改进，如果您了解BBB，
 
 
 * [BeagleBone_Green](l: https://www.research.net/r/seeed_bbg)
+* [BeagleBone_Green_Wireless](l: https://www.surveymonkey.com/r/bbg_w)

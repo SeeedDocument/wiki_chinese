@@ -84,6 +84,7 @@ pages:
     - BeagleBone:
       - BeagleBone: BeagleBone.md
       - BeagleBone Green: BeagleBone_Green.md
+      - BeagleBone Green Wireless: BeagleBone_Green_Wireless.md
 
     - Raspberry:
       - Raspberry: Raspberry.md
@@ -147,12 +148,18 @@ pages:
       - Grove-Moisture Sensor: Grove-Moisture_Sensor.md
       - Grove-Temperature Sensor-V1.2: Grove-Temperature_Sensor_V1.2.md
       - Grove-Touch Sensor: Grove-Touch_Sensor.md
+      - Grove-Gesture v1.0: Grove-Gesture_v1.0.md
+      - Grove-I2C Touch Sensor: Grove-I2C_Touch_Sensor.md
+
     
     - 执行器:
       - Actuator: Actuator.md
-      - Grove-MP3-v2.0: Grove-MP3_v2.0.md
+      - Grove-MP3 v2.0: Grove-MP3_v2.0.md
       - Grove-Infrared Receiver: Grove-Infrared_Receiver.md
       - Grove-Relay: Grove-Relay.md
+      - Grove-Buzzer: Grove-Buzzer.md
+      - Grove-Chainable RGB LED: Grove-Chainable_RGB_LED.md
+      - Grove-I2C Motor Driver V1.3: Grove-I2C_Motor_Driver_V1.3.md
 
     - Display:
       - Display: Display.md
@@ -164,7 +171,9 @@ pages:
     - Others:
       - Others: Others.md
       - 3W Solar Panel 138x160: 3W_Solar_Panel_138x160.md
+      - 0.5w Solar Panel 55x70: 0.5w_Solar_Panel_55x70.md
       - Bus Pirate v3 assembled: Bus_Pirate_v3_assembled.md
+      - G3-4 Water Flow sensor: G3-4_Water_Flow_sensor.md
 
   - IoT:
     - IoT: IoT.md
