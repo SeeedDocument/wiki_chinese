@@ -90,6 +90,8 @@ pages:
       - Raspberry: Raspberry.md
     - Wio:
       - Wio: Wio.md
+      - Wio_Link: Wio_Link.md
+    
     - LinkIt:
       - LinkIt: LinkIt.md
       - LinkIt Smart 7688: LinkIt_Smart_7688.md
