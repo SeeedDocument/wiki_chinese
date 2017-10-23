@@ -12,4 +12,6 @@ nointro:
 以下是您可以在Seeed WiKi中找到的LinkIt Board的列表。 该列表将不断更新。
 
 
+* [LinkIt_ONE](l: https://www.surveymonkey.com/r/LinkIt_ONE)
 * [LinkIt_Smart_7688](l: https://www.research.net/r/LinkIt_Smart_7688)
+* [LinkIt_Smart_7688_Duo](l: https://www.surveymonkey.com/r/LS_7688_Duo)

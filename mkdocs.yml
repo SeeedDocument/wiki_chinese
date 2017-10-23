@@ -90,13 +90,17 @@ pages:
       - Raspberry: Raspberry.md
     - Wio:
       - Wio: Wio.md
-      - Wio_Link: Wio_Link.md
+      - Wio Link: Wio_Link.md
     
     - LinkIt:
       - LinkIt: LinkIt.md
       - LinkIt Smart 7688: LinkIt_Smart_7688.md
+      - LinkIt Smart 7688_Duo: LinkIt_Smart_7688_Duo.md
+      - LinkIt ONE: LinkIt_ONE.md
+       
     - mbed:
       - mbed: mbed.md
+    
     - Rephone:
       - Rephone: Rephone.md
     - Respeaker:
@@ -105,11 +109,14 @@ pages:
       - Respeaker Core: Respeaker_Core.md
       - Respeaker 2-Mics Pi HAT: Respeaker_2-Mics_Pi_HAT.md  
       - Respeaker 4-Mics Pi HAT: Respeaker_4-Mics_Pi_HAT.md
+    
     - Shield:
       - Shield: Shield.md
       - Base Shield V2: Base_Shield_V2.md
       - CAN-BUS Shield V1.2: CAN-BUS_Shield_V1.2.md
       - CAN-BUS Shield V2.0: CAN-BUS_Shield_V2.0.md
+      - Music Shield_V2.2: Music_Shield_V2.2.md
+
     - Essentials:
       - Essentials: Essentials.md
     - Wireless:
@@ -133,8 +140,10 @@ pages:
       - Grove-Light Sensor: Grove-Light_Sensor.md
       - Grove-MOSFET: Grove-MOSFET.md
       - Grove-Temperature Sensor: Grove-Temperature_Sensor.md
+      - Grove-Temperature Sensor-V1.2: Grove-Temperature_Sensor_V1.2.md
       - Grove-Temperature and Humidity Sensor Pro: Grove-Temperature_and_Humidity_Sensor_Pro.md
       - Grove-Temperature and Humidity Sensor: Grove-Temperature_and_Humidity_Sensor.md
+      - Grove-Temperature and Humidity Sensor-SHT31: Grove-TempAndHumi_Sensor-SHT31.md
       - Grove-Tempture and Humidity Sensor High Accuracy Mini-v1.0: Grove-TemptureAndHumidity_Sensor_High_Accuracy_AndMini-v1.0.md
       - Grove-UV Sensor: Grove-UV_Sensor.md
       - Grove-Vibration Motor: Grove-Vibration_Motor.md
@@ -148,10 +157,12 @@ pages:
       - Grove-I2C Color Sensor: Grove-I2C_Color_Sensor.md
       - Grove-Loudness Sensor: Grove-Loudness_Sensor.md
       - Grove-Moisture Sensor: Grove-Moisture_Sensor.md
-      - Grove-Temperature Sensor-V1.2: Grove-Temperature_Sensor_V1.2.md
       - Grove-Touch Sensor: Grove-Touch_Sensor.md
-      - Grove-Gesture v1.0: Grove-Gesture_v1.0.md
+      - Grove-Q_Touch_Sensor: Grove-Q_Touch_Sensor.md
       - Grove-I2C Touch Sensor: Grove-I2C_Touch_Sensor.md
+      - Grove-Gesture v1.0: Grove-Gesture_v1.0.md
+      - Grove-IMU 9DOF v2.0: Grove-IMU_9DOF_v2.0.md
+      - Grove-PIR Motion Sensor: Grove-PIR_Motion_Sensor.md
 
     
     - 执行器:
@@ -163,7 +174,8 @@ pages:
       - Grove-Chainable RGB LED: Grove-Chainable_RGB_LED.md
       - Grove-I2C Motor Driver V1.3: Grove-I2C_Motor_Driver_V1.3.md
       - Grove-DMX512: Grove-DMX512.md
-      - Grove-NFC_Tag: Grove-NFC_Tag.md
+      - Grove-NFC Tag: Grove-NFC_Tag.md
+      - Grove-UART Wifi: Grove-UART_Wifi.md
 
     - 显示器:
       - Display: Display.md
@@ -178,6 +190,7 @@ pages:
       - 3W Solar Panel 138x160: 3W_Solar_Panel_138x160.md
       - 2.5W Solar Panel 116x160: 2.5W_Solar_Panel_116x160.md
       - 0.5w Solar Panel 55x70: 0.5w_Solar_Panel_55x70.md
+      - Lipo Rider V1.3: Lipo_Rider_V1.3.md
       - Bus Pirate v3 assembled: Bus_Pirate_v3_assembled.md
       - G3-4 Water Flow sensor: G3-4_Water_Flow_sensor.md
 

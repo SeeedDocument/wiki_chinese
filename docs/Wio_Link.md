@@ -8,11 +8,12 @@ wikiurl: https://seeed.wiki/Wio_Link
 sku: 102110037
 ---
 
-建立IoT应用程序最困难的部分是什么？ 有人说讨厌跳线，而另一个人说他最讨厌焊接。 甚至有些人不喜欢面包板。 也许你不是其中之一，但电子工程，微控制器编程，网络编程，IoT协议处理的知识, 仍然是您成功搭建物联网项目的巨大负担。
+
 
 ![](https://github.com/SeeedDocument/Wio_Link/raw/master/image/WioLink.png)
 
-为了简化所有这些步骤，在2015年底，Seeed Studio启动了Wio Link[KickStarter](https://www.kickstarter.com/projects/seeed/wio-link-3-steps-5-minutes-build-your-iot-applicat?ref=nav_search), 定义了开发IoT应用的新方式。 Wio Link是一款基于ESP8266 SoC的开源Wi-Fi开发板，其最重要的部分是允许用户通过使用移动应用程序，虚拟化即插即用模块，用RESTful API来创建IoT应用程序。 这意味着只要在手机上安装一个应用程序，就可以在5分钟内构建一个简单的IoT项目，就不会有硬件编程，没有面包板，没有跳线，也没有焊接。
+
+建立IoT应用程序最困难的部分是什么？ 有人说讨厌跳线，而另一个人说他最讨厌焊接。 甚至有些人不喜欢面包板。 也许你不是其中之一，但电子工程，微控制器编程，网络编程，IoT 协议处理的知识, 仍然是您成功搭建物联网项目的巨大负担。为了简化所有这些步骤，在2015年底，Seeed Studio 启动了 [Wio Link KickStarter](https://www.kickstarter.com/projects/seeed/wio-link-3-steps-5-minutes-build-your-iot-applicat?ref=nav_search), 定义了开发 IoT 应用的新方式。 Wio Link 是一款基于 ESP8266 SoC 的开源Wi-Fi开发板，其最重要的部分是允许用户通过使用移动应用程序，虚拟化即插即用模块，用 RESTful API 来创建 IoT 应用程序。 这意味着只要在手机上安装一个应用程序，就可以在5分钟内构建一个简单的 IoT 项目，就不会有硬件编程，没有面包板，没有跳线，也没有焊接。
 
 [![](https://github.com/SeeedDocument/wiki_chinese/raw/master/docs/images/click_to_buy.PNG)](https://item.taobao.com/item.htm?spm=a1z10.3-c.w4002-11172317909.10.587534abSgehPe&id=555309142801)
 
@@ -122,7 +123,7 @@ Wio Link具有内置的LiPo电池充电器，因此当USB连接时，您可以�
     * 还需要智能手机（Android操作系统版本4.1或更高，iOS版本7或更高）
     * Grove - LED 包括 Grove cable
 
-### **步骤1：** 安装Android / iOS应用程序
+### **步骤1**： 安装Android / iOS应用程序
 您需要安装Wio Link应用程序来管理和配置您的Wio Link设备。
 
 下载Android或iOS App并进行安装。 或者你可以去Apple Store或Google Market的App Store搜索“Wio Link”，你会发现它。
@@ -134,7 +135,7 @@ Wio Link具有内置的LiPo电池充电器，因此当USB连接时，您可以�
 !!!Note
     * 确保您的Android操作系统版本是4.1或更高，iOS版本是7或更高。
 
-### **步骤2：** 创建您的帐户
+### **步骤2**： 创建您的帐户
 - 如果是您第一次使用Wio APP，可能需要您同意GPS授权，然后才能注册。
 - 如果您已经有帐户，请在登录之前检查服务器的位置。
 
@@ -143,7 +144,7 @@ Wio Link具有内置的LiPo电池充电器，因此当USB连接时，您可以�
 
 [![](https://github.com/SeeedDocument/Wio_Node/raw/master/pictures/Wio%20App/sign%20in%2Blog%20in%2Bchoose%20server.png)](https://github.com/SeeedDocument/Wio_Node/raw/master/pictures/Wio%20App/sign%20in%2Blog%20in%2Bchoose%20server.png)
 
-### **步骤3 **：连接Wio Link Wi-Fi AP
+### **步骤3**：连接Wio Link Wi-Fi AP
 - 按住CONFIG按钮，直到蓝色LED变为呼吸模式（即闪烁，淡入淡出效果）。 这意味着Wio Link已经成功地转到配置模式，并且可以被Wio App检测到。
 
 ![](https://github.com/SeeedDocument/Wio_Link/raw/master/image/WioLink_Configure-middle.png)
@@ -165,7 +166,7 @@ Wio Link具有内置的LiPo电池充电器，因此当USB连接时，您可以�
 
 ![](https://github.com/SeeedDocument/Wio_Link/raw/master/image/Step3-3.png)
 
-### **步骤4：**使用Wio Link实现互连模块和更新固件
+### **步骤4**：使用Wio Link实现互连模块和更新固件
 - 点击Wio Link，你将进入主界面。
 - 有6个Grove连接器，选择左边的第一个。
 - 因为LED是输出设备， 选择输出类别。
@@ -178,7 +179,7 @@ Wio Link具有内置的LiPo电池充电器，因此当USB连接时，您可以�
 
 ![](https://github.com/SeeedDocument/Wio_Link/raw/master/image/Wio_Link_Grove_LED%20middle.JPG)
 
-### **第5步**：使用API测试应用程序
+### **步骤5**：使用API测试应用程序
 - 现在您已经将LED连接到Wio Link，点击“View API”来检查Wio Link的API
 - 在“Test Request”区域中输入“1”或“0”，然后单击“Post”按钮，看看会发生什么。
 
@@ -318,9 +319,9 @@ IFTTT是“If That Then That”的缩写，它是一种免费的基于Web的服�
 
 **6.支持的编程方法 - 是否支持其他编程方法，如Arduino IDE？**
 
-Wio Link可以使用Arduino IDE进行编程，在这种情况下，它将失去RESTful API的功能。 
+Wio Link可以使用Arduino IDE进行编程，在这种情况下，它将失去RESTful API的功能。
 
-如果您想与Arduino或RPI进行互动，您可以开发第三方模块驱动程序，参考[指南](https://github.com/Seeed-Studio/Wio_Link/wiki/How-to-write-module-driver-for-Wio-Link%3F)和[驱动](https://github.com/Seeed-Studio/Wio_Link/tree/master/grove_drivers/grove_example)。 
+如果您想与Arduino或RPI进行互动，您可以开发第三方模块驱动程序，参考[指南](https://github.com/Seeed-Studio/Wio_Link/wiki/How-to-write-module-driver-for-Wio-Link%3F)和[驱动](https://github.com/Seeed-Studio/Wio_Link/tree/master/grove_drivers/grove_example)。
 
 **7. 支持的平台 - 支持Windows平台？**
 

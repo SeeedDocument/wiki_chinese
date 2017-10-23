@@ -12,6 +12,7 @@ nointro:
 
 
 * [0.5w_Solar_Panel_55x70](l: https://www.research.net/r/0_5w_Solar_Panel_55x70)
+* [2.5W_Solar_Panel_116x160](l: https://www.research.net/r/2_5W_Solar_Panel_116x160)
 * [2KM_Long_Range_RF_link_kits_w_encoder_and_decoder](http://seeed.wiki/2KM_Long_Range_RF_link_kits_w_encoder_and_decoder)
 * [3W_Solar_Panel_138x160](l: https://www.research.net/r/3W_Solar_Panel_138x160)
 * [Arduboy](http://seeed.wiki/Arduboy)
