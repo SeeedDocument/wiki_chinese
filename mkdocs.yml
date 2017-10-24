@@ -96,6 +96,7 @@ pages:
       - LinkIt: LinkIt.md
       - LinkIt Smart 7688: LinkIt_Smart_7688.md
       - LinkIt Smart 7688_Duo: LinkIt_Smart_7688_Duo.md
+      - Breakout for LinkIt Smart 7688 v2.0: Breakout_for_LinkIt_Smart_7688_v2.0.md
       - LinkIt ONE: LinkIt_ONE.md
        
     - mbed:
@@ -115,7 +116,7 @@ pages:
       - Base Shield V2: Base_Shield_V2.md
       - CAN-BUS Shield V1.2: CAN-BUS_Shield_V1.2.md
       - CAN-BUS Shield V2.0: CAN-BUS_Shield_V2.0.md
-      - Music Shield_V2.2: Music_Shield_V2.2.md
+      - Music Shield V2.2: Music_Shield_V2.2.md
 
     - Essentials:
       - Essentials: Essentials.md
@@ -163,6 +164,7 @@ pages:
       - Grove-Gesture v1.0: Grove-Gesture_v1.0.md
       - Grove-IMU 9DOF v2.0: Grove-IMU_9DOF_v2.0.md
       - Grove-PIR Motion Sensor: Grove-PIR_Motion_Sensor.md
+      - Grove-Hall Sensor: Grove-Hall_Sensor.md
 
     
     - 执行器:
@@ -170,12 +172,17 @@ pages:
       - Grove-MP3 v2.0: Grove-MP3_v2.0.md
       - Grove-Infrared Receiver: Grove-Infrared_Receiver.md
       - Grove-Relay: Grove-Relay.md
+      - Grove-Dry Reed Relay: Grove-Dry-Reed_Relay.md
       - Grove-Buzzer: Grove-Buzzer.md
       - Grove-Chainable RGB LED: Grove-Chainable_RGB_LED.md
       - Grove-I2C Motor Driver V1.3: Grove-I2C_Motor_Driver_V1.3.md
+      - Grove-Haptic Motor: Grove-Haptic_Motor.md
       - Grove-DMX512: Grove-DMX512.md
       - Grove-NFC Tag: Grove-NFC_Tag.md
       - Grove-UART Wifi: Grove-UART_Wifi.md
+      - Grove-Serial_RF_Pro: Grove-Serial_RF_Pro.md
+      - Grove-Mouse Encoder: Grove-Mouse_Encoder.md
+      - Grove-Switch-P: Grove-Switch-P.md
 
     - 显示器:
       - Display: Display.md
