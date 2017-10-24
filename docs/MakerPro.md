@@ -11,11 +11,15 @@ nointro:
 以下是您可以在Seeed WiKi中找到的MakerPro板列表。 该列表将不断更新。
 
 
-* [0.5w_Solar_Panel_55x70](l: https://www.research.net/r/0_5w_Solar_Panel_55x70)
-* [2.5W_Solar_Panel_116x160](l: https://www.research.net/r/2_5W_Solar_Panel_116x160)
+* [0.5w_Solar_Panel_55x70](http://seeed.wiki/0.5w_Solar_Panel_55x70)
+* [2.5W_Solar_Panel_116x160](http://seeed.wiki/2.5W_Solar_Panel_116x160)
 * [2KM_Long_Range_RF_link_kits_w_encoder_and_decoder](http://seeed.wiki/2KM_Long_Range_RF_link_kits_w_encoder_and_decoder)
-* [3W_Solar_Panel_138x160](l: https://www.research.net/r/3W_Solar_Panel_138x160)
+* [3.6V_Micro_hydro_generator](l: https://www.research.net/r/3_6V_Micro_hydro_generator)
+* [3W_Solar_Panel_138x160](l: wikiurl: http://seeed.wiki/3W_Solar_Panel_138x160)
 * [Arduboy](http://seeed.wiki/Arduboy)
-* [Bus_Pirate_v3_assembled](l: https://www.research.net/r/Bus_Pirate_v3_assembled)
+* [Bus_Pirate_v3_assembled](http://seeed.wiki/Bus_Pirate_v3_assembled)
+* [G1_and_2_inch_Water_Flow_Sensor](l: https://www.research.net/r/G1_and_2_inch_Water_Flow_Sensor)
 * [G3-4_Water_Flow_sensor](l: https://www.research.net/r/G3_4_Water_Flow_sensor)
 * [Piezo_Sensor-MiniSense_100](http://seeed.wiki/Piezo_Sensor-MiniSense_100)
+* [PIR_Motion_sensor_module](l: https://www.research.net/r/PIR_Motion_sensor_module)
+* [RF_Explorer_Software]()

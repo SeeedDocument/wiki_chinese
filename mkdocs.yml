@@ -117,6 +117,8 @@ pages:
       - CAN-BUS Shield V1.2: CAN-BUS_Shield_V1.2.md
       - CAN-BUS Shield V2.0: CAN-BUS_Shield_V2.0.md
       - Music Shield V2.2: Music_Shield_V2.2.md
+      - Grove_Shield_for_Intel_Joule: Grove_Shield_for_Intel_Joule.md
+
 
     - Essentials:
       - Essentials: Essentials.md
@@ -138,6 +140,9 @@ pages:
       - Grove-Barometer Sensor BMP280: Grove-Barometer_Sensor-BMP280.md
       - Grove-Ear clip Heart Rate Sensor: Grove-Ear-clip_Heart_Rate_Sensor.md
       - Grove-Gas Sensor O2: Grove-Gas_Sensor-O2.md
+      - Grove-CO2_Sensor: Grove-CO2_Sensor.md
+      - Grove-Gas Sensor MQ5: Grove-Gas_Sensor-MQ5.md
+      - Grove-Gas Sensor MQ9: Grove-Gas_Sensor-MQ9.md
       - Grove-Light Sensor: Grove-Light_Sensor.md
       - Grove-MOSFET: Grove-MOSFET.md
       - Grove-Temperature Sensor: Grove-Temperature_Sensor.md
@@ -153,7 +158,6 @@ pages:
       - Grove-Electromagnet: Grove-Electromagnet.md
       - Grove-EMG Detector: Grove-EMG_Detector.md
       - Grove-Flame Sensor: Grove-Flame_Sensor.md
-      - Grove-Gas Sensor MQ9: Grove-Gas_Sensor-MQ9.md
       - Grove-HCHO Sensor: Grove-HCHO_Sensor.md
       - Grove-I2C Color Sensor: Grove-I2C_Color_Sensor.md
       - Grove-Loudness Sensor: Grove-Loudness_Sensor.md
@@ -165,8 +169,9 @@ pages:
       - Grove-IMU 9DOF v2.0: Grove-IMU_9DOF_v2.0.md
       - Grove-PIR Motion Sensor: Grove-PIR_Motion_Sensor.md
       - Grove-Hall Sensor: Grove-Hall_Sensor.md
+      - Grove-6 Axis AccelerometerAndGyroscope: Grove-6-Axis_AccelerometerAndGyroscope.md
+      - Grove-Fingerprint Sensor: Grove-Fingerprint_Sensor.md
 
-    
     - 执行器:
       - Actuator: Actuator.md
       - Grove-MP3 v2.0: Grove-MP3_v2.0.md
@@ -178,11 +183,18 @@ pages:
       - Grove-I2C Motor Driver V1.3: Grove-I2C_Motor_Driver_V1.3.md
       - Grove-Haptic Motor: Grove-Haptic_Motor.md
       - Grove-DMX512: Grove-DMX512.md
+      - Grove-NFC: Grove-NFC.md
       - Grove-NFC Tag: Grove-NFC_Tag.md
       - Grove-UART Wifi: Grove-UART_Wifi.md
       - Grove-Serial_RF_Pro: Grove-Serial_RF_Pro.md
       - Grove-Mouse Encoder: Grove-Mouse_Encoder.md
       - Grove-Switch-P: Grove-Switch-P.md
+      - Grove-Bee Socket: Grove-Bee_Socket.md
+      - Grove-Mini Track Ball: Grove-Mini_Track_Ball.md
+      - Grove-RTC: Grove-RTC.md
+      
+      
+
 
     - 显示器:
       - Display: Display.md
@@ -200,18 +212,24 @@ pages:
       - Lipo Rider V1.3: Lipo_Rider_V1.3.md
       - Bus Pirate v3 assembled: Bus_Pirate_v3_assembled.md
       - G3-4 Water Flow sensor: G3-4_Water_Flow_sensor.md
+      - G1-2 inch Water Flow Sensor: G1_and_2_inch_Water_Flow_Sensor.md
+      
 
   - IoT:
     - IoT: IoT.md
   
   - kit套件:
     - Grove Starter kit for Arduino 101: Grove_Starter_kit_for_Arduino_101.md
+    - Grove Maker Kit for Intel Joule: Grove Maker Kit for Intel Joule.md
   
   - MakerPro:
     - MakerPro: MakerPro.md
     - 2KM Long Range RF link kits w encoder and decoder: 2KM_Long_Range_RF_link_kits_w_encoder_and_decoder.md
     - Piezo Sensor MiniSense 100: Piezo_Sensor-MiniSense_100.md
-    - Arduboy: Arduboy.md 
+    - Arduboy: Arduboy.md
+    - 3.6V Micro hydro generator: 3.6V_Micro_hydro_generator.md
+    - PIR Motion sensor module: PIR_Motion_sensor_module.md
+    - RF Explorer Software: RF_Explorer_Software.md 
   
   - 使用教程:
     - Tutorial: Tutorial.md

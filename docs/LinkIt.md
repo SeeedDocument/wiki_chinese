@@ -12,7 +12,7 @@ nointro:
 以下是您可以在Seeed WiKi中找到的LinkIt Board的列表。 该列表将不断更新。
 
 
-* [Breakout_for_LinkIt_Smart_7688_v2.0](l: https://www.research.net/r/Breakout_for_LinkIt_Smart_7688_v2)
+* [Breakout_for_LinkIt_Smart_7688_v2.0](http://seeed.wiki/Breakout_for_LinkIt_Smart_7688_v2.0)
 * [LinkIt_ONE](l: https://www.surveymonkey.com/r/LinkIt_ONE)
 * [LinkIt_Smart_7688](http://seeed.wiki/LinkIt_Smart_7688)
 * [LinkIt_Smart_7688_Duo](l: https://www.surveymonkey.com/r/LS_7688_Duo)

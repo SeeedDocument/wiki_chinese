@@ -11,7 +11,9 @@ nointro:
 以下是您可以在Seeed WiKi中找到的通信板列表。 该列表将不断更新。
 
 
+* [Grove-Bee_Socket](l: https://www.research.net/r/Grove_Bee_Socket)
 * [Grove-DMX512](l: https://www.research.net/r/Grove_DMX512)
+* [Grove-NFC](ageurl: http://statics3.seeedstudio.com/images/product/grove nfc.jpg)
 * [Grove-NFC_Tag](ageurl: http://statics3.seeedstudio.com/images/product/grove nfc tag.jpg)
 * [Grove-Serial_RF_Pro](l: https://www.research.net/r/Grove_Serial_RF_Pro)
 * [Grove-UART_Wifi](l: https://www.surveymonkey.com/r/grove_uart_wifi)

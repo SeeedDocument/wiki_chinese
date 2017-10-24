@@ -18,5 +18,5 @@ BeagleBone Green由Beaglebone Black（简称BBB）改进，如果您了解BBB，
 以下是您可以在Seeed WiKi中找到的BeagleBone板的列表。 该列表将不断更新。
 
 
-* [BeagleBone_Green](l: https://www.research.net/r/seeed_bbg)
-* [BeagleBone_Green_Wireless](l: https://www.surveymonkey.com/r/bbg_w)
+* [BeagleBone_Green](http://seeed.wiki/BeagleBone_Green)
+* [BeagleBone_Green_Wireless](http://seeed.wiki/BeagleBone_Green_Wireless)
