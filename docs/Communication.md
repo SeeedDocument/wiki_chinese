@@ -13,6 +13,7 @@ nointro:
 
 * [Grove-Bee_Socket](l: https://www.research.net/r/Grove_Bee_Socket)
 * [Grove-DMX512](l: https://www.research.net/r/Grove_DMX512)
+* [Grove-I2C_ADC](ageurl: http://statics3.seeedstudio.com/images/103020013 1.jpg)
 * [Grove-NFC](ageurl: http://statics3.seeedstudio.com/images/product/grove nfc.jpg)
 * [Grove-NFC_Tag](ageurl: http://statics3.seeedstudio.com/images/product/grove nfc tag.jpg)
 * [Grove-Serial_RF_Pro](l: https://www.research.net/r/Grove_Serial_RF_Pro)

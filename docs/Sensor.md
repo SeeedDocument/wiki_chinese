@@ -14,6 +14,7 @@ Grove - 传感器包括各种传感器输入模块。
 * [Grove-Barometer_High_Accuracy](ageurl: http://statics3.seeedstudio.com/images/product/Grove Barometer High-Accuracy.jpg)
 * [Grove-Barometer_Sensor-BMP280](ageurl: http://statics3.seeedstudio.com/seeed/img/2016-06/oVNA7LQwPYYFnB674KEPM9w7.jpg)
 * [Grove-CO2_Sensor](ageurl: http://statics3.seeedstudio.com/images/product/Grove CO2 Sensor.jpg)
+* [Grove-Digital_Infrared_Temperature_Sensor](ageurl: http://statics3.seeedstudio.com/images/product/101020077 1.jpg)
 * [Grove-Digital_Light_Sensor](ageurl: http://statics3.seeedstudio.com/images/101020030 1.jpg)
 * [Grove-Dust_Sensor](l: https://www.research.net/r/grove-dust-sensor)
 * [Grove-Ear-clip_Heart_Rate_Sensor](ageurl: http://statics3.seeedstudio.com/images/product/P3212438.jpg)
