@@ -54,8 +54,8 @@ Grove – Solid State Relay 是具有继电器特性的非接触式电子开关�
 ![](https://github.com/SeeedDocument/Grove-Solid_State_Relay/raw/master/img/Ssr_interface.jpg)
 
 !!!Cautions
-1. 如果输出电压高于 36V，则在转动螺丝之前，需要确保模块处于关闭状态。
-2. 散热器可能处于非常高的温度，使用时请勿触摸。
+    1. 如果输出电压高于 36V，则在转动螺丝之前，需要确保模块处于关闭状态。
+    2. 散热器可能处于非常高的温度，使用时请勿触摸。
 
 
 ## 使用方法
@@ -100,7 +100,7 @@ void loop() {
 **使用 Raspberry Pi**
 
 1 你应该有一个 Raspberry pi 和一个 Grovepi 或 Grovepi+.  
-2 您应该已经完成配置开发环境，否则按照[这里](http://wiki.seeedstudio.com/wiki/GrovePi+#Introducing_the_GrovePi.2B)配置。  
+2 您应该已经完成配置开发环境，否则按照 [这里](http://wiki.seeedstudio.com/wiki/GrovePi+#Introducing_the_GrovePi.2B) 配置。  
 3 连接 - 使用 Grove 电缆将传感器连接到 Grovepi 的插座 D4。  
 4 跳转到演示目录:  
 
@@ -182,8 +182,8 @@ while True:
 |5A|	44.00|	66.00|	73.12|	75.37|	19 分钟|
 
 !!!Note
-1. 表中温度单位为℃
-2. 室温为28℃
+    1. 表中温度单位为℃
+    2. 室温为28℃
 
 **4.扩展实验**
 

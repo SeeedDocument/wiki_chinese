@@ -11,3 +11,4 @@ nointro:
 以下是您可以在Seeed WiKi中找到的无线控制板的列表。 列表将不断更新。
 
 
+* [Grove-Mega_Shield](http://seeed.wiki/Grove-Mega_Shield)

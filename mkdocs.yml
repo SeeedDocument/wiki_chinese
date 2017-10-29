@@ -119,7 +119,7 @@ pages:
       - Music Shield V2.2: Music_Shield_V2.2.md
       - W5500 Ethernet Shield v1.0: W5500_Ethernet_Shield_v1.0.md
       - Grove Shield for Intel Joule: Grove_Shield_for_Intel_Joule.md
-
+      - Grove-Mega Shield: Grove-Mega_Shield.md
 
     - Essentials:
       - Essentials: Essentials.md
@@ -173,6 +173,7 @@ pages:
       - Grove-Hall Sensor: Grove-Hall_Sensor.md
       - Grove-6 Axis AccelerometerAndGyroscope: Grove-6-Axis_AccelerometerAndGyroscope.md
       - Grove-Fingerprint Sensor: Grove-Fingerprint_Sensor.md
+
 
     - 执行器:
       - Actuator: Actuator.md

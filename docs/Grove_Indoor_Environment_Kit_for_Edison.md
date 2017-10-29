@@ -49,7 +49,7 @@ Grove Indoor Environment Kit for Edison 与 Intel @ Edison 和 Arduino 扩展板
 
 ##   安装 Edison Arduino IDE
 ---
-**[<font color =“Red”>链接失效]** 请参阅英特尔爱迪生官方网站：[爱迪生入门指南](https://communities.intel.com/docs/DOC-23147)
+**[<font color =“Red”>链接失效]**  </font>  请参阅英特尔爱迪生官方网站：[爱迪生入门指南](https://communities.intel.com/docs/DOC-23147)
 
 1.下载 **Edison Arduino IDE**（注意：选择您的操作系统。）
 

@@ -96,7 +96,7 @@ Water flow sensor 由塑料阀体，水转子和霍尔效应传感器组成。 �
 
 您将需要 Seeeduino / Arduino，水流传感器，10K电阻，面包板和一些跳线。
 
-连接 Water Flow Sensor 非常简单。 有三根电线：黑色，红色和黄色。 黑色连到 Seeeduino 的 **GND**，红色连到 Seeeduino 的 **5v** 端口，黄色线将需要连接到 **10k** 上拉电阻，然后连接到 Seeeduino 上的**引脚 2**。
+连接 Water Flow Sensor 非常简单。 有三根电线：黑色，红色和黄色。 黑色连到 Seeeduino 的 **GND**，红色连到 Seeeduino 的 **5v** 端口，黄色线将需要连接到 **10k** 上拉电阻，然后连接到 Seeeduino 上的 **引脚 2** 。
 
 这是一个硬件连接图，它将告诉你如何连线。
 
@@ -104,7 +104,7 @@ Water flow sensor 由塑料阀体，水转子和霍尔效应传感器组成。 �
 
 一旦你有了它，你将需要上传以下代码到你的 Seeeduino。 上传后，使一些流体流过 Water Flow Sensor，您可以打开串行监视器，它将显示流量，每秒刷新一次。
 
-** 程序设计 **
+**程序设计**
 ```
 // reading liquid flow rate using Seeeduino and Water Flow Sensor from Seeedstudio.com
 // Code adapted by Charles Gantt from PC Fan RPM code written by Crenn @thebestcasescenario.com
@@ -175,7 +175,3 @@ void loop ()
 *   **[数据手册]**[Water flow sensor datasheet.pdf](https://github.com/SeeedDocument/G1-8_Water_Flow_Sensor/raw/master/res/Water_flow_sensor_datasheet.pdf)
 
 *   **[创意应用]**[Reading Water Flow rate with Water Flow Sensor](http://www.seeedstudio.com/forum/viewtopic.php?f=4&amp;t=989&amp;p=3632#p3632)
-
-*   **[<font color =“Red”>已失效]**[Water Flow rate display on LCD](http://www.practicalarduino.com/projects/water-flow-gauge)
-
-*   **[<font color =“Red”>已失效]**[datasheet for the material](http://garden.seeedstudio.com/images/4/4e/YEE70G30HSLNC..pdf)
