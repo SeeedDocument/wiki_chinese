@@ -79,6 +79,7 @@ pages:
   - 平台:
     - Arduino:
       - Arduino: Arduino.md
+      - Seeeduino v4.2: Seeeduino_v4.2.md
       - Seeeduino Cloud: Seeeduino_Cloud.md
       - Seeeduino LoRAWAN: Seeeduino_LoRAWAN.md  
     - BeagleBone:

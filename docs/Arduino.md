@@ -21,3 +21,4 @@ Seeed Studio的座右铭之一是“增长差异”，现在已成为公司文�
 * [Grove_Starter_kit_for_Arduino_101](l: https://www.research.net/r/Grove_Starter_kit_for_Arduino_101)
 * [Seeeduino_Cloud](http://seeed.wiki/Seeeduino_Cloud)
 * [Seeeduino_LoRAWAN](http://seeed.wiki/Seeeduino_LoRAWAN)
+* [Seeeduino_v4.2](l: https://www.research.net/r/Seeeduino)
