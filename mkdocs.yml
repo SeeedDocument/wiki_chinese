@@ -120,6 +120,8 @@ pages:
       - W5500 Ethernet Shield v1.0: W5500_Ethernet_Shield_v1.0.md
       - Grove Shield for Intel Joule: Grove_Shield_for_Intel_Joule.md
       - Grove-Mega Shield: Grove-Mega_Shield.md
+      - XBee Shield V2.0: XBee_Shield_V2.0.md
+      - Relay Shield v3: Relay_Shield_v3.md
 
     - Essentials:
       - Essentials: Essentials.md
@@ -139,7 +141,9 @@ pages:
       - Grove-Dust Sensor: Grove-Dust_Sensor.md
       - Grove-Air Quality Sensor v1.3: Grove-Air_Quality_Sensor_v1.3.md
       - Grove-Barometer Sensor BMP280: Grove-Barometer_Sensor-BMP280.md
+      - Grove-Barometer_Sensor-BME280: Grove-Barometer_Sensor-BME280.md
       - Grove-Ear clip Heart Rate Sensor: Grove-Ear-clip_Heart_Rate_Sensor.md
+      - Grove-Finger clip Heart Rate Sensor with shell: Grove-Finger-clip_Heart_Rate_Sensor_with_shell.md
       - Grove-Gas Sensor O2: Grove-Gas_Sensor-O2.md
       - Grove-CO2 Sensor: Grove-CO2_Sensor.md
       - Grove-Gas Sensor MQ5: Grove-Gas_Sensor-MQ5.md
@@ -171,8 +175,13 @@ pages:
       - Grove-IMU 9DOF v2.0: Grove-IMU_9DOF_v2.0.md
       - Grove-PIR Motion Sensor: Grove-PIR_Motion_Sensor.md
       - Grove-Hall Sensor: Grove-Hall_Sensor.md
+      - Grove-3 Axis Compass V1.0: Grove-3-Axis_Compass_V1.0.md
       - Grove-6 Axis AccelerometerAndGyroscope: Grove-6-Axis_AccelerometerAndGyroscope.md
       - Grove-Fingerprint Sensor: Grove-Fingerprint_Sensor.md
+      - Grove-GPS: Grove-GPS.md
+      - Grove-Line Finder: Grove-Line_Finder.md
+      - Grove-Rotary Angle Sensor: Grove-Rotary_Angle_Sensor.md
+      
 
 
     - 执行器:
@@ -190,15 +199,22 @@ pages:
       - Grove-NFC: Grove-NFC.md
       - Grove-NFC Tag: Grove-NFC_Tag.md
       - Grove-UART Wifi: Grove-UART_Wifi.md
-      - Grove-Serial_RF_Pro: Grove-Serial_RF_Pro.md
+      - Grove-Serial RF Pro: Grove-Serial_RF_Pro.md
       - Grove-Mouse Encoder: Grove-Mouse_Encoder.md
       - Grove-Switch-P: Grove-Switch-P.md
+      - Grove-Magnetic Switch: Grove-Magnetic_Switch.md
       - Grove-Bee Socket: Grove-Bee_Socket.md
       - Grove-Mini Track Ball: Grove-Mini_Track_Ball.md
       - Grove-RTC: Grove-RTC.md
       - Grove-I2C ADC: Grove-I2C_ADC.md
       - Grove-Red LED: Grove-Red_LED.md
+      - Grove-RJ45 Adapter: Grove-RJ45_Adapter.md
+      - Grove-Wrapper: Grove-Wrapper.md
+      - Grove-Tilt Switch: Grove-Tilt_Switch.md
+      - Grove-Protoshield: Grove-Protoshield.md
       
+
+
 
     - 显示器:
       - Display: Display.md
@@ -218,7 +234,7 @@ pages:
       - G3-4 Water Flow sensor: G3-4_Water_Flow_sensor.md
       - G1-2 inch Water Flow Sensor: G1_and_2_inch_Water_Flow_Sensor.md
       - G1-8 Water Flow Sensor: G1-8_Water_Flow_Sensor.md
-      - Grove-Wrapper: Grove-Wrapper.md
+      
       
 
   - IoT:
@@ -228,6 +244,7 @@ pages:
     - Grove Starter kit for Arduino 101: Grove_Starter_kit_for_Arduino_101.md
     - Grove Maker Kit for Intel Joule: Grove-Maker_Kit_for_Intel_Joule.md
     - Grove Indoor Environment Kit for Edison: Grove_Indoor_Environment_Kit_for_Edison.md
+    - Techbox Tricks: Techbox_Tricks.md
   
   - MakerPro:
     - MakerPro: MakerPro.md
