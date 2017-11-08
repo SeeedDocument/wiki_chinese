@@ -12,6 +12,7 @@ nointro:
 
 
 * [0.5w_Solar_Panel_55x70](http://seeed.wiki/0.5w_Solar_Panel_55x70)
+* [1w_Solar_Panel_80x100](http://seeed.wiki/1w_Solar_Panel_80x100)
 * [2.5W_Solar_Panel_116x160](http://seeed.wiki/2.5W_Solar_Panel_116x160)
 * [2KM_Long_Range_RF_link_kits_w_encoder_and_decoder](http://seeed.wiki/2KM_Long_Range_RF_link_kits_w_encoder_and_decoder)
 * [3.6V_Micro_hydro_generator](l: https://www.research.net/r/3_6V_Micro_hydro_generator)
@@ -21,6 +22,8 @@ nointro:
 * [G1-8_Water_Flow_Sensor](http://seeed.wiki/G1-8_Water_Flow_Sensor)
 * [G1_and_2_inch_Water_Flow_Sensor](l: https://www.research.net/r/G1_and_2_inch_Water_Flow_Sensor)
 * [G3-4_Water_Flow_sensor](l: https://www.research.net/r/G3_4_Water_Flow_sensor)
+* [Grove-PIR_Motion_Sensor_Large_Lens_version](l: https://www.research.net/r/PIR_Motion_sensor_module)
 * [Piezo_Sensor-MiniSense_100](http://seeed.wiki/Piezo_Sensor-MiniSense_100)
-* [PIR_Motion_sensor_module](l: https://www.research.net/r/PIR_Motion_sensor_module)
+* [PIR_Motion_Sensor_Large_Lens_version](l: https://www.research.net/r/PIR_Motion_sensor_module)
 * [RF_Explorer_Software]()
+* [WireLess_Gate_Shield_V1.0](http://seeed.wiki/WireLess_Gate_Shield_V1.0)

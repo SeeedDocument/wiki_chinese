@@ -12,4 +12,6 @@ nointro:
 
 * [Grove-4-Digit_Display](ageurl: http://statics3.seeedstudio.com/images/product/4-Digital Display.jpg)
 * [Grove-LCD_RGB_Backlight](l: https://www.surveymonkey.com/r/LCD_Backlight)
+* [Grove-LED_Bar](ageurl: http://statics3.seeedstudio.com/images/product/bar.jpg)
+* [Grove-LED_String_Light](http://seeed.wiki/Grove-LED_String_Light)
 * [Grove-Red_LED](http://seeed.wiki/Grove-Red_LED)

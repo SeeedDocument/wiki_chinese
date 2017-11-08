@@ -80,8 +80,10 @@ pages:
     - Arduino:
       - Arduino: Arduino.md
       - Seeeduino v4.2: Seeeduino_v4.2.md
+      - Seeeduino Lotus: Seeeduino_Lotus.md
       - Seeeduino Cloud: Seeeduino_Cloud.md
-      - Seeeduino LoRAWAN: Seeeduino_LoRAWAN.md  
+      - Seeeduino LoRAWAN: Seeeduino_LoRAWAN.md 
+
     - BeagleBone:
       - BeagleBone: BeagleBone.md
       - BeagleBone Green: BeagleBone_Green.md
@@ -120,9 +122,12 @@ pages:
       - Music Shield V2.2: Music_Shield_V2.2.md
       - W5500 Ethernet Shield v1.0: W5500_Ethernet_Shield_v1.0.md
       - Grove Shield for Intel Joule: Grove_Shield_for_Intel_Joule.md
-      - Grove-Mega Shield: Grove-Mega_Shield.md
+      - Grove Mega Shield: Grove-Mega_Shield.md
       - XBee Shield V2.0: XBee_Shield_V2.0.md
+      - Grove XBee Carrier: Grove-XBee_Carrier.md
       - Relay Shield v3: Relay_Shield_v3.md
+      - GrovePi Plus: GrovePi_Plus.md
+      - WireLess Gate Shield V1.0: WireLess_Gate_Shield_V1.0.md
 
     - Essentials:
       - Essentials: Essentials.md
@@ -147,12 +152,16 @@ pages:
       - Grove-Finger clip Heart Rate Sensor with shell: Grove-Finger-clip_Heart_Rate_Sensor_with_shell.md
       - Grove-Gas Sensor O2: Grove-Gas_Sensor-O2.md
       - Grove-CO2 Sensor: Grove-CO2_Sensor.md
+      - Grove-Gas Sensor MQ2: Grove-Gas_Sensor-MQ2.md
       - Grove-Gas Sensor MQ5: Grove-Gas_Sensor-MQ5.md
       - Grove-Gas Sensor MQ9: Grove-Gas_Sensor-MQ9.md
+      - Grove-Alcohol Sensor: Grove-Alcohol_Sensor.md
       - Grove-Light Sensor: Grove-Light_Sensor.md
       - Grove-MOSFET: Grove-MOSFET.md
       - Grove-Temperature Sensor: Grove-Temperature_Sensor.md
       - Grove-Temperature Sensor-V1.2: Grove-Temperature_Sensor_V1.2.md
+      - Grove-High Temperature Sensor: Grove-High_Temperature_Sensor.md
+      - Grove-Infrared Temperature Sensor: Grove-Infrared_Temperature_Sensor.md
       - Grove-Digital Infrared Temperature Sensor: Grove-Digital_Infrared_Temperature_Sensor.md
       - Grove-Temperature and Humidity Sensor Pro: Grove-Temperature_and_Humidity_Sensor_Pro.md
       - Grove-Temperature and Humidity Sensor: Grove-Temperature_and_Humidity_Sensor.md
@@ -178,10 +187,16 @@ pages:
       - Grove-Hall Sensor: Grove-Hall_Sensor.md
       - Grove-3 Axis Compass V1.0: Grove-3-Axis_Compass_V1.0.md
       - Grove-6 Axis AccelerometerAndGyroscope: Grove-6-Axis_AccelerometerAndGyroscope.md
+      - Grove-3 Axis Analog Accelerometer: Grove-3-Axis_Analog_Accelerometer.md
+      - Grove-3 Axis Digital Accelerometer 1.5g: Grove-3-Axis_Digital_Accelerometer-1.5g.md
+      - Grove-3 Axis Digital Accelerometer 16g: Grove-3-Axis_Digital_Accelerometer-16g.md
       - Grove-Fingerprint Sensor: Grove-Fingerprint_Sensor.md
       - Grove-GPS: Grove-GPS.md
       - Grove-Line Finder: Grove-Line_Finder.md
       - Grove-Rotary Angle Sensor: Grove-Rotary_Angle_Sensor.md
+      - Grove-Collision Sensor: Grove-Collision_Sensor.md 
+      - Grove-Water Sensor: Grove-Water_Sensor.md
+
       
 
 
@@ -213,9 +228,15 @@ pages:
       - Grove-Wrapper: Grove-Wrapper.md
       - Grove-Tilt Switch: Grove-Tilt_Switch.md
       - Grove-Protoshield: Grove-Protoshield.md
+      - Grove-Button: Grove-Button.md
+      - Grove-Mini Fan.: Grove-Mini_Fan.md
+      - Grove-Speaker: Grove-Speaker.md
+      - Grove-Water Atomization: Grove-Water_Atomization.md
+      - Grove-Recorder v3.0: Grove-Recorder_v3.0.md
+      - Grove-Servo: Grove-Servo.md
+      - Grove-LED String Light: Grove-LED_String_Light.md
+      - Grove-LED Bar: Grove-LED_Bar.md
       
-
-
 
     - 显示器:
       - Display: Display.md
@@ -229,12 +250,14 @@ pages:
       - Others: Others.md
       - 3W Solar Panel 138x160: 3W_Solar_Panel_138x160.md
       - 2.5W Solar Panel 116x160: 2.5W_Solar_Panel_116x160.md
+      - 1w Solar Panel 80x100: 1w_Solar_Panel_80x100.md
       - 0.5w Solar Panel 55x70: 0.5w_Solar_Panel_55x70.md
       - Lipo Rider V1.3: Lipo_Rider_V1.3.md
       - Bus Pirate v3 assembled: Bus_Pirate_v3_assembled.md
       - G3-4 Water Flow sensor: G3-4_Water_Flow_sensor.md
       - G1-2 inch Water Flow Sensor: G1_and_2_inch_Water_Flow_Sensor.md
       - G1-8 Water Flow Sensor: G1-8_Water_Flow_Sensor.md
+      - Tiny BLE: Tiny_BLE.md
       
       
 
@@ -245,6 +268,9 @@ pages:
     - Grove Starter kit for Arduino 101: Grove_Starter_kit_for_Arduino_101.md
     - Grove Maker Kit for Intel Joule: Grove-Maker_Kit_for_Intel_Joule.md
     - Grove Indoor Environment Kit for Edison: Grove_Indoor_Environment_Kit_for_Edison.md
+    - Grove Smart Plant Care Kit: Grove_Smart_Plant_Care_Kit.md
+    - Grove Serial Camera Kit: Grove-Serial_Camera_Kit.md
+    - Sidekick Basic Kit for Arduino V2: Sidekick_Basic_Kit_for_Arduino_V2.md
     - Techbox Tricks: Techbox_Tricks.md
   
   - MakerPro:
@@ -253,7 +279,7 @@ pages:
     - Piezo Sensor MiniSense 100: Piezo_Sensor-MiniSense_100.md
     - Arduboy: Arduboy.md
     - 3.6V Micro hydro generator: 3.6V_Micro_hydro_generator.md
-    - PIR Motion sensor module: PIR_Motion_sensor_module.md
+    - PIR Motion Sensor Large Lens version: PIR_Motion_Sensor_Large_Lens_version.md
     - RF Explorer Software: RF_Explorer_Software.md 
   
   - 使用教程:

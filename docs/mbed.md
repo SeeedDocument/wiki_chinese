@@ -15,3 +15,4 @@ Seeed Studio是生产mbed板的成员之一。到目前为止，您可以从Seee
 
 以下是您可以在Seeed WiKi中找到的mbed板列表。 该列表将不断更新。
 
+* [Tiny_BLE](http://seeed.wiki/Tiny_BLE)

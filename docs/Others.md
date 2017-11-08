@@ -13,3 +13,4 @@ nointro:
 * [Grove-Wrapper](http://seeed.wiki/Grove-Wrapper)
 * [Grove_Indoor_Environment_Kit_for_Edison](http://seeed.wiki/Grove_Indoor_Environment_Kit_for_Edison)
 * [Grove_Shield_for_Intel_Joule](l: https://www.research.net/r/B6JM638)
+* [Grove_Smart_Plant_Care_Kit](http://seeed.wiki/Grove_Smart_Plant_Care_Kit)
