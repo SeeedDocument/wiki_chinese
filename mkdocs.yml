@@ -80,26 +80,32 @@ pages:
     - Arduino:
       - Arduino: Arduino.md
       - Seeeduino v4.2: Seeeduino_v4.2.md
+      - Seeeduino Lite: Seeeduino_Lite.md
       - Seeeduino Lotus: Seeeduino_Lotus.md
       - Seeeduino Cloud: Seeeduino_Cloud.md
-      - Seeeduino LoRAWAN: Seeeduino_LoRAWAN.md 
+      - Seeeduino LoRAWAN: Seeeduino_LoRAWAN.md
+      - UartSBee v5: UartSBee_v5.md 
 
     - BeagleBone:
       - BeagleBone: BeagleBone.md
       - BeagleBone Green: BeagleBone_Green.md
       - BeagleBone Green Wireless: BeagleBone_Green_Wireless.md
+      - BeagleBone Green HDMI Cape: BeagleBone_Green_HDMI_Cape.md
+      - Grove Base Cape for BeagleBone v2: Grove_Base_Cape_for_BeagleBone_v2.md
 
     - Raspberry:
       - Raspberry: Raspberry.md
     - Wio:
       - Wio: Wio.md
       - Wio Link: Wio_Link.md
+      
     
     - LinkIt:
       - LinkIt: LinkIt.md
       - LinkIt Smart 7688: LinkIt_Smart_7688.md
       - LinkIt Smart 7688_Duo: LinkIt_Smart_7688_Duo.md
       - Breakout for LinkIt Smart 7688 v2.0: Breakout_for_LinkIt_Smart_7688_v2.0.md
+      - Arduino Breakout for LinkIt Smart 7688 Duo: Arduino_Breakout_for_LinkIt_Smart_7688_Duo.md
       - LinkIt ONE: LinkIt_ONE.md
        
     - mbed:
@@ -128,6 +134,7 @@ pages:
       - Relay Shield v3: Relay_Shield_v3.md
       - GrovePi Plus: GrovePi_Plus.md
       - WireLess Gate Shield V1.0: WireLess_Gate_Shield_V1.0.md
+      - Solar Charger Shield V2.2: Solar_Charger_Shield_V2.2.md
 
     - Essentials:
       - Essentials: Essentials.md
@@ -149,6 +156,7 @@ pages:
       - Grove-Barometer Sensor BMP280: Grove-Barometer_Sensor-BMP280.md
       - Grove-Barometer_Sensor-BME280: Grove-Barometer_Sensor-BME280.md
       - Grove-Ear clip Heart Rate Sensor: Grove-Ear-clip_Heart_Rate_Sensor.md
+      - Grove-Finger clip Heart Rate Sensor: Grove-Finger-clip_Heart_Rate_Sensor.md
       - Grove-Finger clip Heart Rate Sensor with shell: Grove-Finger-clip_Heart_Rate_Sensor_with_shell.md
       - Grove-Gas Sensor O2: Grove-Gas_Sensor-O2.md
       - Grove-CO2 Sensor: Grove-CO2_Sensor.md
@@ -187,6 +195,7 @@ pages:
       - Grove-Hall Sensor: Grove-Hall_Sensor.md
       - Grove-3 Axis Compass V1.0: Grove-3-Axis_Compass_V1.0.md
       - Grove-6 Axis AccelerometerAndGyroscope: Grove-6-Axis_AccelerometerAndGyroscope.md
+      - Grove-6-Axis AccelerometerAndCompass V2.0: Grove-6-Axis_AccelerometerAndCompass_V2.0.md
       - Grove-3 Axis Analog Accelerometer: Grove-3-Axis_Analog_Accelerometer.md
       - Grove-3 Axis Digital Accelerometer 1.5g: Grove-3-Axis_Digital_Accelerometer-1.5g.md
       - Grove-3 Axis Digital Accelerometer 16g: Grove-3-Axis_Digital_Accelerometer-16g.md
@@ -196,6 +205,7 @@ pages:
       - Grove-Rotary Angle Sensor: Grove-Rotary_Angle_Sensor.md
       - Grove-Collision Sensor: Grove-Collision_Sensor.md 
       - Grove-Water Sensor: Grove-Water_Sensor.md
+      - Grove-Speech Recognizer: Grove-Speech_Recognizer.md
 
       
 
@@ -236,6 +246,15 @@ pages:
       - Grove-Servo: Grove-Servo.md
       - Grove-LED String Light: Grove-LED_String_Light.md
       - Grove-LED Bar: Grove-LED_Bar.md
+      - Grove-Variable Color LED: Grove-Variable_Color_LED.md
+      - Grove-EL Driver: Grove-EL_Driver.md
+      - Grove-2 Coil Latching Relay: Grove-2-Coil_Latching_Relay.md
+      - Grove-BLE v1: Grove-BLE_v1.md
+      - Grove-Infrared Emitter: Grove-Infrared_Emitter.md
+      - Grove-Screw Terminal: Grove-Screw_Terminal.md
+      - Grove-Slide Potentiometer: Grove-Slide_Potentiometer.md
+      - Grove-Thumb Joystick: Grove-Thumb_Joystick.md
+      - Grove-LoRa Radio: Grove_LoRa_Radio.md
       
 
     - 显示器:
@@ -266,12 +285,14 @@ pages:
   
   - kit套件:
     - Grove Starter kit for Arduino 101: Grove_Starter_kit_for_Arduino_101.md
+    - Grove Starter Kit for BeagleBone Green: Grove_Starter_Kit_for_BeagleBone_Green.md
     - Grove Maker Kit for Intel Joule: Grove-Maker_Kit_for_Intel_Joule.md
     - Grove Indoor Environment Kit for Edison: Grove_Indoor_Environment_Kit_for_Edison.md
     - Grove Smart Plant Care Kit: Grove_Smart_Plant_Care_Kit.md
     - Grove Serial Camera Kit: Grove-Serial_Camera_Kit.md
     - Sidekick Basic Kit for Arduino V2: Sidekick_Basic_Kit_for_Arduino_V2.md
     - Techbox Tricks: Techbox_Tricks.md
+    - Wio Link Environment Kit: Wio_Link_Environment_Kit.md
   
   - MakerPro:
     - MakerPro: MakerPro.md
@@ -280,7 +301,8 @@ pages:
     - Arduboy: Arduboy.md
     - 3.6V Micro hydro generator: 3.6V_Micro_hydro_generator.md
     - PIR Motion Sensor Large Lens version: PIR_Motion_Sensor_Large_Lens_version.md
-    - RF Explorer Software: RF_Explorer_Software.md 
+    - RF Explorer Software: RF_Explorer_Software.md
+    - Codec Adaptive Wireless Relay: Codec-Adaptive_Wireless_Relay.md 
   
   - 使用教程:
     - Tutorial: Tutorial.md

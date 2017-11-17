@@ -16,5 +16,6 @@ nointro:
 * [How_to_edit_Wiki](http://seeed.wiki/How_to_edit_Wiki)
 * [Music_Shield_V2.2](ageurl: https://statics3.seeedstudio.com/images/107020003 1.jpg)
 * [Relay_Shield_v3](http://seeed.wiki/Relay_Shield_v3)
+* [Solar_Charger_Shield_V2.2](http://seeed.wiki/Solar_Charger_Shield_V2.2)
 * [W5500_Ethernet_Shield_v1.0](ageurl: https://statics3.seeedstudio.com/upload/master/img/20160519080008-2ccc2b.JPG)
 * [XBee_Shield_V2.0](http://seeed.wiki/XBee_Shield_V2.0)

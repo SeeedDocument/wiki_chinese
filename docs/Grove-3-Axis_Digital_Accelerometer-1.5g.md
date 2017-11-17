@@ -42,7 +42,7 @@ Grove - 3-Axis Digital Accelerometer v1.2b
 3-Axis Digital Accelerometer 是方向检测，手势检测和运动检测等项目中的关键部分。这款 3-Axis Digital Accelerometer(±1.5g) 基于 Freescale 的低功耗模块 MMA7660FC。它具有高达 10,000g 的高冲击耐受性和可配置的每秒采样率。对于大量不需要太大测量范围的应用，这款加速度计是一个很好的选择，因为它具有耐用，节能和合算的特点。
 
 
-[![](https://github.com/SeeedDocument/wiki_chinese/raw/master/docs/images/click_to_buy.PNG)](https://item.taobao.com/item.htm?spm=a230r.1.14.15.f8699a7xeBgYt&id=45505202190&ns=1&abbucket=1#detail)
+[![](https://github.com/SeeedDocument/wiki_chinese/raw/master/docs/images/click_to_buy.PNG)](https://item.taobao.com/item.htm?spm=686.1000925.0.0.4d555aagVGiYe&id=45770637854)
 
 
 ## 规格参数
