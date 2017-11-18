@@ -4,49 +4,50 @@ category: Arduino
 bzurl:  https://www.seeedstudio.com/Grove-Starter-kit-for-Arduino%26Genuino-101-p-2664.html
 oldwikiname: Grove Starter kit for Arduino&Genuino 101
 prodimagename: Grove_Starter_kit_for_Arduino_101product_view_1024_s.jpg
-surveyurl: https://www.research.net/r/Grove_Starter_kit_for_Arduino_101
+wikiurl: http://seeed.wiki/Grove_Starter_kit_for_Arduino_101
 sku:    110020109
 ---
 ![](https://github.com/SeeedDocument/Grove_Starter_kit_for_Arduino_101/raw/master/img/Grove_Starter_kit_for_Arduino_101product_view_1024_s.jpg)
 
- Grove系统旨在通过不同的传感器（如各种传感器和电机），扩展板和Grove连接线将处理器连接到现实的世界，它们看起来像一条连带的传输线。 使用Grove系统，您不会像以前那样需要复杂的连接，也不需要焊接工具，面包板和跳线。 您只需要将大量传感器插入到扩展板上或是有Grove接口的开发板上。 Grove系统非常有助于加快您项目的开发过程，特别是对于新手。
+Grove 系统通过不同的变换器 (如传感器和电机)，扩展板和 Grove 线缆 (看起来像带状电缆) 将处理器连接到现实世界。使用 Grove 系统，您不必像过去那样处理大量复杂的连接。不需要焊接工具，面包板和跳线。您只需将变换器插入带有 base shield 扩展板和 Grove 线缆的开发板即可。Grove 系统大大加速您的项目开发过程，对于新手更是如此。
 
-**Note** 本文中的所有内容也适用于Genuino 101。
+!!!Note
+    这里所有内容也适用于 Genuino 101。
 
-[![](https://github.com/SeeedDocument/wiki_chinese/raw/master/docs/images/click_to_buy.PNG)](https://item.taobao.com/item.htm?spm=a1z10.3-c.w4002-11172317909.12.3ff19e11MZhuWO&id=45574420927)
+[![](https://github.com/SeeedDocument/wiki_chinese/raw/master/docs/images/click_to_buy.PNG)](https://item.taobao.com/item.htm?spm=a230r.1.14.1.245ce0349Bryvd&id=532135335993&ns=1&abbucket=1#detail)
 
 
-###  版本信息
+###  版本日志
 
 <table>
 <tr>
-<td>产品版本</td>
+<td>产品版本 </td>
 <td> 发布日期</td>
 <td> 支持状态 </td>
-<td> 说明
+<td> 备注
 </td></tr>
 <tr>
-<td> Grodu Starter Kit for Arduino 101（v1.0当前版本） </td>
-<td> 2016年4月</td>
-<td> 支持</td>
+<td> Grove Starter kit for Arduino 101(v1.0 current version) </td>
+<td> 2016年4月‎ </td>
+<td> 支持 </td>
 <td> 无
 </td></tr></table>
 
 ##  产品特性
 
-*  使用Grove接口，能够节省时间，减少新手的使用困难
+*   Grove 接口节省时间，同时减低对于新手的困难
 
-*  有很多各种功能的模块，这个是学习必备的基础
+*   所有的功能模块是学习的基础和关键。
 
-*  可以作为一个工具箱，同时价格便宜
+*   去除冗杂而成一套套件
 
-*  能够有趣的一步步完成项目
+*   有趣的演示
 
-###  支持平台
+###  Platform supported
 
 <table>
 <tr>
-<td>平台</td>
+<td>Platform</td>
 <td> Seeeduino/Arduino </td>
 <td> Rasberry Pi </td>
 <td> LinkIt One </td>
@@ -54,96 +55,96 @@ sku:    110020109
 <td> LinkIt ONE
 </td></tr>
 <tr>
-<td> 支持状态</td>
-<td colspan="5"> 支持，除了仅适用于Arduino / Seeeduino平台的Base Shield。
+<td> Supported status</td>
+<td colspan="5"> Supported, except for Base Shield which only applies to Arduino/Seeeduino platform.
 </td></tr></table>
 
-##  硬件概况
+##  硬件概述
 
-本部分列出了该工具包中的主要部分和链接，以获取每个功能模块的更多信息。
+本节列出了此套件中的主要部分，和获取每个功能模块的更多信息的链接。
 
 ![](https://github.com/SeeedDocument/Grove_Starter_kit_for_Arduino_101/raw/master/img/Grove_Starter_kit_for_Arduino_101_parts_s.jpg)
 
-###  **材料清单**
+###  **零件清单**
+
 <table>
 <tr>
-<th>材料  </th>
-<th>数量</th>
-<th> 网页链接
+<th>零件名称   </th>
+<th> 数量</th>
+<th> 链接
 </th></tr>
 <tr>
 <td> Grove - Rotary Angle Sensor(P)  </td>
-<td> 1 块</td>
-<td> [马上购买](https://item.taobao.com/item.htm?spm=a1z10.3-c.w4002-11172317909.9.61189783FaSgMT&id=45554377762)
+<td> 1 件 </td>
+<td> [点击获取更多信息](https://item.taobao.com/item.htm?spm=a1z10.3-c.w4002-11172317909.9.190e4690lMhRlT&id=45554377762)
 </td></tr>
 <tr>
 <td> Grove – Button</td>
-<td>1 块</td>
-<td> [马上购买](https://item.taobao.com/item.htm?spm=a1z10.3-c.w4002-11172317909.13.74b769d4Wtr6mp&id=531838497696)
+<td>1 件 </td>
+<td> [点击获取更多信息](https://item.taobao.com/item.htm?spm=a1z10.3-c.w4002-11172317909.9.2357f100AARkz&id=531838497696)
 </td></tr>
 <tr>
 <td>Grove - Touch Sensor </td>
-<td>1 块</td>
-<td> [马上购买](https://item.taobao.com/item.htm?spm=a1z10.3-c.w4002-11172317909.10.4c6c1c3ddimp3k&id=45475599815)
+<td>1 件</td>
+<td> [点击获取更多信息](https://item.taobao.com/item.htm?spm=a1z10.3-c.w4002-11172317909.9.5b7770206nCo9i&id=45486442714)
 </td></tr>
 <tr>
 <td>Grove LEDs</td>
-<td>1 块</td>
-<td>[马上购买](https://item.taobao.com/item.htm?spm=a1z10.3-c.w4002-11172317909.11.173b86c8dFymcL&id=45573760464)
+<td>1 件</td>
+<td>[点击获取更多信息](https://item.taobao.com/item.htm?spm=a1z10.3-c.w4002-11172317909.39.4e325633TVQ82&id=45476819992)
 </td></tr>
 <tr>
 <td>Grove - Buzzer</td>
-<td>1 块</td>
-<td>[马上购买](https://item.taobao.com/item.htm?spm=a1z10.3-c.w4002-11172317909.9.636776cbUUV1S4&id=520245748676)
+<td>1 件</td>
+<td>[点击获取更多信息](https://item.taobao.com/item.htm?spm=a1z10.3-c.w4002-11172317909.9.56d1ecb1VKAxLi&id=520245748676)
 </td></tr>
 <tr>
 <td>Grove - Sound Sensor</td>
-<td>1 块</td>
-<td>[马上购买](https://item.taobao.com/item.htm?spm=a1z10.3-c.w4002-11172317909.10.697a43fefsJj4p&id=45507318433)
+<td>1 件</td>
+<td>[点击获取更多信息](https://item.taobao.com/item.htm?spm=a1z10.3-c.w4002-11172317909.13.3623e6fcF4zZm4&id=45507318433)
 </td></tr>
 <tr>
 <td>Grove - Light Sensor</td>
-<td>1 块</td>
-<td>[马上购买](https://item.taobao.com/item.htm?spm=a1z10.3-c.w4002-11172317909.10.7ed8b9666MX2c3&id=544373791068)
+<td>1 件</td>
+<td>[点击获取更多信息](https://item.taobao.com/item.htm?spm=a1z10.3-c.w4002-11172317909.9.557338f0nt0fPE&id=544373791068)
 </td></tr>
 <tr>
 <td>Grove - Temperature Sensor</td>
-<td>1 块</td>
-<td>[马上购买](https://item.taobao.com/item.htm?spm=a1z10.3-c.w4002-11172317909.11.26475012rRPZKi&id=520512844173)
+<td>1 件</td>
+<td>[点击获取更多信息](https://item.taobao.com/item.htm?spm=a1z10.3-c.w4002-11172317909.9.464598f84QoJ0r&id=520512844173)
 </td></tr>
 <tr>
 <td>Grove - Relay</td>
-<td>1 块</td>
-<td>[马上购买](https://item.taobao.com/item.htm?spm=a1z10.3-c.w4002-11172317909.10.6fce3c046vDFtr&id=45670971061)
+<td>1 件</td>
+<td>[点击获取更多信息](https://item.taobao.com/item.htm?spm=a1z10.3-c.w4002-11172317909.14.3c382cbd4GDvEa&id=45670971061)
 </td></tr>
 <tr>
 <td>Grove - Servo</td>
-<td>1 块</td>
-<td>[马上购买](https://item.taobao.com/item.htm?spm=a1z10.3-c.w4002-11172317909.13.26f5a4ad3U1j1F&id=45554357772)
+<td>1 件</td>
+<td>[点击获取更多信息](https://item.taobao.com/item.htm?spm=a230r.1.14.15.6f840604nQwo60&id=45554357772&ns=1&abbucket=13#detail)
 </td></tr>
 <tr>
 <td>Grove - LCD RGB Backlight</td>
-<td>1 块</td>
-<td>[马上购买](https://item.taobao.com/item.htm?spm=a1z10.3-c.w4002-11172317909.10.1df7a536i4LfcA&id=45475311124)
+<td>1 件</td>
+<td>[点击获取更多信息](https://item.taobao.com/item.htm?spm=a1z10.3-c.w4002-11172317909.10.2015e1e0pFSSMk&id=45475311124)
 </td></tr>
 <tr>
 <td>Base Shield V2.0</td>
-<td>1 块</td>
-<td>[马上购买](https://item.taobao.com/item.htm?spm=a1z10.3-c.w4002-11172317909.10.3bc9cb1a2wj1uw&id=520233320144)
+<td>1 件</td>
+<td>[点击获取更多信息](https://item.taobao.com/item.htm?spm=a1z10.3-c.w4002-11172317909.9.7643e0c6l07gP5&id=520233320144)
 </td></tr>
 <tr>
-<td>用户手册（印刷本）</td>
-<td>1 块</td>
-<td> [Grove_Starter_Kit_arduino_101_用户手册.pdf](https://github.com/SeeedDocument/Grove_Starter_kit_for_Arduino_101/raw/master/res/Grove_Starter_Kit_arduino_101_manual-printed_version-s.pdf)
+<td>User Manual (printed copy) </td>
+<td> 1 件</td>
+<td> [点击获取更多信息](https://github.com/SeeedDocument/Grove_Starter_kit_for_Arduino_101/raw/master/res/Grove_Starter_Kit_arduino_101_manual-printed_version-s.pdf)
 </td></tr></table>
 
 ##  入门指导
 
-###  基于Arduino
+###  Arduino 基础
 
-如果您是第一次参与Arduino，您需要知道一些基本知识。 我们已经准备了一些文件，供大家开始使用，请点击 [这里](http://seeed.wiki/Getting_Started_with_Seeeduino/).
+如果您是第一次接触 Arduino，您需要了解一些基本知识。我们为你准备了一些文件让您能够快速入门。请点击 [这里](https://www.arduino.cc/en/Tutorial/Foundations).
 
-###  Arduino IDE（每个模块的基本示例）
+###  Arduino 示例
 
-在您能够让LED闪烁后（Windows用户可以在 [这里](http://seeed.wiki/Getting_Started_with_Seeeduino/) 安装Arduino IDE，您可以在 [这里](https://www.arduino.cc/en/Guide/HomePage) 找到适用于Mac OS和Linux 的其他版本
-），您仍然需要熟悉Seeedstudio Grove系统 [Grove_System](http://seeed.wiki/Grove_System/)。 现在，您可以使用这些套件进行一些好玩的试验。 可以在 [程序下载](https://github.com/Seeed-Studio/Sketchbook_Starter_Kit_for_Arduino) 上下载程序）。
+在 LED 闪烁后 (对于 Windows 用户，您可以在 [这里](https://www.arduino.cc/en/Guide/Windows) 找到它，对于 Mac OS 和 Linux 用户，您可以在 [这里](https://www.arduino.cc/en/Guide/HomePage) 找到它)，您仍然需要熟悉 Seeedstudio Grove 系统，请点击 [这里](http://seeed.wiki/Grove_System/)。 现在您可以做一些更实用的实验，它们是专门为这个套件设计的。 在 [这里](https://github.com/Seeed-Studio/Sketchbook_Starter_Kit_for_Arduino) 下载。

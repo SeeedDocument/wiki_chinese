@@ -11,6 +11,7 @@ nointro:
 以下是您可以在Seeed WiKi中找到的通信板列表。 该列表将不断更新。
 
 
+* [Grove-125KHz_RFID_Reader](ageurl: http://statics3.seeedstudio.com/images/product/gr125k.jpg)
 * [Grove-Bee_Socket](l: https://www.research.net/r/Grove_Bee_Socket)
 * [Grove-BLE_v1](ageurl: http://statics3.seeedstudio.com/images/product/grove ble.jpg)
 * [Grove-DMX512](l: https://www.research.net/r/Grove_DMX512)
