@@ -12,6 +12,7 @@ nointro:
 
 
 * [Getting_Started_with_Seeeduino](http://seeed.wiki/Getting_Started_with_Seeeduino)
+* [Grove_Inventor_Kit_for_microbit](http://seeed.wiki/Grove_Inventor_Kit_for_microbit)
 * [How_to_edit_Wiki](http://seeed.wiki/How_to_edit_Wiki)
 * [How_to_install_Arduino_Library](http://seeed.wiki/How_to_install_Arduino_Library)
 * [Upload_Code](http://seeed.wiki/Upload_Code)

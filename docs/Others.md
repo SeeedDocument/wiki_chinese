@@ -9,6 +9,7 @@ nointro:
 ---
 
 以下是您可以在Seeed WiKi中找到的Grove Other Board的列表。 该列表将不断更新。
+* [Grove-I2C_Hub](ageurl: http://statics3.seeedstudio.com/images/product/12C hub.jpg)
 * [Grove-MOSFET](ageurl: http://statics3.seeedstudio.com/images/product/mosfet.jpg)
 * [Grove-SPDT_Relay_30A](http://seeed.wiki/Grove_SPDT_Relay_30A)
 * [Grove-Wrapper](http://seeed.wiki/Grove-Wrapper)

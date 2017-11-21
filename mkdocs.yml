@@ -95,6 +95,9 @@ pages:
 
     - Raspberry:
       - Raspberry: Raspberry.md
+      - Raspberry_Pi_3_Model_B: Raspberry_Pi_3_Model_B.md
+
+
     - Wio:
       - Wio: Wio.md
       - Wio Link: Wio_Link.md
@@ -114,6 +117,11 @@ pages:
     
     - Rephone:
       - Rephone: Rephone.md
+      - Xadow Audio: Xadow_Audio.md
+      - Xadow GPS V2: Xadow_GPS_V2.md
+      - Xadow GSM Breakout: Xadow_GSM_Breakout.md
+      - Xadow GSMPlusBLE: Xadow_GSMPlusBLE.md
+
     - Respeaker:
       - Respeaker: Respeaker.md
       - Respeaker Mic Array: Respeaker_Mic_Array.md
@@ -136,6 +144,7 @@ pages:
       - GrovePi Plus: GrovePi_Plus.md
       - WireLess Gate Shield V1.0: WireLess_Gate_Shield_V1.0.md
       - Solar Charger Shield V2.2: Solar_Charger_Shield_V2.2.md
+      - Bluetooth Shield V2: Bluetooth_Shield_V2.md
 
     - Essentials:
       - Essentials: Essentials.md
@@ -264,6 +273,8 @@ pages:
       - Grove-Thumb Joystick: Grove-Thumb_Joystick.md
       - Grove-LoRa Radio: Grove_LoRa_Radio.md
       - Grove-125KHz RFID Reader: Grove-125KHz_RFID_Reader.md
+      - Grove-I2C Hub: Grove-I2C_Hub.md
+      
       
 
     - 显示器:
@@ -271,6 +282,7 @@ pages:
       - Grove-LCD RGB Backlight: Grove-LCD_RGB_Backlight.md
       - Grove-4 Digit Display: Grove-4-Digit_Display.md
       - Grove-OLED Display 0.96inch: Grove-OLED_Display_0.96inch.md
+      - Grove-Circular LED: Grove-Circular_LED.md
 
     - Communication:
       - Communication: Communication.md
@@ -291,6 +303,7 @@ pages:
     - IoT: IoT.md
   
   - kit套件:
+    - Grove Inventor Kit for microbit: Grove_Inventor_Kit_for_microbit.md
     - Grove Starter kit for Arduino 101: Grove_Starter_kit_for_Arduino_101.md
     - Grove Starter Kit for BeagleBone Green: Grove_Starter_Kit_for_BeagleBone_Green.md
     - Grove Maker Kit for Intel Joule: Grove-Maker_Kit_for_Intel_Joule.md
@@ -299,6 +312,8 @@ pages:
     - Grove Serial Camera Kit: Grove-Serial_Camera_Kit.md
     - Grove IoT Developer Kit Microsoft Azure Edition: Grove_IoT_Developer_Kit-Microsoft_Azure_Edition.md
     - Grove Starter Kit for IoT based on Raspberry Pi: Grove_Starter_Kit_for_IoT_based_on_Raspberry_Pi.md
+    - Grove-433MHz Simple RF Link Kit: Grove-433MHz_Simple_RF_Link_Kit.md
+    - LoRa LoRaWan Gateway Kit: LoRa_LoRaWan_Gateway_Kit.md
     - Sidekick Basic Kit for Arduino V2: Sidekick_Basic_Kit_for_Arduino_V2.md
     - Techbox Tricks: Techbox_Tricks.md
     - Wio Link Environment Kit: Wio_Link_Environment_Kit.md
@@ -312,6 +327,7 @@ pages:
     - PIR Motion Sensor Large Lens version: PIR_Motion_Sensor_Large_Lens_version.md
     - RF Explorer Software: RF_Explorer_Software.md
     - Codec Adaptive Wireless Relay: Codec-Adaptive_Wireless_Relay.md
+    - DC framework miniature solenoid VL-0063: DC_framework_miniature_solenoid_VL-0063.md
     - Bus Pirate v3 assembled: Bus_Pirate_v3_assembled.md
   
   - 使用教程:

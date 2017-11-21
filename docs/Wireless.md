@@ -14,3 +14,4 @@ nointro:
 * [BLE_Nitrogen](http://seeed.wiki/BLE_Nitrogen)
 * [Bluetooth_V4.0_HM_11_BLE_Module](http://seeed.wiki/Bluetooth_V4_HM_11_BLE_Module)
 * [Grove-Mega_Shield](http://seeed.wiki/Grove-Mega_Shield)
+* [LoRa_LoRaWan_Gateway_Kit](060622)

@@ -12,6 +12,7 @@ nointro:
 
 
 * [Grove-125KHz_RFID_Reader](ageurl: http://statics3.seeedstudio.com/images/product/gr125k.jpg)
+* [Grove-433MHz_Simple_RF_Link_Kit](ageurl: http://statics3.seeedstudio.com/images/product/433MHz RF kit.jpg)
 * [Grove-Bee_Socket](l: https://www.research.net/r/Grove_Bee_Socket)
 * [Grove-BLE_v1](ageurl: http://statics3.seeedstudio.com/images/product/grove ble.jpg)
 * [Grove-DMX512](l: https://www.research.net/r/Grove_DMX512)
