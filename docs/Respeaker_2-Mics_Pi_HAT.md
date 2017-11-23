@@ -67,6 +67,8 @@ ReSpeaker 2-Mics Pi HAT是专为AI和语音应用设计的Raspberry Pi双麦克�
 #### 2. 根据以下流程安装驱动：
 
 ```
+sudo apt-get update
+sudo apt-get upgrade
 git clone https://github.com/respeaker/seeed-voicecard.git
 cd seeed-voicecard
 sudo ./install.sh 2mic
@@ -172,7 +174,7 @@ pi@raspberrypi:~ $ google-oauthlib-tool --client-secrets /home/pi/client_secret_
 Please go to this URL: https://...
 Enter the authorization code:
 ```
-   
+
 这个时候应该显示: OAuth credentials initialized. 如果显示: InvalidGrantError then an invalid code was entered. 请重试, 确保拷贝整个code.
 
 #### 5. 安装 **pulseaudio** 并且让他在后台运行
@@ -339,6 +341,22 @@ $ googlesamples-assistant-pushtotalk
 由于Raspbian操作系统更新为Debian 9，我们将不再提供我们的Raspbian系统。 点击[这里](https://www.raspberrypi.org/downloads/raspbian/)获得最新的Raspbian操作系统。
 
 - [如何安装树莓派系统指南](https://www.raspberrypi.org/documentation/installation/installing-images/)
+
+
+## FAQ(疑问解答)
+1.
+
+
+Q:严格按照本 wiki 操作，驱动还是安装失败，怎么办？
+
+
+A:如果按照上述方法安装驱动均失败，请点击下面固件安装
+
+[我是固件](https://pan.baidu.com/s/1c1WqaWC)
+
+
+下载密码：cn78
+
 
 
 ## 资源下载

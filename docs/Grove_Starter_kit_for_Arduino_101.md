@@ -76,62 +76,63 @@ Grove 系统通过不同的变换器 (如传感器和电机)，扩展板和 Grov
 <tr>
 <td> Grove - Rotary Angle Sensor(P)  </td>
 <td> 1 件 </td>
-<td> [点击获取更多信息](https://item.taobao.com/item.htm?spm=a1z10.3-c.w4002-11172317909.9.190e4690lMhRlT&id=45554377762)
+<td> [点击获取更多信息](http://seeed.wiki/Grove-Rotary_Angle_Sensor/)
 </td></tr>
 <tr>
 <td> Grove – Button</td>
 <td>1 件 </td>
-<td> [点击获取更多信息](https://item.taobao.com/item.htm?spm=a1z10.3-c.w4002-11172317909.9.2357f100AARkz&id=531838497696)
+<td> [点击获取更多信息](http://seeed.wiki/Grove-Button/
+)
 </td></tr>
 <tr>
 <td>Grove - Touch Sensor </td>
 <td>1 件</td>
-<td> [点击获取更多信息](https://item.taobao.com/item.htm?spm=a1z10.3-c.w4002-11172317909.9.5b7770206nCo9i&id=45486442714)
+<td> [点击获取更多信息](http://seeed.wiki/Grove-Touch_Sensor/)
 </td></tr>
 <tr>
 <td>Grove LEDs</td>
 <td>1 件</td>
-<td>[点击获取更多信息](https://item.taobao.com/item.htm?spm=a1z10.3-c.w4002-11172317909.39.4e325633TVQ82&id=45476819992)
+<td>[点击获取更多信息](http://www.seeedstudio.com/wiki/Grove_-_LED)
 </td></tr>
 <tr>
 <td>Grove - Buzzer</td>
 <td>1 件</td>
-<td>[点击获取更多信息](https://item.taobao.com/item.htm?spm=a1z10.3-c.w4002-11172317909.9.56d1ecb1VKAxLi&id=520245748676)
+<td>[点击获取更多信息](http://seeed.wiki/Grove-Buzzer/)
 </td></tr>
 <tr>
 <td>Grove - Sound Sensor</td>
 <td>1 件</td>
-<td>[点击获取更多信息](https://item.taobao.com/item.htm?spm=a1z10.3-c.w4002-11172317909.13.3623e6fcF4zZm4&id=45507318433)
+<td>[点击获取更多信息](http://seeed.wiki/Grove-Sound_Sensor/)
 </td></tr>
 <tr>
 <td>Grove - Light Sensor</td>
 <td>1 件</td>
-<td>[点击获取更多信息](https://item.taobao.com/item.htm?spm=a1z10.3-c.w4002-11172317909.9.557338f0nt0fPE&id=544373791068)
+<td>[点击获取更多信息](http://seeed.wiki/Grove-Light_Sensor/)
 </td></tr>
 <tr>
 <td>Grove - Temperature Sensor</td>
 <td>1 件</td>
-<td>[点击获取更多信息](https://item.taobao.com/item.htm?spm=a1z10.3-c.w4002-11172317909.9.464598f84QoJ0r&id=520512844173)
+<td>[点击获取更多信息](http://seeed.wiki/Grove-Temperature_Sensor/)
 </td></tr>
 <tr>
 <td>Grove - Relay</td>
 <td>1 件</td>
-<td>[点击获取更多信息](https://item.taobao.com/item.htm?spm=a1z10.3-c.w4002-11172317909.14.3c382cbd4GDvEa&id=45670971061)
+<td>[点击获取更多信息](http://seeed.wiki/Grove-Relay/)
 </td></tr>
 <tr>
 <td>Grove - Servo</td>
 <td>1 件</td>
-<td>[点击获取更多信息](https://item.taobao.com/item.htm?spm=a230r.1.14.15.6f840604nQwo60&id=45554357772&ns=1&abbucket=13#detail)
+<td>[点击获取更多信息](http://seeed.wiki/Grove-Servo/)
 </td></tr>
 <tr>
 <td>Grove - LCD RGB Backlight</td>
 <td>1 件</td>
-<td>[点击获取更多信息](https://item.taobao.com/item.htm?spm=a1z10.3-c.w4002-11172317909.10.2015e1e0pFSSMk&id=45475311124)
+<td>[点击获取更多信息](http://seeed.wiki/Grove-LCD_RGB_Backlight/)
 </td></tr>
 <tr>
 <td>Base Shield V2.0</td>
 <td>1 件</td>
-<td>[点击获取更多信息](https://item.taobao.com/item.htm?spm=a1z10.3-c.w4002-11172317909.9.7643e0c6l07gP5&id=520233320144)
+<td>[点击获取更多信息](http://seeed.wiki/Base_Shield_V2/)
 </td></tr>
 <tr>
 <td>User Manual (printed copy) </td>

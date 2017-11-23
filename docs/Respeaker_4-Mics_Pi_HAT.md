@@ -70,6 +70,8 @@ sku: 103030216
 
 
 ```
+sudo apt-get update
+sudo apt-get upgrade
 git clone https://github.com/respeaker/seeed-voicecard.git
 cd seeed-voicecard
 sudo ./install.sh 4mic
@@ -143,15 +145,15 @@ aplay hello.wav                                      // 确保选择默认设备
 
 ![](https://github.com/SeeedDocument/ReSpeaker-4-Mic-Array-for-Raspberry-Pi/blob/master/img/rainbow.jpg?raw=true)
 
-#### 1. 打开SPI: 
-    - 输入： `sudo raspi-config`; 
-    - 选择 "Interfacing Options"; 
-    - 选择 "SPI"; 
+#### 1. 打开SPI:
+    - 输入： `sudo raspi-config`;
+    - 选择 "Interfacing Options";
+    - 选择 "SPI";
     - 选择 “Yes”  
     - 选择 “OK”
     - 选择 “Finish”
 
-#### 2. 控制APA102 LED的示例 
+#### 2. 控制APA102 LED的示例
 
 ```
 pi@raspberrypi:~ $ cd /home/pi
@@ -273,6 +275,20 @@ pi@raspberrypi:~ $ source ~/env/bin/activate                    # activate the v
 #### 3. 让我们High起来!
 
 现在请在虚拟环境下运行 `python ns_kws_doa_alexa.py` , 我们会在终端看到很多debug的消息. 当我们看到 **status code: 204**的时候, 请说 `snowboy`来唤醒respeaker。接下来respeaker上的led灯亮起来, 我们可以跟他对话, 比如问，"谁是最帅的?" 或者 "播放刘德华的男人哭吧哭吧不是罪"。小伙伴，尽情的High起来吧。
+
+## FAQ(疑问解答)
+1.
+
+
+Q:严格按照本 wiki 操作，驱动还是安装失败，怎么办？
+
+
+A:如果按照上述方法安装驱动均失败，请点击下面固件安装
+
+[我是固件](https://pan.baidu.com/s/1bprWJr5)
+
+
+下载密码：t1m7
 
 
 ## 资源下载

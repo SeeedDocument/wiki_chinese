@@ -146,6 +146,6 @@ MiniSense 100是一种低成本的悬臂式振动传感器，传感器上增加�
 
 ##   资料下载
 
-*   [Piezo Film Sensors Technical Manual](http://www.seeedstudio.com/depot/images/product/MSI-techman.pdf)
+- **[用户手册]** [Piezo Film Sensors Technical Manual](https://github.com/SeeedDocument/Piezo_Sensor-MiniSense_100/raw/master/res/MSI-techman.pdf)
 
-*   [MiniSense 100 Vibration Sensor Manual](http://www.seeedstudio.com/depot/images/product/MiniSense_100.pdf)
+- **[用户手册]** [MiniSense 100 Vibration Sensor Manual](https://github.com/SeeedDocument/Piezo_Sensor-MiniSense_100/raw/master/res/MiniSense_100.pdf)
