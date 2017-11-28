@@ -67,28 +67,84 @@ Grove 系统通过不同的变换器 (如传感器和电机)，扩展板和 Grov
 
 ###  **零件清单**
 
-零件名称|数量|链接
----|---|---
-Grove - Rotary Angle Sensor(P)|1 件 |[点击获取更多信息](http://seeed.wiki/Grove-Rotary_Angle_Sensor/)
-Grove – Button|1 件 |[点击获取更多信息](http://seeed.wiki/Grove-Button/)
-Grove - Touch Sensor|1 件| [点击获取更多信息](http://seeed.wiki/Grove-Touch_Sensor/)
-Grove LEDs|1 件|[点击获取更多信息](http://www.seeedstudio.com/wiki/Grove_-_LED)
-Grove - Buzzer|1 件|[点击获取更多信息](http://seeed.wiki/Grove-Buzzer/)
-Grove - Sound Sensor|1 件|[点击获取更多信息](http://seeed.wiki/Grove-Sound_Sensor/)
-Grove - Light Sensor|1 件|[点击获取更多信息](http://seeed.wiki/Grove-Light_Sensor/)
-Grove - Temperature Sensor|1 件|[点击获取更多信息](http://seeed.wiki/Grove-Temperature_Sensor/)
-Grove - Relay|1 件|[点击获取更多信息](http://seeed.wiki/Grove-Relay/)
-Grove - Servo|1 件|[点击获取更多信息](http://seeed.wiki/Grove-Servo/)
-Grove - LCD RGB Backlight|1 件|[点击获取更多信息](http://seeed.wiki/Grove-LCD_RGB_Backlight/)
-Base Shield V2.0|1 件|[点击获取更多信息](http://seeed.wiki/Base_Shield_V2/)
-User Manual (printed copy) | 1 件|[点击获取更多信息](https://github.com/SeeedDocument/Grove_Starter_kit_for_Arduino_101/raw/master/res/Grove_Starter_Kit_arduino_101_manual-printed_version-s.pdf)
+<table>
+<tr>
+<th>零件名称   </th>
+<th> 数量</th>
+<th> 链接
+</th></tr>
+<tr>
+<td> Grove - Rotary Angle Sensor(P)  </td>
+<td> 1 件 </td>
+<td> [点击获取更多信息](http://seeed.wiki/Grove-Rotary_Angle_Sensor/)
+</td></tr>
+<tr>
+<td> Grove – Button</td>
+<td>1 件 </td>
+<td> [点击获取更多信息](http://seeed.wiki/Grove-Button/
+)
+</td></tr>
+<tr>
+<td>Grove - Touch Sensor </td>
+<td>1 件</td>
+<td> [点击获取更多信息](http://seeed.wiki/Grove-Touch_Sensor/)
+</td></tr>
+<tr>
+<td>Grove LEDs</td>
+<td>1 件</td>
+<td>[点击获取更多信息](http://www.seeedstudio.com/wiki/Grove_-_LED)
+</td></tr>
+<tr>
+<td>Grove - Buzzer</td>
+<td>1 件</td>
+<td>[点击获取更多信息](http://seeed.wiki/Grove-Buzzer/)
+</td></tr>
+<tr>
+<td>Grove - Sound Sensor</td>
+<td>1 件</td>
+<td>[点击获取更多信息](http://seeed.wiki/Grove-Sound_Sensor/)
+</td></tr>
+<tr>
+<td>Grove - Light Sensor</td>
+<td>1 件</td>
+<td>[点击获取更多信息](http://seeed.wiki/Grove-Light_Sensor/)
+</td></tr>
+<tr>
+<td>Grove - Temperature Sensor</td>
+<td>1 件</td>
+<td>[点击获取更多信息](http://seeed.wiki/Grove-Temperature_Sensor/)
+</td></tr>
+<tr>
+<td>Grove - Relay</td>
+<td>1 件</td>
+<td>[点击获取更多信息](http://seeed.wiki/Grove-Relay/)
+</td></tr>
+<tr>
+<td>Grove - Servo</td>
+<td>1 件</td>
+<td>[点击获取更多信息](http://seeed.wiki/Grove-Servo/)
+</td></tr>
+<tr>
+<td>Grove - LCD RGB Backlight</td>
+<td>1 件</td>
+<td>[点击获取更多信息](http://seeed.wiki/Grove-LCD_RGB_Backlight/)
+</td></tr>
+<tr>
+<td>Base Shield V2.0</td>
+<td>1 件</td>
+<td>[点击获取更多信息](http://seeed.wiki/Base_Shield_V2/)
+</td></tr>
+<tr>
+<td>User Manual (printed copy) </td>
+<td> 1 件</td>
+<td> [点击获取更多信息](https://github.com/SeeedDocument/Grove_Starter_kit_for_Arduino_101/raw/master/res/Grove_Starter_Kit_arduino_101_manual-printed_version-s.pdf)
 </td></tr></table>
 
 ##  入门指导
 
 ###  Arduino 基础
 
-如果您是第一次接触 Arduino，您需要了解一些基本知识。我们为你准备了一些文件让您能够快速入门。请点击 [这里](https://www.arduino.cc/en/Tutorial/Foundations).
+如果您是第一次接触 Arduino，您需要了解一些基本知识。我们为您准备了一些文件让您能够快速入门。请点击 [这里](https://www.arduino.cc/en/Tutorial/Foundations).
 
 ###  Arduino 示例
 

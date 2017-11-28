@@ -14,6 +14,8 @@ nointro:
 
 * [Arduino_Breakout_for_LinkIt_Smart_7688_Duo](http://seeed.wiki/Arduino_Breakout_for_LinkIt_Smart_7688_Duo)
 * [Breakout_for_LinkIt_Smart_7688_v2.0](http://seeed.wiki/Breakout_for_LinkIt_Smart_7688_v2.0)
+* [Grove-Starter_Kit_for_LinkIt_ONE](ageurl: http://statics3.seeedstudio.com/images/starter kit for linkit one 1.jpg)
 * [LinkIt_ONE](l: https://www.surveymonkey.com/r/LinkIt_ONE)
 * [LinkIt_Smart_7688](http://seeed.wiki/LinkIt_Smart_7688)
 * [LinkIt_Smart_7688_Duo](l: https://www.surveymonkey.com/r/LS_7688_Duo)
+* [Sidekick_Basic_Kit_for_LinkIt_ONE](http://seeed.wiki/Sidekick_Basic_Kit_for_LinkIt_ONE)

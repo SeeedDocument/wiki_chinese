@@ -21,6 +21,7 @@ Grove - 执行器包括电机驱动器，LED显示屏，继电器，扬声器，
 * [Grove-I2C_Motor_Driver_V1.3](ageurl: https://statics3.seeedstudio.com/images/product/12Cmotor.jpg)
 * [Grove-Infrared_Emitter](ageurl: http://statics3.seeedstudio.com/images/101020026 1.jpg)
 * [Grove-Mini_Fan](http://seeed.wiki/Grove-Mini_Fan)
+* [Grove-Mini_I2C_Motor_Driver_v1.0](ageurl: https://statics3.seeedstudio.com/images/product/105020010 2.jpg)
 * [Grove-MP3_v2.0](http://seeed.wiki/Grove-MP3_v2.0)
 * [Grove-Recorder_v3.0](http://seeed.wiki/Grove-Recorder_v3.0)
 * [Grove-Relay](l: https://www.surveymonkey.com/r/Grove_Relay)
