@@ -10,6 +10,7 @@ nointro:
 
 以下是您可以在Seeed WiKi中找到的扩展板的列表。 列表将不断更新。
 
+* [4A_Motor_Shield](http://seeed.wiki/4A_Motor_Shield)
 * [Base_Shield_V2](http://seeed.wiki/Base_Shield_V2)
 * [Bluetooth_Shield_V2](http://seeed.wiki/Bluetooth_Shield_V2)
 * [CAN-BUS_Shield_V1.2](http://seeed.wiki/CAN-BUS_Shield_V1.2)

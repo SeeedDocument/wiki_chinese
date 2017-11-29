@@ -83,5 +83,6 @@ Grove - 传感器包括各种传感器输入模块。
 * [Grove-Touch_Sensor](ageurl: http://statics3.seeedstudio.com/images/101020037 1.jpg)
 * [Grove-Ultrasonic_Ranger](l: https://www.research.net/r/Grove-Ultrasonic-Ranger)
 * [Grove-UV_Sensor](ageurl: http://statics3.seeedstudio.com/images/101020043 1.jpg)
+* [Grove-Voltage_Divider](http://seeed.wiki/Grove-Voltage_Divider)
 * [Grove-Water_Sensor](ageurl: http://statics3.seeedstudio.com/images/101020018 1.jpg)
 * [Grove-XBee_Carrier](http://seeed.wiki/Grove-XBee_Carrier)
