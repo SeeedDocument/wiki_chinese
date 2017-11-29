@@ -192,12 +192,7 @@ BoosterPack 的设计是为了利用“内侧 20 个引脚”中的引脚 [21-40
 
 *   [10. Temperature Humidity Sensor ](https://item.taobao.com/item.htm?spm=a1z10.3-c.w4002-11172317909.18.2684116ePFFANk&id=520506479798)
 
-###   Find the Google doc here
-
-<dl><dd> [https://docs.google.com/document/d/1vD3C1WrGj6_sldslygKBayrhjV9vyxVxkiVRCs8r2jQ/edit?usp=sharing](https://docs.google.com/document/d/1vD3C1WrGj6_sldslygKBayrhjV9vyxVxkiVRCs8r2jQ/edit?usp=sharing)
-</dd></dl>
-
-##   资源下载
+## 资源下载
 ---
 - **[Eagle 文件]**[Hardware eagle files](https://github.com/SeeedDocument/Grove_Base_BoosterPack/raw/master/res/Grove_Base_BoosterPack_v1.0.zip)
-- **[用户手册]**[Grove Starter Kit For LaunchPad User's Manual](https://docs.google.com/document/d/1vD3C1WrGj6_sldslygKBayrhjV9vyxVxkiVRCs8r2jQ/edit?usp=sharing)
+- **[用户手册]**[Grove Starter Kit For LaunchPad User's Manual](https://github.com/SeeedDocument/Grove_Base_BoosterPack/raw/master/res/Grove%20Starter%20Kit%20Manual.pdf)
