@@ -30,7 +30,7 @@ Seeeduino v4.2基于Arduino UNO引导程序，ATmega16U2作为UART到USB转换�
 |Seeeduino V4.0 |2014年8月15日|![enter image description here](https://raw.githubusercontent.com/SeeedDocument/Seeed-WiKi/master/docs/images/EOL.png)不再销售|
 |Seeeduino V4.2 |2015年8月25日|[![enter image description here](https://raw.githubusercontent.com/SeeedDocument/Seeed-WiKi/master/docs/images/get_one_now_small.png)](https://item.taobao.com/item.htm?spm=a1z10.1-c.w5003-14858770850.14.45ee61bb204ZOM&id=45721222112&scene=taobao_shop)点击购买|
 
-###Seeeduino V4.2的新特性
+### Seeeduino V4.2的新特性
 
 V4.0 到 V4.2 有很多升级，如下表所示：
 
@@ -60,7 +60,7 @@ V4.0 到 V4.2 有很多升级，如下表所示：
 |![](https://raw.githubusercontent.com/SeeedDocument/SeeeduinoV4/master/images/project4.jpg)|![enter image description here](https://raw.githubusercontent.com/SeeedDocument/SeeeduinoV4/master/images/project5.jpg)|![enter image description here](https://raw.githubusercontent.com/SeeedDocument/SeeeduinoV4/master/images/project6.jpg)|
 | [Make it Now](http://www.instructables.com/id/Desk-promo/) | [Make it Now](http://www.instructables.com/id/How-to-Make-Your-Tiny-Tiger-Machine/) | [Make it Now](http://www.instructables.com/id/DIY-a-colorful-pyramid/)|
 
-##产品特性
+## 产品特性
 
 - 和Arduino UNO完全兼容
 - ATmega328 微处理器
@@ -73,7 +73,7 @@ V4.0 到 V4.2 有很多升级，如下表所示：
 - 可选3.3V 或者5V 系统电压
 
 
-##规格参数
+## 规格参数
 
 | 项目 | 	值  |
 | ----------------|--------------------|
@@ -90,7 +90,7 @@ V4.0 到 V4.2 有很多升级，如下表所示：
 |重量	|26g|
 
 
-#硬件概述
+# 硬件概述
 
 !!!Note
     本章节基于Seeeduino V4.2
@@ -126,7 +126,7 @@ USB转串口的引脚分配. 这些焊盘可以用于通过将板载ATmega328置
 !!!Warning
     当您在插拔micro USB的时候请您注意不要用力过猛，否则您可能会伤害它.
 
-##安装驱动
+## 安装驱动
 
 首先，您需要准备:
 
@@ -137,7 +137,7 @@ USB转串口的引脚分配. 这些焊盘可以用于通过将板载ATmega328置
     * Seeeduino V4.2 可以通过USB和外部供电接口供电，当使用USB数据线连接开发板后，绿色的电源指示灯（标注为PWR）将会点亮。
 
 
-###Windows系统
+### Windows系统
 
 !!!Note
     这个驱动适用于 Windows XP, Windows Vista, Windows 7, Windows 8/8.1 和 Windows 10.
@@ -153,12 +153,12 @@ USB转串口的引脚分配. 这些焊盘可以用于通过将板载ATmega328置
 - 最后，找到您刚刚下载的名为"seeed_usb_serial.inf"的驱动
 - Windows 将自动安装驱动。
 
-###Mac OSX
+### Mac OSX
 
 您不需要安装任何驱动.
 
 
-##入门指南
+## 入门指南
 
 !!!Note
     这部分基于Arduino 1.6.9，运行在 Windows 10下.
@@ -174,29 +174,29 @@ USB转串口的引脚分配. 这些焊盘可以用于通过将板载ATmega328置
      [点击这里设置啦](https://www.arduino.cc/en/Guide/Environment#languages)
 
 
-###打开名为Blink 的例程
+### 打开名为Blink 的例程
 打开Blink 例程: **File（文件） > Examples（示例） >01.Basics > Blink**.
 
 ![enter image description here](https://raw.githubusercontent.com/SeeedDocument/SeeeduinoV4/master/images/blink.png)
 
-###添加Seeeduino 到 您的Arduino IDE
+### 添加Seeeduino 到 您的Arduino IDE
 
 Arduino IDE 中没有默认包括 *Seeeduino V4.2* 的板卡, 点击查看 [怎样将seeeduio板卡加载到Arduino IDE](http://seeed.wiki/Seeed_Arduino_Boards/) 。
 
-###选择您的板卡
+### 选择您的板卡
 您需要从这里选 **Tools（工具） > Board（开发板）** 在菜单中选择和您的开发板对应的选项。本例程中**Seeeduino V4**.
 对应的应该选择 **Arduino V4** ，如下图所示：
 ![enter image description here](https://raw.githubusercontent.com/SeeedDocument/SeeeduinoV4/master/images/select_board.png)
 
-###Select your serial port
-Select the serial device of the Arduino board from the Tools | Serial Port menu. This is likely to be COM3 or higher (**COM1** and **COM2** are usually reserved for hardware serial ports). To find out, you can disconnect your Arduino board and re-open the menu; the entry that disappears should be the Arduino board. Reconnect the board and select that serial port.
+### 选择您的端口
+为您的开发板选择对应的端口 Tools（工具） | Serial Port（） menu. This is likely to be COM3 or higher (**COM1** and **COM2** are usually reserved for hardware serial ports). To find out, you can disconnect your Arduino board and re-open the menu; the entry that disappears should be the Arduino board. Reconnect the board and select that serial port.
 
 ![enter image description here](https://raw.githubusercontent.com/SeeedDocument/SeeeduinoV4/master/images/select_port.png)
 
 !!!Note
     On the Mac, this should be something with **/dev/tty.USBmodem**.
 
-###Upload the program
+### 升级程序
 Now, simply click the "Upload" button in the environment. Wait a few seconds - you should see the RX and TX LED indicators on the board flashing. If the upload is successful, the message "Done uploading." will appear in the status bar.
 
 ![enter image description here](https://raw.githubusercontent.com/SeeedDocument/SeeeduinoV4/master/images/upload_button.png)
@@ -205,11 +205,11 @@ A few seconds after the upload finishes, you should see the pin 13 (L) LED on th
 
 ![enter image description here](https://raw.githubusercontent.com/SeeedDocument/SeeeduinoV4/master/images/Seeeduino_v4_2_L.jpg)
 
-##Getting Started on Linux
+## Getting Started on Linux
 
 For using on Linux, please go to [Installing Arduino on Linux](http://playground.arduino.cc/Learning/Linux)
 
-##Resources
+## Resources
 
 * **Schematic**
     * [Seeeduino V4.2 in EAGLE file](https://github.com/SeeedDocument/SeeeduinoV4/raw/master/resources/SeeeduinoV4.2.zip)
@@ -232,9 +232,9 @@ For using on Linux, please go to [Installing Arduino on Linux](http://playground
     * [Wikipedia page for Arduino](https://en.wikipedia.org/wiki/Arduino)
     * [How to fit RF Explorer 3G+ IoT modules on Seeeduino](http://j3.rf-explorer.com/60-rfe/specifications/184-rf-explorer-3g-iot-for-seeeduino)
 
-##FAQ
+## FAQ
 
-####Q1. What's the difference between Arduino UNO and Seeeduino V4
+#### Q1. What's the difference between Arduino UNO and Seeeduino V4
 
 Seeeduino V4 is fully compatible with Arduino UNO. The mainly difference list below:
 
@@ -244,7 +244,7 @@ Seeeduino V4 is fully compatible with Arduino UNO. The mainly difference list be
 * DCDC circuit instead of LDO, more efficiency
 * Others circuit improve
 
-####Q2. I can't upload my sketch to Seeeduino V4
+#### Q2. I can't upload my sketch to Seeeduino V4
 
 Please check,
 
@@ -252,6 +252,6 @@ Please check,
 * If you choose the right Port and Board (Seeeduino V4)
 * Close and reopen Arduino IDE and try again
 
-####Q3. Where can I find technical support if I have some other issue.
+#### Q3. Where can I find technical support if I have some other issue.
 
 You can post a question to [Seeed Forum](http://www.seeed.cc/discover.html?t=Arduino) or send an email to **techsupport@seeed.cc**.

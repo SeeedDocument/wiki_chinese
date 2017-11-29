@@ -239,10 +239,10 @@ if __name__ == '__main__':
     main()
 ```
 
-## FAQ
+## FAQ（常见问题汇总）
 
 ### Q1： Respeaker Mic Array驱动安装问题？
-Windows需要安装驱动，linux（Ubuntu,Raspberry,MAC等）不需要安装驱动。点击[这里](https://github.com/Fuhua-Chen/ReSpeaker_Microphone_Array_Driver/raw/master/ReSpeakerMicrophoneArrayDriver.exe)下载驱动。在windows系统的设备管理器，看到麦克风阵列不能被识别，请安装以下流程来操作。
+Windows需要安装驱动，linux（Ubuntu,Raspberry,MAC等）不需要安装驱动。点击[这里](https://github.com/Fuhua-Chen/ReSpeaker_Microphone_Array_Driver/raw/master/ReSpeakerMicrophoneArrayDriver-20171017.zip)下载驱动。在windows系统的设备管理器，看到麦克风阵列不能被识别，请安装以下流程来操作。
 
 -  [安装驱动](https://github.com/Fuhua-Chen/ReSpeaker_Microphone_Array_Driver/raw/master/ReSpeakerMicrophoneArrayDriver.exe)
 
@@ -261,25 +261,25 @@ Windows需要安装驱动，linux（Ubuntu,Raspberry,MAC等）不需要安装驱
 -  利用Python脚本来采集音频数据：
 
     - XVSM固件采集2通道音频： （支持Unbuntu/Raspberry/Mac）
-            
+
         - 首先用[XVSM_RecordAudio_Ubuntu_Raspberry_Mac_getDeviceInfo.py](https://github.com/SeeedDocument/ReSpeaker_Mic_Array/raw/master/res/Respeaker_Mic_array_Scripts/2_Channel_XVSM_firmware_Python_Scripts/Record_Audio/XVSM_RecordAudio_Ubuntu_Raspberry_Mac_getDeviceInfo.py)   检测麦克风阵列的输入通道。
-        
+
         - 然后更改[XVSM_RecordAudio_Ubuntu_Raspberry_Mac_recordaudio.py](https://github.com/SeeedDocument/ReSpeaker_Mic_Array/raw/master/res/Respeaker_Mic_array_Scripts/2_Channel_XVSM_firmware_Python_Scripts/Record_Audio/XVSM_RecordAudio_Ubuntu_Raspberry_Mac_recordaudio.py) 的 **RESPEAKER_INDEX = 2** 的 2为检测到的通道， 运行程序来采集音频。
 
     - RAW固件采集8通道音频：（支持Unbuntu/Raspberry/Mac）
-        
+
         - 首先用[Raw_RecordAudio_Ubuntu_Raspberry_Mac_getDeviceInfo.py](https://github.com/SeeedDocument/ReSpeaker_Mic_Array/raw/master/res/Respeaker_Mic_array_Scripts/8_Channel_Raw_firmware_Python_Scripts/Record_Audio/Raw_RecordAudio_Ubuntu_Raspberry_Mac_getDeviceInfo.py) 麦克风阵列的输入通道。
-        
+
         - 然后更改[Raw_RecordAudio_Ubuntu_Raspberry_Mac_recordaudio.py](https://github.com/SeeedDocument/ReSpeaker_Mic_Array/raw/master/res/Respeaker_Mic_array_Scripts/8_Channel_Raw_firmware_Python_Scripts/Record_Audio/Raw_RecordAudio_Ubuntu_Raspberry_Mac_recordaudio.py) 的**RESPEAKER_INDEX = 2** 的 2为检测到的通道 ， 运行程序来采集音频。
 
 ### Q3： Respeaker Mic Array如何定位？
 
 - XVSM固件来定位： （支持Unbuntu/Raspberry/Mac）
-    
+
     - 运行脚本[XVSM_VAD_Ubuntu_Raspberry_Mac_get_direction.py](https://github.com/SeeedDocument/ReSpeaker_Mic_Array/raw/master/res/Respeaker_Mic_array_Scripts/2_Channel_XVSM_firmware_Python_Scripts/VAD/XVSM_VAD_Ubuntu_Raspberry_Mac_get_direction.py) 来定位
 
 - RAW固件来定位： （支持Unbuntu）
-    - 运行脚本[Raw_vad_doa_Ubuntu_get_direction.py](https://github.com/SeeedDocument/ReSpeaker_Mic_Array/raw/master/res/Respeaker_Mic_array_Scripts/8_Channel_Raw_firmware_Python_Scripts/VAD/Raw_vad_doa_Ubuntu_get_direction.py) 来定位， 注意需要下载 [gcc_phat.py](https://github.com/SeeedDocument/ReSpeaker_Mic_Array/raw/master/res/Respeaker_Mic_array_Scripts/8_Channel_Raw_firmware_Python_Scripts/VAD/gcc_phat.py)， [mic_array.py](https://github.com/SeeedDocument/ReSpeaker_Mic_Array/raw/master/res/Respeaker_Mic_array_Scripts/8_Channel_Raw_firmware_Python_Scripts/VAD/mic_array.py)， [pixel_ring.py](https://github.com/SeeedDocument/ReSpeaker_Mic_Array/raw/master/res/Respeaker_Mic_array_Scripts/8_Channel_Raw_firmware_Python_Scripts/VAD/pixel_ring.py)3个库文件，放在同一个目录下。 
+    - 运行脚本[Raw_vad_doa_Ubuntu_get_direction.py](https://github.com/SeeedDocument/ReSpeaker_Mic_Array/raw/master/res/Respeaker_Mic_array_Scripts/8_Channel_Raw_firmware_Python_Scripts/VAD/Raw_vad_doa_Ubuntu_get_direction.py) 来定位， 注意需要下载 [gcc_phat.py](https://github.com/SeeedDocument/ReSpeaker_Mic_Array/raw/master/res/Respeaker_Mic_array_Scripts/8_Channel_Raw_firmware_Python_Scripts/VAD/gcc_phat.py)， [mic_array.py](https://github.com/SeeedDocument/ReSpeaker_Mic_Array/raw/master/res/Respeaker_Mic_array_Scripts/8_Channel_Raw_firmware_Python_Scripts/VAD/mic_array.py)， [pixel_ring.py](https://github.com/SeeedDocument/ReSpeaker_Mic_Array/raw/master/res/Respeaker_Mic_array_Scripts/8_Channel_Raw_firmware_Python_Scripts/VAD/pixel_ring.py)3个库文件，放在同一个目录下。
 
 ### Q4： Respeaker Mic Array Python程序下载？
 
