@@ -185,7 +185,7 @@ $screen /dev/cu.usbserial-XXXXXXXX 57600
 **3.** 打开终端会话。
 
 
-**4.** 在终端中输入 **ls / dev / ttyUSB ***。 您应该看到设备列表。 寻找类似于 cu.usbserial-XXXXXXXX 的东西，其中 XXXXXXXX 通常是一个随机标识符。 这是用于访问系统控制台的串行设备。 例如：
+**4.** 在终端中输入 **ls / dev / ttyUSB **。 您应该看到设备列表。 寻找类似于 cu.usbserial-XXXXXXXX 的东西，其中 XXXXXXXX 通常是一个随机标识符。 这是用于访问系统控制台的串行设备。 例如：
 ```
 $ls /dev/ttyUSB*
 /dev/ttyUSB0
