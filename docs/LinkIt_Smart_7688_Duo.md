@@ -185,7 +185,7 @@ $screen /dev/cu.usbserial-XXXXXXXX 57600
 **3.** 打开终端会话。
 
 
-**4.** 在终端中输入 **ls / dev / ttyUSB **。 您应该看到设备列表。 寻找类似于 cu.usbserial-XXXXXXXX 的东西，其中 XXXXXXXX 通常是一个随机标识符。 这是用于访问系统控制台的串行设备。 例如：
+**4.** 在终端中输入 **ls / dev / ttyUSB**。 您应该看到设备列表。 寻找类似于 cu.usbserial-XXXXXXXX 的东西，其中 XXXXXXXX 通常是一个随机标识符。 这是用于访问系统控制台的串行设备。 例如：
 ```
 $ls /dev/ttyUSB*
 /dev/ttyUSB0
@@ -341,7 +341,7 @@ http://download.labs.mediatek.com/package_mtk_linkit_smart_7688_test_index.json
 * 对于 OS X，也不需要安装驱动程序，LinkIt Smart 7688 Duo 作为串行设备安装在/ dev / tty.usbmodem1413 下。 每个OS X 机器上的号码 1413 可能不同。
 
 
-##演示: 一个输出 Hello world 的例子
+### 演示: 一个输出 Hello world 的例子
 
 !!!Note
     为了避免本地应用程序开发中的内存不足，您应该在更强大的主机环境中设置本机应用程序进行开发环境，从而使您能够交叉编译 LinkIt Smart 7688 目标的可执行格式。 下表显示了 LinkIt Smart 7688 编程语言和主机上相关开发环境的概述。
@@ -350,7 +350,7 @@ http://download.labs.mediatek.com/package_mtk_linkit_smart_7688_test_index.json
 
  **1.** 使用 FileZilla 参考这个[tutorial](https://wiki.filezilla-project.org/FileZilla_Client_Tutorial_%28en%29)，服务器IP（替换 **主机名**）的地址是 inet addr 在以前的[切换到station模式](https://seeeddoc.github.io/LinkIt_Smart_7688_Duo#Switch_to_Station_mode)部分中找到，用户名是 root，密码是该部分中设置的密码。
 
-**2.** 打开文本编辑器，复制并粘贴以下示例代码，并将其保存为 **helloworld.py **。
+**2.** 打开文本编辑器，复制并粘贴以下示例代码，并将其保存为 **helloworld.py**。
 ```
 print "Hello World!"
 ```
