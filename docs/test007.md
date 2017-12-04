@@ -8,19 +8,23 @@ surveyurl: https://www.research.net/r/Seeeduino
 sku: 102010026
 ---
 
-
 <style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:0;}
-.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;}
-.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;}
+.tg  {border-collapse:collapse;border-spacing:0;border-color:#999;}
+.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:0px;overflow:hidden;word-break:normal;border-color:#999;color:#444;background-color:#F7FDFA;}
+.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:0px;overflow:hidden;word-break:normal;border-color:#999;color:#fff;background-color:#26ADE4;}
 .tg .tg-yw4l{vertical-align:top}
 </style>
 <table class="tg">
   <tr>
-    <th class="tg-yw4l" rowspan="2"><br>5V pin DC OUTput current</th>
-    <th class="tg-yw4l">With Micro USB 500mA Max</th>
+    <th class="tg-yw4l">Itim</th>
+    <th class="tg-yw4l">Valnue</th>
   </tr>
   <tr>
+    <td class="tg-yw4l"><br>5V pin DC OUTput current</td>
+    <td class="tg-yw4l">With Micro USB 500mA Max</td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l"><a href="http://wiki.seeed.cc/Seeeduino_v4.2/">链接名称</a></td>
     <td class="tg-yw4l">With DC Jack Power 2000mA Max</td>
   </tr>
 </table>
