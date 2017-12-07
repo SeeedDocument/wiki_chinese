@@ -26,4 +26,5 @@ Seeed Studio的座右铭之一是“增长差异”，现在已成为公司文�
 * [Seeeduino_Mega](http://seeed.wiki/Seeeduino_Mega)
 * [Seeeduino_v4.2](l: https://www.research.net/r/Seeeduino)
 * [Sidekick_Basic_Kit_for_Arduino_V2](http://seeed.wiki/Sidekick_Basic_Kit_for_Arduino_V2)
+* [test007](l: https://www.research.net/r/Seeeduino)
 * [UartSBee_v5](ageurl: http://statics3.seeedstudio.com/images/product/UartSBee V5.jpg)

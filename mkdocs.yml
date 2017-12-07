@@ -96,7 +96,7 @@ pages:
 
     - Raspberry:
       - Raspberry: Raspberry.md
-      - Raspberry_Pi_3_Model_B: Raspberry_Pi_3_Model_B.md
+      - Raspberry Pi 3 Model B: Raspberry_Pi_3_Model_B.md
 
 
     - Wio:
@@ -107,7 +107,7 @@ pages:
     - LinkIt:
       - LinkIt: LinkIt.md
       - LinkIt Smart 7688: LinkIt_Smart_7688.md
-      - LinkIt Smart 7688_Duo: LinkIt_Smart_7688_Duo.md
+      - LinkIt Smart 7688 Duo: LinkIt_Smart_7688_Duo.md
       - Breakout for LinkIt Smart 7688 v2.0: Breakout_for_LinkIt_Smart_7688_v2.0.md
       - Arduino Breakout for LinkIt Smart 7688 Duo: Arduino_Breakout_for_LinkIt_Smart_7688_Duo.md
       - LinkIt ONE: LinkIt_ONE.md
@@ -233,6 +233,9 @@ pages:
       - Grove-Speech Recognizer: Grove-Speech_Recognizer.md
       - Grove-Electricity Sensor: Grove-Electricity_Sensor.md
       - Grove-Luminance Sensor: Grove-Luminance_Sensor.md
+    
+    
+     
 
       
 
