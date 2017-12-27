@@ -98,7 +98,7 @@ pages:
     - Raspberry:
       - Raspberry: Raspberry.md
       - Raspberry Pi 3 Model B: Raspberry_Pi_3_Model_B.md
-      - Raspberry Pi Relay Board v1.0: Raspberry_Pi_Relay_Board_v1_0.md
+      - Raspberry Pi Relay Board v1.0: Raspberry_Pi_Relay_Board_v1.0.md
 
 
     - Wio:
@@ -160,7 +160,7 @@ pages:
 
     - Essentials:
       - Essentials: Essentials.md
-      - USB To Uart 5V 3V3: USB_To_Uart_5V_3V3
+      - USB To Uart 5V 3V3: USB_To_Uart_5V_3V3.md
 
 
     - Wireless:
@@ -241,6 +241,7 @@ pages:
       - Grove-Electricity Sensor: Grove-Electricity_Sensor.md
       - Grove-Luminance Sensor: Grove-Luminance_Sensor.md
       - Grove-80cm Infrared Proximity Sensor: Grove-80cm_Infrared_Proximity_Sensor.md
+      - Grove-TF Mini LiDAR: Grove-TF_Mini_LiDAR.md
     
     
      
@@ -322,7 +323,7 @@ pages:
       - G3-4 Water Flow sensor: G3-4_Water_Flow_sensor.md
       - G1-2 inch Water Flow Sensor: G1_and_2_inch_Water_Flow_Sensor.md
       - G1-8 Water Flow Sensor: G1-8_Water_Flow_Sensor.md  
-      - M11 1-25 Water flow Sensor: M11_1-25_Water_flow_Sensor.md  
+      - M111 25 Water flow Sensor: M11_1.25_Water_flow_Sensor.md
       
 
   - IoT:
@@ -350,8 +351,6 @@ pages:
     - Wio Link Deluxe Kit: Wio_Link_Deluxe_Kit.md
     - Wio Link Deluxe Plus Kit: Wio_Link_Deluxe_Plus_Kit.md
     - Sidekick Basic Kit for LinkIt ONE: Sidekick_Basic_Kit_for_LinkIt_ONE.md
-    - Grove Starter kit for LinkIt Smart7688 Duo: Grove_Starter_kit_for_LinkIt_Smart7688_Duo.md
-    - Grove Starter Kit v3: Grove_Starter_Kit_v3.md
   
   - MakerPro:
     - MakerPro: MakerPro.md
