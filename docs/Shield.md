@@ -16,6 +16,7 @@ nointro:
 * [CAN-BUS_Shield_V1.2](http://seeed.wiki/CAN-BUS_Shield_V1.2)
 * [CAN-BUS_Shield_V2.0](l: https://www.research.net/r/Bus_Shield_V2_0)
 * [How_to_edit_Wiki](http://seeed.wiki/How_to_edit_Wiki)
+* [Motor_Shield_V2.0](http://seeed.wiki/Motor_Shield_V2.0)
 * [Music_Shield_V2.2](ageurl: https://statics3.seeedstudio.com/images/107020003 1.jpg)
 * [NFC_Shield_V2.0](ageurl: http://statics3.seeedstudio.com/images/113030001 1.jpg)
 * [Relay_Shield_v3](http://seeed.wiki/Relay_Shield_v3)
