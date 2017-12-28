@@ -1,6 +1,6 @@
 ---
 title: Xadow Audio
-category: RePhone
+category: Rephone
 bzurl: https://www.seeedstudio.com/Xadow-Audio-p-2554.html
 oldwikiname: Xadow Audio
 prodimagename: Xadow_Audio.JPG

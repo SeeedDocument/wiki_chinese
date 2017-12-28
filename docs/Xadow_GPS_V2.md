@@ -1,6 +1,6 @@
 ---
 title: Xadow GPS V2
-category: RePhone
+category: Rephone
 bzurl: https://www.seeedstudio.com/Xadow-GPS-v2-p-2557.html
 oldwikiname: Xadow GPS V2
 prodimagename: Xadow_GPS_v2.JPG

@@ -24,6 +24,8 @@ nointro:
 * [G1-8_Water_Flow_Sensor](http://seeed.wiki/G1-8_Water_Flow_Sensor)
 * [G1_and_2_inch_Water_Flow_Sensor](http://seeed.wiki/G1_and_2_inch_Water_Flow_Sensor)
 * [G3-4_Water_Flow_sensor](http://seeed.wiki/G3-4_Water_Flow_sensor/)
+* [M11_1.25_Water_flow_Sensor](http://seeed.wiki/M11_1.25_Water_flow_Sensor)
+* [Mini_Soldering_Iron](l: https://www.research.net/r/Mini_Soldering_Iron)
 * [Photo_Reflective_Sensor](http://seeed.wiki/Photo_Reflective_Sensor)
 * [Piezo_Sensor-MiniSense_100](http://seeed.wiki/Piezo_Sensor-MiniSense_100)
 * [PIR_Motion_Sensor_Large_Lens_version](http://seeed.wiki/PIR_Motion_Sensor_Large_Lens_version/)

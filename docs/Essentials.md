@@ -13,3 +13,4 @@ nointro:
 
 
 * [Lipo_Rider_V1.3](http://seeed.wiki/Lipo_Rider_V1.3/)
+* [USB_To_Uart_5V_3V3](http://seeed.wiki/USB_To_Uart_5V_3V3)

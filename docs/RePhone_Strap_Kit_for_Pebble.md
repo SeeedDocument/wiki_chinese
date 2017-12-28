@@ -1,6 +1,6 @@
 ---
 title: RePhone Strap Kit for Pebble
-category: RePhone
+category: Rephone
 bzurl: https://www.seeedstudio.com/RePhone-Strap-Kit-for-Pebble-Time-p-2633.html
 oldwikiname:  RePhone Strap Kit for Pebble
 prodimagename:  Pebble3-04.png

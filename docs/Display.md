@@ -16,4 +16,5 @@ nointro:
 * [Grove-LED_Bar](http://seeed.wiki/Grove-LED_Bar)
 * [Grove-LED_String_Light](http://seeed.wiki/Grove-LED_String_Light)
 * [Grove-OLED_Display_0.96inch](http://seeed.wiki/Grove_OLED_0_96)
+* [Grove-OLED_Display_1.12inch](http://seeed.wiki/Grove-OLED_Display_1.12inch)
 * [Grove-Red_LED](http://seeed.wiki/Grove-Red_LED)
