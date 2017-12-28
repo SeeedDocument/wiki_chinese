@@ -15,6 +15,7 @@ nointro:
 * [Bluetooth_Shield_V2](http://seeed.wiki/Bluetooth_Shield_V2)
 * [CAN-BUS_Shield_V1.2](http://seeed.wiki/CAN-BUS_Shield_V1.2)
 * [CAN-BUS_Shield_V2.0](l: https://www.research.net/r/Bus_Shield_V2_0)
+* [Grove-XBee_Carrier](http://seeed.wiki/Grove-XBee_Carrier)
 * [How_to_edit_Wiki](http://seeed.wiki/How_to_edit_Wiki)
 * [Motor_Shield_V2.0](http://seeed.wiki/Motor_Shield_V2.0)
 * [Music_Shield_V2.2](ageurl: https://statics3.seeedstudio.com/images/107020003 1.jpg)
