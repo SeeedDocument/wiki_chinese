@@ -4,7 +4,6 @@ category: Communication
 bzurl: https://seeedstudio.com/Grove-GPS-p-959.html
 oldwikiname: Grove_-_GPS
 prodimagename: Grove-GPS.jpg
-bzprodimageurl: http://statics3.seeedstudio.com/images/113020003 1.jpg
 wikiurl: http://seeed.wiki/Grove-GPS
 sku: 113020003
 tags: grove_uart, io_3v3, io_5v, plat_duino, plat_bbg, plat_pi, plat_linkit,

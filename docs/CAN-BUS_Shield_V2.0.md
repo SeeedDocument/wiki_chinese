@@ -4,7 +4,7 @@ category: Shield
 bzurl: https://www.seeedstudio.com/CAN-BUS-Shield-V2-p-2921.html
 oldwikiname: CAN-BUS_Shield_V2.0
 prodimagename: CAN_BUS_Shield_V2.jpg
-surveyurl: https://www.research.net/r/Bus_Shield_V2_0
+surveyurl: http://seeed.wiki/CAN-BUS_Shield_V2.0
 sku: 103030215
 ---
 

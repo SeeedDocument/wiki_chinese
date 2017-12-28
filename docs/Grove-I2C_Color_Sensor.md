@@ -4,8 +4,7 @@ category: Sensor
 bzurl: https://seeedstudio.com/Grove-I2C-Color-Sensor-p-854.html
 oldwikiname: Grove_-_I2C_Color_Sensor
 prodimagename: Grove-I2C-Color-Sensor.jpg
-bzprodimageurl: http://statics3.seeedstudio.com/images/101020041 1.jpg
-surveyurl: https://www.research.net/r/Grove-I2C_Color_Sensor
+wikiurl: http://seeed.wiki/Grove-I2C_Color_Sensor
 sku: 101020041
 tags: grove_i2c, io_3v3, io_5v, plat_duino, plat_linkit
 ---

@@ -4,7 +4,7 @@ category: Sensor
 bzurl: https://www.seeedstudio.com/Grove-Dust-Sensor-p-1050.html
 oldwikiname: Grove - Dust Sensor
 prodimagename: Dust_sensor.JPG
-surveyurl: https://www.research.net/r/grove-dust-sensor
+wikiurl: http://seeed.wiki/Grove-Dust_Sensor/
 sku: 101020012
 tags: plat_duino
 ---

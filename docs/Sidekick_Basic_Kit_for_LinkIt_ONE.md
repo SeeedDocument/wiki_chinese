@@ -20,64 +20,64 @@ sku:    110060038
 
 ##   基础
 
-让我们用一个晶体管，LED 和一个拨动开关构建一个简单的电路。发光二极管 (LED) 将电能转换为可见光。晶体管是电子器件中的一个基本组成部分，可用作开关或电流放大器。在这里，我们使用晶体管间接作为开关来打开和关闭 LED。
+让我们用一个晶体管，LED和一个拨动开关建立一个简单的电路。 发光二极管（LED）将电能转换为可见光。 晶体管是电子器件中的一个基本组成部分，可用作开关或电流放大器。 在这里，我们使用晶体管间接使用开关来打开和关闭LED。
 
-点击 [这里](http://wiki.seeed.cc/LinkIt_ONE_Tutorial-The_Basics/) 查看完整的教程。
+Click [here](/LinkIt_ONE_Tutorial-The_Basics) to see the full tutorial.
 
-##   教程 2 : Hello World
+##   Lesson 2: Hello World
 
-在前面的章节中，我们已经对如何用电子元件控制 LED 有所了解，现在让我们用一些软件来自动控制 LED。您只需上传本节中提供的代码即可。代码将会先打开 LED，延迟 3 秒后将其关闭。让我们开始使用 LinkIt 板。
+In the previous section we've got an insight about how to control an LED with electronic components but lets do some gimmicks with software for automatic control of the LED. You just have to upload the code that is available in this section. The code written initially switches ON the LED, after a delay of 3sec it switches it OFF. Lets start using the LinkIt board.
 
-点击 [这里](http://wiki.seeed.cc/LinkIt_ONE_Tutorial-Hello_World/) 查看完整的教程。
+Click [here](/LinkIt_ONE_Tutorial-Hello_World) to see the full tutorial.
 
-##   教程 3 : Push Button (按钮)
+##   Lesson 3: Push Button
 
-我们从前面的章节中了解到软件和硬件是如何工作的。在本章中，我们将学习如何整合软件和硬件用以控制LED。按照图 3.2 所示进行面包板连接并上传代码。现在这个电路作为一个双向开关，当您按下左侧的按钮时，LED 发光；当按下右侧的按钮时，LED关闭。
+We now got an insight of how a software and hardware works from the previous chapter. In this chapter we will learn how to integrate both software and hardware for the control of the LED. Make breadboard connections as shown in the Fig 3.2 and upload the code. Now this circuit operates as a two way switch when you press the left side push button switch the LED glows and when the right side push button is pressed the LED is switched OFF.
 
-点击 [这里](http://wiki.seeed.cc/LinkIt_ONE_Tutorial-Push_Button/) 查看完整的教程。
+Click [here](/LinkIt_ONE_Tutorial-Push_Button) to see the full tutorial.
 
-##   教程 4 : Marquee (跑马灯)
+##   Lesson 4: Marquee
 
-前面几节中的实验只使用了一个 LED，为了显示令人眼花缭乱的光效，可以使用三个 LED。按照图 4.2 所示进行连接，并上传下面给出的代码，然后观察发生的变化。
+The experiments in the previous sections used only one LED but to show dazzling light effects lets use three LEDs. Make connections as shown in the Fig 4.2 and upload the code given below and observe the changes that happens.
 
-点击 [这里](http://wiki.seeed.cc/LinkIt_ONE_Tutorial-Marquee/) 查看完整的教程。
+Click [here](/LinkIt_ONE_Tutorial-Marquee) to see the full tutorial.
 
-##   教程 5 : Colorful World (多彩的世界)
+##   Lesson 5: Colorful World
 
-我们现在知道如何控制 LED。R-Red G-Green B-Blue 是基本色，当他们以不同比例混合时，产生不同颜色。RGB LED 由四个引脚组成，长引线是正极，另外三个引脚用于控制 RGB 颜色。如图 5.2 所示的连接硬件，并上传代码。
+We now know how to control the LED's lets combine it with basic idea about combining colors. The R-Red G-Green B-Blue are the primary colors these colors when mixed in different proportion gives different colors. An RGB LED consists of four pins the long lead is the positive terminal and the other three lead are for controlling RGB colors. Make connections as shown in the Fig5.2 and upload the code.
 
-点击 [这里](http://wiki.seeed.cc/LinkIt_ONE_Tutorial-Colorful_World/) 查看完整的教程。
+Click [here](/LinkIt_ONE_Tutorial-Colorful_World) to see the full tutorial.
 
-##   教程 6 : Analog Interface (模拟接口)
+##   Lesson 6: Analog Interface
 
-在前面的章节中，我们学习了如何使用数字接口来控制电路的输入和输出。在本节中，我们将学习如何使用称为电位计 (也称为可变电阻器) 的模拟设备来改变输出。电位器用于在 0 ~ 5V 范围内改变电压。MPU 读取 0-1023 范围内的电压值模拟值，可以用来控制 LED ( PWM模拟输出接口) 的亮度。如果电位器顺时针旋转，LED 会逐渐变亮。如果逆时针旋转，LED 会逐渐变暗。
+In the previous sections, we learned how to control the circuit's input and output using digital interface. In this section, we will learn how to vary the output using an analog device called a potentiometer (also known as a variable resistor). A potentiometer is used to vary the voltage in the range of 0 ~ 5V. The MPU reads the voltage value in the range of 0-1023.This can be used to control the brightness of the LED (PWM simulation output interface). If the potentiometer is turned clockwise, the LED brightens gradually. If it is rotated anticlockwise, the luminosity fades.
 
-点击 [这里](http://wiki.seeed.cc/LinkIt_ONE_Tutorial-Analog_Interface/) 查看完整的教程。
+Click [here](/LinkIt_ONE_Tutorial-Analog_Interface) to see the full tutorial.
 
-##   教程 7 : Mini Servo (舵机)
+##   Lesson 7: Mini Servo
 
-舵机通常用于小型机器人和其他机器的控制角位置。它由一个小齿轮箱包裹，并由定时控制脉冲定位。在本节中，我们通过电位计控制舵机的角度位置。
+Servo motor (servo) is commonly used in small robots and other machines to control angular position. It is wrapped by a small gear box, and positioned by the timing control pulses. In this section we control the angular position of the mini servo with the help of potentiometer.
 
-点击 [这里](http://wiki.seeed.cc/LinkIt-ONE-Tutorial---Mini-Servo/) 查看完整的教程。
+Click [here](/LinkIt_ONE_Tutorial-Mini_Servo) to see the full tutorial.
 
-##   教程 8 : Light Sensor (光传感器)
+##   Lesson 8: Light Sensor
 
-是时候知道一些新的传感器了，它们可以使我们的项目更有趣。光敏电阻 (光敏电阻或光电池) 是根据环境光的强度改变其电阻值的光敏元件。蜂鸣器是一种电声装置，用于在连接到电源时产生标准音调。我们将在实验中使用这两个组件。
+It's time to know about new sensors that could make our projects even more interesting. A photoresistor (light dependent resistor or photocell) is a light sensor which varies its resistance value based on the intensity of the ambient light. A buzzer is a electro-acoustic device used to generate standard tone when it is connected to the power supply. Lets use both these components in our experiments.
 
-点击 [这里](http://wiki.seeed.cc/LinkIt_ONE_Tutorial-Light-Sensor/) 查看完整的教程。
+Click [here](/LinkIt_ONE_Tutorial-Light_Sensor) to see the full tutorial.
 
-##   教程 9 : SMS control the LED (短信控制LED)
+##   Lesson 9: SMS control the LED
 
-在这一节中，我们将实现一些很酷的功能。LinkIt One 的突出特点集成了通信模块。我们正在通过 GSM 通信模块来传输消息，开关状态改变以开关 LED。首先连接天线，然后将 SIMCARD 插入 LinkIt One 的插槽，然后按照原理图连接电路。使用 GSM 手机，编辑信息内容 ON 或 OFF，发送指定的号码 (SIM 号码)，现在可以控制 LED 开关状态，并进行全局同步。
+In this section, we achieve some cool function. Outstanding characteristic of LinkIt One is integrated with the communication module. We are following through GSM communication module to transmit messages, the switch state to pass to change LED. This will be exciting. First connect with the antenna, and then insert a SIMCARD into the slot of the LinkIt One, then according to the schematic connected circuit. Use a mobile phone with GSM, edit the message content ON or OFF, send the specified number (the SIM number), now you can control the LED switch state, And global synchronization.
 
-点击 [这里](http://wiki.seeed.cc/LinkIt_ONE_Tutorial-SMS_control_the_LED/) 查看完整的教程。
+Click [here](/LinkIt_ONE_Tutorial-SMS_control_the_LED) to see the full tutorial.
 
-##   教程 10 : Get temperature with Webpage (通过网页获取温度)
+##   Lesson 10: Get temperature with Webpage
 
-LinkIt One 具有 Wi-Fi 通信功能。我们通过 LinkIt One 收集了一些数据。作为 Internet AP 通过提供 Web Server 来支持数据访问。通过浏览器访问相应的 IP 地址可以获取数据。下一步您需要连接电路，从温度传感器获取数据。然后配置 Wi-Fi 天线，并连接到网络，请选择网络并输入三个参数，网络名称 (WiFi_AP)，访问密码 (WIFI_PASSWORD) 和路由器的传输模式 (选项 LWIFI_OPEN, LWIFI_WPA, LWIFI_WEP)。最后，代码被上传到 LinkIt One。使用网络终端设备，打开浏览器并输入 IP 地址即可获取温度数据。(通过 DHCP 路由器访问访问 IP 地址分配)
+LinkIt One with Wi-Fi communication function. We have collected some data through the LinkIt One.  As the Internet AP to support data access by providing Web Server. Access to the corresponding IP address can get the data with browser. Next step you need to connect circuit, data acquisition from temperature sensor. Then well equipped with Wi-Fi antennas you and connected to the network, please have a choise with the network fill in the three parameters, the network name (WiFi_AP), access password (WIFI_PASSWORD), and transmission mode of router (options LWIFI_OPEN, LWIFI_WPA, LWIFI_WEP). Finally, the code is uploaded to the LinkIt One. Use of terminal device with network, open the browser and enter the IP address will obtain the temperature data. (Visit the IP address assignment via DHCP router access)
 
-点击 [这里](http://wiki.seeed.cc/LinkIt_ONE_Tutorial-Get_temperature_with_Webpage/) 查看完整的教程。
+Click [here](/LinkIt_ONE_Tutorial-Get_temperature_with_Webpage) to see the full tutorial.
 
-##   资源下载
+##   Resources
 
-*   **[其他资源]** [Github Repo for Sickkick Basic Kit for LinkIt ONE](https://github.com/Seeed-Studio/Sidekick_Basic_Kit_for_LinkIt)
+*   [Github Repo for Sickkick Basic Kit for LinkIt ONE](https://github.com/Seeed-Studio/Sidekick_Basic_Kit_for_LinkIt)

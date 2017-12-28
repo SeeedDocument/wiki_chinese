@@ -4,7 +4,6 @@ category: Sensor
 bzurl: https://seeedstudio.com/Grove-Collision-Sensor-p-1132.html
 oldwikiname: Grove_-_Collision_Sensor
 prodimagename: Grove_–_Collision_Sensor_photo.jpg
-bzprodimageurl: http://statics3.seeedstudio.com/images/101020005 1.jpg
 wikiurl: http://seeed.wiki/Grove-Collision_Sensor
 sku: 101020005
 tags: grove_digital, io_3v3, io_5v, plat_duino, plat_linkit, plat_pi, plat_bbg

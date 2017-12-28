@@ -4,7 +4,6 @@ category: Sensor
 bzurl: https://seeedstudio.com/Grove-6-Axis-Accelerometer&Compass-v2.0-p-2476.html
 oldwikiname: Grove_-_6-Axis_Accelerometer&Compass_V2.0
 prodimagename: Accelerometer_And_Compass_v2.JPG
-bzprodimageurl: http://statics3.seeedstudio.com/images/product/101020081 1.jpg
 wikiurl: http://seeed.wiki/Grove-6-Axis_AccelerometerAndCompass_V2_0
 sku: 101020081
 tags: grove_i2c, io_3v3, io_5v, plat_duino, plat_bbg

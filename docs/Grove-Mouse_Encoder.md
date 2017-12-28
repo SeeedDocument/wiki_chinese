@@ -4,8 +4,7 @@ category: Sensor
 bzurl: https://seeedstudio.com/Grove-Mouse-Encoder-p-2607.html
 oldwikiname: Grove_-_Mouser_Encoder
 prodimagename: Grove-Mouse_Encoder_product_view.jpg
-bzprodimageurl: http://statics3.seeedstudio.com/images/product/103020030 1.jpg
-surveyurl: https://www.research.net/r/Grove-Mouse_Encoder
+wikiurl: http://seeed.wiki/Grove-Mouse_Encoder
 sku: 103020030
 ---
 

@@ -4,7 +4,6 @@ category: Sensor
 bzurl: https://seeedstudio.com/Grove-3-Axis-Digital-Accelerometer(±1.5g)-p-765.html
 oldwikiname: Grove_-_3-Axis_Digital_Accelerometer(±1.5g)
 prodimagename: 3_aix_acc.jpg
-bzprodimageurl: http://statics3.seeedstudio.com/images/101020039 1.jpg
 wikiurl: http://seeed.wiki/Grove-3-Axis_Digital_Accelerometer-1.5g
 sku: 101020039
 tags: grove_i2c, io_3v3, io_5v, plat_duino, plat_linkit, plat_wio

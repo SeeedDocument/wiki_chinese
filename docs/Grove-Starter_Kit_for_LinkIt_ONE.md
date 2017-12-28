@@ -4,7 +4,6 @@ category: LinkIt
 bzurl: https://seeedstudio.com/Grove-Starter-Kit-for-LinkIt-ONE-p-2028.html
 oldwikiname: Grove_-_Starter_Kit_for_LinkIt_ONE
 prodimagename: Grove_Starter_Kit_for_LinkIt_ONE_530x397.jpg
-bzprodimageurl: http://statics3.seeedstudio.com/images/starter kit for linkit one 1.jpg
 wikiurl: http://seeed.wiki/Grove-Starter_Kit_for_LinkIt_ONE
 sku: 110060039
 ---

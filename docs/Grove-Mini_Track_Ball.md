@@ -4,8 +4,7 @@ category: Sensor
 bzurl: https://seeedstudio.com/Grove-Mini-Track-Ball-p-2586.html
 oldwikiname: Grove_-_Mini_Track_Ball
 prodimagename: Grove-Mini_Track_ball.jpg
-bzprodimageurl: http://statics3.seeedstudio.com/images/product/101020091 3.jpg
-surveyurl: https://www.research.net/r/Grove-Mini_Track_Ball
+wikiurl: http://seeed.wiki/Grove-Mini_Track_Ball
 sku: 101020091
 ---
 

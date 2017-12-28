@@ -4,8 +4,7 @@ category: Sensor
 bzurl: https://seeedstudio.com/Grove-UV-Sensor-p-1540.html
 oldwikiname: Grove_-_UV_Sensor
 prodimagename: UV_Sensor_01.jpg
-bzprodimageurl: http://statics3.seeedstudio.com/images/101020043 1.jpg
-surveyurl: https://www.research.net/r/Grove-UV_Sensor
+wikiurl: http://seeed.wiki/Grove-UV_Sensor
 sku: 101020043
 tags: grove_analog, io_3v3, io_5v, plat_duino, plat_linkit
 ---

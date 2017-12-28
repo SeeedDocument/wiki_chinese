@@ -4,7 +4,6 @@ category: Actuator
 bzurl: https://seeedstudio.com/Grove-Variable-Color-LED-p-852.html
 oldwikiname: Grove_-_Variable_Color_LED
 prodimagename: Variable_Color_LED1.jpg
-bzprodimageurl: http://statics3.seeedstudio.com/images/product/Variable Color LED.jpg
 wikiurl: http://seeed.wiki/Grove-Variable_Color_LED
 sku: 104020001
 tags: grove_digital, io_3v3, io_5v, plat_duino, plat_pi, plat_bbg

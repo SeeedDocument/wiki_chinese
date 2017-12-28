@@ -4,7 +4,6 @@ category: Sensor
 bzurl: https://seeedstudio.com/Grove-3-Axis-Analog-Accelerometer-p-1086.html
 oldwikiname: Grove_-_3-Axis_Analog_Accelerometer
 prodimagename: Grove-3-axis_Analog_Accelerometer_photo.JPG
-bzprodimageurl: http://statics3.seeedstudio.com/images/P2241478.JPG
 wikiurl: http://seeed.wiki/Grove-3-Axis_Analog_Accelerometer
 sku: 101020051
 tags: grove_i2c, io_3v3, io_5v, plat_duino, plat_linkit

@@ -4,8 +4,7 @@ category: Communication
 bzurl: https://seeedstudio.com/Grove-NFC-Tag-p-1866.html
 oldwikiname: Grove_-_NFC_Tag
 prodimagename: Grove-NFC_Tag_uasge.jpg
-bzprodimageurl: http://statics3.seeedstudio.com/images/product/grove nfc tag.jpg
-surveyurl: https://www.research.net/r/Grove-NFC_Tag
+wikiurl: http://seeed.wiki/Grove-NFC_Tag
 sku: 101020070
 tags: grove_i2c, io_3v3, io_5v, plat_duino
 ---

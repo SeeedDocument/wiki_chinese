@@ -4,7 +4,7 @@ category: Sensor
 bzurl: https://www.seeedstudio.com/Grove-Gas-Sensor(O2)-p-1541.html
 oldwikiname: Grove_-_Gas_Sensor(O₂)
 prodimagename: cover.jpg
-surveyurl: https://www.research.net/r/Gas_Sensor_O2
+wikiurl: http://seeed.wiki/Grove-Gas_Sensor-O2/
 sku: 101020002
 tags: plat_duino, grove_analog, io_3v3, io_5v
 ---

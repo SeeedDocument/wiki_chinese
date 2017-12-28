@@ -4,8 +4,7 @@ category: Sensor
 bzurl: https://seeedstudio.com/Grove-I2C-Touch-Sensor-p-840.html
 oldwikiname: Grove_-_I2C_Touch_Sensor
 prodimagename: Grove-I2C-Touch-Sensor.jpg
-bzprodimageurl: http://statics3.seeedstudio.com/images/P3202380.jpg
-surveyurl: https://www.research.net/r/Grove-I2C_Touch_Sensor
+wikiurl: http://seeed.wiki/Grove-I2C_Touch_Sensor
 sku: 101020047
 tags: grove_i2c, io_3v3, io_5v, plat_duino, plat_linkit
 ---

@@ -4,8 +4,7 @@ category: Sensor
 bzurl: https://seeedstudio.com/Grove-Touch-Sensor-p-747.html
 oldwikiname: Grove_-_Touch_Sensor
 prodimagename: Grove-Touch_Sensor.jpg
-bzprodimageurl: http://statics3.seeedstudio.com/images/101020037 1.jpg
-surveyurl: https://www.research.net/r/Grove-Touch_Sensor
+wikiurl: http://seeed.wiki/Grove-Touch_Sensor
 sku: 101020037
 tags: grove_digital, io_3v3, io_5v, plat_duino, plat_linkit, plat_pi, plat_bbg
 ---

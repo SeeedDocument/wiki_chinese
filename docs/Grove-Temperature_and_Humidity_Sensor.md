@@ -4,8 +4,7 @@ category: Sensor
 bzurl: https://www.seeedstudio.com/Grove-Temp&Humi-Sensor-p-745.html
 oldwikiname: Grove_-_Temperature&Humidity_Sensor
 prodimagename: Grove-TempAndHumiSensor.jpg
-bzprodimageurl: https://statics3.seeedstudio.com/images/101020011 1.jpg
-surveyurl: https://www.research.net/r/Grove-TemperatureAndHumidity_Sensor
+wikiurl: http://seeed.wiki/Grove-Temperature_and_Humidity_Sensor/
 sku: 101020011
 ---
 

@@ -4,7 +4,7 @@ category: Sensor
 bzurl: https://www.seeedstudio.com/Grove-Temperature%26Humidity-Sensor-Pro-p-838.html
 oldwikiname: Grove - Temperature and Humidity Sensor Pro
 prodimagename:
-surveyurl: https://www.surveymonkey.com/r/Grove_Temperature_and_Humidity_Sensor_Pro
+wikiurl: http://seeed.wiki/Grove-Temperature_and_Humidity_Sensor_Pro/
 sku: 101020019
 tags: io_3v3, io_5v, plat_duino, plat_pi
 

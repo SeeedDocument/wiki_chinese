@@ -3,9 +3,7 @@ title: Grove - Chainable RGB LED
 category: Actuator
 bzurl: https://seeedstudio.com/Grove-Chainable-RGB-LED-p-850.html
 oldwikiname: Grove_-_Chainable_RGB_LED
-prodimagename: Chanbalelednb1.jpg
-bzprodimageurl: http://statics3.seeedstudio.com/images/product/chanbalelednb1.jpga
-surveyurl: https://www.research.net/r/Grove-Chainable_RGB_LED
+wikiurl: http://seeed.wiki/Grove-Chainable_RGB_LED
 sku: 104030006
 tags: grove_digital, io_3v3, io_5v, plat_duino, plat_linkit, plat_bbg
 ---

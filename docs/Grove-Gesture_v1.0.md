@@ -4,7 +4,7 @@ category: Sensor
 bzurl: https://www.seeedstudio.com/Grove-Gesture-p-2463.html
 oldwikiname: Grove - Gesture V1.0
 prodimagename: Breakout_for_LinkIt_Smart_7688_v2.0_product_view_700.jpg
-surveyurl: https://www.surveymonkey.com/r/grove-gesture-v1
+urlwiki: http://seeed.wiki/Grove-Gesture_v1.0/
 sku: 101020083
 ---
 

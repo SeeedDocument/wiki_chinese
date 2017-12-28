@@ -4,8 +4,7 @@ category: Sensor
 bzurl: https://seeedstudio.com/Grove-HCHO-Sensor-p-1593.html
 oldwikiname: Grove_-_HCHO_Sensor
 prodimagename: HCHO_Sensor_01.jpg
-bzprodimageurl: http://statics3.seeedstudio.com/images/product/grove HCHO.jpg
-surveyurl: https://www.research.net/r/Grove-HCHO_Sensor
+wikiurl: http://seeed.wiki/Grove-HCHO_Sensor
 sku: 101020001
 tags: grove_analog, io_5v, plat_duino, plat_linkit
 ---

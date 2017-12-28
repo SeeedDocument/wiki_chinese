@@ -4,8 +4,7 @@ category: Shield
 bzurl: https://www.seeedstudio.com/Music-Shield-V2.0-p-1372.html
 oldwikiname: Music_Shield_V2.2
 prodimagename: Music_Shield_Picture.jpg
-bzprodimageurl: https://statics3.seeedstudio.com/images/107020003 1.jpg
-surveyurl: https://www.research.net/r/Music_Shield_V2_2
+wikiurl: http://seeed.wiki/Music_Shield_V2.2
 sku: 107020003
 ---
 

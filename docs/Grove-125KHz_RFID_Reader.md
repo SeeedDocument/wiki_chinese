@@ -4,7 +4,6 @@ category: Communication
 bzurl: https://seeedstudio.com/Grove-125KHz-RFID-Reader-p-1008.html
 oldwikiname: Grove_-_125KHz_RFID_Reader
 prodimagename: Grove-125KHz_RFID_Reader.jpg
-bzprodimageurl: http://statics3.seeedstudio.com/images/product/gr125k.jpg
 wikiurl: http://seeed.wiki/Grove-125KHz_RFID_Reader
 sku: 113020002
 tags: grove_digital, io_5v, plat_duino, plat_pi

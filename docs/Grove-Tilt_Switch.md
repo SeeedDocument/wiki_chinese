@@ -4,7 +4,6 @@ category: Sensor
 bzurl: https://seeedstudio.com/Grove-Tilt-Switch-p-771.html
 oldwikiname: Grove_-_Tilt_Switch
 prodimagename: Tilt1.jpg
-bzprodimageurl: http://statics3.seeedstudio.com/images/product/gbtlt.jpg
 wikiurl: http://seeed.wiki/Grove-Tilt_Switch
 sku: 101020025
 tags: grove_digital, io_3v3, io_5v, plat_duino, plat_pi, plat_bbg

@@ -4,8 +4,7 @@ category: Sensor
 bzurl: https://seeedstudio.com/Grove-Electromagnet-p-1820.html
 oldwikiname: Grove_-_Electromagnet
 prodimagename: Grove_Electromagnet_02.jpg
-bzprodimageurl: http://statics3.seeedstudio.com/images/product/Grove Electromagnet.jpg
-surveyurl: https://www.research.net/r/Grove-Electromagnet
+wikiurl: http://seeed.wiki/Grove-Electromagnet
 sku: 101020073
 tags: grove_digital, io_5v, plat_duino, plat_wio
 ---

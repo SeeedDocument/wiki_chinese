@@ -4,8 +4,7 @@ category: Sensor
 bzurl: https://seeedstudio.com/Grove-EMG-Detector-p-1737.html
 oldwikiname: Grove_-_EMG_Detector
 prodimagename: Emg_product.jpg
-bzprodimageurl: http://statics3.seeedstudio.com/images/101020058 1.jpg
-surveyurl: https://www.research.net/r/Grove-EMG_Detector
+wikiurl: http://seeed.wiki/Grove-EMG_Detector
 sku: 101020058
 tags: grove_analog, io_3v3, io_5v, plat_duino, plat_linkit
 ---

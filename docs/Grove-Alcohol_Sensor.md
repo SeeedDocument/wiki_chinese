@@ -4,7 +4,6 @@ category: Sensor
 bzurl: https://seeedstudio.com/Grove-Alcohol-Sensor-p-764.html
 oldwikiname: Grove_-_Alcohol_Sensor
 prodimagename: Alcohol_sensor_01.jpg
-bzprodimageurl: http://statics3.seeedstudio.com/images/101020044 1.jpg
 wikiurl: http://seeed.wiki/Grove-Alcohol_Sensor
 sku: 101020044
 tags: grove_analog, io_5v, plat_duino

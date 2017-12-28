@@ -4,7 +4,6 @@ category: Actuator
 bzurl: https://seeedstudio.com/Grove-2-Coil-Latching-Relay-p-1446.html
 oldwikiname: Grove_-_2-Coil_Latching_Relay
 prodimagename: 2Coil_Latching_Relay_01.jpg
-bzprodimageurl: http://statics3.seeedstudio.com/images/product/2Coil Latching Relay.jpg
 wikiurl: http://seeed.wiki/Grove-2-Coil_Latching_Relay
 sku: 103020010
 tags: grove_digital, io_5v, plat_duino

@@ -3,7 +3,8 @@ title: Grove Maker Kit for Intel Joule
 category: Arduino
 bzurl:  https://www.seeedstudio.com/Grove-Maker-Kit-for-Intel-Joule-p-2796.html
 prodimagename:
-surveyurl: https://www.research.net/r/Grove_Maker_Kit_for_Intel_Joule
+others:  
+wikiurl: http://seeed.wiki/Grove_Maker_Kit_for_Intel_Joule
 sku:    110060577
 ---
 

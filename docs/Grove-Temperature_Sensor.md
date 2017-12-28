@@ -4,7 +4,7 @@ category: Sensor
 bzurl: https://www.seeedstudio.com/Grove-Temperature-Sensor-p-774.html
 oldwikiname:  Grove - Temperature Sensor
 prodimagename: Temperature1.jpg
-surveyurl: https://www.research.net/r/Grove_Temperature_Sensor
+wikiurl: http://seeed.wiki/Grove-Temperature_Sensor/
 sku:  101020015
 ---
 

@@ -4,7 +4,6 @@ category: Communication
 bzurl: https://seeedstudio.com/Grove-I2C-ADC-p-1580.html
 oldwikiname: Grove_-_I2C_ADC
 prodimagename: I2C_ADC_01.jpg
-bzprodimageurl: http://statics3.seeedstudio.com/images/103020013 1.jpg
 wikiurl: http://seeed.wiki/Grove-I2C_ADC
 sku: 103020013
 tags: grove_i2c, io_3v3, io_5v, plat_duino, plat_linkit, plat_pi, plat_bbg

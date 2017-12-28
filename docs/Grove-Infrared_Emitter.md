@@ -4,7 +4,6 @@ category: Actuator
 bzurl: https://seeedstudio.com/Grove-Infrared-Emitter-p-993.html
 oldwikiname: Grove_-_Infrared_Emitter
 prodimagename: Grove-Infrared_Emitter.jpg
-bzprodimageurl: http://statics3.seeedstudio.com/images/101020026 1.jpg
 wikiurl: http://seeed.wiki/Grove-Infrared_Emitter
 sku: 101020026
 tags: grove_digital, io_3v3, io_5v, plat_duino, plat_pi, plat_wio

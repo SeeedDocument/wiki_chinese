@@ -4,7 +4,6 @@ category: Communication
 bzurl: https://seeedstudio.com/Grove-BLE-p-1929.html
 oldwikiname: Grove_BLE_v1
 prodimagename: Grove-BLE_front.png
-bzprodimageurl: http://statics3.seeedstudio.com/images/product/grove ble.jpg
 wikiurl: http://seeed.wiki/Grove-BLE_v1
 sku: 113020007
 tags: grove_uart, io_3v3, io_5v, plat_duino, plat_linkit

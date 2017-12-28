@@ -4,7 +4,7 @@ category: Sensor
 bzurl: https://www.seeedstudio.com/Grove-Moisture-Sensor-p-955.html
 oldwikiname: Grove - Moisture Sensor
 prodimagename: Moisture_sensor_.jpg
-surveyurl: https://www.research.net/r/grove-moisture-sensor
+wikiurl: http://seeed.wiki/Grove-Moisture_Sensor/
 sku: 101020008
 ---
 ---

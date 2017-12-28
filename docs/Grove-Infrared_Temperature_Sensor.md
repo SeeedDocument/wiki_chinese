@@ -4,7 +4,6 @@ category: Sensor
 bzurl: https://seeedstudio.com/Grove-Infrared-Temperature-Sensor-p-1058.html
 oldwikiname: Grove_-_Infrared_Temperature_Sensor
 prodimagename: Grove-Infrared_Temperature_Sensor.jpg
-bzprodimageurl: http://statics3.seeedstudio.com/images/101020062 1.jpg
 wikiurl: http://seeed.wiki/Grove-Infrared_Temperature_Sensor
 sku: 101020062
 tags: grove_analog, io_3v3, io_5v, plat_duino

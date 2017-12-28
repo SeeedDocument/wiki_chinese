@@ -4,8 +4,7 @@ category: Sensor
 bzurl: https://www.seeedstudio.com/Grove-Temperature&Humidity-Sensor-(SHT31)-p-2655.html
 oldwikiname: Grove_-_Temp&Humi_Sensor(SHT31)
 prodimagename: Grove-TempAndHumi_Sensor-SHT31-Product_View_700_S.jpg
-bzprodimageurl: https://statics3.seeedstudio.com/seeed/master/img/2016-06/bytoMkAMziVhHKidWvUshZYm.jpg
-surveyurl: https://www.research.net/r/Grove-TempAndHumi_Sensor-SHT31
+wikiurl: http://seeed.wiki/Grove-TempAndHumi_Sensor-SHT31
 sku: 101020212
 ---
 

@@ -4,8 +4,7 @@ category: Actuator
 bzurl: https://seeedstudio.com/Grove-Dry-Reed-Relay-p-1412.html
 oldwikiname: Grove_-_Dry-Reed_Relay
 prodimagename: DryReed_Relay_01.jpg
-bzprodimageurl: http://statics3.seeedstudio.com/images/product/DryReed Relay.jpg
-surveyurl: https://www.research.net/r/Grove-Dry-Reed_Relay
+wikiurl: http://seeed.wiki/Grove-Dry-Reed_Relay
 sku: 103020014
 tags: grove_digital, io_3v3, io_5v, plat_duino, plat_linkit, plat_pi, plat_bbg, plat_wio
 ---

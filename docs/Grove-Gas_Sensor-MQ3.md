@@ -4,8 +4,7 @@ category: Sensor
 bzurl: https://seeedstudio.com/Grove-Gas-Sensor(MQ3)-p-1418.html
 oldwikiname: Grove_-_Gas_Sensor(MQ3)
 prodimagename: Grove_MQ3_Gas_Sensor.jpg
-bzprodimageurl: http://statics3.seeedstudio.com/images/101020006 1.jpg
-surveyurl: https://www.research.net/r/Grove-Gas_Sensor-MQ3
+wikiurl: http://seeed.wiki/Grove-Gas_Sensor-MQ3
 sku: 101020006
 tags: grove_analog, io_5v, plat_duino
 ---

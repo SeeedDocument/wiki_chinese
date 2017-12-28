@@ -4,8 +4,7 @@ category: Display
 bzurl: https://seeedstudio.com/Grove-4-Digit-Display-p-1198.html
 oldwikiname: Grove_-_4-Digit_Display
 prodimagename: Grove-4_digit_display.jpg
-bzprodimageurl: http://statics3.seeedstudio.com/images/product/4-Digital Display.jpg
-surveyurl: https://www.research.net/r/Grove-4-Digit_Display
+wikiurl: http://seeed.wiki/Grove-4-Digit_Display
 sku: 104030003
 tags: grove_digital, io_3v3, io_5v, plat_duino, plat_pi, plat_wio
 ---

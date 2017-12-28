@@ -4,7 +4,7 @@ category: Actuator
 bzurl: https://www.seeedstudio.com/Grove-Relay-p-769.html
 oldwikiname:
 prodimagename: Twig-Relay.jpg
-surveyurl: https://www.surveymonkey.com/r/Grove_Relay
+wikiurl: http://seeed.wiki/Grove-Relay
 sku: 103020005
 tags: io_5v, plat_duino, plat_linkit, plat_bbg, plat_pi,plat_wio
 ---

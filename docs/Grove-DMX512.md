@@ -4,7 +4,7 @@ category: Communication
 bzurl: https://www.seeedstudio.com/Grove-DMX512-p-1447.html
 oldwikiname:  Grove - DMX512
 prodimagename: DMX512_01.jpg
-surveyurl: https://www.research.net/r/Grove_DMX512
+wikiurl: http://seeed.wiki/Grove-DMX512/
 sku:  103020000
 ---
 ![](https://github.com/SeeedDocument/Grove-DMX512/raw/master/img/DMX512_01.jpg)

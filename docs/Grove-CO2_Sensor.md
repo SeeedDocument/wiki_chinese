@@ -4,8 +4,7 @@ category: Sensor
 bzurl: https://seeedstudio.com/Grove-CO2-Sensor-p-1863.html
 oldwikiname: Grove_-_CO2_Sensor
 prodimagename: Grove_CO2_Sensor.jpg
-bzprodimageurl: http://statics3.seeedstudio.com/images/product/Grove CO2 Sensor.jpg
-wikiurl: wikiurl: http://seeed.wiki/Grove-CO2_Sensor
+wikiurl: http://seeed.wiki/Grove-CO2_Sensor
 sku: 101020067
 tags: grove_uart, io_3v3, io_5v, plat_duino, plat_linkit
 ---

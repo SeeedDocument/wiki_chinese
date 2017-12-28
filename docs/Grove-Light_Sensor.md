@@ -4,6 +4,7 @@ category: Sensor
 bzurl: https://www.seeedstudio.com/Grove-Light-Sensor-(P)-v1.1-p-2693.html
 oldwikiname: Grove_-_Light_Sensor
 prodimagename: cover.jpg
+wikiurl: http://seeed.wiki/Grove-LED_String_Light/
 sku: 101020173
 ---
 

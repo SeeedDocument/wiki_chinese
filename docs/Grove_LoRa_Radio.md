@@ -4,7 +4,7 @@ category: Communication
 bzurl: https://www.seeedstudio.com
 oldwikiname: Grove - LoRa Radio
 prodimagename: cover.jpg
-surveyurl: https://www.research.net/r/F5K3G3F
+wikiurl: http://seeed.wiki/Grove_LoRa_Radio
 sku:  113060006/113060007
 tags: grove_uart, io_3v3, io_5v, plat_duino
 ---

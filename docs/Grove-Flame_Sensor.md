@@ -4,8 +4,7 @@ category: Sensor
 bzurl: https://seeedstudio.com/Grove-Flame-Sensor-p-1450.html
 oldwikiname: Grove_-_Flame_Sensor
 prodimagename: Flame_Sensor_01.jpg
-bzprodimageurl: http://statics3.seeedstudio.com/images/product/Flame Sensor.jpg
-surveyurl: https://www.research.net/r/Grove-Flame_Sensor
+wikiurl: http://seeed.wiki/Grove-Flame_Sensor
 sku: 101020049
 tags: grove_digital, io_5v, plat_duino, plat_linkit
 ---

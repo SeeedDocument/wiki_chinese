@@ -4,8 +4,7 @@ category: Sensor
 bzurl: https://seeedstudio.com/Grove-Barometer-(High-Accuracy)-p-1865.html
 oldwikiname: Grove_-_Barometer_(High-Accuracy)
 prodimagename: Grove-Barometer-High-Accuracy.jpg
-bzprodimageurl: http://statics3.seeedstudio.com/images/product/Grove Barometer High-Accuracy.jpg
-surveyurl: https://www.research.net/r/Grove-Barometer-High-Accuracy
+wikiurl: http://seeed.wiki/Grove-Barometer-High-Accuracy
 sku: 101020068
 tags: grove_i2c, io_3v3, io_5v, plat_duino, plat_linkit
 ---

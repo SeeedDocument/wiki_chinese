@@ -4,8 +4,7 @@ category: Sensor
 bzurl: https://seeedstudio.com/Grove-Q-Touch-Sensor-p-1854.html
 oldwikiname: Grove_-_Q_Touch_Sensor
 prodimagename: Grove-Q_Touch_Sensor.jpg
-bzprodimageurl: http://statics3.seeedstudio.com/images/product/Grove-Q Touch Sensor.jpg
-surveyurl: https://www.research.net/r/Grove-Q_Touch_Sensor
+wikiurl: http://seeed.wiki/Grove-Q_Touch_Sensor
 sku: 101020069
 tags: grove_i2c, io_3v3, io_5v, plat_duino
 ---

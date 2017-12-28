@@ -4,7 +4,6 @@ category: Shield
 bzurl: https://www.seeedstudio.com/W5500-Ethernet-Shield-p-2433.html
 oldwikiname: W5500_Ethernet_Shield_v1.0
 prodimagename: W5500.jpg
-bzprodimageurl: https://statics3.seeedstudio.com/upload/master/img/20160519080008-2ccc2b.JPG
 wikiurl: http://seeed.wiki/W5500_Ethernet_Shield_v1_0
 sku: 103030021
 ---

@@ -4,8 +4,7 @@ category: Others
 bzurl: https://seeedstudio.com/Grove-MOSFET-p-1594.html
 oldwikiname: Grove_-_MOSFET
 prodimagename: Mosfet_01.jpg
-bzprodimageurl: http://statics3.seeedstudio.com/images/product/mosfet.jpg
-surveyurl: https://www.research.net/r/Grove-MOSFET
+wikiurl: http://seeed.wiki/Grove-MOSFET
 sku: 103020008
 tags: grove_digital, io_3v3, io_5v, plat_duino, plat_linkit, plat_pi, plat_bbg
 ---

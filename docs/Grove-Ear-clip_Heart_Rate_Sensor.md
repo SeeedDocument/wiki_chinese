@@ -4,8 +4,7 @@ category: Sensor
 bzurl: https://seeedstudio.com/Grove-Ear-clip-Heart-Rate-Sensor-p-1116.html
 oldwikiname: Grove_-_Ear-clip_Heart_Rate_Sensor
 prodimagename: Heart_rate_ear_clip_kit.jpg
-bzprodimageurl: http://statics3.seeedstudio.com/images/product/P3212438.jpg
-surveyurl: https://www.research.net/r/Grove-Ear-clip_Heart_Rate_Sensor
+wikiurl: http://seeed.wiki/Grove-Ear-clip_Heart_Rate_Sensor
 sku: 101020033
 tags: grove_digital, io_3v3, io_5v, plat_duino, plat_pi, plat_bbg
 ---

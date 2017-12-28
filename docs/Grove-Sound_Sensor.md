@@ -4,7 +4,7 @@ category: Sensor
 bzurl: https://www.seeedstudio.com/Grove-Sound-Sensor-p-752.html
 oldwikiname: Grove_-_Sound_Sensor
 prodimagename: page.jpg
-surveyurl: https://www.surveymonkey.com/r/SoundSensor
+wikiurl: http://seeed.wiki/Grove-Sound_Sensor
 sku: 101020023
 tags: io_3v3, io_5v, plat_duino, plat_linkit, plat_bbg, plat_wio, plat_pi, plat_linkit
 

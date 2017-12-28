@@ -4,7 +4,7 @@ category: LinkIt
 bzurl: https://www.seeedstudio.com/LinkIt-Smart-7688-Duo-p-2574.html
 oldwikiname:
 prodimagename: cover.png
-surveyurl: https://www.surveymonkey.com/r/LS_7688_Duo
+wikiurl: http://seeed.wiki/LinkIt_Smart_7688_Duo/
 sku: 102110017
 ---
 

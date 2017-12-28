@@ -4,7 +4,7 @@ category: Display
 bzurl: https://www.seeedstudio.com/Grove-LCD-RGB-Backlight-p-1643.html
 oldwikiname: Grove_-_LCD_RGB_Backlight
 prodimagename: intro.jpg
-surveyurl: https://www.surveymonkey.com/r/LCD_Backlight
+wikiurl: http://seeed.wiki/Grove-LCD_RGB_Backlight/
 sku: 104030001
 ---
 

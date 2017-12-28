@@ -3,7 +3,8 @@ title: RF Explorer Software
 category: MakerPro
 oldwikiname:  RF Explorer Software
 prodimagename:
-surveyurl: https://www.research.net/r/RF_Explorer_Software
+other: 
+wikiurl: http://seeed.wiki/RF_Explorer_Software
 
 ---
 ![](https://github.com/SeeedDocument/RF_Explorer_Software/raw/master/img/RF%20Explorer.jpg)

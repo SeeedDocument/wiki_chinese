@@ -4,7 +4,6 @@ category: Sensor
 bzurl: https://seeedstudio.com/Grove-3-Axis-Digital-Compass-p-759.html
 oldwikiname: Grove_-_3-Axis_Compass_V1.0
 prodimagename: Grove-3-Axis_Compass_V1.0.jpg
-bzprodimageurl: http://statics3.seeedstudio.com/images/101020034 1.jpg
 wikiurl: http://seeed.wiki/Grove-3-Axis_Compass_V1.0
 sku: 101020034
 tags: grove_i2c, io_3v3, io_5v, plat_duino, plat_linkit, plat_bbg, plat_wio

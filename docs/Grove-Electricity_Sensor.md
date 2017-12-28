@@ -4,7 +4,6 @@ category: Sensor
 bzurl: https://seeedstudio.com/Grove-Electricity-Sensor-p-777.html
 oldwikiname: Grove_-_Electricity_Sensor
 prodimagename: Twig-Electricity-Sensor.jpg
-bzprodimageurl: http://statics3.seeedstudio.com/images/P2130726.jpg
 wikiurl: http://seeed.wiki/Grove-Electricity_Sensor
 sku: 101020027
 tags: grove_analog, io_3v3, io_5v, plat_duino, plat_linkit, plat_bbg

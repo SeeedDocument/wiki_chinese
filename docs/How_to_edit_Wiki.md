@@ -27,6 +27,8 @@ tags:
 
 ### 1. 新增新产品的md文件， 文件的前面部分必须参照下面格式
 
+**必须按照下面的格式编辑，wikiurl必须在第6行**
+
 ```
 title: CAN-BUS Shield V1.2
 category: Shield
@@ -104,8 +106,15 @@ Grove - 执行器包括电机驱动器，LED显示屏，继电器，扬声器，
 ### 4. 执行执行 **mkdocs serve** 进行预览
 ### 5. 执行 **mkdocs build --clean**，编译的静态文件会出现在 **site** 文件夹
 ### 6. 在wiki_chinese下，运行 python SKU_generator_wiki_CN.py 在site下生成sku html文件
-### 7. 上传mkdocs文档和html网页文件到github
+### 7. 上传wiki-chinese文件夹到github
 
+```
+git add. 
+git commit -m "update"
+git push origin master 
+```
+
+### 8.拷贝Wiki-chinese site文件夹的所有文件到SeeedDocument.github.io目录下，并且上传。
 ```
 git add. 
 git commit -m "update"

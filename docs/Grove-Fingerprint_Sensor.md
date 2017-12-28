@@ -4,7 +4,6 @@ category: Sensor
 bzurl: https://seeedstudio.com/Grove-Fingerprint-Sensor-p-1424.html
 oldwikiname: Grove_-_Fingerprint_Sensor
 prodimagename: Print_Sensor.jpg
-bzprodimageurl: http://statics3.seeedstudio.com/images/product/Print Sensor.jpg
 wikiurl: http://seeed.wiki/Grove-Fingerprint_Sensor
 sku: 101020057
 tags: grove_uart, io_5v, plat_duino, plat_linkit, plat_pi

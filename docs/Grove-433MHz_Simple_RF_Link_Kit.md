@@ -4,7 +4,6 @@ category: Communication
 bzurl: https://seeedstudio.com/Grove-433MHz-Simple-RF-link-kit-p-1062.html
 oldwikiname: Grove_-_433MHz_Simple_RF_Link_Kit
 prodimagename: 433MHz_Simple_RF.jpg
-bzprodimageurl: http://statics3.seeedstudio.com/images/product/433MHz RF kit.jpg
 wikiurl: http://seeed.wiki/Grove-433MHz_Simple_RF_Link_Kit
 sku: 113060000
 ---

@@ -17,7 +17,7 @@ Seeed Studio的座右铭之一是“增长差异”，现在已成为公司文�
 以下是您可以在Seeed WiKi中找到的Seeeduino板的列表。 列表将不断更新。
 
 
-* [Grove-Maker_Kit_for_Intel_Joule](110060577)
+* [Grove-Maker_Kit_for_Intel_Joule](http://seeed.wiki/Grove_Maker_Kit_for_Intel_Joule)
 * [Grove_Starter_kit_for_Arduino_101](http://seeed.wiki/Grove_Starter_kit_for_Arduino_101)
 * [Seeeduino_Cloud](http://seeed.wiki/Seeeduino_Cloud)
 * [Seeeduino_Lite](http://seeed.wiki/Seeeduino_Lite)
@@ -25,8 +25,5 @@ Seeed Studio的座右铭之一是“增长差异”，现在已成为公司文�
 * [Seeeduino_Lotus](http://seeed.wiki/Seeeduino_Lotus)
 * [Seeeduino_Mega](http://seeed.wiki/Seeeduino_Mega)
 * [Seeeduino_v4.2](l: https://www.research.net/r/Seeeduino)
-* [Shield_Bot_V1.1](http://seeed.wiki/Shield_Bot_V1.1)
 * [Sidekick_Basic_Kit_for_Arduino_V2](http://seeed.wiki/Sidekick_Basic_Kit_for_Arduino_V2)
-* [test007](l: https://www.research.net/r/Seeeduino)
-* [UartSBee_V4](http://seeed.wiki/UartSBee_V4)
-* [UartSBee_v5](ageurl: http://statics3.seeedstudio.com/images/product/UartSBee V5.jpg)
+* [UartSBee_v5](http://seeed.wiki/UartSBee_v5)

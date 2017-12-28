@@ -2,6 +2,8 @@
 title: Grove System
 oldwikiname: Grove_System
 prodimagename: grove_cover.png
+img:
+other:
 wikiurl: http://seeed.wiki/grove_system
 ---
 

@@ -4,7 +4,6 @@ category: Sensor
 bzurl: https://seeedstudio.com/Grove-Luminance-Sensor-p-1941.html
 oldwikiname: Grove_-_Luminance_Sensor
 prodimagename: Luminance.jpg
-bzprodimageurl: http://statics3.seeedstudio.com/images/product/Grove Luminance Sensor.jpg
 wikiurl: http://seeed.wiki/Grove-Luminance_Sensor
 sku: 101020076
 tags: grove_analog, io_3v3, io_5v, plat_duino, plat_linkit

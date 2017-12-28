@@ -4,7 +4,6 @@ category: Discontinued
 bzurl:
 oldwikiname: Techbox_Tricks‏‎
 prodimagename:
-bzprodimageurl: https://www.research.net/r/Techbox_Tricks
 wikiurl: http://seeed.wiki/Techbox_Tricks
 sku:
 tags:

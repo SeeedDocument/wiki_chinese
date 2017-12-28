@@ -4,7 +4,6 @@ category: Sensor
 bzurl: https://seeedstudio.com/Grove-3-Axis-Digital-Gyro-p-750.html
 oldwikiname: Grove_-_3-Axis_Digital_Gyro
 prodimagename: Grove-3-Axis_Digital_Gyro.jpg
-bzprodimageurl: http://statics3.seeedstudio.com/images/101020050 1.jpg
 wikiurl: http://seeed.wiki/Grove-3-Axis_Digital_Gyro
 sku: 101020050
 tags: grove_i2c, io_3v3, io_5v, plat_duino, plat_linkit, plat_bbg, plat_wio

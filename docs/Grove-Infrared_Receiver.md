@@ -4,8 +4,7 @@ category: Sensor
 bzurl: https://seeedstudio.com/Grove-Infrared-Receiver-p-994.html
 oldwikiname: Grove_-_Infrared_Receiver
 prodimagename: Grove-Infrared_Receiver.jpg
-bzprodimageurl: http://statics3.seeedstudio.com/images/101020016 1.jpg
-surveyurl: https://www.research.net/r/Grove-Infrared_Receiver
+wikiurl: http://seeed.wiki/Grove-Infrared_Receiver
 sku: 101020016
 tags: grove_digital, io_3v3, io_5v, plat_duino
 ---

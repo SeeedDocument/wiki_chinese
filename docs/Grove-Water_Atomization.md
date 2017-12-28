@@ -4,7 +4,6 @@ category: Actuator
 bzurl: https://seeedstudio.com/Grove-Water-Atomization-v1.0-p-2542.html
 oldwikiname: Grove_-_Water_Atomization
 prodimagename: Water_Atomization_product_1200.jpg
-bzprodimageurl: http://statics3.seeedstudio.com/images/product/101020090 4.jpg
 wikiurl: http://seeed.wiki/Grove-Water_Atomization
 sku: 101020090
 tags: grove_digital, io_5v, plat_duino

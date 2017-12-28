@@ -4,7 +4,6 @@ category: Sensor
 bzurl: https://seeedstudio.com/Grove-Slide-Potentiometer-p-1196.html
 oldwikiname: Grove_-_Slide_Potentiometer
 prodimagename: Slide Potentiometer.jpg
-bzprodimageurl: http://statics3.seeedstudio.com/images/product/Slide Potentiometer.jpg
 wikiurl: http://seeed.wiki/Grove-Slide_Potentiometer
 sku: 101020036
 tags: grove_analog, io_3v3, io_5v, plat_duino, plat_linkit, plat_bbg

@@ -4,7 +4,6 @@ category: Sensor
 bzurl: https://seeedstudio.com/Grove-Thumb-Joystick-p-935.html
 oldwikiname: Grove_-_Thumb_Joystick
 prodimagename: Bgjoy1.jpg
-bzprodimageurl: http://statics3.seeedstudio.com/images/product/bgjoy1.jpg
 wikiurl: http://seeed.wiki/Grove-Thumb_Joystick
 sku: 101020028
 tags: grove_analog, io_3v3, io_5v, plat_duino,plat_pi

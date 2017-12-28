@@ -4,8 +4,7 @@ category: Sensor
 bzurl: https://seeedstudio.com/Grove-GSR-sensor-p-1614.html
 oldwikiname: Grove_-_GSR_Sensor
 prodimagename: GSR.jpg
-bzprodimageurl: http://statics3.seeedstudio.com/images/101020052 1.jpg
-surveyurl: https://www.research.net/r/Grove-GSR_Sensor
+wikiurl: http://seeed.wiki/Grove-GSR_Sensor
 sku: 101020052
 tags: grove_digital, io_3v3, io_5v, plat_duino, plat_linkit, plat_pi, plat_bbg
 ---

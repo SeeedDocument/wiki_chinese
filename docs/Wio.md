@@ -16,8 +16,8 @@ Wio平台在2015年底首次引入世界，当时Wio Link在Kickstarter上成立
 以下是您可以在Seeed WiKi中找到的Wio板的列表。 该列表将不断更新。
 
 
-* [Wio_Link](http://seeed.wiki/Wio_Link)
-* [Wio_Link_Deluxe_Kit](ageurl: http://statics3.seeedstudio.com/images/110020052-3.jpg)
-* [Wio_Link_Deluxe_Plus_Kit](ageurl: http://statics3.seeedstudio.com/images/110020053 3.jpg)
-* [Wio_Link_Environment_Kit](ageurl: http://statics3.seeedstudio.com/images/product/110020049 1.jpg)
-* [Wio_Link_Starter_Kit](ageurl: http://statics3.seeedstudio.com/images/product/110020051 1.jpg)
+* [Wio_Link](https://seeed.wiki/Wio_Link)
+* [Wio_Link_Deluxe_Kit](http://seeed.wiki/Wio_Link_Deluxe_Kit)
+* [Wio_Link_Deluxe_Plus_Kit](http://seeed.wiki/Wio_Link_Deluxe_Plus_Kit)
+* [Wio_Link_Environment_Kit](http://seeed.wiki/Wio_Link_Environment_Kit)
+* [Wio_Link_Starter_Kit](http://seeed.wiki/Wio_Link_Starter_Kit)

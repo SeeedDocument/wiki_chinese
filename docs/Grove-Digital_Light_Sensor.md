@@ -4,8 +4,7 @@ category: Sensor
 bzurl: https://seeedstudio.com/Grove-Digital-Light-Sensor-p-1281.html
 oldwikiname: Grove_-_Digital_Light_Sensor
 prodimagename:
-bzprodimageurl: http://statics3.seeedstudio.com/images/101020030 1.jpg
-surveyurl: https://www.research.net/r/Grove-Digital_Light_Sensor
+wikiurl: http://seeed.wiki/Grove-Digital_Light_Sensor
 sku: 101020030
 tags: grove_digital, io_3v3, io_5v, plat_duino, plat_pi
 ---

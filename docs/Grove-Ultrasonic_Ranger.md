@@ -4,7 +4,7 @@ category: Sensor
 bzurl: https://www.seeedstudio.com/Grove-Ultrasonic-Ranger-p-960.html
 oldwikiname: Grove - Ultrasonic Ranger
 prodimagename: 350px-Ultrasonic_Ranger.jpg
-surveyurl: https://www.research.net/r/Grove-Ultrasonic-Ranger
+wikiurl: http://seeed.wiki/Grove-Ultrasonic_Ranger
 sku: 101020010
 tags: io_3v3, io_5v, plat_duino, plat_pi
 

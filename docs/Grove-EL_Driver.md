@@ -4,7 +4,6 @@ category: Actuator
 bzurl: https://seeedstudio.com/Grove-EL-Driver-p-2269.html
 oldwikiname: Grove_-_EL_Driver
 prodimagename: Grove-EL_Driver.jpg
-bzprodimageurl: http://statics3.seeedstudio.com/images/product/105020005 1.jpg
 wikiurl: http://seeed.wiki/Grove-EL_Driver
 sku: 105020005
 ---

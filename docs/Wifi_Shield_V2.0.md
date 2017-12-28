@@ -4,7 +4,6 @@ category: Shield
 bzurl: https://seeedstudio.com/Wifi-Shield-V2.0-p-2505.html
 oldwikiname: Wifi_Shield_V2.0
 prodimagename: Wifi_Shield_v2.jpg
-bzprodimageurl: http://statics3.seeedstudio.com/images/product/113030008 1.jpg
 wikiurl: http://seeed.wiki/Wifi_Shield_V2_0
 sku: 113030008
 ---

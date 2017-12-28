@@ -4,7 +4,6 @@ category: Sensor
 bzurl: https://seeedstudio.com/Grove-High-Temperature-Sensor-p-1810.html
 oldwikiname: Grove_-_High_Temperature_Sensor
 prodimagename: High_Temperature_Sensor_01.jpg
-bzprodimageurl: http://statics3.seeedstudio.com/images/product/High Temperature Sensor.jpg
 wikiurl: http://seeed.wiki/Grove-High_Temperature_Sensor
 sku: 111020002
 tags: grove_analog, io_3v3, io_5v, plat_duino, plat_linkit

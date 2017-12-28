@@ -4,8 +4,7 @@ category: Sensor
 bzurl: https://seeedstudio.com/Grove-RTC-p-758.html
 oldwikiname: Grove_-_RTC
 prodimagename: Grove-RTC.jpg
-bzprodimageurl: http://statics3.seeedstudio.com/images/101020013 1.jpg
-surveyurl: https://www.research.net/r/Grove-RTC
+wikiurl: http://seeed.wiki/Grove-RTC
 sku: 101020013
 tags: grove_i2c, io_3v3, io_5v, plat_duino, plat_pi
 ---

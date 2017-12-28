@@ -4,7 +4,6 @@ category: Sensor
 bzurl: https://seeedstudio.com/Grove-Gas-Sensor(MQ2)-p-937.html
 oldwikiname: Grove_-_Gas_Sensor(MQ2)
 prodimagename: Twig-Gas_Sensor.bmp
-bzprodimageurl: http://statics3.seeedstudio.com/images/product/Gas Sensor MQ.jpg
 wikiurl: http://seeed.wiki/Grove-Gas_Sensor-MQ2
 sku: 101020055
 tags: grove_analog, io_5v, plat_duino

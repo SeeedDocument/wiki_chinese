@@ -4,7 +4,6 @@ category: Sensor
 bzurl: https://seeedstudio.com/Grove-Magnetic-Switch-p-744.html
 oldwikiname: Grove_-_Magnetic_Switch
 prodimagename: Magnetic_Switch.jpg
-bzprodimageurl: http://statics3.seeedstudio.com/images/101020038 1.jpg
 wikiurl: http://seeed.wiki/Grove-Magnetic_Switch
 sku: 101020038
 tags: grove_digital, io_3v3, io_5v, plat_duino, plat_pi, plat_bbg, plat_wio

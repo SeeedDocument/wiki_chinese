@@ -4,8 +4,7 @@ category: Communication
 bzurl: https://seeedstudio.com/Grove-NFC-p-1804.html
 oldwikiname: Grove_-_NFC
 prodimagename: Grove-NFC_01.jpg
-bzprodimageurl: http://statics3.seeedstudio.com/images/product/grove nfc.jpg
-surveyurl: https://www.research.net/r/Grove-NFC
+wikiurl: http://seeed.wiki/Grove-NFC
 sku: 113020006
 tags: grove_i2c, io_3v3, io_5v, plat_duino, plat_linkit
 ---

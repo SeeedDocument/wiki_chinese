@@ -4,7 +4,6 @@ category: Actuator
 bzurl: https://seeedstudio.com/Grove-Speaker-p-1445.html
 oldwikiname: Grove_-_Speaker
 prodimagename: Grove_Speaker_01.jpg
-bzprodimageurl: http://statics3.seeedstudio.com/images/product/Grove Speaker.jpg
 wikiurl: http://seeed.wiki/Grove-Speaker
 sku: 107020001
 tags: grove_digital, io_5v, plat_duino, plat_wio

@@ -4,8 +4,7 @@ category: Actuator
 bzurl: https://seeedstudio.com/Grove - Haptic Motor-p-2546.html
 oldwikiname: Grove_-_Haptic_Motor
 prodimagename: Grove_Haptic_Motor.jpg
-bzprodimageurl: http://statics3.seeedstudio.com/images/product/105020011 1.jpg
-surveyurl: https://www.research.net/r/Grove-Haptic_Motor
+wikiurl: http://seeed.wiki/Grove-Haptic_Motor
 sku: 105020011
 tags: grove_i2c, io_3v3, io_5v, plat_duino, plat_linkit
 ---

@@ -4,7 +4,7 @@ category: Communication
 bzurl: https://www.seeedstudio.com/Grove-Uart-Wifi-p-2495.html
 oldwikiname:
 prodimagename: Grove-uart-wifi-01.jpg
-surveyurl: https://www.surveymonkey.com/r/grove_uart_wifi
+wikiurl: http://seeed.wiki/Grove-UART_Wifi/
 sku: 113020010
 ---
 

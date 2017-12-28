@@ -4,7 +4,6 @@ category: Arduino
 bzurl: https://seeedstudio.com/UartSBee-V5-p-1752.html
 oldwikiname: UartSBee_v5
 prodimagename: UartSBee_V5_New.jpg
-bzprodimageurl: http://statics3.seeedstudio.com/images/product/UartSBee V5.jpg
 wikiurl: http://seeed.wiki/UartSBee_v5
 sku: 103100001
 ---

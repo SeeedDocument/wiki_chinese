@@ -4,7 +4,6 @@ category: Actuator
 bzurl: https://www.seeedstudio.com/Grove - I2C Mini Motor Driver-p-2508.html
 oldwikiname: Grove_-_Mini_I2C_Motor_Driver_v1.0
 prodimagename: Mini_I2C_motor_2.png
-bzprodimageurl: https://statics3.seeedstudio.com/images/product/105020010 2.jpg
 wikiurl: http://seeed.wiki/Grove-Mini_I2C_Motor_Driver_v1_0
 sku: 105020010
 tags: grove_i2c, io_3v3, io_5v, plat_duino, plat_linkit

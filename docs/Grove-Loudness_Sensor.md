@@ -4,8 +4,7 @@ category: Sensor
 bzurl: https://seeedstudio.com/Grove-Loudness-Sensor-p-1382.html
 oldwikiname: Grove_-_Loudness_Sensor
 prodimagename: LoudnessSensor.jpg
-bzprodimageurl: http://statics3.seeedstudio.com/images/product/Loudness Sensor.jpg
-surveyurl: https://www.research.net/r/Grove-Loudness_Sensor
+wikiurl: http://seeed.wiki/Grove-Loudness_Sensor
 sku: 101020063
 tags: grove_analog, io_3v3, io_5v, plat_duino, plat_linkit, plat_bbg, plat_pi
 ---

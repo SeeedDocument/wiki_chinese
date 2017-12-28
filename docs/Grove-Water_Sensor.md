@@ -4,7 +4,6 @@ category: Sensor
 bzurl: https://seeedstudio.com/Grove-Water-Sensor-p-748.html
 oldwikiname: Grove_-_Water_Sensor
 prodimagename: Grove-Water_Sensor.jpg
-bzprodimageurl: http://statics3.seeedstudio.com/images/101020018 1.jpg
 wikiurl: http://seeed.wiki/Grove-Water_Sensor
 sku: 101020018
 tags: grove_digital, io_3v3, io_5v, plat_duino, plat_linkit, plat_pi, plat_bbg

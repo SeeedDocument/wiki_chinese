@@ -4,7 +4,6 @@ category: Wio
 bzurl: https://seeedstudio.com/Wio-Link-Starter-Kit-p-2614.html
 oldwikiname: Wio_Link_Starter_Kit
 prodimagename: Wio_Link_Starter_Kit_product_view_1200_s.jpg
-bzprodimageurl: http://statics3.seeedstudio.com/images/product/110020051 1.jpg
 wikiurl: http://seeed.wiki/Wio_Link_Starter_Kit
 sku: 110020051
 ---

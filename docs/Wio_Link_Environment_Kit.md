@@ -4,7 +4,6 @@ category: Wio
 bzurl: https://seeedstudio.com/Wio-Link-Environment-Kit-p-2612.html
 oldwikiname: Wio_Link_Environment_Kit
 prodimagename: Wio_Link_Environment_Kit_product_view_1200_s.jpg
-bzprodimageurl: http://statics3.seeedstudio.com/images/product/110020049 1.jpg
 wikiurl: http://seeed.wiki/Wio_Link_Environment_Kit
 sku: 110020049
 ---

@@ -4,8 +4,7 @@ category: Sensor
 bzurl: https://seeedstudio.com/Grove-Hall-Sensor-p-965.html
 oldwikiname: Grove_-_Hall_Sensor
 prodimagename: Grove-Hall_Sensor_New.jpg
-bzprodimageurl: http://statics3.seeedstudio.com/images/product/hall sensor.jpg
-surveyurl: https://www.research.net/r/Grove-Hall_Sensor
+wikiurl: http://seeed.wiki/Grove-Hall_Sensor
 sku: 101020046
 tags: grove_digital, io_5v, plat_duino, plat_linkit
 ---

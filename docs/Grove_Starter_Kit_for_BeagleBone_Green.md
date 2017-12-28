@@ -4,7 +4,6 @@ category: BeagleBone
 bzurl: https://www.seeedstudio.com/Grove-Starter-Kit-for-SeeedStudio-BeagleBone-Green-p-2526.html
 oldwikiname: Grove_Starter_Kit_for_BeagleBone_Green
 prodimagename: Grove_bbg_start_kit.jpg
-bzprodimageurl: https://statics3.seeedstudio.com/product/110060131 1_01.jpg
 wikiurl: http://seeed.wiki/Grove_Starter_Kit_for_BeagleBone_Green
 sku: 110060131
 ---

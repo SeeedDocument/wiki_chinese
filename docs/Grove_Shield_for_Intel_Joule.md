@@ -4,7 +4,7 @@ category: Others
 bzurl: https://www.seeedstudio.com/Grove-Button-p-766.html
 oldwikiname:
 prodimagename: 3.jpg
-surveyurl: https://www.research.net/r/B6JM638
+wikiurl: http://seeed.wiki/Grove_Shield_for_Intel_Joule/
 sku: 103030095
 ---
 

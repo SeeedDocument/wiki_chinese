@@ -4,8 +4,7 @@ category: Sensor
 bzurl: https://seeedstudio.com/Grove-6-Axis-Accelerometer&Gyroscope-p-2606.html
 oldwikiname: Grove_-_6-Axis_Accelerometer&Gyroscope
 prodimagename: Grove-6-Axis_AccelerometerAndGyroscope_product_view_1200_s.jpg
-bzprodimageurl: http://statics3.seeedstudio.com/images/product/105020012 3.jpg
-surveyurl: https://www.research.net/r/Grove-6-Axis_AccelerometerAndGyroscope
+wikiurl: http://seeed.wiki/Grove-6-Axis_AccelerometerAndGyroscope
 sku: 105020012
 tags: plat_duino, plat_pi, plat_bbg, plat_linkit -->
 ---

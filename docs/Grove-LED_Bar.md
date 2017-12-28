@@ -4,7 +4,6 @@ category: Display
 bzurl: https://seeedstudio.com/Grove-LED-Bar-p-1178.html
 oldwikiname: Grove_-_LED_Bar
 prodimagename: Grove-LED_Bar-1.jpg
-bzprodimageurl: http://statics3.seeedstudio.com/images/product/bar.jpg
 wikiurl: http://seeed.wiki/Grove-LED_Bar
 sku: 104030002
 tags: grove_digital, io_3v3, io_5v, plat_duino, plat_linkit, plat_wio

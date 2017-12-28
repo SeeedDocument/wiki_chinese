@@ -4,7 +4,6 @@ category: Sensor
 bzurl: https://seeedstudio.com/Grove-Digital-Infrared-Temperature-Sensor-p-2385.html
 oldwikiname: Grove_-_Digital_Infrared_Temperature_Sensor
 prodimagename: Grove－Digital_Infrared_Temperature_Sensor_4.jpg)
-bzprodimageurl: http://statics3.seeedstudio.com/images/product/101020077 1.jpg
 wikiurl: http://seeed.wiki/Grove-Digital_Infrared_Temperature_Sensor
 sku: 101020077
 tags: grove_i2c, io_3v3, io_5v, plat_duino, plat_linkit

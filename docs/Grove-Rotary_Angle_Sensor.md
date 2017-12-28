@@ -4,7 +4,6 @@ category: Sensor
 bzurl: https://seeedstudio.com/Grove-Rotary-Angle-Sensor-p-770.html
 oldwikiname: Grove_-_Rotary_Angle_Sensor
 prodimagename: Grove-Rotary_Angle_Sensor.jpg
-bzprodimageurl: http://statics3.seeedstudio.com/images/101020017 1.jpg
 wikiurl: http://seeed.wiki/Grove-Rotary_Angle_Sensor
 sku: 101020017
 tags: grove_analog, io_3v3, io_5v, plat_duino, plat_linkit, plat_bbg, plat_wio

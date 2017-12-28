@@ -4,7 +4,7 @@ category: Actuator
 bzurl: https://www.seeedstudio.com/Grove-Buzzer-p-768.html
 oldwikiname: Grove - Buzzer
 prodimagename: Grove%20Buzzer.jpg
-surveyurl: https://www.surveymonkey.com/r/grove-buzzer
+wikiurl: http://seeed.wiki/Grove-Buzzer/
 sku: 107020000
 ---
 

@@ -4,7 +4,6 @@ category: Wio
 bzurl: https://seeedstudio.com/Wio-Link-Deluxe-Plus-Kit-p-2616.html
 oldwikiname: Wio_Link_Deluxe_Plus_Kit
 prodimagename: Wio_Link_Deluxe_Plus_Kit_product_view_1200_s.jpg
-bzprodimageurl: http://statics3.seeedstudio.com/images/110020053 3.jpg
 wikiurl: http://seeed.wiki/Wio_Link_Deluxe_Plus_Kit
 sku: 110020053
 ---
