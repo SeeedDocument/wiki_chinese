@@ -4,7 +4,7 @@ category: Arduino
 bzurl:  https://www.seeedstudio.com/Grove-Maker-Kit-for-Intel-Joule-p-2796.html
 prodimagename:
 others:  
-wikiurl: http://seeed.wiki/Grove_Maker_Kit_for_Intel_Joule
+wikiurl: http://seeed.wiki/Grove-Maker_Kit_for_Intel_Joule
 sku:    110060577
 ---
 
