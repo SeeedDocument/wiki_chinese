@@ -298,7 +298,6 @@ pages:
       - Grove-LCD RGB Backlight: Grove-LCD_RGB_Backlight.md
       - Grove-4 Digit Display: Grove-4-Digit_Display.md
       - Grove-OLED Display 0.96inch: Grove-OLED_Display_0.96inch.md
-      - Grove-OLED Display 1.12inch: Grove-OLED_Display_1.12inch.md
       - Grove-Circular LED: Grove-Circular_LED.md
 
     - Communication:
@@ -321,7 +320,6 @@ pages:
   
   - kit套件:
     - Grove Inventor Kit for microbit: Grove_Inventor_Kit_for_microbit.md
-    - Bit:Bot Robot for BBC Micro:Bit: BitBot-Robot_Kit_for_MicroBit.md
     - Grove Starter kit for Arduino 101: Grove_Starter_kit_for_Arduino_101.md
     - Grove Starter Kit for BeagleBone Green: Grove_Starter_Kit_for_BeagleBone_Green.md
     - Grove Starter Kit for LinkIt ONE: Grove-Starter_Kit_for_LinkIt_ONE.md
