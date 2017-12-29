@@ -85,6 +85,7 @@ pages:
       - Seeeduino Cloud: Seeeduino_Cloud.md
       - Seeeduino LoRAWAN: Seeeduino_LoRAWAN.md
       - Seeeduino Mega: Seeeduino_Mega.md
+      - UartSBee V4: UartSBee_V4.md
       - UartSBee v5: UartSBee_v5.md 
 
     - BeagleBone:
@@ -145,7 +146,9 @@ pages:
       - XBee Shield V2.0: XBee_Shield_V2.0.md
       - Grove XBee Carrier: Grove-XBee_Carrier.md
       - Relay Shield v3: Relay_Shield_v3.md
+      - Raspberry_Pi_Relay_Board_v1_0: Raspberry_Pi_Relay_Board_v1_0.md
       - 4A Motor Shield: 4A_Motor_Shield.md
+      - Motor Shield V2.0: Motor_Shield_V2.0.md
       - GrovePi Plus: GrovePi_Plus.md
       - WireLess Gate Shield V1.0: WireLess_Gate_Shield_V1.0.md
       - Solar Charger Shield V2.2: Solar_Charger_Shield_V2.2.md
@@ -156,6 +159,9 @@ pages:
 
     - Essentials:
       - Essentials: Essentials.md
+      - USB To Uart 5V 3V3: USB_To_Uart_5V_3V3.md
+
+
     - Wireless:
       - Wireless: Wireless.md
       - BLE Nitrogen: BLE_Nitrogen.md
@@ -233,6 +239,8 @@ pages:
       - Grove-Speech Recognizer: Grove-Speech_Recognizer.md
       - Grove-Electricity Sensor: Grove-Electricity_Sensor.md
       - Grove-Luminance Sensor: Grove-Luminance_Sensor.md
+      - Grove-80cm Infrared Proximity Sensor: Grove-80cm_Infrared_Proximity_Sensor.md
+      - Grove-TF Mini LiDAR: Grove-TF_Mini_LiDAR.md
     
     
      
@@ -298,6 +306,7 @@ pages:
       - Grove-LCD RGB Backlight: Grove-LCD_RGB_Backlight.md
       - Grove-4 Digit Display: Grove-4-Digit_Display.md
       - Grove-OLED Display 0.96inch: Grove-OLED_Display_0.96inch.md
+      - Grove-OLED Display 1.12inch: Grove-OLED_Display_1.12inch.md
       - Grove-Circular LED: Grove-Circular_LED.md
 
     - Communication:
@@ -313,6 +322,7 @@ pages:
       - G3-4 Water Flow sensor: G3-4_Water_Flow_sensor.md
       - G1-2 inch Water Flow Sensor: G1_and_2_inch_Water_Flow_Sensor.md
       - G1-8 Water Flow Sensor: G1-8_Water_Flow_Sensor.md    
+      - Grove Starter Kit v3: Grove_Starter_Kit_v3.md
       
 
   - IoT:
@@ -329,15 +339,19 @@ pages:
     - Grove Serial Camera Kit: Grove-Serial_Camera_Kit.md
     - Grove IoT Developer Kit Microsoft Azure Edition: Grove_IoT_Developer_Kit-Microsoft_Azure_Edition.md
     - Grove Starter Kit for IoT based on Raspberry Pi: Grove_Starter_Kit_for_IoT_based_on_Raspberry_Pi.md
+    - Grove Starter kit for LinkIt Smart7688 Duo: Grove_Starter_kit_for_LinkIt_Smart7688_Duo.md
     - Grove 433MHz Simple RF Link Kit: Grove-433MHz_Simple_RF_Link_Kit.md
     - LoRa LoRaWan Gateway Kit: LoRa_LoRaWan_Gateway_Kit.md
     - Sidekick Basic Kit for Arduino V2: Sidekick_Basic_Kit_for_Arduino_V2.md
+    - Sidekick Basic Kit for LinkIt ONE: Sidekick_Basic_Kit_for_LinkIt_ONE.md
+    - Shield Bot V1.1: Shield_Bot_V1.1.md
     - Techbox Tricks: Techbox_Tricks.md
     - Wio Link Environment Kit: Wio_Link_Environment_Kit.md
     - Wio Link Starter Kit: Wio_Link_Starter_Kit.md
     - Wio Link Deluxe Kit: Wio_Link_Deluxe_Kit.md
     - Wio Link Deluxe Plus Kit: Wio_Link_Deluxe_Plus_Kit.md
-    - Sidekick Basic Kit for LinkIt ONE: Sidekick_Basic_Kit_for_LinkIt_ONE.md
+    - Rainbow Cube kit RGB 4x4x4 Rainbowduino Compatible: Rainbow_Cube_kit_RGB_4x4x4_Rainbowduino_Compatible.md
+    - BitBot Robot Kit for MicroBit: BitBot-Robot_Kit_for_MicroBit.md
   
   - MakerPro:
     - MakerPro: MakerPro.md
@@ -352,6 +366,8 @@ pages:
     - Bus Pirate v3 assembled: Bus_Pirate_v3_assembled.md
     - Photo Reflective Sensor: Photo_Reflective_Sensor.md
     - WiFi Serial Transceiver Module: WiFi_Serial_Transceiver_Module.md
+    - M11 1.25 Water flow Sensor: M11_1.25_Water_flow_Sensor.md
+    - Mini Soldering Iron: Mini_Soldering_Iron.md
   
   - 使用教程:
     - Tutorial: Tutorial.md

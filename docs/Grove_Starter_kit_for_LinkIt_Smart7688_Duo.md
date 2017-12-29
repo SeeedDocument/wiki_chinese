@@ -1,6 +1,6 @@
 ---
 title: Grove Starter kit for LinkIt Smart7688 Duo
-category: LinkIt
+category: Kit
 bzurl: https://seeedstudio.com/Grove-Starter-Kit-for-LinkIt-7688-Duo-p-2551.html
 oldwikiname: Grove_Starter_kit_for_LinkIt_Smart7688_Duo
 prodimagename: Grove_Starter_kit_for_LinkIt_Smart7688_Duo_Product_view_1200_s.jpg

@@ -20,6 +20,7 @@ nointro:
 * [Motor_Shield_V2.0](http://seeed.wiki/Motor_Shield_V2.0)
 * [Music_Shield_V2.2](http://seeed.wiki/Music_Shield_V2.2)
 * [NFC_Shield_V2.0](http://seeed.wiki/NFC_Shield_V2_0)
+* [Raspberry_Pi_Relay_Board_v1.0](http://seeed.wiki/Raspberry_Pi_Relay_Board_v1_0)
 * [Relay_Shield_v3](http://seeed.wiki/Relay_Shield_v3)
 * [RS232_Shield](http://seeed.wiki/RS232_Shield)
 * [Solar_Charger_Shield_V2.2](http://seeed.wiki/Solar_Charger_Shield_V2.2)
