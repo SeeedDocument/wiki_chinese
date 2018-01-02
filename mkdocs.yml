@@ -98,6 +98,8 @@ pages:
     - Raspberry:
       - Raspberry: Raspberry.md
       - Raspberry Pi 3 Model B: Raspberry_Pi_3_Model_B.md
+      - Raspberry Pi Breakout Board v1.0: Raspberry_Pi_Breakout_Board_v1.0.md
+      - Raspberry Pi Motor Driver Board v1.0: Raspberry_Pi_Motor_Driver_Board_v1.0.md
 
 
     - Wio:
@@ -142,11 +144,14 @@ pages:
       - W5500 Ethernet Shield v1.0: W5500_Ethernet_Shield_v1.0.md
       - Grove Shield for Intel Joule: Grove_Shield_for_Intel_Joule.md
       - Grove Base BoosterPack: Grove_Base_BoosterPack.md
+      - Grove Base Shield for NodeMCU V1.0: Grove_Base_Shield_for_NodeMCU_V1.0.md
+      - Grove Base Shield for Photon: Grove_Base_Shield_for_Photon.md
       - Grove Mega Shield: Grove-Mega_Shield.md
+      - GPRS Shield V3.0: GPRS_Shield_V3.0.md
       - XBee Shield V2.0: XBee_Shield_V2.0.md
       - Grove XBee Carrier: Grove-XBee_Carrier.md
       - Relay Shield v3: Relay_Shield_v3.md
-      - Raspberry_Pi_Relay_Board_v1_0: Raspberry_Pi_Relay_Board_v1_0.md
+      - Raspberry Pi Relay Board v1.0: Raspberry_Pi_Relay_Board_v1.0.md
       - 4A Motor Shield: 4A_Motor_Shield.md
       - Motor Shield V2.0: Motor_Shield_V2.0.md
       - GrovePi Plus: GrovePi_Plus.md
@@ -160,6 +165,7 @@ pages:
     - Essentials:
       - Essentials: Essentials.md
       - USB To Uart 5V 3V3: USB_To_Uart_5V_3V3.md
+      - Lipo Rider Pro: Lipo_Rider_Pro.md
 
 
     - Wireless:
@@ -286,6 +292,7 @@ pages:
       - Grove-Servo: Grove-Servo.md
       - Grove-LED String Light: Grove-LED_String_Light.md
       - Grove-LED Bar: Grove-LED_Bar.md
+      - Grove-LED_Socket_Kit: Grove-LED_Socket_Kit.md
       - Grove-Variable Color LED: Grove-Variable_Color_LED.md
       - Grove-EL Driver: Grove-EL_Driver.md
       - Grove-2 Coil Latching Relay: Grove-2-Coil_Latching_Relay.md
@@ -350,7 +357,7 @@ pages:
     - Wio Link Starter Kit: Wio_Link_Starter_Kit.md
     - Wio Link Deluxe Kit: Wio_Link_Deluxe_Kit.md
     - Wio Link Deluxe Plus Kit: Wio_Link_Deluxe_Plus_Kit.md
-    - Rainbow Cube kit RGB 4x4x4 Rainbowduino Compatible: Rainbow_Cube_kit_RGB_4x4x4_Rainbowduino_Compatible.md
+    - Rainbow Cube kit RGB 4x4x4 Rainbowduino Compatible: Rainbow_Cube_kit_RGB_4_4_4_Rainbowduino_Compatible.md
     - BitBot Robot Kit for MicroBit: BitBot-Robot_Kit_for_MicroBit.md
   
   - MakerPro:
@@ -368,6 +375,7 @@ pages:
     - WiFi Serial Transceiver Module: WiFi_Serial_Transceiver_Module.md
     - M11 1.25 Water flow Sensor: M11_1.25_Water_flow_Sensor.md
     - Mini Soldering Iron: Mini_Soldering_Iron.md
+    - LoNet 808 Mini GSM GPRS Plus GPS Breakout: LoNet_808-Mini_GSM_GPRS_Plus_GPS_Breakout.md
   
   - 使用教程:
     - Tutorial: Tutorial.md

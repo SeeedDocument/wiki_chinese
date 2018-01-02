@@ -19,7 +19,7 @@ Seeed Studio的座右铭之一是“增长差异”，现在已成为公司文�
 
 * [Grove-Maker_Kit_for_Intel_Joule](http://seeed.wiki/Grove-Maker_Kit_for_Intel_Joule)
 * [Grove_Starter_kit_for_Arduino_101](http://seeed.wiki/Grove_Starter_kit_for_Arduino_101)
-* [Rainbow_Cube_kit_RGB_4_4_4_Rainbowduino_Compatible](http://seeed.wiki/Rainbow_Cube_kit_RGB_4x4x4_Rainbowduino_Compatible)
+* [Rainbow_Cube_kit_RGB_4_4_4_Rainbowduino_Compatible](http://seeed.wiki/Rainbow_Cube_kit_RGB_4_4_4_Rainbowduino_Compatible)
 * [Seeeduino_Cloud](http://seeed.wiki/Seeeduino_Cloud)
 * [Seeeduino_Lite](http://seeed.wiki/Seeeduino_Lite)
 * [Seeeduino_LoRAWAN](http://seeed.wiki/Seeeduino_LoRAWAN)

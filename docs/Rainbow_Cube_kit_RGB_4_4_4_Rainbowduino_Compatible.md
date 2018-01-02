@@ -4,7 +4,7 @@ category: Arduino
 bzurl: https://www.seeedstudio.com/Rainbow-Cube-kit-RGB-4X4X4-(Rainbowduino-Compatible)-p-596.html
 oldwikiname: Rainbow Cube kit - RGB 4*4*4 (Rainbowduino Compatible)
 prodimagename: Rainbowcuben.jpg
-wikiurl: http://seeed.wiki/Rainbow_Cube_kit_RGB_4x4x4_Rainbowduino_Compatible
+wikiurl: http://seeed.wiki/Rainbow_Cube_kit_RGB_4_4_4_Rainbowduino_Compatible
 sku:  110060007
 ---
 
