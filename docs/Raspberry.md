@@ -19,3 +19,5 @@ Raspberry Pi最初是由英国的一个非营利组织设计和创建的，旨�
 * [GrovePi_Plus](http://seeed.wiki/GrovePi_plus)
 * [Grove_Starter_Kit_for_IoT_based_on_Raspberry_Pi](http://seeed.wiki/Grove_Starter_Kit_for_IoT_based_on_Raspberry_Pi)
 * [Raspberry_Pi_3_Model_B](http://seeed.wiki/Raspberry_Pi_3_Model_B)
+* [Raspberry_Pi_Breakout_Board_v1.0](http://seeed.wiki/Raspberry_Pi_Breakout_Board_v1.0)
+* [Raspberry_Pi_Motor_Driver_Board_v1.0](http://seeed.wiki/Raspberry_Pi_Motor_Driver_Board_v1.0)

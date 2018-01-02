@@ -24,6 +24,7 @@ nointro:
 * [G1-8_Water_Flow_Sensor](http://seeed.wiki/G1-8_Water_Flow_Sensor)
 * [G1_and_2_inch_Water_Flow_Sensor](http://seeed.wiki/G1_and_2_inch_Water_Flow_Sensor)
 * [G3-4_Water_Flow_sensor](http://seeed.wiki/G3-4_Water_Flow_sensor/)
+* [LoNet_808-Mini_GSM_GPRS_Plus_GPS_Breakout](http://seeed.wiki/LoNet_808-Mini_GSM_GPRS_Plus_GPS_Breakout)
 * [M11_1.25_Water_flow_Sensor](http://seeed.wiki/M11_1.25_Water_flow_Sensor)
 * [Mini_Soldering_Iron](http://seeed.wiki/Mini_Soldering_Iron)
 * [Photo_Reflective_Sensor](http://seeed.wiki/Photo_Reflective_Sensor)

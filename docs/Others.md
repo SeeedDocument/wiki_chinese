@@ -19,4 +19,3 @@ nointro:
 * [Grove_IoT_Developer_Kit-Microsoft_Azure_Edition](http://seeed.wiki/Grove_IoT_Developer_Kit-Microsoft_Azure_Edition)
 * [Grove_Shield_for_Intel_Joule](http://seeed.wiki/Grove_Shield_for_Intel_Joule/)
 * [Grove_Smart_Plant_Care_Kit](http://seeed.wiki/Grove_Smart_Plant_Care_Kit)
-* [Grove_Starter_Kit_v3](http://seeed.wiki/Grove_Starter_Kit_v3)
