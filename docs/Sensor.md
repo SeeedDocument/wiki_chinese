@@ -77,7 +77,7 @@ Grove - 传感器包括各种传感器输入模块。
 * [Grove-Temperature_and_Humidity_Sensor](http://seeed.wiki/Grove-Temperature_and_Humidity_Sensor/)
 * [Grove-Temperature_and_Humidity_Sensor_Pro](http://seeed.wiki/Grove-Temperature_and_Humidity_Sensor_Pro/)
 * [Grove-Temperature_Sensor](http://seeed.wiki/Grove-Temperature_Sensor/)
-* [Grove-Temperature_Sensor_V1.2](http://seeed.wiki/Grove-Temperature_Sensor_V1.2/)
+* [Grove-Temperature_Sensor_V1.2](http://seeed.wiki/Grove-Temperature_Sensor_V1.2)
 * [Grove-TemptureAndHumidity_Sensor_High_Accuracy_AndMini-v1.0](http://seeed.wiki/Grove-TemptureAndHumidity_Sensor_High_Accuracy_AndMini-v1.0/)
 * [Grove-TF_Mini_LiDAR](l: http://seeed.wiki/Grove-TF_Mini_LiDAR)
 * [Grove-Thumb_Joystick](http://seeed.wiki/Grove-Thumb_Joystick)

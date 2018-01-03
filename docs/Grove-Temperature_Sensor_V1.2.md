@@ -4,7 +4,7 @@ category: Sensor
 bzurl: https://www.seeedstudio.com/Grove-Temperature-Sensor-p-774.html
 oldwikiname: Grove - Temperature Sensor V1.2
 prodimagename: Grove_Temperature_Sensor_View.jpg
-wikiurl: http://seeed.wiki/Grove-Temperature_Sensor_V1.2/
+wikiurl: http://seeed.wiki/Grove-Temperature_Sensor_V1.2
 sku: 101020015
 tags: io_3v3, io_5v, plat_duino
 ---

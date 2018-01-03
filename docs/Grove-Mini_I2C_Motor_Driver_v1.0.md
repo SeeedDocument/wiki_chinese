@@ -285,7 +285,7 @@ Grove - Mini I2C Motor Driver 有一个 Grove 插座用于连接 Arduino 或者 
 -   2 * DC Motor 2V-6V - 连接到 CH1 & CH2 输出接口。
 -   Seeeduino Lite
 
-Connect Seeeduino's Grove I2C Interface to Mini Motor Driver's Grove Interface as shown below:
+按下图所示连接好 Seeeduino 的 I2C Grove 接口和 Mini Motor Driver 的 Grove 接口：
 
 ![](https://raw.githubusercontent.com/SeeedDocument/Grove-Mini_I2C_Motor_Driver_v1.0/master/img/Mini_motor_driver_demo.jpg)
 
@@ -303,7 +303,7 @@ The Grove - Mini I2C Motor Driver 基于芯片 DRV8830 可以控制电机。DRV8
 
 下面给出的是一个与 Arduino 一起使用的示例程序。这个代码是非常基础的，您也可以改变它，并以您自己的方式做。
 
-```
+```c
 /****************************************************************
 Example code demonstrating the use of the Arduino Library for
 the SparkFun MiniMoto board, which uses the TI DRV8830 IC for I2C

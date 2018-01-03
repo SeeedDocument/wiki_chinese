@@ -175,10 +175,10 @@ pi@raspberrypi:~ $ source ~/env/bin/activate                   # 激活 python �
 ```
 pi@raspberrypi:~ $ source ~/env/bin/activate                    # 激活Python虚拟环境, 如果已经激活，调到下一步。
 (env) pi@raspberrypi:~ $ cd ~/4mics_hat
-(env) pi@raspberrypi:~ $ sudo apt install libatlas-base-dev     # 安装 snowboy dependencies
-(env) pi@raspberrypi:~ $ sudo apt install python-pyaudio
-(env) pi@raspberrypi:~ $ pip install ./snowboy*.whl             # 安装 snowboy for KWS
-(env) pi@raspberrypi:~ $ pip install ./webrtc*.whl              # 安装 webrtc for DoA
+(env) pi@raspberrypi:~/4mics_hat $ sudo apt install libatlas-base-dev     # 安装 snowboy dependencies
+(env) pi@raspberrypi:~/4mics_hat $ sudo apt install python-pyaudio
+(env) pi@raspberrypi:~/4mics_hat $ pip install ./snowboy*.whl             # 安装 snowboy for KWS
+(env) pi@raspberrypi:~/4mics_hat $ pip install ./webrtc*.whl              # 安装 webrtc for DoA
 (env) pi@raspberrypi:~ $ cd ~/
 (env) pi@raspberrypi:~ $ git clone https://github.com/voice-engine/voice-engine
 (env) pi@raspberrypi:~ $ cd voice-engine/
@@ -212,7 +212,9 @@ pi@raspberrypi:~ $ source ~/env/bin/activate                    # activate the v
 (env) pi@raspberrypi:~ $ git clone https://github.com/respeaker/avs
 (env) pi@raspberrypi:~ $ cd avs                                 # install Requirements
 (env) pi@raspberrypi:~ $ python setup.py install                               
-(env) pi@raspberrypi:~/avs $ sudo apt install gstreamer1.0 gstreamer1.0-plugins-good gstreamer1.0-plugins-ugly
+(env) pi@raspberrypi:~/avs $ sudo apt install gstreamer1.0
+(env) pi@raspberrypi:~/avs $ sudo apt install gstreamer1.0-plugins-good
+(env) pi@raspberrypi:~/avs $ sudo apt install gstreamer1.0-plugins-ugly
 (env) pi@raspberrypi:~/avs $ sudo apt install python-gi gir1.2-gstreamer-1.0
 (env) pi@raspberrypi:~/avs $ pip install tornado
 ```
@@ -234,7 +236,7 @@ pi@raspberrypi:~ $ source ~/env/bin/activate                    # activate the v
 ```
 按照下面的信息更新第15-50行的设置:
 
-```
+```python
     from voice_engine.kws import KWS
     #from voice_engine.ns import NS
     #from voice_engine.doa_respeaker_4mic_array import DOA
@@ -274,22 +276,17 @@ pi@raspberrypi:~ $ source ~/env/bin/activate                    # activate the v
 
 #### 3. 让我们High起来!
 
-现在请在虚拟环境下运行 `python ns_kws_doa_alexa.py` , 我们会在终端看到很多debug的消息. 当我们看到 **status code: 204**的时候, 请说 `snowboy`来唤醒respeaker。接下来respeaker上的led灯亮起来, 我们可以跟他对话, 比如问，"谁是最帅的?" 或者 "播放刘德华的男人哭吧哭吧不是罪"。小伙伴，尽情的High起来吧。
+现在请在虚拟环境下运行 `python ns_kws_doa_alexa.py` , 我们会在终端看到很多debug的消息. 当我们看到 **status code: 204** 的时候, 请说 `snowboy` 来唤醒 respeaker。接下来 respeaker 上的 led 灯亮起来, 我们可以跟他对话, 比如问，"谁是最帅的?" 或者 "播放刘德华的男人哭吧哭吧不是罪"。小伙伴，尽情的 High 起来吧。
 
 ## FAQ(疑问解答)
-1.
-
 
 Q:严格按照本 wiki 操作，驱动还是安装失败，怎么办？
-
 
 A:如果按照上述方法安装驱动均失败，请点击下面固件安装
 
 [我是固件](https://pan.baidu.com/s/1bprWJr5)
 
-
 下载密码：t1m7
-
 
 ## 资源下载
 
