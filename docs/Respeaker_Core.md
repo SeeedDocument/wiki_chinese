@@ -9,11 +9,11 @@ sku:     102010088
 ---
 ![](https://github.com/SeeedDocument/Respeaker_Core/raw/master/img/respeaker_core.jpg)
 
-ReSpeaker是一个开放的模块化语音接口，用于接入您周围的各种事物。让您通过语音与您的家用电器，您的工厂，办公室，互联网设备或您日常生活中的其他任何事物进行互动。
+ReSpeaker 是一个开放的模块化语音接口，用于接入您周围的各种事物。让您通过语音与您的家用电器，您的工厂，办公室，互联网设备或您日常生活中的其他任何事物进行互动。
 
 - **它是您周围物件的语音扩展**
 
-  ReSpeaker支持在线语义识别服务并且拥有离线轻量级语音识别引擎。您可以将ReSpeaker添加到您周围的事物中，使其变得智能或更加智能。
+  ReSpeaker支持在线语义识别服务并且拥有离线轻量级语音识别引擎。您可以将 ReSpeaker 添加到您周围的事物中，使其变得智能或更加智能。
 
 - **它是一个音频流设备**
 
@@ -134,7 +134,7 @@ ReSpeaker是一个开放的模块化语音接口，用于接入您周围的各�
 
 #### 3. 设置 Wi-Fi
 
-ReSpeaker默认设置为中继模式，您必须将其连接到现有的无线wifi网络，然后才能使用Internet进行语音识别。
+ReSpeaker 默认设置为中继模式，您必须将其连接到现有的无线 wifi 网络，然后才能使用 Internet 进行语音识别。
 
 在 Win 系统中使用 putty 串口模式下连接 Respeaker_Core 后, 使用 wictl 命令扫描 wifi 并连接。
 
@@ -173,7 +173,7 @@ apcli0    Link encap:Ethernet  HWaddr 9E:65:F9:0D:D3:46
           RX bytes:0 (0.0 B)  TX bytes:0 (0.0 B)
 ```
 
-或者您可以使用下面的方法连接 Wifi。当您首次接通ReSpeaker电源时，它将创建一个名为“ReSpeakerXXXXXX”的Wi-Fi网络。这里“XXXXXX”是您的ReSpeaker MAC地址的最后6位。将您的计算机连接到此网络。
+或者您可以使用下面的方法连接 Wifi。当您首次接通 ReSpeaker 电源时，它将创建一个名为 “ReSpeakerXXXXXX” 的 Wi-Fi 网络。这里 “XXXXXX” 是您的 ReSpeaker MAC 地址的最后6位。将您的计算机连接到此网络。
 
 ![](https://github.com/SeeedDocument/Respeaker_Core/raw/master/img/wifi1.png)
 
@@ -204,10 +204,12 @@ ssh root@ssh *.*.*.*
 
 通过使用extroot，添加外部SD卡存储设备来实现根文件系统的存储容量的扩展。在引导过程中，外部存储空间作为根文件系统启动，或者以原始文件系统的覆盖配置进行启动。
 
+使用前需要先对 SD 卡进行格式化。请使用产品附带的SD卡来完成下面的操作。
+
 - 确保您的SD卡已插入ReSpeaker，并且/ dev / mmcblk0p1可以通过df -h或ls / dev进行检测。
 
 !!!Note
-    一定要在检测到 sd 卡后再进行分区操作。如果您在使用 `df -h` 命令没有检测到 sd 卡，请多尝试几次，或者输入 `reboot` 重启板子再检测。检测到的输出如下所示。
+    一定要在检测到 sd 卡后再进行分区操作，否则可能会分区失败。如果您在使用 `df -h` 命令没有检测到 **/dev/mmcblk0p1**，请多尝试几次，或者输入 `reboot` 重启板子再检测。检测到的输出如下所示。
 
 ```
 root@ReSpeaker:/# df -h
@@ -273,7 +275,7 @@ mount /dev/mmcblk0p2 /mnt ; tar -C /overlay -cvf - . | tar -C /mnt -xf - ; umoun
 	block detect > /etc/config/fstab;
 	sed -i s/option$'\t'enabled$'\t'\'0\'/option$'\t'enabled$'\t'\'1\'/ /etc/config/fstab;
 	sed -i s#/mnt/mmcblk0p2#/overlay# /etc/config/fstab;
-	cat /etc/config/fstab;
+	cat /etc/config/fstab
 ```
 
 - 检查是否安装到 overlay.
@@ -293,7 +295,9 @@ mount /dev/mmcblk0p2 /mnt ; tar -C /overlay -cvf - . | tar -C /mnt -xf - ; umoun
   /dev/mmcblk0p2            5.2G     11.8M      4.9G   0% /overlay
 ```
 
--  重启ReSpeaker并重新检查。如果SD卡如上自动加载，就成功了。更多关于extroot的信息，请点击 [这里](https://wiki.openwrt.org/doc/howto/extroot).
+-  **重启 ReSpeaker** 并重新检查。如果SD卡如上自动加载，就成功了。更多关于extroot的信息，请点击 [这里](https://wiki.openwrt.org/doc/howto/extroot).
+
+如果分区失败，请在电脑上删除所有 SD 卡的所有分区并重新分区为一个分区，重新进行第 4 步分区操作。
 
 #### 5. 在ReSpeaker上安装软件
 
@@ -314,22 +318,17 @@ cd respeaker_python_library
 python setup.py install
 ```
 
-### 与Respeaker的第一次互动 - ReSpeaker, play music!
+### 与 Respeaker 的第一次互动 - ReSpeaker, play music!
 
-使用Bing Speech API，ReSpeaker可以实时打开并识别来自麦克风的音频，或从文件识别音频。
+使用 Bing Speech API，ReSpeaker 可以实时打开并识别来自麦克风的音频，或从文件识别音频。
 
-要使用Bing Speech API，首先必须从 [这里](https://www.microsoft.com/cognitive-services/en-us/speech-api) 获取Microsoft Cognitive Services的密钥，并将其复制到BING_KEY =“'，然后将以下代码保存在playmusic.py中并运行
-
-```
-//stop mopidy and alexa to avoid USB device occupation
-/etc/init.d/mopidy stop
-/etc/init.d/alexa stop
-python playmusic.py
-```
+要使用 Bing Speech API，首先必须从 [这里](https://www.microsoft.com/cognitive-services/en-us/speech-api) 获取 Microsoft Cognitive Services 的密钥。
 
 ![](https://github.com/SeeedDocument/Respeaker_Core/raw/master/img/getbingapi.png)
 
-```
+取得密钥后，在 respeaker_python_library 目录下新建文件名为 **playmusic.py**。把下面的代码粘贴进文件，在 **BING_KEY = ''** 中粘贴您的密钥，然后保存。如果您不知道如何使用命令创建和编辑文件，可以使用 WinSCP 软件来进行本步操作，使用时通过 IP 地址连接。
+
+```python
 import logging
 import time
 import os
@@ -379,8 +378,15 @@ def main():
 if __name__ == '__main__':       
     main()                  
 ```
+保存完成后，输入下面三行命令来运行例程。其中，`mopidy stop` 和 `alexa stop` 负责解除对 USB 设备的占用。
 
-在"INFO:mic:Start Detecting" 出来之后，尝试说“ReSpeaker”唤醒程序，唤醒后说“playmusic”让它播放音乐。然后ReSpeaker将使用madplay工具在当前路径中播放“Tchaikovsky_Concerto_No.1p.mp3”
+```
+/etc/init.d/mopidy stop
+/etc/init.d/alexa stop
+python playmusic.py
+```
+
+在"INFO:mic:Start Detecting" 出来之后，尝试说 “ReSpeaker” 唤醒程序，唤醒后说 “playmusic” 让它播放音乐。然后 ReSpeaker 将使用 madplay 工具在当前路径中播放 “Tchaikovsky_Concerto_No.1p.mp3”。
 
 ![](https://github.com/SeeedDocument/Respeaker_Core/raw/master/img/bingplaymusic.png)
 
