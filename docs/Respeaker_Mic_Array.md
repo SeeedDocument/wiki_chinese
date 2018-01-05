@@ -65,17 +65,19 @@ ReSpeaker麦克风阵列可以堆叠（连接）到ReSpeaker Core的顶部，以
 - 重量:
     - 15.25g
 
+!!!Note
+    Respeaker 麦克风阵列默认没有焊接耳机口，声音输出使用主机的音频接口即可。如有必要需焊接耳机口使用，请先确认阵列的功能正常，然后寻求焊接经验丰富的专业人士帮助，以防焊接失败造成硬件故障。
+
 ## ReSpeaker 麦克风阵列驱动
 
-- 对于Windows用户, 请单击 [此处](https://github.com/Fuhua-Chen/ReSpeaker_Microphone_Array_Driver) 安装驱动程序
+- 对于 Windows 用户, 请单击 [此处](https://github.com/Fuhua-Chen/ReSpeaker_Microphone_Array_Driver) 安装驱动程序
 - 对于Linux或Mac用户，不需要安装驱动程序
 
 ## 用ReSpeaker Core提取声音
 
-当麦克风阵列堆叠在ReSpeaker Core上时，将自动检测（也可以通过aplay -l来手动检测）。我们建议您可以使用[respeaker_python_library](https://github.com/respeaker/respeaker_python_library)来开发语音交互应用程序，以便您不需要关心Mic Array是否打开。我们的库文件会检查并选择麦克风阵列。
+当麦克风阵列插在 ReSpeaker Core 上时，将自动检测（也可以通过aplay -l来手动检测）。我们建议您可以使用[respeaker_python_library](https://github.com/respeaker/respeaker_python_library)来开发语音交互应用程序，以便您不需要关心Mic Array是否打开。我们的库文件会检查并选择麦克风阵列。
 
 此外，在该库中，基于Pyaudio的麦克风类具有名为listen的方法来提取语音。请参阅我们的示例代码以供使用。
-
 
 此外，在该库中， [*class Microphone*](https://github.com/respeaker/respeaker_python_library/blob/master/respeaker/microphone.py), 基于 **Pyaudio**, 用 [*listen*](https://github.com/respeaker/respeaker_python_library/blob/master/respeaker/microphone.py#L207), 来提取声音. 请查阅 [example code](https://github.com/respeaker/respeaker_python_library/blob/master/examples/SpeechRecognition_translator.py) 关于如何使用.
 
@@ -147,8 +149,11 @@ wf.close()
 
 您可以在[这里](https://github.com/Fuhua-Chen/ReSpeaker_Microphone_Array_Firmware)下载适用于DFU的ReSpeaker麦克风阵列固件。我们提供了两个版本：
 
-- **xvsm版本**：初始版本，支持dsp输出2通道数据。
-- **原始版本**：输出8路麦克风原始数据，此固件不支持xvsm dsp，因此不支持某些功能，如DOA，AEC等。
+- **xvsm版本**：出厂版本，输出 2 通道音频数据。集成了 DSP 降噪，DOA，AEC 等功能，建议使用此版本。
+- **原始版本**：输出 8 路麦克风 **原始数据**，此固件不支持 xvsm dsp，因此不支持某些功能，如 DOA，AEC 等。
+
+!!!Note
+    xvsm版本下，阵列上电后会默认开启定位功能，用环形 RGB LED 指示声音方位。原始版本则不会有任何 RGB LED 闪烁。这是区别阵列固件版本的方法之一。
 
 关于请查阅如何在Mac或Linux上更新固件， 请查阅 [这里](https://github.com/respeaker/mic_array_dfu) 。
 
@@ -296,7 +301,7 @@ Windows需要安装驱动，linux（Ubuntu,Raspberry,MAC等）不需要安装驱
 
 ## 资源下载
 
-- **[Eagle]**[ReSpeaker Microphone Array SCH](hhttps://github.com/SeeedDocument/ReSpeaker_Mic_Array/raw/master/res/Respeaker%20Microphone%20Array%20v1.0.sch.zip)
-- **[Eagle]**[ReSpeaker Microphone Array BRD](https://github.com/SeeedDocument/ReSpeaker_Mic_Array/raw/master/res/Respeaker%20Microphone%20Array%20v1.0.brd.zip)
-- **[PDF]** [ReSpeaker Microphone Array SCH](https://github.com/SeeedDocument/ReSpeaker_Mic_Array/raw/master/res/Respeaker%20Microphone%20Array%20v1.0%20Sch.pdf)
-- **[PDF]** [ReSpeaker Microphone Array PCB](https://github.com/SeeedDocument/ReSpeaker_Mic_Array/raw/master/res/Respeaker%20Microphone%20Array%20v1.0%20PCB.pdf)
+- **[Eagle文件]**[ReSpeaker Microphone Array SCH](hhttps://github.com/SeeedDocument/ReSpeaker_Mic_Array/raw/master/res/Respeaker%20Microphone%20Array%20v1.0.sch.zip)
+- **[Eagle文件]**[ReSpeaker Microphone Array BRD](https://github.com/SeeedDocument/ReSpeaker_Mic_Array/raw/master/res/Respeaker%20Microphone%20Array%20v1.0.brd.zip)
+- **[PDF文件]** [ReSpeaker Microphone Array SCH](https://github.com/SeeedDocument/ReSpeaker_Mic_Array/raw/master/res/Respeaker%20Microphone%20Array%20v1.0%20Sch.pdf)
+- **[PDF文件]** [ReSpeaker Microphone Array PCB](https://github.com/SeeedDocument/ReSpeaker_Mic_Array/raw/master/res/Respeaker%20Microphone%20Array%20v1.0%20PCB.pdf)

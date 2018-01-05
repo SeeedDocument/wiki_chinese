@@ -188,7 +188,7 @@ apcli0    Link encap:Ethernet  HWaddr 9E:65:F9:0D:D3:46
 
 现在您的ReSpeaker能够访问互联网。
 
-!!!注意
+!!!Note
     如果您无法使用上述方法连接Wifi，请通过输入firstboot命令进行出厂设置。
 
 启用Wifi功能后，我们可以使用SSH模式通过以下命令连接Respeaker。我们可以从http://192.168.100.1/#!/overview WAN IP获取Respeaker IP地址。密码是root。
@@ -244,7 +244,7 @@ tmpfs                   512.0K         0    512.0K   0% /dev
 	p   primary (1 primary, 0 extended, 3 free)
 	e   extended (container for logical partitions)
 	>Select (default p):p
-	>Partition number (1-4, default 2):2
+	>Partition number (2-4, default 2):2
 	>First sector (4196352-15523839, default 4196352):
 	>Last sector, +sectors or +size{K,M,G,T,P} (4196352-15523839, default 15523839):
 	>Command (m for help):w
@@ -441,14 +441,14 @@ File "/usr/lib/python2.7/threading.py", line 810, in __bootstrap_inner
 
 ##   ReSpeaker Mic Array（ReSpeaker 麦克风阵列）
 ---
-### [ReSpeaker Mic Array](https://www.seeedstudio.com/ReSpeaker-Mic-Array-Far-field-w%2F-7-PDM-Microphones--p-2719.html)
+### [ReSpeaker Mic Array](https://item.taobao.com/item.htm?spm=a1z38n.10678284.0.0.586942b1pPwZsd&id=539003048162)
 
 ReSpeaker麦克风阵列可以堆叠（连接）到ReSpeaker Core的顶部，以显着提高语音交互体验。它是基于XMOS的XVSM-2000智能麦克风开发的。该板集成了7个PDM麦克风，以帮助将ReSpeaker的声学DSP性能提升到更高的水平
 
 ##   关于软件
 ---
 您可页面以点击下列标题来跳转到对应
-### [ReSpeaker Arduino 库](https://github.com/respeaker/get_started_with_respeaker/blob/master/ReSpeakerArduinoLibrary.md#respeaker-arduino-library)
+### [ReSpeaker Arduino 库](https://github.com/respeaker/get_started_with_respeaker/blob/master/docs/ReSpeaker/ReSpeakerArduinoLibrary.md#respeaker-arduino-library)
 
 ReSpeaker Arudino库提供以下功能：
 
@@ -463,7 +463,7 @@ ReSpeaker是一个支持语音交互的开放项目。ReSpeaker python库是一�
 
 
 
-### [更多的信息请点击这里查看我们的github资料库](https://github.com/respeaker)
+### [更多的信息请点击这里查看我们的github资料库](https://github.com/respeaker/get_started_with_respeaker/tree/master/docs/ReSpeaker)
 
 
 ##   FAQ
@@ -608,7 +608,7 @@ mount /dev/mmcblk0p1 /mnt
 cd /mnt
 sysupgrade -n -F ramips-openwrt-latest-LinkIt7688-squashfs-sysupgrade.bin
 ```
-ReSpeaker安装固件和重启大约需要3分钟，更新时**请勿关闭** ReSpeaker。
+ReSpeaker安装固件和重启大约需要3分钟，更新时 **请勿关闭** ReSpeaker。
 
 ![](https://github.com/SeeedDocument/Respeaker_Core/raw/master/img/systemupdate2.png)
 
