@@ -135,6 +135,7 @@ pages:
       - Respeaker Core: Respeaker_Core.md
       - Respeaker 2-Mics Pi HAT: Respeaker_2-Mics_Pi_HAT.md  
       - Respeaker 4-Mics Pi HAT: Respeaker_4-Mics_Pi_HAT.md
+      - SoundPi: SoundPi.md
     
     - Shield:
       - Shield: Shield.md
