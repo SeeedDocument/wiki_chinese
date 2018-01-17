@@ -9,7 +9,7 @@ sku: 102991014
 ---
 
 ---
-![](https://github.com/SeeedDocument/SoundPi/blob/master/img/first.jpg?raw=true)
+![](https://github.com/SeeedDocument/SoundPi/blob/master/img/First.jpg?raw=true)
 
 SoundPi 远场语音开发套件是一款软硬一体化的智能语音交互开发解决方案，采用 SoundAI 定制的量产麦克风阵列，集成全方向唤醒、声源测向、定向拾音、噪声抑制、混响消除、回声抵消、远场语音识别、语义理解、语音播报等多项技术。内置独家优化的 DuerOS 智能系统，提供生活服务、信息查询、设备控制、日程提醒、情感陪伴、链接服务等 100 多项功能与服务，可广泛应用于智能音箱、电视、冰箱、玩具、机器人、DOT、机顶盒、车载、可穿戴、远场遥控器等智能语音产品。
 
@@ -38,18 +38,18 @@ DuerOS 技能开放平台 DuerOS技能开放平台，英文全称DuerOS Bots Pla
   </tr>
   <tr>
     <td class="tg-031e">SoundPi开发板</td>
-    <td class="tg-031e">![Only_Board](https://raw.githubusercontent.com/SeeedDocument/SoundPi/master/img/Only_Board.jpg)</td>
-    <td class="tg-031e">[![](https://raw.githubusercontent.com/SeeedDocument/SoundPi/master/img/click_to_buy_shout.PNG)](https://item.taobao.com/item.htm?spm=a1z10.3-c-s.w4002-17789056523.14.14eb4180Yq5NdZ&amp;id=561590834303)</td>
+    <td class="tg-031e"><img src="https://raw.githubusercontent.com/SeeedDocument/SoundPi/master/img/Only_Board.jpg";border=0 /></td>
+    <td class="tg-031e"><a href="https://item.taobao.com/item.htm?spm=a1z10.3-c-s.w4002-17789056523.14.14eb4180Yq5NdZ&amp;id=561590834303" target="_blank_"><img src="https://raw.githubusercontent.com/SeeedDocument/SoundPi/master/img/click_to_buy_shout.PNG" border=0 /></a></td>
   </tr>
   <tr>
     <td class="tg-031e">SoundPi开发套件 基础版</td>
-    <td class="tg-031e">![Base](https://raw.githubusercontent.com/SeeedDocument/SoundPi/master/img/Base.jpg)</td>
-    <td class="tg-031e">[![](https://raw.githubusercontent.com/SeeedDocument/SoundPi/master/img/click_to_buy_shout.PNG)](https://item.taobao.com/item.htm?spm=a1z10.3-c-s.w4002-17789056523.17.14eb4180Yq5NdZ&amp;id=561591010487)</td>
+    <td class="tg-031e"><img src="https://raw.githubusercontent.com/SeeedDocument/SoundPi/master/img/Base.jpg";border=0 /></td>
+    <td class="tg-031e"><a href="https://item.taobao.com/item.htm?spm=a1z10.3-c-s.w4002-17789056523.17.14eb4180Yq5NdZ&amp;id=561591010487" target="_blank_"><img src="https://raw.githubusercontent.com/SeeedDocument/SoundPi/master/img/click_to_buy_shout.PNG" border=0 /></a></td>
   </tr>
   <tr>
     <td class="tg-031e">SoundPi开发套件 完整版</td>
-    <td class="tg-031e">![All](https://raw.githubusercontent.com/SeeedDocument/SoundPi/master/img/All.jpg)</td>
-    <td class="tg-031e">[![](https://raw.githubusercontent.com/SeeedDocument/SoundPi/master/img/click_to_buy_shout.PNG)](https://item.taobao.com/item.htm?spm=a1z10.3-c-s.w4002-17789056523.11.14eb4180Yq5NdZ&amp;id=561592446222)</td>
+    <td class="tg-031e"><img src="https://raw.githubusercontent.com/SeeedDocument/SoundPi/master/img/All.jpg";border=0 /></td>
+    <td class="tg-031e"><a href="https://item.taobao.com/item.htm?spm=a1z10.3-c-s.w4002-17789056523.11.14eb4180Yq5NdZ&amp;id=561592446222" target="_blank_"><img src="https://raw.githubusercontent.com/SeeedDocument/SoundPi/master/img/click_to_buy_shout.PNG" border=0 /></a></td>
   </tr>
 </table>
 
