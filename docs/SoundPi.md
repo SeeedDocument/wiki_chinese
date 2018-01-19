@@ -19,39 +19,23 @@ DuerOS智能设备开放平台，英文全称DuerOS Intellengent DevicesPlatform
 
 DuerOS 技能开放平台 DuerOS技能开放平台，英文全称DuerOS Bots Platform，是DuerOS为第三方开发者提供一整套技能开发、测试、部署工具的开放平台。第三方开发者可以在平台上，通过可视化界面，简单、高效地开发各类个性化技能，丰富DuerOS的能力。
 
-<style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:0;}
-.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;}
-.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;}
-.tg .tg-yw4l{vertical-align:top}
-</style>
-<table class="tg" style="undefined;table-layout: fixed; width: 846px">
-<colgroup>
-<col style="width: 145px">
-<col style="width: 467px">
-<col style="width: 234px">
-</colgroup>
-  <tr>
-    <th class="tg-yw4l">套件名称</th>
-    <th class="tg-yw4l">套件内容</th>
-    <th class="tg-yw4l">购买链接</th>
-  </tr>
-  <tr>
-    <td class="tg-031e">SoundPi开发板</td>
-    <td class="tg-031e"><img src="https://raw.githubusercontent.com/SeeedDocument/SoundPi/master/img/Only_Board.jpg";border=0 /></td>
-    <td class="tg-031e"><a href="https://item.taobao.com/item.htm?spm=a1z10.3-c-s.w4002-17789056523.14.14eb4180Yq5NdZ&amp;id=561590834303" target="_blank_"><img src="https://raw.githubusercontent.com/SeeedDocument/SoundPi/master/img/click_to_buy_shout.PNG" border=0 /></a></td>
-  </tr>
-  <tr>
-    <td class="tg-031e">SoundPi开发套件 基础版</td>
-    <td class="tg-031e"><img src="https://raw.githubusercontent.com/SeeedDocument/SoundPi/master/img/Base.jpg";border=0 /></td>
-    <td class="tg-031e"><a href="https://item.taobao.com/item.htm?spm=a1z10.3-c-s.w4002-17789056523.17.14eb4180Yq5NdZ&amp;id=561591010487" target="_blank_"><img src="https://raw.githubusercontent.com/SeeedDocument/SoundPi/master/img/click_to_buy_shout.PNG" border=0 /></a></td>
-  </tr>
-  <tr>
-    <td class="tg-031e">SoundPi开发套件 完整版</td>
-    <td class="tg-031e"><img src="https://raw.githubusercontent.com/SeeedDocument/SoundPi/master/img/All.jpg";border=0 /></td>
-    <td class="tg-031e"><a href="https://item.taobao.com/item.htm?spm=a1z10.3-c-s.w4002-17789056523.11.14eb4180Yq5NdZ&amp;id=561592446222" target="_blank_"><img src="https://raw.githubusercontent.com/SeeedDocument/SoundPi/master/img/click_to_buy_shout.PNG" border=0 /></a></td>
-  </tr>
-</table>
+## 不同版本购买链接：
+
+点击图片购买。
+
+SoundPi开发板单板
+
+![https://raw.githubusercontent.com/SeeedDocument/SoundPi/master/img/Only_Board.jpg](https://item.taobao.com/item.htm?spm=a1z10.3-c-s.w4002-17789056523.14.14eb4180Yq5NdZ&amp;id=561590834303)
+
+SoundPi开发套件 基础版
+
+![https://raw.githubusercontent.com/SeeedDocument/SoundPi/master/img/Base.jpg](https://item.taobao.com/item.htm?spm=a1z10.3-c-s.w4002-17789056523.17.14eb4180Yq5NdZ&amp;id=561591010487" target="_blank_"><img src="https://raw.githubusercontent.com/SeeedDocument/SoundPi/master/img/click_to_buy_shout.PNG)
+
+SoundPi开发套件 完整版
+
+![https://raw.githubusercontent.com/SeeedDocument/SoundPi/master/img/All.jpg](https://item.taobao.com/item.htm?spm=a1z10.3-c-s.w4002-17789056523.11.14eb4180Yq5NdZ&amp;id=561592446222)
+
+
 
 ## 产品特性
 

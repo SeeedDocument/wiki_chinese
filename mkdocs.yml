@@ -105,6 +105,7 @@ pages:
     - Wio:
       - Wio: Wio.md
       - Wio Link: Wio_Link.md
+      - Wio LTE Cat.1: Wio_LTE_Cat.1.md
       
     
     - LinkIt:
@@ -114,6 +115,7 @@ pages:
       - LinkIt Smart 7688 Duo: LinkIt_Smart_7688_Duo.md
       - Breakout for LinkIt Smart 7688 v2.0: Breakout_for_LinkIt_Smart_7688_v2.0.md
       - Arduino Breakout for LinkIt Smart 7688 Duo: Arduino_Breakout_for_LinkIt_Smart_7688_Duo.md
+      - Grove Breakout for LinkIt Smart 7688 Duo: Grove_Breakout_for_LinkIt_Smart_7688_Duo.md
       
        
     - mbed:
@@ -159,9 +161,11 @@ pages:
       - GrovePi Plus: GrovePi_Plus.md
       - WireLess Gate Shield V1.0: WireLess_Gate_Shield_V1.0.md
       - Solar Charger Shield V2.2: Solar_Charger_Shield_V2.2.md
+      - Small e-Paper Shield V2: Small_e-Paper_Shield_V2.md
       - Bluetooth Shield V2: Bluetooth_Shield_V2.md
       - NFC Shield V2.0: NFC_Shield_V2.0.md
       - Wifi Shield V2.0: Wifi_Shield_V2.0.md
+      - Wifi_Shield_Fi250_V1.1: Wifi_Shield_Fi250_V1.1.md
       - RS232 Shield: RS232_Shield.md
 
     - Essentials:

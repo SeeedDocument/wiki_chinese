@@ -21,3 +21,4 @@ Wio平台在2015年底首次引入世界，当时Wio Link在Kickstarter上成立
 * [Wio_Link_Deluxe_Plus_Kit](http://seeed.wiki/Wio_Link_Deluxe_Plus_Kit)
 * [Wio_Link_Environment_Kit](http://seeed.wiki/Wio_Link_Environment_Kit)
 * [Wio_Link_Starter_Kit](http://seeed.wiki/Wio_Link_Starter_Kit)
+* [Wio_LTE_Cat.1](990837)
