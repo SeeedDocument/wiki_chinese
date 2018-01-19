@@ -25,15 +25,15 @@ DuerOS 技能开放平台 DuerOS技能开放平台，英文全称DuerOS Bots Pla
 
 SoundPi开发板单板
 
-![https://raw.githubusercontent.com/SeeedDocument/SoundPi/master/img/Only_Board.jpg](https://item.taobao.com/item.htm?spm=a1z10.3-c-s.w4002-17789056523.14.14eb4180Yq5NdZ&amp;id=561590834303)
+[![](https://raw.githubusercontent.com/SeeedDocument/SoundPi/master/img/Only_Board.jpg)](https://item.taobao.com/item.htm?spm=a1z10.3-c-s.w4002-17789056523.14.14eb4180Yq5NdZ&amp;id=561590834303)
 
 SoundPi开发套件 基础版
 
-![https://raw.githubusercontent.com/SeeedDocument/SoundPi/master/img/Base.jpg](https://item.taobao.com/item.htm?spm=a1z10.3-c-s.w4002-17789056523.17.14eb4180Yq5NdZ&amp;id=561591010487" target="_blank_"><img src="https://raw.githubusercontent.com/SeeedDocument/SoundPi/master/img/click_to_buy_shout.PNG)
+[![](https://raw.githubusercontent.com/SeeedDocument/SoundPi/master/img/Base.jpg)](https://item.taobao.com/item.htm?spm=a1z10.5-c-s.w4002-17789056553.19.42b3582e1CiJo8&id=561591010487)
 
 SoundPi开发套件 完整版
 
-![https://raw.githubusercontent.com/SeeedDocument/SoundPi/master/img/All.jpg](https://item.taobao.com/item.htm?spm=a1z10.3-c-s.w4002-17789056523.11.14eb4180Yq5NdZ&amp;id=561592446222)
+[![](https://raw.githubusercontent.com/SeeedDocument/SoundPi/master/img/All.jpg)](https://item.taobao.com/item.htm?spm=a1z10.5-c-s.w4002-17789056553.25.42b3582e1CiJo8&id=561592446222)
 
 
 
