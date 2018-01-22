@@ -135,7 +135,7 @@ pages:
       - Respeaker: Respeaker.md
       - Respeaker Mic Array: Respeaker_Mic_Array.md
       - Respeaker Core: Respeaker_Core.md
-      - Respeaker 2-Mics Pi HAT: Respeaker_2-Mics_Pi_HAT.md  
+      - Respeaker 2-Mics Pi HAT: Respeaker_2-Mics_Pi_HAT.md
       - Respeaker 4-Mics Pi HAT: Respeaker_4-Mics_Pi_HAT.md
       - SoundPi: SoundPi.md
     
@@ -167,6 +167,7 @@ pages:
       - Wifi Shield V2.0: Wifi_Shield_V2.0.md
       - Wifi_Shield_Fi250_V1.1: Wifi_Shield_Fi250_V1.1.md
       - RS232 Shield: RS232_Shield.md
+      - SD Card shield V4.0: SD_Card_shield_V4.0.md
 
     - Essentials:
       - Essentials: Essentials.md
@@ -365,6 +366,7 @@ pages:
     - Wio Link Deluxe Plus Kit: Wio_Link_Deluxe_Plus_Kit.md
     - Rainbow Cube kit RGB 4x4x4 Rainbowduino Compatible: Rainbow_Cube_kit_RGB_4_4_4_Rainbowduino_Compatible.md
     - BitBot Robot Kit for MicroBit: BitBot-Robot_Kit_for_MicroBit.md
+    - Seeeduino Mega Protoshield Kit: Seeeduino_Mega_Protoshield_Kit.md
   
   - MakerPro:
     - MakerPro: MakerPro.md

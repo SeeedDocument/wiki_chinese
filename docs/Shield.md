@@ -26,6 +26,7 @@ nointro:
 * [Raspberry_Pi_Relay_Board_v1.0](http://seeed.wiki/Raspberry_Pi_Relay_Board_v1.0)
 * [Relay_Shield_v3](http://seeed.wiki/Relay_Shield_v3)
 * [RS232_Shield](http://seeed.wiki/RS232_Shield)
+* [SD_Card_shield_V4.0](http://seeed.wiki/SD_Card_shield_V4.0)
 * [Small_e-Paper_Shield_V2](http://seeed.wiki/Small_e-Paper_Shield_V2)
 * [Solar_Charger_Shield_V2.2](http://seeed.wiki/Solar_Charger_Shield_V2.2)
 * [W5500_Ethernet_Shield_v1.0](http://seeed.wiki/W5500_Ethernet_Shield_v1_0)
