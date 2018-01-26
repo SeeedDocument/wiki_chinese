@@ -288,7 +288,7 @@ Arduino IDE 1.6.5支持使用 **Board Manager** 工具进行第三方板集成�
 **1** 在 Arduino IDE 中，在文件菜单上单击首选项，然后插入
 
 ````
-http://download.labs.mediatek.com/package_mtk_linkit_smart_7688_test_index.json
+http://download.labs.mediatek.com/package_mtk_linkit_smart_7688_index.json
 ````
 
 到附加板管理器 URL 字段：

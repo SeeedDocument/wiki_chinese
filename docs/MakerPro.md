@@ -21,6 +21,7 @@ nointro:
 * [Bus_Pirate_v3_assembled](http://seeed.wiki/Bus_Pirate_v3_assembled)
 * [Codec-Adaptive_Wireless_Relay](http://seeed.wiki/Codec-Adaptive_Wireless_Relay)
 * [DC_framework_miniature_solenoid_VL-0063](http://seeed.wiki/DC_framework_miniature_solenoid_VL-0063)
+* [DSO_Nano_v3](http://seeed.wiki/DSO_Nano_v3)
 * [G1-8_Water_Flow_Sensor](http://seeed.wiki/G1-8_Water_Flow_Sensor)
 * [G1_and_2_inch_Water_Flow_Sensor](http://seeed.wiki/G1_and_2_inch_Water_Flow_Sensor)
 * [G3-4_Water_Flow_sensor](http://seeed.wiki/G3-4_Water_Flow_sensor/)

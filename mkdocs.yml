@@ -104,6 +104,7 @@ pages:
 
     - Wio:
       - Wio: Wio.md
+      - wio_node: wio_node.md
       - Wio Link: Wio_Link.md
       - Wio LTE Cat.1: Wio_LTE_Cat.1.md
       
@@ -177,6 +178,7 @@ pages:
 
     - Wireless:
       - Wireless: Wireless.md
+      - RFbee V1 1 Wireless Arduino compatible node: RFbee_V1_1-Wireless_Arduino_compatible_node.md
       - BLE Nitrogen: BLE_Nitrogen.md
       - Bluetooth_V4.0_HM_11_BLE_Module: Bluetooth_V4.0_HM_11_BLE_Module.md
   
@@ -230,6 +232,7 @@ pages:
       - Grove-Touch Sensor: Grove-Touch_Sensor.md
       - Grove-Q Touch Sensor: Grove-Q_Touch_Sensor.md
       - Grove-I2C Touch Sensor: Grove-I2C_Touch_Sensor.md
+      - Grove-I2C FM Receiver: Grove-I2C_FM_Receiver.md
       - Grove-Gesture v1.0: Grove-Gesture_v1.0.md
       - Grove-IMU 9DOF v2.0: Grove-IMU_9DOF_v2.0.md
       - Grove-IMU 10DOF v2.0: Grove-IMU_10DOF_v2.0.md
@@ -254,6 +257,7 @@ pages:
       - Grove-Luminance Sensor: Grove-Luminance_Sensor.md
       - Grove-80cm Infrared Proximity Sensor: Grove-80cm_Infrared_Proximity_Sensor.md
       - Grove-TF Mini LiDAR: Grove-TF_Mini_LiDAR.md
+      - Grove-IR Distance Interrupter v1.2: Grove-IR_Distance_Interrupter_v1.2.md
     
     
      
@@ -378,6 +382,7 @@ pages:
     - RF Explorer Software: RF_Explorer_Software.md
     - Codec Adaptive Wireless Relay: Codec-Adaptive_Wireless_Relay.md
     - DC framework miniature solenoid VL-0063: DC_framework_miniature_solenoid_VL-0063.md
+    - DSO Nano v3: DSO_Nano_v3.md
     - Bus Pirate v3 assembled: Bus_Pirate_v3_assembled.md
     - Photo Reflective Sensor: Photo_Reflective_Sensor.md
     - WiFi Serial Transceiver Module: WiFi_Serial_Transceiver_Module.md
