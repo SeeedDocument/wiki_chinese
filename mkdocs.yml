@@ -104,7 +104,7 @@ pages:
 
     - Wio:
       - Wio: Wio.md
-      - wio_node: wio_node.md
+      - Wio Node: Wio_Node.md
       - Wio Link: Wio_Link.md
       - Wio LTE Cat.1: Wio_LTE_Cat.1.md
       
@@ -178,7 +178,7 @@ pages:
 
     - Wireless:
       - Wireless: Wireless.md
-      - RFbee V1 1 Wireless Arduino compatible node: RFbee_V1_1-Wireless_Arduino_compatible_node.md
+      - RFbee V1.1 Wireless Arduino compatible node: RFbee_V1.1-Wireless_Arduino_compatible_node.md
       - BLE Nitrogen: BLE_Nitrogen.md
       - Bluetooth_V4.0_HM_11_BLE_Module: Bluetooth_V4.0_HM_11_BLE_Module.md
   

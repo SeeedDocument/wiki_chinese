@@ -4,7 +4,7 @@ category: Wio
 bzurl: https://www.seeedstudio.com/Wio-Node-p-2637.html
 oldwikiname: Wio_Node
 prodimagename: Front%26Back.png
-wikiurl: http://seeed.wiki/wio_node
+wikiurl: http://seeed.wiki/Wio_Node
 sku: 102110057
 ---
 
