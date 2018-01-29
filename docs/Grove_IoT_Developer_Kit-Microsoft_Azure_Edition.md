@@ -23,131 +23,92 @@ Intel® Edison compute module 为专业创客和一些工业物联网应用而�
 
 ##  产品特性
 
-*   具有强劲性能的 Intel® Edison 和丰富特性的 Grove 系统的结合
-
-*   物联网项目的快速原型设计
-
-*   支持 Arduino、C/C++ 开发，也支持 Node.JS，Python，RTOS，未来会支持可视化编程
-
-*   提供设备到设备、设备到云端的连接框架，允许多设备之间通信、基于云的多用户时间序列分析服务。
-
-*   具有 SD 卡接头，micor USB 或标准尺寸的 USB A 型插座，Micro USB 设备，6 路模拟输入，20 路输入输出引脚，一个 UART，一个 I2C，一个 ICSP 六引脚接头 (SPI)，7V-15V 直流电源输入接头。
+* 具有强劲性能的 Intel® Edison 和丰富特性的 Grove 系统的结合
+* 物联网项目的快速原型设计
+* 支持 Arduino、C/C++ 开发，也支持 Node.JS，Python，RTOS，未来会支持可视化编程
+* 提供设备到设备、设备到云端的连接框架，允许多设备之间通信、基于云的多用户时间序列分析服务。
+* 具有 SD 卡接头，micor USB 或标准尺寸的 USB A 型插座，Micro USB 设备，6 路模拟输入，20 路输入输出引脚，一个 UART，一个 I2C，一个 ICSP 六引脚接头 (SPI)，7V-15V 直流电源输入接头。
 
 ##  产品清单
 
 ###   Inter Edison For Arduino
 
-*   [![](https://github.com/SeeedDocument/Grove_IoT_Developer_Kit-Microsoft_Azure_Edition/raw/master/img/Intel_Edison_Compute_module.jpg)](http://www.seeedstudio.com/depot/Intel-Edison-p-2603.html)</div>
+*   [![](https://github.com/SeeedDocument/Grove_IoT_Developer_Kit-Microsoft_Azure_Edition/raw/master/img/Intel_Edison_Compute_module.jpg)](http://www.seeedstudio.com/depot/Intel-Edison-p-2603.html)
 
 Intel Edison Compute module
 
-</div>
-</div>
-*   [![](https://github.com/SeeedDocument/Grove_IoT_Developer_Kit-Microsoft_Azure_Edition/raw/master/img/Intel_Edison_for_Arduino.jpg)](https://item.taobao.com/item.htm?spm=a1z10.3-c.w4002-11172317909.14.7760bdc8nqThZo&id=520431863747)</div>
+*   [![](https://github.com/SeeedDocument/Grove_IoT_Developer_Kit-Microsoft_Azure_Edition/raw/master/img/Intel_Edison_for_Arduino.jpg)](https://item.taobao.com/item.htm?spm=a1z10.3-c.w4002-11172317909.14.7760bdc8nqThZo&id=520431863747)
 
 Intel Edison For Arduino
 
-</div>
-</div>
+
+
 
 ###   Base Shield V2
 
-*   [![](https://github.com/SeeedDocument/Grove_IoT_Developer_Kit-Microsoft_Azure_Edition/raw/master/img/Base_Shield_v2-1.png)](https://item.taobao.com/item.htm?spm=a1z10.3-c.w4002-11172317909.9.7643e0c6l07gP5&id=520233320144)</div>
+*   [![](https://github.com/SeeedDocument/Grove_IoT_Developer_Kit-Microsoft_Azure_Edition/raw/master/img/Base_Shield_v2-1.png)](https://item.taobao.com/item.htm?spm=a1z10.3-c.w4002-11172317909.9.7643e0c6l07gP5&id=520233320144)
 
 Base Shield V2[(to Wiki)](/Base_shield_v2)
 
-</div>
-</div>
-
 ###   Sensors
 
-*   [![](https://github.com/SeeedDocument/Grove_IoT_Developer_Kit-Microsoft_Azure_Edition/raw/master/img/Button.jpg)](https://item.taobao.com/item.htm?spm=a1z10.3-c.w4002-11172317909.9.ba81b3bKabVdj&id=531838497696)</div>
+*   [![](https://github.com/SeeedDocument/Grove_IoT_Developer_Kit-Microsoft_Azure_Edition/raw/master/img/Button.jpg)](https://item.taobao.com/item.htm?spm=a1z10.3-c.w4002-11172317909.9.ba81b3bKabVdj&id=531838497696)
 
 Grove - Button
 
-</div>
-</div>
-*   [![](https://github.com/SeeedDocument/Grove_IoT_Developer_Kit-Microsoft_Azure_Edition/raw/master/img/Wiki_soundsensor.jpg)](https://item.taobao.com/item.htm?spm=a1z10.3-c.w4002-11172317909.13.3623e6fcF4zZm4&id=45507318433)</div>
+*   [![](https://github.com/SeeedDocument/Grove_IoT_Developer_Kit-Microsoft_Azure_Edition/raw/master/img/Wiki_soundsensor.jpg)](https://item.taobao.com/item.htm?spm=a1z10.3-c.w4002-11172317909.13.3623e6fcF4zZm4&id=45507318433)
 
 Grove - Sound Sensor
 
-</div>
-</div>
-*   [![](https://github.com/SeeedDocument/Grove_IoT_Developer_Kit-Microsoft_Azure_Edition/raw/master/img/3_aix_acc.jpg)](https://item.taobao.com/item.htm?spm=a1z10.3-c.w4002-11172317909.9.2653095eFfFYvb&id=45770637854)</div>
+*   [![](https://github.com/SeeedDocument/Grove_IoT_Developer_Kit-Microsoft_Azure_Edition/raw/master/img/3_aix_acc.jpg)](https://item.taobao.com/item.htm?spm=a1z10.3-c.w4002-11172317909.9.2653095eFfFYvb&id=45770637854)
 
 Grove - 3-Axis Digital Accelerometer(±1.5g)
 
-</div>
-</div>
-*   [![](https://github.com/SeeedDocument/Grove_IoT_Developer_Kit-Microsoft_Azure_Edition/raw/master/img/Touch_sensor.jpg)](https://item.taobao.com/item.htm?spm=a1z10.3-c.w4002-11172317909.9.5b7770206nCo9i&id=45486442714)</div>
+*   [![](https://github.com/SeeedDocument/Grove_IoT_Developer_Kit-Microsoft_Azure_Edition/raw/master/img/Touch_sensor.jpg)](https://item.taobao.com/item.htm?spm=a1z10.3-c.w4002-11172317909.9.5b7770206nCo9i&id=45486442714)
 
 Grove - Touch Sensor
 
-</div>
-</div>
 *   [![](https://github.com/SeeedDocument/Grove_IoT_Developer_Kit-Microsoft_Azure_Edition/raw/master/img/Grove-Light_Sensor_v1.2_product_view_700_.jpg)](https://item.taobao.com/item.htm?spm=a1z10.3-c.w4002-11172317909.9.557338f0nt0fPE&id=544373791068)
 
 Grove - Light Sensor v1.2
 
-</div>
-</div>
-*   [![](https://github.com/SeeedDocument/Grove_IoT_Developer_Kit-Microsoft_Azure_Edition/raw/master/img/Grove_Temperature_Sensor_View.jpg)](https://item.taobao.com/item.htm?spm=a1z10.3-c.w4002-11172317909.9.464598f84QoJ0r&id=520512844173)</div>
+*   [![](https://github.com/SeeedDocument/Grove_IoT_Developer_Kit-Microsoft_Azure_Edition/raw/master/img/Grove_Temperature_Sensor_View.jpg)](https://item.taobao.com/item.htm?spm=a1z10.3-c.w4002-11172317909.9.464598f84QoJ0r&id=520512844173)
 
 Grove - Temperature Sensor
 
-</div>
-</div>
-*   [![](https://github.com/SeeedDocument/Grove_IoT_Developer_Kit-Microsoft_Azure_Edition/raw/master/img/Potentiometer1.jpg)](https://item.taobao.com/item.htm?spm=a1z10.3-c.w4002-11172317909.9.64965f32L9tI36&id=45554377762)</div>
+*   [![](https://github.com/SeeedDocument/Grove_IoT_Developer_Kit-Microsoft_Azure_Edition/raw/master/img/Potentiometer1.jpg)](https://item.taobao.com/item.htm?spm=a1z10.3-c.w4002-11172317909.9.64965f32L9tI36&id=45554377762)
 
 Grove - Rotary Angle Sensor(P)
 
-</div>
-</div>
-*   [![](https://github.com/SeeedDocument/Grove_IoT_Developer_Kit-Microsoft_Azure_Edition/raw/master/img/Piezo_Vibration_Sensor_01.jpg)](https://item.taobao.com/item.htm?spm=a1z10.3-c.w4002-11172317909.12.48581195MyYYou&id=45553185547)</div>
+*   [![](https://github.com/SeeedDocument/Grove_IoT_Developer_Kit-Microsoft_Azure_Edition/raw/master/img/Piezo_Vibration_Sensor_01.jpg)](https://item.taobao.com/item.htm?spm=a1z10.3-c.w4002-11172317909.12.48581195MyYYou&id=45553185547)
 
 Grove - Piezo Vibration Sensor
 
-</div>
-</div>
-
 ###   Actuators
 
-*   [![](https://github.com/SeeedDocument/Grove_IoT_Developer_Kit-Microsoft_Azure_Edition/raw/master/img/Serial_LEC_RGB_Backlight_Lcd.jpg)](https://item.taobao.com/item.htm?spm=a1z10.3-c.w4002-11172317909.10.2015e1e0pFSSMk&id=45475311124)</div>
+*   [![](https://github.com/SeeedDocument/Grove_IoT_Developer_Kit-Microsoft_Azure_Edition/raw/master/img/Serial_LEC_RGB_Backlight_Lcd.jpg)](https://item.taobao.com/item.htm?spm=a1z10.3-c.w4002-11172317909.10.2015e1e0pFSSMk&id=45475311124)
 
 Grove - LCD RGB Backlight
 
-</div>
-</div>
-*   [![](https://github.com/SeeedDocument/Grove_IoT_Developer_Kit-Microsoft_Azure_Edition/raw/master/img/Buzzer1.jpg)](https://item.taobao.com/item.htm?spm=a1z10.3-c.w4002-11172317909.9.56d1ecb1VKAxLi&id=520245748676)</div>
+*   [![](https://github.com/SeeedDocument/Grove_IoT_Developer_Kit-Microsoft_Azure_Edition/raw/master/img/Buzzer1.jpg)](https://item.taobao.com/item.htm?spm=a1z10.3-c.w4002-11172317909.9.56d1ecb1VKAxLi&id=520245748676)
 
 Grove - Buzzer
 
-</div>
-</div>
-*   [![](https://github.com/SeeedDocument/Grove_IoT_Developer_Kit-Microsoft_Azure_Edition/raw/master/img/Red_LED.jpg)](https://item.taobao.com/item.htm?spm=a1z10.3-c.w4002-11172317909.39.4e325633TVQ82&id=45476819992)</div>
+*   [![](https://github.com/SeeedDocument/Grove_IoT_Developer_Kit-Microsoft_Azure_Edition/raw/master/img/Red_LED.jpg)](https://item.taobao.com/item.htm?spm=a1z10.3-c.w4002-11172317909.39.4e325633TVQ82&id=45476819992)
 
 Grove - Red LED
 
-</div>
-</div>
-*   [![](https://github.com/SeeedDocument/Grove_IoT_Developer_Kit-Microsoft_Azure_Edition/raw/master/img/Green_LED.jpg)](https://item.taobao.com/item.htm?spm=a1z10.3-c.w4002-11172317909.27.4e325633TVQ82&id=534288793023)</div>
+*   [![](https://github.com/SeeedDocument/Grove_IoT_Developer_Kit-Microsoft_Azure_Edition/raw/master/img/Green_LED.jpg)](https://item.taobao.com/item.htm?spm=a1z10.3-c.w4002-11172317909.27.4e325633TVQ82&id=534288793023)
 
 Grove - Green LED
 
-</div>
-</div>
-*   [![](https://github.com/SeeedDocument/Grove_IoT_Developer_Kit-Microsoft_Azure_Edition/raw/master/img/Blue_LED.jpg)](https://item.taobao.com/item.htm?spm=a1z10.3-c.w4002-11172317909.43.4e325633TVQ82&id=531838541569)</div>
+*   [![](https://github.com/SeeedDocument/Grove_IoT_Developer_Kit-Microsoft_Azure_Edition/raw/master/img/Blue_LED.jpg)](https://item.taobao.com/item.htm?spm=a1z10.3-c.w4002-11172317909.43.4e325633TVQ82&id=531838541569)
 
 Grove - Blue LED
 
-</div>
-</div>
-*   [![](https://github.com/SeeedDocument/Grove_IoT_Developer_Kit-Microsoft_Azure_Edition/raw/master/img/Stepper_Motor_with_Driver.jpg)](https://item.taobao.com/item.htm?spm=a1z10.3-c.w4002-11172317909.9.10d516c7EkveUi&id=534734937446)</div>
+*   [![](https://github.com/SeeedDocument/Grove_IoT_Developer_Kit-Microsoft_Azure_Edition/raw/master/img/Stepper_Motor_with_Driver.jpg)](https://item.taobao.com/item.htm?spm=a1z10.3-c.w4002-11172317909.9.10d516c7EkveUi&id=534734937446)
 
 Gear Stepper Motor with Driver [(to Arduino Tutorial)](http://arduino.cc/en/Tutorial/MotorKnob)
-
-</div>
-</div>
 
 ##  Intel® Edison 入门指导
 

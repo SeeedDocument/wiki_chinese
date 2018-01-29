@@ -13,17 +13,15 @@ tags: grove_analog, io_5v, plat_duino
 
  Grove - Gas Sensor(MQ9)模块可用于气体泄漏检测（可以在家里和工厂中使用）。 它适用于检测 <font color =“Blue”>LPG，CO，CH4</font> 。 由于其的灵敏度高，响应时间快，所以能够时时进行测量。 传感器的灵敏度可以通过使用电位器进行调整。
 
-<div class="admonition danger">
-<p class="admonition-title">Note</p>
-这个传感器值仅能够反映气体浓度在允许误差范围内的近似趋势，它不表示精确的气体浓度。 空气中某些成分的检测通常需要更加精确和更加昂贵的仪器，这不能单单使用这个气体传感器来完成。 如果您的项目想要非常精确的得到气体浓度，那么我们不推荐使用这种气体传感器。
-</div>
+!!!Note
+    这个传感器值仅能够反映气体浓度在允许误差范围内的近似趋势，它不表示精确的气体浓度。 空气中某些成分的检测通常需要更加精确和更加昂贵的仪器，这不能单单使用这个气体传感器来完成。 如果您的项目想要非常精确的得到气体浓度，那么我们不推荐使用这种气体传感器。
 
-|传感器|检测气体类型|购买地址|
-|:---:|---|---|---|
-|MQ2|可燃气体，烟雾|[![](https://github.com/SeeedDocument/wiki_chinese/raw/master/docs/images/click_to_buy.PNG)](https://item.taobao.com/item.htm?spm=a1z10.3-c.w4002-11172317909.10.16ffcea31SnYiT&id=520242943642)|
-|MQ3|酒精蒸气|[![](https://github.com/SeeedDocument/wiki_chinese/raw/master/docs/images/click_to_buy.PNG)](https://item.taobao.com/item.htm?spm=a1z10.3-c.w4002-11172317909.9.15852b36Zh3I85&id=45575808671)|
-|MQ5|石油气，天然气，城镇煤气|[![](https://github.com/SeeedDocument/wiki_chinese/raw/master/docs/images/click_to_buy.PNG)](https://item.taobao.com/item.htm?spm=a1z10.3-c.w4002-11172317909.10.1a5dbea7KWe93J&id=45508638349)|
-|MQ9|一氧化碳，煤气，液化气|[![](https://github.com/SeeedDocument/wiki_chinese/raw/master/docs/images/click_to_buy.PNG)](https://item.taobao.com/item.htm?spm=a1z10.3-c.w4002-11172317909.14.51352e2wNrNua&id=45575800587)|
+| 传感器 | 检测气体类型             | 购买地址                                                                                                                   |
+|--------|--------------------------|----------------------------------------------------------------------------------------------------------------------------|
+| MQ2    | 可燃气体，烟雾           | [点击购买](https://item.taobao.com/item.htm?spm=a1z10.3-c.w4002-11172317909.10.16ffcea31SnYiT&amp;amp;amp;id=520242943642) |
+| MQ3    | 酒精蒸气                 | [点击购买](https://item.taobao.com/item.htm?spm=a1z10.3-c.w4002-11172317909.9.15852b36Zh3I85&amp;amp;amp;id=45575808671)   |
+| MQ5    | 石油气，天然气，城镇煤气 | [点击购买](https://item.taobao.com/item.htm?spm=a1z10.3-c.w4002-11172317909.10.1a5dbea7KWe93J&amp;amp;amp;id=45508638349)  |
+| MQ9    | 一氧化碳，煤气，液化气   | [点击购买](https://item.taobao.com/item.htm?spm=a1z10.3-c.w4002-11172317909.14.51352e2wNrNua&amp;amp;amp;id=45575800587)   |
 
 
 产品特性
@@ -86,7 +84,7 @@ tags: grove_analog, io_5v, plat_duino
 
 在这个例子中，传感器连接到 **A0** 引脚。 从传感器读取到的电压可以显示出来。 并且该值可以用作检测气体浓度是否增加/减少的基准。
 
-```
+```c++
 void setup() {
     Serial.begin(9600);
 }
@@ -111,7 +109,7 @@ void loop() {
 
 1. 将气体传感器保持在清洁的空气环境中。 上传以下程序。
 
-```
+```c++
 void setup() {
     Serial.begin(9600);
 }
@@ -149,7 +147,7 @@ void loop() {
 
 <font color="Red">将下面的 **R0** 替换为上面测试的 **R0** 值 </font>. 将下面的R0替换为上面测试的R0值。 将传感器放置在上述任何一种气体中。
 
-```
+```c++
 void setup() {
     Serial.begin(9600);
 }
@@ -190,18 +188,17 @@ void loop() {
 资源下载
 ---------
 
-**Suggest Reading / References**
+**参考阅读**
 
--   [How to choose a Gas Sensor](/How_to_choose_A_Gas_Sensor)
--   [What's LEL](http://en.wikipedia.org/wiki/Flammability_limit)
+-   [什么是 LEL](http://en.wikipedia.org/wiki/Flammability_limit)
 
-**Schematic**
+**原理图**
 ---------
 
--   [Grove Gas Sensor - EAGLE (Schematic and Board) files](https://raw.githubusercontent.com/SeeedDocument/Grove-Gas_Sensor-MQ9/master/res/Gas_Sensor_Eagle_files.zip)
--   [Grove Gas Sensor - PDF Schematic](https://raw.githubusercontent.com/SeeedDocument/Grove-Gas_Sensor-MQ9/master/res/Gas_Sensor_Schematic.pdf)
+-   **[Eagle 文件]**[Grove Gas Sensor - EAGLE (Schematic and Board) files](https://raw.githubusercontent.com/SeeedDocument/Grove-Gas_Sensor-MQ9/master/res/Gas_Sensor_Eagle_files.zip)
+-   **[PDF 文件]**[Grove Gas Sensor - PDF Schematic](https://raw.githubusercontent.com/SeeedDocument/Grove-Gas_Sensor-MQ9/master/res/Gas_Sensor_Schematic.pdf)
 
-**Datasheet**
+**数据手册**
 
 -   [MQ-9 Datasheet](https://raw.githubusercontent.com/SeeedDocument/Grove-Gas_Sensor-MQ9/master/res/MQ-9.pdf)
 

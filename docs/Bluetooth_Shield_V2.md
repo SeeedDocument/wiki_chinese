@@ -87,8 +87,7 @@ Bluetooth Shield 集成了一个串行蓝牙模块。 它可以很方便地与 A
 
 4.  如果您对使用 Arduino 有任何困难，请点击 [这里](http://seeed.wiki/Getting_Started_with_Seeeduino/) 获取帮助。
 
-<dl><dd>![](https://github.com/SeeedDocument/Bluetooth_Shield_V2/raw/master/img/Bluetooth_ide_1.jpg)</div></div>
-</dd></dl>
+![](https://github.com/SeeedDocument/Bluetooth_Shield_V2/raw/master/img/Bluetooth_ide_1.jpg)
 
 **查看结果**
 

@@ -20,7 +20,7 @@ Grove - Collision Sensor可以检测碰撞和振动，当检测到时会输出�
 ## 规格参数
 -------------
 
--   电压 : 3.3/5V
+- 电压 : 3.3 / 5V
 
 !!!Tip
     关于 Grove 模块的更多信息请点击 [Grove System](http://seeed.wiki/Grove_System/)

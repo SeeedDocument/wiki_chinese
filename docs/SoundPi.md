@@ -181,7 +181,7 @@ SoundPi提供全栈式软硬件开放，兼容更多开发场景，支持用户�
 
 第一次使用时，请按照下面的步骤更新开发板中的 APP，以获得更好的使用体验。请使用 Android Debug Bridge（ADB）来更新 APP，或者在 SoundPi 上连接显示器，鼠标和键盘，像使用安卓手机一样更新 APP。
 
-[点击这里下载新的 APP](https://pan.baidu.com/s/1eRWo1LS)，提取码为 pcs5。
+[点击这里下载新的 APP](https://pan.baidu.com/s/1pNeGLiN)，提取码为 ehtc。具体操作方法可以参考本 Wiki，或参考 [这里](http://soundpi.org/index.php/post/52.html)
 
 ### 使用 ADB 指令更新 APP
 
