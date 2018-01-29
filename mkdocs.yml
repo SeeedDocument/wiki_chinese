@@ -86,7 +86,7 @@ pages:
       - Seeeduino LoRAWAN: Seeeduino_LoRAWAN.md
       - Seeeduino Mega: Seeeduino_Mega.md
       - UartSBee V4: UartSBee_V4.md
-      - UartSBee v5: UartSBee_v5.md 
+      - UartSBee v5: UartSBee_v5.md
 
     - BeagleBone:
       - BeagleBone: BeagleBone.md
@@ -250,7 +250,7 @@ pages:
       - Grove-GPS: Grove-GPS.md
       - Grove-Line Finder: Grove-Line_Finder.md
       - Grove-Rotary Angle Sensor: Grove-Rotary_Angle_Sensor.md
-      - Grove-Collision Sensor: Grove-Collision_Sensor.md 
+      - Grove-Collision Sensor: Grove-Collision_Sensor.md
       - Grove-Water Sensor: Grove-Water_Sensor.md
       - Grove-Speech Recognizer: Grove-Speech_Recognizer.md
       - Grove-Electricity Sensor: Grove-Electricity_Sensor.md
@@ -339,7 +339,7 @@ pages:
       - Lipo Rider V1.3: Lipo_Rider_V1.3.md
       - G3-4 Water Flow sensor: G3-4_Water_Flow_sensor.md
       - G1-2 inch Water Flow Sensor: G1_and_2_inch_Water_Flow_Sensor.md
-      - G1-8 Water Flow Sensor: G1-8_Water_Flow_Sensor.md    
+      - G1-8 Water Flow Sensor: G1-8_Water_Flow_Sensor.md
       - Grove Starter Kit v3: Grove_Starter_Kit_v3.md
       
 
