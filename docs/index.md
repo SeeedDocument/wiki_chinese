@@ -1,21 +1,18 @@
 
 ## Platform
 
-| **Arduino**  |    **Beaglebone**  |    **Raspberry**   | 
+| **Arduino**  | **Raspberry**     |    **Beaglebone**   | 
 |:---:|:---:|:---:|
-|[![](https://github.com/SeeedDocument/wiki_chinese/raw/master/docs/images/arduino.png)](http://seeed.wiki/Arduino)   |[![](https://github.com/SeeedDocument/wiki_chinese/raw/master/docs/images/Beaglebone.png)](http://seeed.wiki/BeagleBone)   |[![](https://github.com/SeeedDocument/wiki_chinese/raw/master/docs/images/Respberry%20Pi.png)](http://seeed.wiki/Raspberry)   |
+|[![](https://github.com/SeeedDocument/wiki_chinese/raw/master/docs/images/arduino.png)](http://seeed.wiki/Arduino)   |[![](https://github.com/SeeedDocument/wiki_chinese/raw/master/docs/images/Respberry%20Pi.png)](http://seeed.wiki/Raspberry)    | [![](https://github.com/SeeedDocument/wiki_chinese/raw/master/docs/images/Beaglebone.png)](http://seeed.wiki/BeagleBone) |
+
+|  **ReSpeaker**     |    **Shield**   |  **LinkIt**   | 
+|:---:|:---:|:---:|
+| [![](https://github.com/SeeedDocument/wiki_chinese/raw/master/docs/images/ReSpeaker.png)](http://seeed.wiki/Respeaker)    |[![](https://github.com/SeeedDocument/wiki_chinese/raw/master/docs/images/Shield.png)](http://seeed.wiki/Shield)    |[![](https://github.com/SeeedDocument/wiki_chinese/raw/master/docs/images/LinkIt.png)](http://seeed.wiki/LinkIt)  | 
 
 | **Wio**  |    **mbed**  |    **RePhone**   |  
 |:---:|:---:|:---:|
 |[![](https://github.com/SeeedDocument/wiki_chinese/raw/master/docs/images/Wio.png)](http://seeed.wiki/Wio)   |[![](https://github.com/SeeedDocument/wiki_chinese/raw/master/docs/images/arch%20ble.jpg)](http://seeed.wiki/mbed)   |[![](https://github.com/SeeedDocument/wiki_chinese/raw/master/docs/images/Rephone.png)](http://seeed.wiki/Rephone)    |
 
-| **LinkIt**   |  **ReSpeaker**     |    **Shield**   |  
-|:---:|:---:|:---:|
-|[![](https://github.com/SeeedDocument/wiki_chinese/raw/master/docs/images/LinkIt.png)](http://seeed.wiki/LinkIt)    | [![](https://github.com/SeeedDocument/wiki_chinese/raw/master/docs/images/ReSpeaker.png)](http://seeed.wiki/Respeaker)    |[![](https://github.com/SeeedDocument/wiki_chinese/raw/master/docs/images/Shield.png)](http://seeed.wiki/Shield)    |
-
-| **Essentials**   |  **Wireless**     |      |  
-|:---:|:---:|:---:|
-|[![](https://github.com/SeeedDocument/wiki_chinese/raw/master/docs/images/Essentials.jpg)](http://seeed.wiki/Essentials)    | [![](https://github.com/SeeedDocument/wiki_chinese/raw/master/docs/images/Wireless.jpg)](http://seeed.wiki/Wireless)     |![](https://github.com/SeeedDocument/wiki_chinese/raw/master/docs/images/empty.png)   |
 
 ## Grove
 
@@ -29,26 +26,11 @@
 |[![](https://github.com/SeeedDocument/wiki_chinese/raw/master/docs/images/Grove_Communication.jpg)](http://seeed.wiki/Communication)    |[![](https://github.com/SeeedDocument/wiki_chinese/raw/master/docs/images/Grove_Others.JPG)](http://seeed.wiki/Others)    |![](https://github.com/SeeedDocument/wiki_chinese/raw/master/docs/images/empty.png)   |
 
 
-## IOT
+## IOT/Maker Pro/Tutorial
 
-| **IOT**  |      |       |  
+| **IOT**  |   **Maker Pro**    |   **Tutorial**     |  
 |:---:|:---:|:---:|
-|[![](https://github.com/SeeedDocument/wiki_chinese/raw/master/docs/images/IOT.jpg)](http://seeed.wiki/IoT)    |![](https://github.com/SeeedDocument/wiki_chinese/raw/master/docs/images/empty.png)   |![](https://github.com/SeeedDocument/wiki_chinese/raw/master/docs/images/empty.png)   |
-
-
-## Maker Pro
-
-| **Maker Pro**  |      |       |  
-|:---:|:---:|:---:|
-|[![](https://github.com/SeeedDocument/wiki_chinese/raw/master/docs/images/MakerPro.png)](http://seeed.wiki/MakerPro)    |![](https://github.com/SeeedDocument/wiki_chinese/raw/master/docs/images/empty.png)   |![](https://github.com/SeeedDocument/wiki_chinese/raw/master/docs/images/empty.png)   |
-
-
-## Tutorial
-
-| **Tutorial**  |      |       |  
-|:---:|:---:|:---:|
-|[![](https://github.com/SeeedDocument/wiki_chinese/raw/master/docs/images/Tutotial.png)](http://seeed.wiki/Tutorial)    |![](https://github.com/SeeedDocument/wiki_chinese/raw/master/docs/images/empty.png)   |![](https://github.com/SeeedDocument/wiki_chinese/raw/master/docs/images/empty.png)   |
-
+|[![](https://github.com/SeeedDocument/wiki_chinese/raw/master/docs/images/IOT.jpg)](http://seeed.wiki/IoT)    |[![](https://github.com/SeeedDocument/wiki_chinese/raw/master/docs/images/MakerPro.png)](http://seeed.wiki/MakerPro)    |[![](https://github.com/SeeedDocument/wiki_chinese/raw/master/docs/images/Tutotial.png)](http://seeed.wiki/Tutorial)  |
 
 协议
 -------
