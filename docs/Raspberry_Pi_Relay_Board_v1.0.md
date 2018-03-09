@@ -1,16 +1,16 @@
 ---
 title: Raspberry Pi Relay Board v1.0
-category: Shield
+category: Raspberry Pi
 bzurl: https://seeedstudio.com/Raspberry-Pi-Relay-Board-v1.0-p-2409.html
 oldwikiname: Raspberry_Pi_Relay_Board_v1.0
 prodimagename: Raspberry_Pi_Relay_Board_v1.0.jpg
-wikiurl: http://seeed.wiki/Raspberry_Pi_Relay_Board_v1.0
+wikiurl: http://seeed.wiki/Raspberry_Pi_Relay_Board_v1_0
 sku: 103030029
 ---
 
 ![](https://raw.githubusercontent.com/SeeedDocument/Raspberry_Pi_Relay_Board_v1.0/master/img/Raspberry_Pi_Relay_Board_v1.0.jpg)
 
-Relay Shield 搭载四个高质量继电器，并提供控制高电流负载的 NO/NC 接口。这意味着它可能是用于控制无法直接由 I2C 总线控制的设备一个极好的解决方案。标准化扩展板外形使其能和树莓派完美连接。扩展板还有四个显示每个继电器的开/关状态的指示灯。
+Raspberry Pi Relay Board v1.0 搭载四个高质量继电器，并提供控制高电流负载的 NO/NC 接口。这意味着它是用于控制那些无法直接由 I2C 总线控制的设备一个极好的解决方案。标准化扩展板外形使其能和树莓派完美连接。扩展板还有四个显示每个继电器的开/关状态的指示灯。
 
 
 [![](https://github.com/SeeedDocument/wiki_chinese/raw/master/docs/images/click_to_buy.PNG)](https://item.taobao.com/item.htm?id=521183992607)
@@ -19,8 +19,8 @@ Relay Shield 搭载四个高质量继电器，并提供控制高电流负载的 
 
 ## 产品特性
 --------
--   兼容 Raspberry Pi
--   接口 : I2C，三个硬件SW1( 1, 2, 3) 选择固定的 I2C 总线地址
+-   Raspberry Pi 兼容
+-   接口 : I2C，三个硬件SW1 ( 1, 2, 3) 选择固定的 I2C 总线地址
 -   继电器螺丝端子
 -   标准化扩展板的形状和设计
 -   对应每个继电器的 LED 工作状态指示灯
@@ -45,7 +45,7 @@ Relay Shield 搭载四个高质量继电器，并提供控制高电流负载的 
 最大值
 </th>
 <th scope="col">
-单位
+Unit
 </th>
 </tr>
 <tr align="center">
@@ -180,6 +180,10 @@ mm
 </tr>
 </table>
 
+
+!!!Caution
+    在 Arduino 的 USB 接口顶部捆绑 2 层电工胶带。这将防止继电器扩展版发生接触。请勿操作超过 35V DC 的电压。
+
 ## 硬件概述
 -----------------
 
@@ -191,7 +195,7 @@ mm
 
 安装电路板并检验其是否正常工作包括以下步骤 :
 
-- **步骤 1** : 将扩展板插在树莓派上。
+- **步骤 1** : 将扩展板堆叠在树莓派上。
 - **步骤 2** : 启用 Raspbian I2C 软件界面。
 - **步骤 3** : 验证 Raspberry Pi 识别扩展板。
 - **步骤 4** : 运行一些 Python 代码来使用扩展板。
@@ -203,10 +207,11 @@ mm
 在安装扩展板之前，我们建议您在 Raspberry Pi 以太网端口的顶部捆绑放置一些电工胶带。如果您在不使用支架的情况下安装扩展板 (正如我在下面的示例中所做的那样)，则扩展板有可能会与以太网端口外壳发生接触并产生问题。
 
 ![](https://github.com/SeeedDocument/Raspberry_Pi_Relay_Board_v1.0/raw/master/img2/seed-figure-01.png)
+**图 1**
 
 对于生产项目，我们推荐使用支架来保持板的位置。
 
-扩展板最初和较老的 Raspberry Pi 搭配使用，它带有 26 个针头，所以当你将它和带有 40 针头的 Raspberry Pi 搭配使用时，你需要将引脚数字对齐。如果没有正确对齐引脚，后期会出现问题，它将无法正常工作。
+扩展板最初和较老的 Raspberry Pi 搭配使用，它带有 26 个针头，所以当你将它和带有 40 针头的 Raspberry Pi 搭配使用时，你需要将引脚数字对齐。如果没有正确对齐引脚，后期会出现问题，因为它无法正常工作。
 
 
 ### 启用 I2C
@@ -226,11 +231,9 @@ mm
 ### 验证识别
 
 启用 I2C 接口后，就可以确定 Raspberry Pi 是否识别到扩展板。打开终端窗口并执行以下命令 :
-
-```python
+```
 i2cdetect -y -r 1
 ```
-
 程序显示已识别 I2C 设备，如下图所示。在本例中，系统上只有一个 I2C 板，扩展板地址配置为 20。后文将展示这个值的重要性。
 
 ![](https://github.com/SeeedDocument/Raspberry_Pi_Relay_Board_v1.0/raw/master/img2/seed-figure-04.png)
@@ -256,7 +259,7 @@ i2cdetect -y -r 1
 
 欲运行测试程序，请打开一个终端窗口，导航到您已经提取示例程序的位置，然后使用以下命令运行程序 :
 
-```python
+```
 python ./seeed_relay_test.py
 ```
 ![](https://github.com/SeeedDocument/Raspberry_Pi_Relay_Board_v1.0/raw/master/img2/seed-figure-05.png)
@@ -284,19 +287,17 @@ python ./seeed_relay_test.py
 
 这里涉及一个前文提及非常重要的配置值:
 
-```python
+```
 # 7 bit address (will be left shifted to add the read write bit)
 DEVICE_ADDRESS = 0x20
 ```
 
-还记得这个值吗？这是该板的默认地址。如果要改变开发板上的开关，则需要相应更新此变量。
+还记得这个值吗 ? 这可是该板的默认地址。如果要改变开发板上的开关，则需要相应更新此变量。
 
 要查看该模块，请在 Raspberry Pi 上打开一个终端窗口，导航到解压该存储库文件的文件夹，然后执行以下命令 :
-
-```python
+```
 python ./relay_lib_seeed_test.py
 ```
-
 程序将会 :
 
 - 启动所有的继电器一秒
@@ -307,11 +308,13 @@ python ./relay_lib_seeed_test.py
 
 ![](https://github.com/SeeedDocument/Raspberry_Pi_Relay_Board_v1.0/raw/master/img2/seed-figure-06.png)
 
+**图 6**
+
 继电器启动时，扩展板上的 LED (每个继电器对应一个 LED)将点亮。
 
 代码如下所示 :
 
-```python
+```
 # turn all of the relays on
 relay_all_on()
 # wait a second
