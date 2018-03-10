@@ -4,7 +4,7 @@ category: Sensor
 bzurl: https://www.seeedstudio.com/Seeedstudio-Grove-TF-Mini-LiDAR-p-2996.html
 oldwikiname: Grove-TF Mini LiDAR
 prodimagename:
-surveyurl: http://seeed.wiki/Grove-TF_Mini_LiDAR
+surveyurl: http://wiki.seeedstudio.com/cn/Grove-TF_Mini_LiDAR
 sku: 114991434
 tags: io_5v, plat_duino
 
@@ -52,7 +52,7 @@ ToF 是 Time of Flight (飞行时间) 技术的缩写，其工作原理如下 : 
 | 电磁兼容性 (EMC)          | EN 55032 Class B                  |
 
 !!!Tip
-    关于 Grove 模块的更多信息请点击 [Grove System](http://seeed.wiki/Grove_System/)
+    关于 Grove 模块的更多信息请点击 [Grove System](http://wiki.seeedstudio.com/cn/Grove_System/)
 
 Platforms Supported
 -------------------

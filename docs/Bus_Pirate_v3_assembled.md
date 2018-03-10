@@ -4,7 +4,7 @@ category: MakerPro
 bzurl: https://www.seeedstudio.com/bus-pirate-v3-assembled-p-609.html?cPath=174
 oldwikiname:  Bus Pirate v3 (assembled)
 prodimagename:  Bus%20Pirate%20v3.6interface.jpg
-wikiurl: http://seeed.wiki/Bus_Pirate_v3_assembled
+wikiurl: http://wiki.seeedstudio.com/cn/Bus_Pirate_v3_assembled
 sku:      102990038
 ---
 ![](https://github.com/SeeedDocument/Bus_Pirate_v3_assembled/raw/master/img/Bus%20Pirate%20v3.6interface.jpg)

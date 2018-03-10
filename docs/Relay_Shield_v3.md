@@ -4,7 +4,7 @@ category: Shield
 bzurl: https://www.seeedstudio.com/Relay-Shield-v3.0-p-2440.html
 oldwikiname: Relay Shield v3.0
 prodimagename: Relay_Shield_L_v3.0.jpg
-wikiurl: http://seeed.wiki/Relay_Shield_v3
+wikiurl: http://wiki.seeedstudio.com/cn/Relay_Shield_v3
 sku: 103030009
 ---
 

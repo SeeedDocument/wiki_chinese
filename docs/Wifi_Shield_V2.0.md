@@ -4,7 +4,7 @@ category: Shield
 bzurl: https://seeedstudio.com/Wifi-Shield-V2.0-p-2505.html
 oldwikiname: Wifi_Shield_V2.0
 prodimagename: Wifi_Shield_v2.jpg
-wikiurl: http://seeed.wiki/Wifi_Shield_V2_0
+wikiurl: http://wiki.seeedstudio.com/cn/Wifi_Shield_V2_0
 sku: 113030008
 ---
 
@@ -1213,7 +1213,7 @@ String getPinState(int pinNumber)
 
 现在您明白如何发送和接收来自 WiFi shield 的信息，可以看见通过网络控制任何类型的设备都很容易。
 
-如果您希望通过网页或电话应用程序控制台灯，电机或水泵等大功率设备，我们推荐使用 [Relay Shield V2.0](http://seeed.wiki/Relay_Shield_v3/#_7).
+如果您希望通过网页或电话应用程序控制台灯，电机或水泵等大功率设备，我们推荐使用 [Relay Shield V2.0](http://wiki.seeedstudio.com/cn/Relay_Shield_v3/#_7).
 
 Relay Shield V3 使用引脚 **4**，引脚 **5**，引脚 **6** 和引脚 **7**，因此它完全兼容本页示例中的代码。
 

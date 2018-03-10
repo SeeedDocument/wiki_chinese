@@ -4,7 +4,7 @@ category: Sensor
 bzurl: https://seeedstudio.com/Grove-Infrared-Temperature-Sensor-p-1058.html
 oldwikiname: Grove_-_Infrared_Temperature_Sensor
 prodimagename: Grove-Infrared_Temperature_Sensor.jpg
-wikiurl: http://seeed.wiki/Grove-Infrared_Temperature_Sensor
+wikiurl: http://wiki.seeedstudio.com/cn/Grove-Infrared_Temperature_Sensor
 sku: 101020062
 tags: grove_analog, io_3v3, io_5v, plat_duino
 ---
@@ -28,7 +28,7 @@ tags: grove_analog, io_3v3, io_5v, plat_duino
 -   储存温度 : -35-80 °C
 
 !!!Tip
-    关于 Grove 模块的更多信息请点击 [Grove System](http://seeed.wiki/Grove_System/)
+    关于 Grove 模块的更多信息请点击 [Grove System](http://wiki.seeedstudio.com/cn/Grove_System/)
 
 ## Platforms Supported
 -------------------

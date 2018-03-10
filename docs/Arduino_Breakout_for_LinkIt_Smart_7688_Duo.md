@@ -4,7 +4,7 @@ category: LinkIt
 bzurl: https://www.seeedstudio.com/Arduino-Breakout-for-LinkIt-Smart-7688-Duo-p-2576.html
 oldwikiname: Arduino Breakout for LinkIt Smart 7688 Duo
 prodimagename: Arduino_Breakout_for_LinkIt_Smart_7688_Duo_product_view.jpg
-wikiurl: http://seeed.wiki/Arduino_Breakout_for_LinkIt_Smart_7688_Duo
+wikiurl: http://wiki.seeedstudio.com/cn/Arduino_Breakout_for_LinkIt_Smart_7688_Duo
 sku: 103030033
 ---
 
@@ -61,7 +61,7 @@ LinkIt Smart 7688 Duo是基于 OpenWrt Linux 开发板，MT7688 和 ATmega32u4 �
 |![](https://github.com/SeeedDocument/Arduino_Breakout_for_LinkIt_Smart_7688_Duo/raw/master/images/102110017%206.jpg)|![](https://github.com/SeeedDocument/Arduino_Breakout_for_LinkIt_Smart_7688_Duo/raw/master/images/48cmUSBc.jpg)|![](https://github.com/SeeedDocument/Arduino_Breakout_for_LinkIt_Smart_7688_Duo/raw/master/images/UartSBee%20V5_01.jpg)|![](https://github.com/SeeedDocument/Arduino_Breakout_for_LinkIt_Smart_7688_Duo/raw/master/images/jw100n.jpg)|![](https://github.com/SeeedDocument/Arduino_Breakout_for_LinkIt_Smart_7688_Duo/raw/master/images/107020000%201.jpg)
 |[**点击购买**](https://item.taobao.com/item.htm?spm=a1z10.3-c.w4002-11172317909.11.19ca325f3hsHgc&id=524898724024)|[**点击购买**](https://item.taobao.com/item.htm?spm=a1z10.3-c.w4002-11172317909.20.236d7a2eFXj0XP&id=45774308858)|[**点击购买**](https://item.taobao.com/item.htm?spm=a1z10.3-c.w4002-11172317909.11.273fab14FtSbos&id=45486590205)|[**点击购买**](https://item.taobao.com/item.htm?spm=a1z10.3-c.w4002-11172317909.14.7c22550dnnDU6v&id=45783422315)|[**点击购买**](https://item.taobao.com/item.htm?spm=a1z10.3-c.w4002-11172317909.10.41a783f1qVIxqP&id=520245748676)
 
-- 第一步：请参考 [这里](http://seeed.wiki/LinkIt_Smart_7688_Duo/) 把你的 LinkIt Smart 7688 Duo 连接到互联网。
+- 第一步：请参考 [这里](http://wiki.seeedstudio.com/cn/LinkIt_Smart_7688_Duo/) 把你的 LinkIt Smart 7688 Duo 连接到互联网。
 
 !!!Note
     * 您可以在连接 LinkIt Smart 7688 的端口附近找到 8，9 和 GND 引脚。
@@ -74,7 +74,7 @@ LinkIt Smart 7688 Duo是基于 OpenWrt Linux 开发板，MT7688 和 ATmega32u4 �
 
 - 第四步：把 Grove - Buzzer 插在 **D4** 口上。
 
-- 第五步：这一步是在主机上为 LinkIt Smart 7688 Duo 平台搭建 Arduino 开发环境。由于本教程已经在 LinkIt Smart 7688 的 Wiki 中编写，如有需要请参阅 [这里](http://seeed.wiki/LinkIt_Smart_7688_Duo/#arduino)。
+- 第五步：这一步是在主机上为 LinkIt Smart 7688 Duo 平台搭建 Arduino 开发环境。由于本教程已经在 LinkIt Smart 7688 的 Wiki 中编写，如有需要请参阅 [这里](http://wiki.seeedstudio.com/cn/LinkIt_Smart_7688_Duo/#arduino)。
 - 第六步：下载 firmata.
 - 第七步：参考 [这里](http://www.seeedstudio.com/wiki/LinkIt_Smart_7688_Duo#Installing_Arduino_programming_environment) 安装 Arduino IDE 的 LinkIt Smart 7688 平台，然后把文件 firmata 保存到开发板。
 

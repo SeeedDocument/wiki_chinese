@@ -4,7 +4,7 @@ category: Raspberry Pi
 bzurl: https://www.seeedstudio.com/Seeedstudio-Raspberry-Pi-Zero-W-Complete-Starter-Kit-p-2968.html
 oldwikiname: Raspberry_Pi_Zero_W_Complete_Starter_Kit
 prodimagename: Raspberry_Pi_Zero_W_Complete_Starter_Kit.jpg
-wikiurl: http://seeed.wiki/Raspberry_Pi_Zero_W_Complete_Starter_Kit
+wikiurl: http://wiki.seeedstudio.com/cn/Raspberry_Pi_Zero_W_Complete_Starter_Kit
 sku: 110991029
 ---
 

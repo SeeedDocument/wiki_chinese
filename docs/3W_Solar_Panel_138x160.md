@@ -4,7 +4,7 @@ category: MakerPro
 bzurl: https://www.seeedstudio.com/Bluetooth-V4.0-HM-11-BLE-Module-p-1803.html
 oldwikiname:  3W Solar Panel 138*160
 prodimagename:  3wsp.JPG
-surveyurl: wikiurl: http://seeed.wiki/3W_Solar_Panel_138x160    
+surveyurl: wikiurl: http://wiki.seeedstudio.com/cn/3W_Solar_Panel_138x160    
 sku:     313070001
 ---
 ![](https://github.com/SeeedDocument/3W_Solar_Panel_138x160/raw/master/img/3wsp.JPG)

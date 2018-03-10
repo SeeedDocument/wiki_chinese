@@ -4,7 +4,7 @@ category: Sensor
 bzurl: https://www.seeedstudio.com/Grove-Dust-Sensor-p-1050.html
 oldwikiname: Grove - Dust Sensor
 prodimagename: Dust_sensor.JPG
-wikiurl: http://seeed.wiki/Grove-Dust_Sensor/
+wikiurl: http://wiki.seeedstudio.com/cn/Grove-Dust_Sensor/
 sku: 101020012
 tags: plat_duino
 ---
@@ -30,7 +30,7 @@ tags: plat_duino
     在最新版本中，输出高电压从4.0V变为4.5V。
 
 !!!Tip
-    关于Grove模块的更多细节请参考 [Grove System](http://seeed.wiki/Grove_System/)
+    关于Grove模块的更多细节请参考 [Grove System](http://wiki.seeedstudio.com/cn/Grove_System/)
 
 规格参数
 -------------

@@ -4,7 +4,7 @@ category: Essentials
 bzurl: https://seeedstudio.com/Lipo-Rider-v1.3-p-2403.html
 oldwikiname: Lipo_Rider_V1.3
 prodimagename: LiPo-Rider-v1.3.jpg
-wikiurl: http://seeed.wiki/Lipo_Rider_V1.3/
+wikiurl: http://wiki.seeedstudio.com/cn/Lipo_Rider_V1.3/
 sku: 106990022
 ---
 

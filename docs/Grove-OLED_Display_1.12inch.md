@@ -4,7 +4,7 @@ category: Display
 bzurl: https://www.seeedstudio.com/Grove-OLED-Display-1.12%22-p-824.html
 oldwikiname: Grove_-_OLED_Display_1.12"
 prodimagename: main.jpg
-wikiurl: http://seeed.wiki/Grove-OLED_Display_1.12inch
+wikiurl: http://wiki.seeedstudio.com/cn/Grove-OLED_Display_1.12inch
 sku: 104030011
 tags: grove_i2c, io_3v3, io_5v, plat_duino, plat_bbg, plat_pi, plat_wio, plat_linkit
 ---
@@ -41,7 +41,7 @@ tags: grove_i2c, io_3v3, io_5v, plat_duino, plat_bbg, plat_pi, plat_wio, plat_li
 | 工作温度 | -40~70 oC|
 
 !!!Tip
-    关于 Grove 模块的更多信息请点击 [Grove System](http://seeed.wiki/Grove_System/)
+    关于 Grove 模块的更多信息请点击 [Grove System](http://wiki.seeedstudio.com/cn/Grove_System/)
 
 
 ## Platforms Supported
@@ -78,7 +78,7 @@ tags: grove_i2c, io_3v3, io_5v, plat_duino, plat_bbg, plat_pi, plat_wio, plat_li
 
 ### 软件部分
 
-- 请遵循 [如何安装 arduino 库](http://seeed.wiki/How_to_install_Arduino_Library/) 中的步骤来安装库文件。
+- 请遵循 [如何安装 arduino 库](http://wiki.seeedstudio.com/cn/How_to_install_Arduino_Library/) 中的步骤来安装库文件。
 - 我们提供了一个 Grove - OLED Display 1.12'' 的 Arduino 库，点击下面的按钮下载。
 [![enter image description here](https://raw.githubusercontent.com/SeeedDocument/Grove_OLED_1.12/master/images/library.png)](https://github.com/Seeed-Studio/OLED_Display_96X96/archive/master.zip)
 

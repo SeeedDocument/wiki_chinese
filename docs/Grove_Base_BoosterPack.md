@@ -4,7 +4,7 @@ category: Others
 bzurl: https://www.seeedstudio.com/Grove-Base-BoosterPack-p-2177.html
 oldwikiname:  Grove Base BoosterPack
 prodimagename: 110020004%205.jpg
-wikiurl: http://seeed.wiki/Grove_Base_BoosterPack
+wikiurl: http://wiki.seeedstudio.com/cn/Grove_Base_BoosterPack
 sku:  103020019
 ---
 ![](https://github.com/SeeedDocument/Grove_Base_BoosterPack/raw/master/img/110020004%205.jpg)
@@ -17,7 +17,7 @@ BoosterPacks 是插入式扩展板，可以插在各种 LaunchPad 套件的顶�
 
 **什么是 Grove？**
 
-Grove是一个模块化的标准连接器原型系统。Grove采用积木式组装电子技术。Grove 系统由一个 Base Shield 和大量具有标准化连接器的模块组成。 Base Shield 允许任何微控制器连接到各种 Grove 模块。 每个 Grove 模块都有自己的对应引脚，整个模块集合具有广泛的功能 - 从简单的按钮到复杂的心率传感器。每个模块都有清晰的文档和演示代码，以帮助您快速入门。如需了解更多请参考 [这里](http://seeed.wiki/Grove_System/)。
+Grove是一个模块化的标准连接器原型系统。Grove采用积木式组装电子技术。Grove 系统由一个 Base Shield 和大量具有标准化连接器的模块组成。 Base Shield 允许任何微控制器连接到各种 Grove 模块。 每个 Grove 模块都有自己的对应引脚，整个模块集合具有广泛的功能 - 从简单的按钮到复杂的心率传感器。每个模块都有清晰的文档和演示代码，以帮助您快速入门。如需了解更多请参考 [这里](http://wiki.seeedstudio.com/cn/Grove_System/)。
 
 ![](https://github.com/SeeedDocument/Grove_Base_BoosterPack/raw/master/img/IMG_GROVE.JPG)
 

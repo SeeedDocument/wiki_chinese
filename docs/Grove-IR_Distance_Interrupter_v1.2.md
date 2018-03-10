@@ -4,7 +4,7 @@ category: Sensor
 bzurl: https://seeedstudio.com/Grove-IR-Distance-Interrupter-p-1278.html
 oldwikiname: Grove_-_IR_Distance_Interrupter_v1.2
 prodimagename: Grove_-_IR_Distance_Interrupter_v1.2.jpg
-wikiurl: http://seeed.wiki/Grove-IR_Distance_Interrupter_v1.2
+wikiurl: http://wiki.seeedstudio.com/cn/Grove-IR_Distance_Interrupter_v1.2
 sku: 101020040
 tags: grove_digital, io_3v3, io_5v, plat_duino, plat_bbg, plat_wio
 ---
@@ -44,7 +44,7 @@ tags: grove_digital, io_3v3, io_5v, plat_duino, plat_bbg, plat_wio
 -   更加耐用。
 
 !!!Tip
-    有关 Grove 模块的更多信息，请参考 [Grove 系统](http://seeed.wiki/Grove_System/)。
+    有关 Grove 模块的更多信息，请参考 [Grove 系统](http://wiki.seeedstudio.com/cn/Grove_System/)。
 
 ## 规格参数
 --------------
@@ -133,7 +133,7 @@ void loop()  {
 
 1. 请准备好一个 GrovePi+。本例程基于 GrovePi+。
 
-2. 请搭建好 GrovePi+ 的开发环境。如果没有，请参考 [这里](http://seeed.wiki/GrovePi_Plus/)。
+2. 请搭建好 GrovePi+ 的开发环境。如果没有，请参考 [这里](http://wiki.seeedstudio.com/cn/GrovePi_Plus/)。
 
 3. 连接：使用 Grove 线把 Grove - IR Distance Interrupter 连接到 GrovePi 的 **D4** 接口上。
 

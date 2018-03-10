@@ -4,7 +4,7 @@ category: Raspberry Pi
 bzurl: https://www.seeedstudio.com/Seeedstudio-Raspberry-Pi-Zero-Barebones-Kit-p-2964.html
 oldwikiname: Raspberry_Pi_Zero_Barebones_Kit
 prodimagename: Raspberry_Pi_Zero_Barebones_Kit.jpg
-wikiurl: http://seeed.wiki/Raspberry_Pi_Zero_Barebones_Kit
+wikiurl: http://wiki.seeedstudio.com/cn/Raspberry_Pi_Zero_Barebones_Kit
 sku: 110991025
 ---
 

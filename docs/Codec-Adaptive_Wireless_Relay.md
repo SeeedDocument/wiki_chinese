@@ -4,7 +4,7 @@ category: MakerPro
 bzurl: https://www.seeedstudio.com/codecadaptive-wireless-relay-p-550.html?cPath=139_140
 oldwikiname:  Codec-Adaptive Wireless Relay
 prodimagename:  315rfrelay.jpg
-wikiurl: http://seeed.wiki/Codec-Adaptive_Wireless_Relay
+wikiurl: http://wiki.seeedstudio.com/cn/Codec-Adaptive_Wireless_Relay
 sku:     101990009
 ---
 ![](http://bz.seeedstudio.com/depot/images/product/315rfrelay.jpg)

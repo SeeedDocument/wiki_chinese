@@ -4,7 +4,7 @@ category: LinkIt
 bzurl: https://seeedstudio.com/Grove-Starter-Kit-for-LinkIt-ONE-p-2028.html
 oldwikiname: Grove_-_Starter_Kit_for_LinkIt_ONE
 prodimagename: Grove_Starter_Kit_for_LinkIt_ONE_530x397.jpg
-wikiurl: http://seeed.wiki/Grove-Starter_Kit_for_LinkIt_ONE
+wikiurl: http://wiki.seeedstudio.com/cn/Grove-Starter_Kit_for_LinkIt_ONE
 sku: 110060039
 ---
 
@@ -22,7 +22,7 @@ Grove - Starter Kit for LinkIt ONE 是一款基于 LinkIt ONE 开发平台，能
 -   通过包含典型的和常用的模块来降低费用。
 
 !!!Tip
-    关于 Grove 模块的更多信息请点击 [Grove System](http://seeed.wiki/Grove_System/)
+    关于 Grove 模块的更多信息请点击 [Grove System](http://wiki.seeedstudio.com/cn/Grove_System/)
 
 
 ## 规格参数
@@ -30,17 +30,17 @@ Grove - Starter Kit for LinkIt ONE 是一款基于 LinkIt ONE 开发平台，能
 
 详见各个模块的规格参数 :
 
--   [Grove - Dust Sensor](http://seeed.wiki/Grove-Dust_Sensor/)
--   [Grove - Temperature and Humidity Sensor Pro](http://seeed.wiki/Grove-Temperature_and_Humidity_Sensor_Pro/)
--   [Grove - Sound Sensor](http://seeed.wiki/Grove-Sound_Sensor/)
--   [Grove - UV Sensor](http://seeed.wiki/Grove-UV_Sensor/)
--   [Grove - Barometer Sensor (BMP280)](http://seeed.wiki/Grove-Barometer_Sensor-BMP280/)
--   [Grove - Light Sensor v1.2](http://seeed.wiki/Grove-Light_Sensor/)
--   [Grove - 3-Axis Digital Accelerometer(±16g)](http://seeed.wiki/Grove-3-Axis_Digital_Accelerometer-16g/)
--   [Grove - LED Bar](http://seeed.wiki/Grove-LED_Bar/)
--   [Grove - Servo](http://seeed.wiki/Grove-Servo/)
--   [Grove - Touch Sensor](http://seeed.wiki/Grove-Touch_Sensor/)
--   [Grove - Base shield v2](http://seeed.wiki/Base_Shield_V2/)
+-   [Grove - Dust Sensor](http://wiki.seeedstudio.com/cn/Grove-Dust_Sensor/)
+-   [Grove - Temperature and Humidity Sensor Pro](http://wiki.seeedstudio.com/cn/Grove-Temperature_and_Humidity_Sensor_Pro/)
+-   [Grove - Sound Sensor](http://wiki.seeedstudio.com/cn/Grove-Sound_Sensor/)
+-   [Grove - UV Sensor](http://wiki.seeedstudio.com/cn/Grove-UV_Sensor/)
+-   [Grove - Barometer Sensor (BMP280)](http://wiki.seeedstudio.com/cn/Grove-Barometer_Sensor-BMP280/)
+-   [Grove - Light Sensor v1.2](http://wiki.seeedstudio.com/cn/Grove-Light_Sensor/)
+-   [Grove - 3-Axis Digital Accelerometer(±16g)](http://wiki.seeedstudio.com/cn/Grove-3-Axis_Digital_Accelerometer-16g/)
+-   [Grove - LED Bar](http://wiki.seeedstudio.com/cn/Grove-LED_Bar/)
+-   [Grove - Servo](http://wiki.seeedstudio.com/cn/Grove-Servo/)
+-   [Grove - Touch Sensor](http://wiki.seeedstudio.com/cn/Grove-Touch_Sensor/)
+-   [Grove - Base shield v2](http://wiki.seeedstudio.com/cn/Base_Shield_V2/)
 
 ## 创意应用
 -----------------

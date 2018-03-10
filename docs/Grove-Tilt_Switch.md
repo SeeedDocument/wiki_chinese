@@ -4,7 +4,7 @@ category: Sensor
 bzurl: https://seeedstudio.com/Grove-Tilt-Switch-p-771.html
 oldwikiname: Grove_-_Tilt_Switch
 prodimagename: Tilt1.jpg
-wikiurl: http://seeed.wiki/Grove-Tilt_Switch
+wikiurl: http://wiki.seeedstudio.com/cn/Grove-Tilt_Switch
 sku: 101020025
 tags: grove_digital, io_3v3, io_5v, plat_duino, plat_pi, plat_bbg
 ---
@@ -23,7 +23,7 @@ Grove-Tilt Switch 相当于一个开关，用作数字输入。 在 tilt switch 
 -   简单的 Grove 模块
 
 !!!Tip
-    关于 Grove 模块的更多信息请点击 [Grove System](http://seeed.wiki/Grove_System/)
+    关于 Grove 模块的更多信息请点击 [Grove System](http://wiki.seeedstudio.com/cn/Grove_System/)
 
 ## 规格参数
 --------------

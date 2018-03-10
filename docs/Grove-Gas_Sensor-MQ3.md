@@ -4,7 +4,7 @@ category: Sensor
 bzurl: https://seeedstudio.com/Grove-Gas-Sensor(MQ3)-p-1418.html
 oldwikiname: Grove_-_Gas_Sensor(MQ3)
 prodimagename: Grove_MQ3_Gas_Sensor.jpg
-wikiurl: http://seeed.wiki/Grove-Gas_Sensor-MQ3
+wikiurl: http://wiki.seeedstudio.com/cn/Grove-Gas_Sensor-MQ3
 sku: 101020006
 tags: grove_analog, io_5v, plat_duino
 ---
@@ -35,7 +35,7 @@ Grove - Gas Sensor(MQ3) 模块可用于气体泄漏检测（在家庭和工业�
 -   响应快，灵敏度高。
 
 !!!Tip
-    关于 Grove 模块的更多信息请点击 [Grove System](http://seeed.wiki/Grove_System/)
+    关于 Grove 模块的更多信息请点击 [Grove System](http://wiki.seeedstudio.com/cn/Grove_System/)
 
 ## 规格参数
 -------------

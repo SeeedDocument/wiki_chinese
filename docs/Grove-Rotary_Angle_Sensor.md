@@ -4,7 +4,7 @@ category: Sensor
 bzurl: https://seeedstudio.com/Grove-Rotary-Angle-Sensor-p-770.html
 oldwikiname: Grove_-_Rotary_Angle_Sensor
 prodimagename: Grove-Rotary_Angle_Sensor.jpg
-wikiurl: http://seeed.wiki/Grove-Rotary_Angle_Sensor
+wikiurl: http://wiki.seeedstudio.com/cn/Grove-Rotary_Angle_Sensor
 sku: 101020017
 tags: grove_analog, io_3v3, io_5v, plat_duino, plat_linkit, plat_bbg, plat_wio
 ---
@@ -36,7 +36,7 @@ tags: grove_analog, io_3v3, io_5v, plat_duino, plat_linkit, plat_bbg, plat_wio
 -   Grove Base 模块
 
 !!!Tip
-    关于 Grove 模块的更多信息请点击 [Grove System](http://seeed.wiki/Grove_System/)
+    关于 Grove 模块的更多信息请点击 [Grove System](http://wiki.seeedstudio.com/cn/Grove_System/)
 
 ## 规格参数
 --------------

@@ -4,7 +4,7 @@ category: Display
 bzurl: https://www.seeedstudio.com/Grove-LED-String-Light-p-2324.html
 oldwikiname:  Grove - LED String Light
 prodimagename: Grove-led-string-light.jpg
-wikiurl: http://seeed.wiki/Grove-LED_String_Light
+wikiurl: http://wiki.seeedstudio.com/cn/Grove-LED_String_Light
 sku:  104020005
 ---
 

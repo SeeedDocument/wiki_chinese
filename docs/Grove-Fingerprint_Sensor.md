@@ -4,7 +4,7 @@ category: Sensor
 bzurl: https://seeedstudio.com/Grove-Fingerprint-Sensor-p-1424.html
 oldwikiname: Grove_-_Fingerprint_Sensor
 prodimagename: Print_Sensor.jpg
-wikiurl: http://seeed.wiki/Grove-Fingerprint_Sensor
+wikiurl: http://wiki.seeedstudio.com/cn/Grove-Fingerprint_Sensor
 sku: 101020057
 tags: grove_uart, io_5v, plat_duino, plat_linkit, plat_pi
 ---
@@ -84,7 +84,7 @@ Platforms Supported
 
 !!!Tip
     关于 Grove 模块的更多信息请点击 [Grove System](
-http://seeed.wiki/Grove_System/)
+http://wiki.seeedstudio.com/cn/Grove_System/)
 
 ## 资源下载
 --------

@@ -4,7 +4,7 @@ category: Sensor
 bzurl: https://www.seeedstudio.com/Grove-Temperature-Sensor-p-774.html
 oldwikiname:  Grove - Temperature Sensor
 prodimagename: Temperature1.jpg
-wikiurl: http://seeed.wiki/Grove-Temperature_Sensor/
+wikiurl: http://wiki.seeedstudio.com/cn/Grove-Temperature_Sensor/
 sku:  101020015
 ---
 
@@ -38,7 +38,7 @@ Grove - 温度传感器使用热敏电阻来检测环境温度。 当环境温�
 
 ![](https://github.com/SeeedDocument/Grove-Temperature_Sensor/raw/master/img/Tempreture_Sensor_Connector.jpg)
 
-4.下载以下程序到你的板子.如果您不清楚怎么下载代码到您的板子里，请点击[这里](http://seeed.wiki/Upload_Code/)。
+4.下载以下程序到你的板子.如果您不清楚怎么下载代码到您的板子里，请点击[这里](http://wiki.seeedstudio.com/cn/Upload_Code/)。
 
 
 ```

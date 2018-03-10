@@ -4,7 +4,7 @@ category: Sensor
 bzurl: https://www.seeedstudio.com/Grove-Gesture-p-2463.html
 oldwikiname: Grove - Gesture V1.0
 prodimagename: Breakout_for_LinkIt_Smart_7688_v2.0_product_view_700.jpg
-urlwiki: http://seeed.wiki/Grove-Gesture_v1.0/
+urlwiki: http://wiki.seeedstudio.com/cn/Grove-Gesture_v1.0/
 sku: 101020083
 ---
 
@@ -54,7 +54,7 @@ Grove - Gesture上的传感器是将手势识别功能与通用 I2C 接口集成
 
 推荐阅读入门
 - [下载 Arduino 并安装 Arduino 驱动程序](http://wiki.seeedstudio.com/wiki/Download_Arduino_and_install_Arduino_driver)
-- [Seeed入门指导](http://seeed.wiki/Getting_Started_with_Seeeduino/)
+- [Seeed入门指导](http://wiki.seeedstudio.com/cn/Getting_Started_with_Seeeduino/)
 
 **硬件安装**
 

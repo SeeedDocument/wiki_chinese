@@ -4,7 +4,7 @@ category: Sensor
 bzurl: https://www.seeedstudio.com/Grove-Temp&Humi&Barometer-Sensor-(BME280)-p-2653.html
 oldwikiname: Grove_-_Barometer_Sensor(BME280)
 prodimagename: Grove-Barometer_Sensor-BMP280-700_s.jpg
-wikiurl: http://seeed.wiki/Grove-Barometer_Sensor-BME280
+wikiurl: http://wiki.seeedstudio.com/cn/Grove-Barometer_Sensor-BME280
 sku: 101020193
 tags: plat_duino, plat_bbg, plat_linkit -->
 ---

@@ -4,14 +4,14 @@ category: Tutorial
 bzurl: 
 oldwikiname: 
 prodimagename: 
-wikiurl: http://seeed.wiki/How_to_edit_Wiki
+wikiurl: http://wiki.seeedstudio.com/cn/How_to_edit_Wiki
 sku: 
 tags: 
 ---
 
 ## Seeed中文文档维护说明
 
-这里你可以找到部分Seeed产品的[中文文档](http://seeed.wiki)，由于这个站点刚建立，所以只有部分已经翻译的文档。
+这里你可以找到部分Seeed产品的[中文文档](http://wiki.seeedstudio.com/cn)，由于这个站点刚建立，所以只有部分已经翻译的文档。
 
 没有中文文档的产品，仍然需要到[英文站点](http://wiki.seeed.cc).
 
@@ -35,7 +35,7 @@ category: Shield
 bzurl: https://www.seeedstudio.com/CAN-BUS-Shield-V1.2-p-2256.html
 oldwikiname: CAN-BUS_Shield_V1.2
 prodimagename: Can_bus_shield_all.jpg
-wikiurl: http://seeed.wiki/CAN-BUS_Shield_V1.2
+wikiurl: http://wiki.seeedstudio.com/cn/CAN-BUS_Shield_V1.2
 sku: 113030021
 
 ```
@@ -99,7 +99,7 @@ Grove - 执行器包括电机驱动器，LED显示屏，继电器，扬声器，
 
 以下是您可以在Seeed WiKi中找到的Grove - 执行器列表。 该列表将不断更新。
 
-* [Grove-MP3_v2.0](http://seeed.wiki/Grove-MP3_v2.0)
+* [Grove-MP3_v2.0](http://wiki.seeedstudio.com/cn/Grove-MP3_v2.0)
 
 ```
 

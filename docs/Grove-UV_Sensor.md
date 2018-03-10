@@ -4,7 +4,7 @@ category: Sensor
 bzurl: https://seeedstudio.com/Grove-UV-Sensor-p-1540.html
 oldwikiname: Grove_-_UV_Sensor
 prodimagename: UV_Sensor_01.jpg
-wikiurl: http://seeed.wiki/Grove-UV_Sensor
+wikiurl: http://wiki.seeedstudio.com/cn/Grove-UV_Sensor
 sku: 101020043
 tags: grove_analog, io_3v3, io_5v, plat_duino, plat_linkit
 ---
@@ -28,7 +28,7 @@ UV传感器用于检测射入紫外线（UV）辐射的强度。 这种形式的
 - 具有Grove接口
 
 !!!Tip
-    关于Grove模块的更多细节请参考 [Grove System](http://seeed.wiki/Grove_System/)
+    关于Grove模块的更多细节请参考 [Grove System](http://wiki.seeedstudio.com/cn/Grove_System/)
 
 规格参数
 --------------

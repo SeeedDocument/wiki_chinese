@@ -4,7 +4,7 @@ category: Sensor
 bzurl: https://seeedstudio.com/Grove-CO2-Sensor-p-1863.html
 oldwikiname: Grove_-_CO2_Sensor
 prodimagename: Grove_CO2_Sensor.jpg
-wikiurl: http://seeed.wiki/Grove-CO2_Sensor
+wikiurl: http://wiki.seeedstudio.com/cn/Grove-CO2_Sensor
 sku: 101020067
 tags: grove_uart, io_3v3, io_5v, plat_duino, plat_linkit
 ---
@@ -36,7 +36,7 @@ Grove - CO2 Sensor 模块是一款红外的高灵敏度与高分辨率的二氧�
 -   UART 输出模式
 
 !!!Tip
-     关于 Grove 模块的更多信息请点击 [Grove System](http://seeed.wiki/Grove_System/)
+     关于 Grove 模块的更多信息请点击 [Grove System](http://wiki.seeedstudio.com/cn/Grove_System/)
 
 ## Platforms Supported
 -------------------

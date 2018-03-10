@@ -4,7 +4,7 @@ category: Raspberry Pi
 bzurl: https://www.seeedstudio.com/Microsoft-IoT-Grove-Kit-(Azure-Certified)-p-2694.html
 prodimagename: cover.jpg
 other: 
-wikiurl: http://seeed.wiki/Grove_Starter_Kit_for_IoT_based_on_Raspberry_Pi
+wikiurl: http://wiki.seeedstudio.com/cn/Grove_Starter_Kit_for_IoT_based_on_Raspberry_Pi
 sku: 110060482
 ---
 

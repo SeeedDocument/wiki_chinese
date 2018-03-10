@@ -4,7 +4,7 @@ category: Arduino
 bzurl:  https://www.seeedstudio.com/Grove-Starter-kit-for-Arduino%26Genuino-101-p-2664.html
 oldwikiname: Grove Starter kit for Arduino&Genuino 101
 prodimagename: Grove_Starter_kit_for_Arduino_101product_view_1024_s.jpg
-wikiurl: http://seeed.wiki/Grove_Starter_kit_for_Arduino_101
+wikiurl: http://wiki.seeedstudio.com/cn/Grove_Starter_kit_for_Arduino_101
 sku:    110020109
 ---
 ![](https://github.com/SeeedDocument/Grove_Starter_kit_for_Arduino_101/raw/master/img/Grove_Starter_kit_for_Arduino_101product_view_1024_s.jpg)
@@ -76,18 +76,18 @@ Grove 系统通过不同的变换器 (如传感器和电机)，扩展板和 Grov
 <tr>
 <td> Grove - Rotary Angle Sensor(P)  </td>
 <td> 1 件 </td>
-<td> [点击获取更多信息](http://seeed.wiki/Grove-Rotary_Angle_Sensor/)
+<td> [点击获取更多信息](http://wiki.seeedstudio.com/cn/Grove-Rotary_Angle_Sensor/)
 </td></tr>
 <tr>
 <td> Grove – Button</td>
 <td>1 件 </td>
-<td> [点击获取更多信息](http://seeed.wiki/Grove-Button/
+<td> [点击获取更多信息](http://wiki.seeedstudio.com/cn/Grove-Button/
 )
 </td></tr>
 <tr>
 <td>Grove - Touch Sensor </td>
 <td>1 件</td>
-<td> [点击获取更多信息](http://seeed.wiki/Grove-Touch_Sensor/)
+<td> [点击获取更多信息](http://wiki.seeedstudio.com/cn/Grove-Touch_Sensor/)
 </td></tr>
 <tr>
 <td>Grove LEDs</td>
@@ -97,42 +97,42 @@ Grove 系统通过不同的变换器 (如传感器和电机)，扩展板和 Grov
 <tr>
 <td>Grove - Buzzer</td>
 <td>1 件</td>
-<td>[点击获取更多信息](http://seeed.wiki/Grove-Buzzer/)
+<td>[点击获取更多信息](http://wiki.seeedstudio.com/cn/Grove-Buzzer/)
 </td></tr>
 <tr>
 <td>Grove - Sound Sensor</td>
 <td>1 件</td>
-<td>[点击获取更多信息](http://seeed.wiki/Grove-Sound_Sensor/)
+<td>[点击获取更多信息](http://wiki.seeedstudio.com/cn/Grove-Sound_Sensor/)
 </td></tr>
 <tr>
 <td>Grove - Light Sensor</td>
 <td>1 件</td>
-<td>[点击获取更多信息](http://seeed.wiki/Grove-Light_Sensor/)
+<td>[点击获取更多信息](http://wiki.seeedstudio.com/cn/Grove-Light_Sensor/)
 </td></tr>
 <tr>
 <td>Grove - Temperature Sensor</td>
 <td>1 件</td>
-<td>[点击获取更多信息](http://seeed.wiki/Grove-Temperature_Sensor/)
+<td>[点击获取更多信息](http://wiki.seeedstudio.com/cn/Grove-Temperature_Sensor/)
 </td></tr>
 <tr>
 <td>Grove - Relay</td>
 <td>1 件</td>
-<td>[点击获取更多信息](http://seeed.wiki/Grove-Relay/)
+<td>[点击获取更多信息](http://wiki.seeedstudio.com/cn/Grove-Relay/)
 </td></tr>
 <tr>
 <td>Grove - Servo</td>
 <td>1 件</td>
-<td>[点击获取更多信息](http://seeed.wiki/Grove-Servo/)
+<td>[点击获取更多信息](http://wiki.seeedstudio.com/cn/Grove-Servo/)
 </td></tr>
 <tr>
 <td>Grove - LCD RGB Backlight</td>
 <td>1 件</td>
-<td>[点击获取更多信息](http://seeed.wiki/Grove-LCD_RGB_Backlight/)
+<td>[点击获取更多信息](http://wiki.seeedstudio.com/cn/Grove-LCD_RGB_Backlight/)
 </td></tr>
 <tr>
 <td>Base Shield V2.0</td>
 <td>1 件</td>
-<td>[点击获取更多信息](http://seeed.wiki/Base_Shield_V2/)
+<td>[点击获取更多信息](http://wiki.seeedstudio.com/cn/Base_Shield_V2/)
 </td></tr>
 <tr>
 <td>User Manual (printed copy) </td>
@@ -148,4 +148,4 @@ Grove 系统通过不同的变换器 (如传感器和电机)，扩展板和 Grov
 
 ###  Arduino 示例
 
-在 LED 闪烁后 (对于 Windows 用户，您可以在 [这里](https://www.arduino.cc/en/Guide/Windows) 找到它，对于 Mac OS 和 Linux 用户，您可以在 [这里](https://www.arduino.cc/en/Guide/HomePage) 找到它)，您仍然需要熟悉 Seeedstudio Grove 系统，请点击 [这里](http://seeed.wiki/Grove_System/)。 现在您可以做一些更实用的实验，它们是专门为这个套件设计的。 在 [这里](https://github.com/Seeed-Studio/Sketchbook_Starter_Kit_for_Arduino) 下载。
+在 LED 闪烁后 (对于 Windows 用户，您可以在 [这里](https://www.arduino.cc/en/Guide/Windows) 找到它，对于 Mac OS 和 Linux 用户，您可以在 [这里](https://www.arduino.cc/en/Guide/HomePage) 找到它)，您仍然需要熟悉 Seeedstudio Grove 系统，请点击 [这里](http://wiki.seeedstudio.com/cn/Grove_System/)。 现在您可以做一些更实用的实验，它们是专门为这个套件设计的。 在 [这里](https://github.com/Seeed-Studio/Sketchbook_Starter_Kit_for_Arduino) 下载。

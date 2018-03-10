@@ -4,7 +4,7 @@ category: Sensor
 bzurl: https://seeedstudio.com/Grove-I2C-FM-Receiver-p-1953.html
 oldwikiname: Grove_-_I2C_FM_Receiver
 prodimagename: Grove-I2C_FM_Receiver_Photo.jpg
-wikiurl: http://seeed.wiki/Grove-I2C_FM_Receiver
+wikiurl: http://wiki.seeedstudio.com/cn/Grove-I2C_FM_Receiver
 sku: 107020006
 tags: grove_i2c, io_3v3, io_5v, plat_duino, plat_linkit
 ---
@@ -36,7 +36,7 @@ Grove-I2C FM Receiver 是一款宽带 FM 接收模块，该模块基于 RDA5807M
 -   输入电压：3.3V - 5V
 
 !!!Tip
-    有关 Grove 模块的更多信息，请参考 [Grove 系统](http://seeed.wiki/Grove_System/)。
+    有关 Grove 模块的更多信息，请参考 [Grove 系统](http://wiki.seeedstudio.com/cn/Grove_System/)。
 
 Platforms Supported
 -------------------

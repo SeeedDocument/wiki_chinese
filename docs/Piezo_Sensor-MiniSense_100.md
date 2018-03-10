@@ -4,7 +4,7 @@ category: MakerPro
 bzurl: https://www.seeedstudio.com/Piezo-Sensor-MiniSense-100-p-426.html
 oldwikiname:  Piezo Sensor - MiniSense 100
 prodimagename:  vbs1.jpg
-wikiurl: http://seeed.wiki/Piezo_Sensor-MiniSense_100
+wikiurl: http://wiki.seeedstudio.com/cn/Piezo_Sensor-MiniSense_100
 sku:    314070000
 ---
 ![](http://bz.seeedstudio.com/depot/images/product/vbs1.jpg)

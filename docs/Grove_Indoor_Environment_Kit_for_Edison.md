@@ -4,7 +4,7 @@ category: Others
 bzurl: https://www.seeedstudio.com/Grove-Indoor-Environment-Kit-for-Intel%C2%AE-Edison-p-2427.html
 oldwikiname:  Grove Indoor Environment Kit for Edison
 prodimagename: Grove_Indoor_Environment_Kit_for_Edison_with_case.JPG
-wikiurl: http://seeed.wiki/Grove_Indoor_Environment_Kit_for_Edison
+wikiurl: http://wiki.seeedstudio.com/cn/Grove_Indoor_Environment_Kit_for_Edison
 sku:  110060064
 ---
 ![](https://github.com/SeeedDocument/Grove_Indoor_Environment_Kit_for_Edison/raw/master/img/Grove_Indoor_Environment_Kit_for_Edison_with_case.JPG)

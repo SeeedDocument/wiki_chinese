@@ -4,7 +4,7 @@ category: Sensor
 bzurl: <a href="https://www.seeedstudio.com/Grove-3-Axis-Digital-Accelerometer(%C2%B116g)-p-1156.html">https://www.seeedstudio.com/Grove-3-Axis-Digital-Accelerometer(%C2%B116g)-p-1156.html</a>
 oldwikiname: Grove - 3 Axis Digital Accelerometer(±16g)
 prodimagename: Grove_3_Axis_Digital_Accelerometer_Plus_Minus_16g/raw/master/images/Grove-3-Axis_16g_v1.3.jpg
-wikiurl: http://seeed.wiki/Grove-3-Axis_Digital_Accelerometer-16g
+wikiurl: http://wiki.seeedstudio.com/cn/Grove-3-Axis_Digital_Accelerometer-16g
 sku: 101020054
 ---
 
@@ -30,7 +30,7 @@ sku: 101020054
 - Suli 标准兼容库
 
 !!!Tip
-    关于 Grove 模块的更多信息请点击 [Grove System](http://seeed.wiki/Grove_System/)
+    关于 Grove 模块的更多信息请点击 [Grove System](http://wiki.seeedstudio.com/cn/Grove_System/)
 
 ## 操作示例
 ---

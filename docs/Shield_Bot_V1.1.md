@@ -4,7 +4,7 @@ category: Kit
 bzurl: https://www.seeedstudio.com/Shield-Bot-p-1380.html
 oldwikiname:  Shield Bot V1.1
 prodimagename: 4WD_Mecanum_Wheel_Robot_Kit-RF_Version-.PNG
-wikiurl: http://seeed.wiki/Shield_Bot_V1.1
+wikiurl: http://wiki.seeedstudio.com/cn/Shield_Bot_V1.1
 sku:  110060010
 
 ---

@@ -4,7 +4,7 @@ category: BeagleBone
 bzurl: https://seeedstudio.com/SeeedStudio-BeagleBone-Green-HDMI-Cape-p-2570.html
 oldwikiname: BeagleBone_Green_HDMI_Cape
 prodimagename: BeagleBone_Green_HDMI_Cape.jpg
-wikiurl: http://seeed.wiki/BeagleBone_Green_HDMI_Cape
+wikiurl: http://wiki.seeedstudio.com/cn/BeagleBone_Green_HDMI_Cape
 tags: plat_bbg
 sku: 103030034
 ---

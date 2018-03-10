@@ -4,7 +4,7 @@ category: MakerPro
 bzurl: https://www.seeedstudio.com/WireLess-Gate-Shield-p-2117.html
 oldwikiname:  WireLess Gate Shield V1.0
 prodimagename:  WLG_h.jpg
-wikiurl: http://seeed.wiki/WireLess_Gate_Shield_V1.0
+wikiurl: http://wiki.seeedstudio.com/cn/WireLess_Gate_Shield_V1.0
 sku:      113990088
 ---
 ![](https://github.com/SeeedDocument/WireLess_Gate_Shield_V1.0/raw/master/img/WLG_h.jpg)

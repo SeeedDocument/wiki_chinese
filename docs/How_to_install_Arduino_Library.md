@@ -4,7 +4,7 @@ category: Tutorial
 bzurl: 
 oldwikiname:
 prodimagename: 
-wikiurl: http://seeed.wiki/How_to_install_Arduino_Library
+wikiurl: http://wiki.seeedstudio.com/cn/How_to_install_Arduino_Library
 sku: 
 
 ---

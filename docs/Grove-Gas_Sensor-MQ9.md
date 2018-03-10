@@ -4,7 +4,7 @@ category: Sensor
 bzurl: https://seeedstudio.com/Grove-Gas-Sensor(MQ9)-p-1419.html
 oldwikiname: Grove_-_Gas_Sensor(MQ9)
 prodimagename: Grove_MQ3_Gas_Sensor.jpg
-wikiurl: http://seeed.wiki/Grove-Gas_Sensor-MQ9
+wikiurl: http://wiki.seeedstudio.com/cn/Grove-Gas_Sensor-MQ9
 sku: 101020045
 tags: grove_analog, io_5v, plat_duino
 ---
@@ -33,7 +33,7 @@ tags: grove_analog, io_5v, plat_duino
 - 响应快，灵敏度高
 
 !!!Tip
-    关于Grove模块的更多细节请参考 [Grove System](http://seeed.wiki/Grove_System/)
+    关于Grove模块的更多细节请参考 [Grove System](http://wiki.seeedstudio.com/cn/Grove_System/)
 
 
 产品参数

@@ -4,7 +4,7 @@ category: Arduino
 bzurl: https://www.seeedstudio.com/Seeeduino-Lotus-ATMega328-Board-with-Grove-Interface-p-1942.html
 oldwikiname: Seeeduino_Lotus_v1.0
 prodimagename: Seeeduino_Lotus_Cover.jpg
-wikiurl: http://seeed.wiki/Seeeduino_Lotus
+wikiurl: http://wiki.seeedstudio.com/cn/Seeeduino_Lotus
 sku: 102020001
 ---
 

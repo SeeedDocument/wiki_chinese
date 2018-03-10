@@ -4,7 +4,7 @@ category: Essentials
 bzurl: https://www.seeedstudio.com/USB-To-Uart-5V%263V3-p-1832.html
 oldwikiname:  USB To Uart 5V/3V3
 prodimagename:  Photo_USB_To_Uart_5V_3V3.JPG
-wikiurl: http://seeed.wiki/USB_To_Uart_5V_3V3
+wikiurl: http://wiki.seeedstudio.com/cn/USB_To_Uart_5V_3V3
 sku:  103990049
 ---
 ![](https://github.com/SeeedDocument/USB_To_Uart_5V_3V3/raw/master/img/Photo_USB_To_Uart_5V_3V3.JPG)

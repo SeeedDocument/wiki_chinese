@@ -4,7 +4,7 @@ category: Arduino
 bzurl: https://www.seeedstudio.com/Seeeduino-Mega-p-717.html
 oldwikiname: Seeeduino_Mega
 prodimagename: Seeeduino_Mega_Cover.jpg
-wikiurl: http://seeed.wiki/Seeeduino_Mega
+wikiurl: http://wiki.seeedstudio.com/cn/Seeeduino_Mega
 sku: 102010007
 ---
 

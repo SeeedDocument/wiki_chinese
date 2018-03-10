@@ -18,8 +18,8 @@ BeagleBone Green由Beaglebone Black（简称BBB）改进，如果您了解BBB，
 以下是您可以在Seeed WiKi中找到的BeagleBone板的列表。 该列表将不断更新。
 
 
-* [BeagleBone_Green](http://seeed.wiki/BeagleBone_Green)
-* [BeagleBone_Green_HDMI_Cape](http://seeed.wiki/BeagleBone_Green_HDMI_Cape)
-* [BeagleBone_Green_Wireless](http://seeed.wiki/BeagleBone_Green_Wireless)
-* [Grove_Base_Cape_for_BeagleBone_v2](http://seeed.wiki/Grove_Base_Cape_for_BeagleBone_v2)
-* [Grove_Starter_Kit_for_BeagleBone_Green](http://seeed.wiki/Grove_Starter_Kit_for_BeagleBone_Green)
+* [BeagleBone_Green](http://wiki.seeedstudio.com/cn/BeagleBone_Green)
+* [BeagleBone_Green_HDMI_Cape](http://wiki.seeedstudio.com/cn/BeagleBone_Green_HDMI_Cape)
+* [BeagleBone_Green_Wireless](http://wiki.seeedstudio.com/cn/BeagleBone_Green_Wireless)
+* [Grove_Base_Cape_for_BeagleBone_v2](http://wiki.seeedstudio.com/cn/Grove_Base_Cape_for_BeagleBone_v2)
+* [Grove_Starter_Kit_for_BeagleBone_Green](http://wiki.seeedstudio.com/cn/Grove_Starter_Kit_for_BeagleBone_Green)

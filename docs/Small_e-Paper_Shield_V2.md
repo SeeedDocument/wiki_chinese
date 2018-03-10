@@ -4,7 +4,7 @@ category: Shield
 bzurl: https://www.seeedstudio.com/Small-e-paper-Shield-V2-p-2462.html
 oldwikiname:  Small e-Paper Shield V2
 prodimagename:  Small_e-Paper_shield_b.jpg
-wikiurl: http://seeed.wiki/Small_e-Paper_Shield_V2
+wikiurl: http://wiki.seeedstudio.com/cn/Small_e-Paper_Shield_V2
 sku:   104030019
 ---
  ![](https://github.com/SeeedDocument/Small_e-Paper_Shield_V2/raw/master/img/Small_e-Paper_shield_b.jpg)
@@ -158,7 +158,7 @@ sku:   104030019
 *   更改参数以匹配您的屏幕大小。如果您的屏幕是 2.7 英寸，则需要更改 200 到 270。使用其他型号屏幕的更改方法类似。
 <pre>#define SCREEN_SIZE 200 // choose screen size: 144, 200, 270</pre>
 
-*   上传代码到开发板上。如果您不知道怎么操作，请点击 [这里](http://seeed.wiki/Upload_Code/)。
+*   上传代码到开发板上。如果您不知道怎么操作，请点击 [这里](http://wiki.seeedstudio.com/cn/Upload_Code/)。
 
 *   展示效果如下：
 

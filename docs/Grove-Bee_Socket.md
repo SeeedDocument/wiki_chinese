@@ -4,7 +4,7 @@ category: Communication
 bzurl: https://www.seeedstudio.com/Grove-Bee-Socket-p-1449.html
 oldwikiname:  Grove - Bee Socket
 prodimagename: LFUUlWtcc3wNmrxDp3yjPy7I.jpg
-wikiurl: http://seeed.wiki/Grove-Bee_Socket/
+wikiurl: http://wiki.seeedstudio.com/cn/Grove-Bee_Socket/
 sku:  103020002
 ---
 

@@ -4,7 +4,7 @@ category: Communication
 bzurl: https://www.seeedstudio.com/Grove-Protoshield-p-772.html
 oldwikiname:  Grove - Protoshield
 prodimagename: Proto1.jpg
-wikiurl: http://seeed.wiki/Grove-Protoshield/
+wikiurl: http://wiki.seeedstudio.com/cn/Grove-Protoshield/
 sku:  101020035
 ---
 ![](https://github.com/SeeedDocument/Grove-Protoshield/raw/master/img/Proto1.jpg)

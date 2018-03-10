@@ -4,7 +4,7 @@ category: Sensor
 bzurl: https://www.seeedstudio.com/Grove-Temp&Humi-Sensor-p-745.html
 oldwikiname: Grove_-_Temperature&Humidity_Sensor
 prodimagename: Grove-TempAndHumiSensor.jpg
-wikiurl: http://seeed.wiki/Grove-Temperature_and_Humidity_Sensor/
+wikiurl: http://wiki.seeedstudio.com/cn/Grove-Temperature_and_Humidity_Sensor/
 sku: 101020011
 ---
 
@@ -27,7 +27,7 @@ sku: 101020011
 - 低功耗
 
 !!!Tip
-    关于Grove模块的更多细节请参考 [Grove System](http://seeed.wiki/Grove_System/)
+    关于Grove模块的更多细节请参考 [Grove System](http://wiki.seeedstudio.com/cn/Grove_System/)
 
 创意应用
 ------------------

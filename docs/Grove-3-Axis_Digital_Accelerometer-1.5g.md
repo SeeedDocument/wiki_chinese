@@ -4,7 +4,7 @@ category: Sensor
 bzurl: https://seeedstudio.com/Grove-3-Axis-Digital-Accelerometer(±1.5g)-p-765.html
 oldwikiname: Grove_-_3-Axis_Digital_Accelerometer(±1.5g)
 prodimagename: 3_aix_acc.jpg
-wikiurl: http://seeed.wiki/Grove-3-Axis_Digital_Accelerometer-1.5g
+wikiurl: http://wiki.seeedstudio.com/cn/Grove-3-Axis_Digital_Accelerometer-1.5g
 sku: 101020039
 tags: grove_i2c, io_3v3, io_5v, plat_duino, plat_linkit, plat_wio
 ---
@@ -56,7 +56,7 @@ Grove - 3-Axis Digital Accelerometer v1.2b
 -   Suli 兼容库
 
 !!!Tip
-    关于 Grove 模块的更多信息请点击 [Grove System](http://seeed.wiki/Grove_System/)
+    关于 Grove 模块的更多信息请点击 [Grove System](http://wiki.seeedstudio.com/cn/Grove_System/)
 
 ## Platforms Supported
 -------------------

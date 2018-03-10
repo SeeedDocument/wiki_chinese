@@ -4,7 +4,7 @@ category: Sensor
 bzurl: https://seeedstudio.com/Grove-Encoder-p-1352.html
 oldwikiname: Grove_-_Encoder
 prodimagename: Encoder2.jpg
-wikiurl: http://seeed.wiki/Grove-Encoder
+wikiurl: http://wiki.seeedstudio.com/cn/Grove-Encoder
 sku: 111020001
 tags: grove_digital, io_3v3, io_5v, plat_duino, plat_linkit, plat_wio
 ---
@@ -36,7 +36,7 @@ Grove – Encoder 是一个增量旋转编码器。它将轴的旋转信号编�
 * 360度旋转
 
 !!!tips
-    - 关于Grove接口的更多信息请参考下面链接[Grove System](http://seeed.wiki/Grove_System/)
+    - 关于Grove接口的更多信息请参考下面链接[Grove System](http://wiki.seeedstudio.com/cn/Grove_System/)
 
 
 
@@ -134,7 +134,7 @@ Arduino101 (with the [community library](https://github.com/dantler/GroveEncoder
 入门指导
 ---------------
 #### 开始之前
-如果您是第一次安装Arduino库文件，请点击 [这里](http://seeed.wiki/How_to_install_Arduino_Library/) 查看库文件的安装方法。
+如果您是第一次安装Arduino库文件，请点击 [这里](http://wiki.seeedstudio.com/cn/How_to_install_Arduino_Library/) 查看库文件的安装方法。
 
 Grove-Encoder 使用的为seeedstudio编写的库简单易用，首先请点击后面的库名下载库 [seeedstudio Encoder Lib](https://raw.githubusercontent.com/SeeedDocument/Grove-Encoder/master/res/Encoder.zip), 或者点击这里[community GroveEncoder library](https://github.com/dantler/GroveEncoder).  然后只需要把它接在BaseShield的D2接口上，你就可以开始使用了.
 
@@ -204,7 +204,7 @@ void SenttocircularBar(int index)
 
 -  4.
 
-  下载代码到您的Arduino或Seeeduino板子里。效果如下图所示。如果您不清楚怎么下载代码，请点击[这里](http://seeed.wiki/Upload_Code/)。
+  下载代码到您的Arduino或Seeeduino板子里。效果如下图所示。如果您不清楚怎么下载代码，请点击[这里](http://wiki.seeedstudio.com/cn/Upload_Code/)。
 
 ![](https://raw.githubusercontent.com/SeeedDocument/Grove-Encoder/master/img/EncoderAndCircular_LED.gif)
 

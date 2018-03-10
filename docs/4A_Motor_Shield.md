@@ -4,7 +4,7 @@ category: Shield
 bzurl: https://www.seeedstudio.com/4A-Motor-Shield-p-1954.html
 oldwikiname:  4A_Motor_Shield
 prodimagename: 4A_Motor_Shield_top.jpg
-wikiurl: http://seeed.wiki/4A_Motor_Shield
+wikiurl: http://wiki.seeedstudio.com/cn/4A_Motor_Shield
 sku: 105030004
 tags: io_5v, plat_duino
 ---

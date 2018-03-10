@@ -4,7 +4,7 @@ category: Rephone
 bzurl: https://www.seeedstudio.com/RePhone-Strap-Kit-for-Pebble-Time-p-2633.html
 oldwikiname:  RePhone Strap Kit for Pebble
 prodimagename:  Pebble3-04.png
-wikiurl: http://seeed.wiki/RePhone_Strap_Kit_for_Pebble
+wikiurl: http://wiki.seeedstudio.com/cn/RePhone_Strap_Kit_for_Pebble
 sku:   113060005
 ---
 ![](https://github.com/SeeedDocument/RePhone_Strap_Kit_for_Pebble/raw/master/img/Pebble3-04.png)
@@ -23,7 +23,7 @@ Xadow Adapter 底座的背后有“GND”和“PWR”触点，这样您就在充
 
 ###   Xadow GPS v2
 ---
-关于这个模块的更多信息请参考 [**Xadow GPS v2 Wiki 页面**](http://seeed.wiki/Xadow_GPS_V2/).
+关于这个模块的更多信息请参考 [**Xadow GPS v2 Wiki 页面**](http://wiki.seeedstudio.com/cn/Xadow_GPS_V2/).
 
 <table>
 <tr>

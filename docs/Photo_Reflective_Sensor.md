@@ -4,7 +4,7 @@ category: MakerPro
 bzurl: https://www.seeedstudio.com/Photo-Reflective-Sensor-p-543.html
 oldwikiname:  Photo Reflective Sensor
 prodimagename:  rs081.jpg
-wikiurl: http://seeed.wiki/Photo_Reflective_Sensor
+wikiurl: http://wiki.seeedstudio.com/cn/Photo_Reflective_Sensor
 sku:    314020031
 ---
 ![http://www.seeedstudio.com/depot/images/product/rs081.jpg](http://bz.seeedstudio.com/depot/images/product/rs081.jpg)

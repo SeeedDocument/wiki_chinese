@@ -4,7 +4,7 @@ category: Sensor
 bzurl: https://seeedstudio.com/Grove-Alcohol-Sensor-p-764.html
 oldwikiname: Grove_-_Alcohol_Sensor
 prodimagename: Alcohol_sensor_01.jpg
-wikiurl: http://seeed.wiki/Grove-Alcohol_Sensor
+wikiurl: http://wiki.seeedstudio.com/cn/Grove-Alcohol_Sensor
 sku: 101020044
 tags: grove_analog, io_5v, plat_duino
 ---
@@ -33,7 +33,7 @@ Grove - Alcohol Sensor 是适用于 Arduino 或 Seeeduino 的一个完整酒精�
 -   紧凑的外形尺寸。
 
 !!!Tip
-    关于 Grove 模块的更多信息请点击 [Grove System](http://seeed.wiki/Grove_System/)
+    关于 Grove 模块的更多信息请点击 [Grove System](http://wiki.seeedstudio.com/cn/Grove_System/)
 
 ## Platforms Supported
 -------------------

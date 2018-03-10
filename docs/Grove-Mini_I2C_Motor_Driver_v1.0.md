@@ -4,7 +4,7 @@ category: Actuator
 bzurl: https://www.seeedstudio.com/Grove - I2C Mini Motor Driver-p-2508.html
 oldwikiname: Grove_-_Mini_I2C_Motor_Driver_v1.0
 prodimagename: Mini_I2C_motor_2.png
-wikiurl: http://seeed.wiki/Grove-Mini_I2C_Motor_Driver_v1_0
+wikiurl: http://wiki.seeedstudio.com/cn/Grove-Mini_I2C_Motor_Driver_v1_0
 sku: 105020010
 tags: grove_i2c, io_3v3, io_5v, plat_duino, plat_linkit
 ---
@@ -28,7 +28,7 @@ Grove - MIni I2C motor driver 包含两个 DRV8830。DRV8830 为电池供电的�
 -   易于使用
 
 !!!Tip
-    关于 Grove 模块的更多信息请点击 [Grove System](http://seeed.wiki/Grove_System/)
+    关于 Grove 模块的更多信息请点击 [Grove System](http://wiki.seeedstudio.com/cn/Grove_System/)
 
 ## 创意应用
 -----------------
@@ -149,7 +149,7 @@ Platforms Supported
 
 ![](https://raw.githubusercontent.com/SeeedDocument/Grove-Mini_I2C_Motor_Driver_v1.0/master/img/Mini_motor_driver.jpg)
 
--   **Grove Interface** 是一个具有相同的接口的系统，可以插入到 **[Base Shield](http://seeed.wiki/Base_Shield_V2/)**。将此模块连接到 Base Shield 的 **I2C** 端口，然后与 Arduino 配合使用。您也可以通过跳线将 Grove - Mini I2C Motor Driver 连接到没有使用 Base Shield 的 Arduino。
+-   **Grove Interface** 是一个具有相同的接口的系统，可以插入到 **[Base Shield](http://wiki.seeedstudio.com/cn/Base_Shield_V2/)**。将此模块连接到 Base Shield 的 **I2C** 端口，然后与 Arduino 配合使用。您也可以通过跳线将 Grove - Mini I2C Motor Driver 连接到没有使用 Base Shield 的 Arduino。
 
 <table>
 <tr>

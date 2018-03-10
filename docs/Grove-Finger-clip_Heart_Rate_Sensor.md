@@ -4,7 +4,7 @@ category: Sensor
 bzurl: https://www.seeedstudio.com/Grove-Finger-clip-Heart-Rate-Sensor-p-2425.html
 oldwikiname:  Grove - Finger-clip Heart Rate Sensor
 prodimagename: Grove-Finger-clip_Heart_Rate_Sensor.jpg
-wikiurl: http://seeed.wiki/Grove-Finger-clip_Heart_Rate_Sensor
+wikiurl: http://wiki.seeedstudio.com/cn/Grove-Finger-clip_Heart_Rate_Sensor
 sku:  103020024
 ---
 ![](https://github.com/SeeedDocument/Grove-Finger-clip_Heart_Rate_Sensor/raw/master/img/Grove-Finger-clip_Heart_Rate_Sensor.jpg)

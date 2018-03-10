@@ -4,7 +4,7 @@ category: Respeaker
 bzurl:
 oldwikiname:
 prodimagename: SoundPi.jpg
-wikiurl: http://seeed.wiki/SoundPi
+wikiurl: http://wiki.seeedstudio.com/cn/SoundPi
 sku: 102991014
 ---
 

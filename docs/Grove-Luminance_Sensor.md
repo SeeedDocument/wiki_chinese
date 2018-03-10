@@ -4,7 +4,7 @@ category: Sensor
 bzurl: https://seeedstudio.com/Grove-Luminance-Sensor-p-1941.html
 oldwikiname: Grove_-_Luminance_Sensor
 prodimagename: Luminance.jpg
-wikiurl: http://seeed.wiki/Grove-Luminance_Sensor
+wikiurl: http://wiki.seeedstudio.com/cn/Grove-Luminance_Sensor
 sku: 101020076
 tags: grove_analog, io_3v3, io_5v, plat_duino, plat_linkit
 ---
@@ -26,7 +26,7 @@ Grove - Luminance Sensor 检测表面区域的环境光强度。 它使用 **APD
 | 亮度测量范围 | 0 ~ 1000 Lux |
 
 !!!Tip
-    关于 Grove 模块的更多信息请点击 [Grove System](http://seeed.wiki/Grove_System/)
+    关于 Grove 模块的更多信息请点击 [Grove System](http://wiki.seeedstudio.com/cn/Grove_System/)
 
 Platforms Supported
 -------------------

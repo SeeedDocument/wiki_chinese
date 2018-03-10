@@ -4,7 +4,7 @@ category: Kit
 bzurl: https://seeedstudio.com/Grove-Starter-Kit-for-LinkIt-7688-Duo-p-2551.html
 oldwikiname: Grove_Starter_kit_for_LinkIt_Smart7688_Duo
 prodimagename: Grove_Starter_kit_for_LinkIt_Smart7688_Duo_Product_view_1200_s.jpg
-wikiurl: http://seeed.wiki/Grove_Starter_kit_for_LinkIt_Smart7688_Duo
+wikiurl: http://wiki.seeedstudio.com/cn/Grove_Starter_kit_for_LinkIt_Smart7688_Duo
 sku: 110020007
 ---
 
@@ -26,7 +26,7 @@ LinkIt<sup>TM</sup> Smart 7688 Duo (一个紧凑的控制器板) 是一款开放
 -   详细完整的教程。
 
 !!!Tip
-    关于 Grove 模块的更多信息请点击 [Grove System](http://seeed.wiki/Grove_System/)
+    关于 Grove 模块的更多信息请点击 [Grove System](http://wiki.seeedstudio.com/cn/Grove_System/)
 
 ## 创意应用
 -----------------
@@ -41,15 +41,15 @@ LinkIt<sup>TM</sup> Smart 7688 Duo (一个紧凑的控制器板) 是一款开放
 
 | 零件名称                                                                                                 | 数量 |
 |------------------------------------------------------------------------------------------------------------|----------|
-| [Grove - Light Sensor](http://seeed.wiki/Grove-Light_Sensor/)         | 1PC      |
-| [Grove - Infrared Emitter](http://seeed.wiki/Grove-Infrared_Emitter/) | 1PC      |
-| [Grove - Infrared Receiver](http://seeed.wiki/Grove-Infrared_Receiver/)           | 1PC      |
-| [Grove - Encoder](http://seeed.wiki/Grove-Encoder/)                              | 1PC      |
-| [Grove - Touch Sensor](http://seeed.wiki/Grove-Touch_Sensor/)                     | 1PC      |
+| [Grove - Light Sensor](http://wiki.seeedstudio.com/cn/Grove-Light_Sensor/)         | 1PC      |
+| [Grove - Infrared Emitter](http://wiki.seeedstudio.com/cn/Grove-Infrared_Emitter/) | 1PC      |
+| [Grove - Infrared Receiver](http://wiki.seeedstudio.com/cn/Grove-Infrared_Receiver/)           | 1PC      |
+| [Grove - Encoder](http://wiki.seeedstudio.com/cn/Grove-Encoder/)                              | 1PC      |
+| [Grove - Touch Sensor](http://wiki.seeedstudio.com/cn/Grove-Touch_Sensor/)                     | 1PC      |
 | [Grove - OLED Display 1.12"](http://wiki.seeed.cc/Grove-OLED_Display_1.12inch/)           | 1PC      |
-| [Grove - Temp&Humi Sensor](http://seeed.wiki/Grove-Temperature_and_Humidity_Sensor/)              | 1PC      |
-| [Grove – Relay](http://seeed.wiki/Grove-Relay/)                                   | 1PC      |
-| [Grove - GAS Sensor (MQ2)](http://seeed.wiki/Grove-Gas_Sensor-MQ2/)                | 1PC      |
+| [Grove - Temp&Humi Sensor](http://wiki.seeedstudio.com/cn/Grove-Temperature_and_Humidity_Sensor/)              | 1PC      |
+| [Grove – Relay](http://wiki.seeedstudio.com/cn/Grove-Relay/)                                   | 1PC      |
+| [Grove - GAS Sensor (MQ2)](http://wiki.seeedstudio.com/cn/Grove-Gas_Sensor-MQ2/)                | 1PC      |
 | [IR Remote](http://www.seeedstudio.com/depot/DSLR-Universal-Interval-IR-Remote-p-1927.html)                | 1PC      |
 
 ## 示例

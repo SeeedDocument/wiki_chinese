@@ -4,7 +4,7 @@ category: Actuator
 bzurl: https://www.seeedstudio.com/Grove-White-LED-p-1140.html
 oldwikiname:  Grove - LED Socket Kit
 prodimagename: Grove-White-LED-p-2016.jpeg
-wikiurl: http://seeed.wiki/Grove-LED_Socket_Kit
+wikiurl: http://wiki.seeedstudio.com/cn/Grove-LED_Socket_Kit
 sku:  104030009
 ---
 ![](https://github.com/SeeedDocument/Grove-LED_Socket_Kit/raw/master/img/Grove-White-LED-p-2016.jpeg)
@@ -56,7 +56,7 @@ Grove - LED 是为 Arduino/Seeeduino 的初学者设计的，显示数字端口�
 2. 把它插到 Arduino/Seeeduino 上。 使用 USB 电缆将电路板连接到电脑。
 ![](https://github.com/SeeedDocument/Grove-LED_Socket_Kit/raw/master/img/Grove-LED.jpg)
 
-3. 将演示代码复制到 Arduino IDE 的新窗口，然后上传到 Arduino 或 Seeeduino 板。如果您不知道如何上传，请点击 [这里](http://seeed.wiki/Upload_Code/)。
+3. 将演示代码复制到 Arduino IDE 的新窗口，然后上传到 Arduino 或 Seeeduino 板。如果您不知道如何上传，请点击 [这里](http://wiki.seeedstudio.com/cn/Upload_Code/)。
 
     您可以看到 LED 灯每秒闪一次。
 

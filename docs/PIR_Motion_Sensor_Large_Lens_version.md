@@ -4,7 +4,7 @@ category: MakerPro
 bzurl: https://www.seeedstudio.com/pir-motion-sensor-module-p-74.html?cPath=84_88&zenid=020999c566d2f31841dc54602b7d02ef
 oldwikiname:  PIR Motion sensor module
 prodimagename:  Pir_motion_sensor_v1.0.jpg
-wikiurl: http://seeed.wiki/PIR_Motion_Sensor_Large_Lens_version/
+wikiurl: http://wiki.seeedstudio.com/cn/PIR_Motion_Sensor_Large_Lens_version/
 sku:   113990020
 ---
 ![](https://github.com/SeeedDocument/PIR_Motion_sensor_module/raw/master/img/Pir_motion_sensor_v1.0.jpg)

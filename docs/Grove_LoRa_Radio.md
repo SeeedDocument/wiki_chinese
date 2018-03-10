@@ -4,7 +4,7 @@ category: Communication
 bzurl: https://www.seeedstudio.com
 oldwikiname: Grove - LoRa Radio
 prodimagename: cover.jpg
-wikiurl: http://seeed.wiki/Grove_LoRa_Radio
+wikiurl: http://wiki.seeedstudio.com/cn/Grove_LoRa_Radio
 sku:  113060006/113060007
 tags: grove_uart, io_3v3, io_5v, plat_duino
 ---
@@ -45,7 +45,7 @@ Grove-LoRa Radio 433MHz的主要功能模块是RFM98，它是一款采用LoRa远
 - 备用可扩展 MHF 天线接头
 
 !!!Tip
-    更多关于 Grove 系统的资料请点击 [这里](http://seeed.wiki/Grove_System/)
+    更多关于 Grove 系统的资料请点击 [这里](http://wiki.seeedstudio.com/cn/Grove_System/)
 
 ## Platforms Supported
 
@@ -93,7 +93,7 @@ Grove-LoRa Radio 433MHz的主要功能模块是RFM98，它是一款采用LoRa远
 |Grove - LoRa Radio 433MHz|2|[点击购买](https://item.taobao.com/item.htm?spm=686.1000925.0.0.17ccbf9eiIl3j2&id=548555603514)|
 |Micro USB 数据线|2|[点击购买](https://item.taobao.com/item.htm?spm=686.1000925.0.0.36f9b4ceokjr0U&id=45774308858)|
 
-如果这是您第一次使用 [Seeeduino Lotus](https://item.taobao.com/item.htm?spm=a1z10.3-c.w4002-11172317909.9.2e3cf570Y040Gb&id=555795386924), 请参考阅读 [Seeeduino Lotus's 中文 wiki](http://seeed.wiki/Seeeduino_Lotus/).
+如果这是您第一次使用 [Seeeduino Lotus](https://item.taobao.com/item.htm?spm=a1z10.3-c.w4002-11172317909.9.2e3cf570Y040Gb&id=555795386924), 请参考阅读 [Seeeduino Lotus's 中文 wiki](http://wiki.seeedstudio.com/cn/Seeeduino_Lotus/).
 
 Seeeduino Lotus 完全兼容 Arduino， 并且和 Arduino 一样简单易用.
 
@@ -108,7 +108,7 @@ Seeeduino Lotus 是 Seeeduino 和 Base Shield 的完美融合。我们可以通�
 
 ### 库文件下载
 
-点击下面橙色框条下载并安装库文件，如果您不清楚怎么安装，请参考 ([Arduino 库安装指南](http://seeed.wiki/How_to_install_Arduino_Library/))
+点击下面橙色框条下载并安装库文件，如果您不清楚怎么安装，请参考 ([Arduino 库安装指南](http://wiki.seeedstudio.com/cn/How_to_install_Arduino_Library/))
 
 [![](https://raw.githubusercontent.com/SeeedDocument/Grove_LoRa_Radio/master/img/library.png)](https://github.com/Seeed-Studio/Grove_LoRa_433MHz_and_915MHz_RF/archive/master.zip)
 

@@ -4,7 +4,7 @@ category: Actuator
 bzurl: https://seeedstudio.com/Grove-2-Coil-Latching-Relay-p-1446.html
 oldwikiname: Grove_-_2-Coil_Latching_Relay
 prodimagename: 2Coil_Latching_Relay_01.jpg
-wikiurl: http://seeed.wiki/Grove-2-Coil_Latching_Relay
+wikiurl: http://wiki.seeedstudio.com/cn/Grove-2-Coil_Latching_Relay
 sku: 103020010
 tags: grove_digital, io_5v, plat_duino
 ---
@@ -23,7 +23,7 @@ tags: grove_digital, io_5v, plat_duino
 -   双开关
 
 !!!Tip
-    关于 Grove 模块的更多信息请点击 [Grove System](http://seeed.wiki/Grove_System/)
+    关于 Grove 模块的更多信息请点击 [Grove System](http://wiki.seeedstudio.com/cn/Grove_System/)
 
 ## 规格参数
 -------------

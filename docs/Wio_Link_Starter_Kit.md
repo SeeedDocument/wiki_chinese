@@ -4,7 +4,7 @@ category: Wio
 bzurl: https://seeedstudio.com/Wio-Link-Starter-Kit-p-2614.html
 oldwikiname: Wio_Link_Starter_Kit
 prodimagename: Wio_Link_Starter_Kit_product_view_1200_s.jpg
-wikiurl: http://seeed.wiki/Wio_Link_Starter_Kit
+wikiurl: http://wiki.seeedstudio.com/cn/Wio_Link_Starter_Kit
 sku: 110020051
 ---
 
@@ -28,13 +28,13 @@ sku: 110020051
 
 | 零件名称                                                                                                           | 数量 |
 |----------------------------------------------------------------------------------------------------------------------|----------|
-| [Grove - Button](http://seeed.wiki/Grove-Button/)                                                                                      | 1PC     |
-| [Grove - Relay](http://seeed.wiki/Grove-Relay/)                                             | 1PC     |
-| [Grove - Temp&Humi Sensor](http://seeed.wiki/Grove-Temperature_and_Humidity_Sensor/)           | 1PC     |
-| [Grove - Digital Light Sensor](http://seeed.wiki/Grove-Digital_Light_Sensor/) | 1PC     |
+| [Grove - Button](http://wiki.seeedstudio.com/cn/Grove-Button/)                                                                                      | 1PC     |
+| [Grove - Relay](http://wiki.seeedstudio.com/cn/Grove-Relay/)                                             | 1PC     |
+| [Grove - Temp&Humi Sensor](http://wiki.seeedstudio.com/cn/Grove-Temperature_and_Humidity_Sensor/)           | 1PC     |
+| [Grove - Digital Light Sensor](http://wiki.seeedstudio.com/cn/Grove-Digital_Light_Sensor/) | 1PC     |
 | [Grove - WS2812 Waterproof LED Strip - 30 LEDs 1 meter](https://www.seeedstudio.com/Digital-RGB-LED-Flexi-Strip-30-LED-1-Meter-p-1665.html)                                                                | 1PC     |
-| [Grove - 3-Axis Digital Accelerometer(±1.5g)](http://seeed.wiki/Grove-3-Axis_Digital_Accelerometer-1.5g/)                              | 1PC     |
-| [Wio Link](http://seeed.wiki/Wio_Link/)                                                                                                | 1PC     |
+| [Grove - 3-Axis Digital Accelerometer(±1.5g)](http://wiki.seeedstudio.com/cn/Grove-3-Axis_Digital_Accelerometer-1.5g/)                              | 1PC     |
+| [Wio Link](http://wiki.seeedstudio.com/cn/Wio_Link/)                                                                                                | 1PC     |
 | [Micro USB Cable - 48cm](https://www.seeedstudio.com/Micro-USB-Cable-48cm-p-1475.html)             | 1PC     |
 
 ## 入门指导
@@ -45,13 +45,13 @@ sku: 110020051
 ### 初步指南
 
 -   [Travis CI](https://travis-ci.org/)
--   [Wio Link](http://seeed.wiki/Wio_Link/)
+-   [Wio Link](http://wiki.seeedstudio.com/cn/Wio_Link/)
 
 ### 准备工作
 
 -   [Wio Link APP](https://www.kickstarter.com/projects/seeed/wio-link-3-steps-5-minutes-build-your-iot-applicat)
--   [Wio Link](http://seeed.wiki/Wio_Link/)
--   [Grove Relay](http://seeed.wiki/Grove-Relay/) × 3
+-   [Wio Link](http://wiki.seeedstudio.com/cn/Wio_Link/)
+-   [Grove Relay](http://wiki.seeedstudio.com/cn/Grove-Relay/) × 3
 -   A Travis CI Account
 -   A GitHub Account
 -   Traffic Light

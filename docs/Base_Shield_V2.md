@@ -4,7 +4,7 @@ category: Shield
 bzurl: https://www.seeedstudio.com/base-shield-v13-p-1378.html
 oldwikiname:
 prodimagename: Base_Shield_v2-1.png
-wikiurl: http://seeed.wiki/Base_Shield_V2
+wikiurl: http://wiki.seeedstudio.com/cn/Base_Shield_V2
 sku: 103030000
 ---
 

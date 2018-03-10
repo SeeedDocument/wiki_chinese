@@ -4,7 +4,7 @@ category: Arduino
 bzurl: https://www.seeedstudio.com/Sidekick-Basic-Kit-for-Arduino-V2-p-1858.html
 oldwikiname:   Sidekick Basic Kit for Arduino V2
 prodimagename:  BasicKit.jpg
-wikiurl: http://seeed.wiki/Sidekick_Basic_Kit_for_Arduino_V2
+wikiurl: http://wiki.seeedstudio.com/cn/Sidekick_Basic_Kit_for_Arduino_V2
 sku:  110060025
 ---
 ![](https://github.com/SeeedDocument/Sidekick_Basic_Kit_for_Arduino_V2/raw/master/img/BasicKit.jpg)

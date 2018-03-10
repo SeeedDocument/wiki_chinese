@@ -4,7 +4,7 @@ category: Others
 bzurl: https://www.seeedstudio.com/Grove-SPDT-Relay(30A)-p-1473.html
 oldwikiname: Grove - SPDT Relay(30A)
 prodimagename: SPDT_Relay_01.jpg
-wikiurl: http://seeed.wiki/Grove_SPDT_Relay_30A
+wikiurl: http://wiki.seeedstudio.com/cn/Grove_SPDT_Relay_30A
 sku: 103020012
 ---
 
@@ -21,7 +21,7 @@ Grove - SPDT Relay(30A) 是一个高品质的单刀双掷继电器 (SPDT)。这�
 - 常闭继电器
 
 !!!Tip
-    关于 Grove 模块的更多信息请点击 [Grove System](http://seeed.wiki/Grove_System/)
+    关于 Grove 模块的更多信息请点击 [Grove System](http://wiki.seeedstudio.com/cn/Grove_System/)
 
 
 ## 规格参数
@@ -60,7 +60,7 @@ SPDT 继电器内部结构 :
 
 1.准备一个 Raspberry pi 和一个 Grovepi 或 Grovepi+。
 
-2.完成配置开发环境，否则请遵循 [这里](http://seeed.wiki/GrovePi_Plus/)。
+2.完成配置开发环境，否则请遵循 [这里](http://wiki.seeedstudio.com/cn/GrovePi_Plus/)。
 
 3.连接
 - 将传感器用 Grove 线缆插入  Grovepi 插口 **D4**。

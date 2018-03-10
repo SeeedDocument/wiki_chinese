@@ -181,7 +181,7 @@ USB转串口的引脚分配. 这些焊盘可以用于通过将板载ATmega328置
 
 ### 添加Seeeduino 到 您的Arduino IDE
 
-Arduino IDE 中没有默认包括 *Seeeduino V4.2* 的板卡, 点击查看 [怎样将seeeduio板卡加载到Arduino IDE](http://seeed.wiki/Seeed_Arduino_Boards/) 。
+Arduino IDE 中没有默认包括 *Seeeduino V4.2* 的板卡, 点击查看 [怎样将seeeduio板卡加载到Arduino IDE](http://wiki.seeedstudio.com/cn/Seeed_Arduino_Boards/) 。
 
 ### 选择您的板卡
 您需要从这里选 **Tools（工具） > Board（开发板）** 在菜单中选择和您的开发板对应的选项。本例程中**Seeeduino V4**.

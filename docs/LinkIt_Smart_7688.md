@@ -4,7 +4,7 @@ category: LinkIt
 bzurl: https://www.seeedstudio.com/LinkIt-Smart-7688-p-2573.html
 oldwikiname:
 prodimagename: cover.png
-wikiurl: http://seeed.wiki/LinkIt_Smart_7688
+wikiurl: http://wiki.seeedstudio.com/cn/LinkIt_Smart_7688
 sku: 102110018
 ---
 

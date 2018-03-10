@@ -4,7 +4,7 @@ category: Sensor
 bzurl: https://www.seeedstudio.com/Grove-Gas-Sensor(O2)-p-1541.html
 oldwikiname: Grove_-_Gas_Sensor(O₂)
 prodimagename: cover.jpg
-wikiurl: http://seeed.wiki/Grove-Gas_Sensor-O2/
+wikiurl: http://wiki.seeedstudio.com/cn/Grove-Gas_Sensor-O2/
 sku: 101020002
 tags: plat_duino, grove_analog, io_3v3, io_5v
 ---
@@ -27,7 +27,7 @@ Grove-Gas sensor（O2）是一种用于测试空气中氧浓度的传感器，�
 
 
 !!!Tip
-    关于Grove模块的更多细节请参考 [Grove System](http://seeed.wiki/Grove_System/)
+    关于Grove模块的更多细节请参考 [Grove System](http://wiki.seeedstudio.com/cn/Grove_System/)
 
 ##规格参数
 

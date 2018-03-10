@@ -4,7 +4,7 @@ category: Shield
 bzurl: https://www.seeedstudio.com/W5500-Ethernet-Shield-p-2433.html
 oldwikiname: W5500_Ethernet_Shield_v1.0
 prodimagename: W5500.jpg
-wikiurl: http://seeed.wiki/W5500_Ethernet_Shield_v1_0
+wikiurl: http://wiki.seeedstudio.com/cn/W5500_Ethernet_Shield_v1_0
 sku: 103030021
 ---
 
@@ -95,7 +95,7 @@ W5500 和 SD 卡都通过 SPI 总线与 Arduino 进行通信。 引脚 **10** �
 
 ### 软件部分
 
-- 请按 [怎样安装Arduino库](http://seeed.wiki/How_to_install_Arduino_Library/) 中的步骤来安装库文件。
+- 请按 [怎样安装Arduino库](http://wiki.seeedstudio.com/cn/How_to_install_Arduino_Library/) 中的步骤来安装库文件。
 - 点击下面的按钮以下载 SD 和 W5500 Ethernet Shield 库。
 [![](https://github.com/SeeedDocument/W5500_Ethernet_Shield_v1.0/raw/master/img/download%20SD%20library.png)](https://github.com/SeeedDocument/W5500_Ethernet_Shield_v1.0/raw/master/res/SdFat-master.zip)
 [![](https://github.com/SeeedDocument/W5500_Ethernet_Shield_v1.0/raw/master/img/download%20W5500%20library.png)](https://github.com/SeeedDocument/W5500_Ethernet_Shield_v1.0/raw/master/res/WIZ_Ethernet_Library-IDE1.6.x-master.zip)

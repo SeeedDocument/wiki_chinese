@@ -4,7 +4,7 @@ category: Others
 bzurl: https://www.seeedstudio.com/Grove-Smart-Plant-Care-Kit-for-Arduino-p-2528.html
 oldwikiname:  Grove Smart Plant Care Kit
 prodimagename: Grove_Smart_Plant_Care_Kit_530x397.jpg
-wikiurl: http://seeed.wiki/Grove_Smart_Plant_Care_Kit
+wikiurl: http://wiki.seeedstudio.com/cn/Grove_Smart_Plant_Care_Kit
 sku:  110060130
 ---
 ![]( https://github.com/SeeedDocument/Grove_Smart_Plant_Care_Kit/raw/master/img/Grove_Smart_Plant_Care_Kit_530x397.jpg)

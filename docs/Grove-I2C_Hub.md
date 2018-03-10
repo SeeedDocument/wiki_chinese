@@ -4,7 +4,7 @@ category: Others
 bzurl: https://seeedstudio.com/Grove-I2C-Hub-p-851.html
 oldwikiname: Grove_-_I2C_Hub
 prodimagename: I2C_hub.jpg
-wikiurl: http://seeed.wiki/Grove-I2C_Hub
+wikiurl: http://wiki.seeedstudio.com/cn/Grove-I2C_Hub
 sku: 103020006
 tags: grove_i2c, io_3v3, io_5v,
 ---

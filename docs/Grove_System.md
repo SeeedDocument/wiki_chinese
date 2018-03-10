@@ -4,7 +4,7 @@ oldwikiname: Grove_System
 prodimagename: grove_cover.png
 img:
 other:
-wikiurl: http://seeed.wiki/grove_system
+wikiurl: http://wiki.seeedstudio.com/cn/grove_system
 ---
 
 ![enter image description here](https://raw.githubusercontent.com/SeeedDocument/GroveSystem/master/images/grove_cover.png)

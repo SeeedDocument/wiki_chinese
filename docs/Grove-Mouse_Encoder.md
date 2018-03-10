@@ -4,7 +4,7 @@ category: Sensor
 bzurl: https://seeedstudio.com/Grove-Mouse-Encoder-p-2607.html
 oldwikiname: Grove_-_Mouser_Encoder
 prodimagename: Grove-Mouse_Encoder_product_view.jpg
-wikiurl: http://seeed.wiki/Grove-Mouse_Encoder
+wikiurl: http://wiki.seeedstudio.com/cn/Grove-Mouse_Encoder
 sku: 103020030
 ---
 
@@ -29,7 +29,7 @@ Grove - Mouse Encoder 是一种具有旋转方向和旋转速度<sup>\[1\]</sup>
 - 准确可靠。
 
 !!!Tip
-    关于Grove模块的更多细节请参考 [Grove System](http://seeed.wiki/Grove_System/)
+    关于Grove模块的更多细节请参考 [Grove System](http://wiki.seeedstudio.com/cn/Grove_System/)
 
 创新应用
 ------------

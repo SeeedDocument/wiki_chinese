@@ -4,7 +4,7 @@ category: Sensor
 bzurl: https://seeedstudio.com/Grove-Water-Sensor-p-748.html
 oldwikiname: Grove_-_Water_Sensor
 prodimagename: Grove-Water_Sensor.jpg
-wikiurl: http://seeed.wiki/Grove-Water_Sensor
+wikiurl: http://wiki.seeedstudio.com/cn/Grove-Water_Sensor
 sku: 101020018
 tags: grove_digital, io_3v3, io_5v, plat_duino, plat_linkit, plat_pi, plat_bbg
 ---
@@ -25,7 +25,7 @@ Water Sensor 模块是 Grove 系统的一部分。它通过测量电导率指示
 -   灵敏度高
 
 !!!Tip
-    关于 Grove 模块的更多信息请点击 [Grove System](http://seeed.wiki/Grove_System/)
+    关于 Grove 模块的更多信息请点击 [Grove System](http://wiki.seeedstudio.com/cn/Grove_System/)
 
 ## 创意应用
 ------------------

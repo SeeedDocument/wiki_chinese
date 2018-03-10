@@ -4,7 +4,7 @@ category: Kit
 bzurl: https://www.seeedstudio.com/seeeduino-mega-protoshield-kit-p-597.html?cPath=132_134
 oldwikiname:   Seeeduino Mega Protoshield Kit
 prodimagename:  Seeeduino_ethernet-2.jpg
-wikiurl: http://seeed.wiki/Seeeduino_Mega_Protoshield_Kit
+wikiurl: http://wiki.seeedstudio.com/cn/Seeeduino_Mega_Protoshield_Kit
 sku:   110060001
 ---
 ![http://www.seeedstudio.com/depot/images/large/product/protomega_LRG.jpg](http://www.seeedstudio.com/depot/images/large/product/protomega_LRG.jpg)

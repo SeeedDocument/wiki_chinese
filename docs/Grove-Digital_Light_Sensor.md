@@ -4,7 +4,7 @@ category: Sensor
 bzurl: https://seeedstudio.com/Grove-Digital-Light-Sensor-p-1281.html
 oldwikiname: Grove_-_Digital_Light_Sensor
 prodimagename:
-wikiurl: http://seeed.wiki/Grove-Digital_Light_Sensor
+wikiurl: http://wiki.seeedstudio.com/cn/Grove-Digital_Light_Sensor
 sku: 101020030
 tags: grove_digital, io_3v3, io_5v, plat_duino, plat_pi
 ---
@@ -29,7 +29,7 @@ tags: grove_digital, io_3v3, io_5v, plat_duino, plat_pi
 - 具有可编程的中断功能，用户可以自行定义上限和下限的阈值
 
 !!!Tip
-    关于Grove模块的更多细节请参考 [Grove System](http://seeed.wiki/Grove_System/)
+    关于Grove模块的更多细节请参考 [Grove System](http://wiki.seeedstudio.com/cn/Grove_System/)
 
 ## 规格参数
 --------------
@@ -94,7 +94,7 @@ Digital light sensor 的两个通道具有不同的响应特性。 这就是为�
 #### 程序
 
 - 从这里下载库文件 [Digital Light Sensor 库](https://github.com/Seeed-Studio/Grove_Digital_Light_Sensor/archive/master.zip);
-- 如果您是第一次安装 Arduino 库文件，请点击 [这里](http://seeed.wiki/How_to_install_Arduino_Library/) 查看库文件的安装方法。
+- 如果您是第一次安装 Arduino 库文件，请点击 [这里](http://wiki.seeedstudio.com/cn/How_to_install_Arduino_Library/) 查看库文件的安装方法。
 - 通过路径直接打开代码： **File（文件） -> Example（示例） ->Digital_Light_Sensor->Digital_Light_Sensor**.
 
 ![](https://github.com/SeeedDocument/Grove-Digital_Light_Sensor/raw/master/img/library%20example.jpg)

@@ -4,7 +4,7 @@ category: Sensor
 bzurl: https://www.seeedstudio.com/Grove-Temperature&Humidity-Sensor-(SHT31)-p-2655.html
 oldwikiname: Grove_-_Temp&Humi_Sensor(SHT31)
 prodimagename: Grove-TempAndHumi_Sensor-SHT31-Product_View_700_S.jpg
-wikiurl: http://seeed.wiki/Grove-TempAndHumi_Sensor-SHT31
+wikiurl: http://wiki.seeedstudio.com/cn/Grove-TempAndHumi_Sensor-SHT31
 sku: 101020212
 ---
 
@@ -28,7 +28,7 @@ Grove - Temp&Humi Sensor(SHT31) 是一款高度可靠，准确，能够快速响
 - 高度精炼的开发库
 
 !!!Tip
-    关于Grove模块的更多细节请参考 [Grove System](http://seeed.wiki/Grove_System/)
+    关于Grove模块的更多细节请参考 [Grove System](http://wiki.seeedstudio.com/cn/Grove_System/)
 
 规格参数
 --------------

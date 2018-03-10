@@ -4,7 +4,7 @@ category: Shield
 bzurl: https://www.seeedstudio.com/Wifi-Shield-(Fi250)-V1.1-p-2449.html
 oldwikiname:  Wifi Shield (Fi250) V1.1
 prodimagename:  Fi250_board1.jpg
-wikiurl: http://seeed.wiki/Wifi_Shield_Fi250_V1.1
+wikiurl: http://wiki.seeedstudio.com/cn/Wifi_Shield_Fi250_V1.1
 sku:    103030027
 ---
 

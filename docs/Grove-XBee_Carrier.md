@@ -4,7 +4,7 @@ category: Shield
 bzurl: https://www.seeedstudio.com/grove-xbee-carrier-p-905.html?cPath=132_134
 oldwikiname:  Grove - XBee Carrier
 prodimagename: Bee_Stem.jpg
-wikiurl: http://seeed.wiki/Grove-XBee_Carrier
+wikiurl: http://wiki.seeedstudio.com/cn/Grove-XBee_Carrier
 sku:  113020004
 ---
 ![](https://github.com/SeeedDocument/Grove-XBee_Carrier/raw/master/img/Bee_Stem.jpg)

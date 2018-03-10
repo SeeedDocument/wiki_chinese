@@ -4,7 +4,7 @@ category: Sensor
 bzurl: https://seeedstudio.com/Grove-6-Axis-Accelerometer&Gyroscope-p-2606.html
 oldwikiname: Grove_-_6-Axis_Accelerometer&Gyroscope
 prodimagename: Grove-6-Axis_AccelerometerAndGyroscope_product_view_1200_s.jpg
-wikiurl: http://seeed.wiki/Grove-6-Axis_AccelerometerAndGyroscope
+wikiurl: http://wiki.seeedstudio.com/cn/Grove-6-Axis_AccelerometerAndGyroscope
 sku: 105020012
 tags: plat_duino, plat_pi, plat_bbg, plat_linkit -->
 ---
@@ -35,7 +35,7 @@ Grove - 6-Axis Accelerometer&Gyroscope 是一种把 Grove 接口和集成传感�
 - 8 kB 数据缓冲。
 
 !!!Tip
-    关于Grove模块的更多细节请参考 [Grove System](http://seeed.wiki/Grove_System/)
+    关于Grove模块的更多细节请参考 [Grove System](http://wiki.seeedstudio.com/cn/Grove_System/)
 
 创新应用
 -----------------

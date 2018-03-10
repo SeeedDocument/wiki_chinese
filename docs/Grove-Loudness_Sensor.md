@@ -4,7 +4,7 @@ category: Sensor
 bzurl: https://seeedstudio.com/Grove-Loudness-Sensor-p-1382.html
 oldwikiname: Grove_-_Loudness_Sensor
 prodimagename: LoudnessSensor.jpg
-wikiurl: http://seeed.wiki/Grove-Loudness_Sensor
+wikiurl: http://wiki.seeedstudio.com/cn/Grove-Loudness_Sensor
 sku: 101020063
 tags: grove_analog, io_3v3, io_5v, plat_duino, plat_linkit, plat_bbg, plat_pi
 ---
@@ -25,7 +25,7 @@ tags: grove_analog, io_3v3, io_5v, plat_duino, plat_linkit, plat_bbg, plat_pi
 -   输出信号范围：模拟信号（0-1023）
 
 !!!Tip
-    关于Grove模块的更多细节请参考 [Grove System](http://seeed.wiki/Grove_System/)
+    关于Grove模块的更多细节请参考 [Grove System](http://wiki.seeedstudio.com/cn/Grove_System/)
 
 
 支持平台

@@ -4,7 +4,7 @@ category: Arduino
 bzurl: https://www.seeedstudio.com/Seeeduino-Cloud-Arduino-Yun-compatible-openWRT-controller-p-2123.html
 oldwikiname: Seeeduino_Cloud
 prodimagename: seeeduino_cloud_Cover.jpg
-wikiurl: http://seeed.wiki/Seeeduino_Cloud
+wikiurl: http://wiki.seeedstudio.com/cn/Seeeduino_Cloud
 sku: 102010021
 ---
 

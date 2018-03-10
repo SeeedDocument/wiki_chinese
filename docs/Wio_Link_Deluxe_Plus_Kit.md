@@ -4,7 +4,7 @@ category: Wio
 bzurl: https://seeedstudio.com/Wio-Link-Deluxe-Plus-Kit-p-2616.html
 oldwikiname: Wio_Link_Deluxe_Plus_Kit
 prodimagename: Wio_Link_Deluxe_Plus_Kit_product_view_1200_s.jpg
-wikiurl: http://seeed.wiki/Wio_Link_Deluxe_Plus_Kit
+wikiurl: http://wiki.seeedstudio.com/cn/Wio_Link_Deluxe_Plus_Kit
 sku: 110020053
 ---
 
@@ -28,27 +28,27 @@ sku: 110020053
 
 | 零件名称                                                                                                                   | 数量|
 |------------------------------------------------------------------------------------------------------------------------------|---------|
-| [Grove - Button](http://seeed.wiki/Grove-Button/)                                                                                              | 1PC     |
-| [Grove - Relay](http://seeed.wiki/Grove-Relay/)                                                     | 1PC     |
-| [Grove - Moisture Sensor](http://seeed.wiki/Grove-Moisture_Sensor/)                                                                            | 1PC     |
-| [Grove - Temp&Humi Sensor](http://seeed.wiki/Grove-Temperature_and_Humidity_Sensor/)                   | 1PC     |
-| [Grove - Digital Light Sensor](http://seeed.wiki/Grove-Digital_Light_Sensor/)         | 1PC     |
-| [Grove - Rotary Angle Sensor](http://seeed.wiki/Grove-Rotary_Angle_Sensor/)             | 1PC     |
-| [Grove - Protoshield](http://seeed.wiki/Grove-Protoshield/)                             | 1PC     |
-| [Grove - Magnetic Switch](http://seeed.wiki/Grove-Magnetic_Switch/)                     | 1PC     |
-| [Grove - 3-Axis Digital Accelerometer(±1.5g)](http://seeed.wiki/Grove-3-Axis_Digital_Accelerometer-1.5g/)                                      | 1PC     |
+| [Grove - Button](http://wiki.seeedstudio.com/cn/Grove-Button/)                                                                                              | 1PC     |
+| [Grove - Relay](http://wiki.seeedstudio.com/cn/Grove-Relay/)                                                     | 1PC     |
+| [Grove - Moisture Sensor](http://wiki.seeedstudio.com/cn/Grove-Moisture_Sensor/)                                                                            | 1PC     |
+| [Grove - Temp&Humi Sensor](http://wiki.seeedstudio.com/cn/Grove-Temperature_and_Humidity_Sensor/)                   | 1PC     |
+| [Grove - Digital Light Sensor](http://wiki.seeedstudio.com/cn/Grove-Digital_Light_Sensor/)         | 1PC     |
+| [Grove - Rotary Angle Sensor](http://wiki.seeedstudio.com/cn/Grove-Rotary_Angle_Sensor/)             | 1PC     |
+| [Grove - Protoshield](http://wiki.seeedstudio.com/cn/Grove-Protoshield/)                             | 1PC     |
+| [Grove - Magnetic Switch](http://wiki.seeedstudio.com/cn/Grove-Magnetic_Switch/)                     | 1PC     |
+| [Grove - 3-Axis Digital Accelerometer(±1.5g)](http://wiki.seeedstudio.com/cn/Grove-3-Axis_Digital_Accelerometer-1.5g/)                                      | 1PC     |
 | [Grove - IR Distance Interrupt](https://www.seeedstudio.com/Grove-IR-Distance-Interrupter-v1.2-p-2767.html)                                                         | 1PC     |
 | [Grove - Barometer Sensor (BMP180)](http://www.seeedstudio.com/depot/Grove-Barometer-Sensor-BMP180-p-1840.html?cPath=25_124) | 1PC     |
-| [Grove - Air quality sensor v1.3](http://seeed.wiki/Grove-Air_Quality_Sensor_v1.3/)    | 1PC     |
-| [Grove - Gesture](http://seeed.wiki/Grove-Gesture_v1.0/)                                    | 1PC     |
-| [Grove - I2C Hub](http://seeed.wiki/Grove-I2C_Hub/)                                     | 1PC     |
-| [Grove - Speaker](http://seeed.wiki/Grove-Speaker/)                                                | 1PC     |
+| [Grove - Air quality sensor v1.3](http://wiki.seeedstudio.com/cn/Grove-Air_Quality_Sensor_v1.3/)    | 1PC     |
+| [Grove - Gesture](http://wiki.seeedstudio.com/cn/Grove-Gesture_v1.0/)                                    | 1PC     |
+| [Grove - I2C Hub](http://wiki.seeedstudio.com/cn/Grove-I2C_Hub/)                                     | 1PC     |
+| [Grove - Speaker](http://wiki.seeedstudio.com/cn/Grove-Speaker/)                                                | 1PC     |
 | [Grove - WS2812 Waterproof LED Strip - 30 LEDs 1 meter](https://www.seeedstudio.com/Digital-RGB-LED-Flexi-Strip-30-LED-1-Meter-p-1665.html)                                                                        | 1PC     |
 | [Micro USB Cable - 48cm](https://www.seeedstudio.com/Micro-USB-Cable-48cm-p-1475.html)                     | 2PCS    |
-| [Grove - Servo](http://seeed.wiki/Grove-Servo/)                                                    | 1PC     |
-| [Grove - OLED Display 0.96"](http://seeed.wiki/Grove-OLED_Display_0.96inch/)                             | 1PC     |
-| [Grove - Ultrasonic Ranger](http://seeed.wiki/Grove-Ultrasonic_Ranger/)                             | 1PC     |
-| [Wio Link](http://seeed.wiki/Wio_Link/)                                                                                                        | 2PCS    |
+| [Grove - Servo](http://wiki.seeedstudio.com/cn/Grove-Servo/)                                                    | 1PC     |
+| [Grove - OLED Display 0.96"](http://wiki.seeedstudio.com/cn/Grove-OLED_Display_0.96inch/)                             | 1PC     |
+| [Grove - Ultrasonic Ranger](http://wiki.seeedstudio.com/cn/Grove-Ultrasonic_Ranger/)                             | 1PC     |
+| [Wio Link](http://wiki.seeedstudio.com/cn/Wio_Link/)                                                                                                        | 2PCS    |
 
 
 ## 入门指导
@@ -59,13 +59,13 @@ sku: 110020053
 ### 初步指南
 
 -   [Travis CI](https://travis-ci.org/)
--   [Wio Link](http://seeed.wiki/Wio_Link/)
+-   [Wio Link](http://wiki.seeedstudio.com/cn/Wio_Link/)
 
 ### 准备工作
 
 -   [Wio Link APP](https://www.kickstarter.com/projects/seeed/wio-link-3-steps-5-minutes-build-your-iot-applicat)
--   [Wio Link](http://seeed.wiki/Wio_Link/)
--   [Grove Relay](http://seeed.wiki/Grove-Relay/) × 3
+-   [Wio Link](http://wiki.seeedstudio.com/cn/Wio_Link/)
+-   [Grove Relay](http://wiki.seeedstudio.com/cn/Grove-Relay/) × 3
 -   A Travis CI Account
 -   A GitHub Account
 -   Traffic Light

@@ -4,7 +4,7 @@ category: Wio
 bzurl: https://www.seeedstudio.com/Wio-Link-p-2604.html
 oldwikiname: Wio_Link
 prodimagename: WioLink.png
-wikiurl: http://seeed.wiki/Wio_Link
+wikiurl: http://wiki.seeedstudio.com/cn/Wio_Link
 sku: 102110037
 ---
 
@@ -411,7 +411,7 @@ Wio Link 可以使用 Arduino IDE 进行编程，在这种情况下，它将失�
 |101020193 |Grove - Temp&Humi&Barometer Sensor(BME280)  |I2C       |自驱                 | [点击购买](https://item.taobao.com/item.htm?spm=a1z10.3-c.w4002-11172317909.10.2b966a3ayT6w2X&id=534636479507) |
 |101020010 |    Grove - Ultrasonic Ranger               |数字   |自驱                 | [点击购买](https://item.taobao.com/item.htm?spm=a1z10.3-c.w4002-11172317909.9.3ff19e11bTW76G&id=45550924107) |
 |101020016 |    Grove - Infrared Receiver               |数字   |自驱                 | [点击购买](https://item.taobao.com/item.htm?spm=a1z10.3-c.w4002-11172317909.9.66e00062bQ3UW9&id=45477043694) |
-|101020019 |    Grove - Temperature&Humidity Sensor Pro |数字   |自驱                 | [点击购买](http://seeed.wiki/Grove-Temperature_and_Humidity_Sensor_Pro/) |
+|101020019 |    Grove - Temperature&Humidity Sensor Pro |数字   |自驱                 | [点击购买](http://wiki.seeedstudio.com/cn/Grove-Temperature_and_Humidity_Sensor_Pro/) |
 |101020026 |    Grove - Infrared Emitter                |数字   |自驱                 | [点击购买](https://item.taobao.com/item.htm?spm=a1z10.3-c.w4002-11172317909.10.5c569fc8BjmPyt&id=45555269740) |
 |101020029 |    Grove - Infrared Reflective Sensor      |其它    |自驱                 | [点击购买](https://item.taobao.com/item.htm?spm=a1z10.3-c.w4002-11172317909.18.31686ed5uZEUXW&id=558395535859) |
 |101020030 |    Grove - Digital Light Sensor            |I2C       |自驱                 | [点击购买](https://item.taobao.com/item.htm?spm=a1z10.3-c.w4002-11172317909.10.7d75ff313PQbmb&id=45507034521) |

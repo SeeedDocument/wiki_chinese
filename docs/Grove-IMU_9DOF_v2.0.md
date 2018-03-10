@@ -4,7 +4,7 @@ category: Sensor
 bzurl: https://seeedstudio.com/Grove-IMU-9DOF-v2.0-p-2400.html
 oldwikiname: Grove_-_IMU_9DOF_v2.0
 prodimagename: Grove-IMU_9DOF_v2.0.JPG
-wikiurl: http://seeed.wiki/Grove-IMU_9DOF_v2.0/
+wikiurl: http://wiki.seeedstudio.com/cn/Grove-IMU_9DOF_v2.0/
 sku: 101020080
 tags: grove_i2c, io_3v3, io_5v, plat_duino, plat_linkit, plat_bbg
 ---
@@ -30,7 +30,7 @@ tags: grove_i2c, io_3v3, io_5v, plat_duino, plat_linkit, plat_bbg
 
 
 !!!Tip
-    关于Grove模块的更多细节请参考 [Grove System](http://seeed.wiki/Grove_System/)
+    关于Grove模块的更多细节请参考 [Grove System](http://wiki.seeedstudio.com/cn/Grove_System/)
 
 Platforms Supported
 -------------------

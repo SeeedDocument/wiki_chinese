@@ -4,7 +4,7 @@ category: Actuator
 bzurl: https://seeedstudio.com/Grove-Variable-Color-LED-p-852.html
 oldwikiname: Grove_-_Variable_Color_LED
 prodimagename: Variable_Color_LED1.jpg
-wikiurl: http://seeed.wiki/Grove-Variable_Color_LED
+wikiurl: http://wiki.seeedstudio.com/cn/Grove-Variable_Color_LED
 sku: 104020001
 tags: grove_digital, io_3v3, io_5v, plat_duino, plat_pi, plat_bbg
 ---
@@ -23,7 +23,7 @@ tags: grove_digital, io_3v3, io_5v, plat_duino, plat_pi, plat_bbg
 -   可调节颜色
 
 !!!Tip
-    更多 Grove 模块的信息请参考 [Grove 系统](http://seeed.wiki/Grove_System/)
+    更多 Grove 模块的信息请参考 [Grove 系统](http://wiki.seeedstudio.com/cn/Grove_System/)
 
 创意应用
 -----------------

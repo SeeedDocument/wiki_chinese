@@ -4,7 +4,7 @@ category: Sensor
 bzurl: https://www.seeedstudio.com/Grove-Temperature%26Humidity-Sensor-Pro-p-838.html
 oldwikiname: Grove - Temperature and Humidity Sensor Pro
 prodimagename:
-wikiurl: http://seeed.wiki/Grove-Temperature_and_Humidity_Sensor_Pro/
+wikiurl: http://wiki.seeedstudio.com/cn/Grove-Temperature_and_Humidity_Sensor_Pro/
 sku: 101020019
 tags: io_3v3, io_5v, plat_duino, plat_pi
 
@@ -36,7 +36,7 @@ tags: io_3v3, io_5v, plat_duino, plat_pi
 |响应时间1 / e（63％）|	6|	-	|20|	S|
 
 !!!Tip
-    关于Grove模块的更多细节请参考[Grove System](http://seeed.wiki/Grove_System/)
+    关于Grove模块的更多细节请参考[Grove System](http://wiki.seeedstudio.com/cn/Grove_System/)
 
 
 支持平台
@@ -47,8 +47,8 @@ tags: io_3v3, io_5v, plat_duino, plat_pi
 ---------------
 以下是入门用户指南。
 
-- [ 入门指导](http://seeed.wiki/Getting_Started_with_Seeeduino/)
-- [Grove的介绍](http://seeed.wiki/Grove_System/)
+- [ 入门指导](http://wiki.seeedstudio.com/cn/Getting_Started_with_Seeeduino/)
+- [Grove的介绍](http://wiki.seeedstudio.com/cn/Grove_System/)
 
 我们提供2个示例，包括在arduino和raspberry pi平台上执行。
 
@@ -62,12 +62,12 @@ tags: io_3v3, io_5v, plat_duino, plat_pi
 |[马上购买](https://item.taobao.com/item.htm?spm=a1z10.3-c.w4002-11172317909.9.3ff19e11rndqnS&id=45721222112)|[马上购买](https://item.taobao.com/item.htm?spm=a1z10.3-c.w4002-11172317909.13.3ff19e11ek83a4&id=45754325612)|[马上购买](https://item.taobao.com/item.htm?spm=a1z10.3-c.w4002-11172317909.10.3ff19e11crrag2&id=520233320144)|
 
 
-- 将 Temperature and Humidity Sensor Pro连接到 [Grove - Base Shiel](http://seeed.wiki/Base_Shield_V2/) 的D2端口。 然后将Grove - Base Shield插入Arduino，并使用USB数据线将Arduino连接到PC。
+- 将 Temperature and Humidity Sensor Pro连接到 [Grove - Base Shiel](http://wiki.seeedstudio.com/cn/Base_Shield_V2/) 的D2端口。 然后将Grove - Base Shield插入Arduino，并使用USB数据线将Arduino连接到PC。
 
 
 ![](https://github.com/SeeedDocument/Grove-Temperature_and_Humidity_Sensor_Pro/raw/master/img/Temperature%26Humidity_Sensor_Pro_demo_Seeeduino_600_s.jpg)
 
-- 请遵循 [如何安装arduino库](http://seeed.wiki/How_to_install_Arduino_Library/)来安装库。
+- 请遵循 [如何安装arduino库](http://wiki.seeedstudio.com/cn/How_to_install_Arduino_Library/)来安装库。
 
 - 下载[Seeed DHT库](https://github.com/Seeed-Studio/Grove_Temperature_And_Humidity_Sensor)，而arduino板是16MHz XTAL的;还有另一个库 - [DHTlib](https://github.com/RobTillaart/Arduino/tree/master/libraries/DHTlib)也可用，而不仅仅是Seeed DHT库。 该库支持16MHz和8MHz的 Arduino（例如Seeeduino Stalker）
 

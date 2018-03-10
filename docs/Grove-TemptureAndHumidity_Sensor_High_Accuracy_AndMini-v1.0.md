@@ -4,7 +4,7 @@ category: Sensor
 bzurl: https://www.seeedstudio.com/Grove-Temperature&Humidity-Sensor-(High-Accuracy-&-Mini)-p-1921.html
 oldwikiname: Grove_-_Tempture&Humidity_Sensor_(High-Accuracy_&Mini)_v1.0
 prodimagename: Grove-TemptureAndHumidity_Sensor-High-Accuracy_AndMini-.jpg
-wikiurl: http://seeed.wiki/Grove-TemptureAndHumidity_Sensor_High_Accuracy_AndMini-v1.0/
+wikiurl: http://wiki.seeedstudio.com/cn/Grove-TemptureAndHumidity_Sensor_High_Accuracy_AndMini-v1.0/
 sku: 101020074
 tags: grove_i2c, io_3v3, io_5v, plat_duino, plat_linkit
 ---
@@ -33,7 +33,7 @@ tags: grove_i2c, io_3v3, io_5v, plat_duino, plat_linkit
 - 具有长期运行的稳定性
 
 !!!Tip
-    关于Grove模块的更多细节请参考 [Grove System](http://seeed.wiki/Grove_System/)
+    关于Grove模块的更多细节请参考 [Grove System](http://wiki.seeedstudio.com/cn/Grove_System/)
 
 Platforms Supported
 -------------------

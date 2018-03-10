@@ -4,7 +4,7 @@ category: Shield
 bzurl: https://www.seeedstudio.com/XBee-Shield-V2.0-p-1375.html
 oldwikiname:  XBee Shield V2.0
 prodimagename:  Xbeeshield_01.jpg
-wikiurl: http://seeed.wiki/XBee_Shield_V2.0
+wikiurl: http://wiki.seeedstudio.com/cn/XBee_Shield_V2.0
 sku:   103030004
 ---
 

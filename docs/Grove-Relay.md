@@ -4,7 +4,7 @@ category: Actuator
 bzurl: https://www.seeedstudio.com/Grove-Relay-p-769.html
 oldwikiname:
 prodimagename: Twig-Relay.jpg
-wikiurl: http://seeed.wiki/Grove-Relay
+wikiurl: http://wiki.seeedstudio.com/cn/Grove-Relay
 sku: 103020005
 tags: io_5v, plat_duino, plat_linkit, plat_bbg, plat_pi,plat_wio
 ---
@@ -29,7 +29,7 @@ tags: io_5v, plat_duino, plat_linkit, plat_bbg, plat_pi,plat_wio
 |最大开关电流|5A|5A|
 
 !!!Tip
-    关于Grove模块的更多细节请参考 [Grove System](http://seeed.wiki/Grove_System/)
+    关于Grove模块的更多细节请参考 [Grove System](http://wiki.seeedstudio.com/cn/Grove_System/)
 
 ## Platforms Supported
 --------

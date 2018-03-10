@@ -4,7 +4,7 @@ category: Sensor
 bzurl: https://www.seeedstudio.com/Grove-Voltage-Divider-p-1472.html
 oldwikiname: Grove - Sunlight Sensor
 prodimagename: Voltage_Divider_01.jpg
-wikiurl: http://seeed.wiki/Grove-Voltage_Divider
+wikiurl: http://wiki.seeedstudio.com/cn/Grove-Voltage_Divider
 sku: 104020000
 ---
 ![](https://github.com/SeeedDocument/Grove-Voltage_Divider/raw/master/img/Voltage_Divider_01.jpg)
@@ -20,7 +20,7 @@ Grove – Voltage Divider 提供了测量外部电压的接口，无需将电阻
 - 可调整增益
 
 !!!Tip
-    了解更多 Grove 系统，请点击 [这里](http://seeed.wiki/Grove_System/)
+    了解更多 Grove 系统，请点击 [这里](http://wiki.seeedstudio.com/cn/Grove_System/)
 
 ## 规格参数
 ---

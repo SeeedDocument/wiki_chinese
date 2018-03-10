@@ -4,7 +4,7 @@ category: Shield
 bzurl: https://www.seeedstudio.com/Solar-Charger-Shield-v2.2-p-2391.html
 oldwikiname:  Solar Charger Shield V2.2
 prodimagename:  Solar_Charger_Shield_v2.2.jpg
-wikiurl: http://seeed.wiki/Solar_Charger_Shield_V2.2
+wikiurl: http://wiki.seeedstudio.com/cn/Solar_Charger_Shield_V2.2
 sku: 106990020
 ---
 ![](https://github.com/SeeedDocument/Solar_Charger_Shield_V2.2/raw/master/img/Solar_Charger_Shield_v2.2.jpg)

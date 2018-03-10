@@ -4,7 +4,7 @@ category: Raspberry
 bzurl: https://www.seeedstudio.com/Raspberry-Pi-3-Model-B-p-2625.html
 oldwikiname:  Raspberry Pi 3 Model B
 prodimagename:  Raspberry_Pi3_What_is_New.png
-wikiurl: http://seeed.wiki/Raspberry_Pi_3_Model_B
+wikiurl: http://wiki.seeedstudio.com/cn/Raspberry_Pi_3_Model_B
 sku:     114990584
 ---
 

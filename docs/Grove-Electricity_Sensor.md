@@ -4,7 +4,7 @@ category: Sensor
 bzurl: https://seeedstudio.com/Grove-Electricity-Sensor-p-777.html
 oldwikiname: Grove_-_Electricity_Sensor
 prodimagename: Twig-Electricity-Sensor.jpg
-wikiurl: http://seeed.wiki/Grove-Electricity_Sensor
+wikiurl: http://wiki.seeedstudio.com/cn/Grove-Electricity_Sensor
 sku: 101020027
 tags: grove_analog, io_3v3, io_5v, plat_duino, plat_linkit, plat_bbg
 ---
@@ -24,7 +24,7 @@ Electricity sensor 模块是 Grove 系列的成员。它基于 TA12-200 型电�
 -   体形小巧
 
 !!!Tip
-    关于 Grove 模块的更多信息请点击 [Grove System](http://seeed.wiki/Grove_System/)
+    关于 Grove 模块的更多信息请点击 [Grove System](http://wiki.seeedstudio.com/cn/Grove_System/)
 
 ## 创意应用
 -----------------
@@ -147,7 +147,7 @@ Electricity sensor 模块是 Grove 系列的成员。它基于 TA12-200 型电�
 1.准备一个 Raspberry pi 和一个 Grovepi 或 Grovepi+.
 
 
-2.完成配置开发环境，否则请遵循 [这里](http://seeed.wiki/GrovePi_Plus/)。
+2.完成配置开发环境，否则请遵循 [这里](http://wiki.seeedstudio.com/cn/GrovePi_Plus/)。
 
 3.连接
 

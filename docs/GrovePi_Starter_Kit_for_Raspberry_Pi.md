@@ -4,7 +4,7 @@ category: Raspberry Pi
 bzurl: https://www.seeedstudio.com/GrovePi%2B-Starter-Kit-for-Raspberry-Pi-A%2B%2CB%2CB%2B%262%2C3-(CE-certified)-p-2572.html
 oldwikiname: Raspberry_Pi_Motor_Driver_Board_v1_0
 prodimagename: Raspberry_Pi_Motor_Driver_Board_v1_0.jpg
-wikiurl: http://seeed.wiki/Raspberry_Pi_Motor_Driver_Board_v1_0
+wikiurl: http://wiki.seeedstudio.com/cn/Raspberry_Pi_Motor_Driver_Board_v1_0
 sku: 110060161
 ---
 
@@ -98,19 +98,19 @@ git clone https://github.com/DexterInd/GrovePi.git
 
 | 产品名称                    | 数量 |
 |-----------------------------|------|
-| [Grove Pi+](http://seeed.wiki/GrovePi_plus)                   | 1    |
-| [Grove - Rotary Angle Sensor](http://seeed.wiki/Grove-Rotary_Angle_Sensor/) | 1    |
-| [Grove - Sound Sensor](http://seeed.wiki/Grove-Sound_Sensor/)        | 1    |
-| [Grove - LCD RGB Backlight](http://seeed.wiki/Grove-LCD_RGB_Backlight/)   | 1    |
-| [Grove - Temp&Humi Sensor](http://seeed.wiki/Grove-Temperature_and_Humidity_Sensor/)    | 1    |
-| [Grove - Red LED](http://seeed.wiki/Grove-Red_LED/)             | 1    |
-| [Grove - Blue LED](http://seeed.wiki/Grove-Red_LED/)            | 1    |
-| [Grove - Green LED](http://seeed.wiki/Grove-Red_LED/)           | 1    |
-| [Grove - Light Sensor](http://seeed.wiki/Grove-Light_Sensor/)        | 1    |
-| [Grove - Buzzer](http://seeed.wiki/Grove-Buzzer/)              | 1    |
-| [Grove - Relay](http://seeed.wiki/Grove-Relay/)               | 1    |
-| [Grove - Button](http://seeed.wiki/Grove-Button/)              | 1    |
-| [Grove - UItrasonic Ranger](http://seeed.wiki/Grove-Ultrasonic_Ranger/)   | 1    |
+| [Grove Pi+](http://wiki.seeedstudio.com/cn/GrovePi_plus)                   | 1    |
+| [Grove - Rotary Angle Sensor](http://wiki.seeedstudio.com/cn/Grove-Rotary_Angle_Sensor/) | 1    |
+| [Grove - Sound Sensor](http://wiki.seeedstudio.com/cn/Grove-Sound_Sensor/)        | 1    |
+| [Grove - LCD RGB Backlight](http://wiki.seeedstudio.com/cn/Grove-LCD_RGB_Backlight/)   | 1    |
+| [Grove - Temp&Humi Sensor](http://wiki.seeedstudio.com/cn/Grove-Temperature_and_Humidity_Sensor/)    | 1    |
+| [Grove - Red LED](http://wiki.seeedstudio.com/cn/Grove-Red_LED/)             | 1    |
+| [Grove - Blue LED](http://wiki.seeedstudio.com/cn/Grove-Red_LED/)            | 1    |
+| [Grove - Green LED](http://wiki.seeedstudio.com/cn/Grove-Red_LED/)           | 1    |
+| [Grove - Light Sensor](http://wiki.seeedstudio.com/cn/Grove-Light_Sensor/)        | 1    |
+| [Grove - Buzzer](http://wiki.seeedstudio.com/cn/Grove-Buzzer/)              | 1    |
+| [Grove - Relay](http://wiki.seeedstudio.com/cn/Grove-Relay/)               | 1    |
+| [Grove - Button](http://wiki.seeedstudio.com/cn/Grove-Button/)              | 1    |
+| [Grove - UItrasonic Ranger](http://wiki.seeedstudio.com/cn/Grove-Ultrasonic_Ranger/)   | 1    |
 | Cables                      | 10   |
 | GrovePi+ Guidebook          | 1    |
 

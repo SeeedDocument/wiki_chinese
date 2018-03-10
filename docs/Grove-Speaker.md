@@ -4,7 +4,7 @@ category: Actuator
 bzurl: https://seeedstudio.com/Grove-Speaker-p-1445.html
 oldwikiname: Grove_-_Speaker
 prodimagename: Grove_Speaker_01.jpg
-wikiurl: http://seeed.wiki/Grove-Speaker
+wikiurl: http://wiki.seeedstudio.com/cn/Grove-Speaker
 sku: 107020001
 tags: grove_digital, io_5v, plat_duino, plat_wio
 ---
@@ -22,7 +22,7 @@ Grove- Speaker 是一个由功率放大器和声音输出部分组成的模块�
 -   Grove 接口
 
 !!!Tip
-    关于 Grove 模块的更多信息请点击 [Grove System](http://seeed.wiki/Grove_System/)
+    关于 Grove 模块的更多信息请点击 [Grove System](http://wiki.seeedstudio.com/cn/Grove_System/)
 
 
 ## 规格参数

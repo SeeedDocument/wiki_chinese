@@ -4,7 +4,7 @@ category: Shield
 bzurl: https://www.seeedstudio.com/Particle-Photon-Base-Shield-p-2598.html?cPath=98_106_57
 oldwikiname:  Grove Base Shield for Photon
 prodimagename: Grove_Base_Shield_for_Photon_product_view_1200_s.jpg
-wikiurl: http://seeed.wiki/Grove_Base_Shield_for_Photon
+wikiurl: http://wiki.seeedstudio.com/cn/Grove_Base_Shield_for_Photon
 sku:  103020031
 ---
 ![](https://github.com/SeeedDocument/Grove_Base_Shield_for_Photon/raw/master/img/Grove_Base_Shield_for_Photon_product_view_1200_s.jpg)
@@ -140,4 +140,4 @@ void loop() {
 ---
 *   **[原理图]**[Schematic files](https://github.com/SeeedDocument/Grove_Base_Shield_for_Photon/raw/master/res/Schematic_files_for_Grove_Base_Shield_for_Photon.zip)
 
-*   **[参考链接]**[Grove_System](http://seeed.wiki/Grove_System/)
+*   **[参考链接]**[Grove_System](http://wiki.seeedstudio.com/cn/Grove_System/)

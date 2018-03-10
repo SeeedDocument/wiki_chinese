@@ -4,7 +4,7 @@ category: Communication
 bzurl: https://www.seeedstudio.com/Grove-Screw-Terminal-p-996.html
 oldwikiname:  Grove - Screw Terminal
 prodimagename: Grove-screw_terminal.jpg
-wikiurl: http://seeed.wiki/Grove_Screw_Terminal
+wikiurl: http://wiki.seeedstudio.com/cn/Grove_Screw_Terminal
 sku:  103020007
 ---
 

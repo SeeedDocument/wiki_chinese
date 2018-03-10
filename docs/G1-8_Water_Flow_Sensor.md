@@ -4,7 +4,7 @@ category: MakerPro
 bzurl: http://www.seeedstudio.com/depot/G18-Water-Flow-Sensor-p-1346.html?cPath=25_32
 oldwikiname:  G1/8" Water Flow Sensor
 prodimagename:  G18_Water_Flow_Sensor.jpg
-wikiurl: http://seeed.wiki/G1-8_Water_Flow_Sensor
+wikiurl: http://wiki.seeedstudio.com/cn/G1-8_Water_Flow_Sensor
 sku:    314150001
 ---
 [![](https://github.com/SeeedDocument/G1-8_Water_Flow_Sensor/raw/master/img/G18_Water_Flow_Sensor.jpg)](http://www.seeedstudio.com/depot/G18-Water-Flow-Sensor-p-1346.html?cPath=25_32)

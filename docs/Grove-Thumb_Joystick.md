@@ -4,7 +4,7 @@ category: Sensor
 bzurl: https://seeedstudio.com/Grove-Thumb-Joystick-p-935.html
 oldwikiname: Grove_-_Thumb_Joystick
 prodimagename: Bgjoy1.jpg
-wikiurl: http://seeed.wiki/Grove-Thumb_Joystick
+wikiurl: http://wiki.seeedstudio.com/cn/Grove-Thumb_Joystick
 sku: 101020028
 tags: grove_analog, io_3v3, io_5v, plat_duino,plat_pi
 ---
@@ -23,7 +23,7 @@ Grove - Thumb Joystick 是一个 Grove 兼容模块，与 PS2 (PlayStation 2) �
 -   模拟量输出
 
 !!!Tip
-    关于 Grove 模块的更多信息请点击 [Grove System](http://seeed.wiki/Grove_System/)
+    关于 Grove 模块的更多信息请点击 [Grove System](http://wiki.seeedstudio.com/cn/Grove_System/)
 
 
 ## 创意应用

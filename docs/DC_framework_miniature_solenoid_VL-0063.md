@@ -4,7 +4,7 @@ category: MakerPro
 bzurl: https://www.seeedstudio.com/DC-framework-miniature-solenoid-VL-0063-p-1049.html
 oldwikiname:  DC framework miniature solenoid VL-0063
 prodimagename:
-wikiurl: http://seeed.wiki/DC_framework_miniature_solenoid_VL-0063
+wikiurl: http://wiki.seeedstudio.com/cn/DC_framework_miniature_solenoid_VL-0063
 sku:  311070001
 ---
 

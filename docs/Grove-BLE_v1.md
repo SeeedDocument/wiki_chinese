@@ -4,7 +4,7 @@ category: Communication
 bzurl: https://seeedstudio.com/Grove-BLE-p-1929.html
 oldwikiname: Grove_BLE_v1
 prodimagename: Grove-BLE_front.png
-wikiurl: http://seeed.wiki/Grove-BLE_v1
+wikiurl: http://wiki.seeedstudio.com/cn/Grove-BLE_v1
 sku: 113020007
 tags: grove_uart, io_3v3, io_5v, plat_duino, plat_linkit
 ---
@@ -44,7 +44,7 @@ HM-11 的电源是 3.3v，而 Grove - BLE 是 3.3V 至 5V。
 
 !!!Tip
     关于 Grove 模块的更多信息请点击 [Grove System](
-http://seeed.wiki/Grove_System/)
+http://wiki.seeedstudio.com/cn/Grove_System/)
 
 ## Platforms Supported
 -------------------

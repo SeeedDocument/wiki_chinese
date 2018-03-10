@@ -4,7 +4,7 @@ category: Display
 bzurl: https://www.seeedstudio.com/Grove-OLED-Display-0.96%22-p-781.html
 oldwikiname: Grove - OLED Display 0.96"
 prodimagename: Grove-OLED-0.96.png
-wikiurl: http://seeed.wiki/Grove_OLED_0_96
+wikiurl: http://wiki.seeedstudio.com/cn/Grove_OLED_0_96
 sku: 104030008
 tags: grove_i2c, io_3v3, io_5v, plat_duino, plat_bbg, plat_pi, plat_wio, plat_linkit
 ---
@@ -28,7 +28,7 @@ tags: grove_i2c, io_3v3, io_5v, plat_duino, plat_bbg, plat_pi, plat_wio, plat_li
 		请注意 : OLED 承受过大压力会导致屏幕碎裂。
 
 !!!Tip
-    关于 Grove 模块的更多信息请点击 [Grove System](http://seeed.wiki/Grove_System/)
+    关于 Grove 模块的更多信息请点击 [Grove System](http://wiki.seeedstudio.com/cn/Grove_System/)
 
 ## 规格参数
 ------------

@@ -4,7 +4,7 @@ category: Sensor
 bzurl: https://seeedstudio.com/Grove-Hall-Sensor-p-965.html
 oldwikiname: Grove_-_Hall_Sensor
 prodimagename: Grove-Hall_Sensor_New.jpg
-wikiurl: http://seeed.wiki/Grove-Hall_Sensor
+wikiurl: http://wiki.seeedstudio.com/cn/Grove-Hall_Sensor
 sku: 101020046
 tags: grove_digital, io_5v, plat_duino, plat_linkit
 ---
@@ -33,7 +33,7 @@ Grove - Hall Sensor 基于霍尔效应，霍尔效应是横跨导体中的电流
 - 反接电池保护
 
 !!!Tip
-    关于Grove模块的更多细节请参考 [Grove System](http://seeed.wiki/Grove_System/)
+    关于Grove模块的更多细节请参考 [Grove System](http://wiki.seeedstudio.com/cn/Grove_System/)
 
 
 规格参数

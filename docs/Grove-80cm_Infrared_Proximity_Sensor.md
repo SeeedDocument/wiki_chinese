@@ -4,7 +4,7 @@ category: Sensor
 bzurl: https://seeedstudio.com/Grove-80cm-Infrared-Proximity-Sensor-p-788.html
 oldwikiname: Grove_-_80cm_Infrared_Proximity_Sensor
 prodimagename: Image_of_PSD.jpg
-wikiurl: http://seeed.wiki/Grove-80cm_Infrared_Proximity_Sensor
+wikiurl: http://wiki.seeedstudio.com/cn/Grove-80cm_Infrared_Proximity_Sensor
 sku: 101020042
 ---
 
@@ -23,7 +23,7 @@ Grove - 80cm Infrared Proximity Sensor 是一种通用型距离测量传感器�
 -   Grove 接口
 
 !!!Tip
-    关于 Grove 模块的更多信息请点击 [Grove System](http://seeed.wiki/Grove_System/)
+    关于 Grove 模块的更多信息请点击 [Grove System](http://wiki.seeedstudio.com/cn/Grove_System/)
 
 ## 创意应用
 -----------------
@@ -170,7 +170,7 @@ Grove - 80cm Infrared Proximity Sensor 使用很方便。电压读数与距离�
 
 1.准备一个 Raspberry pi 和一个 Grovepi 或 Grovepi+.
 
-2.完成配置开发环境，否则请按照 [这里](http://seeed.wiki/GrovePi_Plus/) 操作。
+2.完成配置开发环境，否则请按照 [这里](http://wiki.seeedstudio.com/cn/GrovePi_Plus/) 操作。
 
 3.连接
 

@@ -4,7 +4,7 @@ category: LinkIt
 bzurl: https://www.seeedstudio.com/LinkIt-ONE-p-2017.html
 oldwikiname: LinkIt_ONE
 prodimagename: 500px-Linkit-one-page.jpg
-wikiurl: http://seeed.wiki/LinkIt_ONE
+wikiurl: http://wiki.seeedstudio.com/cn/LinkIt_ONE
 sku: 102030002
 ---
 

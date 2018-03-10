@@ -4,7 +4,7 @@ category: Sensor
 bzurl: https://seeedstudio.com/Grove-HCHO-Sensor-p-1593.html
 oldwikiname: Grove_-_HCHO_Sensor
 prodimagename: HCHO_Sensor_01.jpg
-wikiurl: http://seeed.wiki/Grove-HCHO_Sensor
+wikiurl: http://wiki.seeedstudio.com/cn/Grove-HCHO_Sensor
 sku: 101020001
 tags: grove_analog, io_5v, plat_duino, plat_linkit
 ---
@@ -30,7 +30,7 @@ Grove - HCHO Sensor是一种半导体VOC气体传感器。 其设计基于WSP211
 -   灵敏度：Rs（空气中）/ Rs（10ppm HCHO）≥5
 
 !!!Tip
-    关于Grove模块的更多细节请参考 [Grove System](http://seeed.wiki/Grove_System/)
+    关于Grove模块的更多细节请参考 [Grove System](http://wiki.seeedstudio.com/cn/Grove_System/)
 
 支持平台
 -------------------

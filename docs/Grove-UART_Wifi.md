@@ -4,7 +4,7 @@ category: Communication
 bzurl: https://www.seeedstudio.com/Grove-Uart-Wifi-p-2495.html
 oldwikiname:
 prodimagename: Grove-uart-wifi-01.jpg
-wikiurl: http://seeed.wiki/Grove-UART_Wifi/
+wikiurl: http://wiki.seeedstudio.com/cn/Grove-UART_Wifi/
 sku: 113020010
 ---
 
@@ -32,7 +32,7 @@ Grove - UART WiFi 是一种串行收发器模块，具有无处不在的 ESP8266
 * 重置开关
 
 !!!Tip
-    关于Grove模块的更多细节请参考 [Grove System](http://seeed.wiki/Grove_System/)
+    关于Grove模块的更多细节请参考 [Grove System](http://wiki.seeedstudio.com/cn/Grove_System/)
 
 ## 硬件概述
 

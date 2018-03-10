@@ -4,7 +4,7 @@ category: Display
 bzurl: https://seeedstudio.com/Grove-4-Digit-Display-p-1198.html
 oldwikiname: Grove_-_4-Digit_Display
 prodimagename: Grove-4_digit_display.jpg
-wikiurl: http://seeed.wiki/Grove-4-Digit_Display
+wikiurl: http://wiki.seeedstudio.com/cn/Grove-4-Digit_Display
 sku: 104030003
 tags: grove_digital, io_3v3, io_5v, plat_duino, plat_pi, plat_wio
 ---
@@ -24,7 +24,7 @@ Grove - 4-Digit Display 模块是一个有着12个引脚的模块。 在这个�
 - 具有8个调节亮度的级别
 
 !!!Tip
-    关于Grove模块的更多细节请参考 [Grove System](http://seeed.wiki/Grove_System/)
+    关于Grove模块的更多细节请参考 [Grove System](http://wiki.seeedstudio.com/cn/Grove_System/)
 
 创意应用
 -----------------

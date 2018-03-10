@@ -4,7 +4,7 @@ category: Respeaker
 bzurl: https://www.seeedstudio.com/ReSpeaker-2-Mics-Pi-HAT-p-2874.html
 oldwikiname:
 prodimagename:
-wikiurl: https://seeed.wiki/Respeaker_2-Mics_Pi_HAT
+wikiurl: https://wiki.seeedstudio.com/cn/Respeaker_2-Mics_Pi_HAT
 sku: 107100001
 ---
 

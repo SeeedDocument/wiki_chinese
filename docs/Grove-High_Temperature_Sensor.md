@@ -4,7 +4,7 @@ category: Sensor
 bzurl: https://seeedstudio.com/Grove-High-Temperature-Sensor-p-1810.html
 oldwikiname: Grove_-_High_Temperature_Sensor
 prodimagename: High_Temperature_Sensor_01.jpg
-wikiurl: http://seeed.wiki/Grove-High_Temperature_Sensor
+wikiurl: http://wiki.seeedstudio.com/cn/Grove-High_Temperature_Sensor
 sku: 111020002
 tags: grove_analog, io_3v3, io_5v, plat_duino, plat_linkit
 ---
@@ -27,7 +27,7 @@ tags: grove_analog, io_3v3, io_5v, plat_duino, plat_linkit
 -   热电偶测温精度 + / - 2.0% (+ 2 ℃)
 
 !!!Tip
-    关于 Grove 模块的更多信息请点击 [Grove System](http://seeed.wiki/Grove_System/)
+    关于 Grove 模块的更多信息请点击 [Grove System](http://wiki.seeedstudio.com/cn/Grove_System/)
 
 ## Platforms Supported
 -------------------

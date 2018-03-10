@@ -4,7 +4,7 @@ category: Communication
 bzurl: https://www.seeedstudio.com/Grove-RJ45-Adapter-p-1426.html
 oldwikiname:  Grove - RJ45 Adapter
 prodimagename: RJ45_Adapter_01.jpg
-wikiurl: http://seeed.wiki/Grove-RJ45_Adapter
+wikiurl: http://wiki.seeedstudio.com/cn/Grove-RJ45_Adapter
 sku:  103020011
 ---
 ![](https://github.com/SeeedDocument/Grove-RJ45_Adapter/raw/master/img/RJ45_Adapter_01.jpg)

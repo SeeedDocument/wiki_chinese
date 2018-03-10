@@ -4,7 +4,7 @@ category: MakerPro
 bzurl: https://www.seeedstudio.com/LoNet-808-Mini-GSM%26GPRS-%2B-GPS-Breakout-p-2493.html
 oldwikiname:  LoNet 808 - Mini GSM/GPRS + GPS Breakout
 prodimagename:  113990107%200.jpg
-wikiurl: http://seeed.wiki/LoNet_808-Mini_GSM_GPRS_Plus_GPS_Breakout
+wikiurl: http://wiki.seeedstudio.com/cn/LoNet_808-Mini_GSM_GPRS_Plus_GPS_Breakout
 sku:  113990107
 ---
 ![](https://github.com/SeeedDocument/LoNet_808-Mini_GSM_GPRS_Plus_GPS_Breakout/raw/master/img/113990107%200.jpg)

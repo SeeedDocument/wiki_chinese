@@ -4,7 +4,7 @@ category: MakerPro
 bzurl: https://www.seeedstudio.com/Arduboy-p-2728.html
 oldwikiname:  Arduboy
 prodimagename:  
-wikiurl: http://seeed.wiki/Arduboy
+wikiurl: http://wiki.seeedstudio.com/cn/Arduboy
 sku:   114990348
 ---
 ##  1.	简介

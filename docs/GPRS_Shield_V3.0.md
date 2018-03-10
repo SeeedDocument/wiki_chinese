@@ -4,7 +4,7 @@ category: Shield
 bzurl: https://www.seeedstudio.com/GPRS-Shield-V3.0-p-2333.html
 oldwikiname:  GPRS Shield V3.0
 prodimagename:
-wikiurl: http://seeed.wiki/GPRS_Shield_V3.0
+wikiurl: http://wiki.seeedstudio.com/cn/GPRS_Shield_V3.0
 sku:  113030009
 ---
 

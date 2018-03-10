@@ -4,7 +4,7 @@ category: Wireless
 bzurl: https://www.seeedstudio.com/Bluetooth-V4.0-HM-11-BLE-Module-p-1803.html
 oldwikiname:  Bluetooth V4.0 HM-11 BLE Module
 prodimagename:  HM-11%20BLE%20Module.jpg
-wikiurl: http://seeed.wiki/Bluetooth_V4_HM_11_BLE_Module
+wikiurl: http://wiki.seeedstudio.com/cn/Bluetooth_V4_HM_11_BLE_Module
 sku:     317030001
 ---
 ![](https://github.com/SeeedDocument/Bluetooth_V4.0_HM_11_BLE_Module/raw/master/img/HM-11%20BLE%20Module.jpg)

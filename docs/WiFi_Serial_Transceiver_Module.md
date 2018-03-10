@@ -4,7 +4,7 @@ category: MakerPro
 bzurl: https://www.seeedstudio.com/WiFi-Serial-Transceiver-Module-w-ESP8266-p-1994.html
 oldwikiname: WiFi Serial Transceiver Module
 prodimagename: WiFi%20Serial%20Transceiver%20Module.jpg
-wikiurl: http://seeed.wiki/WiFi_Serial_Transceiver_Module
+wikiurl: http://wiki.seeedstudio.com/cn/WiFi_Serial_Transceiver_Module
 sku: 114990085
 ---
 ![](https://github.com/SeeedDocument/WiFi_Serial_Transceiver_Module/raw/master/img/WiFi%20Serial%20Transceiver%20Module.jpg)

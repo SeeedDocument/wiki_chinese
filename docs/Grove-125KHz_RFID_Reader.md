@@ -4,7 +4,7 @@ category: Communication
 bzurl: https://seeedstudio.com/Grove-125KHz-RFID-Reader-p-1008.html
 oldwikiname: Grove_-_125KHz_RFID_Reader
 prodimagename: Grove-125KHz_RFID_Reader.jpg
-wikiurl: http://seeed.wiki/Grove-125KHz_RFID_Reader
+wikiurl: http://wiki.seeedstudio.com/cn/Grove-125KHz_RFID_Reader
 sku: 113020002
 tags: grove_digital, io_5v, plat_duino, plat_pi
 ---
@@ -29,7 +29,7 @@ Grove-125KHz RFID Reader 是一个用于读取 uem4100 RFID 卡信息的模块�
 -   Wiegand 输出 : 26位 Wiegand 格式，1 个偶校验位，24 个数据位和 1 个奇校验位
 
 !!!Tip
-    关于 Grove 模块的更多信息请点击 [Grove System](http://seeed.wiki/Grove_System/)
+    关于 Grove 模块的更多信息请点击 [Grove System](http://wiki.seeedstudio.com/cn/Grove_System/)
 
 Platforms Supported
 -------------------

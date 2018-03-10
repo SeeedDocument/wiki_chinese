@@ -4,7 +4,7 @@ category: Actuator
 bzurl: https://seeedstudio.com/Grove-Infrared-Emitter-p-993.html
 oldwikiname: Grove_-_Infrared_Emitter
 prodimagename: Grove-Infrared_Emitter.jpg
-wikiurl: http://seeed.wiki/Grove-Infrared_Emitter
+wikiurl: http://wiki.seeedstudio.com/cn/Grove-Infrared_Emitter
 sku: 101020026
 tags: grove_digital, io_3v3, io_5v, plat_duino, plat_pi, plat_wio
 ---
@@ -23,7 +23,7 @@ Grove - Infrared Emitter 用于通过红外 LED 传输红外信号，而在另�
 -   信号有效距离 : 10m
 
 !!!Tip
-    关于 Grove 模块的更多信息请点击 [Grove System](http://seeed.wiki/Grove_System/)
+    关于 Grove 模块的更多信息请点击 [Grove System](http://wiki.seeedstudio.com/cn/Grove_System/)
 
 ## Platforms Supported
 -------------------

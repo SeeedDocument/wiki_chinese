@@ -4,7 +4,7 @@ category: Actuator
 bzurl:
 oldwikiname:
 prodimagename: cover.png
-wikiurl: http://seeed.wiki/Grove-Recorder_v3.0
+wikiurl: http://wiki.seeedstudio.com/cn/Grove-Recorder_v3.0
 sku: 107020029
 ---
 ![enter image description here](https://raw.githubusercontent.com/SeeedDocument/Grove_Recorder_V3/master/img/cover.jpg)
@@ -33,7 +33,7 @@ sku: 107020029
 * 内置麦克风
 
 !!!Tip
-    更多 Grove 模块的信息请点击 [Grove 系统](http://seeed.wiki/Grove_System/)
+    更多 Grove 模块的信息请点击 [Grove 系统](http://wiki.seeedstudio.com/cn/Grove_System/)
 
 ### Platform Support
 

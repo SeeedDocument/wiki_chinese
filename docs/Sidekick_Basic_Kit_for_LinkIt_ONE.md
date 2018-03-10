@@ -4,7 +4,7 @@ category: LinkIt
 bzurl:  https://www.seeedstudio.com/Sidekick-Basic-Kit-for-LinkIt-ONE-p-2027.html
 oldwikiname: Sidekick Basic Kit for LinkIt ONE
 prodimagename:  SKP-0.jpg
-wikiurl: http://seeed.wiki/Sidekick_Basic_Kit_for_LinkIt_ONE
+wikiurl: http://wiki.seeedstudio.com/cn/Sidekick_Basic_Kit_for_LinkIt_ONE
 sku:    110060038
 ---
 

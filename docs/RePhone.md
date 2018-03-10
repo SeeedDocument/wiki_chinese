@@ -12,9 +12,9 @@ RePhone Kit是一款开源的模块化手机套件，可以改变我们将手机
 ---
 以下是您可以在Seeed WiKi中找到的Rephone Board的列表。 该列表将不断更新。
 
-* [RePhone_Strap_Kit_for_Pebble](http://seeed.wiki/RePhone_Strap_Kit_for_Pebble)
-* [Xadow_Audio](http://seeed.wiki/Xadow_Audio)
-* [Xadow_Basic_Sensors](http://seeed.wiki/Xadow_Basic_Sensors)
-* [Xadow_GPS_V2](http://seeed.wiki/Xadow_GPS_V2)
-* [Xadow_GSMPlusBLE](http://seeed.wiki/Xadow_GSMPlusBLE)
-* [Xadow_GSM_Breakout](http://seeed.wiki/Xadow_GSM_Breakout)
+* [RePhone_Strap_Kit_for_Pebble](http://wiki.seeedstudio.com/cn/RePhone_Strap_Kit_for_Pebble)
+* [Xadow_Audio](http://wiki.seeedstudio.com/cn/Xadow_Audio)
+* [Xadow_Basic_Sensors](http://wiki.seeedstudio.com/cn/Xadow_Basic_Sensors)
+* [Xadow_GPS_V2](http://wiki.seeedstudio.com/cn/Xadow_GPS_V2)
+* [Xadow_GSMPlusBLE](http://wiki.seeedstudio.com/cn/Xadow_GSMPlusBLE)
+* [Xadow_GSM_Breakout](http://wiki.seeedstudio.com/cn/Xadow_GSM_Breakout)

@@ -4,7 +4,7 @@ category: Sensor
 bzurl: https://www.seeedstudio.com/Grove-Sunlight-Sensor-p-2530.html
 oldwikiname: Grove - Sunlight Sensor
 prodimagename: Grove_sunlight_sensor_view.jpg
-wikiurl: http://seeed.wiki/grove_sunlight_sensor
+wikiurl: http://wiki.seeedstudio.com/cn/grove_sunlight_sensor
 sku: 101020089
 ---
 
@@ -28,7 +28,7 @@ Grove - Sunlight Sensor 有一个板载 Grove 接头，它可以使您轻松连�
 - I2C 接口(7 位)
 
 !!!Tip
-    关于 Grove 模块的更多信息请点击 [Grove System](http://seeed.wiki/Grove_System/)
+    关于 Grove 模块的更多信息请点击 [Grove System](http://wiki.seeedstudio.com/cn/Grove_System/)
 
 ## 规格参数
 ---

@@ -4,7 +4,7 @@ category: Communication
 bzurl: https://seeedstudio.com/Grove-GPS-p-959.html
 oldwikiname: Grove_-_GPS
 prodimagename: Grove-GPS.jpg
-wikiurl: http://seeed.wiki/Grove-GPS
+wikiurl: http://wiki.seeedstudio.com/cn/Grove-GPS
 sku: 113020003
 tags: grove_uart, io_3v3, io_5v, plat_duino, plat_bbg, plat_pi, plat_linkit,
 ---
@@ -24,7 +24,7 @@ tags: grove_uart, io_3v3, io_5v, plat_duino, plat_bbg, plat_pi, plat_linkit,
 -   Grove 兼容接口
 
 !!!Tip
-    关于 Grove 模块的更多信息请点击 [Grove System](http://seeed.wiki/Grove_System/)
+    关于 Grove 模块的更多信息请点击 [Grove System](http://wiki.seeedstudio.com/cn/Grove_System/)
 
 
 ## 规格参数
@@ -43,7 +43,7 @@ tags: grove_uart, io_3v3, io_5v, plat_duino, plat_bbg, plat_pi, plat_linkit,
 ## 入门指导
 ---------------
 
-遵循 [Grove system](http://seeed.wiki/Grove_System/) 可以帮助用户实现 Grove 入门。
+遵循 [Grove system](http://wiki.seeedstudio.com/cn/Grove_System/) 可以帮助用户实现 Grove 入门。
 
 ### 与 Arduino 一起使用
 该示例仅使用软件串行从 GPS 读取，并将其发送回串行端口。

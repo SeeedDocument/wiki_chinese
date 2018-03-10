@@ -4,7 +4,7 @@ category: Kit
 bzurl: https://www.seeedstudio.com/Robot-Kit-for-Micro%3ABit-p-3015.html
 oldwikiname:
 prodimagename: BitBot-Robot_Kit_for_MicroBit.jpg
-wikiurl: http://seeed.wiki/BitBot-Robot_Kit_for_MicroBit
+wikiurl: http://wiki.seeedstudio.com/cn/BitBot-Robot_Kit_for_MicroBit
 sku: 114991414
 ---
 

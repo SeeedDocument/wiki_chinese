@@ -4,14 +4,14 @@ category: Tutorial
 bzurl:  https://www.seeedstudio.com/Grove-Inventor-Kit-for-micro%3Abit-p-2891.html
 oldwikiname: Grove_Inventor_Kit_for_micro:bit
 prodimagename: https://statics3.seeedstudio.com/seeed/file/2017-06/bazaar492598_8.jpg
-wikiurl: http://seeed.wiki/Grove_Inventor_Kit_for_microbit
+wikiurl: http://wiki.seeedstudio.com/cn/Grove_Inventor_Kit_for_microbit
 sku:    110060762
 ---
 ![](https://github.com/SeeedDocument/Grove_kit_for_microbit/raw/master/img/zoro_im_kitbox.jpg)
 
 The BBC micro:bit 是一个袖珍电脑，可以很容易地激发您的创造力，并且无需太多的电气和编码知识。有很多创作的可能性，您可以从 micro:bit 中挖掘出来，例如机器人或者乐器。 然而，如果您想创造更多的东西，只有 BBC micro:bit 是不够的，这就是为什么我们要向您介绍 Grove Inventor 工具包。
 
-此 Grove Inventor 套件：为您的 micro：bit 带来无限的可能性。该套件中的核心板是 Micro：Bit 的 Grove 扩展基板，借由此板可以使用大量的 Grove 模块，包括传感器，显示器，执行器与 Micro：Bit 进行交互。如果您从来没有使用过，也不知道 Grove 是什么，这里是 [Grove 系统](http://seeed.wiki/Grove_System/) 的介绍。 您所需要知道的是，Grove不再需要焊接或跳线。您的原型设计将更容易，更方便。
+此 Grove Inventor 套件：为您的 micro：bit 带来无限的可能性。该套件中的核心板是 Micro：Bit 的 Grove 扩展基板，借由此板可以使用大量的 Grove 模块，包括传感器，显示器，执行器与 Micro：Bit 进行交互。如果您从来没有使用过，也不知道 Grove 是什么，这里是 [Grove 系统](http://wiki.seeedstudio.com/cn/Grove_System/) 的介绍。 您所需要知道的是，Grove不再需要焊接或跳线。您的原型设计将更容易，更方便。
 
 我们已经准备了8个Grove模块，让您可以开始使用 micro：bit。 使用这些Grove模块，您可以测量距离并显示它，使用手势播放不同的音乐，或者为您的办公桌或房间做个聪明的警卫。 我们已经准备好了免费下载的所有必要的库（包）。 如果您是一个初学者，不要担心，因为我们还准备了12个不同的项目，可以一步一步的教您。如果您是一个高级用户，这个工具包将帮助您实现比别人更有创意的项目。
 

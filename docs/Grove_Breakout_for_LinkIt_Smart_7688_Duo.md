@@ -4,7 +4,7 @@ category: LinkIt
 bzurl: https://www.seeedstudio.com/Grove-Breakout-for-LinkIt-Smart-7688-Duo-p-2575.html
 oldwikiname: Grove Breakout for LinkIt Smart 7688 Duo
 prodimagename: Breakout_for_LinkIt_Smart_7688_product_view_1200_s.jpg
-wikiurl: http://seeed.wiki/Grove_Breakout_for_LinkIt_Smart_7688_Duo
+wikiurl: http://wiki.seeedstudio.com/cn/Grove_Breakout_for_LinkIt_Smart_7688_Duo
 sku: 103030032
 ---
 
@@ -24,7 +24,7 @@ LinkIt Smart 7688 Duo 的 Grove Breakout 是集成了 Grove 端口的 LinkIt Sma
 - 性价比高。
 
 !!!Tip
-    想了解更多，请访问 [Grove 系统](http://seeed.wiki/Grove_System/)
+    想了解更多，请访问 [Grove 系统](http://wiki.seeedstudio.com/cn/Grove_System/)
 
 ## 创意应用
 ---
@@ -63,7 +63,7 @@ LinkIt Smart 7688 Duo 的 Grove Breakout 是集成了 Grove 端口的 LinkIt Sma
 
 **使用 Grove - Buzzer 发出声音**
 
-1. 参考 [wiki of LinkIt Smart 7688 Duo](http://seeed.wiki/LinkIt_Smart_7688_Duo/) 把您的 LinkIt Smart 7688 Duo 连接到网络。
+1. 参考 [wiki of LinkIt Smart 7688 Duo](http://wiki.seeedstudio.com/cn/LinkIt_Smart_7688_Duo/) 把您的 LinkIt Smart 7688 Duo 连接到网络。
 !!!Note
     * 您可以在连接 LinkIt Smart 7688 的端口附近找到 8，9 和 GND 引脚。
     * 您可以用跳线连接 MT7688 UART2 端口，而不是将其焊接到引脚 8，引脚 9 和引脚 GND。
@@ -75,7 +75,7 @@ LinkIt Smart 7688 Duo 的 Grove Breakout 是集成了 Grove 端口的 LinkIt Sma
 !!!Note
   把 Grove - Buzzer 插在 **D4** 口上。
 
-4. 请查看 [这里](http://seeed.wiki/LinkIt_Smart_7688_Duo/#arduino) 在主机上为 LinkIt Smart 7688 Duo 平台搭建 Arduino 开发环境。
+4. 请查看 [这里](http://wiki.seeedstudio.com/cn/LinkIt_Smart_7688_Duo/#arduino) 在主机上为 LinkIt Smart 7688 Duo 平台搭建 Arduino 开发环境。
 
 5. 下载 [firmata](https://github.com/SeeedDocument/Grove-Breakout_for_LinkIt_Smart_7688_Duo/raw/master/res/Firmata_to_build_Arduino_IDE_for.zip)。参考 [这里](http://www.seeedstudio.com/wiki/LinkIt_Smart_7688_Duo#Installing_Arduino_programming_environment) 安装 Arduino IDE 的 LinkIt Smart 7688 平台，然后把文件 firmata 保存到开发板。
 !!!Note

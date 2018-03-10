@@ -4,7 +4,7 @@ category: Display
 bzurl: https://www.seeedstudio.com/Grove-Red-LED-p-1142.html
 oldwikiname:  Grove - Red LED
 prodimagename: Grove-LED_Photo.jpg
-wikiurl: http://seeed.wiki/Grove-Red_LED
+wikiurl: http://wiki.seeedstudio.com/cn/Grove-Red_LED
 sku:  104030005
 ---
 

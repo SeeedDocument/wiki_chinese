@@ -4,7 +4,7 @@ category: Sensor
 bzurl: https://www.seeedstudio.com/Grove-Line-Finder-p-825.html
 oldwikiname: Grove - Line Finder
 prodimagename: Grovelinefinder1.jpg
-wikiurl: http://seeed.wiki/Grove-Line_Finder
+wikiurl: http://wiki.seeedstudio.com/cn/Grove-Line_Finder
 sku: 101020009
 ---
 
@@ -26,7 +26,7 @@ Grove-Line finder 为线跟随机器人设计。它具有红外发射 LED 和红
 - 光反射二极管 : RS-06WD
 
 !!!Tip
-    关于 Grove 模块的更多信息请点击 [Grove System](http://seeed.wiki/Grove_System/)
+    关于 Grove 模块的更多信息请点击 [Grove System](http://wiki.seeedstudio.com/cn/Grove_System/)
 
 ## 操作示例
 ---

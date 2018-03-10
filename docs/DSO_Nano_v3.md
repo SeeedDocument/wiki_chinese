@@ -4,7 +4,7 @@ category: MakerPro
 bzurl: https://www.seeedstudio.com/DSO-Nano-v3-p-1358.html
 oldwikiname:  DSO Nano v3
 prodimagename:  Nano_v3.jpg
-wikiurl: http://seeed.wiki/DSO_Nano_v3
+wikiurl: http://wiki.seeedstudio.com/cn/DSO_Nano_v3
 sku:     109990013
 ---
 ![](https://github.com/SeeedDocument/DSO_Nano_v3/raw/master/img/Nano_v3.jpg)

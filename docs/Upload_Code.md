@@ -4,7 +4,7 @@ category: Tutorial
 bzurl: 
 oldwikiname:  Upload Code
 prodimagename:
-wikiurl: http://seeed.wiki/Upload_Code
+wikiurl: http://wiki.seeedstudio.com/cn/Upload_Code
 sku: 
 ---
 

@@ -4,7 +4,7 @@ category: Sensor
 bzurl: https://seeedstudio.com/Grove-3-Axis-Digital-Accelerometer(±400g)-p-1897.html
 oldwikiname: Grove_-_3-Axis_Digital_Accelerometer(±400g)
 prodimagename: Grove_3Axis_Accelerometer400g.jpg
-wikiurl: http://seeed.wiki/Grove-3-Axis_Digital_Accelerometer-400g
+wikiurl: http://wiki.seeedstudio.com/cn/Grove-3-Axis_Digital_Accelerometer-400g
 sku: 101020071
 tags: grove_i2c, io_3v3, io_5v, plat_duino, plat_linkit, plat_bbg
 ---
@@ -29,7 +29,7 @@ H3LIS331DL 是属于 “nano” 系列的低功耗高性能3轴线性加速度�
 -   符合 ECOPACK®RoHS 和 “Green” 标准
 
 !!!Tip
-    关于 Grove 模块的更多信息请点击 [Grove System](http://seeed.wiki/Grove_System/)
+    关于 Grove 模块的更多信息请点击 [Grove System](http://wiki.seeedstudio.com/cn/Grove_System/)
 
 ## 创意应用
 -----------------

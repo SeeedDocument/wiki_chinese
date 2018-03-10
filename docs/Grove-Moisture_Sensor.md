@@ -4,7 +4,7 @@ category: Sensor
 bzurl: https://www.seeedstudio.com/Grove-Moisture-Sensor-p-955.html
 oldwikiname: Grove - Moisture Sensor
 prodimagename: Moisture_sensor_.jpg
-wikiurl: http://seeed.wiki/Grove-Moisture_Sensor/
+wikiurl: http://wiki.seeedstudio.com/cn/Grove-Moisture_Sensor/
 sku: 101020008
 ---
 ---
@@ -21,7 +21,7 @@ sku: 101020008
 - 2.0 cm X 6.0 cm 的grove 模块
 
 !!!Tip
-    关于Grove模块的更多细节请参考 [Grove_System](http://seeed.wiki/Grove_System/)
+    关于Grove模块的更多细节请参考 [Grove_System](http://wiki.seeedstudio.com/cn/Grove_System/)
 
 ## 规格参数
 ---
@@ -75,7 +75,7 @@ void loop() {
 }
 ```
 
-- 如果您不清楚怎么下载代码到您的板子里，请点击[这里](http://seeed.wiki/Upload_Code/)。
+- 如果您不清楚怎么下载代码到您的板子里，请点击[这里](http://wiki.seeedstudio.com/cn/Upload_Code/)。
 
 ![](https://github.com/SeeedDocument/Grove_Moisture_Sensor/raw/master/images/in%20differen%20conditions.jpg)
 

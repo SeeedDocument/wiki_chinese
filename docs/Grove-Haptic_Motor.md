@@ -4,7 +4,7 @@ category: Actuator
 bzurl: https://seeedstudio.com/Grove - Haptic Motor-p-2546.html
 oldwikiname: Grove_-_Haptic_Motor
 prodimagename: Grove_Haptic_Motor.jpg
-wikiurl: http://seeed.wiki/Grove-Haptic_Motor
+wikiurl: http://wiki.seeedstudio.com/cn/Grove-Haptic_Motor
 sku: 105020011
 tags: grove_i2c, io_3v3, io_5v, plat_duino, plat_linkit
 ---
@@ -25,7 +25,7 @@ tags: grove_i2c, io_3v3, io_5v, plat_duino, plat_linkit
 - 有强大的驱动程序来配置更高级的功能。
 
 !!!Tip
-    关于Grove模块的更多细节请参考 [Grove System](http://seeed.wiki/Grove_System/)
+    关于Grove模块的更多细节请参考 [Grove System](http://wiki.seeedstudio.com/cn/Grove_System/)
 
 
 参数规格

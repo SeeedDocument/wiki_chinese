@@ -4,7 +4,7 @@ category: Rephone
 bzurl: https://www.seeedstudio.com/Xadow-Audio-p-2554.html
 oldwikiname: Xadow Audio
 prodimagename: Xadow_Audio.JPG
-wikiurl: http://seeed.wiki/Xadow_Audio
+wikiurl: http://wiki.seeedstudio.com/cn/Xadow_Audio
 sku: 107040001
 ---
 

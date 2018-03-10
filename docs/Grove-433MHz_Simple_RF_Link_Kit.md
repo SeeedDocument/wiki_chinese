@@ -4,7 +4,7 @@ category: Communication
 bzurl: https://seeedstudio.com/Grove-433MHz-Simple-RF-link-kit-p-1062.html
 oldwikiname: Grove_-_433MHz_Simple_RF_Link_Kit
 prodimagename: 433MHz_Simple_RF.jpg
-wikiurl: http://seeed.wiki/Grove-433MHz_Simple_RF_Link_Kit
+wikiurl: http://wiki.seeedstudio.com/cn/Grove-433MHz_Simple_RF_Link_Kit
 sku: 113060000
 ---
 
@@ -29,7 +29,7 @@ sku: 113060000
 -   单向通信
 
 !!!Tip
-    更多关系Grove的细节请参考 [Grove 系统](http://seeed.wiki/Grove_System/)
+    更多关系Grove的细节请参考 [Grove 系统](http://wiki.seeedstudio.com/cn/Grove_System/)
 
 规格参数
 -------------

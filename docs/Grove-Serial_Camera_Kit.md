@@ -4,7 +4,7 @@ category: Sensor
 bzurl: https://www.seeedstudio.com/Grove-Serial-Camera-Kit-p-1608.html
 oldwikiname:  Grove - Serial Camera Kit
 prodimagename: GSCK_Introduction.jpg
-wikiurl: http://seeed.wiki/Grove-Serial_Camera_Kit
+wikiurl: http://wiki.seeedstudio.com/cn/Grove-Serial_Camera_Kit
 sku:  101020000
 ---
 

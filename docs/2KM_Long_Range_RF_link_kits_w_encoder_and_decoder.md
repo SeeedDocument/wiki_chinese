@@ -4,7 +4,7 @@ category: MakerPro
 bzurl: https://www.seeedstudio.com/2km-long-range-rf-link-kits-w-encoder-and-decoder-p-321.html?cPath=139_140
 oldwikiname:  2KM Long Range RF link kits w/ encoder and decoder
 prodimagename:  2kmrf.jpg
-wikiurl: http://seeed.wiki/2KM_Long_Range_RF_link_kits_w_encoder_and_decoder
+wikiurl: http://wiki.seeedstudio.com/cn/2KM_Long_Range_RF_link_kits_w_encoder_and_decoder
 sku:   113990018
 ---
 ##  1.	简介

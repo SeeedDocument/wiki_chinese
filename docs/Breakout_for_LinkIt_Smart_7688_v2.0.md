@@ -4,7 +4,7 @@ category: LinkIt
 bzurl: https://www.seeedstudio.com/Breakout-for-LinkIt-Smart-7688-v2.0-p-2641.html
 oldwikiname: Breakout for LinkIt Smart 7688 v2.0
 prodimagename: Breakout_for_LinkIt_Smart_7688_v2.0_product_view_700.jpg
-wikiurl: http://seeed.wiki/Breakout_for_LinkIt_Smart_7688_v2.0   
+wikiurl: http://wiki.seeedstudio.com/cn/Breakout_for_LinkIt_Smart_7688_v2.0   
 sku: 103100022
 ---
 
@@ -69,7 +69,7 @@ sku: 103100022
 
 ### 关于Grove界面
 
-如果您曾经使用过Seeed的 [Grove](http://seeed.wiki/Grove_System/) 产品，那么您将会爱上这种模块。 使用这种端口，您可以告别跳线和焊接工作，您可以使用这些功能模块来实现更强大的应用。
+如果您曾经使用过Seeed的 [Grove](http://wiki.seeedstudio.com/cn/Grove_System/) 产品，那么您将会爱上这种模块。 使用这种端口，您可以告别跳线和焊接工作，您可以使用这些功能模块来实现更强大的应用。
 
 ### 如何在 OMTP 和 CTIA 之间切换手机连接器协议
 

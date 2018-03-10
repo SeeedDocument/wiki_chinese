@@ -4,7 +4,7 @@ category: Actuator
 bzurl: https://seeedstudio.com/Grove-MP3-v2.0-p-2597.html
 oldwikiname: Grove_-_MP3_v2.0
 prodimagename: Grove-MP3_v2.0_Product_View_700_S.jpg
-wikiurl: http://seeed.wiki/Grove-MP3_v2.0
+wikiurl: http://wiki.seeedstudio.com/cn/Grove-MP3_v2.0
 sku: 107020008
 tags: plat_duino, plat_pi, plat_bbg, plat_linkit
 ---
@@ -108,11 +108,11 @@ Arduino, Raspberrypi, bbg, linkitone
 ![](https://raw.githubusercontent.com/SeeedDocument/Grove-MP3_v2.0/master/img/Grove-MP3_v2.0_Demo_connection_1200_S.jpg)
 
 ### 软件
-如果您是第一次安装Arduino库文件，请点击 [这里](http://seeed.wiki/How_to_install_Arduino_Library/) 查看库文件的安装方法。
+如果您是第一次安装Arduino库文件，请点击 [这里](http://wiki.seeedstudio.com/cn/How_to_install_Arduino_Library/) 查看库文件的安装方法。
 
 
 !!!tip
-    - 如果您不清楚怎么下载代码到您的板子里，请点击[这里](http://seeed.wiki/Upload_Code/)。
+    - 如果您不清楚怎么下载代码到您的板子里，请点击[这里](http://wiki.seeedstudio.com/cn/Upload_Code/)。
 
 
 #### 烧录例程

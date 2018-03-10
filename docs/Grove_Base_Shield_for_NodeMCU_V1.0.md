@@ -4,7 +4,7 @@ category: Shield
 bzurl: https://www.seeedstudio.com/Grove-Base-BoosterPack-p-2177.html
 oldwikiname:  Grove Base Shield for NodeMCU V1.0
 prodimagename: Base_Shield_for_NodeMCU1.jpg
-wikiurl: http://seeed.wiki/Grove_Base_Shield_for_NodeMCU_V1.0
+wikiurl: http://wiki.seeedstudio.com/cn/Grove_Base_Shield_for_NodeMCU_V1.0
 sku:  105020008
 ---
 ![](https://github.com/SeeedDocument/Grove_Base_Shield_for_NodeMCU_V1.0/raw/master/img/Base_Shield_for_NodeMCU1.jpg)

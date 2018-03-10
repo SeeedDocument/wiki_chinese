@@ -4,7 +4,7 @@ category: Sensor
 bzurl: https://seeedstudio.com/Grove-Barometer-Sensor-(BMP280)-p-2652.html
 oldwikiname: Grove_-_Barometer_Sensor_(BMP280)
 prodimagename: Grove-Barometer_Sensor-BMP280-700_s.jpg
-wikiurl: http://seeed.wiki/Grove-Barometer_Sensor-BMP280
+wikiurl: http://wiki.seeedstudio.com/cn/Grove-Barometer_Sensor-BMP280
 sku: 101020192
 ---
 
@@ -32,7 +32,7 @@ BMP280是BMP180的升级版。 BMP280比起BMP180有着了显着的改进。 BMP
 
 
 !!!Tip
-    关于Grove模块的更多细节请参考 [Grove System](http://seeed.wiki/Grove_System/)
+    关于Grove模块的更多细节请参考 [Grove System](http://wiki.seeedstudio.com/cn/Grove_System/)
 
 参数规格
 --------------
@@ -121,7 +121,7 @@ BMP280是BMP180的升级版。 BMP280比起BMP180有着了显着的改进。 BMP
     <iframe frameborder="0" height="500" src="https://codebender.cc/embed/sketch:305323" width="50%">
 </iframe>
 
-2.上传程序到你的Arduino ，如果您是第一次安装Arduino库文件，请点击 [这里](http://seeed.wiki/How_to_install_Arduino_Library/) 查看库文件的安装方法。如果您不清楚怎么下载代码到您的板子里，请点击 [这里](http://seeed.wiki/Upload_Code/)。
+2.上传程序到你的Arduino ，如果您是第一次安装Arduino库文件，请点击 [这里](http://wiki.seeedstudio.com/cn/How_to_install_Arduino_Library/) 查看库文件的安装方法。如果您不清楚怎么下载代码到您的板子里，请点击 [这里](http://wiki.seeedstudio.com/cn/Upload_Code/)。
 
 **Tips:** 如果您使用Seeeduino，请在上传工程时选择 **Tool(工具)** 下的 **Board(开发板)**。
 

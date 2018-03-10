@@ -4,7 +4,7 @@ category: Communication
 bzurl: https://www.seeedstudio.com/Grove-Serial-RF-Pro-p-794.html
 oldwikiname:  Grove - Serial RF Pro
 prodimagename: Twigrf.jpg
-wikiurl: http://seeed.wiki/Grove-Serial_RF_Pro
+wikiurl: http://wiki.seeedstudio.com/cn/Grove-Serial_RF_Pro
 sku:  113020000
 ---
 ![](https://github.com/SeeedDocument/Grove-Serial_RF_Pro/raw/master/img/Twigrf.jpg)

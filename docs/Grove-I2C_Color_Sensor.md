@@ -4,7 +4,7 @@ category: Sensor
 bzurl: https://seeedstudio.com/Grove-I2C-Color-Sensor-p-854.html
 oldwikiname: Grove_-_I2C_Color_Sensor
 prodimagename: Grove-I2C-Color-Sensor.jpg
-wikiurl: http://seeed.wiki/Grove-I2C_Color_Sensor
+wikiurl: http://wiki.seeedstudio.com/cn/Grove-I2C_Color_Sensor
 sku: 101020041
 tags: grove_i2c, io_3v3, io_5v, plat_duino, plat_linkit
 ---
@@ -37,7 +37,7 @@ tags: grove_i2c, io_3v3, io_5v, plat_duino, plat_linkit
 - 符合RoHS
 
 !!!Tip
-    关于Grove模块的更多细节请参考 [Grove System](http://seeed.wiki/Grove_System/)
+    关于Grove模块的更多细节请参考 [Grove System](http://wiki.seeedstudio.com/cn/Grove_System/)
 
 产品规格
 -------------
@@ -57,8 +57,8 @@ Platforms Supported
 
 以下文档可以帮助用户使用 Grove 进行入门学习。
 
--   [入门指导](http://seeed.wiki/Getting_Started_with_Seeeduino/)
--   [关于 grove](http://seeed.wiki/Grove_System/)
+-   [入门指导](http://wiki.seeedstudio.com/cn/Getting_Started_with_Seeeduino/)
+-   [关于 grove](http://wiki.seeedstudio.com/cn/Grove_System/)
 
 ### 硬件连接
 
@@ -75,7 +75,7 @@ Grove产品具有环保性，并且都具有可插入[Grove Base Shield](https:/
 ---------------------
 
 
-[Seeed入门指导](http://seeed.wiki/Getting_Started_with_Seeeduino/)
+[Seeed入门指导](http://wiki.seeedstudio.com/cn/Getting_Started_with_Seeeduino/)
 
 演示
 -----

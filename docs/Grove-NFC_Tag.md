@@ -4,7 +4,7 @@ category: Communication
 bzurl: https://seeedstudio.com/Grove-NFC-Tag-p-1866.html
 oldwikiname: Grove_-_NFC_Tag
 prodimagename: Grove-NFC_Tag_uasge.jpg
-wikiurl: http://seeed.wiki/Grove-NFC_Tag
+wikiurl: http://wiki.seeedstudio.com/cn/Grove-NFC_Tag
 sku: 101020070
 tags: grove_i2c, io_3v3, io_5v, plat_duino
 ---
@@ -29,7 +29,7 @@ Grove-NFC Tag 是一款高度集成的近场通信 Tag 模块，该模块为 I2C
 -   Grove I2C 接口
 
 !!!Tip
-    关于 Grove 模块的更多信息请点击 [Grove System](http://seeed.wiki/Grove_System/)
+    关于 Grove 模块的更多信息请点击 [Grove System](http://wiki.seeedstudio.com/cn/Grove_System/)
 
 Platforms Supported
 -------------------

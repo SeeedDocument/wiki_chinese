@@ -4,7 +4,7 @@ category: Others
 bzurl:  https://www.seeedstudio.com/Grove-IoT-Developer-Kit-Microsoft-Azure-Edition-p-2631.html
 oldwikiname:  Grove IoT Developer Kit - Microsoft Azure Edition
 prodimagename: Intel_Edison_for_Arduino_Microsoft-Azure-Edition_cover.jpg
-wikiurl: http://seeed.wiki/Grove_IoT_Developer_Kit-Microsoft_Azure_Edition
+wikiurl: http://wiki.seeedstudio.com/cn/Grove_IoT_Developer_Kit-Microsoft_Azure_Edition
 sku:    110060422
 ---
 ![](https://github.com/SeeedDocument/Grove_IoT_Developer_Kit-Microsoft_Azure_Edition/raw/master/img/Intel_Edison_for_Arduino_Microsoft-Azure-Edition_cover.jpg)

@@ -4,7 +4,7 @@ category: Shield
 bzurl: https://www.seeedstudio.com/Motor-Shield-V2.0-p-1377.html
 oldwikiname: Motor_Shield_V2.0
 prodimagename: 500px-Motorshield_01.jpg
-wikiurl: http://seeed.wiki/Motor_Shield_V2.0
+wikiurl: http://wiki.seeedstudio.com/cn/Motor_Shield_V2.0
 sku: 105030001
 tags: io_5v, plat_duino
 ---

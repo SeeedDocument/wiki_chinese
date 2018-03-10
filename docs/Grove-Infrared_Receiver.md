@@ -4,7 +4,7 @@ category: Sensor
 bzurl: https://seeedstudio.com/Grove-Infrared-Receiver-p-994.html
 oldwikiname: Grove_-_Infrared_Receiver
 prodimagename: Grove-Infrared_Receiver.jpg
-wikiurl: http://seeed.wiki/Grove-Infrared_Receiver
+wikiurl: http://wiki.seeedstudio.com/cn/Grove-Infrared_Receiver
 sku: 101020016
 tags: grove_digital, io_3v3, io_5v, plat_duino
 ---
@@ -22,7 +22,7 @@ tags: grove_digital, io_3v3, io_5v, plat_duino
 -   接收距离: 10m
 
 !!!Tip
-    关于Grove模块的更多细节请参考 [Grove System](http://seeed.wiki/Grove_System/)
+    关于Grove模块的更多细节请参考 [Grove System](http://wiki.seeedstudio.com/cn/Grove_System/)
 
 Platforms Supported
 -------------------
@@ -41,9 +41,9 @@ Platforms Supported
 
 ### 推荐阅读入门
 
-- [Arduino入门](http://seeed.wiki/Getting_Started_with_Seeeduino/)
+- [Arduino入门](http://wiki.seeedstudio.com/cn/Getting_Started_with_Seeeduino/)
 
-- 如果您不清楚怎么下载代码到您的板子里，请点击[这里](http://seeed.wiki/Upload_Code/)。
+- 如果您不清楚怎么下载代码到您的板子里，请点击[这里](http://wiki.seeedstudio.com/cn/Upload_Code/)。
 
 ### IRSendRev 库
 

@@ -4,7 +4,7 @@ category: Sensor
 bzurl: https://www.seeedstudio.com/Grove-Ultrasonic-Ranger-p-960.html
 oldwikiname: Grove - Ultrasonic Ranger
 prodimagename: 350px-Ultrasonic_Ranger.jpg
-wikiurl: http://seeed.wiki/Grove-Ultrasonic_Ranger
+wikiurl: http://wiki.seeedstudio.com/cn/Grove-Ultrasonic_Ranger
 sku: 101020010
 tags: io_3v3, io_5v, plat_duino, plat_pi
 
@@ -47,7 +47,7 @@ Grove - Ultrasonic传感器是一种非接触式距离测量模块，工作在40
 
 
 !!!小提示
-    关于Grove模块的更多细节请参考[Grove System](http://seeed.wiki/Grove_System/)
+    关于Grove模块的更多细节请参考[Grove System](http://wiki.seeedstudio.com/cn/Grove_System/)
 
 支持平台
 -------------------
@@ -74,7 +74,7 @@ Grove - Ultrasonic传感器是一种非接触式距离测量模块，工作在40
 #### 软件代码
 
 - 从Github下载[ UltrasonicRanger Library](https://github.com/Seeed-Studio/Grove_Ultrasonic_Ranger/archive/master.zip)和[  Grove - LCD RGB Backlight Library ](https://github.com/Seeed-Studio/Grove_LCD_RGB_Backlight/archive/master.zip) 。
--  如果您不知道如何安装库，请参阅 [如何安装库](http://seeed.wiki/How_to_install_Arduino_Library/)
+-  如果您不知道如何安装库，请参阅 [如何安装库](http://wiki.seeedstudio.com/cn/How_to_install_Arduino_Library/)
 
 ```
 #include <Wire.h>

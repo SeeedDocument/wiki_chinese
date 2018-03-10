@@ -4,7 +4,7 @@ category: Raspberry Pi
 bzurl: https://www.seeedstudio.com/7-Inch-1024x600-Capacitive-Touch-Screen-DIY-Kit-p-2932.html
 oldwikiname:
 prodimagename:
-wikiurl: http://seeed.wiki/7_Inch_1024x600_Capacitive_Touch_Screen_DIY_Kit
+wikiurl: http://wiki.seeedstudio.com/cn/7_Inch_1024x600_Capacitive_Touch_Screen_DIY_Kit
 sku: 104060007
 ---
 

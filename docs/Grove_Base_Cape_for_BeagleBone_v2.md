@@ -4,7 +4,7 @@ category: BeagleBone
 bzurl: https://www.seeedstudio.com/Grove-Base-Cape-for-Beaglebone-v2.0-p-2644.html
 oldwikiname:  Grove Base Cape for BeagleBone v2
 prodimagename: Grove_Base_Cape_for_BeagleBone_v2_product_view_1200.jpg
-wikiurl: http://seeed.wiki/Grove_Base_Cape_for_BeagleBone_v2
+wikiurl: http://wiki.seeedstudio.com/cn/Grove_Base_Cape_for_BeagleBone_v2
 sku:  103030035
 ---
 

@@ -4,7 +4,7 @@ category: Sensor
 bzurl: https://www.seeedstudio.com/Grove-IMU-10DOF-v2.0-p-2691.html
 oldwikiname:
 prodimagename: Grove-imu-10dof-v2.0.JPG
-wikiurl: http://seeed.wiki/Grove-IMU_10DOF_v2
+wikiurl: http://wiki.seeedstudio.com/cn/Grove-IMU_10DOF_v2
 sku: 101020252
 tags: grove_i2c, io_3v3, io_5v, plat_duino, plat_linkit, plat_bbg
 ---
@@ -37,7 +37,7 @@ Grove-IMU 10DOF v2.0 是 Grove-IMU-10DOF 的升级版，用 BMP280 代替 BMP180
 -   尺寸 : 25.43mm x 20.35mm
 
 !!!Tip
-    关于 Grove 模块的更多信息请点击 [Grove System](http://seeed.wiki/Grove_System/)
+    关于 Grove 模块的更多信息请点击 [Grove System](http://wiki.seeedstudio.com/cn/Grove_System/)
 
 ## Platforms Supported
 -------------------

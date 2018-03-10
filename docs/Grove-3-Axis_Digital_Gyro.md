@@ -4,7 +4,7 @@ category: Sensor
 bzurl: https://seeedstudio.com/Grove-3-Axis-Digital-Gyro-p-750.html
 oldwikiname: Grove_-_3-Axis_Digital_Gyro
 prodimagename: Grove-3-Axis_Digital_Gyro.jpg
-wikiurl: http://seeed.wiki/Grove-3-Axis_Digital_Gyro
+wikiurl: http://wiki.seeedstudio.com/cn/Grove-3-Axis_Digital_Gyro
 sku: 101020050
 tags: grove_i2c, io_3v3, io_5v, plat_duino, plat_linkit, plat_bbg, plat_wio
 ---
@@ -32,7 +32,7 @@ Grove - 3-Axis Digital Gyro 是一个基于 ITG3200 的电子陀螺仪模块。I
 -   符合 RoHS 和及绿色环保标准
 
 !!!Tip
-    关于 Grove 模块的更多信息请点击 [Grove System](http://seeed.wiki/Grove_System/)
+    关于 Grove 模块的更多信息请点击 [Grove System](http://wiki.seeedstudio.com/cn/Grove_System/)
 
 Platforms Supported
 -------------------

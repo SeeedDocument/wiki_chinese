@@ -4,7 +4,7 @@ category: Sensor
 bzurl: https://seeedstudio.com/Grove-I2C-Touch-Sensor-p-840.html
 oldwikiname: Grove_-_I2C_Touch_Sensor
 prodimagename: Grove-I2C-Touch-Sensor.jpg
-wikiurl: http://seeed.wiki/Grove-I2C_Touch_Sensor
+wikiurl: http://wiki.seeedstudio.com/cn/Grove-I2C_Touch_Sensor
 sku: 101020047
 tags: grove_i2c, io_3v3, io_5v, plat_duino, plat_linkit
 ---
@@ -28,7 +28,7 @@ tags: grove_i2c, io_3v3, io_5v, plat_duino, plat_linkit
 | I2C地址                 | 0x5A - 0x5D                         |
 
 !!!Tip
-    关于Grove模块的更多细节请参考 [Grove System](http://seeed.wiki/Grove_System/)
+    关于Grove模块的更多细节请参考 [Grove System](http://wiki.seeedstudio.com/cn/Grove_System/)
 
 Platforms Supported
 -------------------

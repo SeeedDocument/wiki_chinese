@@ -3,7 +3,7 @@ title: Wio LTE Cat.1
 category: Wio_Tracker
 bzurl: https://www.seeedstudio.com/Wio-LTE-4G%2C-Cat.1%2C-GNSS%2C-Espruino-Compatible-p-2957.html
 prodimagename: wio_tracker_lte_1.jpg
-wikiurl: http://seeed.wiki/Wio_LTE_Cat.1
+wikiurl: http://wiki.seeedstudio.com/cn/Wio_LTE_Cat.1
 sku: 102990837
 ---
 
@@ -126,7 +126,7 @@ Wio LTE 非常适合户外项目，其自带的 GPS 天线设备可以连接到 
 !!!Tip
     可以使用 Grove 模块来扩展您的应用。
 
-板子上有6个 Grove 接口。如果您是第一次听说 Grove，请点击 [Grove 系统](http://seeed.wiki/Grove_System/) 查看更多信息。
+板子上有6个 Grove 接口。如果您是第一次听说 Grove，请点击 [Grove 系统](http://wiki.seeedstudio.com/cn/Grove_System/) 查看更多信息。
 
 ## 硬件概述
 

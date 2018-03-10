@@ -4,7 +4,7 @@ category: MakerPro
 bzurl: https://www.seeedstudio.com/g34-water-flow-sensor-p-1083.html?cPath=144_151
 oldwikiname:  G3/4 Water Flow sensor
 prodimagename:  3wsp.JPG
-wikiurl: http://seeed.wiki/G3-4_Water_Flow_sensor/
+wikiurl: http://wiki.seeedstudio.com/cn/G3-4_Water_Flow_sensor/
 sku:   314150003
 ---
 ![](https://github.com/SeeedDocument/G3-4_Water_Flow_sensor/raw/master/img/P21408651.jpg)

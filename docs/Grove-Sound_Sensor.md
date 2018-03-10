@@ -4,7 +4,7 @@ category: Sensor
 bzurl: https://www.seeedstudio.com/Grove-Sound-Sensor-p-752.html
 oldwikiname: Grove_-_Sound_Sensor
 prodimagename: page.jpg
-wikiurl: http://seeed.wiki/Grove-Sound_Sensor
+wikiurl: http://wiki.seeedstudio.com/cn/Grove-Sound_Sensor
 sku: 101020023
 tags: io_3v3, io_5v, plat_duino, plat_linkit, plat_bbg, plat_wio, plat_pi, plat_linkit
 
@@ -22,7 +22,7 @@ tags: io_3v3, io_5v, plat_duino, plat_linkit, plat_bbg, plat_wio, plat_pi, plat_
 * 使用简单
 * 能够输出模拟信号
 * 能够简单的把它集成在Grove电路输入端的Logic模块上
-* [Grove System](http://seeed.wiki/Grove_System/)
+* [Grove System](http://wiki.seeedstudio.com/cn/Grove_System/)
 
 !!!警告
     该声音传感器用于检测是否有声环绕，请勿使用该模块收集声音信号。 例如，您可以使用它来制作声控灯，但不能用作录音设备。
@@ -40,7 +40,7 @@ tags: io_3v3, io_5v, plat_duino, plat_linkit, plat_bbg, plat_wio, plat_pi, plat_
 |麦克风S / N无线电|54 dB|
 
 !!!小提示
-    关于Grove模块的更多细节请参考 [Grove System](http://seeed.wiki/Grove_System/)
+    关于Grove模块的更多细节请参考 [Grove System](http://wiki.seeedstudio.com/cn/Grove_System/)
 
 支持平台
 --------------------

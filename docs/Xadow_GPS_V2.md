@@ -4,7 +4,7 @@ category: Rephone
 bzurl: https://www.seeedstudio.com/Xadow-GPS-v2-p-2557.html
 oldwikiname: Xadow GPS V2
 prodimagename: Xadow_GPS_v2.JPG
-wikiurl: http://seeed.wiki/Xadow_GPS_V2
+wikiurl: http://wiki.seeedstudio.com/cn/Xadow_GPS_V2
 sku: 113040009
 ---
 

@@ -4,7 +4,7 @@ category: Others
 bzurl: https://www.seeedstudio.com/s/Grove%20-%20Wrapper.html
 oldwikiname: Grove - Wrapper
 prodimagename: Grove-Mouser_Encorder_product_view.jpg
-wikiurl: http://seeed.wiki/Grove-Wrapper
+wikiurl: http://wiki.seeedstudio.com/cn/Grove-Wrapper
 ---
 
 ![](https://github.com/SeeedDocument/Grove-Wrapper/raw/master/img/Grove-Mouser_Encorder_product_view.jpg)

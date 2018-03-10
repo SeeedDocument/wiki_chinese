@@ -4,7 +4,7 @@ category: Actuator
 bzurl: https://seeedstudio.com/Grove-Water-Atomization-v1.0-p-2542.html
 oldwikiname: Grove_-_Water_Atomization
 prodimagename: Water_Atomization_product_1200.jpg
-wikiurl: http://seeed.wiki/Grove-Water_Atomization
+wikiurl: http://wiki.seeedstudio.com/cn/Grove-Water_Atomization
 sku: 101020090
 tags: grove_digital, io_5v, plat_duino
 ---
@@ -24,7 +24,7 @@ Grove - Water Atomization 是一个优秀的 Grove 模块，通过它您可以�
 -   适用于各种有趣，智能和时尚的应用。
 
 !!!Tip
-    关于 Grove 模块的更多信息请点击 [Grove System](http://seeed.wiki/Grove_System/)
+    关于 Grove 模块的更多信息请点击 [Grove System](http://wiki.seeedstudio.com/cn/Grove_System/)
 
 ## 创意应用
 -----------------

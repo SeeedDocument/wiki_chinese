@@ -4,7 +4,7 @@ category: Others
 bzurl: https://seeedstudio.com/Grove-MOSFET-p-1594.html
 oldwikiname: Grove_-_MOSFET
 prodimagename: Mosfet_01.jpg
-wikiurl: http://seeed.wiki/Grove-MOSFET
+wikiurl: http://wiki.seeedstudio.com/cn/Grove-MOSFET
 sku: 103020008
 tags: grove_digital, io_3v3, io_5v, plat_duino, plat_linkit, plat_pi, plat_bbg
 ---
@@ -23,7 +23,7 @@ Grove - MOSFET使您能够在微控制器上以低电压（例如5V）来控制�
 - MOSFET型号：CJQ4435
 
 !!!Tip
-    关于Grove模块的更多细节请参考 [Grove System](http://seeed.wiki/Grove_System/)
+    关于Grove模块的更多细节请参考 [Grove System](http://wiki.seeedstudio.com/cn/Grove_System/)
 
 支持平台
 -------------------

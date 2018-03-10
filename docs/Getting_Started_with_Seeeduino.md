@@ -4,13 +4,13 @@ category: Tutorial
 bzurl: 
 oldwikiname:  Getting Started with Seeeduino
 prodimagename:  Hello_world.jpg
-wikiurl: http://seeed.wiki/Getting_Started_with_Seeeduino
+wikiurl: http://wiki.seeedstudio.com/cn/Getting_Started_with_Seeeduino
 ---
 ![](https://github.com/SeeedDocument/Getting_Started_with_Seeeduino/raw/master/img/Hello_world.jpg)
 
 ###  **0. Hello world**
 
-一般来说，老师会教会我们在开始学习编程语言时编写一个简单的Hello World示例。这只是一个基本的介绍，但这是一个非常重要的过程。虽然你不熟悉Arduino，不用担心。你可以学习关于Arduino的问题：点亮LED。现在以Seeeduino为例，了解如何点亮由数字13针控制的LED。在此之前，请确保已下载Arduino Environment并成功安装Seeeduino驱动程序。如果没有，请点击 [这里](http://seeed.wiki/Seeeduino_v4.2/)了解具体步骤。
+一般来说，老师会教会我们在开始学习编程语言时编写一个简单的Hello World示例。这只是一个基本的介绍，但这是一个非常重要的过程。虽然你不熟悉Arduino，不用担心。你可以学习关于Arduino的问题：点亮LED。现在以Seeeduino为例，了解如何点亮由数字13针控制的LED。在此之前，请确保已下载Arduino Environment并成功安装Seeeduino驱动程序。如果没有，请点击 [这里](http://wiki.seeedstudio.com/cn/Seeeduino_v4.2/)了解具体步骤。
 
 ###   1. 将Seeeduino和电脑相连
 

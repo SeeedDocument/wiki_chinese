@@ -4,7 +4,7 @@ category: Display
 bzurl: https://seeedstudio.com/Grove-LED-Bar-p-1178.html
 oldwikiname: Grove_-_LED_Bar
 prodimagename: Grove-LED_Bar-1.jpg
-wikiurl: http://seeed.wiki/Grove-LED_Bar
+wikiurl: http://wiki.seeedstudio.com/cn/Grove-LED_Bar
 sku: 104030002
 tags: grove_digital, io_3v3, io_5v, plat_duino, plat_linkit, plat_wio
 ---
@@ -35,7 +35,7 @@ Grove – LED Bar 包括一个 10 段 LED 灯和一个 MY9221 LED 控制芯片�
 -   Suli 兼容库
 
 !!!Tip
-    关于 Grove 模块的更多细节请参考 [Grove 系统](http://seeed.wiki/Grove_System/)
+    关于 Grove 模块的更多细节请参考 [Grove 系统](http://wiki.seeedstudio.com/cn/Grove_System/)
 
 Platforms Supported
 -------------------

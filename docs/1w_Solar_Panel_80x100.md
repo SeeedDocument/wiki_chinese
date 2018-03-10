@@ -4,7 +4,7 @@ category: MakerPro
 bzurl: https://www.seeedstudio.com/1w-solar-panel-75x100-p-633.html?cPath=155
 oldwikiname:  1w Solar Panel 80*100
 prodimagename:  solarb.jpg
-wikiurl: http://seeed.wiki/1w_Solar_Panel_80x100
+wikiurl: http://wiki.seeedstudio.com/cn/1w_Solar_Panel_80x100
 sku:    313070005
 ---
 ![](http://bz.seeedstudio.com/depot/images/product/solarb.jpg)

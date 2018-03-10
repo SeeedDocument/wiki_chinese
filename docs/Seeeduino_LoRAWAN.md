@@ -4,7 +4,7 @@ category: Arduino
 bzurl: http://www.seeedstudio.com/Seeeduino-V4.2-p-2517.html
 oldwikiname:
 prodimagename: cover.png
-wikiurl: http://seeed.wiki/Seeeduino_LoRAWAN
+wikiurl: http://wiki.seeedstudio.com/cn/Seeeduino_LoRAWAN
 sku: 102010026
 ---
 
@@ -98,7 +98,7 @@ Seeeduino LoRaWAN W / GPS是嵌入了LoRaWan协议和GPS功能的Arduino开发�
 
 
 
-板上有4个Grove连接器。如果这是您第一次听说Grove，请点击 [Grove System](http://seeed.wiki/Grove_System/) 获取更多详细信息。简而言之，Groves系统是由数百种标准统一的传感器，执行器，显示器以及通讯模块组成的标准化系统。
+板上有4个Grove连接器。如果这是您第一次听说Grove，请点击 [Grove System](http://wiki.seeedstudio.com/cn/Grove_System/) 获取更多详细信息。简而言之，Groves系统是由数百种标准统一的传感器，执行器，显示器以及通讯模块组成的标准化系统。
 
 ##硬件概述
 

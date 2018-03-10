@@ -4,7 +4,7 @@ category: Sensor
 bzurl: https://seeedstudio.com/Grove-3-Axis-Analog-Accelerometer-p-1086.html
 oldwikiname: Grove_-_3-Axis_Analog_Accelerometer
 prodimagename: Grove-3-axis_Analog_Accelerometer_photo.JPG
-wikiurl: http://seeed.wiki/Grove-3-Axis_Analog_Accelerometer
+wikiurl: http://wiki.seeedstudio.com/cn/Grove-3-Axis_Analog_Accelerometer
 sku: 101020051
 tags: grove_i2c, io_3v3, io_5v, plat_duino, plat_linkit
 ---
@@ -30,7 +30,7 @@ ADXL335 是具有信号调节电压输出的轻薄，低功耗，完整功能的
 -   符合 RoHS/WEEE 无铅标准
 
 !!!Tip
-    关于 Grove 模块的更多信息请点击 [Grove System](http://seeed.wiki/Grove_System/)
+    关于 Grove 模块的更多信息请点击 [Grove System](http://wiki.seeedstudio.com/cn/Grove_System/)
 
 ## 创意应用
 -----------------

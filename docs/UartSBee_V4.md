@@ -4,7 +4,7 @@ category: Arduino
 bzurl: https://www.seeedstudio.com/UartSBee-V4-p-688.html
 oldwikiname: UartSBee V4
 prodimagename: Xbs4.jpg
-wikiurl: http://seeed.wiki/UartSBee_V4
+wikiurl: http://wiki.seeedstudio.com/cn/UartSBee_V4
 sku:  103990023
 ---
  ![](https://github.com/SeeedDocument/UartSBee_V4/raw/master/img//Xbs4.jpg)

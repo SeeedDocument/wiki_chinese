@@ -4,7 +4,7 @@ category: BeagleBone
 bzurl: https://www.seeedstudio.com/SeeedStudio-BeagleBone-Green-p-2504.html
 oldwikiname: BeagleBone_Green
 prodimagename: cover.jpg
-wikiurl: http://seeed.wiki/BeagleBone_Green
+wikiurl: http://wiki.seeedstudio.com/cn/BeagleBone_Green
 sku: 102010027
 ---
 

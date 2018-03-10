@@ -4,7 +4,7 @@ category: Raspberry Pi
 bzurl: https://seeedstudio.com/Raspberry-Pi-Breakout-Board-v1.0-p-2410.html
 oldwikiname: Raspberry_Pi_Breakout_Board_v1.0
 prodimagename: Raspberry_Pi_Breakout_Board_v1.0_p6.jpg
-wikiurl: http://seeed.wiki/Raspberry_Pi_Breakout_Board_v1.0
+wikiurl: http://wiki.seeedstudio.com/cn/Raspberry_Pi_Breakout_Board_v1.0
 sku: 103030030
 ---
 

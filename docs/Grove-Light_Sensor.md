@@ -4,7 +4,7 @@ category: Sensor
 bzurl: https://www.seeedstudio.com/Grove-Light-Sensor-(P)-v1.1-p-2693.html
 oldwikiname: Grove_-_Light_Sensor
 prodimagename: cover.jpg
-wikiurl: http://seeed.wiki/Grove-LED_String_Light/
+wikiurl: http://wiki.seeedstudio.com/cn/Grove-LED_String_Light/
 sku: 101020173
 ---
 
@@ -40,7 +40,7 @@ Grove-Light传感器集成了一个光电阻（依赖光强调整电阻）来检
 * 能够识别更广泛的频谱
 
 !!!Tip
-    关于Grove模块的更多细节请参考 [Grove System](http://seeed.wiki/Grove_System/)
+    关于Grove模块的更多细节请参考 [Grove System](http://wiki.seeedstudio.com/cn/Grove_System/)
 ### 支持平台
 
 

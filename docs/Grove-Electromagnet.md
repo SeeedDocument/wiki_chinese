@@ -4,7 +4,7 @@ category: Sensor
 bzurl: https://seeedstudio.com/Grove-Electromagnet-p-1820.html
 oldwikiname: Grove_-_Electromagnet
 prodimagename: Grove_Electromagnet_02.jpg
-wikiurl: http://seeed.wiki/Grove-Electromagnet
+wikiurl: http://wiki.seeedstudio.com/cn/Grove-Electromagnet
 sku: 101020073
 tags: grove_digital, io_5v, plat_duino, plat_wio
 ---
@@ -28,7 +28,7 @@ Electromagnet是一种通过电流产生磁场的磁体。 根据安培定律，
 -   待机电流比较低
 
 !!!Tip
-    关于Grove模块的更多细节请参考 [Grove System](http://seeed.wiki/Grove_System/)
+    关于Grove模块的更多细节请参考 [Grove System](http://wiki.seeedstudio.com/cn/Grove_System/)
 
 规格参数
 -------------

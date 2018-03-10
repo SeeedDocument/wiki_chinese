@@ -4,7 +4,7 @@ category: Wireless
 bzurl:  https://www.seeedstudio.com/LoRa-LoRaWAN-Gateway-868MHz-Kit-with-Raspberry-Pi-3-p-2823.html
 prodimagename:
 other: 
-wikiurl: http://seeed.wiki/LoRa_LoRaWan_Gateway_Kit
+wikiurl: http://wiki.seeedstudio.com/cn/LoRa_LoRaWan_Gateway_Kit
 sku: 110060622
 ---
 ![](https://github.com/SeeedDocument/LoRaWAN_Gateway-868MHz_Kit_with_Raspberry_Pi_3/raw/master/img/LoraWan%20Getway%20868MHz.jpg)

@@ -4,7 +4,7 @@ category: Sensor
 bzurl: https://www.seeedstudio.com/Grove-Temperature-Sensor-p-774.html
 oldwikiname: Grove - Temperature Sensor V1.2
 prodimagename: Grove_Temperature_Sensor_View.jpg
-wikiurl: http://seeed.wiki/Grove-Temperature_Sensor_V1.2
+wikiurl: http://wiki.seeedstudio.com/cn/Grove-Temperature_Sensor_V1.2
 sku: 101020015
 tags: io_3v3, io_5v, plat_duino
 ---
@@ -26,7 +26,7 @@ Grove - Temperature Sensor使用[热敏电阻](https://github.com/SeeedDocument/
 - 标称B常数： 4250 ~ 4299K
 
 !!!Tip
-    关于Grove模块的更多细节请参考 [Grove System](http://seeed.wiki/Grove_System/)
+    关于Grove模块的更多细节请参考 [Grove System](http://wiki.seeedstudio.com/cn/Grove_System/)
 
 ## 入门指导
 ---
@@ -39,7 +39,7 @@ Grove - Temperature Sensor使用[热敏电阻](https://github.com/SeeedDocument/
 - Seeeduino v4.2
 
 Seeeduino V4.2与Arduino是完全兼容的。如果这是您第一次使用Arduino，请参阅 [这里](
-http://seeed.wiki/Getting_Started_with_Seeeduino/)开始您的Arduino旅程。
+http://wiki.seeedstudio.com/cn/Getting_Started_with_Seeeduino/)开始您的Arduino旅程。
 
 **硬件连接**
 

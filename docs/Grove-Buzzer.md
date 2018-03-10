@@ -4,7 +4,7 @@ category: Actuator
 bzurl: https://www.seeedstudio.com/Grove-Buzzer-p-768.html
 oldwikiname: Grove - Buzzer
 prodimagename: Grove%20Buzzer.jpg
-wikiurl: http://seeed.wiki/Grove-Buzzer/
+wikiurl: http://wiki.seeedstudio.com/cn/Grove-Buzzer/
 sku: 107020000
 ---
 
@@ -22,7 +22,7 @@ sku: 107020000
 - 使用标准的 4 针 Grove 连接线连接到其他 Grove 模块，例如 -Grove Power Modules 和 Grove - Base Shield
 
 !!!Tip
-    关于Grove模块的更多细节请参考 [Grove System](http://seeed.wiki/Grove_System/)
+    关于Grove模块的更多细节请参考 [Grove System](http://wiki.seeedstudio.com/cn/Grove_System/)
 
 ## 规格参数
 ---

@@ -4,7 +4,7 @@ category: Communication
 bzurl: https://seeedstudio.com/Grove-NFC-p-1804.html
 oldwikiname: Grove_-_NFC
 prodimagename: Grove-NFC_01.jpg
-wikiurl: http://seeed.wiki/Grove-NFC
+wikiurl: http://wiki.seeedstudio.com/cn/Grove-NFC
 sku: 113020006
 tags: grove_i2c, io_3v3, io_5v, plat_duino, plat_linkit
 ---
@@ -39,7 +39,7 @@ tags: grove_i2c, io_3v3, io_5v, plat_duino, plat_linkit
 -   外形尺寸: 25.43mm x 20.35mm。
 
 !!!Tip
-     关于 Grove 模块的更多信息请点击 [Grove System](http://seeed.wiki/Grove_System/)
+     关于 Grove 模块的更多信息请点击 [Grove System](http://wiki.seeedstudio.com/cn/Grove_System/)
 
 ## Platforms Supported
 -------------------

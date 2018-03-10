@@ -4,7 +4,7 @@ category: Respeaker
 bzurl: https://www.seeedstudio.com/ReSpeaker-4-Mic-Array-for-Raspberry-Pi-p-2941.html
 oldwikiname:
 prodimagename:
-wikiurl: https://seeed.wiki/Respeaker_4-Mics_Pi_HAT
+wikiurl: https://wiki.seeedstudio.com/cn/Respeaker_4-Mics_Pi_HAT
 sku: 103030216
 ---
 

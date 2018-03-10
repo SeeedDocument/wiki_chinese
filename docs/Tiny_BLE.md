@@ -4,7 +4,7 @@ category: mbed
 bzurl: https://www.seeedstudio.com/Seeed-Tiny-BLE-BLE-%2B-6DOF-Mbed-Platform-p-2268.html
 oldwikiname:  Tiny BLE
 prodimagename:  BLE_Smurfs_Photo.png
-wikiurl: http://seeed.wiki/Tiny_BLE
+wikiurl: http://wiki.seeedstudio.com/cn/Tiny_BLE
 sku: 102080005
 ---
 

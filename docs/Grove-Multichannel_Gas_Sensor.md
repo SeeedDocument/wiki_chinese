@@ -4,7 +4,7 @@ category: Sensor
 bzurl: https://seeedstudio.com/Grove-Multichannel-Gas-Sensor-p-2502.html
 oldwikiname: Grove_-_Multichannel_Gas_Sensor
 prodimagename: Multi_sensor1.png
-wikiurl: http://seeed.wiki/Grove-Multichannel_Gas_Sensor
+wikiurl: http://wiki.seeedstudio.com/cn/Grove-Multichannel_Gas_Sensor
 sku: 101020088
 tags: grove_i2c, io_3v3, io_5v, plat_duino, plat_linkit, plat_wio
 ---
@@ -167,10 +167,10 @@ Arduino, linkit, wio
 **上传代码:**
 
 
-如果您是第一次安装Arduino库文件，请点击 [这里](http://seeed.wiki/How_to_install_Arduino_Library/) 查看库文件的安装方法。
+如果您是第一次安装Arduino库文件，请点击 [这里](http://wiki.seeedstudio.com/cn/How_to_install_Arduino_Library/) 查看库文件的安装方法。
 
 
-如果您不清楚怎么下载代码到您的板子里，请点击 [这里](http://seeed.wiki/Upload_Code/)。
+如果您不清楚怎么下载代码到您的板子里，请点击 [这里](http://wiki.seeedstudio.com/cn/Upload_Code/)。
 
 2.下载 [Arduino Library & Grove/Xadow firmware](https://github.com/Seeed-Studio/Mutichannel_Gas_Sensor/archive/master.zip) 然后添加到Arduino库文件中。
 
@@ -257,7 +257,7 @@ void loop()
 ![](https://raw.githubusercontent.com/SeeedDocument/Grove-Multichannel_Gas_Sensor/master/img/Mutichannel_Gas_Sensor_Grove_Print.jpg)
 
 !!!tip
-    - 更多的关于Grove模块的信息请点击参考 [Grove System](http://seeed.wiki/Grove_System/)
+    - 更多的关于Grove模块的信息请点击参考 [Grove System](http://wiki.seeedstudio.com/cn/Grove_System/)
 
 更新固件
 -----------------

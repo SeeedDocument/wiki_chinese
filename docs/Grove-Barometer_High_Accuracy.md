@@ -4,7 +4,7 @@ category: Sensor
 bzurl: https://seeedstudio.com/Grove-Barometer-(High-Accuracy)-p-1865.html
 oldwikiname: Grove_-_Barometer_(High-Accuracy)
 prodimagename: Grove-Barometer-High-Accuracy.jpg
-wikiurl: http://seeed.wiki/Grove-Barometer-High-Accuracy
+wikiurl: http://wiki.seeedstudio.com/cn/Grove-Barometer-High-Accuracy
 sku: 101020068
 tags: grove_i2c, io_3v3, io_5v, plat_duino, plat_linkit
 ---
@@ -30,7 +30,7 @@ tags: grove_i2c, io_3v3, io_5v, plat_duino, plat_linkit
 - 能够进行温度测量
 
 !!!Tip
-    关于Grove模块的更多细节请参考 [Grove System](http://seeed.wiki/Grove_System/)
+    关于Grove模块的更多细节请参考 [Grove System](http://wiki.seeedstudio.com/cn/Grove_System/)
 
 创意应用
 -----------------

@@ -4,7 +4,7 @@ category: Sensor
 bzurl: https://seeedstudio.com/Grove-Digital-Infrared-Temperature-Sensor-p-2385.html
 oldwikiname: Grove_-_Digital_Infrared_Temperature_Sensor
 prodimagename: Grove－Digital_Infrared_Temperature_Sensor_4.jpg)
-wikiurl: http://seeed.wiki/Grove-Digital_Infrared_Temperature_Sensor
+wikiurl: http://wiki.seeedstudio.com/cn/Grove-Digital_Infrared_Temperature_Sensor
 sku: 101020077
 tags: grove_i2c, io_3v3, io_5v, plat_duino, plat_linkit
 ---
@@ -155,7 +155,7 @@ mm
 现在，您可以使用该传感器测量目标物体的温度。根据我们的实验，将传感器放置在室内正常温度下，确保传感器 1M 范围前面没有任何热量来源。物体温度将近似等于环境温度。当测量物体温度时，应确保物体尽可能靠近传感器，但不要接触传感器的表面，我们建议距离小于 3cm。祝你测试愉快。
 
 !!!Tip
-     关于 Grove 模块的更多信息请点击 [Grove System](http://seeed.wiki/Grove_System/)
+     关于 Grove 模块的更多信息请点击 [Grove System](http://wiki.seeedstudio.com/cn/Grove_System/)
 
 资源下载
 --------

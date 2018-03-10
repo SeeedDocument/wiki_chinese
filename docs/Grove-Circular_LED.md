@@ -4,7 +4,7 @@ category: Display
 bzurl: https://www.seeedstudio.com/Grove-Circular-LED-p-1353.html
 oldwikiname:  Grove - Circular LED
 prodimagename: Circular_LED.jpg
-wikiurl: http://seeed.wiki/Grove-Circular_LED
+wikiurl: http://wiki.seeedstudio.com/cn/Grove-Circular_LED
 sku:  104030013
 ---
 ![](https://github.com/SeeedDocument/Grove-Circular_LED/raw/master/img/Circular_LED.jpg)
@@ -87,11 +87,11 @@ sku:  104030013
 
 ### 软件
 
-请下载 [CircularLED 库](https://github.com/SeeedDocument/Grove-Circular_LED/raw/master/res/CircularLED.zip) 然后使用 CircularLED example 测试这个模块。您可以点击 [这里](http://seeed.wiki/Upload_Code/) 来查看如何上传代码到控制器。
+请下载 [CircularLED 库](https://github.com/SeeedDocument/Grove-Circular_LED/raw/master/res/CircularLED.zip) 然后使用 CircularLED example 测试这个模块。您可以点击 [这里](http://wiki.seeedstudio.com/cn/Upload_Code/) 来查看如何上传代码到控制器。
 
  ![](https://github.com/SeeedDocument/Grove-Circular_LED/raw/master/img/Circular_LED_shining.gif)
 
- 请点击 [Grove-Encoder](http://seeed.wiki/Grove-Encoder/) 来学习更多关于此例程的相关资料。
+ 请点击 [Grove-Encoder](http://wiki.seeedstudio.com/cn/Grove-Encoder/) 来学习更多关于此例程的相关资料。
 
 ## 资源下载
 ---

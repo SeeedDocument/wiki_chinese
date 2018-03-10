@@ -4,7 +4,7 @@ category: Raspberry Pi
 bzurl: https://www.seeedstudio.com/Seeedstudio-Raspberry-Pi-Zero-W-with-Official-Case-p-2965.html
 oldwikiname:
 prodimagename:
-wikiurl: http://seeed.wiki/Raspberry_Pi_Zero_W_with_Official_Case
+wikiurl: http://wiki.seeedstudio.com/cn/Raspberry_Pi_Zero_W_with_Official_Case
 sku: 110991026
 ---
 

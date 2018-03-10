@@ -4,7 +4,7 @@ category: Actuator
 bzurl: https://www.seeedstudio.com/Grove-Mini-Fan-p-1819.html
 oldwikiname:  Grove - Mini Fan
 prodimagename: Mini_Fan%20head.jpg
-wikiurl: http://seeed.wiki/Grove-Mini_Fan
+wikiurl: http://wiki.seeedstudio.com/cn/Grove-Mini_Fan
 sku:  105020004
 ---
 

@@ -4,7 +4,7 @@ category: Actuator
 bzurl: https://www.seeedstudio.com/Grove-Solid-State-Relay-p-1359.html
 oldwikiname: Grove - Solid State Relay
 prodimagename: Grove_Solid_State_Relay_1.jpg
-wikiurl: http://seeed.wiki/Grove-Solid_State_Relay
+wikiurl: http://wiki.seeedstudio.com/cn/Grove-Solid_State_Relay
 sku: 103020004
 ---
 ![](https://github.com/SeeedDocument/Grove-Solid_State_Relay/raw/master/img/Grove_Solid_State_Relay_1.jpg)

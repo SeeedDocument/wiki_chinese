@@ -4,7 +4,7 @@ category: Sensor
 bzurl: https://seeedstudio.com/Grove-EMG-Detector-p-1737.html
 oldwikiname: Grove_-_EMG_Detector
 prodimagename: Emg_product.jpg
-wikiurl: http://seeed.wiki/Grove-EMG_Detector
+wikiurl: http://wiki.seeedstudio.com/cn/Grove-EMG_Detector
 sku: 101020058
 tags: grove_analog, io_3v3, io_5v, plat_duino, plat_linkit
 ---
@@ -34,7 +34,7 @@ tags: grove_analog, io_3v3, io_5v, plat_duino, plat_linkit
 - 无需额外的电源
 
 !!!Tip
-    关于Grove模块的更多细节请参考 [Grove System](http://seeed.wiki/Grove_System/)
+    关于Grove模块的更多细节请参考 [Grove System](http://wiki.seeedstudio.com/cn/Grove_System/)
 
 Platforms Supported
 -------------------
@@ -72,7 +72,7 @@ Platforms Supported
 [这里](https://github.com/Seeed-Studio/Grove_EMG_detector_demo_code/)，然后将其解压到任何地方。
 
 然后将代码上传到 Seeeduino，如果您对代码上传有任何问题，请参阅
-  [Seeeduino入门](http://seeed.wiki/Getting_Started_with_Seeeduino/)
+  [Seeeduino入门](http://wiki.seeedstudio.com/cn/Getting_Started_with_Seeeduino/)
 
 ![](https://raw.githubusercontent.com/SeeedDocument/Grove-EMG_Detector/master/img/Emg_ide.png)
 

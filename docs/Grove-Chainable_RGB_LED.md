@@ -3,7 +3,7 @@ title: Grove - Chainable RGB LED
 category: Actuator
 bzurl: https://seeedstudio.com/Grove-Chainable-RGB-LED-p-850.html
 oldwikiname: Grove_-_Chainable_RGB_LED
-wikiurl: http://seeed.wiki/Grove-Chainable_RGB_LED
+wikiurl: http://wiki.seeedstudio.com/cn/Grove-Chainable_RGB_LED
 sku: 104030006
 tags: grove_digital, io_3v3, io_5v, plat_duino, plat_linkit, plat_bbg
 ---
@@ -33,7 +33,7 @@ tags: grove_digital, io_3v3, io_5v, plat_duino, plat_linkit, plat_bbg
 - 通讯协议：串口
 
 !!!Tip
-    关于Grove模块的更多细节请参考 [Grove System](http://seeed.wiki/Grove_System/)
+    关于Grove模块的更多细节请参考 [Grove System](http://wiki.seeedstudio.com/cn/Grove_System/)
 
 Platforms Supported
 -------------------
@@ -48,7 +48,7 @@ Platforms Supported
  要完成此演示，您可以使用一个或多个 Grove - Chainable RGB LED。 请注意，一个Grove - Chainable RGB LED的 **IN** 接口应连接到 [Grove - Base Shield](https://item.taobao.com/item.htm?spm=a1z10.3-c.w4002-11172317909.10.3ff19e11crrag2&id=520233320144)的 **D7 / D8**，其 **OUT** 接口连接到另一个 Grove - Chainable RGB LED 的 **IN** 接口，这样可以连接更多的 LED。
 
 
-- 下载 [Chainable LED 库](https://github.com/pjpmarques/ChainableLED) 并将其安装到 Arduino 库。 如果您是第一次安装 Arduino 库文件，请点击 [这里](http://seeed.wiki/How_to_install_Arduino_Library/) 查看库文件的安装方法。
+- 下载 [Chainable LED 库](https://github.com/pjpmarques/ChainableLED) 并将其安装到 Arduino 库。 如果您是第一次安装 Arduino 库文件，请点击 [这里](http://wiki.seeedstudio.com/cn/How_to_install_Arduino_Library/) 查看库文件的安装方法。
 - 通过路径打开示例 CycleThroughColors：**File（文件）-> Examples（示例）-> ChainableLED_master** 并将其上传到 Seeeduino。
 
 ```

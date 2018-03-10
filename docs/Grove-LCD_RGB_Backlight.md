@@ -4,7 +4,7 @@ category: Display
 bzurl: https://www.seeedstudio.com/Grove-LCD-RGB-Backlight-p-1643.html
 oldwikiname: Grove_-_LCD_RGB_Backlight
 prodimagename: intro.jpg
-wikiurl: http://seeed.wiki/Grove-LCD_RGB_Backlight/
+wikiurl: http://wiki.seeedstudio.com/cn/Grove-LCD_RGB_Backlight/
 sku: 104030001
 ---
 
@@ -31,7 +31,7 @@ sku: 104030001
 * 16x2 LCD背光屏
 
 !!!Tip
-    关于Grove模块的更多细节请参考 [Grove System](http://seeed.wiki/Grove_System/)
+    关于Grove模块的更多细节请参考 [Grove System](http://wiki.seeedstudio.com/cn/Grove_System/)
 
 ## 产品特性
 
@@ -74,7 +74,7 @@ sku: 104030001
 您需要下载该库并安装到您的Arduino IDE。
 
 
-如果您是第一次安装Arduino库文件，请点击 [这里](http://seeed.wiki/How_to_install_Arduino_Library/) 查看库文件的安装方法，并且完成 LCD RGB Backlight 库的安装。
+如果您是第一次安装Arduino库文件，请点击 [这里](http://wiki.seeedstudio.com/cn/How_to_install_Arduino_Library/) 查看库文件的安装方法，并且完成 LCD RGB Backlight 库的安装。
 
 [![enter image description here](https://raw.githubusercontent.com/SeeedDocument/Grove_LCD_RGB_Backlight/master/images/library.png)](https://github.com/Seeed-Studio/Grove_LCD_RGB_Backlight/archive/master.zip)
 
@@ -92,7 +92,7 @@ sku: 104030001
 
 您可以在Github中下载演示代码，点击 [这里](https://github.com/Seeed-Studio/Grove_LCD_RGB_Backlight)，然后将其解压缩到任何地方。
 
-如果您这个步骤有问题，请参阅 [Arduino入门指导](http://seeed.wiki/Getting_Started_with_Seeeduino/) 在库中有一个Hello World示例，将其打开并上传到Seeeduino V4.2。 然后可以在第一行看到“Hello world”，第二行将显示从复位后显示时间的秒数。
+如果您这个步骤有问题，请参阅 [Arduino入门指导](http://wiki.seeedstudio.com/cn/Getting_Started_with_Seeeduino/) 在库中有一个Hello World示例，将其打开并上传到Seeeduino V4.2。 然后可以在第一行看到“Hello world”，第二行将显示从复位后显示时间的秒数。
 
 ![// image 1](https://raw.githubusercontent.com/SeeedDocument/Grove_LCD_RGB_Backlight/master/images/2.png)
 

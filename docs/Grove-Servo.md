@@ -4,7 +4,7 @@ category: Actuator
 bzurl: https://www.seeedstudio.com/Grove-Servo-p-1241.html
 oldwikiname:  Grove - Servo
 prodimagename: Grove—Servo.jpg
-wikiurl: http://seeed.wiki/Grove-Servo
+wikiurl: http://wiki.seeedstudio.com/cn/Grove-Servo
 sku:  316010005
 tags: grove_i2c, io_5v, plat_duino, plat_linkit
 

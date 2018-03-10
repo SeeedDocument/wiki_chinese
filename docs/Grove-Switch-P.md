@@ -4,7 +4,7 @@ category: Sensor
 bzurl: https://seeedstudio.com/Grove-Switch(P)-p-1252.html
 oldwikiname: Grove_-_Switch(P)
 prodimagename: GroveSwitchP_01.jpg
-wikiurl: http://seeed.wiki/Grove-Switch-P
+wikiurl: http://wiki.seeedstudio.com/cn/Grove-Switch-P
 sku: 101020004
 tags: grove_digital, io_3v3, io_5v, plat_duino, plat_linkit, plat_pi, plat_bbg
 ---
@@ -30,7 +30,7 @@ tags: grove_digital, io_3v3, io_5v, plat_duino, plat_linkit, plat_pi, plat_bbg
 - 基础 Grove 部件
 
 !!!Tip
-    关于Grove模块的更多细节请参考 [Grove System](http://seeed.wiki/Grove_System/)
+    关于Grove模块的更多细节请参考 [Grove System](http://wiki.seeedstudio.com/cn/Grove_System/)
 
 支持平台
 -------------------

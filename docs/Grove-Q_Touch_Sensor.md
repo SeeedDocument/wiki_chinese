@@ -4,7 +4,7 @@ category: Sensor
 bzurl: https://seeedstudio.com/Grove-Q-Touch-Sensor-p-1854.html
 oldwikiname: Grove_-_Q_Touch_Sensor
 prodimagename: Grove-Q_Touch_Sensor.jpg
-wikiurl: http://seeed.wiki/Grove-Q_Touch_Sensor
+wikiurl: http://wiki.seeedstudio.com/cn/Grove-Q_Touch_Sensor
 sku: 101020069
 tags: grove_i2c, io_3v3, io_5v, plat_duino
 ---
@@ -25,7 +25,7 @@ Grove-Q Touch Sensor 是高灵敏度和高抗噪声触摸输入设备。 它基�
 - I2C地址：0x1B
 
 !!!Tip
-    关于Grove模块的更多细节请参考 [Grove System](http://seeed.wiki/Grove_System/)
+    关于Grove模块的更多细节请参考 [Grove System](http://wiki.seeedstudio.com/cn/Grove_System/)
 
 支持平台
 -------------------

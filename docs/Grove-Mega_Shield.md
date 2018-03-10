@@ -4,7 +4,7 @@ category: Wireless
 bzurl: https://www.seeedstudio.com/Grove-Mega-Shield-v12-p-2539.html
 oldwikiname:  Grove - Mega Shield
 prodimagename: 500px-Megashieldn1_03.jpg
-wikiurl: http://seeed.wiki/Grove-Mega_Shield
+wikiurl: http://wiki.seeedstudio.com/cn/Grove-Mega_Shield
 sku:   103020027
 ---
 ![](https://github.com/SeeedDocument/Grove-Mega_Shield/raw/master/img/500px-Megashieldn1_03.jpg)

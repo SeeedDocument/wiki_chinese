@@ -4,7 +4,7 @@ category: Shield
 bzurl: https://seeedstudio.com/NFC-Shield-V2.0-p-1370.html
 oldwikiname: NFC_Shield_V2.0
 prodimagename: NFC_front.png
-wikiurl: http://seeed.wiki/NFC_Shield_V2_0
+wikiurl: http://wiki.seeedstudio.com/cn/NFC_Shield_V2_0
 sku: 113030001
 ---
 

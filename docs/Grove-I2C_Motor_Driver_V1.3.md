@@ -4,7 +4,7 @@ category: Actuator
 bzurl: https://www.seeedstudio.com/Grove-I2C-Motor-Driver-p-907.html
 oldwikiname: Grove_-_I2C_Motor_Driver_V1.3
 prodimagename: I2CMotorDriver_New.jpg
-wikiurl: http://seeed.wiki/Grove-Mini_I2C_Motor_Driver_v1.0/
+wikiurl: http://wiki.seeedstudio.com/cn/Grove-Mini_I2C_Motor_Driver_v1.0/
 sku: 105020001
 tags: grove_i2c, io_3v3, io_5v, plat_duino, plat_linkit, plat_pi, plat_wio
 ---
@@ -36,7 +36,7 @@ Grove - I2C Motor Driver V1.3（最新版本）可以直接控制步进电机或
 -   硬件可更改从站地址
 
 !!!Tip
-    关于Grove模块的更多细节请参考 [Grove System](http://seeed.wiki/Grove_System/)
+    关于Grove模块的更多细节请参考 [Grove System](http://wiki.seeedstudio.com/cn/Grove_System/)
 
   规格参数
 --------------
@@ -160,7 +160,7 @@ I2C
 I2C Motor Driver 可以控制基于芯片 L298 的电机。 L298 不仅是双电机驱动器，它是双 H 桥。  h 桥基本上是一个特定的晶体管设置，允许您切换电流方向。 连接电机意味着您可以沿双向旋转; 通过 PWM 输入，您可以使用 Arduino 以任意速度旋转。 因为 L298 有2个 H 桥，所以你可以通过在不同的方向上旋转每个轮子来使机器人转动，当然也可以向前和向后旋转。
 
 ###  1. 安装库
-- 如果您是第一次安装Arduino库文件，请点击 [这里](http://seeed.wiki/How_to_install_Arduino_Library/) 查看库文件的安装方法。
+- 如果您是第一次安装Arduino库文件，请点击 [这里](http://wiki.seeedstudio.com/cn/How_to_install_Arduino_Library/) 查看库文件的安装方法。
 
 直接运行命令或或者下载[zip 文件](https://github.com/Seeed-Studio/Grove_I2C_Motor_Driver_v1_3/archive/master.zip)
 

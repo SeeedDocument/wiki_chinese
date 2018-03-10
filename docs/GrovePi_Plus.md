@@ -4,7 +4,7 @@ category: Raspberry Pi
 bzurl: https://www.seeedstudio.com/GrovePi%2B-p-2241.html
 oldwikiname:  GrovePi+
 prodimagename:  GrovePi_Wiki_1.JPG
-wikiurl: http://seeed.wiki/GrovePi_plus
+wikiurl: http://wiki.seeedstudio.com/cn/GrovePi_plus
 sku:     103010002
 ---
 ![](https://github.com/SeeedDocument/GrovePi_Plus/raw/master/img/110060049%2010_02.jpg)
@@ -88,29 +88,29 @@ git clone https://github.com/DexterInd/GrovePi.git
 ---
 ###   Grove 系列零件
 
-*   [1. Grove - Button ](http://seeed.wiki/Grove-Button/)
+*   [1. Grove - Button ](http://wiki.seeedstudio.com/cn/Grove-Button/)
 
-*   [2. Light Sensor](http://seeed.wiki/Grove-Light_Sensor/)
+*   [2. Light Sensor](http://wiki.seeedstudio.com/cn/Grove-Light_Sensor/)
 
-*   [3. Buzzer](http://seeed.wiki/Grove-Buzzer/)
+*   [3. Buzzer](http://wiki.seeedstudio.com/cn/Grove-Buzzer/)
 
-*   [4. Sound Sensor ](http://seeed.wiki/Grove-Sound_Sensor/)
+*   [4. Sound Sensor ](http://wiki.seeedstudio.com/cn/Grove-Sound_Sensor/)
 
-*   [5. Grove - Red LED ](http://seeed.wiki/Grove-Red_LED/)
+*   [5. Grove - Red LED ](http://wiki.seeedstudio.com/cn/Grove-Red_LED/)
 
-*   [6. Grove - Blue LED ](http://seeed.wiki/Grove-Red_LED/)
+*   [6. Grove - Blue LED ](http://wiki.seeedstudio.com/cn/Grove-Red_LED/)
 
-*   [7. Grove - Green LED ](http://seeed.wiki/Grove-Red_LED/)
+*   [7. Grove - Green LED ](http://wiki.seeedstudio.com/cn/Grove-Red_LED/)
 
-*   [8. LCD RGB Backlight ](http://seeed.wiki/Grove-LCD_RGB_Backlight/)
+*   [8. LCD RGB Backlight ](http://wiki.seeedstudio.com/cn/Grove-LCD_RGB_Backlight/)
 
-*   [9. Rotary Angle Sensor ](http://seeed.wiki/Grove-Rotary_Angle_Sensor/)
+*   [9. Rotary Angle Sensor ](http://wiki.seeedstudio.com/cn/Grove-Rotary_Angle_Sensor/)
 
-*   [10. Temperature Humidity Sensor ](http://seeed.wiki/Grove-Temperature_and_Humidity_Sensor/)
+*   [10. Temperature Humidity Sensor ](http://wiki.seeedstudio.com/cn/Grove-Temperature_and_Humidity_Sensor/)
 
-*   [11. Ultrasonic Ranger Sensor](http://seeed.wiki/Grove-Ultrasonic_Ranger/)
+*   [11. Ultrasonic Ranger Sensor](http://wiki.seeedstudio.com/cn/Grove-Ultrasonic_Ranger/)
 
-*   [12. Relay](http://seeed.wiki/Grove-Relay/)
+*   [12. Relay](http://wiki.seeedstudio.com/cn/Grove-Relay/)
 
 
 ## 资源下载

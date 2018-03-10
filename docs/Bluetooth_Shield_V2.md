@@ -4,7 +4,7 @@ category: Shield
 bzurl: https://www.seeedstudio.com/Bluetooth-Shield-V2-p-2416.html
 oldwikiname: Bluetooth Shield V2.0
 prodimagename: Bluetooth_Shiled_v2.JPG
-wikiurl: http://seeed.wiki/Bluetooth_Shield_V2
+wikiurl: http://wiki.seeedstudio.com/cn/Bluetooth_Shield_V2
 sku:  113030019
 ---
 
@@ -85,7 +85,7 @@ Bluetooth Shield 集成了一个串行蓝牙模块。 它可以很方便地与 A
 
 3.  点击 **文件 -&gt; 示例 -&gt; Bluetooth_Shield_V2_Demo_Code -&gt; Slave_led**，打开从机示例代码。点击 **上传** 按钮把代码上传到从机开发板。
 
-4.  如果您对使用 Arduino 有任何困难，请点击 [这里](http://seeed.wiki/Getting_Started_with_Seeeduino/) 获取帮助。
+4.  如果您对使用 Arduino 有任何困难，请点击 [这里](http://wiki.seeedstudio.com/cn/Getting_Started_with_Seeeduino/) 获取帮助。
 
 ![](https://github.com/SeeedDocument/Bluetooth_Shield_V2/raw/master/img/Bluetooth_ide_1.jpg)
 

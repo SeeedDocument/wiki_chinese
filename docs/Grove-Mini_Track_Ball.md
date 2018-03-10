@@ -4,7 +4,7 @@ category: Sensor
 bzurl: https://seeedstudio.com/Grove-Mini-Track-Ball-p-2586.html
 oldwikiname: Grove_-_Mini_Track_Ball
 prodimagename: Grove-Mini_Track_ball.jpg
-wikiurl: http://seeed.wiki/Grove-Mini_Track_Ball
+wikiurl: http://wiki.seeedstudio.com/cn/Grove-Mini_Track_Ball
 sku: 101020091
 ---
 
@@ -23,7 +23,7 @@ Grove - Mini Track ball 将为您的应用提供一个实用的运动跟踪功�
 -   强大的 MCU 能够丰富您的应用程序。
 
 !!!Tip
-    关于Grove模块的更多细节请参考 [Grove System](http://seeed.wiki/Grove_System/)
+    关于Grove模块的更多细节请参考 [Grove System](http://wiki.seeedstudio.com/cn/Grove_System/)
 
 创意应用
 -----------------

@@ -4,7 +4,7 @@ category: Arduino
 bzurl: https://www.seeedstudio.com/Seeeduino-Lite-p-1487.html
 oldwikiname:   Seeeduino Lite
 prodimagename:  Seeeduino_ethernet-2.jpg
-wikiurl: http://seeed.wiki/Seeeduino_Lite
+wikiurl: http://wiki.seeedstudio.com/cn/Seeeduino_Lite
 sku:   102010008
 ---
 ![](https://raw.githubusercontent.com/SeeedDocument/Seeeduino_Lite/master/image/400px-Lite_01.jpg)

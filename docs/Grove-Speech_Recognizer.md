@@ -4,7 +4,7 @@ category: Sensor
 bzurl: https://www.seeedstudio.com/Grove-Speech-Recognizer-p-2708.html
 oldwikiname:
 prodimagename: cover.png
-wikiurl: http://seeed.wiki/Grove_Voice_Recognizer
+wikiurl: http://wiki.seeedstudio.com/cn/Grove_Voice_Recognizer
 sku: 101020232
 ---
 
@@ -48,7 +48,7 @@ Nuvoton ISD9160 是基于 Cortex™-M0 的 (SoC) Chipcorder，它为语音控制
 * 默认波特率 : 9600
 
 !!!Tip
-    关于 Grove 模块的更多信息请点击 [Grove System](http://seeed.wiki/Grove_System/)
+    关于 Grove 模块的更多信息请点击 [Grove System](http://wiki.seeedstudio.com/cn/Grove_System/)
 
 
 ## Platform Support

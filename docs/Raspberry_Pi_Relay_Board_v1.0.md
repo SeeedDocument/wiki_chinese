@@ -4,7 +4,7 @@ category: Raspberry Pi
 bzurl: https://seeedstudio.com/Raspberry-Pi-Relay-Board-v1.0-p-2409.html
 oldwikiname: Raspberry_Pi_Relay_Board_v1.0
 prodimagename: Raspberry_Pi_Relay_Board_v1.0.jpg
-wikiurl: http://seeed.wiki/Raspberry_Pi_Relay_Board_v1_0
+wikiurl: http://wiki.seeedstudio.com/cn/Raspberry_Pi_Relay_Board_v1_0
 sku: 103030029
 ---
 

@@ -4,7 +4,7 @@ category: MakerPro
 bzurl: https://www.seeedstudio.com/Mini%C2%A0Soldering%C2%A0Iron%C2%A0Deluxe%C2%A0Kit%C2%A0US%C2%A0Standard-p-2593.html?ref=newInBazaar
 oldwikiname:  Mini Soldering Iron
 prodimagename:  Mini_Soldering_Iron_product_view.jpg
-wikiurl: http://seeed.wiki/Mini_Soldering_Iron
+wikiurl: http://wiki.seeedstudio.com/cn/Mini_Soldering_Iron
 sku:  110060182
 ---
 ![](https://github.com/SeeedDocument/Mini_Soldering_Iron/raw/master/img/Mini_Soldering_Iron_product_view.jpg)

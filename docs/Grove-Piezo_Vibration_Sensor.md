@@ -4,7 +4,7 @@ category: Sensor
 bzurl: https://seeedstudio.com/Grove-Piezo-Vibration-Sensor-p-1411.html
 oldwikiname: Grove_-_Piezo_Vibration_Sensor
 prodimagename: Grove-Piezo_Vibration_Sensor-1.jpg
-wikiurl: http://seeed.wiki/Grove-Piezo_Vibration_Sensor
+wikiurl: http://wiki.seeedstudio.com/cn/Grove-Piezo_Vibration_Sensor
 sku: 101020031
 tags: grove_analog, io_3v3, io_5v, plat_duino, plat_pi
 ---
@@ -26,7 +26,7 @@ Grove - Piezo Vibration传感器适用于弹性，振动，冲击和触感的测
 -   高度感知强烈冲击
 
 !!!Tip
-    更多关于Grove的信息请点击 [Grove System](http://seeed.wiki/Grove_System/)
+    更多关于Grove的信息请点击 [Grove System](http://wiki.seeedstudio.com/cn/Grove_System/)
 
 ## 平台支持
 -------------------
@@ -135,7 +135,7 @@ void loop() {
 |![enter image description here](https://github.com/SeeedDocument/Grove-Temperature_and_Humidity_Sensor_Pro/raw/master/img/pi.jpg)|![enter image description here](https://github.com/SeeedDocument/Grove-Piezo_Vibration_Sensor/raw/master/img/Piezo%20vibration%20sensor_s.jpg)|![enter image description here](https://github.com/SeeedDocument/Grove-Temperature_and_Humidity_Sensor_Pro/raw/master/img/grovepi%2B.jpg)|
 |[马上订购](https://item.taobao.com/item.htm?spm=a1z10.3-c.w4002-11172317909.9.5e478797F03vQV&id=528322046763)|[马上订购](https://item.taobao.com/item.htm?spm=a1z10.5-c.w4002-11172345288.14.65ebe8d8M8ajJY&id=45490731880)|[马上订购](https://item.taobao.com/item.htm?spm=a1z10.3-c.w4002-11172317909.9.5e4787971UMLf1&id=45506190895)|
 
-- 根据 [指南](http://seeed.wiki/GrovePi_Plus/) 来配置开发环境。
+- 根据 [指南](http://wiki.seeedstudio.com/cn/GrovePi_Plus/) 来配置开发环境。
 - 通过Grove线缆将传感器连接到grovepi+ 扩展板的 A0 端口。
 
 ![](https://github.com/SeeedDocument/Grove-Piezo_Vibration_Sensor/raw/master/img/grove%20connection.jpg)

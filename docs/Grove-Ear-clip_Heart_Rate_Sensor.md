@@ -4,7 +4,7 @@ category: Sensor
 bzurl: https://seeedstudio.com/Grove-Ear-clip-Heart-Rate-Sensor-p-1116.html
 oldwikiname: Grove_-_Ear-clip_Heart_Rate_Sensor
 prodimagename: Heart_rate_ear_clip_kit.jpg
-wikiurl: http://seeed.wiki/Grove-Ear-clip_Heart_Rate_Sensor
+wikiurl: http://wiki.seeedstudio.com/cn/Grove-Ear-clip_Heart_Rate_Sensor
 sku: 101020033
 tags: grove_digital, io_3v3, io_5v, plat_duino, plat_pi, plat_bbg
 ---
@@ -24,7 +24,7 @@ tags: grove_digital, io_3v3, io_5v, plat_duino, plat_pi, plat_bbg
 - 完全符合RoHS标准
 
 !!!Tip
-    关于Grove模块的更多细节请参考 [Grove System](http://seeed.wiki/Grove_System/)
+    关于Grove模块的更多细节请参考 [Grove System](http://wiki.seeedstudio.com/cn/Grove_System/)
 
 规格参数
 -------------

@@ -4,7 +4,7 @@ category: Sensor
 bzurl: https://seeedstudio.com/Grove-Flame-Sensor-p-1450.html
 oldwikiname: Grove_-_Flame_Sensor
 prodimagename: Flame_Sensor_01.jpg
-wikiurl: http://seeed.wiki/Grove-Flame_Sensor
+wikiurl: http://wiki.seeedstudio.com/cn/Grove-Flame_Sensor
 sku: 101020049
 tags: grove_digital, io_5v, plat_duino, plat_linkit
 ---
@@ -26,7 +26,7 @@ tags: grove_digital, io_5v, plat_duino, plat_linkit
 - 灵敏度可调
 
 !!!Tip
-    关于Grove模块的更多细节请参考 [Grove System](http://seeed.wiki/Grove_System/)
+    关于Grove模块的更多细节请参考 [Grove System](http://wiki.seeedstudio.com/cn/Grove_System/)
 
 规格参数
 -------------

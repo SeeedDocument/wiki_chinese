@@ -4,7 +4,7 @@ category: Actuator
 bzurl: https://www.seeedstudio.com/Grove-Button-p-766.html
 oldwikiname: Grove - Button
 prodimagename: Button.jpg
-wikiurl: http://seeed.wiki/Grove-Button
+wikiurl: http://wiki.seeedstudio.com/cn/Grove-Button
 sku: 101020003
 ---
 
@@ -22,7 +22,7 @@ sku: 101020003
 - 使用标准 4 针 Grove 电缆连接到其他 Grove 模块，如 Grove Power Modules 和 Grove - Base Shield
 
 !!!Tip
-    关于 Grove 模块的更多信息请点击 [Grove System](http://seeed.wiki/Grove_System/)
+    关于 Grove 模块的更多信息请点击 [Grove System](http://wiki.seeedstudio.com/cn/Grove_System/)
 
 ## 使用方法
 ---

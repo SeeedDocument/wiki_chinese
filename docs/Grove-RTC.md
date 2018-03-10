@@ -4,7 +4,7 @@ category: Sensor
 bzurl: https://seeedstudio.com/Grove-RTC-p-758.html
 oldwikiname: Grove_-_RTC
 prodimagename: Grove-RTC.jpg
-wikiurl: http://seeed.wiki/Grove-RTC
+wikiurl: http://wiki.seeedstudio.com/cn/Grove-RTC
 sku: 101020013
 tags: grove_i2c, io_3v3, io_5v, plat_duino, plat_pi
 ---
@@ -32,7 +32,7 @@ RTC 模块基于支持 I2C 协议的时钟芯片 DS1307。它采用锂电池 ( C
 -   电池电压 ：2.0~3.5 V
 
 !!!Tip
-    关于 Grove 模块的更多信息请点击 [Grove System](http://seeed.wiki/Grove_System/)
+    关于 Grove 模块的更多信息请点击 [Grove System](http://wiki.seeedstudio.com/cn/Grove_System/)
 
 ## Platforms Supported
 

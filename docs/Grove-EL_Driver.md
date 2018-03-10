@@ -4,7 +4,7 @@ category: Actuator
 bzurl: https://seeedstudio.com/Grove-EL-Driver-p-2269.html
 oldwikiname: Grove_-_EL_Driver
 prodimagename: Grove-EL_Driver.jpg
-wikiurl: http://seeed.wiki/Grove-EL_Driver
+wikiurl: http://wiki.seeedstudio.com/cn/Grove-EL_Driver
 sku: 105020005
 ---
 
@@ -42,7 +42,7 @@ Grove - EL Driver 是专门驱动 EL 灯片的驱动器。它集成了一个非�
 -   支持最大EL电容：15nF
 
 !!!Tip
-    有关 Grove 模块的更多细节请参阅 [Grove 系统](http://seeed.wiki/Grove_System/)
+    有关 Grove 模块的更多细节请参阅 [Grove 系统](http://wiki.seeedstudio.com/cn/Grove_System/)
 
 使用方法
 -----

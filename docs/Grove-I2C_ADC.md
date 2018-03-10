@@ -4,7 +4,7 @@ category: Communication
 bzurl: https://seeedstudio.com/Grove-I2C-ADC-p-1580.html
 oldwikiname: Grove_-_I2C_ADC
 prodimagename: I2C_ADC_01.jpg
-wikiurl: http://seeed.wiki/Grove-I2C_ADC
+wikiurl: http://wiki.seeedstudio.com/cn/Grove-I2C_ADC
 sku: 103020013
 tags: grove_i2c, io_3v3, io_5v, plat_duino, plat_linkit, plat_pi, plat_bbg
 ---
@@ -24,7 +24,7 @@ Grove - I2C ADC 是基于 ADC121C021 的 12 位精密 ADC 模块。通过提供�
 -   地址可变
 
 !!!Tip
-     关于 Grove 模块的更多信息请点击 [Grove System](http://seeed.wiki/Grove_System/)
+     关于 Grove 模块的更多信息请点击 [Grove System](http://wiki.seeedstudio.com/cn/Grove_System/)
 
 ## 规格参数
 -------------

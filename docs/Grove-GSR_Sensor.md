@@ -4,7 +4,7 @@ category: Sensor
 bzurl: https://seeedstudio.com/Grove-GSR-sensor-p-1614.html
 oldwikiname: Grove_-_GSR_Sensor
 prodimagename: GSR.jpg
-wikiurl: http://seeed.wiki/Grove-GSR_Sensor
+wikiurl: http://wiki.seeedstudio.com/cn/Grove-GSR_Sensor
 sku: 101020052
 tags: grove_digital, io_3v3, io_5v, plat_duino, plat_linkit, plat_pi, plat_bbg
 ---
@@ -30,7 +30,7 @@ GSR通过测量皮肤电流反应来测量皮肤电导率。 强烈的情绪会�
 -   配置外部手指指套测量装置
 
 !!!tip
-    关于Grove模块的更多细节请参考[Grove System](http://seeed.wiki/Grove_System/)
+    关于Grove模块的更多细节请参考[Grove System](http://wiki.seeedstudio.com/cn/Grove_System/)
 
 ## 支持平台
 -------------------
@@ -97,7 +97,7 @@ GSR通过测量皮肤电流反应来测量皮肤电导率。 强烈的情绪会�
 
 我们需要下载Grove_LCD_RGB_Backlight库并安装到您的Arduino IDE。
 
-- 请遵循 [如何安装arduino库](http://seeed.wiki/How_to_install_Arduino_Library/) 的步骤来安装RGB Backlight库。
+- 请遵循 [如何安装arduino库](http://wiki.seeedstudio.com/cn/How_to_install_Arduino_Library/) 的步骤来安装RGB Backlight库。
 
 [![enter image description here](https://raw.githubusercontent.com/SeeedDocument/Grove_LCD_RGB_Backlight/master/images/library.png)](https://github.com/Seeed-Studio/Grove_LCD_RGB_Backlight/archive/master.zip)
 

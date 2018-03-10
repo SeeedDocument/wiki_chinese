@@ -4,7 +4,7 @@ category: Shield
 bzurl: https://seeedstudio.com/RS232-Shield-p-1910.html
 oldwikiname: RS232_Shield
 prodimagename: RS232_Shield_Photo.jpg
-wikiurl: http://seeed.wiki/RS232_Shield
+wikiurl: http://wiki.seeedstudio.com/cn/RS232_Shield
 sku: 113030016
 ---
 

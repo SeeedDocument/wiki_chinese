@@ -4,7 +4,7 @@ category: Sensor
 bzurl: https://seeedstudio.com/Grove-6-Axis-Accelerometer&Compass-v2.0-p-2476.html
 oldwikiname: Grove_-_6-Axis_Accelerometer&Compass_V2.0
 prodimagename: Accelerometer_And_Compass_v2.JPG
-wikiurl: http://seeed.wiki/Grove-6-Axis_AccelerometerAndCompass_V2_0
+wikiurl: http://wiki.seeedstudio.com/cn/Grove-6-Axis_AccelerometerAndCompass_V2_0
 sku: 101020081
 tags: grove_i2c, io_3v3, io_5v, plat_duino, plat_bbg
 ---
@@ -27,7 +27,7 @@ Grove –6-Axis Accelerometer&Compass V2.0 是一个 3 轴加速度计与 3 轴�
 
 !!!Tip
     关于 Grove 模块的更多信息请点击 [Grove System](
-http://seeed.wiki/Grove_System/)
+http://wiki.seeedstudio.com/cn/Grove_System/)
 
 Platforms Supported
 -------------------

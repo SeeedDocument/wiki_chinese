@@ -4,7 +4,7 @@ category: Sensor
 bzurl: https://seeedstudio.com/Grove-Touch-Sensor-p-747.html
 oldwikiname: Grove_-_Touch_Sensor
 prodimagename: Grove-Touch_Sensor.jpg
-wikiurl: http://seeed.wiki/Grove-Touch_Sensor
+wikiurl: http://wiki.seeedstudio.com/cn/Grove-Touch_Sensor
 sku: 101020037
 tags: grove_digital, io_3v3, io_5v, plat_duino, plat_linkit, plat_pi, plat_bbg
 ---
@@ -26,7 +26,7 @@ Grove - Touch Sensor 可以感受到你在抚摸过程中的压力。 当手指�
 - 使用的芯片：TTP223-BA6
 
 !!!Tip
-    关于Grove模块的更多细节请参考 [Grove System](http://seeed.wiki/Grove_System/)
+    关于Grove模块的更多细节请参考 [Grove System](http://wiki.seeedstudio.com/cn/Grove_System/)
 
 Platforms Supported
 -------------------

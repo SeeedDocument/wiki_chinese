@@ -4,7 +4,7 @@ category: Sensor
 bzurl: https://seeedstudio.com/Grove-Collision-Sensor-p-1132.html
 oldwikiname: Grove_-_Collision_Sensor
 prodimagename: Grove_–_Collision_Sensor_photo.jpg
-wikiurl: http://seeed.wiki/Grove-Collision_Sensor
+wikiurl: http://wiki.seeedstudio.com/cn/Grove-Collision_Sensor
 sku: 101020005
 tags: grove_digital, io_3v3, io_5v, plat_duino, plat_linkit, plat_pi, plat_bbg
 ---
@@ -23,7 +23,7 @@ Grove - Collision Sensor可以检测碰撞和振动，当检测到时会输出�
 - 电压 : 3.3 / 5V
 
 !!!Tip
-    关于 Grove 模块的更多信息请点击 [Grove System](http://seeed.wiki/Grove_System/)
+    关于 Grove 模块的更多信息请点击 [Grove System](http://wiki.seeedstudio.com/cn/Grove_System/)
 
 ## Platforms Supported
 -------------------

@@ -4,7 +4,7 @@ category: Wireless
 bzurl: https://www.seeedstudio.com/BLE-Nitrogen-p-2711.html
 oldwikiname:
 prodimagename: cover.png
-wikiurl: http://seeed.wiki/BLE_Nitrogen
+wikiurl: http://wiki.seeedstudio.com/cn/BLE_Nitrogen
 sku: 102990629
 ---
 

@@ -12,11 +12,11 @@ nointro:
 以下是您可以在Seeed WiKi中找到的LinkIt Board的列表。 该列表将不断更新。
 
 
-* [Arduino_Breakout_for_LinkIt_Smart_7688_Duo](http://seeed.wiki/Arduino_Breakout_for_LinkIt_Smart_7688_Duo)
-* [Breakout_for_LinkIt_Smart_7688_v2.0](http://seeed.wiki/Breakout_for_LinkIt_Smart_7688_v2.0)
-* [Grove-Starter_Kit_for_LinkIt_ONE](http://seeed.wiki/Grove-Starter_Kit_for_LinkIt_ONE)
-* [Grove_Breakout_for_LinkIt_Smart_7688_Duo](http://seeed.wiki/Grove_Breakout_for_LinkIt_Smart_7688_Duo)
-* [LinkIt_ONE](http://seeed.wiki/LinkIt_ONE)
-* [LinkIt_Smart_7688](http://seeed.wiki/LinkIt_Smart_7688)
-* [LinkIt_Smart_7688_Duo](http://seeed.wiki/LinkIt_Smart_7688_Duo/)
-* [Sidekick_Basic_Kit_for_LinkIt_ONE](http://seeed.wiki/Sidekick_Basic_Kit_for_LinkIt_ONE)
+* [Arduino_Breakout_for_LinkIt_Smart_7688_Duo](http://wiki.seeedstudio.com/cn/Arduino_Breakout_for_LinkIt_Smart_7688_Duo)
+* [Breakout_for_LinkIt_Smart_7688_v2.0](http://wiki.seeedstudio.com/cn/Breakout_for_LinkIt_Smart_7688_v2.0)
+* [Grove-Starter_Kit_for_LinkIt_ONE](http://wiki.seeedstudio.com/cn/Grove-Starter_Kit_for_LinkIt_ONE)
+* [Grove_Breakout_for_LinkIt_Smart_7688_Duo](http://wiki.seeedstudio.com/cn/Grove_Breakout_for_LinkIt_Smart_7688_Duo)
+* [LinkIt_ONE](http://wiki.seeedstudio.com/cn/LinkIt_ONE)
+* [LinkIt_Smart_7688](http://wiki.seeedstudio.com/cn/LinkIt_Smart_7688)
+* [LinkIt_Smart_7688_Duo](http://wiki.seeedstudio.com/cn/LinkIt_Smart_7688_Duo/)
+* [Sidekick_Basic_Kit_for_LinkIt_ONE](http://wiki.seeedstudio.com/cn/Sidekick_Basic_Kit_for_LinkIt_ONE)

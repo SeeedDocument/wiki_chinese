@@ -4,7 +4,7 @@ category: Kit
 bzurl: https://www.seeedstudio.com/Grove-Starter-Kit-V3-p-1855.html
 oldwikiname: Grove - Starter Kit v3
 prodimagename: Grove-Starter_Kit_v2_Photo.jpg
-wikiurl: http://seeed.wiki/Grove_Starter_Kit_v3
+wikiurl: http://wiki.seeedstudio.com/cn/Grove_Starter_Kit_v3
 sku:  110060024
 ---
 
@@ -16,12 +16,12 @@ Grove是一个模块化的电子平台，可以方便快速地进行原型设计
 
 ###  关于 Grove
 
-关于 Grove 模块的更多信息请点击 [Grove System](http://seeed.wiki/Grove_System/)
+关于 Grove 模块的更多信息请点击 [Grove System](http://wiki.seeedstudio.com/cn/Grove_System/)
 
 ###  Arduino 入门指导
 
 !!!Note
-    如果这是您第一次使用 Arduino/Seeeduino，请点击 [这里](http://seeed.wiki/Seeeduino_v4.2/) 查看开发板使用教程。
+    如果这是您第一次使用 Arduino/Seeeduino，请点击 [这里](http://wiki.seeedstudio.com/cn/Seeeduino_v4.2/) 查看开发板使用教程。
 
 本套件中 **不包含 Arduino/Seeeduino** 开发板，如果您没有开发板，点击 [这里](https://item.taobao.com/item.htm?spm=a1z10.1-c.w5003-14858770850.14.45ee61bb204ZOM&id=45721222112&scene=taobao_shop) 购买 Seeeduino。
 
@@ -30,21 +30,21 @@ Grove是一个模块化的电子平台，可以方便快速地进行原型设计
 ##  产品清单
 |零件名|数量|
 |---|---|
-|[Base Shield](http://seeed.wiki/Base_Shield_V2/)|1|
-|[Grove - LCD RGB Backlight](http://seeed.wiki/Grove-LCD_RGB_Backlight/)|1|
-|[Grove - Smart Relay](http://seeed.wiki/Grove-Relay/)|1|
-|[Grove - Buzzer](http://seeed.wiki/Grove-Buzzer/)|1|
-|[Grove - Sound Sensor](http://seeed.wiki/Grove-Sound_Sensor/)|1|
-|[Grove - Touch Sensor](http://seeed.wiki/Grove-Touch_Sensor/)|1|
-|[Grove - Rotary Angle Sensor](http://seeed.wiki/Grove-Rotary_Angle_Sensor/)|1|
-|[Grove - Temperature Sensor](http://seeed.wiki/Grove-Temperature_Sensor_V1.2/)|1|
-|[Grove - LED](http://seeed.wiki/Grove-Red_LED/)|1|
-|[Grove - Light Sensor](http://seeed.wiki/Grove-Light_Sensor/)|1|
-|[Grove – Button](http://seeed.wiki/Grove-Button/)|1|
+|[Base Shield](http://wiki.seeedstudio.com/cn/Base_Shield_V2/)|1|
+|[Grove - LCD RGB Backlight](http://wiki.seeedstudio.com/cn/Grove-LCD_RGB_Backlight/)|1|
+|[Grove - Smart Relay](http://wiki.seeedstudio.com/cn/Grove-Relay/)|1|
+|[Grove - Buzzer](http://wiki.seeedstudio.com/cn/Grove-Buzzer/)|1|
+|[Grove - Sound Sensor](http://wiki.seeedstudio.com/cn/Grove-Sound_Sensor/)|1|
+|[Grove - Touch Sensor](http://wiki.seeedstudio.com/cn/Grove-Touch_Sensor/)|1|
+|[Grove - Rotary Angle Sensor](http://wiki.seeedstudio.com/cn/Grove-Rotary_Angle_Sensor/)|1|
+|[Grove - Temperature Sensor](http://wiki.seeedstudio.com/cn/Grove-Temperature_Sensor_V1.2/)|1|
+|[Grove - LED](http://wiki.seeedstudio.com/cn/Grove-Red_LED/)|1|
+|[Grove - Light Sensor](http://wiki.seeedstudio.com/cn/Grove-Light_Sensor/)|1|
+|[Grove – Button](http://wiki.seeedstudio.com/cn/Grove-Button/)|1|
 |DIP LED Blue-Blue|1|
 |DIP LED Green-Green|1|
 |DIP LED Red-Red|1|
-|[Mini Servo](http://seeed.wiki/Grove-Servo/)|1|
+|[Mini Servo](http://wiki.seeedstudio.com/cn/Grove-Servo/)|1|
 |Grove Cables|10|
 |9V to Barrel Jack Adapter|1|
 |Grove starter kit  Manual|1|
@@ -70,7 +70,7 @@ Grove是一个模块化的电子平台，可以方便快速地进行原型设计
 
 数字端口下方有四个 I2C Grove 端口。I2C 是一种低速总线协议，通过两条线 SCL 和 SDA 传输数据。SCL 是时钟线; SDA 是数据线。
 
-有关如何使用 Grove - Base Shield 的详细信息，请转至 [Base Shield v2](http://seeed.wiki/Base_Shield_V2/)。
+有关如何使用 Grove - Base Shield 的详细信息，请转至 [Base Shield v2](http://wiki.seeedstudio.com/cn/Base_Shield_V2/)。
 
 ####  Grove - LCD RGB Backlight
 
@@ -86,7 +86,7 @@ Grove - LCD RGB Backlight 是一个 16x2 的 LCD 屏幕。它能够显示两行�
 
 ![](https://github.com/SeeedDocument/Grove_Starter_Kit_v3/raw/master/img/RGBbacklight.jpg)
 
-有关如何使用 Grove - LCD RGB Backlight 的详细信息，请转至 [Grove - LCD RGB Backlight](http://seeed.wiki/Grove-LCD_RGB_Backlight/)。
+有关如何使用 Grove - LCD RGB Backlight 的详细信息，请转至 [Grove - LCD RGB Backlight](http://wiki.seeedstudio.com/cn/Grove-LCD_RGB_Backlight/)。
 
 ####  Grove – Relay
 
@@ -104,7 +104,7 @@ Relay 是一个放大 Arduino 的控制能力的有用工具 ! 通过 Grove 接�
 
 ![](https://github.com/SeeedDocument/Grove_Starter_Kit_v3/raw/master/img/Grove-Relay_Ex.jpg)
 
-有关如何使用 Grove – Relay 的详细信息，请转至 [Grove – Relay](http://seeed.wiki/Grove-Relay/)。
+有关如何使用 Grove – Relay 的详细信息，请转至 [Grove – Relay](http://wiki.seeedstudio.com/cn/Grove-Relay/)。
 
 ####  Grove – Buzzer
 
@@ -122,7 +122,7 @@ Relay 是一个放大 Arduino 的控制能力的有用工具 ! 通过 Grove 接�
 
 压电蜂鸣器如何工作 ? 通常，每个压电蜂鸣器中有两个陶瓷晶片。当给予不同的电压时，它们相互吸引或排斥。这些晶片的移动引起空气振动 (即声音)。当振动的频率发生变化时，声音的频率会相应地改变。
 
-有关如何使用 Grove - Buzzer 的详细信息，请转至 [Grove - Buzzer](http://seeed.wiki/Grove-Buzzer/)
+有关如何使用 Grove - Buzzer 的详细信息，请转至 [Grove - Buzzer](http://wiki.seeedstudio.com/cn/Grove-Buzzer/)
 
 ####   Grove - Sound Sensor
 
@@ -136,7 +136,7 @@ Grove - Sound Sensor 的代码可用于控制通过亮度反映环境声音强�
 
 ![](https://github.com/SeeedDocument/Grove_Starter_Kit_v3/raw/master/img/Grove-Sound_Sensor_Ex.jpg)
 
-有关如何使用 Grove - Sound Sensor 的详细信息，请转至 [Grove - Sound Sensor](http://seeed.wiki/Grove-Sound_Sensor/)
+有关如何使用 Grove - Sound Sensor 的详细信息，请转至 [Grove - Sound Sensor](http://wiki.seeedstudio.com/cn/Grove-Sound_Sensor/)
 
 ####   Grove - Touch Sensor
 
@@ -152,7 +152,7 @@ Grove - Touch Sensor 的代码可以在这个模块中使用。通过以下路�
 
 这是一个轻触按钮的替代方案。Grove – Touch Sensor 检测底部圆形 (未涂漆) 区域的电容变化：您的手指越靠近这个区域，电容的变化就越大。即使手指和传感器之间有纸张，它仍然可以可靠地工作。
 
-有关如何使用 Grove - Touch Sensor 的详细信息，请转至 [Grove - Touch Sensor](http://seeed.wiki/Grove-Touch_Sensor/).
+有关如何使用 Grove - Touch Sensor 的详细信息，请转至 [Grove - Touch Sensor](http://wiki.seeedstudio.com/cn/Grove-Touch_Sensor/).
 
 ####   Grove - Rotary Angle Sensor
 
@@ -170,7 +170,7 @@ Grove potentiometer 产生 0 和 VCC 之间的模拟输出 (3.3 或 5 VDC)。角
 
 旋转式电位器看起来与旋转式编码器非常相似，但它们并不相同。旋转电位计本质上是一个以圆形构成的滑动电位计。它以模拟方式报告滑动接触时所使用的电阻元件的比例。
 
-有关如何使用 Grove - Rotary Angle Sensor 的详细信息，请转至 [Grove - Rotary Angle Sensor](http://seeed.wiki/Grove-Rotary_Angle_Sensor/)
+有关如何使用 Grove - Rotary Angle Sensor 的详细信息，请转至 [Grove - Rotary Angle Sensor](http://wiki.seeedstudio.com/cn/Grove-Rotary_Angle_Sensor/)
 
 ####   Grove – Temperature Sensor
 
@@ -186,7 +186,7 @@ Grove - Temperature Sensor 使用一个能够检测环境温度的热敏电阻�
 
 ![](https://github.com/SeeedDocument/Grove_Starter_Kit_v3/raw/master/img/Grove-Temperature_Sensor_Ex.jpg)
 
-有关如何使用 Grove – Temperature Sensor 的详细信息，请转至 [Grove - Temperature Sensor](http://seeed.wiki/Grove-Temperature_Sensor_V1.2/)
+有关如何使用 Grove – Temperature Sensor 的详细信息，请转至 [Grove - Temperature Sensor](http://wiki.seeedstudio.com/cn/Grove-Temperature_Sensor_V1.2/)
 
 ####   Grove - LED
 
@@ -204,7 +204,7 @@ Grove - LED 是为 Arduino/Seeeduino 的初学者设计的，显示端口的电�
 
 我们为您准备了三种颜色的 LED 灯泡，您可以通过更换 Grove – LED Socket 上的 LED 来得到您期望的颜色。LED 在灯泡底部靠近方轮廓的是阴极，在灯泡底部靠近圆轮廓的是阳极。阳极需要安装到 ‘+’ 号位置，LED 才能正常工作。
 
-有关如何使用 Grove - LED 的详细信息，请转至 [Grove - LED](http://seeed.wiki/Grove-Red_LED/)
+有关如何使用 Grove - LED 的详细信息，请转至 [Grove - LED](http://wiki.seeedstudio.com/cn/Grove-Red_LED/)
 
 ####   Grove - Light Sensor
 
@@ -222,7 +222,7 @@ Grove - LED 是为 Arduino/Seeeduino 的初学者设计的，显示端口的电�
 
 传感器的模拟输出范围从 0 到 1023，但输出相对于环境光强度不是线性的。
 
-有关如何使用 Grove - Light Sensor 的详细信息，请转至 [Grove - Light Sensor](http://seeed.wiki/Grove-Light_Sensor/)
+有关如何使用 Grove - Light Sensor 的详细信息，请转至 [Grove - Light Sensor](http://wiki.seeedstudio.com/cn/Grove-Light_Sensor/)
 
 ####   Grove – Button
 

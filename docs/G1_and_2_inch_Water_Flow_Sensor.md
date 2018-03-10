@@ -4,7 +4,7 @@ category: MakerPro
 bzurl: https://www.seeedstudio.com/g12-water-flow-sensor-p-635.html?cPath=84_87&zenid=020999c566d2f31841dc54602b7d02ef
 oldwikiname: G1/2 Water Flow sensor
 prodimagename: 113990010%201.jpg
-wikiurl: http://seeed.wiki/G1_and_2_inch_Water_Flow_Sensor
+wikiurl: http://wiki.seeedstudio.com/cn/G1_and_2_inch_Water_Flow_Sensor
 sku: 314150005
 ---
 ![](https://github.com/SeeedDocument/G1_and_2_inch_Water_Flow_Sensor/raw/master/img/flowsensor_LRG.jpg)

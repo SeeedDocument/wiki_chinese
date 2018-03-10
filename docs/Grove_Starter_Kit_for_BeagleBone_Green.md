@@ -4,7 +4,7 @@ category: BeagleBone
 bzurl: https://www.seeedstudio.com/Grove-Starter-Kit-for-SeeedStudio-BeagleBone-Green-p-2526.html
 oldwikiname: Grove_Starter_Kit_for_BeagleBone_Green
 prodimagename: Grove_bbg_start_kit.jpg
-wikiurl: http://seeed.wiki/Grove_Starter_Kit_for_BeagleBone_Green
+wikiurl: http://wiki.seeedstudio.com/cn/Grove_Starter_Kit_for_BeagleBone_Green
 sku: 110060131
 ---
 
@@ -157,7 +157,7 @@ Grove - OLED 96 x 96 采用 96 x 96 点阵 OLED 模块 LY120 和 SSD1327 驱动�
 如果你想知道更多关于这个模块的信息，请点击 [**这里**](/Grove-OLED_Display_0.96inch)。
 
 !!!Tip
-    了解更多 Grove 模块，请参考 [Grove 系统](http://seeed.wiki/Grove_System/)
+    了解更多 Grove 模块，请参考 [Grove 系统](http://wiki.seeedstudio.com/cn/Grove_System/)
 
 示例
 --------
