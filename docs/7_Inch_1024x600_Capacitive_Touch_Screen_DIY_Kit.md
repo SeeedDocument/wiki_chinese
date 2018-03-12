@@ -2,15 +2,15 @@
 title: 7 Inch 1024x600 Capacitive Touch Screen DIY Kit
 category: Raspberry Pi
 bzurl: https://www.seeedstudio.com/7-Inch-1024x600-Capacitive-Touch-Screen-DIY-Kit-p-2932.html
-oldwikiname:
-prodimagename:
+oldwikiname: 7_Inch_1024x600_Capacitive_Touch_Screen_DIY_Kit
+prodimagename: 7_Inch_1024x600_Capacitive_Touch_Screen_DIY_Kit.jpg
 wikiurl: http://wiki.seeedstudio.com/cn/7_Inch_1024x600_Capacitive_Touch_Screen_DIY_Kit
 sku: 104060007
 ---
 
 ![](https://github.com/SeeedDocument/7_Inch_1024x600_Capacitive_Touch_Screen_DIY_Kit/raw/master/img/1.jpg)
 
-这是一个全新的 DIY 工具包，它是一个奇妙的 HDMI 监视器，配有电容触摸屏和免驱动程序。我们增加了一个 CTP 驱动板，并提供了电容触摸屏，使它成为一个全新的套件。之后，您不需要校准您的触摸屏，并可触摸。它已经在树莓派、BB black,PC 还有 Mac 上测试过，并且表现优异，且即插即用。
+这是一个全新的 DIY 工具包，它是一个奇妙的 HDMI 监视器，配有电容触摸屏和免驱动程序。我们增加了一个 CTP 驱动板，并提供了电容触摸屏，使它成为一个全新的套件。之后，您不需要校准您的触摸屏，并可触摸。它已经在树莓派、BeagleBone black,PC 还有 Mac 上测试过，并且表现优异，且即插即用。
 
 
 [![](https://github.com/SeeedDocument/wiki_chinese/raw/master/docs/images/click_to_buy.PNG)](https://item.taobao.com/item.htm?spm=a1z38n.10677092.0.0.11891debC41Z4M&id=557841549985)
@@ -23,7 +23,7 @@ sku: 104060007
 -   电容触摸功能使用户可以完全控制任何设备。
 -   内置 EDID 信息设备，因此可驱动自由。
 -   易于识别。
--   电容式 USB 触摸屏可以支持鼠标右键的功能和拖放功能。
+-   电容式 USB 触摸屏可以支持鼠标。
 -   它可以支持多点触摸，最多 10 点。(仅在 Windows 10 中进行测试)
 
 ##  规格参数
@@ -34,7 +34,7 @@ sku: 104060007
 | 尺寸             | 265mm x 165mm x 50mm                                                           |
 | 质量             | G.W 410g                                                                       |
 | 电池             | 排除                                                                         |
-| 工作电压         | 5V (current requirement 2A), 9V@1.5A(推荐), 12V@1A                      |
+| 工作电压         | 5V (电流要求 2A), 9V@1.5A(推荐), 12V@1A                      |
 | 额定功率         | 6-7W                                                                           |
 | 信号输入         | AV + VGA + HDMI (HDMI 1.2)                                                     |
 | 分辨率           | 1024 * 600                                                                     |

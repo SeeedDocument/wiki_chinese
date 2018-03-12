@@ -3,7 +3,7 @@ title: Raspberry Pi Motor Driver Board v1.0
 category: Raspberry Pi
 bzurl: https://www.seeedstudio.com/Raspberry-Pi-Motor-Board-v1.0-p-2411.html
 oldwikiname: Raspberry_Pi_Motor_Driver_Board_v1.0
-prodimagename: Raspberry_Pi_Motor_Board_v1.0.jpg
+prodimagename: Raspberry_Pi_Motor_Driver_Board_v1.0.jpg
 wikiurl: http://wiki.seeedstudio.com/cn/Raspberry_Pi_Motor_Driver_Board_v1_0
 sku: 103030031
 ---
@@ -198,7 +198,7 @@ mm
 
 ### 硬件连接
 
-- Raspberry Pi B & Raspberry Pi Motor Driver Board v1.0
+- Raspberry Pi Motor Driver Board v1.0 堆叠在 Raspberry Pi 上。
 - 硬件连接如图所示
 
 连接到网络并上电。

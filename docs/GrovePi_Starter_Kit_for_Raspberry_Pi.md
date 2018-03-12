@@ -142,7 +142,7 @@ git clone https://github.com/DexterInd/GrovePi.git
 
 ####  硬件连接
 
-将 Grove - Temp&Humi Sensor 连接到 **D7**，将 Grove - RGB LCD display 连接到任意 I2C 端口。然后给 Raspberry Pi 上电。
+将 Grove - Temp&Humi Sensor 连接到 **D7**，将 Grove - RGB LCD display 连接到任意 **I2C** 端口。然后给 Raspberry Pi 上电。
 
 #### 运行程序
 
