@@ -15,7 +15,7 @@ Raspberry Pi 最初是由英国的一个非营利组织设计和创建的，这�
 
 以下是您可以在 Seeed WiKi 中找到的 Raspberry Pi 板的列表。该列表将不断更新。
 
-* [GrovePi Plus](http://wiki.seeedstudio.com/cn/GrovePi_plus)
+* [GrovePi Plus](http://wiki.seeedstudio.com/cn/GrovePi_Plus)
 * [Grove Starter Kit for IoT based on Raspberry Pi](http://wiki.seeedstudio.com/cn/Grove_Starter_Kit_for_IoT_based_on_Raspberry_Pi)
 * [Raspberry Pi 3 Model B](http://wiki.seeedstudio.com/cn/Raspberry_Pi_3_Model_B)
 * [Raspberry Pi Breakout Board v1.0](http://wiki.seeedstudio.com/cn/Raspberry_Pi_Breakout_Board_v1.0)

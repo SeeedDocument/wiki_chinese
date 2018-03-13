@@ -4,7 +4,7 @@ category: Raspberry Pi
 bzurl: https://www.seeedstudio.com/GrovePi%2B-p-2241.html
 oldwikiname:  GrovePi+
 prodimagename:  GrovePi_Wiki_1.JPG
-wikiurl: http://wiki.seeedstudio.com/cn/GrovePi_plus
+wikiurl: http://wiki.seeedstudio.com/cn/GrovePi_Plus
 sku:     103010002
 ---
 ![](https://github.com/SeeedDocument/GrovePi_Plus/raw/master/img/110060049%2010_02.jpg)
