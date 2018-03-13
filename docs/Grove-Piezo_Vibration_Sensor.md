@@ -13,7 +13,7 @@ tags: grove_analog, io_3v3, io_5v, plat_duino, plat_pi
 
 ![](https://raw.githubusercontent.com/SeeedDocument/Grove-Piezo_Vibration_Sensor/master/img/Piezo_Vibration_Sensor_02.jpg)
 
-Grove - Piezo Vibration传感器适用于弹性，振动，冲击和触感的测量。该模块基于PZT薄膜传感器LDT0-028。当传感器来回移动时，其中的电压比较器将产生一定的电压。宽动态范围（0.001Hz〜1000MHz）保证了良好的测量性能。并且，您可以通过用螺丝调整板上电位器来调整其灵敏度。
+Grove - Piezo Vibration传感器适用于弹性，振动，冲击和触感的测量。该模块基于PZT薄膜传感器LDT0-028。当传感器来回移动时，其中的电压比较器将产生一定的电压。宽动态范围（0.1Hz~180Hz）保证了良好的测量性能。并且，您可以通过用螺丝调整板上电位器来调整其灵敏度。
 
 [![](https://github.com/SeeedDocument/wiki_chinese/raw/master/docs/images/click_to_buy.PNG)](https://item.taobao.com/item.htm?spm=a1z10.3-c.w4002-11172317909.14.5e478797sIcKyY&id=45553185547)
 
