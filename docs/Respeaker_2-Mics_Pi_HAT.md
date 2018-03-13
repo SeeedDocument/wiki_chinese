@@ -342,6 +342,116 @@ $ googlesamples-assistant-pushtotalk
 
 - [如何安装树莓派系统指南](https://www.raspberrypi.org/documentation/installation/installing-images/)
 
+### ReSpeaker 2-Mics Pi HAT 的 DOA 功能
+
+使用DoA（到达方向）功能，ReSpeaker 2-Mics Pi HAT 能够找到声源所在的方向。
+
+#### 1. 配置Voice engine
+```
+pi@raspberrypi:~ $ source ~/env/bin/activate                    # 激活Python虚拟环境, 如果已经激活，调到下一步。
+(env) pi@raspberrypi:~ $ cd ~/4mics_hat
+(env) pi@raspberrypi:~/4mics_hat $ sudo apt install libatlas-base-dev     # 安装 snowboy dependencies
+(env) pi@raspberrypi:~/4mics_hat $ sudo apt install python-pyaudio
+(env) pi@raspberrypi:~/4mics_hat $ pip install ./snowboy*.whl             # 安装 snowboy for KWS
+(env) pi@raspberrypi:~/4mics_hat $ pip install ./webrtc*.whl              # 安装 webrtc for DoA
+(env) pi@raspberrypi:~ $ cd ~/
+(env) pi@raspberrypi:~ $ git clone https://github.com/voice-engine/voice-engine
+(env) pi@raspberrypi:~ $ cd voice-engine/
+(env) pi@raspberrypi:~ $ python setup.py install
+(env) pi@raspberrypi:~ $ cd examples
+(env) pi@raspberrypi:~ $ nano kws_doa.py
+```
+
+#### 2. 修改`kws_doa.py`的第14-21行，以适应4-Mics：
+
+```
+from voice_engine.doa_respeaker_4mic_array import DOA
+
+
+def main():
+    src = Source(rate=16000, channels=2)
+    ch1 = ChannelPicker(channels=2, pick=1)
+    kws = KWS()
+    doa = DOA(rate=16000)
+```
+
+#### 3. 保存，退出，然后在虚拟环境下运行 `python kws_doa.py`。请用snowboy来唤醒，我们就可以看到方位的信息。
+
+### 用百度来进行语音互动
+
+#### 1. 百度授权
+
+```
+pi@raspberrypi:~ $ source ~/env/bin/activate                    # activate the virtual, if we have already activated, skip this step
+(env) pi@raspberrypi:~ $ cd ~/
+(env) pi@raspberrypi:~ $ git clone https://github.com/respeaker/avs
+(env) pi@raspberrypi:~ $ cd avs                                 # install Requirements
+(env) pi@raspberrypi:~ $ python setup.py install                               
+(env) pi@raspberrypi:~/avs $ sudo apt install gstreamer1.0
+(env) pi@raspberrypi:~/avs $ sudo apt install gstreamer1.0-plugins-good
+(env) pi@raspberrypi:~/avs $ sudo apt install gstreamer1.0-plugins-ugly
+(env) pi@raspberrypi:~/avs $ sudo apt install python-gi gir1.2-gstreamer-1.0
+(env) pi@raspberrypi:~/avs $ pip install tornado
+```
+用 [VNC](https://www.raspberrypi.org/documentation/remote-access/vnc/)连接树莓派, 在终端运行 `alexa-auth` ，然后登陆获取alexa的授权， 或者运行 `dueros-auth` 获取百度的授权。 授权的文件保存在`/home/pi/.avs.json`。
+
+![](https://github.com/SeeedDocument/ReSpeaker-4-Mic-Array-for-Raspberry-Pi/raw/master/img/auth.png)
+
+!!!Note
+    如果我们在 `alexa-auth` 和 `dueros-auth`之间切换, 请先删除 `/home/pi/.avs.json` 。 这个是隐藏文件，请用 `ls -la` 显示文件。
+
+#### 2. 配置
+
+```
+(env) pi@raspberrypi:~ $ cd /home/pi
+(env) pi@raspberrypi:~ $ git clone https://github.com/respeaker/respeaker_v2_eval.git
+(env) pi@raspberrypi:~ $ cd respeaker_v2_eval/alexa
+(env) pi@raspberrypi:~/respeaker_v2_eval/alexa $ cp ~/4mics_hat/pixels.py ./pixels.py
+(env) pi@raspberrypi:~/respeaker_v2_eval/alexa $ nano ns_kws_doa_alexa.py
+```
+按照下面的信息更新第15-50行的设置:
+
+```python
+    from voice_engine.kws import KWS
+    #from voice_engine.ns import NS
+    #from voice_engine.doa_respeaker_4mic_array import DOA
+    from avs.alexa import Alexa
+    from pixels import pixels
+
+    def main():
+        logging.basicConfig(level=logging.DEBUG)
+
+        src = Source(rate=16000, channels=2, frames_size=800)
+        ch1 = ChannelPicker(channels=2, pick=1)
+        #ns = NS(rate=16000, channels=1)
+        kws = KWS(model='snowboy')
+        #doa = DOA(rate=16000)
+        alexa = Alexa()
+
+        alexa.state_listener.on_listening = pixels.listen
+        alexa.state_listener.on_thinking = pixels.think
+        alexa.state_listener.on_speaking = pixels.speak
+        alexa.state_listener.on_finished = pixels.off
+
+        src.link(ch1)
+        ch1.link(kws)
+        #ch1.link(ns)
+        #ns.link(kws)
+        kws.link(alexa)
+
+        #src.link(doa)
+        def on_detected(keyword):
+            #logging.info('detected {} at direction {}'.format(keyword, doa.get_direction()))
+            logging.info('detected {}'.format(keyword))
+            alexa.listen()
+
+        kws.set_callback(on_detected)
+```
+![](待替换)
+
+#### 3. 让我们High起来!
+
+现在请在虚拟环境下运行 `python ns_kws_doa_alexa.py` , 我们会在终端看到很多debug的消息. 当我们看到 **status code: 204** 的时候, 请说 `snowboy` 来唤醒 respeaker。接下来 respeaker 上的 led 灯亮起来, 我们可以跟他对话, 比如问，"谁是最帅的?" 或者 "播放刘德华的男人哭吧哭吧不是罪"。小伙伴，尽情的 High 起来吧。
 
 ## FAQ(疑问解答)
 1.
