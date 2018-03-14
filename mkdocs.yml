@@ -107,7 +107,7 @@ pages:
       - Raspberry Pi Zero W Complete Starter Kit: Raspberry_Pi_Zero_W_Complete_Starter_Kit.md
       - Raspberry Pi Zero W with Official Case: Raspberry_Pi_Zero_W_with_Official_Case.md
       - Raspberry Pi Magic Mirrar: Raspberry_Pi_Magic_Mirrar.md
-      - Application Dueros: Application_Dueros.md
+      
       
 
     - Wio:
@@ -147,6 +147,7 @@ pages:
       - Respeaker 2-Mics Pi HAT: Respeaker_2-Mics_Pi_HAT.md
       - Respeaker 4-Mics Pi HAT: Respeaker_4-Mics_Pi_HAT.md
       - SoundPi: SoundPi.md
+      - Application Dueros: Application_Dueros.md
     
     - Shield:
       - Shield: Shield.md
