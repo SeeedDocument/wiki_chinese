@@ -23,7 +23,6 @@ nointro:
 * [Motor_Shield_V2.0](http://wiki.seeedstudio.com/cn/Motor_Shield_V2.0)
 * [Music_Shield_V2.2](http://wiki.seeedstudio.com/cn/Music_Shield_V2.2)
 * [NFC_Shield_V2.0](http://wiki.seeedstudio.com/cn/NFC_Shield_V2_0)
-* [Raspberry_Pi_Relay_Board_v1.0](http://wiki.seeedstudio.com/cn/Raspberry_Pi_Relay_Board_v1.0)
 * [Relay_Shield_v3](http://wiki.seeedstudio.com/cn/Relay_Shield_v3)
 * [RS232_Shield](http://wiki.seeedstudio.com/cn/RS232_Shield)
 * [SD_Card_shield_V4.0](http://wiki.seeedstudio.com/cn/SD_Card_shield_V4.0)

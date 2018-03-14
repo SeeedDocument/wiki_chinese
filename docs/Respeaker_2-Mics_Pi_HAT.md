@@ -127,7 +127,7 @@ pi@raspberrypi:~ $ alsamixer
 左和右箭头键用于选择通道或设备，“向上和向下箭头”控制当前所选设备的音量。 退出程序使用ALT + Q或按Esc键。 [More information](https://en.wikipedia.org/wiki/Alsamixer)
 
 
-### 让我们开始来玩 **Google Assistant**
+## 让我们开始来玩 **Google Assistant**
 
 !!!Warning
     因为我们在中国，无法直接使用Google的服务。必须搭建可以访问google的路由器，然后连接到路由。
@@ -138,11 +138,11 @@ pi@raspberrypi:~ $ alsamixer
 
 以下指南还将向您介绍如何开始使用Google助手。
 
-#### 1. 配置开发人员项目，并获取JSON文件
+### 1. 配置开发人员项目，并获取JSON文件
 
 请根据[指南](https://developers.google.com/assistant/sdk/prototype/getting-started-pi-python/config-dev-project-and-account#config-dev-project) 第一步到第四步在Google Cloud Platform上配置项目，并创建一个OAuth Client ID JSON文件。 不要忘记将JSON文件复制到您的Raspberry Pi。
 
-#### 2. 使用Python虚拟环境，隔离SDK与系统Python包关系。
+### 2. 使用Python虚拟环境，隔离SDK与系统Python包关系。
 
 ```
 sudo apt-get update
@@ -152,7 +152,7 @@ env/bin/python -m pip install --upgrade pip setuptools
 source env/bin/activate
 ```
 
-#### 3. 安装google-assistant-library
+### 3. 安装google-assistant-library
 
 Google Assistant SDK软件包，包含在设备上运行Google Assistant所需的所有代码，包括库和示例代码。 使用pip在虚拟环境中安装最新版本的Python包：
 
@@ -160,7 +160,7 @@ Google Assistant SDK软件包，包含在设备上运行Google Assistant所需�
 (env) $ python -m pip install --upgrade google-assistant-library
 ```
 
-#### 4. 授权Google Assistant SDK
+### 4. 授权Google Assistant SDK
 
 授权Google Assistant SDK，使Google Assistant对给定的Google帐户进行查询。 把步骤1中的JSON文件复制到树莓派/home/pi下。
 
@@ -177,7 +177,7 @@ Enter the authorization code:
 
 这个时候应该显示: OAuth credentials initialized. 如果显示: InvalidGrantError then an invalid code was entered. 请重试, 确保拷贝整个code.
 
-#### 5. 安装 **pulseaudio** 并且让他在后台运行
+### 5. 安装 **pulseaudio** 并且让他在后台运行
 
 ```
 pi@raspberrypi:~ $ sudo apt install pulseaudio
@@ -191,7 +191,7 @@ E: [pulseaudio] bluez4-util.c: org.bluez.Manager.GetProperties() failed: org.fre
 !!!Note
     请忽略pulseaudio错误信息。
 
-#### 6. 开始使用Google Assistant示例
+### 6. 开始使用Google Assistant示例
 
 ```
 pi@raspberrypi:~ $ alsamixer    // To adjust the volume
@@ -199,13 +199,13 @@ pi@raspberrypi:~ $ source env/bin/activate
 (env) pi@raspberrypi:~ $ env/bin/google-assistant-demo
 ```
 
-#### 7. 唤醒Google Assistant
+### 7. 唤醒Google Assistant
 
 先说 *Ok Google* 或者 *Hey Google*, 然后说您的询问. 语音助手就会响应您的问题。如果语音助手没有响应， 请按照 [疑难解答说明](https://developers.google.com/assistant/sdk/prototype/getting-started-pi-python/troubleshooting#hotword).
 
 ![run demo](https://github.com/SeeedDocument/MIC_HATv1.0_for_raspberrypi/blob/master/img/okgoogle.jpg?raw=true)
 
-#### 8. 常见问题解决方法
+### 8. 常见问题解决方法
 
 如果您遇到问题，请参考 [常见疑难解答说明](https://developers.google.com/assistant/sdk/prototype/getting-started-pi-python/troubleshooting) 。
 
@@ -336,17 +336,15 @@ $ googlesamples-assistant-pushtotalk
 ![](https://github.com/SeeedDocument/MIC_HATv1.0_for_raspberrypi/blob/master/img/button.jpg?raw=true)
 
 
-### 树莓派系统
+## 使用 Alexa 和 DuerOs
 
-由于Raspbian操作系统更新为Debian 9，我们将不再提供我们的Raspbian系统。 点击[这里](https://www.raspberrypi.org/downloads/raspbian/)获得最新的Raspbian操作系统。
-
-- [如何安装树莓派系统指南](https://www.raspberrypi.org/documentation/installation/installing-images/)
+由于国内登录不上 Google Assisant ，所以使用在国内能连接的 Alexa 和 百度 DuerOs 作为语音引擎，开发出能让大多数人使用的语音互动系统。
 
 ### ReSpeaker 2-Mics Pi HAT 的 DOA 功能
 
-使用DoA（到达方向）功能，ReSpeaker 2-Mics Pi HAT 能够找到声源所在的方向。
+使用DoA（到达方向）功能，ReSpeaker 2-Mics Pi HAT 能够找到声源所在的大概方向。
 
-#### 1. 配置Voice engine
+#### 1. 配置 Voice engine
 ```
 pi@raspberrypi:~ $ source ~/env/bin/activate                    # 激活Python虚拟环境, 如果已经激活，调到下一步。
 (env) pi@raspberrypi:~ $ cd ~/4mics_hat
@@ -362,7 +360,7 @@ pi@raspberrypi:~ $ source ~/env/bin/activate                    # 激活Python�
 (env) pi@raspberrypi:~ $ nano kws_doa.py
 ```
 
-#### 2. 修改`kws_doa.py`的第14-21行，以适应4-Mics：
+#### 2. 修改`kws_doa.py`的第14-21行，以适应 2-Mics：
 
 ```
 from voice_engine.doa_respeaker_4mic_array import DOA
@@ -375,7 +373,7 @@ def main():
     doa = DOA(rate=16000)
 ```
 
-#### 3. 保存，退出，然后在虚拟环境下运行 `python kws_doa.py`。请用snowboy来唤醒，我们就可以看到方位的信息。
+#### 3. 保存，退出，然后在虚拟环境下运行 `python kws_doa.py`。请用 snowboy 来唤醒，我们就可以看到方位的信息。
 
 ### 用百度来进行语音互动
 
@@ -451,7 +449,32 @@ pi@raspberrypi:~ $ source ~/env/bin/activate                    # activate the v
 
 #### 3. 让我们High起来!
 
-现在请在虚拟环境下运行 `python ns_kws_doa_alexa.py` , 我们会在终端看到很多debug的消息. 当我们看到 **status code: 204** 的时候, 请说 `snowboy` 来唤醒 respeaker。接下来 respeaker 上的 led 灯亮起来, 我们可以跟他对话, 比如问，"谁是最帅的?" 或者 "播放刘德华的男人哭吧哭吧不是罪"。小伙伴，尽情的 High 起来吧。
+现在请在虚拟环境下运行 `python ns_kws_doa_alexa.py` , 我们会在终端看到很多 debug 的消息. 当我们看到 **status code: 204** 的时候, 请说 `snowboy` 来唤醒 respeaker。接下来 respeaker 上的 led 灯亮起来, 我们可以跟他对话, 比如问，"谁是最帅的?" 或者 "播放刘德华的男人哭吧哭吧不是罪"。小伙伴，尽情的 High 起来吧。
+
+### 为树莓派和 2mic 做一个专属音箱
+
+由于 2mic 板本身带有喇叭接口，因此可以购买一个小喇叭，再结合 3D 打印，激光切割即可打造一款专属小音箱。行动起来吧！
+
+#### 准备阶段
+
+为了能制作出自己的造型，我选择 3D 打印制作音箱主体。然后使用激光雕刻薄木板制作出顶部盖板，底板和前面板。然后购买了一个2寸的全频喇叭，喇叭参数为 4Ω ，3W。
+
+
+### 开始制作
+
+设计音箱造型。普通的小音箱只要设计成密封的即可。我采用圆形造型，喇叭向前发声，这样声音效果较好。
+
+首先是 3D打印。设计好安装孔位和形状。
+
+然后设计顶部和底部盖板。也是设计好安装孔位和形状。
+
+最后设计前面板，需根据喇叭尺寸设计。我在面板下方增加了两个小的凸起，用于倾斜音箱，提升视觉效果。
+
+大功告成！享受属于自己的智能音箱吧！
+
+
+
+
 
 ## FAQ(疑问解答)
 1.
