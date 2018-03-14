@@ -20,7 +20,7 @@ Raspberry Pi 最初是由英国的一个非营利组织设计和创建的，这�
 * [Grove_Starter_Kit_for_IoT_based_on_Raspberry_Pi](http://wiki.seeedstudio.com/cn/Grove_Starter_Kit_for_IoT_based_on_Raspberry_Pi)
 * [Raspberry_Pi_3_Model_B](http://wiki.seeedstudio.com/cn/Raspberry_Pi_3_Model_B)
 * [Raspberry_Pi_Breakout_Board_v1.0](http://wiki.seeedstudio.com/cn/Raspberry_Pi_Breakout_Board_v1.0)
-* [Raspberry_Pi_Magic_Mirrar](l:)
+* [Raspberry_Pi_Magic_Mirror](l:)
 * [Raspberry_Pi_Motor_Driver_Board_v1.0](http://wiki.seeedstudio.com/cn/Raspberry_Pi_Motor_Driver_Board_v1_0)
 * [Raspberry_Pi_Relay_Board_v1.0](http://wiki.seeedstudio.com/cn/Raspberry_Pi_Relay_Board_v1_0)
 * [Raspberry_Pi_Zero_Barebones_Kit](http://wiki.seeedstudio.com/cn/Raspberry_Pi_Zero_Barebones_Kit)

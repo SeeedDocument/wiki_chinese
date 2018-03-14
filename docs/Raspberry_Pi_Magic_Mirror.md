@@ -1,5 +1,5 @@
 ---
-title: Raspberry Pi Magic Mirrar
+title: Raspberry Pi Magic Mirror
 category: Raspberry Pi
 bzurl:
 oldwikiname:
