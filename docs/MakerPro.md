@@ -34,3 +34,4 @@ nointro:
 * [RF_Explorer_Software](http://wiki.seeedstudio.com/cn/RF_Explorer_Software)
 * [WiFi_Serial_Transceiver_Module](http://wiki.seeedstudio.com/cn/WiFi_Serial_Transceiver_Module)
 * [WireLess_Gate_Shield_V1.0](http://wiki.seeedstudio.com/cn/WireLess_Gate_Shield_V1.0)
+* [pixy-cmucam5](http://wiki.seeedstudio.com/cn/pixy-cmucam5)

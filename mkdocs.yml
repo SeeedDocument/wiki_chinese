@@ -392,13 +392,14 @@ pages:
     - Codec Adaptive Wireless Relay: Codec-Adaptive_Wireless_Relay.md
     - DC framework miniature solenoid VL-0063: DC_framework_miniature_solenoid_VL-0063.md
     - DSO Nano v3: DSO_Nano_v3.md
+    - pixy-cmucam5: pixy-cmucam5.md
     - Bus Pirate v3 assembled: Bus_Pirate_v3_assembled.md
     - Photo Reflective Sensor: Photo_Reflective_Sensor.md
     - WiFi Serial Transceiver Module: WiFi_Serial_Transceiver_Module.md
     - M11 1.25 Water flow Sensor: M11_1.25_Water_flow_Sensor.md
     - Mini Soldering Iron: Mini_Soldering_Iron.md
     - LoNet 808 Mini GSM GPRS Plus GPS Breakout: LoNet_808-Mini_GSM_GPRS_Plus_GPS_Breakout.md
-  
+    
   - 使用教程:
     - Tutorial: Tutorial.md
     - 如何安装Arduino库: How_to_install_Arduino_Library.md
