@@ -22,11 +22,11 @@
 site_name: Seeed产品文档
 site_description: Seeed产品文档-中文
 site_author: Loovee
-site_url: http://seeed.wiki
+site_url: http://wiki.seeedstudio.com/cn/
 
 # Repository
-repo_name: SeeedDocument/SeeedDocument.github.io
-repo_url: https://github.com/SeeedDocument/SeeedDocument.github.io
+# repo_name: SeeedDocument/SeeedDocument.github.io
+repo_url: http://wiki.seeedstudio.com/cn/
 
 # Copyright
 copyright: 'Seeedstudio 2017'
