@@ -564,7 +564,7 @@ orangectl passwd root 12345678  //replace 12345678 with the password you want to
 
 ### Q19: 如何改变唤醒词？
 
-- 在respeaker的 /usr/lib/python2.7/site-packages/respeaker-0.6.0-py2.7.egg/respeaker/pocketsphinx-data  目录下找到并打开[keywords.txt](https://github.com/respeaker/respeaker_python_library/blob/master/respeaker/pocketsphinx-data/keywords.txt)
+- 在respeaker的 /root/respeaker_python_library/respeaker/pocketsphinx-data  目录下找到并打开[keywords.txt](https://github.com/respeaker/respeaker_python_library/blob/master/respeaker/pocketsphinx-data/keywords.txt)
 
 	```
 	respeaker /1e-30/
@@ -572,7 +572,7 @@ orangectl passwd root 12345678  //replace 12345678 with the password you want to
 	play music /1e-40/
 	```
 
-	respeaker 是关键词, 1e-30 是其阈值。为了提高敏感度，我们可以降低阈值，例如1e-20。值得注意的是，为了提高灵敏度而降低阈值同时会增加错误接受率。
+	respeaker 是关键词, 1e-30 是其阈值。为了更易识别，我们可以增大阈值，例如1e-50。值得注意的是，为了提高灵敏度而降低阈值同时会增加错误接受率。
 
   如果要添加新的关键字，应该首先将关键字添加到 [dictionary.txt](https://github.com/respeaker/respeaker_python_library/blob/master/respeaker/pocketsphinx-data/dictionary.txt) 。dictionary.txt 里的内容如下所示：
 
