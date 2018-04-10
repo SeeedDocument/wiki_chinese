@@ -74,7 +74,7 @@ sudo apt-get update
 sudo apt-get upgrade
 git clone https://github.com/respeaker/seeed-voicecard.git
 cd seeed-voicecard
-sudo ./install.sh 4mic
+sudo ./install.sh
 reboot
 ```
 
@@ -119,7 +119,7 @@ plughw:CARD=seeed4micvoicec,DEV=0
     Hardware device with all software conversions
 ```
 
-如果要更改alsa设置，可以使用`sudo alsactl --file=ac108_asound.state store`保存。 当你需要再次使用这些设置时，将它复制到：`sudo cp ./ac108_asound.state /var/lib/alsa/asound.state`
+如果要更改alsa设置，可以使用`sudo alsactl --file=ac108_asound.state store`保存。 当你需要再次使用这些设置时，将它复制到：`sudo cp ~/seeed-voicecard/ac108_asound.state /var/lib/alsa/asound.state`
 
 ####  5. 打开Audacity，选择 **AC108和4通道** 作为输入，**bcm2835 alsa: - (hw：0，0)** 作为输出来测试：
 

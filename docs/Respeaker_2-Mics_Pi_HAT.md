@@ -71,7 +71,7 @@ sudo apt-get update
 sudo apt-get upgrade
 git clone https://github.com/respeaker/seeed-voicecard.git
 cd seeed-voicecard
-sudo ./install.sh 2mic
+sudo ./install.sh
 reboot
 ```
 
@@ -96,6 +96,7 @@ card 0: ALSA [bcm2835 ALSA], device 1: bcm2835 ALSA [bcm2835 IEC958/HDMI]
 card 1: seeed2micvoicec [seeed-2mic-voicecard], device 0: bcm2835-i2s-wm8960-hifi wm8960-hifi-0 []
   Subdevices: 1/1
   Subdevice #0: subdevice #0
+
 pi@raspberrypi:~/seeed-voicecard $ arecord -l
 **** List of CAPTURE Hardware Devices ****
 card 1: seeed2micvoicec [seeed-2mic-voicecard], device 0: bcm2835-i2s-wm8960-hifi wm8960-hifi-0 []
