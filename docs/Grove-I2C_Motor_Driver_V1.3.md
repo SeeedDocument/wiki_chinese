@@ -17,8 +17,8 @@ Grove - I2C Motor Driver V1.3（最新版本）可以直接控制步进电机或
 
 [![](https://github.com/SeeedDocument/wiki_chinese/raw/master/docs/images/click_to_buy.PNG)](https://item.taobao.com/item.htm?spm=a1z10.3-c.w4002-11172317909.10.5335d5b70kEV47&id=45476447918)
 
-版本信息
----------------
+## 版本信息
+
 
 | 版本| 版本描述                                | 发布时间      |
 |----------|-------------------------------------------------|----------------|
@@ -27,8 +27,7 @@ Grove - I2C Motor Driver V1.3（最新版本）可以直接控制步进电机或
 | v1.3     | 修改固件以支持离线 Stepper | 2013年2月18日 |
 
 
-产品特性
---------
+## 产品特性
 
 -   Grove 兼容
 -   I2C 接口
@@ -38,8 +37,7 @@ Grove - I2C Motor Driver V1.3（最新版本）可以直接控制步进电机或
 !!!Tip
     关于Grove模块的更多细节请参考 [Grove System](http://wiki.seeedstudio.com/cn/Grove_System/)
 
-  规格参数
---------------
+## 规格参数
 
 <table border="1" cellspacing="0" width="80%">
 <tr>
@@ -122,11 +120,9 @@ I2C
 </tr>
 </table>
 
-支持平台
--------------------
+## 支持平台
 
-硬件概述
-------------------
+## 硬件概述
 
 ![](https://raw.githubusercontent.com/SeeedDocument/Grove-I2C_Motor_Driver_V1.3/master/img/I2CMotorDriver-1.jpg)
 **78M05 IC:**  5V 稳压器
@@ -140,8 +136,7 @@ I2C
 螺丝端子上的输入电压调节到 5V ，并通过跳线 （J4） 连接到 I2C的  + 5V 。 如果使用螺丝端子的外部电源和 I2C 接头连接的电源，请拆下跳线。 如果将 5V 提供给 I2C 总线，则使用跳线。
 </div>
 
-创意应用
------------------
+## 创意应用
 
 -   机器人
 -   家用 RC 车
@@ -154,8 +149,7 @@ I2C
 </div>
 
 
-入门
------
+## 入门
 
 I2C Motor Driver 可以控制基于芯片 L298 的电机。 L298 不仅是双电机驱动器，它是双 H 桥。  h 桥基本上是一个特定的晶体管设置，允许您切换电流方向。 连接电机意味着您可以沿双向旋转; 通过 PWM 输入，您可以使用 Arduino 以任意速度旋转。 因为 L298 有2个 H 桥，所以你可以通过在不同的方向上旋转每个轮子来使机器人转动，当然也可以向前和向后旋转。
 
@@ -246,8 +240,7 @@ void StepperRun(int _step);
 
 **_step**  表示您设置为步进电机运行的步骤。 可以填-1024〜1024。 当_step> 0时，步进电机顺时针运行，而_step <0时，步进电机逆时针运行。 当_step为512 / -512时，步进电机将运行一整圈，如果_step为1024 / -1024，则步进电机将运行2圈。 步进电机在完成步骤后会自动停止。
 
-资源下载
----------
+## 资源下载
 
 -   [Grove - I2C Motor Driver V1.3 in Eagle Format](https://raw.githubusercontent.com/SeeedDocument/Grove-I2C_Motor_Driver_V1.3/master/res/Grove-I2C_Motor_Driver_v1.3_Eagle_File.zip)
 -   [Grove - I2C Motor Driver V1.3 PCB in PDF Format](https://github.com/SeeedDocument/Grove-I2C_Motor_Driver_V1.3/raw/master/res/Grove%20-%20I2C%20Motor%20Driver%20%20v1.3b%20PCB.pdf)
