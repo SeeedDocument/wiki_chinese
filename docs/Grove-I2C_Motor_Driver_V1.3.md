@@ -142,11 +142,9 @@ I2C
 -   家用 RC 车
 -   风扇
 -   大功率LED照明总线。
-<div class="admonition danger">
 
-<p class="admonition-title">警告</p>
-该板在工作电流超过 1A 时板子将会非常热。 请勿触摸！
-</div>
+!!!Warning
+    该板在工作电流超过 1A 时板子将会非常热。 请勿触摸！
 
 
 ## 入门
