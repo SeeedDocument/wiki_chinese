@@ -131,11 +131,15 @@ Rainbow Cube Kit 的缤纷多彩
 
 *   **Rainbow Cube** kit 提供 **2 x 16 接线端子**，这样就可以连接到像 **Rainbowduino** 的 RGB LED 驱动板。
 
-![](https://github.com/SeeedDocument/Rainbow_Cube_kit_RGB_4_4_4_Rainbowduino_Compatible/raw/master/img/Rainbow_pin_diagram.png) <div class="thumbcaption">**2 x 16** 接线端子</div></div></div>
+![](https://github.com/SeeedDocument/Rainbow_Cube_kit_RGB_4_4_4_Rainbowduino_Compatible/raw/master/img/Rainbow_pin_diagram.png)
+
+**2 x 16** 接线端子
 
 *   **xBee 插座**
 
-![](https://github.com/SeeedDocument/Rainbow_Cube_kit_RGB_4_4_4_Rainbowduino_Compatible/raw/master/img/XBee_PinOut.jpeg) <div class="thumbcaption">**xBee 插座**</div></div></div>
+![](https://github.com/SeeedDocument/Rainbow_Cube_kit_RGB_4_4_4_Rainbowduino_Compatible/raw/master/img/XBee_PinOut.jpeg)
+
+**xBee 插座**
 
 *   **DC Jack Pin**
 
@@ -153,7 +157,9 @@ Rainbow Cube Kit 的缤纷多彩
 
 *   [点击下载组装说明](http://www.seeedstudio.com/depot/docu/CUBE.pdf)
 
-![](https://github.com/SeeedDocument/Rainbow_Cube_kit_RGB_4_4_4_Rainbowduino_Compatible/raw/master/img/Rainbow-1.jpg) <div class="thumbcaption">RGB Rainbow Cube Kit (组装完成)</div></div></div>
+![](https://github.com/SeeedDocument/Rainbow_Cube_kit_RGB_4_4_4_Rainbowduino_Compatible/raw/master/img/Rainbow-1.jpg)
+
+RGB Rainbow Cube Kit (组装完成)
 
 ##   外形尺寸
 
@@ -167,15 +173,15 @@ Rainbow Cube Kit 的缤纷多彩
 
     *   编号 **1 - 32** 表示上面显示的 **2x16** 接线端子的引脚编号。
 
-<div class="thumb tnone"><div class="thumbinner" style="width:502px;">![](https://github.com/SeeedDocument/Rainbow_Cube_kit_RGB_4_4_4_Rainbowduino_Compatible/raw/master/img/8x8_RGB_Matrix_Schematic.png) <div class="thumbcaption">**2D RGB LED Matrix**</div></div></div>
+<div class="thumb tnone"><div class="thumbinner" style="width:502px;">![](https://github.com/SeeedDocument/Rainbow_Cube_kit_RGB_4_4_4_Rainbowduino_Compatible/raw/master/img/8x8_RGB_Matrix_Schematic.png)
 
 *   **RGB Cube kit** 内的互连以框图格式显示。该框图清楚地显示了 2D 形式的 64 个 LED 如何映射为 3D 形式。
 
-<div class="thumb tnone"><div class="thumbinner" style="width:902px;">![](https://github.com/SeeedDocument/Rainbow_Cube_kit_RGB_4_4_4_Rainbowduino_Compatible/raw/master/img/Rainbow_Cube_kit_Block_Diagram.png) <div class="thumbcaption">从驱动软件的角度来看 **RGB Cube Kit**</div></div></div>
+<div class="thumb tnone"><div class="thumbinner" style="width:902px;">![](https://github.com/SeeedDocument/Rainbow_Cube_kit_RGB_4_4_4_Rainbowduino_Compatible/raw/master/img/Rainbow_Cube_kit_Block_Diagram.png)
 
 *   下图中标出了 LED 的实际在三维空间的位置。
 
-<div class="thumb tnone"><div class="thumbinner" style="width:452px;">![](https://github.com/SeeedDocument/Rainbow_Cube_kit_RGB_4_4_4_Rainbowduino_Compatible/raw/master/img/Rainbow_Cube_LED_3D_Coordinates.png) <div class="thumbcaption">**RGB Cube Kit** LED 的 3D 位置图解</div></div></div>
+<div class="thumb tnone"><div class="thumbinner" style="width:452px;">![](https://github.com/SeeedDocument/Rainbow_Cube_kit_RGB_4_4_4_Rainbowduino_Compatible/raw/master/img/Rainbow_Cube_LED_3D_Coordinates.png) 
 
 *   **2D RGB LED Matrix** 的 X，Y 坐标映射到 **RGB Cube kit** 框图如下 :
 
