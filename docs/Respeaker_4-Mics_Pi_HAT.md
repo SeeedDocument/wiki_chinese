@@ -182,7 +182,7 @@ pi@raspberrypi:~ $ source ~/env/bin/activate                    # 激活Python�
 (env) pi@raspberrypi:~ $ cd ~/
 (env) pi@raspberrypi:~ $ git clone https://github.com/voice-engine/voice-engine
 (env) pi@raspberrypi:~ $ cd voice-engine/
-(env) pi@raspberrypi:~ $ python setup.py install
+(env) pi@raspberrypi:~/voice-engine $ python setup.py install
 (env) pi@raspberrypi:~ $ cd examples
 (env) pi@raspberrypi:~ $ nano kws_doa.py
 ```

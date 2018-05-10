@@ -21,7 +21,7 @@ sku:  110060007
 Rainbow Cube Kit 的缤纷多彩
 
 ##   产品清单
----
+
 ![](https://github.com/SeeedDocument/Rainbow_Cube_kit_RGB_4_4_4_Rainbowduino_Compatible/raw/master/img/Rainbow-2.jpg)
 
 <table >
@@ -76,7 +76,7 @@ Rainbow Cube Kit 的缤纷多彩
 </td></tr></table>
 
 ##   产品特性
----
+
 *   **8mm** **<font color="red">R</font><font color="green">G</font><font color="blue">B</font>** LED
 
 *   4 x 4 x 4 排列方式
@@ -90,7 +90,7 @@ Rainbow Cube Kit 的缤纷多彩
 *   可使用如 Rainbowduino 的 8 x 8R，8G，8B 多路复用 PWM LED 驱动器进行控制。
 
 ##   创意应用
----
+
 *   炫彩 LED : 混合各种强度的红色，绿色，蓝色，产生不同的颜色
 
 *   情绪灯
@@ -103,10 +103,10 @@ Rainbow Cube Kit 的缤纷多彩
 
     *   支撑立方体结构的面板。
 
-        *   立方体结构 (8 个细长立柱，8 个侧面板)。
+    *   立方体结构 (8 个细长立柱，8 个侧面板)。
 
 ##   规格参数
----
+
 <dl><dt>工作电压
 </dt></dl>
 
@@ -122,7 +122,7 @@ Rainbow Cube Kit 的缤纷多彩
 *   最大正向电流为 20mA
 
 ##   引脚定义
----
+
 所有引脚如下图面板所示。
 
   ![](https://github.com/SeeedDocument/Rainbow_Cube_kit_RGB_4_4_4_Rainbowduino_Compatible/raw/master/img/Rainbow_Cube_Panel_Bottom.jpg) <div class="thumbcaption">面板 (底部视图)</div></div></div>
@@ -146,7 +146,7 @@ Rainbow Cube Kit 的缤纷多彩
     *   2 GND pins, 2 VIN pins
 
 ##   组装
----
+
 在开始构建 Cube 之前，请先阅读所有的指导说明。构建 Cube 并不困难，但需要大约 90 分钟才能完成。
 
 *   [点击下载组装说明](http://www.seeedstudio.com/depot/docu/CUBE.pdf)
@@ -154,11 +154,11 @@ Rainbow Cube Kit 的缤纷多彩
 ![](https://github.com/SeeedDocument/Rainbow_Cube_kit_RGB_4_4_4_Rainbowduino_Compatible/raw/master/img/Rainbow-1.jpg) <div class="thumbcaption">RGB Rainbow Cube Kit (组装完成)</div></div></div>
 
 ##   外形尺寸
----
+
 组装完成的立方体尺寸大约为 : 10cm (l) X 10cm (b) X 12cm (h)。
 
 ##   入门指导
----
+
 为了便于理解 **Rainbow Cube kit** 的工作原理，下面介绍一个非常简单的示意图。实质上，64 个 RGB LED 以由红色，绿色和蓝色各自的 8 个公共阳极 (正极引脚) 和 8 个公共阴极 (GND引脚) 组成的形式排列。
 
 *   **RGB Cube kit** 的完整原理图以下面的 **2D RGB LED Matrix** 表示。
@@ -184,7 +184,7 @@ Rainbow Cube Kit 的缤纷多彩
         *   _例如_: LED **(Z,X,Y):(1,0,3)** 的 2D-XY 是 **(6,3)**。该 LED 的 VCC 连接到引脚 **31**。R，G 和 B LED 的阴极分别连接到 **12**,**25** 和 **4** 引脚。
 
 ##   使用方法
----
+
 ###   硬件连接
 
 *   将 **Rainbow Cube Kit** 插在 Rainbowduino 上，如下所示
@@ -244,7 +244,6 @@ void loop()
 
 ####   APIs
 
-* * *
 
 在上面的例子中，我们使用了部分下面的 **API**
 
@@ -383,7 +382,7 @@ void loop()
 ![](https://github.com/SeeedDocument/Rainbow_Cube_kit_RGB_4_4_4_Rainbowduino_Compatible/raw/master/img/Rainbow_Cube3.jpg) <div class="thumbcaption">Cube3.pde 演示</div></div></div>
 
 ##   第三方演示
----
+
 *   RGB iPhone Software (by KonchaTech)
 
     *   Send RGB values to your cube via an iPhone (requires connected computer and TouchOSC software)
@@ -408,7 +407,6 @@ void loop()
 
 
 ##   资源下载
----
 
 *   **[Eagle 文件]** [Eagle CAD files](https://github.com/SeeedDocument/Rainbow_Cube_kit_RGB_4_4_4_Rainbowduino_Compatible/blob/master/res/202000140_PCBA-Rainbow%20Cube%20kit-%20RGB%204X4X4_%E5%8E%9F%E7%90%86%E5%9B%BE.rar)
 
