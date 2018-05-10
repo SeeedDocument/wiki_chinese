@@ -125,7 +125,9 @@ Rainbow Cube Kit 的缤纷多彩
 
 所有引脚如下图面板所示。
 
-  ![](https://github.com/SeeedDocument/Rainbow_Cube_kit_RGB_4_4_4_Rainbowduino_Compatible/raw/master/img/Rainbow_Cube_Panel_Bottom.jpg) <div class="thumbcaption">面板 (底部视图)</div></div></div>
+![](https://github.com/SeeedDocument/Rainbow_Cube_kit_RGB_4_4_4_Rainbowduino_Compatible/raw/master/img/Rainbow_Cube_Panel_Bottom.jpg)
+
+面板 (底部视图)
 
 *   **Rainbow Cube** kit 提供 **2 x 16 接线端子**，这样就可以连接到像 **Rainbowduino** 的 RGB LED 驱动板。
 
