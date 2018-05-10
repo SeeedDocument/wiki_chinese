@@ -17,3 +17,4 @@ ReSpeaker是一个开放的模块化语音界面，用于连接你周围的事�
 * [Respeaker_Mic_Array](http://wiki.seeedstudio.com/cn/Respeaker_Mic_Array/)
 * [ReSpeaker_Mic_Array_v2.0](http://wiki.seeedstudio.com/cn/ReSpeaker_Mic_Array_v2.0/)
 * [SoundPi](http://wiki.seeedstudio.com/cn/SoundPi)
+* [ReSpeaker_Core_v2.0](http://wiki.seeedstudio.com/cn/ReSpeaker_Core_v2.0/)
