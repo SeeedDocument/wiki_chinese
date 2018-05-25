@@ -207,10 +207,8 @@ pi@raspberrypi:~ $ source ~/env/bin/activate                    # activate the v
 (env) pi@raspberrypi:~/4mics_hat $ python kws_doa.py
 ```
 
-#### 3. 保存，退出，然后在虚拟环境下运行 `python kws_doa.py`。请用snowboy来唤醒，我们就可以看到方位的信息。
 
-
-### 百度语音交互
+### 百度/Alexa语音交互
 
 #### 1. 百度/Alexa授权
 
