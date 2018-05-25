@@ -64,9 +64,24 @@ sku: 103030216
 
 因为当前的Pi内核目前不支持AC108编解码器，所以我们需要手动构建。
 
-#### 1. 确保您正在您的Pi上运行[最新的Raspbian操作系统（debian 9）](https://www.raspberrypi.org/downloads/raspbian/)。 *（更新于2017.09.15）*
+#### 1. 确保您正在您的Pi上运行[最新的Raspbian操作系统（debian 9）](https://www.raspberrypi.org/downloads/raspbian/)。 *（更新于2018.04.18）*
 
 #### 2. 根据以下流程安装驱动：
+
+在安装驱动之前，请根据以下流程切换源到清华。
+
+```
+pi@raspberrypi ~ $ sudo nano /etc/apt/sources.list
+```
+
+用#注释掉原文件内容，用以下内容取代：
+
+```
+deb http://mirrors.tuna.tsinghua.edu.cn/raspbian/raspbian/ stretch main non-free contrib
+deb-src http://mirrors.tuna.tsinghua.edu.cn/raspbian/raspbian/ stretch main non-free contrib
+```
+
+然后运行下面命令
 
 
 ```
@@ -173,38 +188,31 @@ pi@raspberrypi:~ $ source ~/env/bin/activate                   # 激活 python �
 
 #### 1. 配置Voice engine
 ```
-pi@raspberrypi:~ $ source ~/env/bin/activate                    # 激活Python虚拟环境, 如果已经激活，调到下一步。
+pi@raspberrypi:~ $ source ~/env/bin/activate                    # activate the virtual, if we have already activated, skip this step
 (env) pi@raspberrypi:~ $ cd ~/4mics_hat
-(env) pi@raspberrypi:~/4mics_hat $ sudo apt install libatlas-base-dev     # 安装 snowboy dependencies
-(env) pi@raspberrypi:~/4mics_hat $ sudo apt install python-pyaudio
-(env) pi@raspberrypi:~/4mics_hat $ pip install ./snowboy*.whl             # 安装 snowboy for KWS
-(env) pi@raspberrypi:~/4mics_hat $ pip install ./webrtc*.whl              # 安装 webrtc for DoA
-(env) pi@raspberrypi:~ $ cd ~/
+(env) pi@raspberrypi:~/4mics_hat $ sudo apt install libatlas-base-dev     # install snowboy dependencies
+(env) pi@raspberrypi:~/4mics_hat $ sudo apt install python-pyaudio        # install pyaudio
+(env) pi@raspberrypi:~/4mics_hat $ pip install ./snowboy*.whl             # install snowboy for KWS
+(env) pi@raspberrypi:~/4mics_hat $ pip install ./webrtc*.whl              # install webrtc for DoA
+(env) pi@raspberrypi:~/4mics_hat $ cd ~/
 (env) pi@raspberrypi:~ $ git clone https://github.com/voice-engine/voice-engine
 (env) pi@raspberrypi:~ $ cd voice-engine/
 (env) pi@raspberrypi:~/voice-engine $ python setup.py install
-(env) pi@raspberrypi:~ $ cd examples
-(env) pi@raspberrypi:~ $ nano kws_doa.py
 ```
 
-#### 2. 修改`kws_doa.py`的第14-21行，以适应4-Mics：
+#### 2. 然后在虚拟环境下运行 `python kws_doa.py`。请用snowboy来唤醒，我们就可以看到方位的信息。
 
 ```
-from voice_engine.doa_respeaker_4mic_array import DOA
-
-
-def main():
-    src = Source(rate=16000, channels=4)
-    ch1 = ChannelPicker(channels=4, pick=1)
-    kws = KWS()
-    doa = DOA(rate=16000)
+(env) pi@raspberrypi:~/voice-engine $ cd ~/4mics_hat
+(env) pi@raspberrypi:~/4mics_hat $ python kws_doa.py
 ```
 
 #### 3. 保存，退出，然后在虚拟环境下运行 `python kws_doa.py`。请用snowboy来唤醒，我们就可以看到方位的信息。
 
-### 用百度来进行语音互动
 
-#### 1. 百度授权
+### 百度语音交互
+
+#### 1. 百度/Alexa授权
 
 ```
 pi@raspberrypi:~ $ source ~/env/bin/activate                    # activate the virtual, if we have already activated, skip this step
@@ -212,67 +220,21 @@ pi@raspberrypi:~ $ source ~/env/bin/activate                    # activate the v
 (env) pi@raspberrypi:~ $ git clone https://github.com/respeaker/avs
 (env) pi@raspberrypi:~ $ cd avs                                 # install Requirements
 (env) pi@raspberrypi:~ $ python setup.py install                               
-(env) pi@raspberrypi:~/avs $ sudo apt install gstreamer1.0
-(env) pi@raspberrypi:~/avs $ sudo apt install gstreamer1.0-plugins-good
-(env) pi@raspberrypi:~/avs $ sudo apt install gstreamer1.0-plugins-ugly
-(env) pi@raspberrypi:~/avs $ sudo apt install python-gi gir1.2-gstreamer-1.0
+(env) pi@raspberrypi:~/avs $ sudo apt-get install gstreamer1.0-plugins-good gstreamer1.0-plugins-bad gstreamer1.0-plugins-ugly gir1.2-gstreamer-1.0 python-gi python-gst-1.0
 (env) pi@raspberrypi:~/avs $ pip install tornado
 ```
+
 用 [VNC](https://www.raspberrypi.org/documentation/remote-access/vnc/)连接树莓派, 在终端运行 `alexa-auth` ，然后登陆获取alexa的授权， 或者运行 `dueros-auth` 获取百度的授权。 授权的文件保存在`/home/pi/.avs.json`。
+
+```
+# note: this is in the VNC terminal
+(env) pi@raspberrypi:~ $ alexa-auth
+```
 
 ![](https://github.com/SeeedDocument/ReSpeaker-4-Mic-Array-for-Raspberry-Pi/raw/master/img/auth.png)
 
 !!!Note
     如果我们在 `alexa-auth` 和 `dueros-auth`之间切换, 请先删除 `/home/pi/.avs.json` 。 这个是隐藏文件，请用 `ls -la` 显示文件。
-
-#### 2. 配置
-
-```
-(env) pi@raspberrypi:~ $ cd /home/pi
-(env) pi@raspberrypi:~ $ git clone https://github.com/respeaker/respeaker_v2_eval.git
-(env) pi@raspberrypi:~ $ cd respeaker_v2_eval/alexa
-(env) pi@raspberrypi:~/respeaker_v2_eval/alexa $ cp ~/4mics_hat/pixels.py ./pixels.py
-(env) pi@raspberrypi:~/respeaker_v2_eval/alexa $ nano ns_kws_doa_alexa.py
-```
-按照下面的信息更新第15-50行的设置:
-
-```python
-    from voice_engine.kws import KWS
-    #from voice_engine.ns import NS
-    #from voice_engine.doa_respeaker_4mic_array import DOA
-    from avs.alexa import Alexa
-    from pixels import pixels
-
-    def main():
-        logging.basicConfig(level=logging.DEBUG)
-
-        src = Source(rate=16000, channels=4, frames_size=800)
-        ch1 = ChannelPicker(channels=4, pick=1)
-        #ns = NS(rate=16000, channels=1)
-        kws = KWS(model='snowboy')
-        #doa = DOA(rate=16000)
-        alexa = Alexa()
-
-        alexa.state_listener.on_listening = pixels.listen
-        alexa.state_listener.on_thinking = pixels.think
-        alexa.state_listener.on_speaking = pixels.speak
-        alexa.state_listener.on_finished = pixels.off
-
-        src.link(ch1)
-        ch1.link(kws)
-        #ch1.link(ns)
-        #ns.link(kws)
-        kws.link(alexa)
-
-        #src.link(doa)
-        def on_detected(keyword):
-            #logging.info('detected {} at direction {}'.format(keyword, doa.get_direction()))
-            logging.info('detected {}'.format(keyword))
-            alexa.listen()
-
-        kws.set_callback(on_detected)
-```
-![](https://github.com/SeeedDocument/ReSpeaker-4-Mic-Array-for-Raspberry-Pi/raw/master/img/alexa.png)
 
 #### 3. 让我们High起来!
 
@@ -280,13 +242,26 @@ pi@raspberrypi:~ $ source ~/env/bin/activate                    # activate the v
 
 ## FAQ(疑问解答)
 
-Q:严格按照本 wiki 操作，驱动还是安装失败，怎么办？
+Q1:严格按照本 wiki 操作，驱动还是安装失败，怎么办？
 
-A:如果按照上述方法安装驱动均失败，请点击下面固件安装
+A1:如果按照上述方法安装驱动均失败，请点击下面固件安装
 
-[我是固件](https://pan.baidu.com/s/1bprWJr5)
+[我是固件](https://pan.baidu.com/s/1yO59SVKZC83XrXQdlEwaYw)
 
-下载密码：t1m7
+下载密码：bre7
+
+Q2: 如果我们用aplay可以听到声音，但是运行alexa/dueros不能听到声音。
+
+A1: 我们有3个播放器（mpv，mpg123和gstreamer）可供使用。 SpeechSynthesizer和Alerts更适应mpg123。 AudioPlayer适合gstreamer> mpv> mpg123。 Gstreamer支持更多的音频格式，并在树莓派上运行良好。 我们也可以使用环境变量PLAYER来指定AudioPlayer的播放器。 所以请尝试下面的命令来启用语音。
+
+```
+sudo apt install mpg123
+PLAYER=mpg123 python ns_kws_doa_alexa_with_light.py
+```
+
+Q3:运行DOA，说snowboy的时候没有响应。
+
+A3:运行audacity检查4个麦克风是否多有数据，如果有其中一个麦克风没有数据，就会没有响应。
 
 ## 资源下载
 
