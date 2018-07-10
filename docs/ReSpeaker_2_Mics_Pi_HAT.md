@@ -66,6 +66,21 @@ ReSpeaker 2-Mics Pi HAT是专为AI和语音应用设计的Raspberry Pi双麦克�
 
 #### 2. 根据以下流程安装驱动：
 
+在安装驱动之前，请根据以下流程切换源到清华。
+
+```
+pi@raspberrypi ~ $ sudo nano /etc/apt/sources.list
+```
+
+用#注释掉原文件内容，用以下内容取代：
+
+```
+deb http://mirrors.tuna.tsinghua.edu.cn/raspbian/raspbian/ stretch main non-free contrib
+deb-src http://mirrors.tuna.tsinghua.edu.cn/raspbian/raspbian/ stretch main non-free contrib
+```
+
+然后运行下面命令
+
 ```
 sudo apt-get update
 sudo apt-get upgrade
