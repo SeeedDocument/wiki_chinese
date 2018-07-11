@@ -74,7 +74,7 @@ markdown_extensions:
 
 extra_css:
   - 'stylesheets/extra.css'
-  
+
 extra_javascript:
   - 'javascripts/extra.js'
 
@@ -82,7 +82,7 @@ extra_javascript:
 # Page tree
 pages:
   - Seeed文档中文站点介绍: 'index.md'
-  
+
   - 平台:
     - Arduino:
       - Arduino: Arduino.md
@@ -114,16 +114,16 @@ pages:
       - Raspberry Pi Zero W Complete Starter Kit: Raspberry_Pi_Zero_W_Complete_Starter_Kit.md
       - Raspberry Pi Zero W with Official Case: Raspberry_Pi_Zero_W_with_Official_Case.md
       - Raspberry Pi Magic Mirror: Raspberry_Pi_Magic_Mirror.md
-      
-      
+
+
 
     - Wio:
       - Wio: Wio.md
       - Wio Node: Wio_Node.md
       - Wio Link: Wio_Link.md
       - Wio LTE Cat.1: Wio_LTE_Cat.1.md
-      
-    
+
+
     - LinkIt:
       - LinkIt: LinkIt.md
       - LinkIt ONE: LinkIt_ONE.md
@@ -132,12 +132,12 @@ pages:
       - Breakout for LinkIt Smart 7688 v2.0: Breakout_for_LinkIt_Smart_7688_v2.0.md
       - Arduino Breakout for LinkIt Smart 7688 Duo: Arduino_Breakout_for_LinkIt_Smart_7688_Duo.md
       - Grove Breakout for LinkIt Smart 7688 Duo: Grove_Breakout_for_LinkIt_Smart_7688_Duo.md
-      
-       
+
+
     - mbed:
       - mbed: mbed.md
       - Tiny BLE: Tiny_BLE.md
-    
+
     - Rephone:
       - Rephone: Rephone.md
       - Xadow Audio: Xadow_Audio.md
@@ -155,9 +155,10 @@ pages:
       - ReSpeaker Core v2.0: ReSpeaker_Core_v2.0.md
       - ReSpeaker 2-Mics Pi HAT: ReSpeaker_2_Mics_Pi_HAT.md
       - ReSpeaker 4-Mics Pi HAT: ReSpeaker_4_Mic_Array_for_Raspberry_Pi.md
+      - ReSpeaker 4-Mic Linear Array Pi HAT: ReSpeaker_4-Mic_Linear_Array_Kit_for_Raspberry_Pi.md
       - SoundPi: SoundPi.md
       - Application Dueros: Application_Dueros.md
-    
+
     - Shield:
       - Shield: Shield.md
       - Base Shield V2: Base_Shield_V2.md
@@ -199,7 +200,7 @@ pages:
       - RFbee V1.1 Wireless Arduino compatible node: RFbee_V1.1-Wireless_Arduino_compatible_node.md
       - BLE Nitrogen: BLE_Nitrogen.md
       - Bluetooth_V4.0_HM_11_BLE_Module: Bluetooth_V4.0_HM_11_BLE_Module.md
-  
+
   - Grove:
     - Grove系统: Grove_System.md
     - 传感器:
@@ -276,11 +277,11 @@ pages:
       - Grove-80cm Infrared Proximity Sensor: Grove-80cm_Infrared_Proximity_Sensor.md
       - Grove-TF Mini LiDAR: Grove-TF_Mini_LiDAR.md
       - Grove-IR Distance Interrupter v1.2: Grove-IR_Distance_Interrupter_v1.2.md
-    
-    
-     
 
-      
+
+
+
+
 
 
     - 执行器:
@@ -334,8 +335,8 @@ pages:
       - Grove-125KHz RFID Reader: Grove-125KHz_RFID_Reader.md
       - Grove-I2C Hub: Grove-I2C_Hub.md
       - Grove-Voltage Divider: Grove-Voltage_Divider.md
-      
-      
+
+
 
     - 显示器:
       - Display: Display.md
@@ -347,7 +348,7 @@ pages:
 
     - Communication:
       - Communication: Communication.md
-  
+
   - 其他:
       - Others: Others.md
       - 3W Solar Panel 138x160: 3W_Solar_Panel_138x160.md
@@ -359,11 +360,11 @@ pages:
       - G1-2 inch Water Flow Sensor: G1_and_2_inch_Water_Flow_Sensor.md
       - G1-8 Water Flow Sensor: G1-8_Water_Flow_Sensor.md
       - Grove Starter Kit v3: Grove_Starter_Kit_v3.md
-      
+
 
   - IoT:
     - IoT: IoT.md
-  
+
   - kit套件:
     - Grove Inventor Kit for microbit: Grove_Inventor_Kit_for_microbit.md
     - Grove Starter kit for Arduino 101: Grove_Starter_kit_for_Arduino_101.md
@@ -389,7 +390,7 @@ pages:
     - Rainbow Cube kit RGB 4x4x4 Rainbowduino Compatible: Rainbow_Cube_kit_RGB_4_4_4_Rainbowduino_Compatible.md
     - BitBot Robot Kit for MicroBit: BitBot-Robot_Kit_for_MicroBit.md
     - Seeeduino Mega Protoshield Kit: Seeeduino_Mega_Protoshield_Kit.md
-  
+
   - MakerPro:
     - MakerPro: MakerPro.md
     - 2KM Long Range RF link kits w encoder and decoder: 2KM_Long_Range_RF_link_kits_w_encoder_and_decoder.md
@@ -408,14 +409,14 @@ pages:
     - M11 1.25 Water flow Sensor: M11_1.25_Water_flow_Sensor.md
     - Mini Soldering Iron: Mini_Soldering_Iron.md
     - LoNet 808 Mini GSM GPRS Plus GPS Breakout: LoNet_808-Mini_GSM_GPRS_Plus_GPS_Breakout.md
-    
+
   - 使用教程:
     - Tutorial: Tutorial.md
     - 如何安装Arduino库: How_to_install_Arduino_Library.md
     - 如何上传代码: Upload_Code.md
     - Seeeduino入门指导: Getting_Started_with_Seeeduino.md
     - 如何编辑Wiki: How_to_edit_Wiki.md
-  
+
   - 文档协议: license.md
 
 # Google Analytics
