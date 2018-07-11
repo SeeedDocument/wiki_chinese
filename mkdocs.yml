@@ -147,7 +147,7 @@ pages:
       - Xadow Basic Sensors: Xadow_Basic_Sensors.md
       - RePhone Strap Kit for Pebble: RePhone_Strap_Kit_for_Pebble.md
 
-    - Respeaker:
+    - ReSpeaker:
       - ReSpeaker: ReSpeaker.md
       - ReSpeaker Mic Array: ReSpeaker_Mic_Array.md
       - ReSpeaker Mic Array v2.0: ReSpeaker_Mic_Array_v2.0.md
