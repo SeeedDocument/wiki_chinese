@@ -1,25 +1,26 @@
 ---
-title: ReSpeaker 4-Mic 线性阵列套件
+title: ReSpeaker 6-Mic 圆形阵列套件
 category: ReSpeaker
 bzurl:
-oldwikiname: ReSpeaker 4-Mic 线性阵列套件
+oldwikiname: ReSpeaker 6-Mic 圆形阵列套件
 prodimagename: cover.JPG
-surveyurl:
-sku: 107990056
+surveyurl:  
+sku: 107990055
 ---
 
-![enter image description here](https://github.com/SeeedDocument/ReSpeaker_4-Mics_Linear_Array_Kit/raw/master/img/main_wiki.jpg)
-
-基于Raspberry Pi的ReSpeaker 4-Mic线性阵列套件是一款适用于AI和语音应用的Raspberry Pi的四通道麦克风扩展板。这意味着您可以借助它构建一个集成Amazon Alexa语音服务，Google助手等，功能更强大，更灵活的语音产品。
-
-ReSpeaker 4-Mic线性阵列包含两个板子：一个是适配板，另一个是4mic线性阵列。
-
-ReSpeaker 4-Mic线性阵列支持在Raspian系统下八通道输入输出。其中，前六个麦克风输入通道录音（只有前4个输入通道有效捕获数据），其余2个输入通道是回采通道；输出通道中前2播放输出通道，其余6输出通道是虚拟的。
+![enter image description here](https://github.com/SeeedDocument/ReSpeaker_6-Mics_Circular_Array_kit_for_Raspberry_Pi/raw/master/img/IMG_6051.jpg)
 
 
+基于Raspberry Pi的ReSpeaker 6-Mic圆形阵列套件是一款适用于AI和语音应用的Raspberry Pi的四通道麦克风扩展板。这意味着您可以借助它构建一个集成Amazon Alexa语音服务，Google助手等，功能更强大，更灵活的语音产品。
+
+ReSpeaker 6-Mic圆形阵列包含两个板子：一个是适配板，另一个是6mic阵列。
+
+ReSpeaker 6-Mi圆形阵列支持在Raspian系统下八通道输入输出。其中，前六个麦克风输入通道录音（只有前4个输入通道有效捕获数据），其余2个输入通道是回采通道；输出通道中前2播放输出通道，其余6输出通道是虚拟的。
 
 
-<p style="text-align:center"><a href="https://www.seeedstudio.com/ReSpeaker-4-Mic-Linear-Array-Kit-p-3066.html" target="_blank"><img src="https://github.com/SeeedDocument/wiki_english/raw/master/docs/images/300px-Get_One_Now_Banner-ragular.png" /></a></p>
+
+
+<p style="text-align:center"><a href="https://www.seeedstudio.com/ReSpeaker-6-Mic-Circular-Array-Kit-for-Raspberry-Pi-p-3067.html" target="_blank"><img src="https://github.com/SeeedDocument/wiki_english/raw/master/docs/images/300px-Get_One_Now_Banner-ragular.png" /></a></p>
 
 
 
@@ -27,14 +28,17 @@ ReSpeaker 4-Mic线性阵列支持在Raspian系统下八通道输入输出。其�
 
 - 2个ADC 芯片和一个 DAC芯片
 - 8输入8输出通道
-- 四麦克阵列
+- 六麦克阵列
 - 支持Grove接口
 - 与树莓派40针接口兼容
 - 耳机和扬声器输出
 
-## 规格参数
+
+
+
+## 规格说明
 - 2 x X-Power AC108 ADC
-- 4 x高性能贴片模拟麦克
+- 6 x高性能贴片模拟麦克
 - 1 x X-Power AC101 DAC
 - 输出接口:
     - 3.5mm headset audio jack
@@ -43,6 +47,8 @@ ReSpeaker 4-Mic线性阵列支持在Raspian系统下八通道输入输出。其�
 - 麦克风: Knowles SPU0414HR5HSB
 - 灵敏度: -22 dBFS (Omnidirectional)
 - SNR: 59 dB
+
+
 
 
 ## 创意应用
@@ -58,17 +64,18 @@ ReSpeaker 4-Mic线性阵列支持在Raspian系统下八通道输入输出。其�
 
 
 
-
-
 ## 硬件概述
 
-
-![](https://github.com/SeeedDocument/ReSpeaker_4-Mics_Linear_Array_Kit/raw/master/img/Hardware.jpg)
+![](https://github.com/SeeedDocument/ReSpeaker_6-Mics_Circular_Array_kit_for_Raspberry_Pi/raw/master/img/hardware.jpg)
 
 
 ## 安装图示  
 
 ![](https://github.com/SeeedDocument/Bazaar_file/raw/master/107990055/img/ab.png)
+
+<p style="text-align:center"><img src="https://github.com/SeeedDocument/Bazaar_file/raw/master/107990055/img/6-mic_array_assemble.gif" /></p>
+
+
 
 
 ## 入门指导
@@ -77,12 +84,11 @@ ReSpeaker 4-Mic线性阵列支持在Raspian系统下八通道输入输出。其�
 
 **准备材料**
 
+ReSpeaker 6-Mic 线性麦克阵列    x1
 
-ReSpeaker 4-Mic 线性麦克阵列    x1
+[Raspberry Pi 3B or 3B+](https://www.seeedstudio.com/Raspberry-Pi-3-Model-B%2B-p-3037.html?utm_source=homepage&utm_medium=homepagebanner&utm_campaign=hp_0605)              x1
 
-[Raspberry Pi 3B 或 3B+](https://www.seeedstudio.com/Raspberry-Pi-3-Model-B%2B-p-3037.html?utm_source=homepage&utm_medium=homepagebanner&utm_campaign=hp_0605)              x1
-
-[Micro-USB 线](https://www.seeedstudio.com/Micro-USB-Cable-48cm-p-1475.html)                     x1
+[Micro-USB Cable](https://www.seeedstudio.com/Micro-USB-Cable-48cm-p-1475.html)                     x1
 
 PC                                  x1
 
@@ -105,13 +111,13 @@ PC                                  x1
 **Step 4.**  将 *树莓派*与 *PC* 通过micro-USB线连接
 
 
-![Pics here](https://github.com/SeeedDocument/ReSpeaker_4-Mics_Linear_Array_Kit/raw/master/img/4-mic.jpg)
+![Pics here](https://github.com/SeeedDocument/ReSpeaker_6-Mics_Circular_Array_kit_for_Raspberry_Pi/raw/master/img/6-mic.jpg)
 
 
 ### 软件
 
 
-**准备**
+**准备工作**
 
 *方法A 通过[PUTTY](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html)由SSH协议登陆*
 
@@ -147,6 +153,7 @@ pi@192.168.43.210's password:raspberry
 *方法 C，直接插上外设来控制树莓派*
 
 如果觉得以上步骤太繁杂，你也可以直接将显示器插在HDMI接口，将鼠标键盘插在USB接口来控制树莓派，更为简单
+
 
 
 **Step 1. Install seeed-voicecard**
@@ -262,7 +269,6 @@ plughw:CARD=seeed8micvoicec,DEV=0
 
 ```
 
-
 **Step 3. 录音播放测试**
 
 你可以先录音在播放，或者一边录音一边播放
@@ -283,7 +289,7 @@ aplay -D plughw:1,0 -r 16000 mono_to_play.wav
 ```
 
 !!!Note
-        限制开发人员使用4-Mic线性阵列套件（或4-Mic线性阵列套件）同时进行捕获和回放:
+        限制开发人员使用6-Mic圆形阵列套件（或6-Mic圆形阵列套件）同时进行捕获和回放:
 
         -1. 捕获必须首先开始，否则捕获通道可能是无序的.
 
@@ -309,6 +315,19 @@ $ audacity                      // run audacity
 ![](https://github.com/SeeedDocument/Respeaker_V2/raw/master/img/audacity.png)
 
 
+
+
+### LED测试
+
+阵列板上有12个RGB LED，你可以自己配置他们，让我们看看如何点亮他们吧
+```
+git clone --depth 1 https://github.com/respeaker/pixel_ring.git
+cd pixel_ring
+pip install -U -e .
+python examples/respeaker_4mic_array.py
+
+```
+你将会看到灯被点亮，并且运动起来。你可以参考 `python examples/respeaker_4mic_array.py` 文件来设计自己想要的花样
 
 
 
@@ -342,7 +361,6 @@ source ~/env/bin/activate                   # activate the virtual environment
 
 要获得授权，您需要打开浏览器以登录您的亚马逊或百度ID，因此您需要使用VNC Viewer或通过显示器和键盘进行操作。 与* ssh *相同，您需要树莓派的IP才能登录VNC。.
 
-
 ####  Alexa 示例
 
 ```
@@ -361,6 +379,7 @@ pi@raspberrypi:~ $ source ~/env/bin/activate
 ```
 
 这时你可以敲击 enter 键开始与alexa的对话
+
 
 
 
@@ -386,6 +405,7 @@ pi@raspberrypi:~ $ source ~/env/bin/activate
 (env) pi@raspberrypi:~ $ alexa-tap
 ```
 这时你可以敲击回车，并向它提问。
+
 
 #### snowboy唤醒词检测引擎
 
@@ -437,7 +457,7 @@ ATTR{number}的值可以通过下面的命令找到:
 udevadm info -a -p /sys/class/sound/card1/:
 ```
 
-**Step 3. 配置 `default.pa` and `daemon.conf`**
+**Step 3. 配置 `default.pa` 和 `daemon.conf`**
 ```
 sudo cp default.pa /etc/pulse/
 sudo cp daemon.conf /etc/pulse/
@@ -468,17 +488,15 @@ Default Sink: alsa_output.platform-soc_sound.seeed-2ch
 Default Source: alsa_input.platform-soc_sound.seeed-8ch
 Cookie: 3523:e5af
 ```
+当配置过snowboy后，请按照下面来做
 
-配置snowboy之后，请照如下所示来做
 ```
 source ~/env/bin/activate
 cd ~/voice-engine/examples
-python kws_alexa_for_4mic_liner_pihat.py
+python ds_kws_doa_for_respeaker_6mic_array_pihat.py
 ```
-这时你应该能看到LED灯亮，并且你可以通过说唤醒词来唤醒它
 
-
-
+这时，你将会看到LED亮起，你可以喊“snowboy”来唤醒它。这时，<font color =“Green”>绿色LED灯</font>会指向唤醒词的来源方向
 
 ## FAQ
 
@@ -486,13 +504,14 @@ python kws_alexa_for_4mic_liner_pihat.py
 
 A1: 该套件集成了2个 AC108在阵列上, 每个 AC108 有4个输出通道. 所以一共有8个输出通道。其中有4个是mic的 ,两个是回采的，剩下两个没有用到。
 
+**Q2: 看到有些地方下载资源的时候是‘4mic-hat’，wiki是不是写错了？**
+
+A2：因为该产品与4mic hat所用软件大部分都是一样的，不同的只是硬件外设，所以有些代码可以通用的，以后我们会尽快更新的。
 
 ## 资源下载
 
 - **[PDF]** [AC101 Datasheet](https://github.com/SeeedDocument/ReSpeaker_6-Mics_Circular_Array_kit_for_Raspberry_Pi/raw/master/reg/AC101_User_Manual_v1.1.pdf)
 - **[PDF]** [AC108 Datesheet](https://github.com/SeeedDocument/ReSpeaker_6-Mics_Circular_Array_kit_for_Raspberry_Pi/raw/master/reg/AC108_Datasheet_V1.2.pdf)
-
-
 
 ## 技术支持
 如果有其他技术问题，请发邮件到 [techsupport@seeed.cc](techsupport@seeed.cc) 或者请到我们的论坛里去参与讨论 [forum](http://forum.seeedstudio.com/).
