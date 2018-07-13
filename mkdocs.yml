@@ -278,8 +278,8 @@ pages:
       - Grove-80cm Infrared Proximity Sensor: Grove-80cm_Infrared_Proximity_Sensor.md
       - Grove-TF Mini LiDAR: Grove-TF_Mini_LiDAR.md
       - Grove-IR Distance Interrupter v1.2: Grove-IR_Distance_Interrupter_v1.2.md
-
-
+      - Grove-VOC and eCO2 Gas Sensor SGP30 : Grove-VOC_and_eCO2_Gas_Sensor-SGP30.md
+      - Grove-I2C FM Receiver v1.1 : Grove-I2C_FM_Receiver_v1.1.md
 
 
 

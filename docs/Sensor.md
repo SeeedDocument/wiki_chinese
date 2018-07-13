@@ -89,3 +89,5 @@ Grove - 传感器包括各种传感器输入模块。
 * [Grove-UV_Sensor](http://wiki.seeedstudio.com/cn/Grove-UV_Sensor)
 * [Grove-Voltage_Divider](http://wiki.seeedstudio.com/cn/Grove-Voltage_Divider)
 * [Grove-Water_Sensor](http://wiki.seeedstudio.com/cn/Grove-Water_Sensor)
+* [Grove-VOC_and_eCO2_Gas_Sensor-SGP30](http://wiki.seeedstudio.com/cn/Grove-VOC_and_eCO2_Gas_Sensor-SGP30)
+* [Grove-I2C_FM_Receiver_v1.1](http://wiki.seeedstudio.com/cn/Grove-I2C_FM_Receiver_v1.1)
