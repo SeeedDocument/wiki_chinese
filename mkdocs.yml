@@ -267,7 +267,7 @@ pages:
       - Grove-3 Axis Digital Accelerometer 400g: Grove-3-Axis_Digital_Accelerometer-400g.md
       - Grove-3 Axis Digital Gyro: Grove-3-Axis_Digital_Gyro.md
       - Grove-Fingerprint Sensor: Grove-Fingerprint_Sensor.md
-      - Grove-GPS: Grove-GPS.md
+    
       - Grove-Line Finder: Grove-Line_Finder.md
       - Grove-Rotary Angle Sensor: Grove-Rotary_Angle_Sensor.md
       - Grove-Collision Sensor: Grove-Collision_Sensor.md
@@ -279,9 +279,7 @@ pages:
       - Grove-TF Mini LiDAR: Grove-TF_Mini_LiDAR.md
       - Grove-IR Distance Interrupter v1.2: Grove-IR_Distance_Interrupter_v1.2.md
       - Grove-VOC and eCO2 Gas Sensor SGP30 : Grove-VOC_and_eCO2_Gas_Sensor-SGP30.md
-      - Grove-I2C FM Receiver v1.1 : Grove-I2C_FM_Receiver_v1.1.md
-
-
+   
 
 
 
@@ -298,11 +296,7 @@ pages:
       - Grove-I2C Motor Driver V1.3: Grove-I2C_Motor_Driver_V1.3.md
       - Grove-Mini I2C Motor Driver v1.0: Grove-Mini_I2C_Motor_Driver_v1.0.md
       - Grove-Haptic Motor: Grove-Haptic_Motor.md
-      - Grove-DMX512: Grove-DMX512.md
-      - Grove-NFC: Grove-NFC.md
-      - Grove-NFC Tag: Grove-NFC_Tag.md
-      - Grove-UART Wifi: Grove-UART_Wifi.md
-      - Grove-Serial RF Pro: Grove-Serial_RF_Pro.md
+      - Grove-DMX512: Grove-DMX512.md    
       - Grove-Mouse Encoder: Grove-Mouse_Encoder.md
       - Grove-Switch-P: Grove-Switch-P.md
       - Grove-Magnetic Switch: Grove-Magnetic_Switch.md
@@ -326,15 +320,11 @@ pages:
       - Grove-LED_Socket_Kit: Grove-LED_Socket_Kit.md
       - Grove-Variable Color LED: Grove-Variable_Color_LED.md
       - Grove-EL Driver: Grove-EL_Driver.md
-      - Grove-2 Coil Latching Relay: Grove-2-Coil_Latching_Relay.md
-      - Grove-BLE v1: Grove-BLE_v1.md
+      - Grove-2 Coil Latching Relay: Grove-2-Coil_Latching_Relay.md     
       - Grove-Infrared Emitter: Grove-Infrared_Emitter.md
       - Grove-Screw Terminal: Grove-Screw_Terminal.md
       - Grove-Slide Potentiometer: Grove-Slide_Potentiometer.md
       - Grove-Thumb Joystick: Grove-Thumb_Joystick.md
-      - Grove-LoRa Radio: Grove_LoRa_Radio.md
-      - Grove-125KHz RFID Reader: Grove-125KHz_RFID_Reader.md
-      - Grove-I2C Hub: Grove-I2C_Hub.md
       - Grove-Voltage Divider: Grove-Voltage_Divider.md
 
 
@@ -346,10 +336,20 @@ pages:
       - Grove-OLED Display 0.96inch: Grove-OLED_Display_0.96inch.md
       - Grove-OLED Display 1.12inch: Grove-OLED_Display_1.12inch.md
       - Grove-Circular LED: Grove-Circular_LED.md
-
+     
     - Communication:
       - Communication: Communication.md
-
+      - Grove-LoRa Radio: Grove_LoRa_Radio.md
+      - Grove-125KHz RFID Reader: Grove-125KHz_RFID_Reader.md
+      - Grove-I2C Hub: Grove-I2C_Hub.md
+      - Grove-BLE v1: Grove-BLE_v1.md
+      - Grove-NFC: Grove-NFC.md
+      - Grove-NFC Tag: Grove-NFC_Tag.md
+      - Grove-UART Wifi: Grove-UART_Wifi.md
+      - Grove-Serial RF Pro: Grove-Serial_RF_Pro.md
+      - Grove-I2C FM Receiver v1.1 : Grove-I2C_FM_Receiver_v1.1.md
+      - Grove-UART Wifi V2 : Grove-UART_Wifi_V2.md
+      - Grove-GPS: Grove-GPS.md
   - 其他:
       - Others: Others.md
       - 3W Solar Panel 138x160: 3W_Solar_Panel_138x160.md

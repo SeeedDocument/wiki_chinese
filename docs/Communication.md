@@ -25,4 +25,6 @@ nointro:
 * [Grove-Screw_Terminal](http://wiki.seeedstudio.com/cn/Grove_Screw_Terminal)
 * [Grove-Serial_RF_Pro](http://wiki.seeedstudio.com/cn/Grove-Serial_RF_Pro)
 * [Grove-UART_Wifi](http://wiki.seeedstudio.com/cn/Grove-UART_Wifi/)
+* [Grove-UART_Wifi_V2](http://wiki.seeedstudio.com/cn/Grove-UART_Wifi_V2.md)
 * [Grove_LoRa_Radio](http://wiki.seeedstudio.com/cn/Grove_LoRa_Radio)
+* [Grove-I2C_FM_Receiver_v1.1](http://wiki.seeedstudio.com/cn/Grove-I2C_FM_Receiver_v1.1)
