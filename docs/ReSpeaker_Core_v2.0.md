@@ -724,10 +724,10 @@ python /home/respeaker/respeakerd/clients/Python/demo_respeaker_v2_vep_alexa_wit
 我们提供了一些 API，它们使用户能够在说出热词时获得指示，以及以 PCM 格式已处理的语音数据，这些语音数据可以发送到像 Alexa 等的云服务进行进一步处理。您可以点击 [APIs Docs](http://respeaker.io/librespeaker_doc/) 查看。
 
 
-### 用 AVS 进行语音互动
+### 用 AVS 进行语音互动 (C++)
 
 
-#### C++
+
 
 本指南将向您展示如何使用 respeakerd 运行 Amazon 官方 AVS C++ SDK。这部分要求您具有关于 Linux 的一定技术背景。
 
@@ -784,7 +784,7 @@ sudo vim /etc/pulse/default.pa
 
 ```
 
-然后 Vim 编辑器会打开这个文件，点 ++i++ 进入编辑模式。将以下行复制并粘贴到该文件的末尾 :
+然后 Vim 编辑器会打开这个文件，按 ** i** 进入编辑模式。将以下行复制并粘贴到该文件的末尾 :
 
 ```
 load-module module-pipe-source source_name="respeakerd_output" rate=16000 channels=1
@@ -792,9 +792,9 @@ set-default-source respeakerd_output
 
 ```
 
-- 点 ++esc++ 退出编辑模式
-- 点 ++colon++ 访问命令模式，点 ++w++ 然后点 ++enter++ 来保存修改。
-- 保存后请点 ++q++ 然后点 ++enter++ 退出 vim。
+- 点 ** esc** 退出编辑模式
+- 点 ** colon** 访问命令模式，点 ** w** 然后点 ** enter** 来保存修改。
+- 保存后请点 ** q** 然后点 ** enter** 退出 vim。
 
 ![](https://github.com/SeeedDocument/Respeaker_V2/raw/master/img/c1.png)
 
@@ -802,10 +802,18 @@ set-default-source respeakerd_output
 现在输入
 
 ```
-sudo reboot -f
+sudo reboot -f #重启电路板
 ```
 
-重启电路板
+!!! Note
+  上面的vim编辑器操作比较复杂，也许对新手来说不是太友好， 我们可以直接通过图形化界面来编辑 /etc/pulse/default.pa 文件，也可以通过nano编辑器来编辑，可以通过以下命令打开Nano编辑器
+
+  ```
+  sudo nano /etc/pulse/default.pa
+  ```
+
+
+
 
 2.2 在 PulseAudio 模式下启动 respeakerd
 

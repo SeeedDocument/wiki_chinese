@@ -90,3 +90,5 @@ Grove - 传感器包括各种传感器输入模块。
 * [Grove-Voltage_Divider](http://wiki.seeedstudio.com/cn/Grove-Voltage_Divider)
 * [Grove-Water_Sensor](http://wiki.seeedstudio.com/cn/Grove-Water_Sensor)
 * [Grove-VOC_and_eCO2_Gas_Sensor-SGP30](http://wiki.seeedstudio.com/cn/Grove-VOC_and_eCO2_Gas_Sensor-SGP30)
+* [Grove-Time_of_Flight_Distance_Sensor-VL53L0X](http://wiki.seeedstudio.com/cn/Grove-Time_of_Flight_Distance_Sensor-VL53L0X)
+* [Grove-Digital_Distance_Interrupter_0.5_to_5cm-GP2Y0D805Z0F](http://wiki.seeedstudio.com/cn/Grove-Digital_Distance_Interrupter_0.5_to_5cm-GP2Y0D805Z0F)

@@ -85,9 +85,9 @@ deb-src http://mirrors.tuna.tsinghua.edu.cn/raspbian/raspbian/ stretch main non-
 sudo apt-get update
 sudo apt-get upgrade
 git clone https://github.com/respeaker/seeed-voicecard.git
-cd seeed-voicecard
-sudo ./install.sh
-reboot
+cd seeed-voicecard #下载声卡驱动
+sudo ./install.sh #安装声卡驱动
+reboot  #重启
 ```
 
 #### 3. 检查声卡名称是否与源代码seeed-voicecard相匹配.
@@ -119,15 +119,25 @@ card 1: seeed2micvoicec [seeed-2mic-voicecard], device 0: bcm2835-i2s-wm8960-hif
   Subdevice #0: subdevice #0
 pi@raspberrypi:~/seeed-voicecard $
 ```
-
-####  4. 可以用`arecord`录制，然后用`aplay`播放：(不要忘记插耳机或者喇叭):
+### 录音播放测试
+ 可以用`arecord`录制，然后用`aplay`播放：(不要忘记插耳机或者喇叭):
 
 ```
 arecord -f cd -Dhw:1 | aplay -Dhw:1
 ```
 
+也可以通过audacity软件测试。打开Audacity后，选择 **AC108和2通道** 作为输入，**bcm2835 alsa: - (hw：0，0)** 作为输出来测试：
 
-### 用alsamixer配置声音设置和调整音量
+```
+$ sudo apt update
+$ sudo apt install audacity
+$ audacity                      // 运行 audacity
+```
+
+![](https://github.com/SeeedDocument/ReSpeaker-4-Mic-Array-for-Raspberry-Pi/blob/master/img/audacity.png?raw=true)
+
+
+#### 5. 用alsamixer配置声音设置和调整音量
 
 **alsamixer** 是用于配置声音设置和调整音量，高级Linux声音体系结构（ALSA）的图形混音器程序。
 
@@ -141,6 +151,18 @@ pi@raspberrypi:~ $ alsamixer
     首先请用F6选择seeed-2mic的声卡设备。
 
 左和右箭头键用于选择通道或设备，“向上和向下箭头”控制当前所选设备的音量。 退出程序使用ALT + Q或按Esc键。 [More information](https://en.wikipedia.org/wiki/Alsamixer)
+
+### 安装python，并安装虚拟环境，隔离SDK与系统Python包关系。
+```
+
+pi@raspberrypi:~ $ cd /home/pi
+pi@raspberrypi:~ $ git clone https://github.com/respeaker/4mics_hat.git
+pi@raspberrypi:~ $ cd /home/pi/4mics_hat
+pi@raspberrypi:~/4mics_hat $ sudo apt install python-virtualenv          # 安装 python2 虚拟环境工具
+pi@raspberrypi:~/4mics_hat $ virtualenv --system-site-packages ~/env     # 建立虚拟环境，命名位env,放在~目录下
+pi@raspberrypi:~/4mics_hat $ source ~/env/bin/activate                   # 激活虚拟环境
+(env) pi@raspberrypi:~/4mics_hat $ pip install spidev gpiozero           # 安装需要的工具包
+```
 
 
 ## 让我们开始来玩 **Google Assistant**
@@ -158,25 +180,17 @@ pi@raspberrypi:~ $ alsamixer
 
 请根据[指南](https://developers.google.com/assistant/sdk/prototype/getting-started-pi-python/config-dev-project-and-account#config-dev-project) 第一步到第四步在Google Cloud Platform上配置项目，并创建一个OAuth Client ID JSON文件。 不要忘记将JSON文件复制到您的Raspberry Pi。
 
-### 2. 使用Python虚拟环境，隔离SDK与系统Python包关系。
 
-```
-sudo apt-get update
-sudo apt-get install python3-dev python3-venv # Use python3.4-venv if the package cannot be found.
-python3 -m venv env
-env/bin/python -m pip install --upgrade pip setuptools
-source env/bin/activate
-```
-
-### 3. 安装google-assistant-library
+### 2. 安装google-assistant-library
 
 Google Assistant SDK软件包，包含在设备上运行Google Assistant所需的所有代码，包括库和示例代码。 使用pip在虚拟环境中安装最新版本的Python包：
 
 ```
+source env/bin/activate #打开虚拟环境
 (env) $ python -m pip install --upgrade google-assistant-library
 ```
 
-### 4. 授权Google Assistant SDK
+### 3. 授权Google Assistant SDK
 
 授权Google Assistant SDK，使Google Assistant对给定的Google帐户进行查询。 把步骤1中的JSON文件复制到树莓派/home/pi下。
 
@@ -193,7 +207,7 @@ Enter the authorization code:
 
 这个时候应该显示: OAuth credentials initialized. 如果显示: InvalidGrantError then an invalid code was entered. 请重试, 确保拷贝整个code.
 
-### 5. 安装 **pulseaudio** 并且让他在后台运行
+### 4. 安装 **pulseaudio** 并且让他在后台运行
 
 ```
 pi@raspberrypi:~ $ sudo apt install pulseaudio
@@ -207,7 +221,7 @@ E: [pulseaudio] bluez4-util.c: org.bluez.Manager.GetProperties() failed: org.fre
 !!!Note
     请忽略pulseaudio错误信息。
 
-### 6. 开始使用Google Assistant示例
+### 5. 开始使用Google Assistant示例
 
 ```
 pi@raspberrypi:~ $ alsamixer    // To adjust the volume
@@ -215,13 +229,13 @@ pi@raspberrypi:~ $ source env/bin/activate
 (env) pi@raspberrypi:~ $ env/bin/google-assistant-demo
 ```
 
-### 7. 唤醒Google Assistant
+### 6. 唤醒Google Assistant
 
 先说 *Ok Google* 或者 *Hey Google*, 然后说您的询问. 语音助手就会响应您的问题。如果语音助手没有响应， 请按照 [疑难解答说明](https://developers.google.com/assistant/sdk/prototype/getting-started-pi-python/troubleshooting#hotword).
 
 ![run demo](https://github.com/SeeedDocument/MIC_HATv1.0_for_raspberrypi/blob/master/img/okgoogle.jpg?raw=true)
 
-### 8. 常见问题解决方法
+### 7. 常见问题解决方法
 
 如果您遇到问题，请参考 [常见疑难解答说明](https://developers.google.com/assistant/sdk/prototype/getting-started-pi-python/troubleshooting) 。
 
@@ -245,7 +259,7 @@ pi@raspberrypi:~ $ source env/bin/activate
 ```
 cd ~/
 git clone https://github.com/respeaker/mic_hat.git
-sudo pip install spidev
+sudo pip install spidev #安装spi的驱动
 cd mic_hat
 python pixels.py
 ```
@@ -259,7 +273,7 @@ sudo pip install rpi.gpio    // install RPi.GPIO library
 nano button.py               // copy the following code in button.py
 ```
 
-```
+```python
 import RPi.GPIO as GPIO
 import time
 
@@ -365,11 +379,11 @@ $ googlesamples-assistant-pushtotalk
 pi@raspberrypi:~ $ source ~/env/bin/activate                    # 激活Python虚拟环境, 如果已经激活，调到下一步。
 (env) pi@raspberrypi:~ $ cd ~/4mics_hat
 (env) pi@raspberrypi:~/4mics_hat $ sudo apt install libatlas-base-dev     # 安装 snowboy dependencies
-(env) pi@raspberrypi:~/4mics_hat $ sudo apt install python-pyaudio
+(env) pi@raspberrypi:~/4mics_hat $ sudo apt install python-pyaudio        #安装pyaudio音频处理包
 (env) pi@raspberrypi:~/4mics_hat $ pip install ./snowboy*.whl             # 安装 snowboy for KWS
 (env) pi@raspberrypi:~/4mics_hat $ pip install ./webrtc*.whl              # 安装 webrtc for DoA
 (env) pi@raspberrypi:~ $ cd ~/
-(env) pi@raspberrypi:~ $ git clone https://github.com/voice-engine/voice-engine
+(env) pi@raspberrypi:~ $ git clone https://github.com/voice-engine/voice-engine #write by seeed
 (env) pi@raspberrypi:~ $ cd voice-engine/
 (env) pi@raspberrypi:~ $ python setup.py install
 (env) pi@raspberrypi:~ $ cd examples
@@ -488,25 +502,87 @@ pi@raspberrypi:~ $ source ~/env/bin/activate                    # activate the v
 
 大功告成！享受属于自己的智能音箱吧！
 
+## STT (语音转文字)
+
+本部分将介绍百度STT（语音到文本）功能以及GPIO控件。 这是GPIO配置。 如果您没有风扇，可以在GPIO12 / GPIO13上连接2个LED进行演示。
+
+| GPIO   | Turn On | Faster | Slower | Turn Off |
+|--------|---------|--------|--------|----------|
+| GPIO12 | 1       | 0      | 1      | 0        |
+| GPIO13 | 0       | 1      | 0      | 0        |
+
+
+- **Step 1. 安装依赖**
+
+```
+sudo apt install mpg123
+pip install baidu-aip monotonic pyaudio
+```
+
+- **Step 2. 从百度获取key [Here](https://console.bce.baidu.com/ai/?fromai=1#/ai/speech/overview/index).**
+
+
+- **Step 3. 下载源码 [Smart_Fan.py](https://github.com/SeeedDocument/MIC_HATv1.0_for_raspberrypi/raw/master/src/baidu_STT/Smart_fan.py)**
+
+```
+cd ~
+wget https://github.com/SeeedDocument/MIC_HATv1.0_for_raspberrypi/raw/master/src/baidu_STT.zip
+unzip baidu_STT.zip
+cd baidu_STT
+python Smart_Fan.py
+```
+
+!!!Warning
+  请在运行 Smart_Fan.py之前添加百度密钥 @ line 36,37,38。 您还可以通过运行synthesis_wav.py来生成所有者的声音。 请在第6,7,8行添加百度密钥，并将字符串修改为您要生成的内容。
+
+- **Step 4. 说 '开风扇'.**
+
+- **Step 5. 你会看到风扇开启.**
+
+- **Step 6. 可以试试 '快一点', '慢一点' 或 '关风扇'.**
 
 
 
 
 ## FAQ(疑问解答)
-1.
 
 
-Q:严格按照本 wiki 操作，驱动还是安装失败，怎么办？
+**Q1:严格按照本 wiki 操作，驱动还是安装失败，怎么办？**
 
 
-A:如果按照上述方法安装驱动均失败，请点击下面固件安装
+A1:如果按照上述方法安装驱动均失败，请点击下面固件安装
 
-[我是固件](https://pan.baidu.com/s/1c1WqaWC)
+[我是固件](https://v2.fangcloud.com/share/7395fd138a1cab496fd4792fe5?folder_id=188000207913)
+注意,lite版本是没有图形界面的精简版,并且烧了固件后，记得换源。如果要使用交互功能之前请命令行输入alexa-auth或dueros-auth申请授权，授权成功后会在/home/pi目录下生成.avs.json文件，这时才能使用交互功能。/home/pi目录下会有 respeaker的例程文件夹,可以根据用的mic不同而使用相应的例程。
+
+**Q2: #include "portaudio.h" Error when run "sudo pip install pyaudio".**
+
+A1: 命令行输入如下命令
+
+```
+sudo apt-get install portaudio19-dev
+```
 
 
-下载密码：cn78
+**Q3 关于安装snowboy时出现不适合该平台的警告提醒**
+
+A3: 目前snowboy只能兼容python2，所以通过在安装python的虚拟环境时，请确保是python2
+
+**Q4 有时候 sudo python file.py 时候会出现依赖问题**
+
+A4:测试时发现sudo执行时候默认从系统环境执行，而wiki中用到的依赖都是装在~/env 下的，可以通过 ```sudo  ~/env/bin/python file.py```来解决
 
 
+**Q5 可以通过3.5毫米音频插孔的播放来听到声音，但是在运行ns_kws_doa_alexa_with_light.py时听不到声音**
+ A5： 我们有3个播放器（mpv，mpg123和gstreamer）可以使用。 mpg123更适合语音识别和唤醒更，它更具响应性； 而AudioPlayer 更适用gstreamer> mpv> mpg123。 Gstreamer支持更多音频格式，并且在raspberry pi上运行良好。 我们还可以使用环境变量PLAYER指定AudioPlayer的播放器。 所以请尝试以下命令启用语音。
+```
+
+  sudo apt install mpg123
+  PLAYER=mpg123 python ns_kws_doa_alexa_with_light.py
+```
+
+**Q6 在运行 kws_doa.py 时候喊 snowboy 没反应**
+A6:请运行audacity以确保4个频道良好。 如果有一个没有数据的频道，当我们说snowboy时就没有回复。
 
 ## 资源下载
 - **[Eagle]** [Respeaker_2_Mics_Pi_HAT_SCH](https://github.com/SeeedDocument/MIC_HATv1.0_for_raspberrypi/raw/master/src/ReSpeaker%202-Mics%20Pi%20HAT_SCH.zip)

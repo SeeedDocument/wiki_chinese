@@ -222,7 +222,7 @@ pi@raspberrypi:~ $ source ~/env/bin/activate                    # activate the v
 (env) pi@raspberrypi:~/avs $ pip install tornado
 ```
 
-用 [VNC](https://www.raspberrypi.org/documentation/remote-access/vnc/)连接树莓派, 在终端运行 `alexa-auth` ，然后登陆获取alexa的授权， 或者运行 `dueros-auth` 获取百度的授权。 授权的文件保存在`/home/pi/.avs.json`。
+用 [VNC](https://www.raspberrypi.org/documentation/remote-access/vnc/)连接树莓派, 在终端运行 `alexa-auth` ，然后点击页面获取alexa的授权， 或者运行 `dueros-auth`后点击相应选项，获取百度的授权。 授权的文件保存在`/home/pi/.avs.json`。
 
 ```
 # note: this is in the VNC terminal
@@ -238,17 +238,58 @@ pi@raspberrypi:~ $ source ~/env/bin/activate                    # activate the v
 
 现在请在虚拟环境下运行 `python ns_kws_doa_alexa.py` , 我们会在终端看到很多debug的消息. 当我们看到 **status code: 204** 的时候, 请说 `snowboy` 来唤醒 respeaker。接下来 respeaker 上的 led 灯亮起来, 我们可以跟他对话, 比如问，"谁是最帅的?" 或者 "播放刘德华的男人哭吧哭吧不是罪"。小伙伴，尽情的 High 起来吧。
 
+## STT (语音转文字)
+
+本部分将介绍百度STT（语音到文本）功能以及GPIO控件。 这是GPIO配置。 如果您没有风扇，可以在GPIO12 / GPIO13上连接2个LED进行演示。
+
+| GPIO   | Turn On | Faster | Slower | Turn Off |
+|--------|---------|--------|--------|----------|
+| GPIO12 | 1       | 0      | 1      | 0        |
+| GPIO13 | 0       | 1      | 0      | 0        |
+
+
+- **Step 1. 安装依赖**
+
+```
+sudo apt install mpg123
+pip install baidu-aip monotonic pyaudio
+```
+
+- **Step 2. 从百度获取key [Here](https://console.bce.baidu.com/ai/?fromai=1#/ai/speech/overview/index).**
+
+
+- **Step 3. 下载源码 [Smart_Fan.py](https://github.com/SeeedDocument/MIC_HATv1.0_for_raspberrypi/raw/master/src/baidu_STT/Smart_fan.py)**
+
+```
+cd ~
+wget https://github.com/SeeedDocument/MIC_HATv1.0_for_raspberrypi/raw/master/src/baidu_STT.zip
+unzip baidu_STT.zip
+cd baidu_STT
+python Smart_Fan.py
+```
+
+!!!Warning
+  请在运行 Smart_Fan.py之前添加百度密钥 @ line 36,37,38。 您还可以通过运行synthesis_wav.py来生成所有者的声音。 请在第6,7,8行添加百度密钥，并将字符串修改为您要生成的内容。
+
+- **Step 4. 说 '开风扇'.**
+
+- **Step 5. 你会看到风扇开启.**
+
+- **Step 6. 可以试试 '快一点', '慢一点' 或 '关风扇'.**
+
+
+
 ## FAQ(疑问解答)
 
-Q1:严格按照本 wiki 操作，驱动还是安装失败，怎么办？
+**Q1:严格按照本 wiki 操作，驱动还是安装失败，怎么办？**
+
 
 A1:如果按照上述方法安装驱动均失败，请点击下面固件安装
 
-[我是固件](https://pan.baidu.com/s/1yO59SVKZC83XrXQdlEwaYw)
+[我是固件](https://v2.fangcloud.com/share/7395fd138a1cab496fd4792fe5?folder_id=188000207913)
+注意,lite版本是没有图形界面的精简版,并且烧了固件后，记得换源。如果要使用交互功能之前请命令行输入alexa-auth或dueros-auth申请授权，授权成功后会在/home/pi目录下生成.avs.json文件，这时才能使用交互功能。/home/pi目录下会有 respeaker的例程文件夹,可以根据用的mic不同而使用相应的例程。
 
-下载密码：bre7
-
-Q2: 如果我们用aplay可以听到声音，但是运行alexa/dueros不能听到声音。
+**Q2: 如果我们用aplay可以听到声音，但是运行alexa/dueros不能听到声音。**
 
 A1: 我们有3个播放器（mpv，mpg123和gstreamer）可供使用。 SpeechSynthesizer和Alerts更适应mpg123。 AudioPlayer适合gstreamer> mpv> mpg123。 Gstreamer支持更多的音频格式，并在树莓派上运行良好。 我们也可以使用环境变量PLAYER来指定AudioPlayer的播放器。 所以请尝试下面的命令来启用语音。
 
@@ -257,9 +298,29 @@ sudo apt install mpg123
 PLAYER=mpg123 python ns_kws_doa_alexa_with_light.py
 ```
 
-Q3:运行DOA，说snowboy的时候没有响应。
+**Q3:运行DOA，说snowboy的时候没有响应。**
 
 A3:运行audacity检查4个麦克风是否多有数据，如果有其中一个麦克风没有数据，就会没有响应。
+
+**Q4 关于安装snowboy时出现不适合该平台的警告提醒**
+
+A4: 目前snowboy只能兼容python2，所以通过在安装python的虚拟环境时，请确保是python2
+
+**Q5 有时候 sudo python file.py 时候会出现依赖问题**
+
+A5.测试时发现sudo执行时候默认从系统环境执行，而wiki中用到的依赖都是装在~/env 下的，可以通过 ```sudo  ~/env/bin/python file.py```来解决
+
+
+**Q6 可以通过3.5毫米音频插孔的播放来听到声音，但是在运行ns_kws_doa_alexa_with_light.py时听不到声音**
+ A6： 我们有3个播放器（mpv，mpg123和gstreamer）可以使用。 mpg123更适合语音识别和唤醒更，它更具响应性； 而AudioPlayer 更适用gstreamer> mpv> mpg123。 Gstreamer支持更多音频格式，并且在raspberry pi上运行良好。 我们还可以使用环境变量PLAYER指定AudioPlayer的播放器。 所以请尝试以下命令启用语音。
+```
+
+  sudo apt install mpg123
+  PLAYER=mpg123 python ns_kws_doa_alexa_with_light.py
+```
+
+**在运行 kws_doa.py 时候喊 snowboy 没反应**
+请运行audacity以确保4个频道良好。 如果有一个没有数据的频道，当我们说snowboy时就没有回复。
 
 ## 资源下载
 

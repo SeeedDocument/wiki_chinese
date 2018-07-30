@@ -498,15 +498,68 @@ python ds_kws_doa_for_respeaker_6mic_array_pihat.py
 
 这时，你将会看到LED亮起，你可以喊“snowboy”来唤醒它。这时，<font color =“Green”>绿色LED灯</font>会指向唤醒词的来源方向
 
+
+
+## STT (语音转文字)
+
+本部分将介绍百度STT（语音到文本）功能以及GPIO控件。 这是GPIO配置。 如果您没有风扇，可以在GPIO12 / GPIO13上连接2个LED进行演示。
+
+| GPIO   | Turn On | Faster | Slower | Turn Off |
+|--------|---------|--------|--------|----------|
+| GPIO12 | 1       | 0      | 1      | 0        |
+| GPIO13 | 0       | 1      | 0      | 0        |
+
+
+- **Step 1. 安装依赖**
+
+```
+sudo apt install mpg123
+pip install baidu-aip monotonic pyaudio
+```
+
+- **Step 2. 从百度获取key [Here](https://console.bce.baidu.com/ai/?fromai=1#/ai/speech/overview/index).**
+
+
+- **Step 3. 下载源码 [Smart_Fan.py](https://github.com/SeeedDocument/MIC_HATv1.0_for_raspberrypi/raw/master/src/baidu_STT/Smart_fan.py)**
+
+```
+cd ~
+wget https://github.com/SeeedDocument/MIC_HATv1.0_for_raspberrypi/raw/master/src/baidu_STT.zip
+unzip baidu_STT.zip
+cd baidu_STT
+python Smart_Fan.py
+```
+
+!!!Warning
+  请在运行 Smart_Fan.py之前添加百度密钥 @ line 36,37,38。 您还可以通过运行synthesis_wav.py来生成所有者的声音。 请在第6,7,8行添加百度密钥，并将字符串修改为您要生成的内容。
+
+- **Step 4. 说 '开风扇'.**
+
+- **Step 5. 你会看到风扇开启.**
+
+- **Step 6. 可以试试 '快一点', '慢一点' 或 '关风扇'.**
+
+
+
+
 ## FAQ
 
-**Q1: 只有4个mic，怎么会有8个通道?**
 
-A1: 该套件集成了2个 AC108在阵列上, 每个 AC108 有4个输出通道. 所以一共有8个输出通道。其中有4个是mic的 ,两个是回采的，剩下两个没有用到。
+**Q1:严格按照本 wiki 操作，驱动还是安装失败，怎么办？**
 
-**Q2: 看到有些地方下载资源的时候是‘4mic-hat’，wiki是不是写错了？**
 
-A2：因为该产品与4mic hat所用软件大部分都是一样的，不同的只是硬件外设，所以有些代码可以通用的，以后我们会尽快更新的。
+A1:如果按照上述方法安装驱动均失败，请点击下面固件安装
+
+[我是固件](https://v2.fangcloud.com/share/7395fd138a1cab496fd4792fe5?folder_id=188000207913)
+注意,lite版本是没有图形界面的精简版,并且烧了固件后，记得换源。如果要使用交互功能之前请命令行输入alexa-auth或dueros-auth申请授权，授权成功后会在 /home/pi 目录下生成.avs.json文件，这时才能使用交互功能。/home/pi 目录下会有 respeaker的例程文件夹,可以根据用的mic不同而使用相应的例程。
+
+**Q2: 只有4个mic，怎么会有8个通道?**
+
+A2: 该套件集成了2个 AC108在阵列上, 每个 AC108 有4个输出通道. 所以一共有8个输出通道。其中有4个是mic的 ,两个是回采的，剩下两个没有用到。
+
+**Q3: 看到有些地方下载资源的时候是‘4mic-hat’，wiki是不是写错了？**
+
+A3：因为该产品与4mic hat所用软件大部分都是一样的，不同的只是硬件外设，所以有些代码可以通用的，以后我们会尽快更新的。
 
 ## 资源下载
 
