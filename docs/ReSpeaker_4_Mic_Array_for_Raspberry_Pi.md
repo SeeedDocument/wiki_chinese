@@ -58,15 +58,14 @@ sku: 103030216
 !!!Note
             不要在上电的时候，热插拔ReSpeaker 4-Mics Pi HAT.
 
-![connection picture1](https://github.com/SeeedDocument/MIC_HATv1.0_for_raspberrypi/blob/master/img/connection1.jpg?raw=true)
-![connection picture2](https://github.com/SeeedDocument/MIC_HATv1.0_for_raspberrypi/blob/master/img/connection2.jpg?raw=true)
-![connection picture3](https://github.com/yexiaobo-seeedstudio/MIC_HATv1.0_for_raspberrypi/blob/master/img/stack-on-zero.jpg?raw=true)
+![connection pic1](https://github.com/SeeedDocument/ReSpeaker-4-Mic-Array-for-Raspberry-Pi/blob/master/img/connect1.jpg?raw=true)
+![connection pic2](https://github.com/SeeedDocument/ReSpeaker-4-Mic-Array-for-Raspberry-Pi/blob/master/img/connect2.jpg?raw=true)
 
 **step 2. 烧录系统，登陆，换源**
 
 因为当前的Pi内核目前不支持wm8960编解码器，所以我们需要手动构建。
 
-1. 确保您正在您的Pi上运行[最新的Raspbian操作系统（debian 9）](https://www.raspberrypi.org/downloads/raspbian/)。 *（更新于2017.09.15）*，您可以用etcher进行系统烧录
+1. 确保您正在您的Pi上运行[最新的Raspbian操作系统（debian 9）](https://www.raspberrypi.org/downloads/raspbian/)。 *（更新于2018.06.27）*，您可以用etcher进行系统烧录
 
 2.  您可以用 [VNC](https://www.raspberrypi.org/documentation/remote-access/vnc/)或者PUTTY连接树莓派，但之前请配置好wifi
 
@@ -180,8 +179,7 @@ pi@raspberrypi:~/4mics_hat $ source ~/env/bin/activate                   # 激�
 
 每个板载APA102 LED都有一个额外的驱动芯片，驱动芯片设置LED的颜色，然后保持该颜色，直到接收到新的命令。
 
-![](https://github.com/SeeedDocument/MIC_HATv1.0_for_raspberrypi/blob/master/img/led.gif?raw=true)
-
+![](https://github.com/SeeedDocument/ReSpeaker-4-Mic-Array-for-Raspberry-Pi/blob/master/img/rainbow.jpg?raw=true)
   请在执行之前打开SPI，具体步骤如下:
 
     - 输入： `sudo raspi-config`;
@@ -338,12 +336,11 @@ python Smart_Fan.py
 
 **Q1:严格按照本 wiki 操作，驱动还是安装失败，怎么办？**
 
-
 A1:如果按照上述方法安装驱动均失败，请点击下面固件安装
 
 [我是固件](https://v2.fangcloud.com/share/7395fd138a1cab496fd4792fe5?folder_id=188000207913)
 
-lite版本是没有图形界面的精简版,并且烧了固件后，记得换源。如果要使用交互功能之前请命令行输入alexa-auth或dueros-auth申请授权，授权成功后会在/home/pi目录下生成.avs.json文件，这时才能使用交互功能。/home/pi目录下会有 respeaker的例程文件夹,可以根据用的mic不同而使用相应的例程。需要注意的是，请烧录系统后在respeaker目录下更新下例程，可以在respeaker目录下执行``` git pull origin master ```命令来更新。
+需要以下几点需要注意，第一，lite版本是没有图形界面的精简版,建议您安装有图形界面的。第二，烧了固件后，记得换源。第三， 如果要使用交互功能之前请命令行输入alexa-auth或dueros-auth申请授权，授权成功后会在/home/pi目录下生成.avs.json文件，这时才能使用交互功能。第四，/home/pi目录下会有 respeaker的例程文件夹,可以根据用的mic不同而使用相应的例程。但是请烧录系统后在respeaker目录下更新下例程，可以在respeaker目录下执行``` git pull origin master ```命令来更新。
 
 **Q2: 如果我们用aplay可以听到声音，但是运行alexa/dueros不能听到声音。**
 

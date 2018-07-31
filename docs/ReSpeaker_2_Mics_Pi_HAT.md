@@ -48,7 +48,7 @@ ReSpeaker 2-Mics Pi HAT是专为AI和语音应用设计的Raspberry Pi双麦克�
 - 3.5mm音频插孔：用于连接带3.5mm音频插头的耳机或扬声器
 
 ## 入门指导
-### 系统配置与驱动安装
+### 1. 系统配置与驱动安装
 **step 1. 把ReSpeaker 2-Mics Pi HAT插入到Raspberry Pi**
 
 把 ReSpeaker 2-Mics Pi HAT 插入到 Raspberry Pi, 确保插入Raspberry Pi的时候针脚对齐。
@@ -64,7 +64,7 @@ ReSpeaker 2-Mics Pi HAT是专为AI和语音应用设计的Raspberry Pi双麦克�
 
 因为当前的Pi内核目前不支持wm8960编解码器，所以我们需要手动构建。
 
-  1. 确保您正在您的Pi上运行[最新的Raspbian操作系统（debian 9）](https://www.raspberrypi.org/downloads/raspbian/)。 *（更新于2017.09.15）*，您可以用etcher进行系统烧录
+  1. 确保您正在您的Pi上运行[最新的Raspbian操作系统（debian 9）](https://www.raspberrypi.org/downloads/raspbian/)。 *（更新于2018.06.27）*，您可以用etcher进行系统烧录
 
   2.  您可以用 [VNC](https://www.raspberrypi.org/documentation/remote-access/vnc/)或者PUTTY连接树莓派，但之前请配置好wifi
 
@@ -122,7 +122,7 @@ card 1: seeed2micvoicec [seeed-2mic-voicecard], device 0: bcm2835-i2s-wm8960-hif
 pi@raspberrypi:~/seeed-voicecard $
 ```
 
-### 录音播放测试
+### 2. 录音播放测试
   **step 1. 录播测试**
  可以用`arecord`录制，然后用`aplay`播放：(不要忘记插耳机或者喇叭):
 
@@ -156,7 +156,7 @@ pi@raspberrypi:~ $ alsamixer
 
 左和右箭头键用于选择通道或设备，“向上和向下箭头”控制当前所选设备的音量。 退出程序使用ALT + Q或按Esc键。 [More information](https://en.wikipedia.org/wiki/Alsamixer)
 
-### 安装python和虚拟环境
+### 3. 安装python和虚拟环境
   这样是是为了隔离SDK与系统Python包关系。
 ```
 
@@ -170,7 +170,7 @@ pi@raspberrypi:~/4mics_hat $ source ~/env/bin/activate                   # 激�
 ```
 
 
-## 让我们开始来玩 **Google Assistant**
+##  Google Assistant SDK
 
 !!!Warning
     因为我们在中国，无法直接使用Google的服务。必须搭建可以访问google的路由器，然后连接到路由。
@@ -372,7 +372,7 @@ $ googlesamples-assistant-pushtotalk
 ![](https://github.com/SeeedDocument/MIC_HATv1.0_for_raspberrypi/blob/master/img/button.jpg?raw=true)
 
 
-## 使用 Alexa 和 DuerOs
+##  Alexa SDK 和 DuerOs SDK
 
 由于国内登录不上 Google Assisant ，所以使用在国内能连接的 Alexa 和 百度 DuerOs 作为语音引擎，开发出能让大多数人使用的语音互动系统。
 ### 1. 配置和DOA测试
@@ -541,6 +541,7 @@ python Smart_Fan.py
 A1:如果按照上述方法安装驱动均失败，请点击下面固件安装
 
 [我是固件](https://v2.fangcloud.com/share/7395fd138a1cab496fd4792fe5?folder_id=188000207913)
+
 需要以下几点需要注意，第一，lite版本是没有图形界面的精简版,建议您安装有图形界面的。第二，烧了固件后，记得换源。第三， 如果要使用交互功能之前请命令行输入alexa-auth或dueros-auth申请授权，授权成功后会在/home/pi目录下生成.avs.json文件，这时才能使用交互功能。第四，/home/pi目录下会有 respeaker的例程文件夹,可以根据用的mic不同而使用相应的例程。但是请烧录系统后在respeaker目录下更新下例程，可以在respeaker目录下执行``` git pull origin master ```命令来更新。
 
 **Q2: #include "portaudio.h" Error when run "sudo pip install pyaudio".**
@@ -570,7 +571,7 @@ A4:测试时发现sudo执行时候默认从系统环境执行，而wiki中用到
   PLAYER=mpg123 python ns_kws_doa_alexa_with_light.py
 ```
 
-**Q6 在运行 kws_doa.py 时候喊 snowboy 没反应**
+**Q6 在运行语音交互时候喊 snowboy 没反应**
 
 A6:请运行audacity以确保4个频道良好。 如果有一个没有数据的频道，当我们说snowboy时就没有回复。
 

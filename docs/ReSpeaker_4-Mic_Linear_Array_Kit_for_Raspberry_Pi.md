@@ -70,7 +70,7 @@ ReSpeaker 4-Mic线性阵列支持在Raspian系统下八通道输入输出。其�
 
 ## 入门指导
 
-### 准备工作
+### 1. 准备工作
 
 **准备材料**
 
@@ -105,7 +105,7 @@ PC                                  x1
 ![Pics here](https://github.com/SeeedDocument/ReSpeaker_4-Mics_Linear_Array_Kit/raw/master/img/4-mic.jpg)
 
 
-### 软件
+### 2. 软件
 
 
 **准备**
@@ -114,7 +114,7 @@ PC                                  x1
 
 通过 Putty 或其他 ssh 工具 来登陆你的树莓派，在开始之前，请确保:
 
-1- 打开树莓派中的 *ssh* 功能，让其能够通过 *putty*登陆. 如果不知道如何打开 *ssh* 功能, 请去百度或者谷歌一下.
+1- 打开树莓派中的 *ssh* 功能，让其能够通过 *putty* 登陆. 如果不知道如何打开 *ssh* 功能, 请去百度或者谷歌一下
 
 2- 你的树莓派和PC机在同一子网下链接.若不知如何配置wifi，请去百度或者谷歌一下。
 
@@ -138,29 +138,49 @@ pi@192.168.43.210's password:raspberry
 
 [VNC Viewer](https://www.realvnc.com/en/connect/download/viewer/)
 
-该方法与方法A不同之处在于可以图形化控制你的树莓派，由于要使这个套件可以与alexa或者dueros一起工作， 需要打开网页来取得授权，所以必须得用图形化界面登陆，这里推荐你用 *VNC Viewer* 来登录树莓派，也是通过SSH协议登陆 ,需要注意的是，在烧录官方镜像后需要先通过方法C来通过图形化界面开启SSH和VNC，之后才能用VNC登陆树莓派。
+该方法与方法A不同之处在于可以图形化控制你的树莓派，由于要使这个套件可以与alexa或者dueros一起工作， 需要打开网页来取得授权，所以必须得用图形化界面登陆，这里推荐你用 *VNC Viewer*来登录树莓派，也是通过SSH协议登陆 ,需要注意的是，在烧录官方镜像后需要先通过方法C来通过图形化界面开启SSH和VNC，之后才能用VNC登陆树莓派。
 
 
 *方法 C，直接插上外设来控制树莓派*
 
 如果觉得以上步骤太繁杂，你也可以直接将显示器插在HDMI接口，将鼠标键盘插在USB接口来控制树莓派，更为简单
 
+### 3. 系统配置与驱动安装
 
-**Step 1. Install seeed-voicecard**
+**step 1. 烧录系统，登陆，换源**
 
-得到seeed voice Card 的源码，安装所有linux内核驱动。
+因为当前的Pi内核目前不支持wm8960编解码器，所以我们需要手动构建。
+
+  1. 确保您正在您的Pi上运行[最新的Raspbian操作系统（debian 9）](https://www.raspberrypi.org/downloads/raspbian/)。 *（更新于2017.09.15）*，您可以用etcher进行系统烧录
+
+  2.  您可以用 [VNC](https://www.raspberrypi.org/documentation/remote-access/vnc/)或者PUTTY连接树莓派，但之前请配置好wifi
+
+  3. 在安装驱动之前，请根据以下流程切换源到清华。
+
+```
+pi@raspberrypi ~ $ sudo nano /etc/apt/sources.list
+```
+
+用#注释掉原文件内容，用以下内容取代：
+
+```
+deb http://mirrors.tuna.tsinghua.edu.cn/raspbian/raspbian/ stretch main non-free contrib
+deb-src http://mirrors.tuna.tsinghua.edu.cn/raspbian/raspbian/ stretch main non-free contrib
+```
+
+**step 2. 驱动下载并安装**
+运行下面命令
 
 ```
 sudo apt-get update
 sudo apt-get upgrade
 git clone https://github.com/respeaker/seeed-voicecard.git
-cd seeed-voicecard
-sudo ./install.sh
-sudo reboot
-
+cd seeed-voicecard #下载声卡驱动
+sudo ./install.sh #安装声卡驱动
+reboot  #重启
 ```
 
-**Step 2. 检查声卡**
+**step 3. 检查声卡名称是否与源代码seeed-voicecard相匹配.**
 
 输入以下命令来查看声卡
 
@@ -197,70 +217,8 @@ plughw:CARD=seeed8micvoicec,DEV=0
 
 ```
 
-使用下面的命令来检查声卡.
 
-```
-pi@raspberrypi:~ $ aplay -L
-```
-
-应该如下所示:
-
-```
-null
-    Discard all samples (playback) or generate zero samples (capture)
-default
-playback
-dmixed
-ac108
-multiapps
-ac101
-sysdefault:CARD=ALSA
-    bcm2835 ALSA, bcm2835 ALSA
-    Default Audio Device
-dmix:CARD=ALSA,DEV=0
-    bcm2835 ALSA, bcm2835 ALSA
-    Direct sample mixing device
-dmix:CARD=ALSA,DEV=1
-    bcm2835 ALSA, bcm2835 IEC958/HDMI
-    Direct sample mixing device
-dsnoop:CARD=ALSA,DEV=0
-    bcm2835 ALSA, bcm2835 ALSA
-    Direct sample snooping device
-dsnoop:CARD=ALSA,DEV=1
-    bcm2835 ALSA, bcm2835 IEC958/HDMI
-    Direct sample snooping device
-hw:CARD=ALSA,DEV=0
-    bcm2835 ALSA, bcm2835 ALSA
-    Direct hardware device without any conversions
-hw:CARD=ALSA,DEV=1
-    bcm2835 ALSA, bcm2835 IEC958/HDMI
-    Direct hardware device without any conversions
-plughw:CARD=ALSA,DEV=0
-    bcm2835 ALSA, bcm2835 ALSA
-    Hardware device with all software conversions
-plughw:CARD=ALSA,DEV=1
-    bcm2835 ALSA, bcm2835 IEC958/HDMI
-    Hardware device with all software conversions
-sysdefault:CARD=seeed8micvoicec
-    seeed-8mic-voicecard,
-    Default Audio Device
-dmix:CARD=seeed8micvoicec,DEV=0
-    seeed-8mic-voicecard,
-    Direct sample mixing device
-dsnoop:CARD=seeed8micvoicec,DEV=0
-    seeed-8mic-voicecard,
-    Direct sample snooping device
-hw:CARD=seeed8micvoicec,DEV=0
-    seeed-8mic-voicecard,
-    Direct hardware device without any conversions
-plughw:CARD=seeed8micvoicec,DEV=0
-    seeed-8mic-voicecard,
-    Hardware device with all software conversions
-
-```
-
-
-**Step 3. 录音播放测试**
+###  4. 录音播放测试
 
 你可以先录音在播放，或者一边录音一边播放
 ```
@@ -291,7 +249,7 @@ aplay -D plughw:1,0 -r 16000 mono_to_play.wav
 您也可以使用Audacity进行播放和录制。
 
 !!!Tips
-  你可以通过图形界面手动点击打开audacity或者通过命令行打开
+        你可以通过图形界面手动点击打开audacity或者通过命令行打开
 
 
 
@@ -308,46 +266,49 @@ $ audacity                      // run audacity
 
 
 
-
-### 语音助手示例
-
-
-**Step 1. 安装python虚拟环境**
-
+### 5. 安装python和虚拟环境
+  这样是是为了隔离SDK与系统Python包关系。
 ```
 
-sudo apt install python-virtualenv          # install python virtualenv tool
-virtualenv --system-site-packages ~/env     # create a virtual python environment
-source ~/env/bin/activate                   # activate the virtual environment
-(env) pi@raspberrypi:~ $
-
+pi@raspberrypi:~ $ cd /home/pi
+pi@raspberrypi:~ $ git clone https://github.com/respeaker/4mics_hat.git
+pi@raspberrypi:~ $ cd /home/pi/4mics_hat
+pi@raspberrypi:~/4mics_hat $ sudo apt install python-virtualenv          # 安装 python2 虚拟环境工具
+pi@raspberrypi:~/4mics_hat $ virtualenv --system-site-packages ~/env     # 建立虚拟环境，命名位env,放在~目录下
+pi@raspberrypi:~/4mics_hat $ source ~/env/bin/activate                   # 激活虚拟环境
+(env) pi@raspberrypi:~/4mics_hat $ pip install spidev gpiozero           # 安装需要的工具包
 ```
 
-**Step 2. 安装 AVS**
 
-```
-(env) pi@raspberrypi:~ $ cd ~/
-(env) pi@raspberrypi:~ $ git clone https://github.com/respeaker/avs
-(env) pi@raspberrypi:~ $ cd avs    # install Requirements
-(env) pi@raspberrypi:~ $ python setup.py install
-(env) pi@raspberrypi:~ $ sudo apt-get install gstreamer1.0-plugins-good gstreamer1.0-plugins-bad gstreamer1.0-plugins-ugly gir1.2-gstreamer-1.0 python-gi python-gst-1.0
-(env) pi@raspberrypi:~ $ sudo apt remove gstreamer1.0-omx gstreamer1.0-omx-rpi
-```
+##  Alexa SDK 和 Dueros SDK
 
-**Step 3.取得 Alexa 或 Baidu 授权**
+由于国内登录不上 Google Assisant ，所以使用在国内能连接的 Alexa 和 百度 DuerOs 作为语音引擎，开发出能让大多数人使用的语音互动系统。
 
 
-要获得授权，您需要打开浏览器以登录您的亚马逊或百度ID，因此您需要使用VNC Viewer或通过显示器和键盘进行操作。 与ssh相同，您需要树莓派的IP才能登录VNC。.
 
 
-####  Alexa 示例
+**step 1. 配置和安装AVS以及相关依赖**
 
-```
-pi@raspberrypi:~ $ source ~/env/bin/activate
-(env) pi@raspberrypi:~ $ alexa-auth
-```
+  ```
+  pi@raspberrypi:~ $ source ~/env/bin/activate                    # activate the virtual, if we have already activated, skip this step
+  (env) pi@raspberrypi:~ $ cd ~/
+  (env) pi@raspberrypi:~ $ git clone https://github.com/respeaker/avs
+  (env) pi@raspberrypi:~ $ cd avs                                 # install Requirements
+  (env) pi@raspberrypi:~ $ python setup.py install                               
+  (env) pi@raspberrypi:~/avs $ sudo apt install gstreamer1.0
+  (env) pi@raspberrypi:~/avs $ sudo apt install gstreamer1.0-plugins-good
+  (env) pi@raspberrypi:~/avs $ sudo apt install gstreamer1.0-plugins-ugly
+  (env) pi@raspberrypi:~/avs $ sudo apt install python-gi gir1.2-gstreamer-1.0
+  (env) pi@raspberrypi:~/avs $ pip install tornado
+  ```
+**step 2. 取得授权**
 
-![](https://github.com/SeeedDocument/ReSpeaker-4-Mic-Array-for-Raspberry-Pi/raw/master/img/auth.png)
+  在终端运行 `alexa-auth` ，然后登陆获取alexa的授权， 或者运行 `dueros-auth` 获取百度的授权。 授权的文件保存在`/home/pi/.avs.json`。
+
+  ![](https://github.com/SeeedDocument/ReSpeaker-4-Mic-Array-for-Raspberry-Pi/raw/master/img/auth.png)
+
+  !!!Note
+      如果我们在 `alexa-auth` 和 `dueros-auth`之间切换, 请先删除 `/home/pi/.avs.json` 。 这个是隐藏文件，请用 `ls -la` 显示文件。
 
 
 当成功登陆后，可以通过如下命令来打开alexa
@@ -357,56 +318,28 @@ pi@raspberrypi:~ $ source ~/env/bin/activate
 (env) pi@raspberrypi:~ $ alexa-tap
 ```
 
-这时你可以敲击 enter 键开始与alexa的对话
+这时你可以敲击 enter 键开始语音对话
 
-
-
-#### Dueros 示例
-
-
-如果我们想在 alexa授权和dueros授权之间切换，请x先删除 `/home/pi/.avs.json` . 这个文件是默认隐藏的所以请输入 `ls -la` 才能显示出来
-```
-rm -f /home/pi/.avs.json
-```
-
-
-这时你可以通过命令行来登录百度
-
-```
-pi@raspberrypi:~ $ source ~/env/bin/activate
-(env) pi@raspberrypi:~ $ dueros-auth
-```
-当成功登陆后，输入以下命令
-
-```
-pi@raspberrypi:~ $ source ~/env/bin/activate
-(env) pi@raspberrypi:~ $ alexa-tap
-```
-这时你可以敲击回车，并向它提问。
-
-#### snowboy唤醒词检测引擎
+**step 3. 配置和安装语音引擎**
 
 开始这部分之前，你首先要取得Alexa或者Dueros的授权.可能如你所见，上面的示例都是由敲击回车键启动Alexa或者Dueros，但是如果你想通过语音唤醒词来启动呢
 
-**Step 1. 安装 Snowboy**
+
 ```
-cd ~
-git clone https://github.com/respeaker/4mics_hat.git
-source ~/env/bin/activate              # activate the virtual, if we have already activated, skip this step
+pi@raspberrypi:~ $ source ~/env/bin/activate                    # 激活Python虚拟环境, 如果已经激活，调到下一步。
 (env) pi@raspberrypi:~ $ cd ~/4mics_hat
-(env) pi@raspberrypi:~/4mics_hat $ sudo apt install libatlas-base-dev     # install snowboy dependencies
-(env) pi@raspberrypi:~/4mics_hat $ sudo apt install python-pyaudio        # install pyaudio
-(env) pi@raspberrypi:~/4mics_hat $ pip install ./snowboy*.whl             # install snowboy for KWS
-(env) pi@raspberrypi:~/4mics_hat $ pip install ./webrtc*.whl              # install webrtc for DoA
-(env) pi@raspberrypi:~/4mics_hat $ cd ~/
-(env) pi@raspberrypi:~ $ git clone https://github.com/voice-engine/voice-engine
+(env) pi@raspberrypi:~/4mics_hat $ sudo apt install libatlas-base-dev     # 安装 snowboy dependencies
+(env) pi@raspberrypi:~/4mics_hat $ sudo apt install python-pyaudio        #安装pyaudio音频处理包
+(env) pi@raspberrypi:~/4mics_hat $ pip install ./snowboy*.whl             # 安装 snowboy for KWS
+(env) pi@raspberrypi:~/4mics_hat $ pip install ./webrtc*.whl              # 安装 webrtc for DoA
+(env) pi@raspberrypi:~ $ cd ~/
+(env) pi@raspberrypi:~ $ git clone https://github.com/voice-engine/voice-engine #write by seeed
 (env) pi@raspberrypi:~ $ cd voice-engine/
-(env) pi@raspberrypi:~/voice-engine $ python setup.py install
+(env) pi@raspberrypi:~ $ python setup.py install
 
 ```
 
-
-**Step 2. 配置 Pulse Audio**
+**Step 4. 配置 Pulse Audio**
 ```
 cd ~
 sudo apt install pulseaudio
@@ -434,13 +367,13 @@ ATTR{number}的值可以通过下面的命令找到:
 udevadm info -a -p /sys/class/sound/card1/:
 ```
 
-**Step 3. 配置 `default.pa` and `daemon.conf`**
+**Step 5. 配置 `default.pa` and `daemon.conf`**
 ```
 sudo cp default.pa /etc/pulse/
 sudo cp daemon.conf /etc/pulse/
 ```
 
-**Step 4. 重启树莓派并检查**
+**Step 6. 重启树莓派并检查**
 ```
 sudo reboot
 pulseaudio --start  # start pulse at first
@@ -466,72 +399,77 @@ Default Source: alsa_input.platform-soc_sound.seeed-8ch
 Cookie: 3523:e5af
 ```
 
-配置snowboy之后，请照如下所示来做
+
+**step 7. 让我们High起来!**
+执行下方命令行：
 ```
-source ~/env/bin/activate
-cd ~/voice-engine/examples
-python kws_alexa_for_4mic_liner_pihat.py
+source ~/env/bin/activate #打开虚拟环境
+cd ~/voice-engine/examples #进入示例文件夹
+python kws_alexa_for_4mic_liner_pihat.py #运行例程
 ```
-这时你应该能看到LED灯亮，并且你可以通过说唤醒词来唤醒它
+ 我们会在终端看到很多 debug 的消息. 当我们看到 **status code: 204** 的时候, 请说 `snowboy` 来唤醒 respeaker。接下来 respeaker 上的 led 灯亮起来, 我们可以跟他对话, 比如问，"谁是最帅的?" 或者 "播放刘德华的男人哭吧哭吧不是罪"。小伙伴，尽情的 High 起来吧。
+
+!!!Note
+      如果使用alexa-auth的话请用英文交互，如果是dueros的话请用中文。
+
+
+
+
+
+## STT (语音转文字)
+
+本部分将介绍百度STT（语音到文本）功能以及GPIO控件。 这是GPIO配置。 如果您没有风扇，可以在GPIO12 / GPIO13上连接2个LED进行演示。
+
+| GPIO   | Turn On | Faster | Slower | Turn Off |
+|--------|---------|--------|--------|----------|
+| GPIO12 | 1       | 0      | 1      | 0        |
+| GPIO13 | 0       | 1      | 0      | 0        |
+
+
+**Step 1. 安装依赖**
+```
+sudo apt install mpg123
+pip install baidu-aip monotonic pyaudio
+```
+
+**Step 2. 从百度获取key [Here](https://console.bce.baidu.com/ai/?fromai=1#/ai/speech/overview/index).**
+
+
+**Step 3. 下载源码 [Smart_Fan.py](https://github.com/SeeedDocument/MIC_HATv1.0_for_raspberrypi/raw/master/src/baidu_STT/Smart_fan.py)**
+
+```
+cd ~
+wget https://github.com/SeeedDocument/MIC_HATv1.0_for_raspberrypi/raw/master/src/baidu_STT.zip
+unzip baidu_STT.zip
+cd baidu_STT
+python Smart_Fan.py
+```
+
+!!!Warning
+          请在运行 Smart_Fan.py之前添加百度密钥 @ line 36,37,38。 您还可以通过运行synthesis_wav.py来生成所有者的声音。 请在第6,7,8行添加百度密钥，并将字符串修改为您要生成的内容。
+
+**Step 4. 说 '开风扇'.**
+
+**Step 5. 你会看到风扇开启.**
+
+**Step 6. 可以试试 '快一点', '慢一点' 或 '关风扇'.**
+
+
 
 
 
 
 ## FAQ(疑问解答)
 
-**Q1:严格按照本 wiki 操作，驱动还是安装失败，怎么办？**
+
+**Q1 驱动安装后无法识别到声卡**
+
+A1: 打开 Preferences --> raspberry Pi config 中的 1-wire 设置成disable
 
 
-A1:如果按照上述方法安装驱动均失败，请点击下面固件安装
+**Q2: 只有4个mic，怎么会有8个通道?**
 
-[我是固件](https://v2.fangcloud.com/share/7395fd138a1cab496fd4792fe5?folder_id=188000207913)
-
-lite版本是没有图形界面的精简版,并且烧了固件后，记得换源。如果要使用交互功能之前请命令行输入alexa-auth或dueros-auth申请授权，授权成功后会在/home/pi目录下生成.avs.json文件，这时才能使用交互功能。/home/pi目录下会有 respeaker的例程文件夹,可以根据用的mic不同而使用相应的例程。需要注意的是，请烧录系统后在respeaker目录下更新下例程，可以在respeaker目录下执行``` git pull origin master ```命令来更新。
-
-**Q2: 如果我们用aplay可以听到声音，但是运行alexa/dueros不能听到声音。**
-
-A1: 我们有3个播放器（mpv，mpg123和gstreamer）可供使用。 SpeechSynthesizer和Alerts更适应mpg123。 AudioPlayer适合gstreamer> mpv> mpg123。 Gstreamer支持更多的音频格式，并在树莓派上运行良好。 我们也可以使用环境变量PLAYER来指定AudioPlayer的播放器。 所以请尝试下面的命令来启用语音。
-
-```
-sudo apt install mpg123
-PLAYER=mpg123 python ns_kws_doa_alexa_with_light.py
-```
-
-**Q3:运行DOA，说snowboy的时候没有响应。**
-
-A3:运行audacity检查4个麦克风是否多有数据，如果有其中一个麦克风没有数据，就会没有响应。
-
-**Q4 关于安装snowboy时出现不适合该平台的警告提醒**
-
-A4: 目前snowboy只能兼容python2，所以通过在安装python的虚拟环境时，请确保是python2
-
-**Q5 有时候 sudo python file.py 时候会出现依赖问题**
-
-A5.测试时发现sudo执行时候默认从系统环境执行，而wiki中用到的依赖都是装在~/env 下的，可以通过 ```sudo  ~/env/bin/python file.py```来解决
-
-
-**Q6 可以通过3.5毫米音频插孔的播放来听到声音，但是在运行ns_kws_doa_alexa_with_light.py时听不到声音**
-
- A6： 我们有3个播放器（mpv，mpg123和gstreamer）可以使用。 mpg123更适合语音识别和唤醒更，它更具响应性； 而AudioPlayer 更适用gstreamer> mpv> mpg123。 Gstreamer支持更多音频格式，并且在raspberry pi上运行良好。 我们还可以使用环境变量PLAYER指定AudioPlayer的播放器。 所以请尝试以下命令启用语音。
-```
-
-  sudo apt install mpg123
-  PLAYER=mpg123 python ns_kws_doa_alexa_with_light.py
-```
-
-**Q7 在运行 kws_doa.py 时候喊 snowboy 没反应**
-
-A7 请运行audacity以确保4个频道良好。 如果有一个没有数据的频道，当我们说snowboy时就没有回复。
-
-
-**Q8 驱动安装后无法识别到声卡**
-
-A8: 打开 Preferences --> raspberry Pi config 中的 1-wire 设置成disable
-
-
-**Q9: 只有4个mic，怎么会有8个通道?**
-
-A9: 该套件集成了2个 AC108在阵列上, 每个 AC108 有4个输出通道. 所以一共有8个输出通道。其中有4个是mic的 ,两个是回采的，剩下两个没有用到。
+A2: 该套件集成了2个 AC108在阵列上, 每个 AC108 有4个输出通道. 所以一共有8个输出通道。其中有4个是mic的 ,两个是回采的，剩下两个没有用到。
 
 ## 资源下载
 
