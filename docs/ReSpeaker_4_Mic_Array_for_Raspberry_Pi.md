@@ -236,7 +236,7 @@ on
 off
 ```
 
-## 使用 Alexa 和 DuerOs
+##  Alexa SDK  和 DuerOs SDK
 
 由于国内登录不上 Google Assisant ，所以使用在国内能连接的 Alexa 和 百度 DuerOs 作为语音引擎，开发出能让大多数人使用的语音互动系统。
 ###  1. 配置和DOA测试
