@@ -18,10 +18,7 @@ ReSpeaker 4-Mic线性阵列支持在Raspian系统下八通道输入输出。其�
 
 
 
-
-<p style="text-align:center"><a href="https://www.seeedstudio.com/ReSpeaker-4-Mic-Linear-Array-Kit-p-3066.html" target="_blank"><img src="https://github.com/SeeedDocument/wiki_english/raw/master/docs/images/300px-Get_One_Now_Banner-ragular.png" /></a></p>
-
-
+[![](https://github.com/SeeedDocument/wiki_chinese/raw/master/docs/images/click_to_buy.PNG)](https://seeedstudio.taobao.com/search.htm?q=respeaker&s_from=newHeader&ssid=s5-e&search_type=item&sourceId=tb.item)
 
 ## 产品特性
 
@@ -117,7 +114,7 @@ PC                                  x1
 
 通过 Putty 或其他 ssh 工具 来登陆你的树莓派，在开始之前，请确保:
 
-1- 打开树莓派中的 *ssh* 功能，让其能够通过 *putty*登陆. 如果不知道如何打开 *ssh*功能, 请去百度或者谷歌一下.
+1- 打开树莓派中的 *ssh* 功能，让其能够通过 *putty*登陆. 如果不知道如何打开 *ssh* 功能, 请去百度或者谷歌一下.
 
 2- 你的树莓派和PC机在同一子网下链接.若不知如何配置wifi，请去百度或者谷歌一下。
 
@@ -141,7 +138,7 @@ pi@192.168.43.210's password:raspberry
 
 [VNC Viewer](https://www.realvnc.com/en/connect/download/viewer/)
 
-该方法与方法A不同之处在于可以图形化控制你的树莓派，由于要使这个套件可以与alexa或者dueros一起工作， 需要打开网页来取得授权，所以必须得用图形化界面登陆，这里推荐你用 *VNC Viewer*来登录树莓派，也是通过SSH协议登陆 ,需要注意的是，在烧录官方镜像后需要先通过方法C来通过图形化界面开启SSH和VNC，之后才能用VNC登陆树莓派。
+该方法与方法A不同之处在于可以图形化控制你的树莓派，由于要使这个套件可以与alexa或者dueros一起工作， 需要打开网页来取得授权，所以必须得用图形化界面登陆，这里推荐你用 *VNC Viewer* 来登录树莓派，也是通过SSH协议登陆 ,需要注意的是，在烧录官方镜像后需要先通过方法C来通过图形化界面开启SSH和VNC，之后才能用VNC登陆树莓派。
 
 
 *方法 C，直接插上外设来控制树莓派*
@@ -312,7 +309,7 @@ $ audacity                      // run audacity
 
 
 
-### 谷歌助手示例
+### 语音助手示例
 
 
 **Step 1. 安装python虚拟环境**
@@ -340,7 +337,7 @@ source ~/env/bin/activate                   # activate the virtual environment
 **Step 3.取得 Alexa 或 Baidu 授权**
 
 
-要获得授权，您需要打开浏览器以登录您的亚马逊或百度ID，因此您需要使用VNC Viewer或通过显示器和键盘进行操作。 与* ssh *相同，您需要树莓派的IP才能登录VNC。.
+要获得授权，您需要打开浏览器以登录您的亚马逊或百度ID，因此您需要使用VNC Viewer或通过显示器和键盘进行操作。 与ssh相同，您需要树莓派的IP才能登录VNC。.
 
 
 ####  Alexa 示例
@@ -480,12 +477,61 @@ python kws_alexa_for_4mic_liner_pihat.py
 
 
 
-## FAQ
+## FAQ(疑问解答)
 
-**Q1: 只有4个mic，怎么会有8个通道?**
+**Q1:严格按照本 wiki 操作，驱动还是安装失败，怎么办？**
 
-A1: 该套件集成了2个 AC108在阵列上, 每个 AC108 有4个输出通道. 所以一共有8个输出通道。其中有4个是mic的 ,两个是回采的，剩下两个没有用到。
 
+A1:如果按照上述方法安装驱动均失败，请点击下面固件安装
+
+[我是固件](https://v2.fangcloud.com/share/7395fd138a1cab496fd4792fe5?folder_id=188000207913)
+
+lite版本是没有图形界面的精简版,并且烧了固件后，记得换源。如果要使用交互功能之前请命令行输入alexa-auth或dueros-auth申请授权，授权成功后会在/home/pi目录下生成.avs.json文件，这时才能使用交互功能。/home/pi目录下会有 respeaker的例程文件夹,可以根据用的mic不同而使用相应的例程。需要注意的是，请烧录系统后在respeaker目录下更新下例程，可以在respeaker目录下执行``` git pull origin master ```命令来更新。
+
+**Q2: 如果我们用aplay可以听到声音，但是运行alexa/dueros不能听到声音。**
+
+A1: 我们有3个播放器（mpv，mpg123和gstreamer）可供使用。 SpeechSynthesizer和Alerts更适应mpg123。 AudioPlayer适合gstreamer> mpv> mpg123。 Gstreamer支持更多的音频格式，并在树莓派上运行良好。 我们也可以使用环境变量PLAYER来指定AudioPlayer的播放器。 所以请尝试下面的命令来启用语音。
+
+```
+sudo apt install mpg123
+PLAYER=mpg123 python ns_kws_doa_alexa_with_light.py
+```
+
+**Q3:运行DOA，说snowboy的时候没有响应。**
+
+A3:运行audacity检查4个麦克风是否多有数据，如果有其中一个麦克风没有数据，就会没有响应。
+
+**Q4 关于安装snowboy时出现不适合该平台的警告提醒**
+
+A4: 目前snowboy只能兼容python2，所以通过在安装python的虚拟环境时，请确保是python2
+
+**Q5 有时候 sudo python file.py 时候会出现依赖问题**
+
+A5.测试时发现sudo执行时候默认从系统环境执行，而wiki中用到的依赖都是装在~/env 下的，可以通过 ```sudo  ~/env/bin/python file.py```来解决
+
+
+**Q6 可以通过3.5毫米音频插孔的播放来听到声音，但是在运行ns_kws_doa_alexa_with_light.py时听不到声音**
+
+ A6： 我们有3个播放器（mpv，mpg123和gstreamer）可以使用。 mpg123更适合语音识别和唤醒更，它更具响应性； 而AudioPlayer 更适用gstreamer> mpv> mpg123。 Gstreamer支持更多音频格式，并且在raspberry pi上运行良好。 我们还可以使用环境变量PLAYER指定AudioPlayer的播放器。 所以请尝试以下命令启用语音。
+```
+
+  sudo apt install mpg123
+  PLAYER=mpg123 python ns_kws_doa_alexa_with_light.py
+```
+
+**Q7 在运行 kws_doa.py 时候喊 snowboy 没反应**
+
+A7 请运行audacity以确保4个频道良好。 如果有一个没有数据的频道，当我们说snowboy时就没有回复。
+
+
+**Q8 驱动安装后无法识别到声卡**
+
+A8: 打开 Preferences --> raspberry Pi config 中的 1-wire 设置成disable
+
+
+**Q9: 只有4个mic，怎么会有8个通道?**
+
+A9: 该套件集成了2个 AC108在阵列上, 每个 AC108 有4个输出通道. 所以一共有8个输出通道。其中有4个是mic的 ,两个是回采的，剩下两个没有用到。
 
 ## 资源下载
 

@@ -16,6 +16,8 @@ ReSpeaker 2-Mics Pi HAT是专为AI和语音应用设计的Raspberry Pi双麦克�
 
 [![](https://github.com/SeeedDocument/wiki_chinese/raw/master/docs/images/click_to_buy.PNG)](https://item.taobao.com/item.htm?spm=a230r.1.14.14.626377d6xcV1p7&id=553438198956&ns=1&abbucket=5#detail)
 
+!!!Note
+      在参考中文wiki的过程中，如果遇到一些疑问，您可以点击页面右上角切换到英文wiki参考，两者有补充。
 ## 产品特征
 
 * Raspberry Pi兼容（支持Raspberry Pi Zero和Zero W，Raspberry Pi B +，Raspberry Pi 2 B和Raspberry Pi 3 B）
@@ -46,8 +48,8 @@ ReSpeaker 2-Mics Pi HAT是专为AI和语音应用设计的Raspberry Pi双麦克�
 - 3.5mm音频插孔：用于连接带3.5mm音频插头的耳机或扬声器
 
 ## 入门指导
-
-### 把ReSpeaker 2-Mics Pi HAT插入到Raspberry Pi
+### 系统配置与驱动安装
+**step 1. 把ReSpeaker 2-Mics Pi HAT插入到Raspberry Pi**
 
 把 ReSpeaker 2-Mics Pi HAT 插入到 Raspberry Pi, 确保插入Raspberry Pi的时候针脚对齐。
 
@@ -58,15 +60,15 @@ ReSpeaker 2-Mics Pi HAT是专为AI和语音应用设计的Raspberry Pi双麦克�
 ![connection picture2](https://github.com/SeeedDocument/MIC_HATv1.0_for_raspberrypi/blob/master/img/connection2.jpg?raw=true)
 ![connection picture3](https://github.com/yexiaobo-seeedstudio/MIC_HATv1.0_for_raspberrypi/blob/master/img/stack-on-zero.jpg?raw=true)
 
-### 安装驱动
+**step 2. 烧录系统，登陆，换源**
 
 因为当前的Pi内核目前不支持wm8960编解码器，所以我们需要手动构建。
 
-#### 1. 确保您正在您的Pi上运行[最新的Raspbian操作系统（debian 9）](https://www.raspberrypi.org/downloads/raspbian/)。 *（更新于2017.09.15）*
+  1. 确保您正在您的Pi上运行[最新的Raspbian操作系统（debian 9）](https://www.raspberrypi.org/downloads/raspbian/)。 *（更新于2017.09.15）*，您可以用etcher进行系统烧录
 
-#### 2. 根据以下流程安装驱动：
+  2.  您可以用 [VNC](https://www.raspberrypi.org/documentation/remote-access/vnc/)或者PUTTY连接树莓派，但之前请配置好wifi
 
-在安装驱动之前，请根据以下流程切换源到清华。
+  3. 在安装驱动之前，请根据以下流程切换源到清华。
 
 ```
 pi@raspberrypi ~ $ sudo nano /etc/apt/sources.list
@@ -78,8 +80,8 @@ pi@raspberrypi ~ $ sudo nano /etc/apt/sources.list
 deb http://mirrors.tuna.tsinghua.edu.cn/raspbian/raspbian/ stretch main non-free contrib
 deb-src http://mirrors.tuna.tsinghua.edu.cn/raspbian/raspbian/ stretch main non-free contrib
 ```
-
-然后运行下面命令
+**step 3. 驱动下载并安装**
+运行下面命令
 
 ```
 sudo apt-get update
@@ -90,7 +92,7 @@ sudo ./install.sh #安装声卡驱动
 reboot  #重启
 ```
 
-#### 3. 检查声卡名称是否与源代码seeed-voicecard相匹配.
+**step 4. 检查声卡名称是否与源代码seeed-voicecard相匹配.**
 
 ```
 pi@raspberrypi:~/seeed-voicecard $ aplay -l
@@ -119,7 +121,9 @@ card 1: seeed2micvoicec [seeed-2mic-voicecard], device 0: bcm2835-i2s-wm8960-hif
   Subdevice #0: subdevice #0
 pi@raspberrypi:~/seeed-voicecard $
 ```
+
 ### 录音播放测试
+  **step 1. 录播测试**
  可以用`arecord`录制，然后用`aplay`播放：(不要忘记插耳机或者喇叭):
 
 ```
@@ -136,8 +140,8 @@ $ audacity                      // 运行 audacity
 
 ![](https://github.com/SeeedDocument/ReSpeaker-4-Mic-Array-for-Raspberry-Pi/blob/master/img/audacity.png?raw=true)
 
+**step 2. 调节音量（可跳过）**
 
-#### 5. 用alsamixer配置声音设置和调整音量
 
 **alsamixer** 是用于配置声音设置和调整音量，高级Linux声音体系结构（ALSA）的图形混音器程序。
 
@@ -152,7 +156,8 @@ pi@raspberrypi:~ $ alsamixer
 
 左和右箭头键用于选择通道或设备，“向上和向下箭头”控制当前所选设备的音量。 退出程序使用ALT + Q或按Esc键。 [More information](https://en.wikipedia.org/wiki/Alsamixer)
 
-### 安装python，并安装虚拟环境，隔离SDK与系统Python包关系。
+### 安装python和虚拟环境
+  这样是是为了隔离SDK与系统Python包关系。
 ```
 
 pi@raspberrypi:~ $ cd /home/pi
@@ -170,18 +175,18 @@ pi@raspberrypi:~/4mics_hat $ source ~/env/bin/activate                   # 激�
 !!!Warning
     因为我们在中国，无法直接使用Google的服务。必须搭建可以访问google的路由器，然后连接到路由。
 
-
+### 1. 配置流程
 在开始使用[Google Assistant](https://assistant.google.com/)之前，首先您应该将Google Assistant Library整合到您的raspberry pi系统中。 以下是[Google官方指导](https://developers.google.com/assistant/sdk/prototype/getting-started-pi-python/run-sample)的链接。
 
 
 以下指南还将向您介绍如何开始使用Google助手。
 
-### 1. 配置开发人员项目，并获取JSON文件
+**step 1. 配置开发人员项目，并获取JSON文件**
 
 请根据[指南](https://developers.google.com/assistant/sdk/prototype/getting-started-pi-python/config-dev-project-and-account#config-dev-project) 第一步到第四步在Google Cloud Platform上配置项目，并创建一个OAuth Client ID JSON文件。 不要忘记将JSON文件复制到您的Raspberry Pi。
 
 
-### 2. 安装google-assistant-library
+**step 2. 安装google-assistant-library**
 
 Google Assistant SDK软件包，包含在设备上运行Google Assistant所需的所有代码，包括库和示例代码。 使用pip在虚拟环境中安装最新版本的Python包：
 
@@ -190,7 +195,7 @@ source env/bin/activate #打开虚拟环境
 (env) $ python -m pip install --upgrade google-assistant-library
 ```
 
-### 3. 授权Google Assistant SDK
+**step 3. 授权Google Assistant SDK**
 
 授权Google Assistant SDK，使Google Assistant对给定的Google帐户进行查询。 把步骤1中的JSON文件复制到树莓派/home/pi下。
 
@@ -207,7 +212,7 @@ Enter the authorization code:
 
 这个时候应该显示: OAuth credentials initialized. 如果显示: InvalidGrantError then an invalid code was entered. 请重试, 确保拷贝整个code.
 
-### 4. 安装 **pulseaudio** 并且让他在后台运行
+**step 4. 安装 pulseaudio 并且让他在后台运行**
 
 ```
 pi@raspberrypi:~ $ sudo apt install pulseaudio
@@ -221,7 +226,7 @@ E: [pulseaudio] bluez4-util.c: org.bluez.Manager.GetProperties() failed: org.fre
 !!!Note
     请忽略pulseaudio错误信息。
 
-### 5. 开始使用Google Assistant示例
+**step 5. 开始使用Google Assistant示例**
 
 ```
 pi@raspberrypi:~ $ alsamixer    // To adjust the volume
@@ -229,24 +234,26 @@ pi@raspberrypi:~ $ source env/bin/activate
 (env) pi@raspberrypi:~ $ env/bin/google-assistant-demo
 ```
 
-### 6. 唤醒Google Assistant
+**step 6. 唤醒Google Assistant**
 
 先说 *Ok Google* 或者 *Hey Google*, 然后说您的询问. 语音助手就会响应您的问题。如果语音助手没有响应， 请按照 [疑难解答说明](https://developers.google.com/assistant/sdk/prototype/getting-started-pi-python/troubleshooting#hotword).
 
 ![run demo](https://github.com/SeeedDocument/MIC_HATv1.0_for_raspberrypi/blob/master/img/okgoogle.jpg?raw=true)
 
-### 7. 常见问题解决方法
+### 2.常见问题解决方法
 
 如果您遇到问题，请参考 [常见疑难解答说明](https://developers.google.com/assistant/sdk/prototype/getting-started-pi-python/troubleshooting) 。
 
 
-### 如何使用板载APA102 LED
+
+### 3. 控制APA102 LED的示例
 
 每个板载APA102 LED都有一个额外的驱动芯片，驱动芯片设置LED的颜色，然后保持该颜色，直到接收到新的命令。
 
 ![](https://github.com/SeeedDocument/MIC_HATv1.0_for_raspberrypi/blob/master/img/led.gif?raw=true)
 
-#### 1. 打开SPI:
+  请在执行之前打开SPI，具体步骤如下:
+
     - 输入： `sudo raspi-config`;
     - 选择 "Interfacing Options";
     - 选择 "SPI";
@@ -254,8 +261,7 @@ pi@raspberrypi:~ $ source env/bin/activate
     - 选择 “OK”
     - 选择 “Finish”
 
-#### 2. 控制APA102 LED的示例
-
+  配置完后，可以执行下列命令行来运行led示例  
 ```
 cd ~/
 git clone https://github.com/respeaker/mic_hat.git
@@ -264,7 +270,7 @@ cd mic_hat
 python pixels.py
 ```
 
-### 如何使用用户自定义按钮
+### 4.如何使用用户自定义按钮
 
 板子上面有个用户自定义按钮，连接到GPIO17. 我们可以调用python和RPi.GPIO来读取状态。
 
@@ -302,7 +308,7 @@ on
 off
 ```
 
-### 用按钮来触发Google Assisant
+### 5. 用按钮来触发Google Assisant
 
 您可以用按键来代替"ok google"来激活Google Assisant.
 
@@ -369,12 +375,9 @@ $ googlesamples-assistant-pushtotalk
 ## 使用 Alexa 和 DuerOs
 
 由于国内登录不上 Google Assisant ，所以使用在国内能连接的 Alexa 和 百度 DuerOs 作为语音引擎，开发出能让大多数人使用的语音互动系统。
+### 1. 配置和DOA测试
 
-### ReSpeaker 2-Mics Pi HAT 的 DOA 功能
-
-使用DoA（到达方向）功能，ReSpeaker 2-Mics Pi HAT 能够找到声源所在的大概方向。
-
-#### 1. 配置 Voice engine
+**step 1. 配置 Voice engine**
 ```
 pi@raspberrypi:~ $ source ~/env/bin/activate                    # 激活Python虚拟环境, 如果已经激活，调到下一步。
 (env) pi@raspberrypi:~ $ cd ~/4mics_hat
@@ -390,7 +393,7 @@ pi@raspberrypi:~ $ source ~/env/bin/activate                    # 激活Python�
 (env) pi@raspberrypi:~ $ nano kws_doa.py
 ```
 
-#### 2. 修改`kws_doa.py`的第14-21行，以适应 2-Mics：
+**step 2. 修改`kws_doa.py`的第14-21行，以适应 2-Mics：**
 
 ```
 from voice_engine.doa_respeaker_4mic_array import DOA
@@ -402,12 +405,15 @@ def main():
     kws = KWS()
     doa = DOA(rate=16000)
 ```
+  然后保存退出。
 
-#### 3. 保存，退出，然后在虚拟环境下运行 `python kws_doa.py`。请用 snowboy 来唤醒，我们就可以看到方位的信息。
+**step 3. 运行**
 
-### 用百度来进行语音互动
+  在虚拟环境下运行 `python kws_doa.py`。请用 snowboy 来唤醒，我们就可以看到方位的信息。
 
-#### 1. 百度授权
+### 2. 百度中文语音互动或者alexa英文语音互动
+
+**step 1. 配置和安装相关依赖**
 
 ```
 pi@raspberrypi:~ $ source ~/env/bin/activate                    # activate the virtual, if we have already activated, skip this step
@@ -421,14 +427,16 @@ pi@raspberrypi:~ $ source ~/env/bin/activate                    # activate the v
 (env) pi@raspberrypi:~/avs $ sudo apt install python-gi gir1.2-gstreamer-1.0
 (env) pi@raspberrypi:~/avs $ pip install tornado
 ```
-用 [VNC](https://www.raspberrypi.org/documentation/remote-access/vnc/)连接树莓派, 在终端运行 `alexa-auth` ，然后登陆获取alexa的授权， 或者运行 `dueros-auth` 获取百度的授权。 授权的文件保存在`/home/pi/.avs.json`。
+**step 2. 取得授权**
+
+在终端运行 `alexa-auth` ，然后登陆获取alexa的授权， 或者运行 `dueros-auth` 获取百度的授权。 授权的文件保存在`/home/pi/.avs.json`。
 
 ![](https://github.com/SeeedDocument/ReSpeaker-4-Mic-Array-for-Raspberry-Pi/raw/master/img/auth.png)
 
 !!!Note
     如果我们在 `alexa-auth` 和 `dueros-auth`之间切换, 请先删除 `/home/pi/.avs.json` 。 这个是隐藏文件，请用 `ls -la` 显示文件。
 
-#### 2. 配置
+**step 2. 配置**
 
 ```
 (env) pi@raspberrypi:~ $ cd /home/pi
@@ -477,30 +485,10 @@ pi@raspberrypi:~ $ source ~/env/bin/activate                    # activate the v
 ```
 ![](待替换)
 
-#### 3. 让我们High起来!
+**step 3. 让我们High起来!**
 
 现在请在虚拟环境下运行 `python ns_kws_doa_alexa.py` , 我们会在终端看到很多 debug 的消息. 当我们看到 **status code: 204** 的时候, 请说 `snowboy` 来唤醒 respeaker。接下来 respeaker 上的 led 灯亮起来, 我们可以跟他对话, 比如问，"谁是最帅的?" 或者 "播放刘德华的男人哭吧哭吧不是罪"。小伙伴，尽情的 High 起来吧。
 
-### 为树莓派和 2mic 做一个专属音箱
-
-由于 2mic 板本身带有喇叭接口，因此可以购买一个小喇叭，再结合 3D 打印，激光切割即可打造一款专属小音箱。行动起来吧！
-
-#### 准备阶段
-
-为了能制作出自己的造型，我选择 3D 打印制作音箱主体。然后使用激光雕刻薄木板制作出顶部盖板，底板和前面板。然后购买了一个2寸的全频喇叭，喇叭参数为 4Ω ，3W。
-
-
-### 开始制作
-
-设计音箱造型。普通的小音箱只要设计成密封的即可。我采用圆形造型，喇叭向前发声，这样声音效果较好。
-
-首先是 3D打印。设计好安装孔位和形状。
-
-然后设计顶部和底部盖板。也是设计好安装孔位和形状。
-
-最后设计前面板，需根据喇叭尺寸设计。我在面板下方增加了两个小的凸起，用于倾斜音箱，提升视觉效果。
-
-大功告成！享受属于自己的智能音箱吧！
 
 ## STT (语音转文字)
 
@@ -512,18 +500,19 @@ pi@raspberrypi:~ $ source ~/env/bin/activate                    # activate the v
 | GPIO13 | 0       | 1      | 0      | 0        |
 
 
-- **Step 1. 安装依赖**
+**Step 1. 安装依赖**
 
 ```
 sudo apt install mpg123
 pip install baidu-aip monotonic pyaudio
 ```
 
-- **Step 2. 从百度获取key [Here](https://console.bce.baidu.com/ai/?fromai=1#/ai/speech/overview/index).**
+**Step 2. 从百度获取key [Here](https://console.bce.baidu.com/ai/?fromai=1#/ai/speech/overview/index).**
 
 
-- **Step 3. 下载源码 [Smart_Fan.py](https://github.com/SeeedDocument/MIC_HATv1.0_for_raspberrypi/raw/master/src/baidu_STT/Smart_fan.py)**
+**Step 3. 下载源码并执行 [Smart_Fan.py](https://github.com/SeeedDocument/MIC_HATv1.0_for_raspberrypi/raw/master/src/baidu_STT/Smart_fan.py)**
 
+输入下列命令运行代码
 ```
 cd ~
 wget https://github.com/SeeedDocument/MIC_HATv1.0_for_raspberrypi/raw/master/src/baidu_STT.zip
@@ -533,13 +522,13 @@ python Smart_Fan.py
 ```
 
 !!!Warning
-  请在运行 Smart_Fan.py之前添加百度密钥 @ line 36,37,38。 您还可以通过运行synthesis_wav.py来生成所有者的声音。 请在第6,7,8行添加百度密钥，并将字符串修改为您要生成的内容。
+        请在运行 Smart_Fan.py之前添加百度密钥 @ line 36,37,38。 您还可以通过运行synthesis_wav.py来生成所有者的声音。 请在第6,7,8行添加百度密钥，并将字符串修改为您要生成的内容。
 
-- **Step 4. 说 '开风扇'.**
+**Step 4. 说 '开风扇'.**
 
-- **Step 5. 你会看到风扇开启.**
+**Step 5. 你会看到风扇开启.**
 
-- **Step 6. 可以试试 '快一点', '慢一点' 或 '关风扇'.**
+**Step 6. 可以试试 '快一点', '慢一点' 或 '关风扇'.**
 
 
 
@@ -549,15 +538,14 @@ python Smart_Fan.py
 
 **Q1:严格按照本 wiki 操作，驱动还是安装失败，怎么办？**
 
-
 A1:如果按照上述方法安装驱动均失败，请点击下面固件安装
 
 [我是固件](https://v2.fangcloud.com/share/7395fd138a1cab496fd4792fe5?folder_id=188000207913)
-注意,lite版本是没有图形界面的精简版,并且烧了固件后，记得换源。如果要使用交互功能之前请命令行输入alexa-auth或dueros-auth申请授权，授权成功后会在/home/pi目录下生成.avs.json文件，这时才能使用交互功能。/home/pi目录下会有 respeaker的例程文件夹,可以根据用的mic不同而使用相应的例程。
+需要以下几点需要注意，第一，lite版本是没有图形界面的精简版,建议您安装有图形界面的。第二，烧了固件后，记得换源。第三， 如果要使用交互功能之前请命令行输入alexa-auth或dueros-auth申请授权，授权成功后会在/home/pi目录下生成.avs.json文件，这时才能使用交互功能。第四，/home/pi目录下会有 respeaker的例程文件夹,可以根据用的mic不同而使用相应的例程。但是请烧录系统后在respeaker目录下更新下例程，可以在respeaker目录下执行``` git pull origin master ```命令来更新。
 
 **Q2: #include "portaudio.h" Error when run "sudo pip install pyaudio".**
 
-A1: 命令行输入如下命令
+A2: 命令行输入如下命令
 
 ```
 sudo apt-get install portaudio19-dev
@@ -574,6 +562,7 @@ A4:测试时发现sudo执行时候默认从系统环境执行，而wiki中用到
 
 
 **Q5 可以通过3.5毫米音频插孔的播放来听到声音，但是在运行ns_kws_doa_alexa_with_light.py时听不到声音**
+
  A5： 我们有3个播放器（mpv，mpg123和gstreamer）可以使用。 mpg123更适合语音识别和唤醒更，它更具响应性； 而AudioPlayer 更适用gstreamer> mpv> mpg123。 Gstreamer支持更多音频格式，并且在raspberry pi上运行良好。 我们还可以使用环境变量PLAYER指定AudioPlayer的播放器。 所以请尝试以下命令启用语音。
 ```
 
@@ -582,6 +571,7 @@ A4:测试时发现sudo执行时候默认从系统环境执行，而wiki中用到
 ```
 
 **Q6 在运行 kws_doa.py 时候喊 snowboy 没反应**
+
 A6:请运行audacity以确保4个频道良好。 如果有一个没有数据的频道，当我们说snowboy时就没有回复。
 
 ## 资源下载
