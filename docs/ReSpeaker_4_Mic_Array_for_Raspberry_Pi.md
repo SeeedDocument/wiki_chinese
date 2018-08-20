@@ -180,7 +180,8 @@ pi@raspberrypi:~/4mics_hat $ source ~/env/bin/activate                   # 激�
 每个板载APA102 LED都有一个额外的驱动芯片，驱动芯片设置LED的颜色，然后保持该颜色，直到接收到新的命令。
 
 ![](https://github.com/SeeedDocument/ReSpeaker-4-Mic-Array-for-Raspberry-Pi/blob/master/img/rainbow.jpg?raw=true)
-  请在执行之前打开SPI，具体步骤如下:
+
+- 请在执行之前打开SPI，具体步骤如下:
 
     - 输入： `sudo raspi-config`;
     - 选择 "Interfacing Options";
@@ -189,14 +190,19 @@ pi@raspberrypi:~/4mics_hat $ source ~/env/bin/activate                   # 激�
     - 选择 “OK”
     - 选择 “Finish”
 
-  配置完后，可以执行下列命令行来运行led示例  
+- 配置完后，可以执行下列命令行来运行led示例  
+
 ```
-cd ~/
-git clone https://github.com/respeaker/mic_hat.git
-sudo pip install spidev #安装spi的驱动
-cd mic_hat
-python pixels.py
+pi@raspberrypi:~ $ cd /home/pi
+pi@raspberrypi:~ $ git clone https://github.com/respeaker/4mics_hat.git
+pi@raspberrypi:~ $ cd /home/pi/4mics_hat
+pi@raspberrypi:~ $ sudo apt install python-virtualenv          # 安装 python 虚拟环境
+pi@raspberrypi:~ $ virtualenv --system-site-packages ~/env     # 创建 python 虚拟环境
+pi@raspberrypi:~ $ source ~/env/bin/activate                   # 激活 python 虚拟环境
+(env) pi@raspberrypi:~ $ pip install spidev gpiozero           # 安装 spidev 和 gpiozero
 ```
+
+- 在虚拟环境下运行 `python pixels.py`, 你可以看到LED像Google Assistant灯光一样闪烁。
 
 ### 5. 如何使用用户自定义按钮
 
