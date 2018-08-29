@@ -3,7 +3,7 @@
 <p>
 <div class="pic" style="width:33%"><a href="http://wiki.seeedstudio.com/cn/Arduino/"> 
 <img src="https://github.com/SeeedDocument/wiki_english/raw/master/docs/images/index_logo/1%20Arduino.jpg" width="220" height="220" border=0/></a></div>
-<div class="pic" style="width:33%"><a href="http://wiki.seeedstudio.com/cn/Raspberry_Pi/">
+<div class="pic" style="width:33%"><a href="http://wiki.seeedstudio.com/cn/Raspberry">
 <img src="https://github.com/SeeedDocument/wiki_english/raw/master/docs/images/index_logo/2%20Raspberry.jpg" width="220" height="220" border=0/></a></div>
 <div class="pic" style="width:33%"><a href="http://wiki.seeedstudio.com/cn/BeagleBone/">
 <img src="https://github.com/SeeedDocument/wiki_english/raw/master/docs/images/index_logo/3%20Beaglebone.jpg" width="220" height="220" border=0/></a></div>
@@ -12,8 +12,8 @@
 <p>
 <div class="pic" style="width:33%"><a href="http://wiki.seeedstudio.com/cn/ReSpeaker/">
 <img src="https://github.com/SeeedDocument/wiki_english/raw/master/docs/images/index_logo/4%20ReSpeaker.jpg" width="220" height="220" border=0/></a></div>
-<div class="pic" style="width:33%"><a href="http://wiki.seeedstudio.com/cn/Artik/">
- <img src="https://github.com/SeeedDocument/wiki_english/raw/master/docs/images/index_logo/5%20Artik.jpg" width="220" height="220" border=0/></a></div>
+<div class="pic" style="width:33%"><a href="http://wiki.seeedstudio.com/cn/Shield/"> 
+<img src="https://github.com/SeeedDocument/wiki_english/raw/master/docs/images/index_logo/8%20Shield.jpg" width="220" height="220" border=0/></a></div>
 <div class="pic" style="width:33%"><a href="http://wiki.seeedstudio.com/cn/LinkIt/">
  <img src="https://github.com/SeeedDocument/wiki_english/raw/master/docs/images/index_logo/6%20LinkIt.jpg" width="220" height="220" border=0/></a></div>
 </p>
@@ -21,10 +21,12 @@
 <p>
 <div class="pic" style="width:33%"><a href="http://wiki.seeedstudio.com/cn/Wio/">
 <img src="https://github.com/SeeedDocument/wiki_english/raw/master/docs/images/index_logo/7%20Wio.jpg" width="220" height="220" border=0/></a></div>
-<div class="pic" style="width:33%"><a href="http://wiki.seeedstudio.com/cn/Shield/"> 
-<img src="https://github.com/SeeedDocument/wiki_english/raw/master/docs/images/index_logo/8%20Shield.jpg" width="220" height="220" border=0/></a></div>
+
 <div class="pic" style="width:33%"><a href="http://wiki.seeedstudio.com/cn/RePhone/">
 <img src="https://github.com/SeeedDocument/wiki_english/raw/master/docs/images/index_logo/9%20RePhone.jpg" width="220" height="220" border=0/></a></div>
+
+<div class="pic" style="width:33%">
+<img src="https://github.com/SeeedDocument/wiki_english/raw/master/docs/images/empty.png" width="220" height="220" border=0/></div>
 </p>
 
 
