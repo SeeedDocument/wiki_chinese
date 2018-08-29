@@ -22,7 +22,7 @@
 <div class="pic" style="width:33%"><a href="http://wiki.seeedstudio.com/cn/Wio/">
 <img src="https://github.com/SeeedDocument/wiki_english/raw/master/docs/images/index_logo/7%20Wio.jpg" width="220" height="220" border=0/></a></div>
 
-<div class="pic" style="width:33%"><a href="http://wiki.seeedstudio.com/cn/RePhone/">
+<div class="pic" style="width:33%"><a href="http://wiki.seeedstudio.com/cn/Rephone">
 <img src="https://github.com/SeeedDocument/wiki_english/raw/master/docs/images/index_logo/9%20RePhone.jpg" width="220" height="220" border=0/></a></div>
 
 <div class="pic" style="width:33%">
