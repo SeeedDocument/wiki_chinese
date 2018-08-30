@@ -292,9 +292,10 @@ pages:
     - 执行器:
       - Actuator: Actuator.md
       - Grove-2 Coil Latching Relay: Grove-2-Coil_Latching_Relay.md     
-      - Grove-2-Channel_Solid_State_Relay: Grove-2-Channel_Solid_State_Relay.md
-      - Grove-2-Channel_SPDT_Relay: Grove-2-Channel_SPDT_Relay.md
-      - Grove-4-Channel_SPDT_Relay: Grove-4-Channel_SPDT_Relay.md
+      - Grove-2-Channel_Solid State Relay: Grove-2-Channel_Solid_State_Relay.md
+      - Grove-2-Channel SPDT Relay: Grove-2-Channel_SPDT_Relay.md
+      - Grove-4-Channel SPDT Relay: Grove-4-Channel_SPDT_Relay.md
+      - Grove-8-Channel Solid State Relay: Grove-8-Channel_Solid_State_Relay.md
       - Grove-Bee Socket: Grove-Bee_Socket.md
       - Grove-Button: Grove-Button.md
       - Grove-Buzzer: Grove-Buzzer.md
