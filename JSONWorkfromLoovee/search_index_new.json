@@ -868,17 +868,22 @@
         {
             "text": "", 
             "location": "/Grove-2-Channel_Solid_State_Relay/", 
-            "title": "Grove-2-Channel_Solid_State_Relay"
+            "title": "Grove-2-Channel_Solid State Relay"
         }, 
         {
             "text": "", 
             "location": "/Grove-2-Channel_SPDT_Relay/", 
-            "title": "Grove-2-Channel_SPDT_Relay"
+            "title": "Grove-2-Channel SPDT Relay"
         }, 
         {
             "text": "", 
             "location": "/Grove-4-Channel_SPDT_Relay/", 
-            "title": "Grove-4-Channel_SPDT_Relay"
+            "title": "Grove-4-Channel SPDT Relay"
+        }, 
+        {
+            "text": "", 
+            "location": "/Grove-8-Channel_Solid_State_Relay/", 
+            "title": "Grove-8-Channel Solid State Relay"
         }, 
         {
             "text": "", 
