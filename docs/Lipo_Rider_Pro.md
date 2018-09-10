@@ -4,79 +4,81 @@ category: Essentials
 bzurl: https://seeedstudio.com/LiPo-Rider-Pro-p-992.html
 oldwikiname: Lipo_Rider_Pro
 prodimagename: LiPo_Rider_Pro.jpg
-wikiurl: http://wiki.seeedstudio.com/cn/Lipo_Rider_Pro
+bzprodimageurl: http://statics3.seeedstudio.com/images/product/lipopro1s.jpg
+surveyurl: https://www.research.net/r/Lipo_Rider_Pro
 sku: 106990008
 ---
 
 ![](https://raw.githubusercontent.com/SeeedDocument/Lipo_Rider_Pro/master/img/LiPo_Rider_Pro.jpg)
 
-用清洁能源为您的电子套件供电！LiPo Rider Pro 是 Lipo Rider 的增强版，它比 Lipo Rider 增加了负载输出（1A 峰值）。LiPo Rider Pro 电路板可以让您用太阳能电池为 5V 设备供电。LiPo Rider Pro 电路板是您户外传感器安装的清洁电源供电解决方案。将 LiPo Rider Pro 板连接到您的传感器板，在有太阳能时就可以持续运行。它也可以用来给手机充电。
+Power your favourite electronic kit with green energy! The LiPo Rider Pro is an enhancement of Lipo Rider. It supplies heavier load output(1A peak) than Lipo Rider. The LiPo Rider Pro board allows you ride the solar wave to run your favourite 5V device. The LiPo Rider Pro board is the ideal green power solution for your outdoor sensor design. Attach the LiPo Rider Pro board to your sensor board and it can run on solar power forever! It can also be used to charge mobile phone.
 
-LiPo Rider Pro 非常实惠且易于使用。它不需要编程。您只需要将太阳能电池板，锂电池和负载设备插入它，它就可以工作了。内部充电器 IC 负责处理各个组件之间的电力需求。
+The LiPo Rider Pro is extremely affordable and easy to use. No programming is required. Plug it in and it works. The internal charger IC handles all the power flow between the various components.
 
-如果太阳能电力不足，您可以通过 Mini USB 端口为您的锂电池充电。它也可以用来编程你的套件，从而无需拆卸 LiPo Rider Pro 板。
+In case solar power is not sufficient, the mini USB port allows you to charge your lithium battery through USB. It can also be used to program your kit without detaching the LiPo Rider Pro board.
 
-LiPo Rider Pro 可以作为独立的板子购买或者组成套件购买（LiPo Rider Pro + [锂电池](https://item.taobao.com/item.htm?spm=a1z10.3-c.w4002-11172317909.33.1418794cfFUEaw&id=534229881706) + [太阳能电池板](https://seeedstudio.taobao.com/search.htm?q=w+%CC%AB%D1%F4%C4%DC&s_from=newHeader&ssid=s5-e&search_type=item&sourceId=tb.item)）。
+The LiPo Rider Pro can be purchased as a separate board or as a kit (LiPo Rider Pro + Lithium Battery + Solar Panel).
 
-[![](https://github.com/SeeedDocument/wiki_chinese/raw/master/docs/images/click_to_buy.PNG)](https://item.taobao.com/item.htm?spm=a1z38n.10677092.0.0.522ac30cVyZ1lO&id=45706878029)
+[![](https://raw.githubusercontent.com/SeeedDocument/common/master/Get_One_Now_Banner.png)](https://www.seeedstudio.com/LiPo-Rider-Pro-p-992.html)
 
-## 产品特性
+## Features
 --------
 
--   最大 1A 负载电流输出
--   锂电池和太阳能电池板的接口为 JST 2.0
--   稳定输出 5V 电压
--   芯片集成充电/放点算法
--   通过太阳能或 USB 电源给锂聚合物电池充电
--   通过锂电池或 USB 提供稳定的电源电压
--   2 个 USB 端口可让您在为锂电池充电时为其他设备编程
--   LED 灯指示电池充电状态
--   通过简单的修改，可扩展到使用多个锂电池和多个太阳能电池板
--   有 4 个绿色 LED 指示锂电池的电量
+-   Maximum 1A load output
+-   Battery and Solar panel connector is JST 2.0
+-   Stable 5V USB power supply regardless of source
+-   Charge/Recharge algorithms built into chip
+-   Charge Lithium Polymer Battery through solar power or USB
+-   Stable supply voltage through either lithium battery or USB
+-   2 x USB ports let you program your kit while charging your Lithium battery
+-   LED indications for battery full or charging states
+-   Scalable to multiple lithium batteries and large/multiple solar panels through simple end-user modifications
+-   4 green LED instruct quantity of electricity of lithium battery
 
-## 创意应用
+## Application Ideas
 -----------------
 
--   分布式室外传感器网络的绿色能源和备用电源
--   锂电池充电器
--   手机充电器
+-   Green Power and backup supply for distributed outdoor sensor network
+-   Charger for Lithium batteries
+-   Charger for mobile phone
 
 
 <div class="admonition caution">
 <p class="admonition-title">Caution</p>
-<ol><li>LiPo Rider Pro 与 LiPo Rider v1.0 有不同的接口，前者是 JST 2.0 接口，后者是 JST 2.54 接口。</li>
-<li>表面有裸露的元器件，使用时小心雨水和短路</li>
-<li>负荷较大时板子可能会发热</li>
+<ol><li>The LiPo Rider Pro has different connectors from LiPo Rider v1.0, the former is JST 2.0 and latter is JST 2.54.</li>
+<li>Live exposed electronic components.</li>
+<li>The board may get hot when supplying large loads.</li>
+<li>Potential short circuit or electric shock, especially if device gets wet when placed outdoors for solar power collection.</li></ol>
 </div>
 
-## 操作示例
+## Dimensions
 ----------
 
-LiPo Rider Pro 的尺寸如下：
+The dimensions of LiPo Rider Pro is like the [6A Lithium Polymer Battery](http://www.seeedstudio.com/depot/lithium-ion-polymer-battery-pack-6a-p-602.html?cPath=178_183).
 
 ![](https://raw.githubusercontent.com/SeeedDocument/Lipo_Rider_Pro/master/img/Liporiderprod.jpg)
 
-规格参数
+Specifications
 --------------
 
 <table border="1">
 <tr>
 <th>
-项目
+Items
 </th>
 <th>
-最小值
+Min
 </th>
 <th>
-典型值
+Norm
 </th>
 <th>
-最大值
+Max
 </th>
 </tr>
 <tr align="center">
 <td width="400">
-太阳能板输入V<sub>in</sub>
+V<sub>in</sub> Solar
 </td>
 <td width="200">
 4.8V
@@ -104,7 +106,7 @@ I<sub>charge</sub> (R<sub>Iset</sub>=3.9kΩ)
 </tr>
 <tr align="center">
 <td>
-输出电流 I<sub>load</sub>
+I<sub>load</sub>
 </td>
 <td>
 0mA
@@ -117,7 +119,7 @@ I<sub>charge</sub> (R<sub>Iset</sub>=3.9kΩ)
 </tr>
 <tr align="center">
 <td>
-电池充电电压 V<sub>batt</sub>(R<sub>x</sub>=0Ω)
+V<sub>batt</sub>(R<sub>x</sub>=0Ω)
 </td>
 <td colspan="3" rowspan="1">
 4.2V
@@ -125,7 +127,7 @@ I<sub>charge</sub> (R<sub>Iset</sub>=3.9kΩ)
 </tr>
 <tr align="center">
 <td>
-USB 输入电压 V<sub>source USB</sub>
+V<sub>source USB</sub>
 </td>
 <td colspan="3" rowspan="1">
 5.0V
@@ -133,7 +135,7 @@ USB 输入电压 V<sub>source USB</sub>
 </tr>
 <tr align="center">
 <td>
-USB 输出电压 V<sub>destination USB</sub>
+V<sub>destination USB</sub>
 </td>
 <td colspan="3" rowspan="1">
 5.0V
@@ -141,10 +143,10 @@ USB 输出电压 V<sub>destination USB</sub>
 </tr>
 </table>
 
-引脚定义和含义
+Pin definition and Rating
 -------------------------
 
-**引脚和 LED 用途**
+**Pin Instruction and LED Statement**
 
 <table>
 <colgroup>
@@ -154,47 +156,47 @@ USB 输出电压 V<sub>destination USB</sub>
 </colgroup>
 <thead>
 <tr class="header">
-<th>CH 引脚状态 (红色 LED 状态)</th>
-<th>OK 引脚状态 (绿色 LED 状态)</th>
-<th>状态</th>
+<th>CH pin level (Red LED state)</th>
+<th>OK pin level (Green LED state)</th>
+<th>Statements</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>低电平 (点亮)</td>
-<td>高电平 (熄灭)</td>
-<td>充电</td>
+<td>Low level (ON)</td>
+<td>High level (OFF)</td>
+<td>Charging</td>
 </tr>
 <tr class="even">
-<td>高电平 (熄灭)</td>
-<td>低电平 (持续点亮)</td>
-<td>完成充电</td>
+<td>High level (OFF)</td>
+<td>Low level (last ON)</td>
+<td>Complete</td>
 </tr>
 <tr class="odd">
-<td>脉冲信号 (闪亮)</td>
-<td>脉冲信号 (点亮)</td>
-<td>电池未连接</td>
+<td>Pulse signal (Flash)</td>
+<td>Pulse signal (ON)</td>
+<td>The battery does not exist</td>
 </tr>
 <tr class="even">
-<td>高电平 (熄灭)</td>
-<td>高电平 (熄灭)</td>
-<td>两种情况：
+<td>High level (OFF)</td>
+<td>High level (OFF)</td>
+<td>Two situations:
 <ul>
-<li>输入电压低于元器件工作电压</li>
-<li>输入电压低于电池电压</li>
+<li>Input voltage lower than gate voltage</li>
+<li>The input voltage lower than battery voltage</li>
 </ul></td>
 </tr>
 </tbody>
 </table>
 
-**LED 电池状态指示灯**
+**LED Battery Indicator**
 
-像手机一样，LiPo Rider Pro 有 4 个 LED 电池状态指示灯。读取电池电压时，只需把像下图那样按一下 **K2** 按键即可。
+The LiPo Rider Pro has four LED battery indicators like the cell phone,and you can see the battery power by just pressing the button K2 like below:
 ![](https://raw.githubusercontent.com/SeeedDocument/Lipo_Rider_Pro/master/img/Lipo3.jpg)
 
-**LED 电池状态指示灯状态**
+**LED battery indicator parameter**
 
-| 点亮的指示灯数量 | 电池剩余电量 |
+| Numbers of indicators lighting up | Amount of electricity |
 |-----------------------------------|-----------------------|
 | 4                                 | 90~100%               |
 | 3                                 | 60~90%                |
@@ -202,29 +204,44 @@ USB 输出电压 V<sub>destination USB</sub>
 | 1                                 | 10~30%                |
 | 0                                 | 0~10%                 |
 
-使用方法
+Usage
 -----
 
-**示例**
+**Example**
 
-**户外传感器设备供电方案**
+**Outdoor Sensor Device Power Supply**
 
-Lipo Rider Pro 板的一个重要应用是作为户外传感器的持续性电源。室外传感器装置将由太阳能电池板供电的锂电池供电。在这种情况下，设备以“USB 供电模式”运行。请注意，不建议仅在太阳能供电时使用室外传感器，因为在没有足够阳光的情况下可能会出现供电不足而导致传感器不能工作。
+One important application of the Lipo Rider Pro board is as an affordable power supply for outdoor sensors. The outdoor sensor device will be powered by the lithium battery supplemented by the solar panel. Please note that it is not recommended to run the outdoor sensor ONLY on solar power, as this may vary during the day and may cause the sensor to reset / power down unexpectedly. In this case, the device is running in “USB Mode”.
 
-如果需要对室外传感器设备编程固件，只需简单地将 Mini USB 端口连接到您的电脑上，设备就会以“编程模式”运行。
+If a firmware reprogram for the outdoor sensor device is required, simple connect the mini USB port to your PC which will put the device under “Program Mode” as explained above.
 
-可以使用更大的或多个电池和太阳能电池板供电，但仅限于用户自行修改。
+Larger/multiple batteries and/or solar panels can be used, but only with end-user modifications.
 
 ![](https://raw.githubusercontent.com/SeeedDocument/Lipo_Rider_Pro/master/img/Lipo-Rider-pro.JPG)
 
-**使用太阳能电池板给锂电池充电**
+**Charge Lithium Polymer Battery through solar power**
 
 ![](https://raw.githubusercontent.com/SeeedDocument/Lipo_Rider_Pro/master/img/LiPo_Rider_Pro1.jpg)
 
-## 资源下载
+## Resources
 ---
 
--   **[数据手册]**[CN3065 Datasheet in PDF](https://raw.githubusercontent.com/SeeedDocument/Lipo_Rider_Pro/master/res/DSE-CN3065.pdf)
--   **[Ragle 文件]**[Schematic and Layout in Eagle format](https://raw.githubusercontent.com/SeeedDocument/Lipo_Rider_Pro/master/res/Lipo_Rider_Pro_v0.9b.rar)
--   **[PDF 文件]**[Schematic in pdf format](https://raw.githubusercontent.com/SeeedDocument/Lipo_Rider_Pro/master/res/LiPo_Rider_Pro_v0.9b.pdf)
--   **[其他教程]**[Get Lipo rider pro to charge Ipod or Iphone](http://www.seeedstudio.com/forum/viewtopic.php?f=4&t=3575)
+-   [CN3065 Datasheet in PDF](https://raw.githubusercontent.com/SeeedDocument/Lipo_Rider_Pro/master/res/DSE-CN3065.pdf)
+-   [Schematic and Layout in Eagle format](https://raw.githubusercontent.com/SeeedDocument/Lipo_Rider_Pro/master/res/Lipo_Rider_Pro_v0.9b.rar)
+-   [Schematic in pdf format](https://raw.githubusercontent.com/SeeedDocument/Lipo_Rider_Pro/master/res/LiPo_Rider_Pro_v0.9b.pdf)
+-   [Get Lipo rider pro to charge Ipod or Iphone](http://forum.seeedstudio.com/viewtopic.php?f=4&t=3575)
+-   [Lithium Ion polymer Battery pack - 6A](https://www.seeedstudio.com/Lithium-Ion-polymer-Battery-pack-6A-p-602.html)
+
+## Project
+
+**PlantSigfox Monitoring** Retrieving air/soil moisture & temperature and brightness (and RGB rays). It also sends the localization, and so gives weather forecasts.
+
+<iframe frameborder='0' height='327.5' scrolling='no' src='https://www.hackster.io/plantsigfox-ei2i4/plantsigfox-monitoring-3d66be/embed' width='350'></iframe>
+
+**Step Detection System By A Way With Arduino**
+The purpose of the project is to detect the passing of cars and people at the entrance to an orchard and a warning beep inside this house.
+
+<iframe frameborder='0' height='327.5' scrolling='no' src='https://www.hackster.io/juan-salvador-aleixandre-talens/step-detection-system-by-a-way-with-arduino-bc6f3a/embed' width='350'></iframe>
+
+## Tech Support
+Please submit any technical issue into our [forum](http://forum.seeedstudio.com/). 

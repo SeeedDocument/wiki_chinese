@@ -4,77 +4,80 @@ category: Actuator
 bzurl: https://www.seeedstudio.com/Grove - I2C Mini Motor Driver-p-2508.html
 oldwikiname: Grove_-_Mini_I2C_Motor_Driver_v1.0
 prodimagename: Mini_I2C_motor_2.png
-wikiurl: http://wiki.seeedstudio.com/cn/Grove-Mini_I2C_Motor_Driver_v1_0
+bzprodimageurl: https://statics3.seeedstudio.com/images/product/105020010 2.jpg
+surveyurl: https://www.research.net/r/Grove-Mini_I2C_Motor_Driver_v1_0
 sku: 105020010
 tags: grove_i2c, io_3v3, io_5v, plat_duino, plat_linkit
 ---
 
 ![](https://raw.githubusercontent.com/SeeedDocument/Grove-Mini_I2C_Motor_Driver_v1.0/master/img/Mini_I2C_motor_2.png)
 
-Grove - MIni I2C motor driver 包含两个 DRV8830。DRV8830 为电池供电的玩具，打印机和其他低电压或电池供电的运动控制应用提供了集成电机驱动器的解决方案。该模块有两个 H 桥式驱动器，可以驱动两个直流电机或两个步进电机的绕组，以及其他负载如电磁铁。它需要一个板载 5V 电压调节器，可以为 I2C 总线供电。所有驱动器线路均采用二极管保护，避免反电动势。它具有两个故障指示灯和四个 LED 指示每个电机运行的方向。Grove 接口和 I2C 接口使您可以将它与许多其他设备进行菊花链连接。
+This Grove - MIni I2C motor driver includes two DRV8830. The DRV8830 provides an integrated motor driver solution for battery-powered toys, printers, and other low-voltage or battery-powered motion control applications. The module has two H-bridge drivers, and can drive two DC motors or two winding of stepper motors, as well as other loads like solenoids.It requires an onboard 5V voltage regulator which can power the I2C bus. All driver lines are diode protected from back EMF.It features two LEDs for fault indicator and four LEDs to indicate which direction each motor is running. GROVE system plug and I2C interface enables you to daisy-chain the driver with many other devices.
 
-[![](https://github.com/SeeedDocument/wiki_chinese/raw/master/docs/images/click_to_buy.PNG)](https://item.taobao.com/item.htm?spm=a230r.1.14.16.5e2f27f7HLV2ss&id=531757423678&ns=1&abbucket=1#detail)
+[![](https://raw.githubusercontent.com/SeeedDocument/common/master/Get_One_Now_Banner.png)](http://www.seeedstudio.com/Grove%C2%A0-%C2%A0I2C%C2%A0Mini%C2%A0Motor%C2%A0Driver-p-2508.html)
 
-## 产品特性
+Features
 --------
 
--   无外部电源
--   两个故障指示灯
--   默认最大驱动电流 200mA
--   Grove 接口
--   I2C 接口
--   电机的速度和方向可控
--   通道数量 : 2
--   易于使用
+-   Without external power supply
+-   Two leds for fault indicator
+-   Default maximum drive current 200 mA
+-   Grove compatible
+-   I2C interface
+-   Motor's speed and direction can control
+-   Number of channels: 2
+-   Easy to use
 
 !!!Tip
-    关于 Grove 模块的更多信息请点击 [Grove System](http://wiki.seeedstudio.com/cn/Grove_System/)
+    More details about Grove modules please refer to [Grove System](http://wiki.seeedstudio.com/Grove_System/)
 
-## 创意应用
+Application Ideas
 -----------------
 
-该电机驱动器可用于驱动任何在 5v 时电流不超过 1A 的有刷电机。两个电机设置不同的速度和方向时可以同时驱动。速度可以完全按比例设置，由 I2C 命令控制。
+This motor driver can be used to drive any brushed electronic motor as long as it doesn't consume more than 1A at 5v.
+Two motors can be driven simultaneously while set to a different speed and direction.
+The speed can be set fully proportional and is controlled by I2C command.
 
--   电池供电 :
-    -   打印机
-    -   玩具
-    -   机器人
-    -   相机
-    -   电话
+-   Battery-Powered:
+    -   Printers
+    -   Toys
+    -   Robotics
+    -   Cameras
+    -   Phones
 
--   小执行器，水泵等
+-   Small Actuators, Pumps, etc.
 
-以下项目供您参考。
+Here are some projects for your reference.
 
 | **Make a Mini Toy Car**                                              | **Make a Steampunk Style Award**                                       |
 |----------------------------------------------------------------------|------------------------------------------------------------------------|
 | ![](https://raw.githubusercontent.com/SeeedDocument/Grove-Mini_I2C_Motor_Driver_v1.0/master/img/Mini_toy_car.jpg)   | ![](https://raw.githubusercontent.com/SeeedDocument/Grove-Mini_I2C_Motor_Driver_v1.0/master/img/Seeed_award2015.jpg)  |
-| [点击制作](http://www.seeed.cc/project_detail.html?id=392)       | [点击制作](http://www.seeed.cc/project_detail.html?id=1131)        |
+| [Make it NOW!](http://www.seeed.cc/project_detail.html?id=392)       | [Make it NOW!](http://www.seeed.cc/project_detail.html?id=1131)        |
 
-## 规格参数
+Specifications
 --------------
 
 <table border="1" cellspacing="0" width="80%">
 <tr>
 <th scope="col">
-项目
+Item
 </th>
 <th scope="col">
-最小值
+Min
 </th>
 <th scope="col">
-典型值
+Typical
 </th>
 <th scope="col">
-最大值
+Max
 </th>
 <th scope="col">
-单位
+Unit
 </th>
 </tr>
 <tr align="center">
 <th scope="row">
-工作电压
+Working Voltage
 </th>
 <td>
 2.75
@@ -91,10 +94,10 @@ VDC
 </tr>
 <tr align="center">
 <th scope="row">
-每个通道的最大输出电流
+Max Output Current per channel
 </th>
 <td>
-0.2(默认)
+0.2(default)
 </td>
 <td>
 -
@@ -108,7 +111,7 @@ A
 </tr>
 <tr align="center">
 <th scope="row">
-I2C 总线的输入/输出电压
+Input/output voltage on I2C bus
 </th>
 <td colspan="3">
 3.3/5
@@ -119,7 +122,7 @@ V
 </tr>
 <tr align="center">
 <th scope="row">
-通信协议
+Communication protocol
 </th>
 <td colspan="3">
 I2C
@@ -130,7 +133,7 @@ I2C
 </tr>
 <tr align="center">
 <th scope="row">
-默认 I2C 地址
+Default I2C Address
 </th>
 <td colspan="3">
 0xC0, 0xC4
@@ -144,12 +147,20 @@ I2C
 Platforms Supported
 -------------------
 
-## 硬件概述
+| Arduino                                                                                             | Raspberry Pi                                                                                             | BeagleBone                                                                                      | Wio                                                                                               | LinkIt ONE                                                                                         |
+|-----------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------|
+| ![](https://raw.githubusercontent.com/SeeedDocument/wiki_english/master/docs/images/arduino_logo.jpg) | ![](https://raw.githubusercontent.com/SeeedDocument/wiki_english/master/docs/images/raspberry_pi_logo_n.jpg) | ![](https://raw.githubusercontent.com/SeeedDocument/wiki_english/master/docs/images/bbg_logo_n.jpg) | ![](https://raw.githubusercontent.com/SeeedDocument/wiki_english/master/docs/images/wio_logo_n.jpg) | ![](https://raw.githubusercontent.com/SeeedDocument/wiki_english/master/docs/images/linkit_logo.jpg) |
+
+!!!Caution
+    The platforms mentioned above as supported is/are an indication of the module's hardware or theoritical compatibility. We only provide software library or code examples for Arduino platform in most cases. It is not possible to provide software library / demo code for all possible MCU platforms. Hence, users have to write their own software library.
+
+
+Hardware Overview
 -----------------
 
 ![](https://raw.githubusercontent.com/SeeedDocument/Grove-Mini_I2C_Motor_Driver_v1.0/master/img/Mini_motor_driver.jpg)
 
--   **Grove Interface** 是一个具有相同的接口的系统，可以插入到 **[Base Shield](http://wiki.seeedstudio.com/cn/Base_Shield_V2/)**。将此模块连接到 Base Shield 的 **I2C** 端口，然后与 Arduino 配合使用。您也可以通过跳线将 Grove - Mini I2C Motor Driver 连接到没有使用 Base Shield 的 Arduino。
+-   **Grove Interface** - Grove products have a eco system and all have a same connector which can plug onto the **Base Shield**. Connect this module to the I<sup>2</sup>C port of Base Shield, and then it can work well with Arduino. However, you can also connect Grove - Mini I2C Motor Driver to Arduino without Base Shield by jumper wires.
 
 <table>
 <tr>
@@ -201,52 +212,52 @@ SCL
 </table>
 
 
--   **CH1 故障指示灯** - 通道 1 故障指示灯
--   **CH2 故障指示灯** - 通道 2 故障指示灯
--   **方向指示灯** - 电机方向指示灯
--   **CH1 输出接口** - 电机 1 接口
--   **CH2 输出接口** - 电机 2 接口
+-   **CH1 fault indicator** - Channel 1 fault indicator.
+-   **CH2 fault indicator** - Channel 2 fault indicator.
+-   **Direction indicator** - Motor direction indicator.
+-   **CH1 Output Connector** - Motor 1 connector.
+-   **CH2 Output Connector** - Motor 2 connector.
 
-## 硬件功能
+Hardware function
 -----------------
 
-### 更改默认最大驱动电流
+### Change Default maximum drive current
 
-每个通道默认最大驱动电流为 200mA。
+The default maximum drive current of each channel is 200mA, see the front picture of the board
 
 ![](https://raw.githubusercontent.com/SeeedDocument/Grove-Mini_I2C_Motor_Driver_v1.0/master/img/QQ20150817-3.png)
 
-每个通道 (CH1,CH2) 有一个电阻，每个电阻 (R5,R12) 的阻值都是 1Ω，所以按照下式最大驱动电流为 200mA
+Each channel (CH1,CH2) has been added a resistor, and each value of resistor (R5,R12) is 1 Ω, so the maximum drive current is 200mA according to the following equation
 
 <center>
 ![](https://raw.githubusercontent.com/SeeedDocument/Grove-Mini_I2C_Motor_Driver_v1.0/master/img/Mini_I2C_motor_7.png)
 
 </center>
 
-同时，每个通道都提供了一个预留的可焊接焊盘 (CH1 对应 R6，CH2 对应 R13)，因此您可以在电路板上焊接一个电阻，以更改每个通道的电阻值。以下是更改后的电路板的新方程
+Meantime, each channel provides a reserved solderable pad (R6 for CH1, R13 for CH2), so you can solder a resistor onto the board to change the resistor value of each channel. Following is the new equation if adding resistor to the board
 
 <center>
-![](https://raw.githubusercontent.com/SeeedDocument/Grove-Mini_I2C_Motor_Driver_v1.0/master/img/Mini_I2C_motor_8.png)
+![](https://raw.githubusercontent.com/SeeedDocument/Grove-Mini_I2C_Motor_Driver_v1.0/master/img/Mini_I2C_motor_8.png) 
 ![](https://raw.githubusercontent.com/SeeedDocument/Grove-Mini_I2C_Motor_Driver_v1.0/master/img/Mini_I2C_motor_9.png)
 </center>
 
 <div class="admonition caution">
 <p class="admonition-title">Caution</p>
-每个通道的最大工作电流必须小于 1A。所以焊接到预留焊盘的电阻的最小值应该不小于 0.2Ω。
+Maximum working current of each channel must be less than 1A. So the minimum value of resistor soldered to the reserved pad should not less than 0.2 Ω.
 </div>
 
-### 更改默认 I<sup>2</sup>C 地址
+### Change Default I<sup>2</sup>C Address
 
-每个通道的 I2C 地址是可更改的。请看看电路板的背面，您会发现有4个跳线焊盘; A0_CH1 和 A1_CH1 是对应通道 1，A0_CH2 和 A1_CH2 是对应通道 2，如下所示 :
+The I<sup>2</sup>C address of each channel is changeable. Please take a look at the back side of the board, you will find there are 4 jumper pads; A0_CH1 and A1_CH1 are for channel 1, A0_CH2 and A1_CH2 are for channel 2, as shown below:
 
 <center>
 ![](https://raw.githubusercontent.com/SeeedDocument/Grove-Mini_I2C_Motor_Driver_v1.0/master/img/Address_mini_i2c_motor_driver.png)
 </center>
 
-您可以焊接或脱焊各个连接以更改 I2C 地址 :
+You can solder or unsolder each jumper to change the I2C address:
 
--   1 - 您需要焊枪将两侧焊接在一起
--   0 - 您需要焊枪将两侧脱焊
+-   1 - You need a solder iron, just solder two sides of the jumper together
+-   0 - You need a solder iron, just unsolder two sides of the jumper.
 
 <center>
 ![](https://raw.githubusercontent.com/SeeedDocument/Grove-Mini_I2C_Motor_Driver_v1.0/master/img/Mini_I2C_motor_12.png)
@@ -254,56 +265,56 @@ SCL
 
 <div class="admonition note">
 <p class="admonition-title">Note</p>
- Grove - Mini I2C Motor driver 库和默认地址有关
+The library of Grove - Mini I2C Motor driver is dependent on the default address.
 </div>
 
-## 入门指导
+Getting Started
 ---------------
 
-现在开始使用 Grove - Mini I2C Motor Driver !
+Now, let us begin to use the Grove - Mini I2C Motor Driver.
 
-### 准备工作
+### Preparations
 
-现在为 Grove - Mini I2C Motor Driver v1.0 进行使用演示，它需要以下模块 :
+Now we are making a demo for Grove - Mini I2C Motor Driver v1.0 which require following modules.
 
 -   2 * DC Motor 2V-6V
--   [Seeeduino Lite](https://item.taobao.com/item.htm?spm=a1z10.3-c.w4002-11172317909.9.4534df99jXa0pT&id=45487750521)
+-   [Seeeduino Lite](http://www.seeedstudio.com/depot/Seeeduino-Lite-p-1487.html)
 
-**Seeeduino Lite 与 Arduino 兼容**
+**Seeeduino Lite is compatible with Arduino.**
 
-如果您使用的是 Arduino UNO 或任何带有 Grove 接口的 Arduino 兼容板，
+If you are using an Arduino UNO or any others Arduino compatible boards that with out a Grove connect,
 
-您需要一个 [Grove Base Shield](https://item.taobao.com/item.htm?spm=a1z10.3-c.w4002-11172317909.9.142df1b2snD5L8&id=520233320144) 以完成连接
+You will need a [Grove Base Shield](http://www.seeedstudio.com/depot/base-shield-v13-p-1378.html?cPath=132_134) to connect the Grove easily.
 
-如果这是您第一次使用 Arduino 或者 Seeeduino，请点击 [here](/Getting_Started_with_Seeeduino) 开始您的Arduino旅程。
+If this is your first time using Arduino or Seeeduino, Please put hand on [here](/Getting_Started_with_Seeeduino) to start your Arduino journey.
 
-### 硬件连接
+### Hardware Installation
 
-Grove - Mini I2C Motor Driver 有一个 Grove 插座用于连接 Arduino 或者 Seeeduino。
-它们是:
+Grove - Mini I2C Motor Driver got one Grove socket for connecting two modules above.
+They are:
 
--   2 * DC Motor 2V-6V - 连接到 CH1 & CH2 输出接口。
+-   2 * DC Motor 2V-6V - connnect to CH1 & CH2 Output connector.
 -   Seeeduino Lite
 
-按下图所示连接好 Seeeduino 的 I2C Grove 接口和 Mini Motor Driver 的 Grove 接口：
+Connect Seeeduino's Grove I2C Interface to Mini Motor Driver's Grove Interface as shown below:
 
 ![](https://raw.githubusercontent.com/SeeedDocument/Grove-Mini_I2C_Motor_Driver_v1.0/master/img/Mini_motor_driver_demo.jpg)
 
-### 软件部分
+### Software Work
 
-[![](https://raw.githubusercontent.com/SeeedDocument/Grove-Mini_I2C_Motor_Driver_v1.0/master/img/Arduino_mini_i2c_motor_driver.jpg)](http://https://www.arduino.cc/)
+[![](https://raw.githubusercontent.com/SeeedDocument/Grove-Mini_I2C_Motor_Driver_v1.0/master/img/Arduino_mini_i2c_motor_driver.jpg)](https://www.arduino.cc/)
 
-The Grove - Mini I2C Motor Driver 基于芯片 DRV8830 可以控制电机。DRV8830 不仅仅是一个双电机驱动器，它还是一个双 H 桥式电机控制电路。 一个 H 桥式电机控制电路是一个特定的晶体管设置，允许您切换电流的方向。您可以使用您的 Arduino 使它们以任何速度旋转。
+The Grove - Mini I2C Motor Driver can control motor which is based on the chip DRV8830. The DRV8830 is not just a dual motor driver, it is a dual H-bridge. An h-bridge is basically a specific setup of transistors that allow you to switch direction of current. You can use your Arduino to make them spin at any speed.
 
-由于模块具有 2 个 H 桥式电机控制电路，不仅可以使机器人前后移动，还可以使每个车轮以不同的方向旋转以转弯。
+Because the module has 2 H-bridges, you can not only make a robot go forwards and backwards, but also turn around by having each wheel spin in a different direction.
 
-通过 USB 线缆将 Seeeduino 连接到 PC。
+Connect Seeeduino to computer use a micro USB cable.
 
-现在，让我们使用 Grove - Mini I2C Motor Driver 来控制两个直流电机正向或反向旋转。
+Now, let us use the Grove - Mini I2C Motor Driver to control two DC motors rotating in the positive or opposite direction.
 
-下面给出的是一个与 Arduino 一起使用的示例程序。这个代码是非常基础的，您也可以改变它，并以您自己的方式做。
+Given below is an example program to be used with an Arduino. The code for this is very basic, but you can also change it and do it your own way.
 
-```c
+```
 /****************************************************************
 Example code demonstrating the use of the Arduino Library for
 the SparkFun MiniMoto board, which uses the TI DRV8830 IC for I2C
@@ -408,18 +419,21 @@ void delayUntil(unsigned long elapsedTime)
 }
 ```
 
-现在点击 Upload(CTRL+U) 上传代码。如果有任何错误提示请参考 [这里](/Arduino_Common_Error "Arduino Common Error")，您也可以在 [社区](http://www.seeed.cc) 讨论。
+Now click Upload(CTRL+U) to burn testing code. Please refer to [here](/Arduino_Common_Error "Arduino Common Error") for any error prompt and you can also add comment on [community](http://www.seeed.cc).
 
-### 查看结果
+### Review Results
 
-上传完成后，电机将循环正转或反转。
+After upload is complete, the motors will rotate in the positive or opposite direction in cycle.
 
-## 资源下载
+Resources
 ---------
 
--   **[Eagle 文件]** [Grove - Mini I2C Motor Driver\_Eagle\_File](https://raw.githubusercontent.com/SeeedDocument/Grove-Mini_I2C_Motor_Driver_v1.0/master/res/Grove-Mini_I2C_Motor_Driver_v1.0_SCH_PCB.rar)
--   **[原理图 PDF]** [Grove - Mini I2C Motor Driver Schematic Document](https://raw.githubusercontent.com/SeeedDocument/Grove-Mini_I2C_Motor_Driver_v1.0/master/res/Grove-Mini_I2C_Motor_Driver_v1.0_SCH.pdf)
--   **[库文件]** [Grove - Mini I2C Motor Driver Source Library](https://github.com/Seeed-Studio/Drv8830_Motor_Driver)
--   **[芯片数据手册]** [DRV8830 Datasheet](https://raw.githubusercontent.com/SeeedDocument/Grove-Mini_I2C_Motor_Driver_v1.0/master/res/DRV8830.pdf)
+-   [DRV8830 Datasheet](https://raw.githubusercontent.com/SeeedDocument/Grove-Mini_I2C_Motor_Driver_v1.0/master/res/DRV8830.pdf)
+-   [Grove - Mini I2C Motor Driver\_Eagle\_File](https://raw.githubusercontent.com/SeeedDocument/Grove-Mini_I2C_Motor_Driver_v1.0/master/res/Grove-Mini_I2C_Motor_Driver_v1.0_SCH_PCB.rar)
+-   [Grove - Mini I2C Motor Driver Schematic Document](https://raw.githubusercontent.com/SeeedDocument/Grove-Mini_I2C_Motor_Driver_v1.0/master/res/Grove-Mini_I2C_Motor_Driver_v1.0_SCH.pdf)
+-   [Grove - Mini I2C Motor Driver Source Library](https://github.com/Seeed-Studio/Drv8830_Motor_Driver)
 
 <!-- This Markdown file was created from http://www.seeedstudio.com/wiki/Grove_-_Mini_I2C_Motor_Driver_v1.0 -->
+
+## Tech Support
+Please submit any technical issue into our [forum](http://forum.seeedstudio.com/). 

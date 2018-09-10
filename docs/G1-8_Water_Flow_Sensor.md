@@ -4,174 +4,193 @@ category: MakerPro
 bzurl: http://www.seeedstudio.com/depot/G18-Water-Flow-Sensor-p-1346.html?cPath=25_32
 oldwikiname:  G1/8" Water Flow Sensor
 prodimagename:  G18_Water_Flow_Sensor.jpg
-wikiurl: http://wiki.seeedstudio.com/cn/G1-8_Water_Flow_Sensor
+surveyurl: https://www.research.net/r/G1-8_Water_Flow_Sensor
 sku:    314150001
 ---
 [![](https://github.com/SeeedDocument/G1-8_Water_Flow_Sensor/raw/master/img/G18_Water_Flow_Sensor.jpg)](http://www.seeedstudio.com/depot/G18-Water-Flow-Sensor-p-1346.html?cPath=25_32)
 
-Water flow sensor 由塑料阀体，水转子和霍尔效应传感器组成。 当水流过转子时，转子滚动，其速度随着流速的变化而变化。 霍尔效应传感器输出相应的脉冲信号。这适用于检测饮水机或咖啡机中的流量。
+Water flow sensor consists of a plastic valve body, a water rotor, and a hall-effect sensor. When water flows through the rotor, rotor rolls. Its speed changes with different rate of flow. The hall-effect sensor outputs the corresponding pulse signal. This one is suitable to detect flow in water dispenser or coffee machine.
 
-我们拥有不同直径的全系列水流传感器。 检索并找到最符合你需求的那个。
+We have a comprehensive line of water flow sensors in different diameters. Check them out to find the one that meets your need most.
 
-[![](https://github.com/SeeedDocument/wiki_chinese/raw/master/docs/images/click_to_buy.PNG)](https://item.taobao.com/item.htm?spm=a1z10.3-c.w4002-11172317909.14.18651024ipeJqD&id=45550733026)
+[![](https://github.com/SeeedDocument/Seeed-WiKi/raw/master/docs/images/300px-Get_One_Now_Banner-ragular.png)](https://www.seeedstudio.com/Skeleton-Box-p-1407.html)
 
-##  产品特性
+##  Features
 
-*   紧凑，易于安装
+*   Compact, Easy to Install
 
-*   高密封性能
+*   High Sealing Performance
 
-*   高品质霍尔效应传感器
+*   High Quality Hall Effect Sensor
 
-*   符合RoHS标准
+*   RoHS Compliant
 
-##  规格参数
+##  Specification
 
 <table >
 <tr>
-<td>最小工作电压
+<td>Mini. Wokring Voltage
 </td>
 <td>DC 4.5V
 </td></tr>
 <tr>
-<td>最大工作电流
+<td>Max. Working Current
 </td>
 <td>15mA(DC 5V)
 </td></tr>
 <tr>
-<td width="400px">工作电压
+<td width="400px">Working Voltage
 </td>
 <td width="400px">5V～24V
 </td></tr>
 <tr>
-<td>水流量范围
+<td>Flow Rate Range
 </td>
 <td>0.3~6L/min
 </td></tr>
 <tr>
-<td>承载量
+<td>Load Capacity
 </td>
 <td>≤10mA(DC 5V)
 </td></tr>
 <tr>
-<td>工作温度
+<td>Operating Temperature
 </td>
 <td>≤80℃
 </td></tr>
 <tr>
-<td>液体温度
+<td>Liquid Temperature
 </td>
 <td>≤120℃
 </td></tr>
 <tr>
-<td>工作湿度
+<td>Operating Humidity
 </td>
 <td>35%～90%RH
 </td></tr>
 <tr>
-<td>水压力
+<td>Water Pressure
 </td>
 <td>≤0.8MPa
 </td></tr>
 <tr>
-<td>储存温度
+<td>Storage Temperature
 </td>
 <td>-25℃～+80℃
 </td></tr>
 <tr>
-<td>储存适度
+<td>Storage Humidity
 </td>
 <td>25%～95%RH
 </td></tr></table>
 
-##  入门指导
+##  Getting Started
 
-<font>注意：这个例子是由 Charles Gantt 完成的。感谢他的贡献。看看它是如何工作的。</font>
+<font>Note: This example is abstracted from the forum, which was done by Charles Gantt. Thanks for his contribution.Let's see how it works.</font>
 
-###   用Water Flow Sensor读取水流量
+###   Reading Water Flow rate with Water Flow Sensor
 
-这是一个我直在研究的一个项目的一部分，我会在这里分享一些，关于如何使用 Seeed Studio Depo 中的 Water Flow Sensor 读取每小时的水流量。 它使用一个简单的旋转轮并与霍尔传感器一起使用。 通过读取这些脉冲并记录数据，我们可以将液体流速精确到 3% 以内。由于端口是简单的 G3/4，所以找到合适的接口并不难。
+This is part of a project I have been working on and I thought I would share it here since there have been a few threads on how to read water flow rate in liters per hour using the Water Flow Sensor found in the Seeed Studio Depo. It uses a simple rotating wheel that pulses a hall effect sensor. By reading these pulses and implementing a little math, we can read the liquids flow rate accurate to within 3%. The threads are simple G3/4 so finding barbed ends will not be that hard.
 
-**硬件安装**
+**Hardware Installation**
 
-您将需要 Seeeduino / Arduino，水流传感器，10K电阻，面包板和一些跳线。
+You will need  Seeeduino / Arduino ,Water Flow Sensor,10K resistor,a breadboard and some jumper wires.
 
-连接 Water Flow Sensor 非常简单。 有三根电线：黑色，红色和黄色。 黑色连到 Seeeduino 的 **GND**，红色连到 Seeeduino 的 **5v** 端口，黄色线将需要连接到 **10k** 上拉电阻，然后连接到 Seeeduino 上的 **引脚 2** 。
+Wiring up the Water Flow Sensor is pretty simple. There are 3 wires: Black, Red, and Yellow.
+Black to the Seeeduino's ground pin
+Red to Seeeduino's 5v pin
+The yellow wire will need to be connected to a 10k pull up resistor.and then to pin 2 on the Seeeduino.
 
-这是一个硬件连接图，它将告诉你如何连线。
+Here is a fritzing diagram I made to show you how to wire it all up.
 
 ![](https://github.com/SeeedDocument/G1-8_Water_Flow_Sensor/raw/master/img/Reading_liquid_flow_rate_with_an_Arduino.jpg)
 
-一旦你有了它，你将需要上传以下代码到你的 Seeeduino。 上传后，使一些流体流过 Water Flow Sensor，您可以打开串行监视器，它将显示流量，每秒刷新一次。
+Once you have it wired up you will need to upload the following code to your Seeeduino. Once it is uploaded and you have some fluid flowing through the Water Flow Sensor, you can open the serial monitor and it will display the flow rate, refreshing every second.
 
-**程序设计**
+**Programming**
 ```
 // reading liquid flow rate using Seeeduino and Water Flow Sensor from Seeedstudio.com
 // Code adapted by Charles Gantt from PC Fan RPM code written by Crenn @thebestcasescenario.com
 // http:/themakersworkbench.com http://thebestcasescenario.com http://seeedstudio.com
 
-volatile int NbTopsFan; //测量信号的上升沿
+volatile int NbTopsFan; //measuring the rising edges of the signal
 int Calc;
-int hallsensor = 2;    //设置传感器接线引脚
+int hallsensor = 2;    //The pin location of the sensor
 
-void rpm ()            //这是中断调用的功能
+void rpm ()     //This is the function that the interupt calls
 {
-    NbTopsFan++;       //该功能测量霍尔效应传感器信号的上升沿和下降沿
+    NbTopsFan++;  //This function measures the rising and falling edge of the
+
+    hall effect sensors signal
 }
 // The setup() method runs once, when the sketch starts
-void setup()
+void setup() //
 {
-    pinMode(hallsensor, INPUT); //初始化数字引脚2作为输入
-    Serial.begin(9600);         //串行端口初始化
-    attachInterrupt(0, rpm, RISING);  //连接中断
+    pinMode(hallsensor, INPUT); //initializes digital pin 2 as an input
+    Serial.begin(9600); //This is the setup function where the serial port is
+
+    initialised,
+    attachInterrupt(0, rpm, RISING); //and the interrupt is attached
 }
 // the loop() method runs over and over again,
 // as long as the Arduino has power
 void loop ()
 {
-    NbTopsFan = 0;   //将 NbTops 设置为 0 可以进行计算
-    sei();          //启用中断
-    delay (1000);   //等待1秒
-    cli();          //禁止中断
-    Calc = (NbTopsFan * 60 / 7.5); //(Pulse frequency x 60) / 7.5Q,流量为L/hour
-    Serial.print (Calc, DEC);
-    Serial.print (" L/hour\r\n");
+    NbTopsFan = 0;   //Set NbTops to 0 ready for calculations
+    sei();      //Enables interrupts
+    delay (1000);   //Wait 1 second
+    cli();      //Disable interrupts
+    Calc = (NbTopsFan * 60 / 7.5); //(Pulse frequency x 60) / 7.5Q, = flow rate
+
+    in L/hour
+    Serial.print (Calc, DEC); //Prints the number calculated above
+    Serial.print (" L/hour\r\n"); //Prints "L/hour" and returns a  new line
 }
 ```
 
-您可以参考我们的论坛了解更多关于[用 Water Flow Sensor 读取水流量](http://www.seeedstudio.com/forum/viewtopic.php?f=4&amp;t=989&amp;p=3632#p3632).
+You can refer our forum for more details about [Reading Water Flow rate with Water Flow Sensor](http://forum.seeedstudio.com/viewtopic.php?f=4&amp;t=989&amp;p=3632#p3632).
 
-##  接线图
+##  Wiring Diagram
+
+The external diameter of thread the connections use is 1.4mm.
 
 ![](https://github.com/SeeedDocument/G1-8_Water_Flow_Sensor/raw/master/img/Wfs-wiring.jpg)
 
-##  输出表
+##  Output Table
 
-水平位置测试中的脉冲频率（Hz）= 7.5Q，Q 为流量（L / min）。 （结果在± 3％范围内）
+Pulse frequency (Hz) in Horizontal Test= 7.5Q, Q is flow rate in L/min. (Results in +/- 3% range)
+
 <table >
 <tr>
-<td width="400px">输出脉冲高电平
+<td width="400px">Output pulse high level
 </td>
-<td width="400px">信号电压 &gt;4.5 V( 输入 DC 5 V)
+<td width="400px">Signal voltage &gt;4.5 V( input DC 5 V)
 </td></tr>
 <tr>
-<td>输出脉冲低电平
+<td>Output pulse low level
 </td>
-<td>信号电压 &lt;0.5V( 输入 DC 5V)
+<td>Signal voltage &lt;0.5V( input DC 5V)
 </td></tr>
 <tr>
-<td>精度
+<td>Precision
 </td>
-<td>3% (流速从 1L/min 到 10L/min)
+<td>3% (Flow rate from 1L/min to 10L/min)
 </td></tr>
 <tr>
-<td>输出信号占空比
+<td>Output signal duty cycle
 </td>
 <td>40%～60%
 </td></tr></table>
 
-##  资源下载
+##  Resource
 
-*   **[数据手册]**[Water flow sensor datasheet.pdf](https://github.com/SeeedDocument/G1-8_Water_Flow_Sensor/raw/master/res/Water_flow_sensor_datasheet.pdf)
+*   [Water flow sensor datasheet.pdf](https://github.com/SeeedDocument/G1-8_Water_Flow_Sensor/raw/master/res/Water_flow_sensor_datasheet.pdf)
 
-*   **[创意应用]**[Reading Water Flow rate with Water Flow Sensor](http://www.seeedstudio.com/forum/viewtopic.php?f=4&amp;t=989&amp;p=3632#p3632)
+*   [Reading Water Flow rate with Water Flow Sensor](http://forum.seeedstudio.com/viewtopic.php?f=4&amp;t=989&amp;p=3632#p3632)
+
+*   [Water Flow rate display on LCD](http://www.practicalarduino.com/projects/water-flow-gauge)
+
+*   [datasheet for the material](http://garden.seeedstudio.com/images/4/4e/YEE70G30HSLNC..pdf)
+
+## Tech Support
+Please submit any technical issue into our [forum](http://forum.seeedstudio.com/). 

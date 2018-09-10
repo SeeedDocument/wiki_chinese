@@ -1,42 +1,42 @@
 ---
 title: RePhone Strap Kit for Pebble
-category: Rephone
+category: RePhone
 bzurl: https://www.seeedstudio.com/RePhone-Strap-Kit-for-Pebble-Time-p-2633.html
 oldwikiname:  RePhone Strap Kit for Pebble
 prodimagename:  Pebble3-04.png
-wikiurl: http://wiki.seeedstudio.com/cn/RePhone_Strap_Kit_for_Pebble
+surveyurl: https://www.research.net/r/RePhone_Strap_Kit_for_Pebble
 sku:   113060005
 ---
 ![](https://github.com/SeeedDocument/RePhone_Strap_Kit_for_Pebble/raw/master/img/Pebble3-04.png)
 
-新增加的 RePhone（Xadow） 模块使您的智能手表更智能。基于 [Pebble Time 背后的智能硬件端口](http://developer.getpebble.com/guides/hardware/) ，我们将小型的 Rephone 模块 - Xadow GPS v2 和 Xadow NFC v2 集成到 Pebble 现有的生态系统，从内置电子硬件的角度提高其能力。Xadow Pebble Time Adapter 使 RePhone（Xadow）模块能够通过使用单线串行协议的 Smartstrap 接口与 Pebble Time 进行通话。
+The introduction of RePhone (Xadow) modules makes your smart watch even smarter. Based on the [new smart accessory port on the back of Pebble Time](http://developer.getpebble.com/guides/hardware/), we integrate the slim and small Rephone modules – Xadow GPS v2 and Xadow NFC v2, into Pebble’s existing ecosystem, to help improve its capability from the perspective of built-in electronics. Xadow Pebble Time Adapter enables the RePhone(Xadow) modules to talk to the Pebble Time via the Smartstrap interface using One-wire serial protocol.
 
-[![](https://github.com/SeeedDocument/wiki_chinese/raw/master/docs/images/click_to_buy.PNG)](https://item.taobao.com/item.htm?spm=a1z10.3-c.w4002-11172317909.10.7015bd1dbcHfjx&id=553067880176)
+[![](https://github.com/SeeedDocument/Seeed-WiKi/raw/master/docs/images/300px-Get_One_Now_Banner-ragular.png)](https://www.seeedstudio.com/RePhone-Strap-Kit-for-Pebble-Time-p-2633.html)
 
-##  规格参数
+##  Specification
 ---
-###   Xadow Adapter 底座
+###   Base of Xadow Adapter for Pebble
 
-Xadow Adapter 底座的背后有“GND”和“PWR”触点，这样您就在充电时就不需要把底座单独拿下了。
+The ‘GND’ and ‘PWR’on the back frame means you can charge your Pebble Time without taking the shell off.
 
 ![](https://github.com/SeeedDocument/RePhone_Strap_Kit_for_Pebble/raw/master/img/Pebble_base_2.png)
 
 ###   Xadow GPS v2
 ---
-关于这个模块的更多信息请参考 [**Xadow GPS v2 Wiki 页面**](http://wiki.seeedstudio.com/cn/Xadow_GPS_V2/).
+For more info about this module please check on [**Xadow GPS V2 Wiki Page**](/Xadow_GPS_V2).
 
 <table>
 <tr>
-<td> 微控制器 </td>
+<td> Microcontroller </td>
 <td> Kinetis KL02
 </td></tr>
 <tr>
-<td> 核心 </td>
+<td> Core </td>
 <td> ARM® 32-bit Cortex® -M0+CPU
 </td></tr>
 <tr>
-<td> 供电电压 </td>
-<td> 3.3 ~ 6 V (通过扩展板的引脚输入)
+<td> Power Supply </td>
+<td> 3.3 ~ 6 V (via breakout pins)
 </td></tr>
 <tr>
 <td> Flash </td>
@@ -47,88 +47,91 @@ Xadow Adapter 底座的背后有“GND”和“PWR”触点，这样您就在充
 <td> 4 KB
 </td></tr>
 <tr>
-<td> 时钟频率 </td>
+<td> Clock Speed </td>
 <td> 48 MHz
 </td></tr>
 <tr>
-<td> 功耗 </td>
-<td> 跟踪时 18ma，捕获时 21mA
+<td> Power Consumption </td>
+<td> 18mA@Tracking, 21mA@Acquisition
 </td></tr>
 <tr>
-<td> 省电模式 </td>
-<td> 典型值：3mA@AlwaysLocateTM, 7uA@Backup
+<td> Power Saving </td>
+<td> Typ. 3mA@AlwaysLocateTM, 7uA@Backup
 
 Mode, 180uA@Standby Mode
 
 </td></tr>
 <tr>
-<td> 频道 </td>
-<td> 22(跟踪时) / 66 (捕获时)
+<td> Channel </td>
+<td> 22(Tracking) / 66 (Acquisition)
 </td></tr>
 <tr>
-<td> 更新频率 </td>
-<td> 1Hz(默认), 最大 10Hz
+<td> Update Rate </td>
+<td> 1Hz(Default), up to 10Hz
 </td></tr>
 <tr>
-<td> 水平定位精度 </td>
+<td> Horizontal Position Accuracy </td>
 <td> &lt;2.5m CEP
 </td></tr>
 <tr>
-<td> 速度精度 </td>
+<td> Velocity Accuracy </td>
 <td> &lt;0.1m/s
 </td></tr>
 <tr>
-<td> 最大速度 </td>
-<td> 最大 515m/s
+<td> Maximum Velocity </td>
+<td> Max.515m/s
 </td></tr>
 <tr>
-<td> EASYTM 冷启动/热启动时间	 </td>
+<td> Cold/warm start with EASYTM </td>
 <td> 215s/5s
 </td></tr>
 <tr>
-<td> 捕获灵敏度 </td>
+<td> Acquisition Sensitivity </td>
 <td> -145dBm
 </td></tr>
 <tr>
-<td> 跟踪灵敏度 </td>
+<td> Tracking Sensitivity </td>
 <td>-163dBm
 </td></tr>
 <tr>
-<td> 工作温度 </td>
+<td> Operating Temperature </td>
 <td> -40℃ to 85℃
 </td></tr>
 <tr>
-<td> 协议 </td>
+<td> Protocols </td>
 <td> NMEA 0183/PMTK
 </td></tr>
 <tr>
-<td> 天线类型 </td>
-<td> 陶瓷贴片天线
+<td> Antenna Type </td>
+<td> Chip antenna
 </td></tr>
 <tr>
-<td> 接口 </td>
-<td> 通过 I2C (7-bit 地址 0x05) 与 Xadow GSM+BLE 连接
+<td> Interface </td>
+<td> Interface with Xadow GSM+BLE through
+
+I2C (7-bit address 0x05)
+
 </td></tr>
 <tr>
-<td> 尺寸 </td>
+<td> Dimensions </td>
 <td> 25.37mm X 20.30mm / 1” × 0.8”
 </td></tr></table>
 
 ###   Xadow NFC v2
 
-关于这个模块的更多信息请参考 [**Xadow NFC v2 Wiki 页面**](/Xadow_NFC_v2).
+For more info about this module please check on [**Xadow NFC v2 Wiki Page**](/Xadow_NFC_v2).
 
 <table>
 <tr>
-<td> 微控制器 </td>
+<td> Microcontroller </td>
 <td> Kinetis KL02
 </td></tr>
 <tr>
-<td> 核心 </td>
+<td> Core </td>
 <td> ARM® 32-bit Cortex® -M0+CPU
 </td></tr>
 <tr>
-<td> 供电电压 </td>
+<td> Power Supply </td>
 <td> 3.3 ~ 6V (via breakout pins)
 </td></tr>
 <tr>
@@ -140,23 +143,23 @@ Mode, 180uA@Standby Mode
 <td> 4 KB
 </td></tr>
 <tr>
-<td> 工作电流 </td>
-<td> 待机 5mA；读/写操作 55mA
+<td> Working Current </td>
+<td> 5mA at standby; 55mA when read/write
 </td></tr>
 <tr>
-<td> 发射频率 </td>
+<td> Radio Frequency </td>
 <td> 13.56 MHz
 </td></tr>
 <tr>
-<td> 支持协议 </td>
-<td> ISO/IEC 14443 Type A 和 ISO/IEC 14443 Type B
+<td> Supported protocols </td>
+<td> ISO/IEC 14443 Type A and ISO/IEC 14443 Type B
 </td></tr>
 <tr>
-<td> 最大操作距离 </td>
-<td> 0~28mm 取决于当前天线尺寸
+<td> Max Operating Distance </td>
+<td> ~28mm depending on the current antenna size
 </td></tr>
 <tr>
-<td> 尺寸 </td>
+<td> Dimensions </td>
 <td> 25.37mm × 20.30mm / 1” × 0.8”
 </td></tr></table>
 
@@ -164,99 +167,177 @@ Mode, 180uA@Standby Mode
 
 <table>
 <tr>
-<td> 电压 </td>
+<td> Voltage </td>
 <td> 3.3 V
 </td></tr>
 <tr>
-<td> 尺寸 </td>
+<td> Dimensions </td>
 <td> 25.37mm × 20.30mm / 1” × 0.8”
 </td></tr></table>
 
-##  装配方法
+##  Assembling process
 ---
-在日常使用中，模块均匀地放置在手表的两侧，并通过 FPC 电缆相互连接。模块和转接器之间的连接被特别设计成弹性连接，从而可以避免意外脱落。Pebble Time 的充电端口仍然可以在适配器的背面以便日常充电。
+In daily use the modules are evenly placed at each side of the watch, and interconnected with FPC cables. The connections between the module and the adapter are specially designed to be an extendable form so that unexpected connection pull-off may be avoided. The charging ports of Pebble Time are still accessible on the back of adapter for daily charges of watch.
 
-以下给出 RePhone Strap Kit for Pebble Time 的组装过程的示意图：
+A schematic drawing of the assembling process of the RePhone Strap Kit for Pebble Time is given below
 
 ![](https://github.com/SeeedDocument/RePhone_Strap_Kit_for_Pebble/raw/master/img/Xadow_Pebble_Time_Adapter_assembly3.png)
 
-##  下载 Pebble Time 的 Xadow APP
+##  Download the Xadow APP for Pebble Time
 ---
+You can follow the instructions to download the Xadow APP for Pebble Time, access the GPS information and Tag ID on your Pebble Time.
 
-您可以按照以下说明下载 Xadow APP for Pebble Time，在 Pebble Time 访问 GPS 信息和 NFC ID。
-
-示例 App 请点击 [这里下载](https://github.com/Seeed-Studio/Xadow_Strap/raw/master/build/pebbleapp_jack.pbw)。你可以在 PC 上下载并上传到智能手机或直接在智能手机上下载。然后选择您的手机中的 “Pebble Time” 应用程序打开它。你会看到一个选项来把示例 APP 安装到你的 Pebble Time 上。
-
-
+The Demo App can be downloaded from [https://github.com/Seeed-Studio/Xadow_Strap/raw/master/build/pebbleapp_jack.pbw](https://github.com/Seeed-Studio/Xadow_Strap/raw/master/build/pebbleapp_jack.pbw). You can download it from your smart phone or send it from your PC to smart phone. Then select to open it with "Pebble Time" App in your phone. You will have an option to install the demo App into your Pebble Time.
 
 ![](https://github.com/SeeedDocument/RePhone_Strap_Kit_for_Pebble/raw/master/img/Xadow_Pebble_Time_Adapter_APP_UI.png)
 
-##  编程指南
+##  Programming Guide
 ---
-### 与 Adapter 对话
+###   Talking to the Adapter
 
-Adapter 的固件使用了在 Pebble 官方文档中描述的 [协议](http://developer.getpebble.com/guides/hardware/smartstrap-protocol/)
+The firmware of the adapter implements the protocol described on pebble's official documentation: [http://developer.getpebble.com/guides/hardware/smartstrap-protocol/](http://developer.getpebble.com/guides/hardware/smartstrap-protocol/)
 
-所以从 Watchapp 方面可以调用的资源如下：
+So the resources which can be called from the watchapp side are as following:
 
-服务 | 属性 |R/W（读/写） | 数据类型 | 相关资料
-----|----|----|----|----
-0x0 源数据 | 0x0 源数据 | RW | uint8* buffer |在 Adapter 一侧没有处理，保留 Adapter 固件编程可扩展性
-0x2003 电池服务 | 0x1001 获取电池电压 |R | uint16 | 外置在表带上的电池单位为V(伏特),其可测精度为1/100。 例如，电压是3.70V，测量输出为370
-0x2003 电池服务 | 0x1002 启用或禁止外置在表带上的电池给 Pebble 充电  |  RW | uint8 | 0：禁止给 Pebble 充电。 1：可以给 Pebble 充电。
-0x2001 定位和导航服务| 0x0001 定位 | R |sint32[2] | 当前的经度和纬度，精度为 1/10^7。数据中纬度在经度之前。例如，Pebble 总部在（37.4400662，-122.1583808），将被输出为{374400662，-1221583808}。
-0x2001 定位和导航服务 | 0x0003 速度 | R | uint16 | 当前速度的单位为 m/s，其精度为 1/100。例如，1.5m/s 的速度将被输出为 150。
-0x2001 定位和导航服务 | 0x1001 高度 | R | uint16 | 当前的高度的单位为 m，其精度为 1/100。例如，100m 的高度将被输出为 10000
-0x2001 定位和导航服务 | 0x0101 GPS 卫星 |R | uint8 |GPS卫星的数量（通常通过 NMEA 报告）。 请注意，这个数字是针对卫星的。
-0x2001 定位和导航服务 |0x0102 GPS 定位质量 | R |uint8 |GPS定位的质量（通过 NMEA 报告）。 可能的值列在 [NMEA规范](http://www.gpsinformation.org/dale/nmea.htm#GGA).
-0x1E01 NFC 服务 | 0x1001 获取 NFC 标签的 UID |R |uint8 * | UID 将以可变长度返回，参数长度由 SmartstrapReadHandler 控制。
-0x1E01 NFC 服务 | 0x1002 读 NDEF 数据 |R | uint8 | NDEF UID 将以可变长度返回，参数长度由 SmartstrapReadHandler 控制。
-0x1E01 NFC 服务 | 0x1003 写 NDEF 数据 | W |uint8 * | 向 NFC 标签的缓冲区中写入 uint8 数据
-0x1E01 NFC 服务 | 0x1004 擦除 NDEF 数据 | W | 任何类型 | 写入随机或空数据来覆盖以前的数据
+<table>
+<tr>
+<th> Service </th>
+<th> Attribute </th>
+<th> R/W </th>
+<th> Data Type </th>
+<th> Data
+</th></tr>
+<tr>
+<td> 0x0 Raw Data </td>
+<td> 0x0 Raw Data </td>
+<td> RW </td>
+<td> uint8 *buffer </td>
+<td> No handler in adapter side, leave the expandability for adapter firmware programmer
+</td></tr>
+<tr>
+<td> 0x2003 Battery Service </td>
+<td> 0x1001 Get voltage of the battery </td>
+<td> R </td>
+<td> uint16 </td>
+<td> The voltage of the battery for strap in Volt with a precision of 1/100. For example, the voltage is 3.70V, which would be specified as 370.
+</td></tr>
+<tr>
+<td> 0x2003 Battery Service </td>
+<td> 0x1002 Enable or disable charging pebble with the battery of strap </td>
+<td> RW </td>
+<td> uint8 </td>
+<td> 0: Don't charge pebble. 1: Charge pebble.
+</td></tr>
+<tr>
+<td> 0x2001 Location and Navigation Service  </td>
+<td> 0x0001 Location </td>
+<td> R </td>
+<td> sint32[2] </td>
+<td> The current longitude and latitude in degrees with a precision of 1/10^7. The latitude comes before the longitude in the data. For example, Pebble HQ is at (37.4400662, -122.1583808), which would be specified as {374400662, -1221583808}.
+</td></tr>
+<tr>
+<td> 0x2001 Location and Navigation Service </td>
+<td> 0x0003 Speed </td>
+<td> R </td>
+<td> uint16 </td>
+<td> The current speed in meters per second with a precision of 1/100. For example, 1.5 m/s would be specified as 150.
+</td></tr>
+<tr>
+<td> 0x2001 Location and Navigation Service </td>
+<td> 0x1001 Altitude </td>
+<td> R </td>
+<td> uint16 </td>
+<td> The current altitude in meters with a precision of 1/100. For example, 100m would be specified as 10000.
+</td></tr>
+<tr>
+<td> 0x2001 Location and Navigation Service </td>
+<td> 0x0101 GPS Satellites </td>
+<td> R </td>
+<td> uint8 </td>
+<td> The number of GPS satellites (typically reported via NMEA. Note that this number is for satellites in view.
+</td></tr>
+<tr>
+<td> 0x2001 Location and Navigation Service </td>
+<td> 0x0102 GPS Fix Quality </td>
+<td> R </td>
+<td> uint8 </td>
+<td> The quality of the GPS fix (reported via NMEA). The possible values are listed in the [NMEA specification](http://www.gpsinformation.org/dale/nmea.htm#GGA).
+</td></tr>
+<tr>
+<td> 0x1E01 NFC Service </td>
+<td> 0x1001 Get UID of a NFC tag </td>
+<td> R </td>
+<td> uint8 * </td>
+<td> The UID will be returned with variable length which can be indicated in the SmartstrapReadHandler with parameter length.
+ **<span style="color:#ff0000">This attribute can be notified in SmartstrapNotifyHandler.</span>**
+</td></tr>
+<tr>
+<td> 0x1E01 NFC Service </td>
+<td> 0x1002 Read NDEF Data </td>
+<td> R </td>
+<td> uint8 * </td>
+<td> The NDEF data will be returned with variable length which can be indicated in the SmartstrapReadHandler with parameter length.
+</td></tr>
+<tr>
+<td> 0x1E01 NFC Service </td>
+<td> 0x1003 Write NDEF Data </td>
+<td> W </td>
+<td> uint8 * </td>
+<td> Write a uint8 buffer into NFC tag
+</td></tr>
+<tr>
+<td> 0x1E01 NFC Service </td>
+<td> 0x1004 Erase NDEF Data </td>
+<td> W </td>
+<td> any type </td>
+<td> Write any content or empty to trigger the erasing.
+</td></tr></table>
 
+The source code of the demo pebble app can be downloaded at github: [https://github.com/Seeed-Studio/Xadow_Strap](https://github.com/Seeed-Studio/Xadow_Strap)
 
+This app is only for demonstration of partial attribute call, please feel free to imagine your own fantastic pebble app based on the ability of GPS, NFC and more on.
 
-Pebble App 的示例代码存放在 github 上，请 [点击这里下载](https://github.com/Seeed-Studio/Xadow_Strap)
+###   Programming the Adapter
 
-这个 APP 仅用于部分属性调用的演示，请根据 GPS，NFC 和个人能力开发属于自己的 APP。
+The adapter is built with LPC11U35 and running mbed software inside. The initial firmware is located at mbed.org. Please take a look at [https://developer.mbed.org/teams/Seeed/code/xadow_smartstrap_for_pebble/](https://developer.mbed.org/teams/Seeed/code/xadow_smartstrap_for_pebble/)
 
-### 给 Adapter 编程
+The eagle schematic of the adapter can be downloaded here: [http://www.seeedstudio.com/wiki/images/f/f8/Xadow_Pebble_Time_Adapter.rar](res/Xadow_Pebble_Time_Adapter.rar)
 
-Adapter 内置 LPC11U35 并运行 mbed 软件。 最初的固件位于 mbed.org，请 [点击这里查看](https://developer.mbed.org/teams/Seeed/code/xadow_smartstrap_for_pebble/)
+After building the firmware binary, you can follow the steps below to flash the binary into the adapter.
 
-Adapter 的 Eagle 原理图请 [点击这里下载](res/Xadow_Pebble_Time_Adapter.rar)
-
-在生成固件二进制文件之后，您可以按照以下步骤将二进制文件保存到 Adapter 中。
-
-1) 剪断 USB 电缆并相应地将电线焊接到焊盘上
+1) Hacking a USB Cable and solder the wires to the soldering pads accordingly
 
 ![](https://github.com/SeeedDocument/RePhone_Strap_Kit_for_Pebble/raw/master/img/Hack_USB_cable-03.png)
 
-2) 确保电池断开连接然后将 USB 插入 PC。
+2) Make sure the battery disconnected and plug the USB into PC.
 
-3) 短路“ISP”和“GND”引脚。
+3) Short the "ISP" and "GND" pins.
 
 ![](https://github.com/SeeedDocument/RePhone_Strap_Kit_for_Pebble/raw/master/img/ShortISP_GND.PNG)
 
-4) 把电池插入 adapter 的电源接口。
+4) Plug the battery on to power on the adapter
 
-5) 然后您的计算机上应该会识别出一个 USB 设备，打开并删除设备中的所有内容，然后把固件粘贴进设备中。
+5) There will be a usb drive at your PC, open it and delete anything inside the disk, then copy the firmware binary into the disk.
 
-6) 重启设备，固件会自动更新。
+6) Power off then on, the firmware is updated.
 
 ##  RePhone Community
 ---
-[![](https://github.com/SeeedDocument/RePhone_Strap_Kit_for_Pebble/raw/master/img/RePhone_Community-2.png)](http://www.seeedstudio.com/forum/viewforum.php?f=71&amp;sid=b70f8138c89becf7701260bb41faf9f4)
+[![](https://github.com/SeeedDocument/RePhone_Strap_Kit_for_Pebble/raw/master/img/RePhone_Community-2.png)](http://forum.seeedstudio.com/viewforum.php?f=71&amp;sid=b70f8138c89becf7701260bb41faf9f4)
 
 We’ve been looking for a better place where our backers (RePhone Users) can sit together, warmly and comfortably, have conversations about RePhone, discuss technical problems, share ideas/projects, and give feedback on the modules’ development in the future. And then here we go, the RePhone Community.
 
-Now join us in the [RePhone Community](http://www.seeedstudio.com/forum/viewforum.php?f=71&amp;sid=b70f8138c89becf7701260bb41faf9f4)! Together we seek answers, make interesting stuff, care about each other, and share our experiences.
+Now join us in the [RePhone Community](http://forum.seeedstudio.com/viewforum.php?f=71&amp;sid=b70f8138c89becf7701260bb41faf9f4)! Together we seek answers, make interesting stuff, care about each other, and share our experiences.
 
-###  FAQ (常见问题汇总)
+###   Frequently Asked Questions
 
-我们将 RePhone 社区中的一些常见问题及其相关解答收集起来放到了我们的 FAQ 系统中，您可以 [点击这里查看](http://www.seeedstudio.com/forum/viewtopic.php?f=71&amp;t=6664&amp;p=23753#p23753)。 这些主题将保持更新以确保新的问题被及时收录进来。
+Some frequently asked questions in RePhone Community are collected and answered to the topic **["Frequently Asked Questions of RePhone (FAQ)"](http://forum.seeedstudio.com/viewtopic.php?f=71&amp;t=6664&amp;p=23753#p23753)** , the topic will be kept updating whenever a new FAQ comes out.
 
-
-##  资源下载
+##  Resources
 ---
-*   **[Eagle 文件]**[_Xadow Pebble Time Adapter eagle files_](res/Xadow_Pebble_Time_Adapter.rar)
+The schematic diagram of Xadow Pebble Time Adapter is provided in the following link:
+
+*   [_Xadow Pebble Time Adapter eagle files_](res/Xadow_Pebble_Time_Adapter.rar)
+
+## Tech Support
+Please submit any technical issue into our [forum](http://forum.seeedstudio.com/). 
