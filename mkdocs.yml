@@ -217,6 +217,8 @@ pages:
       - Grove-6 Axis AccelerometerAndGyroscope: Grove-6-Axis_AccelerometerAndGyroscope.md
       - Grove-6-Axis AccelerometerAndCompass V2.0: Grove-6-Axis_AccelerometerAndCompass_V2.0.md
       - Grove-80cm Infrared Proximity Sensor: Grove-80cm_Infrared_Proximity_Sensor.md
+      - Grove-IMU 9DOF (lcm20600+AK09918): Grove-IMU_9DOF-lcm20600+AK09918.md
+      - Grove-12 Key Capacitive I2C Touch Sensor V2 (MPR121): Grove-12_Key_Capacitive_I2C_Touch_Sensor_V2-MPR121.md
       - Grove-Air Quality Sensor v1.3: Grove-Air_Quality_Sensor_v1.3.md
       - Grove-Alcohol Sensor: Grove-Alcohol_Sensor.md
       - Grove-Barometer High Accuracy: Grove-Barometer_High_Accuracy.md
@@ -262,6 +264,7 @@ pages:
       - Grove-Moisture Sensor: Grove-Moisture_Sensor.md
       - Grove-MOSFET: Grove-MOSFET.md
       - Grove-Multichannel Gas Sensor: Grove-Multichannel_Gas_Sensor.md
+      - Grove-Optical Rotary Encoder(TCUT1600X01): Grove-Optical_Rotary_Encoder-TCUT1600X01.md
       - Grove-Piezo Vibration Sensor: Grove-Piezo_Vibration_Sensor.md
       - Grove-PIR Motion Sensor: Grove-PIR_Motion_Sensor.md
       - Grove-Q Touch Sensor: Grove-Q_Touch_Sensor.md
@@ -283,6 +286,7 @@ pages:
       - Grove-Ultrasonic Ranger: Grove-Ultrasonic_Ranger.md
       - Grove-UV Sensor: Grove-UV_Sensor.md
       - Grove-Vibration Motor: Grove-Vibration_Motor.md
+      - Grove-Vibration Sensor (SW-420): Grove-Vibration_Sensor_SW-420.md
       - Grove-VOC and eCO2 Gas Sensor SGP30 : Grove-VOC_and_eCO2_Gas_Sensor-SGP30.md
       - Grove-Water Sensor: Grove-Water_Sensor.md
 
@@ -295,6 +299,7 @@ pages:
       - Grove-2-Channel_Solid State Relay: Grove-2-Channel_Solid_State_Relay.md
       - Grove-2-Channel SPDT Relay: Grove-2-Channel_SPDT_Relay.md
       - Grove-4-Channel SPDT Relay: Grove-4-Channel_SPDT_Relay.md
+      - Grove-4-Channel Solid State Relay: Grove-4-Channel_Solid_State_Relay.md
       - Grove-8-Channel Solid State Relay: Grove-8-Channel_Solid_State_Relay.md
       - Grove-Bee Socket: Grove-Bee_Socket.md
       - Grove-Button: Grove-Button.md
