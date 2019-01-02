@@ -396,6 +396,7 @@ pages:
     - Grove Starter Kit for IoT based on Raspberry Pi: Grove_Starter_Kit_for_IoT_based_on_Raspberry_Pi.md
     - Grove Starter Kit for LinkIt ONE: Grove-Starter_Kit_for_LinkIt_ONE.md
     - Grove Starter kit for LinkIt Smart7688 Duo: Grove_Starter_kit_for_LinkIt_Smart7688_Duo.md
+    - Grove Beginner Kit for Arduino: Grove_Beginner_Kit_for_Arduino.md
     - LoRa LoRaWan Gateway Kit: LoRa_LoRaWan_Gateway_Kit.md
     - Rainbow Cube kit RGB 4x4x4 Rainbowduino Compatible: Rainbow_Cube_kit_RGB_4_4_4_Rainbowduino_Compatible.md
     - Seeeduino Mega Protoshield Kit: Seeeduino_Mega_Protoshield_Kit.md
@@ -407,6 +408,7 @@ pages:
     - Wio Link Deluxe Plus Kit: Wio_Link_Deluxe_Plus_Kit.md
     - Wio Link Environment Kit: Wio_Link_Environment_Kit.md
     - Wio Link Starter Kit: Wio_Link_Starter_Kit.md
+
 
 
   - MakerPro:

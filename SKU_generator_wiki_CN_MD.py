@@ -49,35 +49,23 @@ class MarkdownFolder():
 # 2. read _mdfile_dict and make sub folders of "sku" with the value of _mdfile_dict
 # 3. write a index file
     def makeSkuIndex(self):
-        try:
-            os.mkdir(PATH1)
-        except OSError as e:
-            print(e)
+
         for mdfile in self._mdfile_dict:
             sku = self._mdfile_dict[mdfile]
             board_name =  mdfile.split('.md')
             if sku is not '':
                 try:
-                    os.mkdir(PATH1+'/%s' % sku)
-                    with open(PATH1 + "/%s/index.html" % sku, 'w') as fd:
+                    with open(PATH + "/%s.md" % sku, 'w') as fd:
                         fd.write((self._index % (board_name[0], board_name[0])))
                 #if boards sku repeat, how to do?
                 except OSError as e:
-                    # with open("sku/%s/index.html" % sku, 'w') as fd:
-                    #     fd.write((self._index % (board_name[0], board_name[0])))
                     print(e)
                     print("sku重复: {0:_<40}{1}".format(board_name[0], sku))
-
-
-        # except OSError as e:
-        #     print e
-        #     pass
-    
+   
 
 if __name__ == '__main__':
 
     PATH = os.getcwd() + "\\docs"
-    PATH1 = os.getcwd() + "\\site"
     md = MarkdownFolder(PATH)
     md.getMdfileSku()
     md.makeSkuIndex()
