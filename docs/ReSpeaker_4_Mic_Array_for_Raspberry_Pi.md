@@ -131,7 +131,7 @@ plughw:CARD=seeed4micvoicec,DEV=0
  可以用`arecord`录制，然后用`aplay`播放：(不要忘记插耳机或者喇叭):
 
 ```
-arecord  | aplay 
+arecord  |  aplay 
 ```
 
 也可以通过audacity软件测试。打开Audacity后，选择 **AC108和2通道** 作为输入，**bcm2835 alsa: - (hw：0，0)** 作为输出来测试：
