@@ -164,10 +164,6 @@ If you want to make some awesome projects by Grove - Dust Sensor, here is a proj
 
 如果你想通过Grove-Dust传感器做一些很棒的项目，这里有一个参考项目。
 
- <!--
-### Air Quality Box
--->
-
 ### 空气质量盒子
 ![](https://raw.githubusercontent.com/SeeedDocument/Grove_Dust_Sensor/master/image/600px-Overview0.png)
 
