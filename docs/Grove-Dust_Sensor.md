@@ -157,16 +157,29 @@ void loop() {
 
 相关项目
 ---
+
+ <!--
 If you want to make some awesome projects by Grove - Dust Sensor, here is a project for reference.
+-->
 
+如果你想通过Grove-Dust传感器做一些很棒的项目，这里有一个参考项目。
+ <!--
 ### Air Quality Box
+-->
+### 空气质量盒子
 ![](https://raw.githubusercontent.com/SeeedDocument/Grove_Dust_Sensor/master/image/600px-Overview0.png)
-
+<!--
 This section an IoT demo made by Seeeduino and [Grove](http://www.seeedstudio.com/wiki/Grove_System).
+-->
 
+上面的项目是由Seeeduino和[Grove](http://www.seeedstudio.com/wiki/Grove_System)制作的物联网演示。
+<!--
 More attention is being paid to the environmental air quality nowadays because the tiny particles in the air around can badly endanger people’s health. We always get the information of environment from our government department. But it’s the average value of the whole city/section. It can not reflect the environment around you accurately.
+-->
+现在，人们越来越关注环境中的空气质量，因为空气周围的颗粒能严重损害人们的身体健康。我们总是从政府部门得到的环境信息，但是它是整个片区或城市的平均值，它不能准确的反应你周围的环境。
 
 [![](https://raw.githubusercontent.com/SeeedDocument/Grove_Dust_Sensor/master/image/200px-Wiki_makeitnow_logo.png)](http://www.instructables.com/id/Air-Quality-Test-Box/?ALLSTEPS)
+
 
 资源下载
 ---
