@@ -79,8 +79,8 @@ tags: plat_duino
 |GND	| Pin 1|黑线|
 |D8| Pin 4|	黄线|
 
-
 Grove连接线包含在Grove Dust Sensor封装中。 我们也可以使用Dupont Line去连接Base Shield，如下图所示。
+
 ![](https://github.com/SeeedDocument/Grove_Dust_Sensor/raw/master/image/connection.jpg)
 
 此外，您可以将Grove - Dust传感器连接到Arduino UNO，而不需要Base Shield。
