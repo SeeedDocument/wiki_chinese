@@ -105,7 +105,7 @@ sku: 103030034
 
     ![](https://raw.githubusercontent.com/SeeedDocument/BeagleBone_Green_HDMI_Cape/master/img/Beaglebone-Green_s.jpg)
 
-    - 上述步骤不还是不能显示，则烧写此[固件](https://debian.beagleboard.org/images/bone-debian-8.7-lxqt-4gb-armhf-2017-03-19-4gb.img.xz)。
+    - 上述步骤还是不能显示，则烧写此[固件](https://debian.beagleboard.org/images/bone-debian-8.7-lxqt-4gb-armhf-2017-03-19-4gb.img.xz)。
 
 2. 电脑鼠标不工作 (不供电)？
     -   按下 BeagleBone Green board 上的 RESET 按钮，等待启动。
