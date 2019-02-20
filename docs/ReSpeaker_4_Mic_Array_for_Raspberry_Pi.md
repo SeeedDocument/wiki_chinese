@@ -277,18 +277,20 @@ pi@raspberrypi:~ $ source ~/env/bin/activate                    # 激活Python�
   (env) pi@raspberrypi:~ $ git clone https://github.com/respeaker/avs
   (env) pi@raspberrypi:~ $ cd avs                                 # install Requirements
   (env) pi@raspberrypi:~ $ python setup.py install                               
+  (env) pi@raspberrypi:~ $ pip install avs==0.5.3 
   (env) pi@raspberrypi:~/avs $ sudo apt install gstreamer1.0
   (env) pi@raspberrypi:~/avs $ sudo apt install gstreamer1.0-plugins-good
   (env) pi@raspberrypi:~/avs $ sudo apt install gstreamer1.0-plugins-ugly
   (env) pi@raspberrypi:~/avs $ sudo apt install python-gi gir1.2-gstreamer-1.0
-  (env) pi@raspberrypi:~/avs $ pip install tornado
+  (env) pi@raspberrypi:~/avs $ pip install tornado==5.1.1
   ```
 **step 2. 取得授权**
 
   在终端运行 `alexa-auth` ，然后登陆获取alexa的授权， 或者运行 `dueros-auth` 获取百度的授权。 授权的文件保存在`/home/pi/.avs.json`。
+  （需要关闭自动打开的浏览器，打开树莓派桌面上的浏览器进行授权才能成功）
 
   ![](https://github.com/SeeedDocument/ReSpeaker-4-Mic-Array-for-Raspberry-Pi/raw/master/img/auth.png)
-
+  ![]
   !!!Note
       如果我们在 `alexa-auth` 和 `dueros-auth`之间切换, 请先删除 `/home/pi/.avs.json` 。 这个是隐藏文件，请用 `ls -la` 显示文件。
 
