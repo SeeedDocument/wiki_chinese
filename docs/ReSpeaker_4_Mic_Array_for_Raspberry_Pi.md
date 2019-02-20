@@ -56,7 +56,7 @@ sku: 103030216
 把 ReSpeaker 4-Mics Pi HAT 插入到 Raspberry Pi, 确保插入Raspberry Pi的时候针脚对齐。
 
 !!!Note
-            不要在上电的时候，热插拔ReSpeaker 4-Mics Pi HAT.
+        不要在上电的时候，热插拔ReSpeaker 4-Mics Pi HAT.
 
 ![connection pic1](https://github.com/SeeedDocument/ReSpeaker-4-Mic-Array-for-Raspberry-Pi/blob/master/img/connect1.jpg?raw=true)
 ![connection pic2](https://github.com/SeeedDocument/ReSpeaker-4-Mic-Array-for-Raspberry-Pi/blob/master/img/connect2.jpg?raw=true)
@@ -290,8 +290,9 @@ pi@raspberrypi:~ $ source ~/env/bin/activate                    # 激活Python�
   （需要关闭自动打开的浏览器，打开树莓派桌面上的浏览器进行授权才能成功）
 
   ![](https://github.com/SeeedDocument/ReSpeaker-4-Mic-Array-for-Raspberry-Pi/raw/master/img/auth.png)
-  ![]
-  !!!Note
+  ![](https://github.com/SeeedDocument/ReSpeaker-4-Mic-Array-for-Raspberry-Pi/raw/master/img/auth_new.png)
+
+!!!Note
       如果我们在 `alexa-auth` 和 `dueros-auth`之间切换, 请先删除 `/home/pi/.avs.json` 。 这个是隐藏文件，请用 `ls -la` 显示文件。
 
 
