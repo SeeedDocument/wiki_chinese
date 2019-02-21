@@ -20,10 +20,10 @@ tags: plat_duino
 
 产品特性
 --------
-- 该传感器能够稳定和灵敏的检测不仅是烟草烟雾的浓度，还有室内会引起哮喘的尘埃。
+- 该传感器能够稳定和灵敏的检测烟草烟雾的浓度和室内的尘埃。
 - 使用内置的空气加热装置达到自我吸气的功能。
-- 维护方便，能够保持高灵敏度的长期使用。
-- 能够输出超过1微米和2.5微米（大约）的粒度。
+- 方便维护，长时间保持高灵敏度。
+- 双通道输出，分别用于输出>1um和>2.5um两个粒子的浓度。
 - 更紧凑轻巧，安装方便。
 
 !!!note
@@ -41,14 +41,10 @@ tags: plat_duino
 |待机电源|	90|	mA|
 |可检测浓度范围|	0~28,000 / 0 ~ 8000	|	pcs/liter / pcs/0.01cf|
 |工作温度范围|	0~45|	°C|
-|输出方式|	Negative Logic, Digital output, High: over 4.0V(Rev.2), Low: under 0.7V|-|
+|输出方式|  负逻辑，数字输出，高：超过4.0V（Rev.2），低：低于0.7V	|-|
 |检测粒径|	>1 |μm|
 |外形尺寸|	59(W) × 45(H) × 22(D) |mm|
 |湿度范围|	95％rh以下|-|
-
-支持平台
---------------------
-
 
 创意应用
 ------------------
@@ -79,7 +75,7 @@ tags: plat_duino
 |GND	| Pin 1|黑线|
 |D8| Pin 4|	黄线|
 
-Grove连接线包含在Grove Dust Sensor封装中。 我们也可以使用Dupont Line去连接Base Shield，如下图所示。
+Grove连接线包含在Grove Dust Sensor封装中。 我们也可以使用杜邦线去连接Base Shield，如下图所示。
 
 ![](https://github.com/SeeedDocument/Grove_Dust_Sensor/raw/master/image/connection.jpg)
 
