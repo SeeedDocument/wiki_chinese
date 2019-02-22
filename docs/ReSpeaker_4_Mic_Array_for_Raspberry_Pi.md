@@ -85,7 +85,6 @@ deb-src http://mirrors.tuna.tsinghua.edu.cn/raspbian/raspbian/ stretch main non-
 运行下面命令
 ```
 sudo apt-get update
-sudo apt-get upgrade
 git clone https://github.com/respeaker/seeed-voicecard.git
 cd seeed-voicecard #下载声卡驱动
 sudo ./install.sh #安装声卡驱动
@@ -171,7 +170,6 @@ pi@raspberrypi:~ $ cd /home/pi/4mics_hat
 pi@raspberrypi:~/4mics_hat $ sudo apt install python-virtualenv          # 安装 python2 虚拟环境工具
 pi@raspberrypi:~/4mics_hat $ virtualenv --system-site-packages ~/env     # 建立虚拟环境，命名位env,放在~目录下
 pi@raspberrypi:~/4mics_hat $ source ~/env/bin/activate                   # 激活虚拟环境
-(env) pi@raspberrypi:~/4mics_hat $ pip install spidev gpiozero           # 安装需要的工具包
 ```
 
 
@@ -193,13 +191,10 @@ pi@raspberrypi:~/4mics_hat $ source ~/env/bin/activate                   # 激�
 - 配置完后，可以执行下列命令行来运行led示例  
 
 ```
-pi@raspberrypi:~ $ cd /home/pi
-pi@raspberrypi:~ $ git clone https://github.com/respeaker/4mics_hat.git
-pi@raspberrypi:~ $ cd /home/pi/4mics_hat
-pi@raspberrypi:~ $ sudo apt install python-virtualenv          # 安装 python 虚拟环境
-pi@raspberrypi:~ $ virtualenv --system-site-packages ~/env     # 创建 python 虚拟环境
-pi@raspberrypi:~ $ source ~/env/bin/activate                   # 激活 python 虚拟环境
 (env) pi@raspberrypi:~ $ pip install spidev gpiozero           # 安装 spidev 和 gpiozero
+(env) pi@raspberrypi:~ $ git clone --depth 1 https://github.com/respeaker/pixel_ring.git   #安装pixel_ring
+(env) pi@raspberrypi:~ $ cd pixel_ring
+(env) pi@raspberrypi:~ $ pip install -U -e .
 ```
 
 - 在虚拟环境下运行 `python pixels.py`, 你可以看到LED像Google Assistant灯光一样闪烁。
@@ -288,9 +283,10 @@ pi@raspberrypi:~ $ source ~/env/bin/activate                    # 激活Python�
 
   在终端运行 `alexa-auth` ，然后登陆获取alexa的授权， 或者运行 `dueros-auth` 获取百度的授权。 授权的文件保存在`/home/pi/.avs.json`。
   （需要关闭自动打开的浏览器，打开树莓派桌面上的浏览器进行授权才能成功）
-
-  ![](https://github.com/SeeedDocument/ReSpeaker-4-Mic-Array-for-Raspberry-Pi/raw/master/img/auth.png)
+  
   ![](https://github.com/SeeedDocument/ReSpeaker-4-Mic-Array-for-Raspberry-Pi/raw/master/img/auth_new.png)
+  ![](https://github.com/SeeedDocument/ReSpeaker-4-Mic-Array-for-Raspberry-Pi/raw/master/img/auth.png)
+
 
 !!!Note
       如果我们在 `alexa-auth` 和 `dueros-auth`之间切换, 请先删除 `/home/pi/.avs.json` 。 这个是隐藏文件，请用 `ls -la` 显示文件。

@@ -66,7 +66,7 @@ tags: plat_duino
 ### 硬件连接
 这是一个演示，演示如何从这个Grove - Dust传感器获取PM浓度数据。
 
-将Dust传感器插入Grove-[BaseShield](https://item.taobao.com/item.htm?spm=a1z10.3-c.w4002-11172317909.10.3ff19e11crrag2&id=520233320144) 数字端口 **D8** 并且它只能是通过D8接口，因为这个传感器的操作涉及采样。 此功能只能通过Arduino / Seeeduino上ATmega328P的输入引脚D8来实现。
+将Dust传感器插入[Grove-BaseShield](https://item.taobao.com/item.htm?spm=a1z10.3-c.w4002-11172317909.10.3ff19e11crrag2&id=520233320144) 数字端口 **D8** 并且它只能是通过D8接口，因为这个传感器的操作涉及采样。 此功能只能通过Arduino / Seeeduino上ATmega328P的输入引脚D8来实现。
 
 
 |Arduino UNO	| Dust Sensor Pin| Cable Color|
@@ -168,7 +168,7 @@ If you want to make some awesome projects by Grove - Dust Sensor, here is a proj
 This section an IoT demo made by Seeeduino and [Grove](http://www.seeedstudio.com/wiki/Grove_System).
 -->
 
-上面的项目是由Seeeduino和[Grove](http://www.seeedstudio.com/wiki/Grove_System)制作的物联网演示。
+上面的项目是由[Seeeduino](http://wiki.seeedstudio.com/Seeeduino)和[Grove](http://www.seeedstudio.com/wiki/Grove_System)制作的物联网演示。
 
 <!--
 More attention is being paid to the environmental air quality nowadays because the tiny particles in the air around can badly endanger people’s health. We always get the information of environment from our government department. But it’s the average value of the whole city/section. It can not reflect the environment around you accurately.
