@@ -35,7 +35,7 @@ copyright: 'Seeedstudio 2017'
 theme_dir: material
 
 # Icon
-site_favicon: 'images/favicon.ico'
+# site_favicon: 'images/favicon.ico'
 
 # Options
 extra:

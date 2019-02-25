@@ -1,5 +1,5 @@
 ---
-title: Raspberry Pi Zero W Complete Starter Kit
+name: Raspberry Pi Zero W Complete Starter Kit
 category: Raspberry Pi
 bzurl: https://www.seeedstudio.com/Seeedstudio-Raspberry-Pi-Zero-W-Complete-Starter-Kit-p-2968.html
 oldwikiname: Raspberry_Pi_Zero_W_Complete_Starter_Kit

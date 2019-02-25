@@ -1,5 +1,5 @@
 ---
-title: ReSpeaker 6-Mic 圆形阵列套件
+name: ReSpeaker 6-Mic 圆形阵列套件
 category: ReSpeaker
 bzurl:
 oldwikiname: ReSpeaker 6-Mic 圆形阵列套件

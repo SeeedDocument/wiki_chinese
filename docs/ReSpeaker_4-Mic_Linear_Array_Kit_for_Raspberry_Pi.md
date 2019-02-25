@@ -1,5 +1,5 @@
 ---
-title: ReSpeaker 4-Mic 线性阵列套件
+name: ReSpeaker 4-Mic 线性阵列套件
 category: ReSpeaker
 bzurl:
 oldwikiname: ReSpeaker 4-Mic 线性阵列套件

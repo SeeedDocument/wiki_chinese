@@ -1,5 +1,5 @@
 ---
-title: Sensor Introduction
+name: Sensor Introduction
 nointro:
 ---
 Grove - 传感器包括各种传感器输入模块。

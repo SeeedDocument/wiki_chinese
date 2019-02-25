@@ -1,5 +1,5 @@
 ---
-title: BitBot-Robot Kit for MicroBit
+name: BitBot-Robot Kit for MicroBit
 category: Kit
 bzurl: https://www.seeedstudio.com/Robot-Kit-for-Micro%3ABit-p-3015.html
 oldwikiname:

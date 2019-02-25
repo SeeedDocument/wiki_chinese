@@ -1,5 +1,5 @@
 ---
-title: pixy-cmucam5
+name: pixy-cmucam5
 category: MakerPro
 bzurl: https://www.seeedstudio.com/Pixy-CMUcam5-Sensor-p-2048.html
 oldwikiname:

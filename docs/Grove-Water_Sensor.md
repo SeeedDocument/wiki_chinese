@@ -1,5 +1,5 @@
 ---
-title: Grove - Water Sensor
+name: Grove - Water Sensor
 category: Sensor
 bzurl: https://seeedstudio.com/Grove-Water-Sensor-p-748.html
 oldwikiname: Grove_-_Water_Sensor

@@ -1,5 +1,5 @@
 ---
-title: Getting Started with Seeeduino
+name: Getting Started with Seeeduino
 category: Tutorial
 bzurl: 
 oldwikiname:  Getting Started with Seeeduino

@@ -1,5 +1,5 @@
 ---
-title: SoundPi
+name: SoundPi
 category: Respeaker
 bzurl:
 oldwikiname:

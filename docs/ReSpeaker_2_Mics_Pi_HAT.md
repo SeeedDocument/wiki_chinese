@@ -1,5 +1,5 @@
 ---
-title: ReSpeaker 2-Mics Pi HAT
+name: ReSpeaker 2-Mics Pi HAT
 category: Respeaker
 bzurl: https://www.seeedstudio.com/ReSpeaker-2-Mics-Pi-HAT-p-2874.html
 oldwikiname:

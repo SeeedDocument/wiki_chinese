@@ -1,5 +1,5 @@
 ---
-title: Grove - Encoder
+name: Grove - Encoder
 category: Sensor
 bzurl: https://seeedstudio.com/Grove-Encoder-p-1352.html
 oldwikiname: Grove_-_Encoder

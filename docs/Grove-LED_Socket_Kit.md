@@ -1,5 +1,5 @@
 ---
-title: Grove - LED Socket Kit
+name: Grove - LED Socket Kit
 category: Actuator
 bzurl: https://www.seeedstudio.com/Grove-White-LED-p-1140.html
 oldwikiname:  Grove - LED Socket Kit

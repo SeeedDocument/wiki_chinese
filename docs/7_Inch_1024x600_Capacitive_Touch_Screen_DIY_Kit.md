@@ -1,5 +1,5 @@
 ---
-title: 7 Inch 1024x600 Capacitive Touch Screen DIY Kit
+name: 7 Inch 1024x600 Capacitive Touch Screen DIY Kit
 category: Raspberry Pi
 bzurl: https://www.seeedstudio.com/7-Inch-1024x600-Capacitive-Touch-Screen-DIY-Kit-p-2932.html
 oldwikiname: 7_Inch_1024x600_Capacitive_Touch_Screen_DIY_Kit

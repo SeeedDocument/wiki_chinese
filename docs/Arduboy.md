@@ -1,5 +1,5 @@
 ---
-title: Arduboy
+name: Arduboy
 category: MakerPro
 bzurl: https://www.seeedstudio.com/Arduboy-p-2728.html
 oldwikiname:  Arduboy

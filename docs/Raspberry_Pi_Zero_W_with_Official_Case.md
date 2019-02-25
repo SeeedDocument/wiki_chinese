@@ -1,5 +1,5 @@
 ---
-title: Raspberry Pi Zero W with Official Case
+name: Raspberry Pi Zero W with Official Case
 category: Raspberry Pi
 bzurl: https://www.seeedstudio.com/Seeedstudio-Raspberry-Pi-Zero-W-with-Official-Case-p-2965.html
 oldwikiname: Raspberry_Pi_Zero_W_with_Official_Case

@@ -1,5 +1,5 @@
 ---
-title: Xadow GSM Breakout
+name: Xadow GSM Breakout
 category: Rephone
 bzurl: https://www.seeedstudio.com/Xadow-GSM-Breakout-p-2559.html
 oldwikiname: Xadow GSM Breakout

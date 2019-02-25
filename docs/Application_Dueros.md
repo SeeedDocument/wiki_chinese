@@ -1,5 +1,5 @@
 ---
-title: application Dueros
+name: application Dueros
 category: Respeaker
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: GrovePi+ Starter Kit for Raspberry Pi A+,B,B+&2,3 (CE certified)
+name: GrovePi+ Starter Kit for Raspberry Pi A+,B,B+&2,3 (CE certified)
 category: Raspberry Pi
 bzurl: https://www.seeedstudio.com/GrovePi%2B-Starter-Kit-for-Raspberry-Pi-A%2B%2CB%2CB%2B%262%2C3-(CE-certified)-p-2572.html
 oldwikiname: Raspberry_Pi_Motor_Driver_Board_v1_0

@@ -1,5 +1,5 @@
 ---
-title: Respeaker Core
+name: Respeaker Core
 category: Respeaker
 bzurl: https://www.seeedstudio.com/ReSpeaker-Core-Based-On-MT7688-and-OpenWRT-p-2716.html
 oldwikiname:  Respeaker Core

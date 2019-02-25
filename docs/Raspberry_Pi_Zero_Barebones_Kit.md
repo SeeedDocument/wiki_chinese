@@ -1,5 +1,5 @@
 ---
-title: Raspberry Pi Zero Barebones Kit
+name: Raspberry Pi Zero Barebones Kit
 category: Raspberry Pi
 bzurl: https://www.seeedstudio.com/Seeedstudio-Raspberry-Pi-Zero-Barebones-Kit-p-2964.html
 oldwikiname: Raspberry_Pi_Zero_Barebones_Kit

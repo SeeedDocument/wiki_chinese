@@ -1,5 +1,5 @@
 ---
-title: Grove - Line Finder
+name: Grove - Line Finder
 category: Sensor
 bzurl: https://www.seeedstudio.com/Grove-Line-Finder-p-825.html
 oldwikiname: Grove - Line Finder
