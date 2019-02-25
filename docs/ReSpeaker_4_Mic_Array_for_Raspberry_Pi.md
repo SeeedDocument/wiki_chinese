@@ -254,7 +254,7 @@ pi@raspberrypi:~ $ source ~/env/bin/activate                    # 激活Python�
 (env) pi@raspberrypi:~ $ git clone https://github.com/voice-engine/voice-engine #write by seeed
 (env) pi@raspberrypi:~ $ cd voice-engine/
 (env) pi@raspberrypi:~ $ python setup.py install
-(env) pi@raspberrypi:~ $ cd examples
+(env) pi@raspberrypi:~ $ cd examples/respeaker_4mic_array_for_pi
 ```
 
 
@@ -278,6 +278,7 @@ pi@raspberrypi:~ $ source ~/env/bin/activate                    # 激活Python�
   (env) pi@raspberrypi:~/avs $ sudo apt install gstreamer1.0-plugins-ugly
   (env) pi@raspberrypi:~/avs $ sudo apt install python-gi gir1.2-gstreamer-1.0
   (env) pi@raspberrypi:~/avs $ pip install tornado==5.1.1
+  (env) pi@raspberrypi:~/avs $ cd ~/voice-engine/examples/respeaker_4mic_array_for_pi
   ```
 **step 2. 取得授权**
 
