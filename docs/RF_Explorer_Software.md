@@ -64,3 +64,7 @@ Touchstone 软件在 [Nuts About Nets](http://rfexplorer.com/) 中将从 RF Expl
 
 
 可用于 Android OTG 手机和平板电脑，将从 RF Explorer 频谱分析仪收集的数据转换为高度图形化的图表并显示在显示屏上，使用户能够更轻松地对 RF 环境进行可视化，监控 RF信号，排除 RF 问题并检测 RF 干扰源。
+
+## 资源下载
+
+- **[用户参考手册]** [Rf Explorer Spectrum Analyzer User Manual](https://github.com/SeeedDocument/RF_Explorer_Software/raw/master/res/rf%20explorer%20spectrum%20analyzer%20user%20manual%20-%20english%20%20%20%20%EF%BC%88%E5%8F%8C%E8%AF%AD%EF%BC%89.doc)
