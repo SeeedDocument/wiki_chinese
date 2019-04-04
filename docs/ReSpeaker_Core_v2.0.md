@@ -10,7 +10,6 @@ sku: 102990883
 
 ![enter image description here](https://github.com/SeeedDocument/Respeaker_V2/raw/master/img/ReSpeaker_V2_front.JPG)
 
-
 Seeed 的 ReSpeaker Core v2.0 专为语音接口应用而设计。它基于四核 ARM Cortex A7 的 Rockchip RK3229，运行频率高达 1.5GHz，具有 1GB RAM。集成六个麦克风阵列，语音算法包括 DoA (波达方向定位技术)，BF (波束成形)，AEC (回声消除)等。
 
 ReSpeaker Core v2.0 运行 GNU/Linux 操作系统。得益于功能强大且活跃的社区，可以使用现有软件和工具进行开发，测试和部署，从而实现产品的快速开发。
@@ -18,8 +17,6 @@ ReSpeaker Core v2.0 运行 GNU/Linux 操作系统。得益于功能强大且活�
 ReSpeaker Core v2.0 被设计为功能丰富的开发板。电路板由两个主要部分组成，第一部分是包含 CPU，内存 (RAM) 和 PMU 的中央核心模块。第二部分是包含如 eMMC，连接器和无线连接组件等外设的外部载板。可以通过 Seeed 的定制服务来定制其中一部分或两者。
 
 [![](https://github.com/SeeedDocument/wiki_chinese/raw/master/docs/images/click_to_buy.PNG)](https://item.taobao.com/item.htm?spm=a1z10.3-c-s.w4002-17798475645.9.32b933dbxKpk6v&id=566241590290)
-
-
 
 ## 产品特性
 
@@ -241,7 +238,7 @@ MRAA|	接口引脚号 |	SYSFS 引脚	|RK3229 引脚
 - 两根 Micro-USB 线
 
 <div class="admonition warning">
-<p class="admonition-title">Caution</p>
+<p class="admonition-title">注意</p>
 请轻轻插入 USB 线，否则可能会损坏接口。请使用内部有 4 根线的 USB 线，2 根线的不能传输数据。如果您不确定您的线，可以点击 <a href="https://www.seeedstudio.com/Micro-USB-Cable-48cm-p-1475.html"><B>此处</B></a> 购买
 </div>
 
@@ -252,8 +249,7 @@ MRAA|	接口引脚号 |	SYSFS 引脚	|RK3229 引脚
 
 **A. 从 SD 卡启动**
 
-
-<p style="text-align:center"><a href="https://bfaceafsieduau-my.sharepoint.com/personal/miaojg22_off365_cn/_layouts/15/guestaccess.aspx?folderid=0bb3c4f3f122d4c2bb0f65eee2b5938f8&authkey=AfLSkcE8QeeUHTQ8GGfrrsU" target="_blank"><img src="https://github.com/SeeedDocument/Respeaker_V2/raw/master/img/onedrive.png" width="200" height="40"  border=0 /></a></p>
+点击此处下载 [固件](https://v2.fangcloud.com/share/7395fd138a1cab496fd4792fe5?folder_id=188000311814)
 
 
 - **步骤 1.** 点击上面的 OneDrive 图标下载最新的镜像压缩文件 : ```respeaker-debian-9-lxqt-sd-********-4gb.img.xz``` 或 ```respeaker-debian-9-iot-sd-********-4gb.img.xz```.
@@ -267,7 +263,7 @@ MRAA|	接口引脚号 |	SYSFS 引脚	|RK3229 引脚
   对于开发用户，我们推荐使用 **lxqt + sd** 版本。所以请下载 **respeaker-debian-9-lxqt-sd-[date]-4gb.img.xz** 文件。
 
   <div class="admonition warning">
-  <p class="admonition-title">Caution</p>
+  <p class="admonition-title">注意</p>
   此 wiki 基于 **respeaker-debian-9-lxqt-sd-20180319-4gb.img.xz** 镜像版本.
   </div>
 

@@ -183,7 +183,7 @@ MP34DT01-M 是一款超小型，低功耗，全方位的数字 MEMS 麦克风，
 
 ### 安装 DFU 和 LED 控制驱动程序  
 
-- **Windows :** 音频录制和播放运行良好。Windows 上仅需 Libusb-win32 驱动程序来控制 LED 指示灯。我们使用 [一个方便的工具 - Zadig](http://zadig.akeo.ie/)为 `SEEED DFU` 和 `SEEED Control` 安装 libusb-win32 驱动程序 (ReSpeaker Mic Array 在 Windows 设备管理器中会显示 2 个设备)。
+- **Windows :** 音频录制和播放运行良好。Windows 上仅需 Libusb-win32 驱动程序来控制 LED 指示灯。我们使用 [一个方便的工具 - Zadig](https://zadig.akeo.ie/)为 `SEEED DFU` 和 `SEEED Control` 安装 libusb-win32 驱动程序 (ReSpeaker Mic Array 在 Windows 设备管理器中会显示 2 个设备)。
 
 ![](https://github.com/SeeedDocument/ReSpeaker_Mic_Array_V2/raw/master/img/usb_4mic_array_driver.png)
 
@@ -194,7 +194,7 @@ MP34DT01-M 是一款超小型，低功耗，全方位的数字 MEMS 麦克风，
 - **Linux :** 无需安装驱动
 
 
-### 更行固件
+### 更新固件
 
 有2个固件。 一个包含 1 个通道数据，另一个包含 6 个通道数据。这里是差异表 :
 
