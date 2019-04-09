@@ -437,6 +437,7 @@ pages:
     - 如何上传代码: Upload_Code.md
     - Seeeduino入门指导: Getting_Started_with_Seeeduino.md
     - 如何编辑Wiki: How_to_edit_Wiki.md
+    - Arduino图形化编程使用指南: Guide_for_Codecraft_using_Arduino.md
 
   - 文档协议: license.md
 
