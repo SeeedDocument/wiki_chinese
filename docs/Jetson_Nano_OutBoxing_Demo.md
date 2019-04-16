@@ -1,8 +1,12 @@
-字数：700字
-阅读时间：20分钟
+**字数:** 
+
+700字
+
+**阅读时间:**
+
+20分钟
 
 **目录**
-摘要
 
 - 1.什么是Jetson Nano？
 - 2.开箱
@@ -35,7 +39,7 @@
 3. 一个折叠的硬纸板支架
 4. 启动
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/QH-M4MjFuEY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="800" height="450" src="https://www.youtube.com/embed/QH-M4MjFuEY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ![Alt text](https://raw.githubusercontent.com/SeeedDocument/forum_doc/master/image/Jetson%20Nano/Jetson%20Nano/all.jpg)
 ![Alt text](https://raw.githubusercontent.com/SeeedDocument/forum_doc/master/image/Jetson%20Nano/Jetson%20Nano/obx_main.jpg)
@@ -107,7 +111,7 @@ JetsonNano的启动步骤与其他ARMLinuxBorad相同。这里附了一个简短
  
 ## 4.视觉Demo
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/U0rNdI9pl_0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="800" height="450" src="https://www.youtube.com/embed/U0rNdI9pl_0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 **注意事项:**
 
