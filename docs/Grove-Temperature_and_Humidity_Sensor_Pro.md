@@ -9,6 +9,7 @@ sku: 101020019
 tags: io_3v3, io_5v, plat_duino, plat_pi
 
 ---
+
 ![](https://github.com/SeeedDocument/Grove-Temperature_and_Humidity_Sensor_Pro/raw/master/img/Temp_humi_pro.jpg)
 
  这是我们的Grove温湿度传感器的一个强大的姐妹版本。 它具有比基本版本更完整和准确的性能。 该传感器的检测范围为5％RH - 99％RH，-40°C至80°C。其精度达到2％RH和0.5°C。如果对使用具有严格的要求，这个传感器是很专业的选择。
@@ -97,7 +98,6 @@ tags: io_3v3, io_5v, plat_duino, plat_pi
 |--------------|-------------|-----------------|
 |![enter image description here](https://github.com/SeeedDocument/Grove-Temperature_and_Humidity_Sensor_Pro/raw/master/img/pi.jpg)|![enter image description here](https://github.com/SeeedDocument/Grove-Temperature_and_Humidity_Sensor_Pro/raw/master/img/gs_1.jpg)|![enter image description here](https://github.com/SeeedDocument/Grove-Temperature_and_Humidity_Sensor_Pro/raw/master/img/grovepi%2B.jpg)|
 |[马上购买](https://item.taobao.com/item.htm?spm=a1z10.3-c.w4002-11172317909.13.3ff19e11WKMOCW&id=528322046763)|[马上购买](https://item.taobao.com/item.htm?spm=a1z10.3-c.w4002-11172317909.13.3ff19e11cJwMDK&id=45754325612)|[马上购买](https://item.taobao.com/item.htm?spm=a1z10.3-c.w4002-11172317909.10.3ff19e113G7Bdt&id=45506190895)|
-
 
 - 按照[说明](http://wiki.seeed.cc/GrovePi_Plus/)配置开发环境。
 

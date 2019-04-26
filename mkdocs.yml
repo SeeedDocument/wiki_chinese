@@ -106,6 +106,7 @@ pages:
       - Raspberry: Raspberry.md
       - 7 Inch 1024x600 Capacitive Touch Screen DIY Kit: 7_Inch_1024x600_Capacitive_Touch_Screen_DIY_Kit.md
       - GrovePi Starter Kit for Raspberry Pi: GrovePi_Starter_Kit_for_Raspberry_Pi.md
+      - Grove Base Kit for Raspberry Pi: Grove_Base_Kit_for_Raspberry_Pi.md
       - Raspberry Pi 3 Model B: Raspberry_Pi_3_Model_B.md
       - Raspberry Pi Breakout Board v1.0: Raspberry_Pi_Breakout_Board_v1.0.md
       - Raspberry Pi Magic Mirror: Raspberry_Pi_Magic_Mirror.md
@@ -261,6 +262,7 @@ pages:
       - Grove-Line Finder: Grove-Line_Finder.md
       - Grove-Loudness Sensor: Grove-Loudness_Sensor.md
       - Grove-Luminance Sensor: Grove-Luminance_Sensor.md
+      - Grove-Mech Keycap: Grove-Mech_Keycap.md
       - Grove-Moisture Sensor: Grove-Moisture_Sensor.md
       - Grove-MOSFET: Grove-MOSFET.md
       - Grove-Multichannel Gas Sensor: Grove-Multichannel_Gas_Sensor.md
@@ -278,7 +280,7 @@ pages:
       - Grove-Temperature and Humidity Sensor-SHT31: Grove-TempAndHumi_Sensor-SHT31.md
       - Grove-Temperature Sensor: Grove-Temperature_Sensor.md
       - Grove-Temperature Sensor-V1.2: Grove-Temperature_Sensor_V1.2.md
-      - Grove-Temperature_Humidity_Pressure_Gas_Sensor_BME680: Grove-Temperature_Humidity_Pressure_Gas_Sensor_BME680.md
+      - Grove-Temperature Humidity Pressure Gas Sensor(BME680): Grove-Temperature_Humidity_Pressure_Gas_Sensor.md
       - Grove-Tempture and Humidity Sensor High Accuracy Mini-v1.0: Grove-TemptureAndHumidity_Sensor_High_Accuracy_AndMini-v1.0.md
       - Grove-TF Mini LiDAR: Grove-TF_Mini_LiDAR.md
       - Grove-Time of Flight Distance Sensor VL53L0X : Grove-Time_of_Flight_Distance_Sensor-VL53L0X.md
@@ -342,8 +344,8 @@ pages:
       - Grove-Voltage Divider: Grove-Voltage_Divider.md
       - Grove-Water Atomization: Grove-Water_Atomization.md
       - Grove-Wrapper: Grove-Wrapper.md
-
-
+      
+      
     - 显示器:
       - Display: Display.md
       - Grove-4 Digit Display: Grove-4-Digit_Display.md
@@ -440,7 +442,7 @@ pages:
     - 如何编辑Wiki: How_to_edit_Wiki.md
     - Arduino图形化编程使用指南: Guide_for_Codecraft_using_Arduino.md
     - Jetson Nano开箱示例指南: Jetson_Nano_OutBoxing_Demo.md
-
+    
   - 文档协议: license.md
 
 # Google Analytics
