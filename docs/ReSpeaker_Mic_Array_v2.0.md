@@ -200,8 +200,8 @@ MP34DT01-M 是一款超小型，低功耗，全方位的数字 MEMS 麦克风，
 
 | 固件版本             | 通道数 | 说明                                                                                                                                                                    |
 |----------------------|----------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| default_firmware.bin | 1              | 为 ASR 处理音频                                                                                                                                                 |
-| i6_firmware.bin      | 6              |  通道 0 : ASR 处理音频，通道 1 : mic1 原始数据，通道 2 : mic2 原始数据，通道 3 : mic3 原始数据，通道 4 : mic4 原始数据，通道 5 : 合并播放 |
+| 1_channel_firmware.bin | 1              | 为 ASR 处理音频                                                                                                                                                 |
+| 6_channels_firmware.bin      | 6              |  通道 0 : ASR 处理音频，通道 1 : mic1 原始数据，通道 2 : mic2 原始数据，通道 3 : mic3 原始数据，通道 4 : mic4 原始数据，通道 5 : 合并播放 |
 
 这是 audacity 刷 i6_firmware 后的录音
 ![](https://github.com/SeeedDocument/ReSpeaker_Mic_Array_V2/raw/master/img/Audacity.png)

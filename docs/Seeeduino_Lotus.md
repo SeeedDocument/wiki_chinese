@@ -196,6 +196,7 @@ Arduino IDE 的开发板中没有 *Seeeduino Lite* 选项, 打开用法说明 [�
     * [Arduino Introduction](https://www.arduino.cc/en/guide/introduction)
     * [Wikipedia page for Arduino](https://en.wikipedia.org/wiki/Arduino)
     * [Seeeduino Lotus V1.1 USB Driver](https://www.silabs.com/products/development-tools/software/usb-to-uart-bridge-vcp-drivers)
+    * [Seeeduino Lotus超详细入门文档](https://github.com/SeeedDocument/Seeeduino_Lotus/raw/master/res/grove%E4%B8%AD%E6%96%87%E8%B5%84%E6%96%99%E5%BA%93_final.docx)
 
 ## 常见问题
 

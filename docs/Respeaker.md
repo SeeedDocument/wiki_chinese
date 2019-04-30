@@ -16,6 +16,7 @@ ReSpeaker系列通过硬件组件和软件库来构建支持语音的驱动，�
 
 |              | 2 Mic Array for Pi | 4 Mic Array for Pi | 4 Linear Mic Array for Pi | 6 Mic Array for Pi | ReSpeaker Mic Array       | ReSpeaker Mic Array v2    |
 |:------------:|:------------------:|:------------------:|:-------------------------:|:------------------:|:-------------------------:|:-------------------------:|
+||![](https://github.com/SeeedDocument/MIC_HATv1.0_for_raspberrypi/blob/master/img/2mics-zero-high-res.jpg?raw=true)|![](https://github.com/SeeedDocument/ReSpeaker-4-Mic-Array-for-Raspberry-Pi/blob/master/img/overview.jpg?raw=true)|![enter image description here](https://github.com/SeeedDocument/ReSpeaker_4-Mics_Linear_Array_Kit/raw/master/img/main_wiki.jpg)|![enter image description here](https://github.com/SeeedDocument/ReSpeaker_6-Mics_Circular_Array_kit_for_Raspberry_Pi/raw/master/img/IMG_6051.jpg)|![](https://github.com/SeeedDocument/ReSpeaker_Mic_Array/raw/master/img/respeaker_mic_array.jpeg)|![](https://raw.githubusercontent.com/SeeedDocument/ReSpeaker_cn/master/img/ReSpeaker_Mic_Array_v2.png)|
 |  麦克风数量   |          2         |          4         |             4             |          6         | 7                         | 4                         |
 |     形状     |       线形       |       正方形       |           线形          |       正六边形      | 圆形                  | 圆形                  |
 |   接口       |         I2S        |         I2S        |            I2S            |         I2S        | USB                       | USB                       |
@@ -33,7 +34,8 @@ ReSpeaker系列通过硬件组件和软件库来构建支持语音的驱动，�
 ### 麦克风阵列开发板
 
 |             | ReSpeaker Core v1 (MT7688)  | ReSpeaker Core v2 (RK3229)                    | 
-|-------------|-----------------------------|-----------------------------------------------|
+|:-------------:|:-----------------------------:|:-----------------------------------------------:|
+||![](https://raw.githubusercontent.com/SeeedDocument/ReSpeaker_cn/master/img/ReSpeaker_Core_v1.png)|![enter image description here](https://raw.githubusercontent.com/SeeedDocument/ReSpeaker_cn/master/img/ReSpeaker_Core_v2.png)|
 | CPU         | MT7688 (MIPS24KEc, 580 MHz) | RK3229 (4 ARM Cortex A7 cores, 1.5GHz)        |
 | RAM         | 256 MB                      | 1 GB                                          |
 | 形状      | 圆形                    | 正六边形                                      |

@@ -15,7 +15,7 @@ sku: 107990055
 
 ReSpeaker 6-Mic圆形阵列包含两个板子：一个是适配板，另一个是6mic阵列。
 
-ReSpeaker 6-Mi圆形阵列支持在Raspian系统下八通道输入输出。其中，前六个麦克风输入通道录音（只有前4个输入通道有效捕获数据），其余2个输入通道是回采通道；输出通道中前2播放输出通道，其余6输出通道是虚拟的。
+ReSpeaker 6-Mic圆形阵列支持在Raspian系统下八通道输入输出。其中，前六个麦克风输入通道录音，其余2个输入通道是回采通道；输出通道中前2播放输出通道，其余6输出通道是虚拟的。
 
 
 
@@ -73,9 +73,6 @@ ReSpeaker 6-Mi圆形阵列支持在Raspian系统下八通道输入输出。其�
 ![](https://github.com/SeeedDocument/Bazaar_file/raw/master/107990055/img/ab.png)
 
 <p style="text-align:center"><img src="https://github.com/SeeedDocument/Bazaar_file/raw/master/107990055/img/6-mic_array_assemble.gif" /></p>
-
-
-
 
 ## 入门指导
 
