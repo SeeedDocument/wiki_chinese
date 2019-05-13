@@ -141,20 +141,21 @@ ReSpeaker Mic Array v2.0 有两个固件，一个包含语音算法，另一个�
 - <font face="" size=3 font color="ff0000">①</font> **XMOS XVF-3000 :**
 它集成了先进的 DSP 算法，包括声学回声消除 (AEC)，波束成形，去混响，噪声抑制和增益控制。
 
-- <font face="" size=3 font color="ff0000">②</font> **WM8960 :**
-WM8960 是一款低功耗立体声编解码器，采用 D 类扬声器驱动器，可为每个通道提供 1 W，总计 8 W 的负载。
+- <font face="" size=3 font color="ff0000">②</font> **Digital Microphone :**
+MP34DT01-M 是一款超小型，低功耗，全方位的数字 MEMS 麦克风，内置电容式感应元件和 IC 接口。
 
-- <font face="" size=3 font color="ff0000">③</font> **3.5mm Headphone jack :**
-输出音频，我们可以将有源音响或耳机插入此端口。
+- <font face="" size=3 font color="ff0000">③</font> **RGB LED :**
+三色 RGB LED。
+
 
 - <font face="" size=3 font color="ff0000">④</font> **USB Port :**
 提供电源并控制麦克风阵列。
 
-- <font face="" size=3 font color="ff0000">⑤</font> **RGB LED :**
-三色 RGB LED。
+- <font face="" size=3 font color="ff0000">⑤</font> **3.5mm Headphone jack :**
+输出音频，我们可以将有源音响或耳机插入此端口。
 
-- <font face="" size=3 font color="ff0000">⑥</font> **Digital Microphone :**
-MP34DT01-M 是一款超小型，低功耗，全方位的数字 MEMS 麦克风，内置电容式感应元件和 IC 接口。
+- <font face="" size=3 font color="ff0000">⑥</font> **WM8960 :**
+WM8960 是一款低功耗立体声编解码器，采用 D 类扬声器驱动器，可为每个通道提供 1 W，总计 8 W 的负载。
 
 ### 引脚图
 ![](https://github.com/SeeedDocument/ReSpeaker_Mic_Array_V2/raw/master/img/Pin_Map.png)
