@@ -389,6 +389,17 @@ A5.测试时发现sudo执行时候默认从系统环境执行，而wiki中用到
 
   A7:请运行audacity以确保4个频道良好。 如果有一个没有数据的频道，当我们说snowboy时就没有回复。
 
+**Q8 怎样更改唤醒词**
+
+  A8:
+
+  step 1. 请到[Snowboy](https://snowboy.kitt.ai/)的官网去自定义一个关键词（当然下载别人定义的关键词也行）。
+
+  step 2. 将自定义或者别人的关键词`.pmdl`文件下载到`/usr/local/lib/python2.7/dist-packages/snowboy/resources/models`路径下。
+
+  step 3. 修改`respeaker/4mic/ns_kws_doa_alexa.py`文件里面的`kws = KWS(model='/usr/local/lib/python2.7/dist-packages/snowboy/resources/models/***.pmdl')`。其中`***.pmdl`为刚刚从`snowboy`官网上面下载的。
+
+
 ## 资源下载
 
 - **[PDF 原理图]** [ReSpeaker 4-Mic Array for Raspberry Pi(PDF)](https://github.com/SeeedDocument/ReSpeaker-4-Mic-Array-for-Raspberry-Pi/blob/master/src/ReSpeaker%204-Mic%20Array%20for%20Raspberry%20Pi%20%20v1.0.pdf)

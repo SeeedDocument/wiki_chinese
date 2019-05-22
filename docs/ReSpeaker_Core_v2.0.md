@@ -1415,10 +1415,13 @@ Q6: 如果我想使用外部天线怎么办 ?
 
 ![](https://github.com/SeeedDocument/Respeaker_V2/raw/master/img/ant.png)
 
+**A7:** ReSpeaker Core v2.0怎么更改关键词？
 
+step 1. 请到[Snowboy](https://snowboy.kitt.ai/)的官网去自定义一个关键词（当然下载别人定义的关键词也行）。
 
+step 2. 将自定义或者别人的关键词`.pmdl`文件下载到`/usr/share/respeaker/snowboy/resources`路径下。
 
-
+step 3. 修改`/etc/respeaker/respeakerd.conf`文件里面的`snowboy_model_path = /usr/share/respeaker/snowboy/resources/***.pmdl`。其中`***.pmdl`为刚刚从`snowboy`官网上面下载的。
 
 ## 资源下载
 - **[PDF]** [Download PDF of This Wiki](https://github.com/SeeedDocument/Respeaker_V2/raw/master/res/ReSpeaker_Core_v2.pdf)
