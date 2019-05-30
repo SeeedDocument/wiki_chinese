@@ -1,0 +1,748 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>ReSpeaker_2_Mics_Pi_HAT.md</title>
+<meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+
+<style>
+/*---------------------------------------------------------------------------------------------
+ *  Copyright (c) Microsoft Corporation. All rights reserved.
+ *  Licensed under the MIT License. See License.txt in the project root for license information.
+ *--------------------------------------------------------------------------------------------*/
+
+body {
+	font-family: "Segoe WPC", "Segoe UI", "SFUIText-Light", "HelveticaNeue-Light", sans-serif, "Droid Sans Fallback";
+	font-size: 14px;
+	padding: 0 12px;
+	line-height: 22px;
+	word-wrap: break-word;
+}
+
+#code-csp-warning {
+	position: fixed;
+	top: 0;
+	right: 0;
+	color: white;
+	margin: 16px;
+	text-align: center;
+	font-size: 12px;
+	font-family: sans-serif;
+	background-color:#444444;
+	cursor: pointer;
+	padding: 6px;
+	box-shadow: 1px 1px 1px rgba(0,0,0,.25);
+}
+
+#code-csp-warning:hover {
+	text-decoration: none;
+	background-color:#007acc;
+	box-shadow: 2px 2px 2px rgba(0,0,0,.25);
+}
+
+
+body.scrollBeyondLastLine {
+	margin-bottom: calc(100vh - 22px);
+}
+
+body.showEditorSelection .code-line {
+	position: relative;
+}
+
+body.showEditorSelection .code-active-line:before,
+body.showEditorSelection .code-line:hover:before {
+	content: "";
+	display: block;
+	position: absolute;
+	top: 0;
+	left: -12px;
+	height: 100%;
+}
+
+body.showEditorSelection li.code-active-line:before,
+body.showEditorSelection li.code-line:hover:before {
+	left: -30px;
+}
+
+.vscode-light.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(0, 0, 0, 0.15);
+}
+
+.vscode-light.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(0, 0, 0, 0.40);
+}
+
+.vscode-dark.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(255, 255, 255, 0.4);
+}
+
+.vscode-dark.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(255, 255, 255, 0.60);
+}
+
+.vscode-high-contrast.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(255, 160, 0, 0.7);
+}
+
+.vscode-high-contrast.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(255, 160, 0, 1);
+}
+
+img {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+a {
+	color: #4080D0;
+	text-decoration: none;
+}
+
+a:focus,
+input:focus,
+select:focus,
+textarea:focus {
+	outline: 1px solid -webkit-focus-ring-color;
+	outline-offset: -1px;
+}
+
+hr {
+	border: 0;
+	height: 2px;
+	border-bottom: 2px solid;
+}
+
+h1 {
+	padding-bottom: 0.3em;
+	line-height: 1.2;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+}
+
+h1, h2, h3 {
+	font-weight: normal;
+}
+
+h1 code,
+h2 code,
+h3 code,
+h4 code,
+h5 code,
+h6 code {
+	font-size: inherit;
+	line-height: auto;
+}
+
+a:hover {
+	color: #4080D0;
+	text-decoration: underline;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+table > thead > tr > th {
+	text-align: left;
+	border-bottom: 1px solid;
+}
+
+table > thead > tr > th,
+table > thead > tr > td,
+table > tbody > tr > th,
+table > tbody > tr > td {
+	padding: 5px 10px;
+}
+
+table > tbody > tr + tr > td {
+	border-top: 1px solid;
+}
+
+blockquote {
+	margin: 0 7px 0 5px;
+	padding: 0 16px 0 10px;
+	border-left: 5px solid;
+}
+
+code {
+	font-family: Menlo, Monaco, Consolas, "Droid Sans Mono", "Courier New", monospace, "Droid Sans Fallback";
+	font-size: 14px;
+	line-height: 19px;
+}
+
+body.wordWrap pre {
+	white-space: pre-wrap;
+}
+
+.mac code {
+	font-size: 12px;
+	line-height: 18px;
+}
+
+pre:not(.hljs),
+pre.hljs code > div {
+	padding: 16px;
+	border-radius: 3px;
+	overflow: auto;
+}
+
+/** Theming */
+
+.vscode-light,
+.vscode-light pre code {
+	color: rgb(30, 30, 30);
+}
+
+.vscode-dark,
+.vscode-dark pre code {
+	color: #DDD;
+}
+
+.vscode-high-contrast,
+.vscode-high-contrast pre code {
+	color: white;
+}
+
+.vscode-light code {
+	color: #A31515;
+}
+
+.vscode-dark code {
+	color: #D7BA7D;
+}
+
+.vscode-light pre:not(.hljs),
+.vscode-light code > div {
+	background-color: rgba(220, 220, 220, 0.4);
+}
+
+.vscode-dark pre:not(.hljs),
+.vscode-dark code > div {
+	background-color: rgba(10, 10, 10, 0.4);
+}
+
+.vscode-high-contrast pre:not(.hljs),
+.vscode-high-contrast code > div {
+	background-color: rgb(0, 0, 0);
+}
+
+.vscode-high-contrast h1 {
+	border-color: rgb(0, 0, 0);
+}
+
+.vscode-light table > thead > tr > th {
+	border-color: rgba(0, 0, 0, 0.69);
+}
+
+.vscode-dark table > thead > tr > th {
+	border-color: rgba(255, 255, 255, 0.69);
+}
+
+.vscode-light h1,
+.vscode-light hr,
+.vscode-light table > tbody > tr + tr > td {
+	border-color: rgba(0, 0, 0, 0.18);
+}
+
+.vscode-dark h1,
+.vscode-dark hr,
+.vscode-dark table > tbody > tr + tr > td {
+	border-color: rgba(255, 255, 255, 0.18);
+}
+
+.vscode-light blockquote,
+.vscode-dark blockquote {
+	background: rgba(127, 127, 127, 0.1);
+	border-color: rgba(0, 122, 204, 0.5);
+}
+
+.vscode-high-contrast blockquote {
+	background: transparent;
+	border-color: #fff;
+}
+</style>
+
+<style>
+/* Tomorrow Theme */
+/* http://jmblog.github.com/color-themes-for-google-code-highlightjs */
+/* Original theme - https://github.com/chriskempson/tomorrow-theme */
+
+/* Tomorrow Comment */
+.hljs-comment,
+.hljs-quote {
+	color: #8e908c;
+}
+
+/* Tomorrow Red */
+.hljs-variable,
+.hljs-template-variable,
+.hljs-tag,
+.hljs-name,
+.hljs-selector-id,
+.hljs-selector-class,
+.hljs-regexp,
+.hljs-deletion {
+	color: #c82829;
+}
+
+/* Tomorrow Orange */
+.hljs-number,
+.hljs-built_in,
+.hljs-builtin-name,
+.hljs-literal,
+.hljs-type,
+.hljs-params,
+.hljs-meta,
+.hljs-link {
+	color: #f5871f;
+}
+
+/* Tomorrow Yellow */
+.hljs-attribute {
+	color: #eab700;
+}
+
+/* Tomorrow Green */
+.hljs-string,
+.hljs-symbol,
+.hljs-bullet,
+.hljs-addition {
+	color: #718c00;
+}
+
+/* Tomorrow Blue */
+.hljs-title,
+.hljs-section {
+	color: #4271ae;
+}
+
+/* Tomorrow Purple */
+.hljs-keyword,
+.hljs-selector-tag {
+	color: #8959a8;
+}
+
+.hljs {
+	display: block;
+	overflow-x: auto;
+	color: #4d4d4c;
+	padding: 0.5em;
+}
+
+.hljs-emphasis {
+	font-style: italic;
+}
+
+.hljs-strong {
+	font-weight: bold;
+}
+</style>
+
+<style>
+/*
+ * Markdown PDF CSS
+ */
+
+ body {
+	font-family:  "Meiryo", "Segoe WPC", "Segoe UI", "SFUIText-Light", "HelveticaNeue-Light", sans-serif, "Droid Sans Fallback";
+}
+
+pre {
+	background-color: #f8f8f8;
+	border: 1px solid #cccccc;
+	border-radius: 3px;
+	overflow-x: auto;
+	white-space: pre-wrap;
+	overflow-wrap: break-word;
+}
+
+pre:not(.hljs) {
+	padding: 23px;
+	line-height: 19px;
+}
+
+blockquote {
+	background: rgba(127, 127, 127, 0.1);
+	border-color: rgba(0, 122, 204, 0.5);
+}
+
+.emoji {
+	height: 1.4em;
+}
+
+/* for inline code */
+:not(pre):not(.hljs) > code {
+	color: #C9AE75; /* Change the old color so it seems less like an error */
+	font-size: inherit;
+}
+
+/* Page Break : use <div class="page"/> to insert page break
+-------------------------------------------------------- */
+.page {
+	page-break-after: always;
+}
+
+</style>
+
+</head>
+<body>
+<hr>
+<h2 id="name-respeaker-2-mics-pi-hatcategory-respeakerbzurl-httpswwwseeedstudiocomrespeaker-2-mics-pi-hat-p-2874htmloldwikinameprodimagenamewikiurl-httpswikiseeedstudiocomcnrespeaker2-micspihatsku-107100001">name: ReSpeaker 2-Mics Pi HAT
+category: Respeaker
+bzurl: https://www.seeedstudio.com/ReSpeaker-2-Mics-Pi-HAT-p-2874.html
+oldwikiname:
+prodimagename:
+wikiurl: https://wiki.seeedstudio.com/cn/Respeaker_2-Mics_Pi_HAT
+sku: 107100001</h2>
+<p><img src="https://github.com/SeeedDocument/MIC_HATv1.0_for_raspberrypi/blob/master/img/2mics-zero-high-res.jpg?raw=true" alt=""></p>
+<p>ReSpeaker 2-Mics Pi HAT是专为AI和语音应用设计的Raspberry Pi双麦克风扩展板。 这意味着您可以构建一个集成Amazona语音服务等的功能更强大，更灵活的语音产品。</p>
+<p>该板是基于WM8960开发的低功耗立体声编解码器。 电路板两侧有两个麦克风采集声音，还提供3个APA102 RGB LED，1个用户按钮和2个板载Grove接口，用于扩展应用程序。 此外，3.5mm音频插孔或JST 2.0扬声器输出均可用于音频输出。</p>
+<p><a href="https://item.taobao.com/item.htm?spm=a230r.1.14.14.626377d6xcV1p7&amp;id=553438198956&amp;ns=1&amp;abbucket=5#detail"><img src="https://github.com/SeeedDocument/wiki_chinese/raw/master/docs/images/click_to_buy.PNG" alt=""></a></p>
+<p>!!!Note
+在参考中文wiki的过程中，如果遇到一些疑问，您可以点击页面右上角切换到英文wiki参考，两者有补充。</p>
+<h2 id="%E4%BA%A7%E5%93%81%E7%89%B9%E5%BE%81">产品特征</h2>
+<ul>
+<li>Raspberry Pi兼容（支持Raspberry Pi Zero和Zero W，Raspberry Pi B +，Raspberry Pi 2 B和Raspberry Pi 3 B）</li>
+<li>2个麦克风</li>
+<li>2个Grove接口</li>
+<li>1个自定义按钮</li>
+<li>3.5mm音频接口</li>
+<li>JST2.0音频输出接口</li>
+</ul>
+<h2 id="%E5%88%9B%E6%84%8F%E5%BA%94%E7%94%A8">创意应用</h2>
+<ul>
+<li>声音交互应用</li>
+<li>AI助手</li>
+</ul>
+<h2 id="%E7%A1%AC%E4%BB%B6%E6%A6%82%E8%BF%B0">硬件概述</h2>
+<p><img src="https://github.com/SeeedDocument/MIC_HATv1.0_for_raspberrypi/blob/master/img/mic_hatv1.0.png?raw=true" alt=""></p>
+<ul>
+<li>按钮：连接到GPIO17的用户自定义按钮</li>
+<li>MIC_L＆MIC_R：左边右边各有一个麦克风</li>
+<li>RGB LED：3个APA102 RGB LED，连接到树莓派的SPI接口</li>
+<li>WM8960：低功耗立体声编解码器</li>
+<li>Raspberry Pi 40针头：支持Raspberry Pi Zero，Raspberry Pi 1 B +，Raspberry Pi 2 B和Raspberry Pi 3 B</li>
+<li>POWER：用于为ReSpeaker 2-Mics Pi HAT供电的Micro USB端口，请在使用扬声器时为电路板供电，以提供足够的电流。</li>
+<li>I2C：Grove I2C端口，连接到I2C-1</li>
+<li>GPIO12：Grove数字端口，连接到GPIO12和GPIO13</li>
+<li>JST 2.0 SPEAKER OUT：用于连接扬声器，JST 2.0连接器</li>
+<li>3.5mm音频插孔：用于连接带3.5mm音频插头的耳机或扬声器</li>
+</ul>
+<h2 id="%E5%85%A5%E9%97%A8%E6%8C%87%E5%AF%BC">入门指导</h2>
+<h3 id="1-%E7%B3%BB%E7%BB%9F%E9%85%8D%E7%BD%AE%E4%B8%8E%E9%A9%B1%E5%8A%A8%E5%AE%89%E8%A3%85">1. 系统配置与驱动安装</h3>
+<p><strong>step 1. 把ReSpeaker 2-Mics Pi HAT插入到Raspberry Pi</strong></p>
+<p>把 ReSpeaker 2-Mics Pi HAT 插入到 Raspberry Pi, 确保插入Raspberry Pi的时候针脚对齐。</p>
+<p>!!!Note</p>
+<pre><code>不要在上电的时候，热插拔ReSpeaker 2-Mics Pi HAT.
+</code></pre>
+<p><img src="https://github.com/SeeedDocument/MIC_HATv1.0_for_raspberrypi/blob/master/img/connection1.jpg?raw=true" alt="connection picture1">
+<img src="https://github.com/SeeedDocument/MIC_HATv1.0_for_raspberrypi/blob/master/img/connection2.jpg?raw=true" alt="connection picture2">
+<img src="https://github.com/yexiaobo-seeedstudio/MIC_HATv1.0_for_raspberrypi/blob/master/img/stack-on-zero.jpg?raw=true" alt="connection picture3"></p>
+<p><strong>step 2. 烧录系统，登陆，换源</strong></p>
+<p>因为当前的Pi内核目前不支持wm8960编解码器，所以我们需要手动构建。</p>
+<ol>
+<li>
+<p>确保您正在您的Pi上运行<a href="https://www.raspberrypi.org/downloads/raspbian/">最新的Raspbian操作系统（debian 9）</a>。 <em>（更新于2018.06.27）</em>，您可以用etcher进行系统烧录</p>
+</li>
+<li>
+<p>您可以用 <a href="https://www.raspberrypi.org/documentation/remote-access/vnc/">VNC</a>或者PUTTY连接树莓派，但之前请配置好wifi</p>
+</li>
+<li>
+<p>在安装驱动之前，请根据以下流程切换源到清华。</p>
+</li>
+</ol>
+<pre class="hljs"><code><div>pi@raspberrypi ~ $ sudo nano /etc/apt/sources.list
+</div></code></pre>
+<p>用#注释掉原文件内容，用以下内容取代：</p>
+<pre class="hljs"><code><div>deb http://mirrors.tuna.tsinghua.edu.cn/raspbian/raspbian/ stretch main non-free contrib
+deb-src http://mirrors.tuna.tsinghua.edu.cn/raspbian/raspbian/ stretch main non-free contrib
+</div></code></pre>
+<p><strong>step 3. 驱动下载并安装</strong>
+运行下面命令</p>
+<pre class="hljs"><code><div>sudo apt-get update
+sudo apt-get upgrade
+git clone https://github.com/respeaker/seeed-voicecard.git
+cd seeed-voicecard #下载声卡驱动
+sudo ./install.sh #安装声卡驱动
+reboot  #重启
+</div></code></pre>
+<p>!!!Note
+若驱动安装失败您可以跳转到FAQ的Q1以决解驱动安装失败问题。</p>
+<p><strong>step 4. 检查声卡名称是否与源代码seeed-voicecard相匹配.</strong></p>
+<pre class="hljs"><code><div>pi@raspberrypi:~/seeed-voicecard $ aplay -l
+**** List of PLAYBACK Hardware Devices ****
+card 0: ALSA [bcm2835 ALSA], device 0: bcm2835 ALSA [bcm2835 ALSA]
+  Subdevices: 8/8
+  Subdevice #0: subdevice #0
+  Subdevice #1: subdevice #1
+  Subdevice #2: subdevice #2
+  Subdevice #3: subdevice #3
+  Subdevice #4: subdevice #4
+  Subdevice #5: subdevice #5
+  Subdevice #6: subdevice #6
+  Subdevice #7: subdevice #7
+card 0: ALSA [bcm2835 ALSA], device 1: bcm2835 ALSA [bcm2835 IEC958/HDMI]
+  Subdevices: 1/1
+  Subdevice #0: subdevice #0
+card 1: seeed2micvoicec [seeed-2mic-voicecard], device 0: bcm2835-i2s-wm8960-hifi wm8960-hifi-0 []
+  Subdevices: 1/1
+  Subdevice #0: subdevice #0
+
+pi@raspberrypi:~/seeed-voicecard $ arecord -l
+**** List of CAPTURE Hardware Devices ****
+card 1: seeed2micvoicec [seeed-2mic-voicecard], device 0: bcm2835-i2s-wm8960-hifi wm8960-hifi-0 []
+  Subdevices: 1/1
+  Subdevice #0: subdevice #0
+pi@raspberrypi:~/seeed-voicecard $
+</div></code></pre>
+<h3 id="2-%E5%BD%95%E9%9F%B3%E6%92%AD%E6%94%BE%E6%B5%8B%E8%AF%95">2. 录音播放测试</h3>
+<p><strong>step 1. 录播测试</strong>
+可以用<code>arecord</code>录制，然后用<code>aplay</code>播放：(不要忘记插耳机或者喇叭):</p>
+<pre class="hljs"><code><div>arecord -f cd -Dhw:1 | aplay -Dhw:1
+</div></code></pre>
+<p>也可以通过audacity软件测试。打开Audacity后，选择 <strong>AC108和2通道</strong> 作为输入，<strong>bcm2835 alsa: - (hw：0，0)</strong> 作为输出来测试：</p>
+<pre class="hljs"><code><div>$ sudo apt update
+$ sudo apt install audacity
+$ audacity                      // 运行 audacity
+</div></code></pre>
+<p><img src="https://github.com/SeeedDocument/ReSpeaker-4-Mic-Array-for-Raspberry-Pi/blob/master/img/audacity.png?raw=true" alt=""></p>
+<p><strong>step 2. 调节音量（可跳过）</strong></p>
+<p><strong>alsamixer</strong> 是用于配置声音设置和调整音量，高级Linux声音体系结构（ALSA）的图形混音器程序。</p>
+<pre class="hljs"><code><div>pi@raspberrypi:~ $ alsamixer
+</div></code></pre>
+<p><img src="https://github.com/SeeedDocument/MIC_HATv1.0_for_raspberrypi/blob/master/img/alsamixer.png?raw=true" alt=""></p>
+<p>!!!Note</p>
+<pre><code>首先请用F6选择seeed-2mic的声卡设备。
+</code></pre>
+<p>左和右箭头键用于选择通道或设备，“向上和向下箭头”控制当前所选设备的音量。 退出程序使用ALT + Q或按Esc键。 <a href="https://en.wikipedia.org/wiki/Alsamixer">More information</a></p>
+<h3 id="3-%E5%AE%89%E8%A3%85python%E5%92%8C%E8%99%9A%E6%8B%9F%E7%8E%AF%E5%A2%83">3. 安装python和虚拟环境</h3>
+<p>这样是是为了隔离SDK与系统Python包关系。</p>
+<pre class="hljs"><code><div>
+pi@raspberrypi:~ $ <span class="hljs-built_in">cd</span> /home/pi
+pi@raspberrypi:~ $ git <span class="hljs-built_in">clone</span> https://github.com/respeaker/4mics_hat.git
+pi@raspberrypi:~ $ <span class="hljs-built_in">cd</span> /home/pi/4mics_hat
+pi@raspberrypi:~/4mics_hat $ sudo apt install python-virtualenv          <span class="hljs-comment"># 安装 python2 虚拟环境工具</span>
+pi@raspberrypi:~/4mics_hat $ virtualenv --system-site-packages ~/env     <span class="hljs-comment"># 建立虚拟环境，命名位env,放在~目录下</span>
+pi@raspberrypi:~/4mics_hat $ <span class="hljs-built_in">source</span> ~/env/bin/activate                   <span class="hljs-comment"># 激活虚拟环境</span>
+(env) pi@raspberrypi:~/4mics_hat $ pip install spidev gpiozero           <span class="hljs-comment"># 安装需要的工具包</span>
+</div></code></pre>
+<h2 id="%E6%8E%A7%E5%88%B6apa102-led%E7%9A%84%E7%A4%BA%E4%BE%8B">控制APA102 LED的示例</h2>
+<p>每个板载APA102 LED都有一个额外的驱动芯片，驱动芯片设置LED的颜色，然后保持该颜色，直到接收到新的命令。</p>
+<p><img src="https://github.com/SeeedDocument/MIC_HATv1.0_for_raspberrypi/blob/master/img/led.gif?raw=true" alt=""></p>
+<p>请在执行之前打开SPI，具体步骤如下:</p>
+<pre><code>- 输入： `sudo raspi-config`;
+- 选择 &quot;Interfacing Options&quot;;
+- 选择 &quot;SPI&quot;;
+- 选择 “Yes”  
+- 选择 “OK”
+- 选择 “Finish”
+</code></pre>
+<p>配置完后，可以执行下列命令行来运行led示例</p>
+<pre class="hljs"><code><div>cd ~/
+git clone https://github.com/respeaker/mic_hat.git
+sudo pip install spidev #安装spi的驱动
+cd mic_hat
+python pixels.py
+</div></code></pre>
+<h2 id="%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8%E7%94%A8%E6%88%B7%E8%87%AA%E5%AE%9A%E4%B9%89%E6%8C%89%E9%92%AE">如何使用用户自定义按钮</h2>
+<p>板子上面有个用户自定义按钮，连接到GPIO17. 我们可以调用python和RPi.GPIO来读取状态。</p>
+<pre class="hljs"><code><div>sudo pip install rpi.gpio    // install RPi.GPIO library
+nano button.py               // copy the following code in button.py
+</div></code></pre>
+<pre class="hljs"><code><div><span class="hljs-keyword">import</span> RPi.GPIO <span class="hljs-keyword">as</span> GPIO
+<span class="hljs-keyword">import</span> time
+
+BUTTON = <span class="hljs-number">17</span>
+
+GPIO.setmode(GPIO.BCM)
+GPIO.setup(BUTTON, GPIO.IN)
+
+<span class="hljs-keyword">while</span> <span class="hljs-keyword">True</span>:
+    state = GPIO.input(BUTTON)
+    <span class="hljs-keyword">if</span> state:
+        print(<span class="hljs-string">"off"</span>)
+    <span class="hljs-keyword">else</span>:
+        print(<span class="hljs-string">"on"</span>)
+    time.sleep(<span class="hljs-number">1</span>)
+</div></code></pre>
+<p>Save the code as button.py, then run it. It should display &quot;on&quot; when you press the button:</p>
+<pre class="hljs"><code><div>
+pi@raspberrypi:~ $ python button.py
+off
+off
+on
+on
+off
+
+</div></code></pre>
+<h2 id="alexa-sdk-%E5%92%8C-dueros-sdk">Alexa SDK 和 DuerOs SDK</h2>
+<p>由于国内登录不上 Google Assisant ，所以使用在国内能连接的 Alexa 和 百度 DuerOs 作为语音引擎，开发出能让大多数人使用的语音互动系统。</p>
+<h3 id="1-%E9%85%8D%E7%BD%AE%E5%92%8Cdoa%E6%B5%8B%E8%AF%95">1. 配置和DOA测试</h3>
+<p><strong>step 1. 配置 Voice engine</strong></p>
+<pre class="hljs"><code><div>pi@raspberrypi:~ $ source ~/env/bin/activate                    # 激活Python虚拟环境, 如果已经激活，调到下一步。
+(env) pi@raspberrypi:~ $ cd ~/4mics_hat
+(env) pi@raspberrypi:~/4mics_hat $ sudo apt install libatlas-base-dev     # 安装 snowboy dependencies
+(env) pi@raspberrypi:~/4mics_hat $ sudo apt install python-pyaudio        #安装pyaudio音频处理包
+(env) pi@raspberrypi:~/4mics_hat $ pip install ./snowboy*.whl             # 安装 snowboy for KWS
+(env) pi@raspberrypi:~/4mics_hat $ pip install ./webrtc*.whl              # 安装 webrtc for DoA
+(env) pi@raspberrypi:~ $ cd ~/
+(env) pi@raspberrypi:~ $ git clone https://github.com/voice-engine/voice-engine #write by seeed
+(env) pi@raspberrypi:~ $ cd voice-engine/
+(env) pi@raspberrypi:~ $ python setup.py install
+(env) pi@raspberrypi:~ $ cd examples
+(env) pi@raspberrypi:~ $ nano kws_doa.py
+</div></code></pre>
+<p><strong>step 2. 修改<code>kws_doa.py</code>的第14-21行，以适应 2-Mics：</strong></p>
+<pre class="hljs"><code><div>from voice_engine.doa_respeaker_4mic_array import DOA
+
+
+def main():
+    src = Source(rate=16000, channels=2)
+    ch1 = ChannelPicker(channels=2, pick=1)
+    kws = KWS()
+    doa = DOA(rate=16000)
+</div></code></pre>
+<p>然后保存退出。</p>
+<p><strong>step 3. 运行</strong></p>
+<p>在虚拟环境下运行 <code>python kws_doa.py</code>。请用 snowboy 来唤醒，我们就可以看到方位的信息。</p>
+<h3 id="2-%E7%99%BE%E5%BA%A6%E4%B8%AD%E6%96%87%E8%AF%AD%E9%9F%B3%E4%BA%92%E5%8A%A8%E6%88%96%E8%80%85alexa%E8%8B%B1%E6%96%87%E8%AF%AD%E9%9F%B3%E4%BA%92%E5%8A%A8">2. 百度中文语音互动或者alexa英文语音互动</h3>
+<p><strong>step 1. 配置和安装相关依赖</strong></p>
+<pre class="hljs"><code><div>pi@raspberrypi:~ $ source ~/env/bin/activate                    # activate the virtual, if we have already activated, skip this step
+(env) pi@raspberrypi:~ $ cd ~/
+(env) pi@raspberrypi:~ $ git clone https://github.com/respeaker/avs
+(env) pi@raspberrypi:~ $ cd avs                                 # install Requirements
+(env) pi@raspberrypi:~ $ python setup.py install                               
+(env) pi@raspberrypi:~/avs $ sudo apt install gstreamer1.0
+(env) pi@raspberrypi:~/avs $ sudo apt install gstreamer1.0-plugins-good
+(env) pi@raspberrypi:~/avs $ sudo apt install gstreamer1.0-plugins-ugly
+(env) pi@raspberrypi:~/avs $ sudo apt install python-gi gir1.2-gstreamer-1.0
+(env) pi@raspberrypi:~/avs $ pip install tornado
+</div></code></pre>
+<p><strong>step 2. 取得授权</strong></p>
+<p>在终端运行 <code>alexa-auth</code> ，然后登陆获取alexa的授权， 或者运行 <code>dueros-auth</code> 获取百度的授权。 授权的文件保存在<code>/home/pi/.avs.json</code>。</p>
+<p><img src="https://github.com/SeeedDocument/ReSpeaker-4-Mic-Array-for-Raspberry-Pi/raw/master/img/auth.png" alt=""></p>
+<p>!!!Note
+如果我们在 <code>alexa-auth</code> 和 <code>dueros-auth</code>之间切换, 请先删除 <code>/home/pi/.avs.json</code> 。 这个是隐藏文件，请用 <code>ls -la</code> 显示文件。</p>
+<p><strong>step 2. 配置</strong></p>
+<pre class="hljs"><code><div>(env) pi@raspberrypi:~ $ cd /home/pi
+(env) pi@raspberrypi:~ $ git clone https://github.com/respeaker/respeaker_v2_eval.git
+(env) pi@raspberrypi:~ $ cd respeaker_v2_eval/alexa
+(env) pi@raspberrypi:~/respeaker_v2_eval/alexa $ cp ~/4mics_hat/pixels.py ./pixels.py
+(env) pi@raspberrypi:~/respeaker_v2_eval/alexa $ nano ns_kws_doa_alexa.py
+</div></code></pre>
+<p>按照下面的信息更新第15-50行的设置:</p>
+<pre class="hljs"><code><div>    <span class="hljs-keyword">from</span> voice_engine.kws <span class="hljs-keyword">import</span> KWS
+    <span class="hljs-comment">#from voice_engine.ns import NS</span>
+    <span class="hljs-comment">#from voice_engine.doa_respeaker_4mic_array import DOA</span>
+    <span class="hljs-keyword">from</span> avs.alexa <span class="hljs-keyword">import</span> Alexa
+    <span class="hljs-keyword">from</span> pixels <span class="hljs-keyword">import</span> pixels
+
+    <span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">main</span><span class="hljs-params">()</span>:</span>
+        logging.basicConfig(level=logging.DEBUG)
+
+        src = Source(rate=<span class="hljs-number">16000</span>, channels=<span class="hljs-number">2</span>, frames_size=<span class="hljs-number">800</span>)
+        ch1 = ChannelPicker(channels=<span class="hljs-number">2</span>, pick=<span class="hljs-number">1</span>)
+        <span class="hljs-comment">#ns = NS(rate=16000, channels=1)</span>
+        kws = KWS(model=<span class="hljs-string">'snowboy'</span>)
+        <span class="hljs-comment">#doa = DOA(rate=16000)</span>
+        alexa = Alexa()
+
+        alexa.state_listener.on_listening = pixels.listen
+        alexa.state_listener.on_thinking = pixels.think
+        alexa.state_listener.on_speaking = pixels.speak
+        alexa.state_listener.on_finished = pixels.off
+
+        src.link(ch1)
+        ch1.link(kws)
+        <span class="hljs-comment">#ch1.link(ns)</span>
+        <span class="hljs-comment">#ns.link(kws)</span>
+        kws.link(alexa)
+
+        <span class="hljs-comment">#src.link(doa)</span>
+        <span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">on_detected</span><span class="hljs-params">(keyword)</span>:</span>
+            <span class="hljs-comment">#logging.info('detected {} at direction {}'.format(keyword, doa.get_direction()))</span>
+            logging.info(<span class="hljs-string">'detected {}'</span>.format(keyword))
+            alexa.listen()
+
+        kws.set_callback(on_detected)
+</div></code></pre>
+<p><img src="file:///c:/Users/59535/Desktop/wiki_chinese/docs/待替换" alt=""></p>
+<p><strong>step 3. 让我们High起来!</strong></p>
+<p>现在请在虚拟环境下运行 <code>python ns_kws_doa_alexa.py</code> , 我们会在终端看到很多 debug 的消息. 当我们看到 <strong>status code: 204</strong> 的时候, 请说 <code>snowboy</code> 来唤醒 respeaker。接下来 respeaker 上的 led 灯亮起来, 我们可以跟他对话, 比如问，&quot;谁是最帅的?&quot; 或者 &quot;播放刘德华的男人哭吧哭吧不是罪&quot;。小伙伴，尽情的 High 起来吧。</p>
+<h2 id="stt-%E8%AF%AD%E9%9F%B3%E8%BD%AC%E6%96%87%E5%AD%97">STT (语音转文字)</h2>
+<p>本部分将介绍百度STT（语音到文本）功能以及GPIO控件。 这是GPIO配置。 如果您没有风扇，可以在GPIO12 / GPIO13上连接2个LED进行演示。</p>
+<table>
+<thead>
+<tr>
+<th>GPIO</th>
+<th>Turn On</th>
+<th>Faster</th>
+<th>Slower</th>
+<th>Turn Off</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>GPIO12</td>
+<td>1</td>
+<td>0</td>
+<td>1</td>
+<td>0</td>
+</tr>
+<tr>
+<td>GPIO13</td>
+<td>0</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Step 1. 安装依赖</strong></p>
+<pre class="hljs"><code><div>sudo apt install mpg123
+pip install baidu-aip monotonic pyaudio
+</div></code></pre>
+<p><strong>Step 2. 从百度获取key <a href="https://console.bce.baidu.com/ai/?fromai=1#/ai/speech/overview/index">Here</a>.</strong></p>
+<p><strong>Step 3. 下载源码并执行 <a href="https://github.com/SeeedDocument/MIC_HATv1.0_for_raspberrypi/raw/master/src/baidu_STT/Smart_fan.py">Smart_Fan.py</a></strong></p>
+<p>输入下列命令运行代码</p>
+<pre class="hljs"><code><div>cd ~
+wget https://github.com/SeeedDocument/MIC_HATv1.0_for_raspberrypi/raw/master/src/baidu_STT.zip
+unzip baidu_STT.zip
+cd baidu_STT
+python Smart_Fan.py
+</div></code></pre>
+<p>!!!Warning
+请在运行 Smart_Fan.py之前添加百度密钥 @ line 36,37,38。 您还可以通过运行synthesis_wav.py来生成所有者的声音。 请在第6,7,8行添加百度密钥，并将字符串修改为您要生成的内容。</p>
+<p><strong>Step 4. 说 '开风扇'.</strong></p>
+<p><strong>Step 5. 你会看到风扇开启.</strong></p>
+<p><strong>Step 6. 可以试试 '快一点', '慢一点' 或 '关风扇'.</strong></p>
+<h2 id="faq%E7%96%91%E9%97%AE%E8%A7%A3%E7%AD%94">FAQ(疑问解答)</h2>
+<p><strong>Q1:严格按照本 wiki 操作，驱动还是安装失败，怎么办？</strong></p>
+<p>A1:如果按照上述方法安装驱动均失败，请点击下面固件安装</p>
+<p><a href="https://v2.fangcloud.com/share/7395fd138a1cab496fd4792fe5?folder_id=188000207913">我是固件</a></p>
+<p>需要以下几点需要注意，第一，lite版本是没有图形界面的精简版,建议您安装有图形界面的。第二，烧了固件后，记得换源。第三， 如果要使用交互功能之前请命令行输入alexa-auth或dueros-auth申请授权，授权成功后会在/home/pi目录下生成.avs.json文件，这时才能使用交互功能。第四，/home/pi目录下会有 respeaker的例程文件夹,可以根据用的mic不同而使用相应的例程。但是请烧录系统后在respeaker目录下更新下例程，可以在respeaker目录下执行<code>git pull origin master</code>命令来更新。</p>
+<p><strong>Q2: #include &quot;portaudio.h&quot; Error when run &quot;sudo pip install pyaudio&quot;.</strong></p>
+<p>A2: 命令行输入如下命令</p>
+<pre class="hljs"><code><div>sudo apt-get install portaudio19-dev
+</div></code></pre>
+<p><strong>Q3 关于安装snowboy时出现不适合该平台的警告提醒</strong></p>
+<p>A3: 目前snowboy只能兼容python2，所以通过在安装python的虚拟环境时，请确保是python2</p>
+<p><strong>Q4 有时候 sudo python file.py 时候会出现依赖问题</strong></p>
+<p>A4:测试时发现sudo执行时候默认从系统环境执行，而wiki中用到的依赖都是装在~/env 下的，可以通过 <code>sudo ~/env/bin/python file.py</code>来解决</p>
+<p><strong>Q5 可以通过3.5毫米音频插孔的播放来听到声音，但是在运行ns_kws_doa_alexa_with_light.py时听不到声音</strong></p>
+<p>A5： 我们有3个播放器（mpv，mpg123和gstreamer）可以使用。 mpg123更适合语音识别和唤醒更，它更具响应性； 而AudioPlayer 更适用gstreamer&gt; mpv&gt; mpg123。 Gstreamer支持更多音频格式，并且在raspberry pi上运行良好。 我们还可以使用环境变量PLAYER指定AudioPlayer的播放器。 所以请尝试以下命令启用语音。</p>
+<pre class="hljs"><code><div>
+  sudo apt install mpg123
+  PLAYER=mpg123 python ns_kws_doa_alexa_with_light.py
+</div></code></pre>
+<p><strong>Q6 在运行语音交互时候喊 snowboy 没反应</strong></p>
+<p>A6:请运行audacity以确保4个频道良好。 如果有一个没有数据的频道，当我们说snowboy时就没有回复。</p>
+<h2 id="%E8%B5%84%E6%BA%90%E4%B8%8B%E8%BD%BD">资源下载</h2>
+<ul>
+<li><strong>[Eagle]</strong> <a href="https://github.com/SeeedDocument/MIC_HATv1.0_for_raspberrypi/raw/master/src/ReSpeaker%202-Mics%20Pi%20HAT_SCH.zip">Respeaker_2_Mics_Pi_HAT_SCH</a></li>
+<li><strong>[Eagle]</strong> <a href="https://github.com/SeeedDocument/MIC_HATv1.0_for_raspberrypi/raw/master/src/ReSpeaker%202-Mics%20Pi%20HAT_PCB.zip">Respeaker_2_Mics_Pi_HAT_PCB</a></li>
+<li><strong>[PDF]</strong> <a href="https://github.com/SeeedDocument/MIC_HATv1.0_for_raspberrypi/raw/master/src/ReSpeaker%202-Mics%20Pi%20HAT_SCH.pdf">Respeaker_2_Mics_Pi_HAT_SCH</a></li>
+<li><strong>[PDF]</strong> <a href="https://github.com/SeeedDocument/MIC_HATv1.0_for_raspberrypi/raw/master/src/ReSpeaker%202-Mics%20Pi%20HAT_PCB.pdf">Respeaker_2_Mics_Pi_HAT_PCB</a></li>
+</ul>
+
+</body>
+</html>

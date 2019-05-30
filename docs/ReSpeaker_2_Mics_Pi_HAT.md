@@ -96,6 +96,10 @@ sudo ./install.sh #安装声卡驱动
 reboot  #重启
 ```
 
+!!!Note
+
+    若驱动安装失败您可以跳转到FAQ的Q1以解决驱动安装失败问题。
+
 **step 4. 检查声卡名称是否与源代码seeed-voicecard相匹配.**
 
 ```
@@ -243,6 +247,7 @@ off
 ## Alexa SDK 和 DuerOs SDK
 
 由于国内登录不上 Google Assisant ，所以使用在国内能连接的 Alexa 和 百度 DuerOs 作为语音引擎，开发出能让大多数人使用的语音互动系统。
+
 ### 1. 配置和DOA测试
 
 **step 1. 配置 Voice engine**
@@ -406,11 +411,17 @@ python Smart_Fan.py
 
 **Q1:严格按照本 wiki 操作，驱动还是安装失败，怎么办？**
 
-A1:如果按照上述方法安装驱动均失败，请点击下面固件安装
+A1:如果按照上述方法安装驱动均失败，请点击下载下面镜像
 
-[我是固件](https://v2.fangcloud.com/share/7395fd138a1cab496fd4792fe5?folder_id=188000207913)
+[2018-08-06-raspbian-4GB-for-respeaker](https://v2.fangcloud.com/share/7395fd138a1cab496fd4792fe5?folder_id=188000207913)
 
-需要以下几点需要注意，第一，lite版本是没有图形界面的精简版,建议您安装有图形界面的。第二，烧了固件后，记得换源。第三， 如果要使用交互功能之前请命令行输入alexa-auth或dueros-auth申请授权，授权成功后会在/home/pi目录下生成.avs.json文件，这时才能使用交互功能。第四，/home/pi目录下会有 respeaker的例程文件夹,可以根据用的mic不同而使用相应的例程。但是请烧录系统后在respeaker目录下更新下例程，可以在respeaker目录下执行``` git pull origin master ```命令来更新。
+请执行下面的步骤：
+
+- 第一， 烧写下载好的镜像，烧了镜像后，记得换源。
+
+- 第二， 如果要使用交互功能之前请命令行输入alexa-auth或dueros-auth申请授权，授权成功后会在 /home/pi目录下生成.avs.json文件，这时才能使用交互功能。
+
+- 第三，/home/pi目录下会有 respeaker的例程文件夹,可以根据用的mic不同而使用相应的例程。但是请烧录系统后在respeaker目录下更新下例程，可以在respeaker目录下执行``` git pull origin master ```命令来更新。
 
 **Q2: #include "portaudio.h" Error when run "sudo pip install pyaudio".**
 

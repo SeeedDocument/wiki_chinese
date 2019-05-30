@@ -91,6 +91,11 @@ sudo ./install.sh #安装声卡驱动
 reboot  #重启
 ```
 
+
+!!!Note
+
+    若驱动安装失败您可以跳转到FAQ的Q1以解决驱动安装失败问题。
+
 **step 4. 检查声卡名称是否与源代码seeed-voicecard相匹配.**
 
 
@@ -342,13 +347,13 @@ python Smart_Fan.py
 
 **Q1:严格按照本 wiki 操作，驱动还是安装失败，怎么办？**
 
-A1:如果按照上述方法安装驱动均失败，请点击下面固件安装
+A1:如果按照上述方法安装驱动均失败，请点击下载下面镜像
 
-[我是固件](https://v2.fangcloud.com/share/7395fd138a1cab496fd4792fe5?folder_id=188000207913)
+[2018-08-06-raspbian-4GB-for-respeaker](https://v2.fangcloud.com/share/7395fd138a1cab496fd4792fe5?folder_id=188000207913)
 
 请执行下面的步骤：
 
-- 第一， 烧写下载好的固件，烧了固件后，记得换源。
+- 第一， 烧写下载好的镜像，烧了镜像后，记得换源。
 
 - 第二， 如果要使用交互功能之前请命令行输入alexa-auth或dueros-auth申请授权，授权成功后会在 /home/pi目录下生成.avs.json文件，这时才能使用交互功能。
 
