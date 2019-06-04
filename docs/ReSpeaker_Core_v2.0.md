@@ -1423,6 +1423,16 @@ step 2. 将自定义或者别人的关键词`.pmdl`文件下载到`/usr/share/re
 
 step 3. 修改`/etc/respeaker/respeakerd.conf`文件里面的`snowboy_model_path = /usr/share/respeaker/snowboy/resources/***.pmdl`。其中`***.pmdl`为刚刚从`snowboy`官网上面下载的。
 
+**A8:** ReSpeaker Core v2.0里面的火狐浏览器不能使用了怎么办？
+
+Q8：
+
+运行
+```
+sudo apt install midori 
+```
+重新安装以一个浏览器来代替火狐浏览器
+
 ## 资源下载
 - **[PDF]** [Download PDF of This Wiki](https://github.com/SeeedDocument/Respeaker_V2/raw/master/res/ReSpeaker_Core_v2.pdf)
 - **[PDF]** [Rockchip RK3229 Datasheet V1.1](https://github.com/SeeedDocument/Respeaker_V2/raw/master/res/Rockchip%20RK3229%20Datasheet%20V1.1%2020151209.pdf)

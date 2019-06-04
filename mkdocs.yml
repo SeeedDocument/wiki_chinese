@@ -442,7 +442,7 @@ pages:
     - 如何编辑Wiki: How_to_edit_Wiki.md
     - Arduino图形化编程使用指南: Guide_for_Codecraft_using_Arduino.md
     - Jetson Nano开箱示例指南: Jetson_Nano_OutBoxing_Demo.md
-    
+    - 气体传感器类别说明: Seeed_Gas_Sensor_Selection_Guide.md
   - 文档协议: license.md
 
 # Google Analytics

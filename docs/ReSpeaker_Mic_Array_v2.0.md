@@ -481,7 +481,7 @@ interface: {
 
 ## FAQ
 
-**Q1: Parameters of built-in algorithms**
+**Q1: 内置算法的参数**
 
 
 ```
@@ -609,13 +609,15 @@ DOAANGLE: 180
 A3: Yes, we can connect the mic array v2.0 to raspberry usb port and follow [Raspberry Pi Quick Start Guide with Script](https://github.com/alexa/avs-device-sdk/wiki/Raspberry-Pi-Quick-Start-Guide-with-Script) to do the voice interaction with alexa.
 
 
-**Q4: Do you have the example for Mic array v2.0 with ROS system?**
+**Q4: 有在ROS系统上面运行Mic array v2.0 的历程吗**
 
 A4: Yes, thanks for Yuki sharing the package for integrating [ReSpeaker Mic Array v2 with ROS (Robot Operating System) Middleware](https://github.com/furushchev/respeaker_ros).
 
 **Q5: 能直接通过3.5mm耳机孔听到采样的声音吗?**
 
 A5 不行的。3.5mm耳机孔音源来自于上位机，但是如果用树莓派的话可以通过执行arecord -D plughw:1,0 -f cd |aplay -D plughw:1,0 -f cd 达到目的
+
+
 
 ## 资源下载
 - **[产品简介]** [ReSpeaker MicArray v2.0 Product Brief](https://github.com/SeeedDocument/ReSpeaker_Mic_Array_V2/raw/master/res/ReSpeaker%20MicArray%20v2.0%20Product%20Brief.pdf)
