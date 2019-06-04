@@ -1,7 +1,7 @@
 ![](https://github.com/SeeedDocument/Seeed_Gas_Sensor_Selection_Guide/raw/master/img/Seeed_Gas_Sensor_Selection_Guide.jpg)
 
 气体传感器能够探测存在于环境中的各种气体
-## Operating Principle
+## 工作原理
 
 
 可以通过检测的气体和传感器表面发生各种反应来检测气体，主要的反应包括电阻、电容、质量、光学特性的改变等。
@@ -16,8 +16,6 @@
 | 磁性氧气式 | 利用空气中的氧气可以被强磁场吸引 |
 
 <div align="center"><b>Table 1.</b><i>气体传感器的分类表 </i></div>
-
-
 
 
 ## 应用领域
@@ -50,21 +48,21 @@
 
 如下表所示：
 
-| 名字 | 检测气体 | 气体传感器原理| 应用场景| 传感器|检测范围 | 精度 |工作电压 | 接口 |
-|------|---------|--------------|--------|------|---------|-----|--------|------|
-| Grove - Air Quality Sensor v1.3 | alcohol, smoke | 电化学| 智能农业| MP503  | 10-1000ppm(smoke)| NA | 3.3V 5V  | Analog |
-| Grove - alcohol Sensor| alcohol| 电化学  | 汽车内环境检测，室内环境检测| MQ303A | 20-1000ppm alcohol | NA | 5V | Analog |
-| Grove - CO2 Sensor | CO2| 电化学| 智能农业| MH-Z16 | 0-5000ppm| ±(50ppm +5%)| 5V| UART|
-| Grove - CO2 & Temperature & Humidity Sensor (SCD30)| CO2| 光学| 智能农业| SCD30 |0-40000ppm| ±(30 ppm + 3%)| 3.3V 5V| I2C|
-| Grove - VOC and eCO2 Gas Sensor (SGP30)| VOC,CO2| 电气学| 智能农业| SGP30      | VOC: 0 ppb to 60000ppb  CO2: 400 ppm to 60000 ppm | VOC: (0-2008ppb/1ppb, 2008-11110ppb/6ppb, 11110-60000ppb/32ppb)  CO2: (400-1479ppm/1ppm, 1479-5144ppm/3ppm, 5144-17597ppm/9ppm, 17597-60000ppm/31ppm) | 3.3V 5V| I2C|
-| Grove - Gas Sensor(MQ2)| LPG, i-butane, propane, methane, alcohol, Hydrogen, smoke | 电化学| 室内安全| MQ2| LPG and propane: 200ppm-5000ppm  Butane: 300ppm-5000ppm  Methane: 5000ppm-20000ppm  H2: 300ppm-5000ppm  alcohol:100ppm-2000ppm     | NA| 5V| Analog |
-| Grove - Gas Sensor(MQ3)| High sensitivity to alcohol and small sensitivity to Benzine | 电化学| 汽车内环境检测,室内环境检测| MQ3| alcohol: 0.05-10mg/L| NA| 5V | Analog|
-| Grove - Gas Sensor(MQ5)| High sensitivity to LPG, natural gas, town gas and Small sensitivity to alcohol, smoke| 电化学 | 工业级检测，汽车内环境检测| MQ5| 200-10000ppm| NA| 5V| Analog|
-| Grove - Gas Sensor(MQ9)| High sensitivity to carbon monoxide and CH4，LPG| 电化学| 汽车内环境检测，工业级检测 | MQ9        | Carbon monoxide: 20-2000ppm    CH4: 500-10000ppm  LPG: 500-10000ppm | NA | 5V| Analog|
-| Grove - Gas Sensor(O2)| O2| 电化学| 汽车内环境检测，工业级检测 | ME2-O2-Ф20 | 0～25%Vol | NA | 3.3V 5V | Analog |
-| Grove - HCHO Sensor| Toluene, methanal, benzene, alcohol, acetone | 电化学 | 环境检测 | WSP2110| 1～50ppm| NA  | 3.3V 5V | Analog|
-| Grove - Multichannel Gas Sensor| Carbon monoxide,Nitrogen dioxide, Ethanol, Hydrogen, Ammonia, Methane, Propane, Iso-butane   | 电气学| 环境检测 | MiCS-6814  | CO: 1–1000ppm   NO2: 0.05–10ppm   H2: 10–500ppm   C2H5OH: 1-1000ppm  NH3: 1-500ppm  CH4: >1000ppm  C3H8: >1000ppm  C4H10: >1000ppm | NA| 3.3V 5V | I2C|
-| Grove - Temperature, Humidity, Pressure and Gas Sensor (BME680) | IAQ| 电气学| 室内环境检测| BME680 | 0-500| NA | 3.3V 5V | I2C|
+| 名字 | 检测气体 | 气体传感器原理| 应用场景| 传感器|检测范围 | 精度 |工作电压 | 接口 |点击购买|
+|------|---------|--------------|--------|------|---------|-----|--------|------|----|
+| Grove - Air Quality Sensor v1.3 | 酒精, 烟雾 | 电化学| 智能农业| MP503  | 10-1000ppm(烟雾)| NA | 3.3V 5V  | Analog |[链接](https://www.seeedstudio.com/Grove-Air-quality-sensor-v1.3-p-2439.html)|
+| Grove - alcohol Sensor| 酒精| 电化学  | 汽车内环境检测，室内环境检测| MQ303A | 20-1000ppm 酒精 | NA | 5V | Analog |[Order](https://www.seeedstudio.com/Grove-Alcohol-Sensor-p-764.html)|
+| Grove - CO2 Sensor | CO2| 电化学| 智能农业| MH-Z16 | 0-5000ppm| ±(50ppm +5%)| 5V| UART|[Order](https://www.seeedstudio.com/Grove-Carbon-Dioxide-Sensor-MH-Z1-p-1863.html)|
+| Grove - CO2 & Temperature & Humidity Sensor (SCD30)| CO2| 光学| 智能农业| SCD30 |0-40000ppm| ±(30 ppm + 3%)| 3.3V 5V| I2C|[Order](https://www.seeedstudio.com/catalog/product/view/id/2911/s/Grove-CO2-Temperature-Humidity-Sensor-SCD30-p-2911/)|
+| Grove - VOC and eCO2 Gas Sensor (SGP30)| VOC,CO2| 电气学| 智能农业| SGP30 | VOC: 0 ppb to 60000ppb  CO2: 400 ppm to 60000 ppm | VOC: (0-2008ppb/1ppb, 2008-11110ppb/6ppb, 11110-60000ppb/32ppb)  CO2: (400-1479ppm/1ppm, 1479-5144ppm/3ppm, 5144-17597ppm/9ppm, 17597-60000ppm/31ppm) | 3.3V 5V| I2C|[Order](https://www.seeedstudio.com/Grove-VOC-and-eCO2-Gas-Sensor-SGP30-p-3071.html)|
+| Grove - Gas Sensor(MQ2)| LPG, i-butane, C3H8, CH4, 酒精, 氢气, 烟雾 | 电化学| 室内安全| MQ2| LPG 和C3H8: 200ppm-5000ppm  i-butane: 300ppm-5000ppm  Methane: 5000ppm-20000ppm  H2: 300ppm-5000ppm  alcohol:100ppm-2000ppm | NA| 5V| Analog |[Order](https://www.seeedstudio.com/Grove-VOC-and-eCO2-Gas-Sensor-SGP30-p-3071.html) |
+| Grove - Gas Sensor(MQ3)| 酒精和butane| 电化学| 汽车内环境检测,室内环境检测| MQ3| 酒精: 0.05-10mg/L| NA| 5V | Analog|[Order](https://www.seeedstudio.com/Grove-Gas-Sensor-MQ-p-1418.html) |
+| Grove - Gas Sensor(MQ5)|  LPG, 自然气体, town gas and Small sensitivity to alcohol, smoke| 电化学 | 工业级检测，汽车内环境检测| MQ5| 200-10000ppm| NA| 5V| Analog|[Order](https://www.seeedstudio.com/Grove-Gas-Sensor-MQ-p-938.html)|
+| Grove - Gas Sensor(MQ9)| High sensitivity to carbon monoxide and CH4，LPG| 电化学| 汽车内环境检测，工业级检测 | MQ9| Carbon monoxide: 20-2000ppm    CH4: 500-10000ppm  LPG: 500-10000ppm | NA | 5V| Analog|[Order](https://www.seeedstudio.com/Grove-Gas-Sensor-MQ-p-1419.html)|
+| Grove - Gas Sensor(O2)| O2| 电化学| 汽车内环境检测，工业级检测 | ME2-O2-Ф20 | 0～25%Vol | NA | 3.3V 5V | Analog |[Order](https://www.seeedstudio.com/Grove-Gas-Sensor-MQ-p-1419.html)|[Order](https://www.seeedstudio.com/Grove-Oxygen-Sensor-ME2-O2-2-p-1541.html)|
+| Grove - HCHO Sensor| 甲苯，甲醛，苯，乙醇，丙酮 | 电化学 | 环境检测 | WSP2110| 1～50ppm| NA  | 3.3V 5V | Analog|[Order](https://www.seeedstudio.com/Grove-HCHO-Sensor-p-1593.html)|
+| Grove - Multichannel Gas Sensor| 一氧化碳，二氧化氮，乙醇，氢，氨，甲烷，丙烷，异丁烷  | 电气学| 环境检测 | MiCS-6814  | CO: 1–1000ppm   NO2: 0.05–10ppm   H2: 10–500ppm   C2H5OH: 1-1000ppm  NH3: 1-500ppm  CH4: >1000ppm  C3H8: >1000ppm  C4H10: >1000ppm | NA| 3.3V 5V | I2C|[Order](https://www.seeedstudio.com/Grove-Multichannel-Gas-Sensor-p-2502.html)|
+| Grove - Temperature, Humidity, Pressure and Gas Sensor (BME680) | IAQ| 电气学| 室内环境检测| BME680 | 0-500| NA | 3.3V 5V | I2C|[Order](https://www.seeedstudio.com/Grove-Temperature-Humidity-Pressure-and-Gas-Sensor-BME68-p-3109.html)|
 
 <div align="center"><b>Table 3.</b><i>Seeed气体传感器分类表</i></div>
 
