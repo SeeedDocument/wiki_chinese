@@ -349,6 +349,12 @@ python tuning.py -p
 python tuning.py AGCONOFF 0
 ```
 
+同时，对应liunx我们也可以安装一个可视化的调音软件
+
+```
+sudo apt-get install pavucontrol
+```
+
 ### 提取语音
 
 使用 [PyAudio python library](https://people.csail.mit.edu/hubert/pyaudio/) 通过 USB 提取语音。

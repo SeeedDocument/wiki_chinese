@@ -118,7 +118,7 @@ Arduino, Raspberrypi, bbg, linkitone
 #### 烧录例程
 
 
-1. 到 [这里](https://github.com/Seeed-Studio/Grove_Serial_MP3_Player_V2.0) 下载驱动库。
+1. 到 [这里](https://github.com/Seeed-Studio/Seeed_Serial_MP3_Player) 下载驱动库。
 2. 把下载的驱动库放到Arduino IDE的 [libraries](http://www.seeedstudio.com/wiki/Guide_to_use_demos_downloaded_from_Seeed%27s_Github) 文件夹
 3. 打开MP3_Play_Test的example，把代码烧录到Seeeduino
 4. 打开串口监视器（Ctrl + Shift + M），发送命令播放音乐
