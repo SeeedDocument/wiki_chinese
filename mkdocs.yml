@@ -123,6 +123,7 @@ pages:
       - Wio Link: Wio_Link.md
       - Wio LTE Cat.1: Wio_LTE_Cat.1.md
       - Wio Node: Wio_Node.md
+      - Wio LTE Cat M1 NB-IoT Tracker: Wio-LTE-Cat-M1-NB-IoT-Tracker.md
 
 
     - LinkIt:
