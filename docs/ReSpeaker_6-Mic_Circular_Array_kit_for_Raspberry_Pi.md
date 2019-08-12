@@ -25,6 +25,7 @@ ReSpeaker 6-Mic圆形阵列支持在Raspian系统下八通道输入输出。其�
 
 ## 产品特性
 
+- Raspberry Pi兼容（支持Raspberry Pi Zero和Zero W，Raspberry Pi B +，Raspberry Pi 2 B和Raspberry Pi 3 B，Raspberry Pi 4 B，Raspberry Pi 3 B +）
 - 2个ADC 芯片和一个 DAC芯片
 - 8输入8输出通道
 - 六麦克阵列
@@ -32,10 +33,8 @@ ReSpeaker 6-Mic圆形阵列支持在Raspian系统下八通道输入输出。其�
 - 与树莓派40针接口兼容
 - 耳机和扬声器输出
 
-
-
-
 ## 规格说明
+
 - 2 x X-Power AC108 ADC
 - 6 x高性能贴片模拟麦克
 - 1 x X-Power AC101 DAC
@@ -46,9 +45,6 @@ ReSpeaker 6-Mic圆形阵列支持在Raspian系统下八通道输入输出。其�
 - 麦克风: Knowles SPU0414HR5HSB
 - 灵敏度: -22 dBFS (Omnidirectional)
 - SNR: 59 dB
-
-
-
 
 ## 创意应用
 
@@ -61,12 +57,9 @@ ReSpeaker 6-Mic圆形阵列支持在Raspian系统下八通道输入输出。其�
 - 汽车语音助手
 - 其他需要语音指令的设计
 
-
-
 ## 硬件概述
 
 ![](https://github.com/SeeedDocument/ReSpeaker_6-Mics_Circular_Array_kit_for_Raspberry_Pi/raw/master/img/hardware.jpg)
-
 
 ## 安装图示  
 

@@ -109,6 +109,10 @@ sku: 104990262
 
 3.修改`/boot/uEnv.txt `里面的配置文件
 
+```bash
+sudo nano /boot/uEnv.txt
+```
+
 假如是7寸的就修改为
 
 ![](https://github.com/SeeedDocument/BBG-LCD-Cape-with-Resistive-Touch/raw/master/img/7-inch-config.png)
@@ -116,6 +120,10 @@ sku: 104990262
 假如是5寸就修改为
 
 ![](https://github.com/SeeedDocument/BBG-LCD-Cape-with-Resistive-Touch/raw/master/img/5-inch-config.png)
+
+如果使用的是beagleboneHDMI接口显示的设备，取消注释`disable_uboot_overlay_video=1`
+
+![](https://github.com/SeeedDocument/BBG-LCD-Cape-with-Resistive-Touch/raw/master/img/HDMI-config.png)
 
 4.重新启动系统则可以LED闪烁，则可以看如下界面
 
@@ -126,4 +134,3 @@ sku: 104990262
 
 - **[原理图]** [Schematic files](http://statics3.seeedstudio.com/assets/file/bazaar/product/5INCH_BBG_00A2_SCH.pdf)
 
-<!-- This Markdown file was created from http://www.seeedstudio.com/wiki/BeagleBone_Green_HDMI_Cape -->

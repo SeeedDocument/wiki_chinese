@@ -18,7 +18,7 @@ sku: 103030216
 
 ## 产品特征
 
-* Raspberry Pi兼容（支持Raspberry Pi Zero和Zero W，Raspberry Pi B +，Raspberry Pi 2 B和Raspberry Pi 3 B）
+* Raspberry Pi兼容（支持Raspberry Pi Zero和Zero W，Raspberry Pi B +，Raspberry Pi 2 B和Raspberry Pi 3 B，Raspberry Pi 4 B，Raspberry Pi 3 B +）
 * 4个麦克风
 * 3米半径的语音捕捉
 * 2个Grove接口

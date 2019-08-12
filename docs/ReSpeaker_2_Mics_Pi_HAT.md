@@ -21,7 +21,7 @@ ReSpeaker 2-Mics Pi HAT是专为AI和语音应用设计的Raspberry Pi双麦克�
 
 ## 产品特征
 
-* Raspberry Pi兼容（支持Raspberry Pi Zero和Zero W，Raspberry Pi B +，Raspberry Pi 2 B和Raspberry Pi 3 B）
+* Raspberry Pi兼容（支持Raspberry Pi Zero和Zero W，Raspberry Pi B +，Raspberry Pi 2 B和Raspberry Pi 3 B，Raspberry Pi 4 B，Raspberry Pi 3 B +）
 * 2个麦克风
 * 2个Grove接口
 * 1个自定义按钮
@@ -414,6 +414,8 @@ python Smart_Fan.py
 A1:如果按照上述方法安装驱动均失败，请点击下载下面镜像
 
 [2018-08-06-raspbian-4GB-for-respeaker](https://v2.fangcloud.com/share/7395fd138a1cab496fd4792fe5?folder_id=188000207913)
+
+![](https://github.com/SeeedDocument/2mics_hat/raw/master/img/image_select.JPG)
 
 请执行下面的步骤：
 

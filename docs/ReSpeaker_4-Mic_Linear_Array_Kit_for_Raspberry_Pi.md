@@ -22,6 +22,7 @@ ReSpeaker 4-Mic线性阵列支持在Raspian系统下八通道输入输出。其�
 
 ## 产品特性
 
+- Raspberry Pi兼容（支持Raspberry Pi Zero和Zero W，Raspberry Pi B +，Raspberry Pi 2 B和Raspberry Pi 3 B，Raspberry Pi 4 B，Raspberry Pi 3 B +）
 - 2个ADC 芯片和一个 DAC芯片
 - 8输入8输出通道
 - 四麦克阵列
@@ -30,6 +31,7 @@ ReSpeaker 4-Mic线性阵列支持在Raspian系统下八通道输入输出。其�
 - 耳机和扬声器输出
 
 ## 规格参数
+
 - 2 x X-Power AC108 ADC
 - 4 x高性能贴片模拟麦克
 - 1 x X-Power AC101 DAC
