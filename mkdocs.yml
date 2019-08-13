@@ -445,6 +445,7 @@ pages:
     - 如何编辑Wiki: How_to_edit_Wiki.md
     - Arduino图形化编程使用指南: Guide_for_Codecraft_using_Arduino.md
     - Jetson Nano开箱示例指南: Jetson_Nano_OutBoxing_Demo.md
+    - Jetson Nano串口通信: Jetson-Nano–Serial-Console.md
     - 气体传感器类别说明: Seeed_Gas_Sensor_Selection_Guide.md
     - Jetson Nano VS Raspberry 4: Raspberry_4_vs_jetson_nano.md
   - 文档协议: license.md
