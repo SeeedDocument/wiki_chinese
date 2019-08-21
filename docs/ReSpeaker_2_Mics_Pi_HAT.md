@@ -75,7 +75,7 @@ ReSpeaker 2-Mics Pi HAT是专为AI和语音应用设计的Raspberry Pi双麦克�
   3. 在安装驱动之前，请根据以下流程切换源到清华。
 
 ```
-pi@raspberrypi ~ $ sudo nano /etc/apt/sources.list
+sudo nano /etc/apt/sources.list
 ```
 
 用#注释掉原文件内容，用以下内容取代：
@@ -154,7 +154,7 @@ $ audacity                      // 运行 audacity
 **alsamixer** 是用于配置声音设置和调整音量，高级Linux声音体系结构（ALSA）的图形混音器程序。
 
 ```bash
-pi@raspberrypi:~ $ alsamixer
+alsamixer
 ```
 
 ![](https://github.com/SeeedDocument/MIC_HATv1.0_for_raspberrypi/blob/master/img/alsamixer.png?raw=true)
@@ -165,20 +165,6 @@ pi@raspberrypi:~ $ alsamixer
 
 左和右箭头键用于选择通道或设备，“向上和向下箭头”控制当前所选设备的音量。 退出程序使用ALT + Q或按Esc键。 [More information](https://en.wikipedia.org/wiki/Alsamixer)
 
-### 3. 安装python和虚拟环境
-
-  这样是是为了隔离SDK与系统Python包关系。
-
-```bash
-
-pi@raspberrypi:~ $ cd /home/pi
-pi@raspberrypi:~ $ git clone https://github.com/respeaker/4mics_hat.git
-pi@raspberrypi:~ $ cd /home/pi/4mics_hat
-pi@raspberrypi:~/4mics_hat $ sudo apt install python-virtualenv          # 安装 python2 虚拟环境工具
-pi@raspberrypi:~/4mics_hat $ virtualenv --system-site-packages ~/env     # 建立虚拟环境，命名位env,放在~目录下
-pi@raspberrypi:~/4mics_hat $ source ~/env/bin/activate                   # 激活虚拟环境
-(env) pi@raspberrypi:~/4mics_hat $ pip install spidev gpiozero           # 安装需要的工具包
-```
 
 ## 控制APA102 LED的示例
 
@@ -235,7 +221,7 @@ Save the code as button.py, then run it. It should display "on" when you press t
 
 ```bash
 
-pi@raspberrypi:~ $ python button.py
+python button.py
 off
 off
 on
@@ -252,26 +238,28 @@ off
 
 **step 1. 配置 Voice engine**
 ```
-pi@raspberrypi:~ $ source ~/env/bin/activate                    # 激活Python虚拟环境, 如果已经激活，调到下一步。
-(env) pi@raspberrypi:~ $ cd ~/4mics_hat
-(env) pi@raspberrypi:~/4mics_hat $ sudo apt install libatlas-base-dev     # 安装 snowboy dependencies
-(env) pi@raspberrypi:~/4mics_hat $ sudo apt install python-pyaudio        #安装pyaudio音频处理包
-(env) pi@raspberrypi:~/4mics_hat $ pip install ./snowboy*.whl             # 安装 snowboy for KWS
-(env) pi@raspberrypi:~/4mics_hat $ pip install ./webrtc*.whl              # 安装 webrtc for DoA
-(env) pi@raspberrypi:~ $ cd ~/
-(env) pi@raspberrypi:~ $ git clone https://github.com/voice-engine/voice-engine #write by seeed
-(env) pi@raspberrypi:~ $ cd voice-engine/
-(env) pi@raspberrypi:~ $ python setup.py install
-(env) pi@raspberrypi:~ $ cd examples
-(env) pi@raspberrypi:~ $ nano kws_doa.py
+cd /home/pi
+git clone https://github.com/respeaker/4mics_hat.git
+cd /home/pi/4mics_hat
+pip install spidev gpiozero           # 安装需要的工具包
+cd ~/4mics_hat
+sudo apt install libatlas-base-dev     # 安装 snowboy dependencies
+sudo apt install python-pyaudio        # 安装pyaudio音频处理包
+pip install ./snowboy*.whl             # 安装 snowboy for KWS
+pip install ./webrtc*.whl              # 安装 webrtc for DoA
+cd ~/
+git clone https://github.com/voice-engine/voice-engine #write by seeed
+cd voice-engine/
+python setup.py bdist_wheel
+pip install dist/*.whl
+cd examples
+nano kws_doa.py
 ```
 
 **step 2. 修改`kws_doa.py`的第14-21行，以适应 2-Mics：**
 
 ```
 from voice_engine.doa_respeaker_4mic_array import DOA
-
-
 def main():
     src = Source(rate=16000, channels=2)
     ch1 = ChannelPicker(channels=2, pick=1)
@@ -289,16 +277,17 @@ def main():
 **step 1. 配置和安装相关依赖**
 
 ```
-pi@raspberrypi:~ $ source ~/env/bin/activate                    # activate the virtual, if we have already activated, skip this step
-(env) pi@raspberrypi:~ $ cd ~/
-(env) pi@raspberrypi:~ $ git clone https://github.com/respeaker/avs
-(env) pi@raspberrypi:~ $ cd avs                                 # install Requirements
-(env) pi@raspberrypi:~ $ python setup.py install                               
-(env) pi@raspberrypi:~/avs $ sudo apt install gstreamer1.0
-(env) pi@raspberrypi:~/avs $ sudo apt install gstreamer1.0-plugins-good
-(env) pi@raspberrypi:~/avs $ sudo apt install gstreamer1.0-plugins-ugly
-(env) pi@raspberrypi:~/avs $ sudo apt install python-gi gir1.2-gstreamer-1.0
-(env) pi@raspberrypi:~/avs $ pip install tornado
+cd ~/
+git clone https://github.com/respeaker/avs
+cd avs                                 # install Requirements
+python setup.py install
+pip install avs==0.5.3
+sudo apt install libgstreamer1.0-0
+sudo apt install gstreamer1.0-plugins-bad gstreamer1.0-plugins-ugly 
+sudo apt install gstreamer1.0-libav gstreamer1.0-doc gstreamer1.0-tool
+sudo apt install gstreamer1.0-plugins-good
+sudo apt install python-gi gir1.2-gstreamer-1.0
+pip install tornado==5.1.1
 ```
 **step 2. 取得授权**
 
@@ -312,55 +301,27 @@ pi@raspberrypi:~ $ source ~/env/bin/activate                    # activate the v
 **step 2. 配置**
 
 ```
-(env) pi@raspberrypi:~ $ cd /home/pi
-(env) pi@raspberrypi:~ $ git clone https://github.com/respeaker/respeaker_v2_eval.git
-(env) pi@raspberrypi:~ $ cd respeaker_v2_eval/alexa
-(env) pi@raspberrypi:~/respeaker_v2_eval/alexa $ cp ~/4mics_hat/pixels.py ./pixels.py
-(env) pi@raspberrypi:~/respeaker_v2_eval/alexa $ nano ns_kws_doa_alexa.py
+cd ~/4mics_hat
+nano ns_kws_doa_alexa_with_light.py
 ```
-按照下面的信息更新第15-50行的设置:
+按照下面的信息更新下面代码的设置:
 
 ```python
-    from voice_engine.kws import KWS
-    #from voice_engine.ns import NS
-    #from voice_engine.doa_respeaker_4mic_array import DOA
-    from avs.alexa import Alexa
-    from pixels import pixels
 
-    def main():
-        logging.basicConfig(level=logging.DEBUG)
+src = Source(rate=16000, channels=2)
+ch1 = ChannelPicker(channels=2, pick=1)
+ns = NS(rate=16000, channels=1)
+kws = KWS(model='snowboy')
+doa = DOA(rate=16000)
+alexa = Alexa()
 
-        src = Source(rate=16000, channels=2, frames_size=800)
-        ch1 = ChannelPicker(channels=2, pick=1)
-        #ns = NS(rate=16000, channels=1)
-        kws = KWS(model='snowboy')
-        #doa = DOA(rate=16000)
-        alexa = Alexa()
-
-        alexa.state_listener.on_listening = pixels.listen
-        alexa.state_listener.on_thinking = pixels.think
-        alexa.state_listener.on_speaking = pixels.speak
-        alexa.state_listener.on_finished = pixels.off
-
-        src.link(ch1)
-        ch1.link(kws)
-        #ch1.link(ns)
-        #ns.link(kws)
-        kws.link(alexa)
-
-        #src.link(doa)
-        def on_detected(keyword):
-            #logging.info('detected {} at direction {}'.format(keyword, doa.get_direction()))
-            logging.info('detected {}'.format(keyword))
-            alexa.listen()
-
-        kws.set_callback(on_detected)
 ```
 ![](待替换)
 
 **step 3. 让我们High起来!**
 
-现在请在虚拟环境下运行 `python ns_kws_doa_alexa.py` , 我们会在终端看到很多 debug 的消息. 当我们看到 **status code: 204** 的时候, 请说 `snowboy` 来唤醒 respeaker。接下来 respeaker 上的 led 灯亮起来, 我们可以跟他对话, 比如问，"谁是最帅的?" 或者 "播放刘德华的男人哭吧哭吧不是罪"。小伙伴，尽情的 High 起来吧。
+
+现在请在虚拟环境下运行 `python ns_kws_doa_alexa_with_light.py` , 我们会在终端看到很多 debug 的消息. 当我们看到 **status code: 204** 的时候, 请说 `snowboy` 来唤醒 respeaker。接下来 respeaker 上的 led 灯亮起来, 我们可以跟他对话, 比如问，"谁是最帅的?" 或者 "播放刘德华的男人哭吧哭吧不是罪"。小伙伴，尽情的 High 起来吧。
 
 
 ## STT (语音转文字)
@@ -411,7 +372,7 @@ python Smart_Fan.py
 
 **Q1:严格按照本 wiki 操作，驱动还是安装失败，怎么办？**
 
-A1:如果按照上述方法安装驱动均失败，请点击下载下面镜像
+A1:如果按照上述方法安装驱动均失败，请点击下载下面镜像(不适用4带)
 
 [2018-08-06-raspbian-4GB-for-respeaker](https://v2.fangcloud.com/share/7395fd138a1cab496fd4792fe5?folder_id=188000207913)
 
@@ -450,6 +411,7 @@ A4:测试时发现sudo执行时候默认从系统环境执行，而wiki中用到
 
   sudo apt install mpg123
   PLAYER=mpg123 python ns_kws_doa_alexa_with_light.py
+
 ```
 
 **Q6 在运行语音交互时候喊 snowboy 没反应**

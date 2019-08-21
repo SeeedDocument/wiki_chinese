@@ -485,6 +485,117 @@ interface: {
 
 **对于 Windows 系统 :** 请参考 [ODAS](https://github.com/introlab/odas).
 
+### 基于树莓派的free-avs
+
+**step 1. 配置和安装相关依赖**
+
+```
+git clone https://github.com/respeaker/4mics_hat.git
+cd ~/4mics_hat
+sudo apt install libatlas-base-dev     # 安装 snowboy dependencies
+sudo apt install python-pyaudio        # 安装pyaudio音频处理包
+pip install ./snowboy*.whl             # 安装 snowboy for KWS
+pip install ./webrtc*.whl              # 安装 webrtc for DoA
+cd ~/
+git clone https://github.com/voice-engine/voice-engine #write by seeed
+cd voice-engine/
+python setup.py bdist_wheel
+pip install dist/*.whl
+cd ~/
+git clone https://github.com/respeaker/avs
+cd avs                                 # install Requirements
+python setup.py install
+pip install avs==0.5.3
+sudo apt install libgstreamer1.0-0
+sudo apt install gstreamer1.0-plugins-bad gstreamer1.0-plugins-ugly 
+sudo apt install gstreamer1.0-libav gstreamer1.0-doc gstreamer1.0-tool
+sudo apt install gstreamer1.0-plugins-good
+sudo apt install python-gi gir1.2-gstreamer-1.0
+pip install tornado==5.1.1
+sudo apt install mpg123
+```
+**step 2. 取得授权**
+
+在终端运行 alexa-auth ，然后登陆获取alexa的授权， 或者运行 dueros-auth 获取百度的授权。 授权的文件保存在/home/pi/.avs.json。
+![](https://github.com/SeeedDocument/ReSpeaker-4-Mic-Array-for-Raspberry-Pi/raw/master/img/auth.png)
+
+!!!Note
+    如果我们在 alexa-auth 和 dueros-auth之间切换, 请先删除 /home/pi/.avs.json 。 这个是隐藏文件，请用 ls -la 显示文件。
+
+**step 3. 让我们High起来!**
+```
+cd ~/4mics_hat
+nano ns_kws_doa_alexa_with_light.py
+```
+按照下面的信息更新下面代码的设置:
+```
+"""
+Hands-free Voice Assistant with Snowboy and Alexa Voice Service.
+
+Requirement:
+    sudo apt-get install python-numpy
+    pip install webrtc-audio-processing
+    pip install spidev
+"""
+
+
+import time
+import logging
+from voice_engine.source import Source
+from voice_engine.channel_picker import ChannelPicker
+from voice_engine.kws import KWS
+from voice_engine.ns import NS
+from voice_engine.doa_respeaker_4mic_array import DOA
+from avs.alexa import Alexa
+#from pixels import pixels
+
+
+def main():
+    logging.basicConfig(level=logging.DEBUG)
+
+    src = Source(rate=16000, channels=4, device_name='sysdefault') 
+    ch1 = ChannelPicker(channels=4, pick=1)
+    ns = NS(rate=16000, channels=1)
+    kws = KWS(model='snowboy')
+    doa = DOA(rate=16000)
+    alexa = Alexa()
+
+#    alexa.state_listener.on_listening = pixels.listen
+#    alexa.state_listener.on_thinking = pixels.think
+#    alexa.state_listener.on_speaking = pixels.speak
+#    alexa.state_listener.on_finished = pixels.off
+
+    def on_detected(keyword):
+        direction = doa.get_direction()
+        logging.info('detected {} at direction {}'.format(keyword, direction))
+ #       pixels.wakeup(direction)
+        alexa.listen()
+
+    kws.on_detected = on_detected
+
+    src.link(ch1)
+    ch1.link(ns)
+    ns.link(kws)
+    kws.link(alexa)
+
+    src.link(doa)
+
+    src.recursive_start()
+
+    while True:
+        try:
+            time.sleep(1)
+        except KeyboardInterrupt:
+            break
+
+    src.recursive_stop()
+
+
+if __name__ == '__main__':
+    main()
+```
+运行`PLAYER=mpg123 python ns_kws_doa_alexa_with_light.py`, 我们会在终端看到很多 debug 的消息. 当我们看到`status code: 204`的时候, 请说`snowboy`来唤醒 respeaker。接下来 respeaker 上的 led 灯亮起来, 我们可以跟他对话, 比如问，"谁是最帅的?" 或者 "播放刘德华的男人哭吧哭吧不是罪"。小伙伴，尽情的 High 起来吧。
+
 ## FAQ
 
 **Q1: 内置算法的参数**

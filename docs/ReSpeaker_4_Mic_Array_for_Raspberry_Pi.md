@@ -72,7 +72,7 @@ sku: 103030216
 3. 在安装驱动之前，请根据以下流程切换源到清华。
 
 ```
-  pi@raspberrypi ~ $ sudo nano /etc/apt/sources.list
+  sudo nano /etc/apt/sources.list
 ```
 
 用#注释掉原文件内容，用以下内容取代：
@@ -131,6 +131,7 @@ plughw:CARD=seeed4micvoicec,DEV=0
 如果要更改alsa设置，可以使用`sudo alsactl --file=ac108_asound.state store`保存。 当你需要再次使用这些设置时，将它复制到：`sudo cp ~/seeed-voicecard/ac108_asound.state /var/lib/alsa/asound.state`
 
 ### 2. 录音播放测试
+
   **step 1. 录播测试**
  可以用`arecord`录制，然后用`aplay`播放：(不要忘记插耳机或者喇叭):
 
@@ -154,7 +155,7 @@ $ audacity                      // 运行 audacity
 **alsamixer** 是用于配置声音设置和调整音量，高级Linux声音体系结构（ALSA）的图形混音器程序。
 
 ```
-pi@raspberrypi:~ $ alsamixer
+alsamixer
 ```
 
 ![](https://github.com/SeeedDocument/MIC_HATv1.0_for_raspberrypi/blob/master/img/alsamixer.png?raw=true)
@@ -165,20 +166,7 @@ pi@raspberrypi:~ $ alsamixer
 左和右箭头键用于选择通道或设备，“向上和向下箭头”控制当前所选设备的音量。 退出程序使用ALT + Q或按Esc键。 [More information](https://en.wikipedia.org/wiki/Alsamixer)
 
 
-### 3. 安装python和虚拟环境
-  这样是是为了隔离SDK与系统Python包关系。
-```
-
-pi@raspberrypi:~ $ cd /home/pi
-pi@raspberrypi:~ $ git clone https://github.com/respeaker/4mics_hat.git
-pi@raspberrypi:~ $ cd /home/pi/4mics_hat
-pi@raspberrypi:~/4mics_hat $ sudo apt install python-virtualenv          # 安装 python2 虚拟环境工具
-pi@raspberrypi:~/4mics_hat $ virtualenv --system-site-packages ~/env     # 建立虚拟环境，命名位env,放在~目录下
-pi@raspberrypi:~/4mics_hat $ source ~/env/bin/activate                   # 激活虚拟环境
-```
-
-
-### 4. 控制APA102 LED的示例
+### 3. 控制APA102 LED的示例
 
 每个板载APA102 LED都有一个额外的驱动芯片，驱动芯片设置LED的颜色，然后保持该颜色，直到接收到新的命令。
 
@@ -196,70 +184,37 @@ pi@raspberrypi:~/4mics_hat $ source ~/env/bin/activate                   # 激�
 - 配置完后，可以执行下列命令行来运行led示例  
 
 ```
-(env) pi@raspberrypi:~ $ pip install spidev gpiozero           # 安装 spidev 和 gpiozero
-(env) pi@raspberrypi:~ $ git clone --depth 1 https://github.com/respeaker/pixel_ring.git   #安装pixel_ring
-(env) pi@raspberrypi:~ $ cd pixel_ring
-(env) pi@raspberrypi:~ $ pip install -U -e .
+pip install spidev gpiozero           # 安装 spidev 和 gpiozero
+git clone --depth 1 https://github.com/respeaker/pixel_ring.git   #安装pixel_ring
+cd pixel_ring
+pip install -U -e .
+cd examples/
 ```
 
-- 在虚拟环境下运行 `python pixels.py`, 你可以看到LED像Google Assistant灯光一样闪烁。
-
-### 5. 如何使用用户自定义按钮
-
-板子上面有个用户自定义按钮，连接到GPIO17. 我们可以调用python和RPi.GPIO来读取状态。
-
-```
-sudo pip install rpi.gpio    // install RPi.GPIO library
-nano button.py               // copy the following code in button.py
-```
-
-```python
-import RPi.GPIO as GPIO
-import time
-
-BUTTON = 17
-
-GPIO.setmode(GPIO.BCM)
-GPIO.setup(BUTTON, GPIO.IN)
-
-while True:
-    state = GPIO.input(BUTTON)
-    if state:
-        print("off")
-    else:
-        print("on")
-    time.sleep(1)
-```
-
-Save the code as button.py, then run it. It should display "on" when you press the button:
-
-```
-pi@raspberrypi:~ $ python button.py
-off
-off
-on
-on
-off
-```
+- 在虚拟环境下运行 `python respeaker_4mic_array.py`, 你可以看到LED像Google Assistant灯光一样闪烁。
 
 ##  Alexa SDK  和 DuerOs SDK
 
 由于国内登录不上 Google Assisant ，所以使用在国内能连接的 Alexa 和 百度 DuerOs 作为语音引擎，开发出能让大多数人使用的语音互动系统。
+
 ###  1. 配置和DOA测试
 
 **step 1. 配置 Voice engine**
 ```
-pi@raspberrypi:~ $ source ~/env/bin/activate                    # 激活Python虚拟环境, 如果已经激活，调到下一步。
-(env) pi@raspberrypi:~ $ cd ~/4mics_hat
-(env) pi@raspberrypi:~/4mics_hat $ sudo apt install libatlas-base-dev     # 安装 snowboy dependencies
-(env) pi@raspberrypi:~/4mics_hat $ sudo apt install python-pyaudio        #安装pyaudio音频处理包
-(env) pi@raspberrypi:~/4mics_hat $ pip install ./snowboy*.whl             # 安装 snowboy for KWS
-(env) pi@raspberrypi:~/4mics_hat $ pip install ./webrtc*.whl              # 安装 webrtc for DoA
-(env) pi@raspberrypi:~ $ cd ~/
-(env) pi@raspberrypi:~ $ git clone https://github.com/voice-engine/voice-engine #write by seeed
-(env) pi@raspberrypi:~ $ cd voice-engine/
-(env) pi@raspberrypi:~ $ python setup.py install
-(env) pi@raspberrypi:~ $ cd examples/respeaker_4mic_array_for_pi
+cd /home/pi
+git clone https://github.com/respeaker/4mics_hat.git
+cd /home/pi/4mics_hat
+cd ~/4mics_hat
+sudo apt install libatlas-base-dev     # 安装 snowboy dependencies
+sudo apt install python-pyaudio        #安装pyaudio音频处理包
+pip install ./snowboy*.whl             # 安装 snowboy for KWS
+pip install ./webrtc*.whl              # 安装 webrtc for DoA
+cd ~/
+git clone https://github.com/voice-engine/voice-engine #write by seeed
+cd voice-engine/
+python setup.py bdist_wheel
+pip install dist/*.whl
+cd examples/respeaker_4mic_array_for_pi
 ```
 
 
@@ -270,20 +225,18 @@ pi@raspberrypi:~ $ source ~/env/bin/activate                    # 激活Python�
 ### 2. 百度中文语音互动或者alexa英文语音互动
 
 **step 1. 配置和安装相关依赖**
-
   ```
-  pi@raspberrypi:~ $ source ~/env/bin/activate                    # activate the virtual, if we have already activated, skip this step
-  (env) pi@raspberrypi:~ $ cd ~/
-  (env) pi@raspberrypi:~ $ git clone https://github.com/respeaker/avs
-  (env) pi@raspberrypi:~ $ cd avs                                 # install Requirements
-  (env) pi@raspberrypi:~ $ python setup.py install                               
-  (env) pi@raspberrypi:~ $ pip install avs==0.5.3 
-  (env) pi@raspberrypi:~/avs $ sudo apt install gstreamer1.0
-  (env) pi@raspberrypi:~/avs $ sudo apt install gstreamer1.0-plugins-good
-  (env) pi@raspberrypi:~/avs $ sudo apt install gstreamer1.0-plugins-ugly
-  (env) pi@raspberrypi:~/avs $ sudo apt install python-gi gir1.2-gstreamer-1.0
-  (env) pi@raspberrypi:~/avs $ pip install tornado==5.1.1
-  (env) pi@raspberrypi:~/avs $ cd ~/voice-engine/examples/respeaker_4mic_array_for_pi
+  cd ~/
+  git clone https://github.com/respeaker/avs
+  cd avs                                 # install Requirements
+  python setup.py install
+  pip install avs==0.5.3
+  sudo apt install libgstreamer1.0-0
+  sudo apt install gstreamer1.0-plugins-bad gstreamer1.0-plugins-ugly 
+  sudo apt install gstreamer1.0-libav gstreamer1.0-doc gstreamer1.0-tool
+  sudo apt install gstreamer1.0-plugins-good
+  sudo apt install python-gi gir1.2-gstreamer-1.0
+  pip install tornado==5.1.1
   ```
 **step 2. 取得授权**
 
