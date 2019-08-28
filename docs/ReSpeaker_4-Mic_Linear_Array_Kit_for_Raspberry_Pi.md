@@ -159,16 +159,21 @@ pi@192.168.43.210's password:raspberry
 
   3. 在安装驱动之前，请根据以下流程切换源到清华。
 
-```
-pi@raspberrypi ~ $ sudo nano /etc/apt/sources.list
-```
-
-用#注释掉原文件内容，用以下内容取代：
 
 ```
-deb http://mirrors.tuna.tsinghua.edu.cn/raspbian/raspbian/ stretch main non-free contrib
-deb-src http://mirrors.tuna.tsinghua.edu.cn/raspbian/raspbian/ stretch main non-free contrib
+sudo nano /etc/apt/sources.list
 ```
+
+如果是用#注释掉原文件内容，用以下内容取代：
+
+```
+deb http://mirrors.tuna.tsinghua.edu.cn/raspbian/raspbian/ buster main non-free contrib
+deb-src http://mirrors.tuna.tsinghua.edu.cn/raspbian/raspbian/ buster main non-free contrib
+```
+
+!!!Note
+
+    如果是2019-06-20之前版本 需要将`buster`修改为`Stretch`可以通过`cat /etc/rpi-issue`查看是什么时候发布的版本 
 
 **step 2. 驱动下载并安装**
 运行下面命令

@@ -68,22 +68,28 @@ ReSpeaker 2-Mics Pi HAT是专为AI和语音应用设计的Raspberry Pi双麦克�
 
 因为当前的Pi内核目前不支持wm8960编解码器，所以我们需要手动构建。
 
-  1. 确保您正在您的Pi上运行[最新的Raspbian操作系统（debian 9）](https://www.raspberrypi.org/downloads/raspbian/)。 *（更新于2018.06.27）*，您可以用etcher进行系统烧录
+  1. 确保您正在您的Pi上运行[最新的Raspbian操作系统（debian 9）](https://www.raspberrypi.org/downloads/raspbian/)，您可以用etcher进行系统烧录
 
   2.  您可以用 [VNC](https://www.raspberrypi.org/documentation/remote-access/vnc/)或者PUTTY连接树莓派，但之前请配置好wifi
 
   3. 在安装驱动之前，请根据以下流程切换源到清华。
 
+
 ```
 sudo nano /etc/apt/sources.list
 ```
 
-用#注释掉原文件内容，用以下内容取代：
+如果是用#注释掉原文件内容，用以下内容取代：
 
 ```
-deb http://mirrors.tuna.tsinghua.edu.cn/raspbian/raspbian/ stretch main non-free contrib
-deb-src http://mirrors.tuna.tsinghua.edu.cn/raspbian/raspbian/ stretch main non-free contrib
+deb http://mirrors.tuna.tsinghua.edu.cn/raspbian/raspbian/ buster main non-free contrib
+deb-src http://mirrors.tuna.tsinghua.edu.cn/raspbian/raspbian/ buster main non-free contrib
 ```
+
+!!!Note
+
+    如果是2019-06-20之前版本 需要将`buster`修改为`Stretch`可以通过`cat /etc/rpi-issue`查看是什么时候发布的版本 
+
 **step 3. 驱动下载并安装**
 运行下面命令
 
