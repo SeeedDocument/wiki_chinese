@@ -892,11 +892,11 @@ dfu-util -a firmware.dfu -D m2k.dfu
 
 Scope是一个具有强大信号分析能力的多功能软件工具包。
 
-[Scopy 使用指南](http://wiki.seeedstudio.com/ADALM2000-M2K-Scopy)
+[Scopy 使用指南](https://wiki.analog.com/university/tools/m2k/scopy)
 
 
 ## 6. Alice 使用指南
 
 本文档用作ALICE桌面软件界面的用户指南，该界面是为与ADALM2000主动学习工具包硬件一起使用而编写的。 
 
-[Alice 使用指南](http://wiki.seeedstudio.com/ADALM2000-M2K-Alice)
+[Alice 使用指南](https://wiki.analog.com/university/tools/m2k/alice/users-guide-m2k)
