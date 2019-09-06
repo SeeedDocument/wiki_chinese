@@ -247,22 +247,16 @@ import serial
 import os
 from gpiozero import LED
 
-send_str = "*******rs485888888--\r\n"
+send_str = "*******rs485888888--\n"
 
-ser = serial.Serial(port='/dev/ttyAMA0',baudrate =115200,bytesize=8,stopbits=1,timeout=1)
-Rx_Led = LED(18)
+ser = serial.Serial(port='/dev/ttyS0',baudrate =115200)
 
-last_time = time.time()
+Tx_Enable = LED(18)
+Tx_Enable.on()
 
-now_time = time.time()
-Rx_Led.on()
-time.sleep(0.01)
-n = 800
-while n>0:
+while 1:
     ser.write(send_str)
-    n=n-1
-#    time.sleep(0.001)
-Rx_Led.off()
+    time.sleep(1)
 
 ```
 
@@ -275,36 +269,22 @@ Rx_Led.off()
 ```Python
 
 #!/usr/bin/env python
-          
+
 import time
 import serial
 import os
 from gpiozero import LED
 
+ser = serial.Serial(port='/dev/ttyS0',baudrate =115200,timeout=1)
+data = ''
 
-send_str = "********abcdefghijklmnopqrstuvwxyz&"
-Rx_Led = LED(18)     
-ser = serial.Serial(port='/dev/ttyAMA0',baudrate =115200,bytesize=8,stopbits=1,timeout=1)
-    
-last_time = time.time()
-while 1:
-    now_time = time.time()
-    if((now_time-last_time)>=1):
-        last_time = now_time
-#        print "172 sending"
-        Rx_Led.on()
-        time.sleep(0.01)
-        ser.write(send_str)
-        time.sleep(0.01)
-        Rx_Led.off()
-    Rx_Led.off()
-    time.sleep(0.01)
-    count = ser.inWaiting()
-    if(count != 0):
-        x=ser.readline()
-        if "********" in x:
-#            print "str length is: " + str(count)
-            print x
+Rx_Disable = LED(18)
+Rx_Disable.off()
+
+while True:
+    str = ser.readall()  
+    if str:  
+        print str 
 
 ```
 

@@ -64,6 +64,9 @@ ReSpeaker 4-Mic线性阵列支持在Raspian系统下八通道输入输出。其�
 
 ![](https://github.com/SeeedDocument/ReSpeaker_4-Mics_Linear_Array_Kit/raw/master/img/Hardware.jpg)
 
+!!!Note
+    
+    接好后，一定要先使用万用表确定电路的导通是不是按照上图指示的那样
 
 ## 安装图示  
 

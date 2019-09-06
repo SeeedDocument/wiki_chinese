@@ -61,6 +61,10 @@ ReSpeaker 6-Mic圆形阵列支持在Raspian系统下八通道输入输出。其�
 
 ![](https://github.com/SeeedDocument/ReSpeaker_6-Mics_Circular_Array_kit_for_Raspberry_Pi/raw/master/img/hardware.jpg)
 
+!!!Note
+    
+    接好后，一定要先使用万用表确定电路的导通是不是按照上图指示的那样
+
 ## 安装图示  
 
 ![](https://github.com/SeeedDocument/Bazaar_file/raw/master/107990055/img/ab.png)

@@ -458,9 +458,9 @@ wf.close()
 - Step 1. 获得 ODAS 并构建它。
 
 ```
-sudo apt-get install libfftw3-dev libconfig-dev libasound2-dev
+sudo apt-get install libfftw3-dev libconfig-dev libasound2-dev libgconf-2-4
 sudo apt-get install cmake
-git clone https://github.com/introlab/odas.git --branch=dev
+git clone https://github.com/introlab/odas.git
 mkdir odas/build
 cd odas/build
 cmake ..
@@ -469,15 +469,7 @@ make
 
 - Step 2. 获得 [ODAS Studio](https://github.com/introlab/odas_web/releases) 然后打开.
 
-- Step 3. odascore 将位于 odas/bin/odascore，配置文件是 [odas.cfg](https://github.com/respeaker/usb_4_mic_array/blob/master/odas.cfg)。请根据您的声卡号更改 odas.cfg。
-
-```
-interface: {
-    type = "soundcard";
-    card = 1;
-    device = 0;
-}
-```
+- Step 3. odascore 将位于 odas/bin/odascore，配置文件是 [odas.cfg](https://raw.githubusercontent.com/respeaker/usb_4_mic_array/master/odas.cfg)。请根据您的声卡号更改 odas.cfg。
 
 - Step 4. 使用包含 4 声道原始音频数据的 i6_firmware.bin 更新麦克风阵列。
 
