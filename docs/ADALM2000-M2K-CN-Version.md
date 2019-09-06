@@ -34,7 +34,7 @@ ADALM2000 是一个便携性实验室。它不仅仅是几个部分的简单组�
 
 ## ADALM2000 学生和普通用户
 
-[1.普通用户和学生指南](http://wiki.seeedstudio.com/ADALM2000-fo-End-Users)
+[1.普通用户和学生指南](http://wiki.seeedstudio.com/cn/ADALM2000-for-End-Users/)
     
   - 用户可通过Scopy 或 Alice与现实世界的模拟信号交互。
   - 这部分内容讲述了设备的大致情况以及如何正确安装驱动和主机软件，我们建议所有用户仔细阅读这部分内容。
@@ -44,7 +44,7 @@ ADALM2000 是一个便携性实验室。它不仅仅是几个部分的简单组�
 
 ## ADALM2000 开发者
 
-[2.开发者指南](http://wiki.seeedstudio.com/ADALM2000-for-Developers)
+[2.开发者指南](http://wiki.seeedstudio.com/cn/ADALM2000-for-Developers)
     
   - 正常情况下用户软件和硬件描述语言HDL（针对于FPGA）是直接在ADALM2000设备上运行的，这会让ADALM2000工作在不同模式下，支持不同的外部USB设备（包括局域网或WiFi），从而实现设备功能扩展。里面包含了编译HDL工程、编译内核以及为满足定制USB供应商和厂商识别码及运行自定义用户空间应用而作出修改的所有信息。
 
