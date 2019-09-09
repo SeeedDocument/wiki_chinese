@@ -88,7 +88,7 @@ ADALM2000主动学习模块配套硬件和外设：
     - [Windows](#31-windows-driver)、[Linux](#32-linux-driver) 或 [MAC](#33-mac-os-x-diver)
 - 2、连接USB，检查设备是否正常工作
     - [Windows](#31-windows-driver)、[Linux](#32-linux-driver) 或 [MAC](#33-mac-os-x-diver)
-- 3、安装 [Scopy](http://wiki.seeedstudio.com/ADALM2000-M2K-Scopy)
+- 3、安装 [Scopy](http://wiki.seeedstudio.com/cn/ADALM2000-M2K-Scopy/)
 
 
 
