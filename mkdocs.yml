@@ -169,7 +169,7 @@ pages:
       - ADALM2000-M2K 中文版: ADALM2000-M2K-CN-Version.md
       - ADALM2000 学生和普通用户指南: ADALM2000-for-End-Users.md
       - ADALM2000 Scopy: ADALM2000-M2K-Scopy.md
-      - ADALM2000 Oscilloscope: ADALM2000-M2K-Oscilloscope.md
+      - ADALM2000 Oscilloscope(示波器): ADALM2000-M2K-Oscilloscope.md
 
     - Shield:
       - Shield: Shield.md
