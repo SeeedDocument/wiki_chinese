@@ -165,6 +165,16 @@ pages:
       - ReSpeaker Mic Array: ReSpeaker_Mic_Array.md
       - SoundPi: SoundPi.md
 
+    - ADALM2000-M2K:
+      - ADALM2000 学生及普通用户指南: ADALM2000-for-End-Users.md
+      - ADALM2000 M2K CN Version: ADALM2000-M2K-CN-Version.md
+      - ADALM2000 M2K Scopy: ADALM2000-M2K-Scopy.md
+      - Scopy Oscilloscope(示波器): ADALM2000-M2K-Oscilloscope.md
+      - Scopy Spectrum Analyzer(频谱分析仪): ADALM2000-M2K-Spectrum-Analyzer.md
+      - Scopy Network Analyzer(网络分析仪): ADALM2000-M2K-Network-Analyzer.md
+      - Scopy Signal Generator(信号发生器): ADALM2000-M2K-Signal-Generator.md
+      - Scopy Logic Analyzer(逻辑分析仪): ADALM2000-M2K-Logic-Analyzer.md
+      - Scopy Pattern Generator(模式发生器): ADALM2000-M2K-Pattern-Generator.md
 
     - Shield:
       - Shield: Shield.md
