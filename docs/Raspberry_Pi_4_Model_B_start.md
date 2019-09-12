@@ -129,3 +129,4 @@ sudo raspi-config
 **步骤 3.** 下载 [Real vnc](https://www.baidu.com/link?url=iW6RVDaZdafJwUX4boQhLuh7MNRw4HkAi4QgoqmnfDXU4bT46q_bCJmDjLUpERyvWlFnof0B4D4VDeaZYD51Ea&wd=&eqid=a185411b00045afd000000065d4beff3)安装并打开，输入树莓派的IP
 
 ![](https://github.com/SeeedDocument/Raspberry-4-get-start/raw/master/img/vnc_display.png)
+

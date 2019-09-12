@@ -449,6 +449,7 @@ pages:
     - Jetson Nano串口通信: Jetson-Nano–Serial-Console.md
     - 气体传感器类别说明: Seeed_Gas_Sensor_Selection_Guide.md
     - Jetson Nano VS Raspberry 4: Raspberry_4_vs_jetson_nano.md
+    - Arduino as ISP: Arduino-Bootloader.md
   - 文档协议: license.md
 
 # Google Analytics
