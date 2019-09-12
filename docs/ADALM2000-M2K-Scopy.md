@@ -242,15 +242,15 @@ Scopy为每个可用仪器提供了分离窗口的功能，优化视图，方便
 
 各个仪器用户指南：
 
-- [1.Oscilloscope(示波器)](http://wiki.seeedstudio.com/cn/ADALM2000-M2K-Oscilloscope)
-- 2.Spectrum Analyzer(频谱分析仪)
-- 3.Network Analyzer(网络分析仪)
-- 4.Signal Generator(信号发生器)
-- 5.Logic Analyzer(逻辑分析仪)
-- 6.Pattern Generator(模式发生器)
-- 7.Digital IO(数字输入输出控制)
-- 8.Voltmeter(电压表)
-- 9.Power Supply(电源)
+- [1.Oscilloscope - 示波器](http://wiki.seeedstudio.com/cn/ADALM2000-M2K-Oscilloscope)
+- [2.Spectrum Analyzer - 频谱分析仪](http://wiki.seeedstudio.com/cn/ADALM2000-M2K-Spectrum-Analyzer)
+- [3.Network Analyzer - 网络分析仪](http://wiki.seeedstudio.com/cn/ADALM2000-M2K-Network-Analyzer)
+- [4.Signal Generator - 信号发生器](http://wiki.seeedstudio.com/cn/ADALM2000-M2K-Signal-Generator)
+- [5.Logic Analyzer - 逻辑分析仪](http://wiki.seeedstudio.com/cn/ADALM2000-M2K-Logic-Analyzer)
+- [6.Pattern Generator - 模式发生器](http://wiki.seeedstudio.com/cn/ADALM2000-M2K-Pattern-Generator)
+- 7.Digital IO - 数字输入输出控制
+- 8.Voltmeter - 电压表
+- 9.Power Supply - 电源
 
 
 ### 脚本

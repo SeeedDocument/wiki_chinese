@@ -100,7 +100,7 @@ tags:
 
 <div align="center">
 <figure>
-  <a href="https://wiki.analog.com/_detail/university/tools/m2k/scopy/osc-main.png?id=university%3Atools%3Am2k%3Ascopy%3Aoscilloscope" target="_blank"><img src="https://wiki.analog.com/_media/university/tools/m2k/scopy/osc-main.png"  />
+  <a href="https://wiki.analog.com/_media/university/tools/m2k/scopy/osc-main.png?cache=" target="_blank"><img src="https://wiki.analog.com/_media/university/tools/m2k/scopy/osc-main.png"  />
 </figure></a>
 </div>
 
@@ -122,7 +122,7 @@ tags:
 
 <div align="center">
 <figure>
-  <a href="https://wiki.analog.com/_detail/university/tools/m2k/scopy/sig-gen.png?id=university%3Atools%3Am2k%3Ascopy%3Aoscilloscope" target="_blank"><img src="https://wiki.analog.com/_media/university/tools/m2k/scopy/sig-gen.png"  />
+  <a href="https://wiki.analog.com/_media/university/tools/m2k/scopy/sig-gen.png?cache=" target="_blank"><img src="https://wiki.analog.com/_media/university/tools/m2k/scopy/sig-gen.png"  />
 </figure></a>
 </div>
 
@@ -133,7 +133,7 @@ tags:
 
 <div align="center">
 <figure>
-  <a href="https://wiki.analog.com/_detail/university/tools/m2k/scopy/osc-sig-1.png?id=university%3Atools%3Am2k%3Ascopy%3Aoscilloscope" target="_blank"><img src="https://wiki.analog.com/_media/university/tools/m2k/scopy/osc-sig-1.png"  />
+  <a href="https://wiki.analog.com/_media/university/tools/m2k/scopy/osc-sig-1.png?cache=" target="_blank"><img src="https://wiki.analog.com/_media/university/tools/m2k/scopy/osc-sig-1.png"  />
 </figure></a>
 </div>
 
@@ -144,7 +144,7 @@ tags:
 
 <div align="center">
 <figure>
-  <a href="https://wiki.analog.com/_detail/university/tools/m2k/scopy/osc-sig-2.png?id=university%3Atools%3Am2k%3Ascopy%3Aoscilloscope" target="_blank"><img src="https://wiki.analog.com/_media/university/tools/m2k/scopy/osc-sig-2.png"  />
+  <a href="https://wiki.analog.com/_media/university/tools/m2k/scopy/osc-sig-2.png?cache=" target="_blank"><img src="https://wiki.analog.com/_media/university/tools/m2k/scopy/osc-sig-2.png"  />
 </figure></a>
 </div>
 
@@ -156,7 +156,7 @@ tags:
 
 <div align="center">
 <figure>
-  <a href="https://wiki.analog.com/_detail/university/tools/m2k/scopy/osc-trigger.png?id=university%3Atools%3Am2k%3Ascopy%3Aoscilloscope" target="_blank"><img src="https://wiki.analog.com/_media/university/tools/m2k/scopy/osc-trigger.png"  />
+  <a href="https://wiki.analog.com/_media/university/tools/m2k/scopy/osc-trigger.png?cache=" target="_blank"><img src="https://wiki.analog.com/_media/university/tools/m2k/scopy/osc-trigger.png"  />
 </figure></a>
 </div>
 
@@ -169,7 +169,7 @@ tags:
 
 <div align="center">
 <figure>
-  <a href="https://wiki.analog.com/_detail/university/tools/m2k/scopy/osc-cursors-sig.png?id=university%3Atools%3Am2k%3Ascopy%3Aoscilloscope" target="_blank"><img src="https://wiki.analog.com/_media/university/tools/m2k/scopy/osc-cursors-sig.png"  />
+  <a href="https://wiki.analog.com/_media/university/tools/m2k/scopy/osc-cursors-sig.png?cache=" target="_blank"><img src="https://wiki.analog.com/_media/university/tools/m2k/scopy/osc-cursors-sig.png"  />
 </figure></a>
 </div>
 
@@ -183,7 +183,7 @@ tags:
 
 <div align="center">
 <figure>
-  <a href="https://wiki.analog.com/_detail/university/tools/m2k/scopy/osc-measure.png?id=university%3Atools%3Am2k%3Ascopy%3Aoscilloscope" target="_blank"><img src="https://wiki.analog.com/_media/university/tools/m2k/scopy/osc-measure.png"  />
+  <a href="https://wiki.analog.com/_media/university/tools/m2k/scopy/osc-measure.png?cache=" target="_blank"><img src="https://wiki.analog.com/_media/university/tools/m2k/scopy/osc-measure.png"  />
 </figure></a>
 </div>
 
@@ -195,7 +195,7 @@ tags:
 
 <div align="center">
 <figure>
-  <a href="https://wiki.analog.com/_detail/university/tools/m2k/scopy/osc-math.png?id=university%3Atools%3Am2k%3Ascopy%3Aoscilloscope" target="_blank"><img src="https://wiki.analog.com/_media/university/tools/m2k/scopy/osc-math.png"  />
+  <a href="https://wiki.analog.com/_media/university/tools/m2k/scopy/osc-math.png?cache=" target="_blank"><img src="https://wiki.analog.com/_media/university/tools/m2k/scopy/osc-math.png"  />
 </figure></a>
 </div>
 
@@ -205,7 +205,7 @@ tags:
 
 <div align="center">
 <figure>
-  <a href="https://wiki.analog.com/_detail/university/tools/m2k/scopy/osc-math-edit.png?id=university%3Atools%3Am2k%3Ascopy%3Aoscilloscope" target="_blank"><img src="https://wiki.analog.com/_media/university/tools/m2k/scopy/osc-math-edit.png"  />
+  <a href="https://wiki.analog.com/_media/university/tools/m2k/scopy/osc-math-edit.png?cache=" target="_blank"><img src="https://wiki.analog.com/_media/university/tools/m2k/scopy/osc-math-edit.png"  />
 </figure></a>
 </div>
 
@@ -216,7 +216,7 @@ tags:
 
 <div align="center">
 <figure>
-  <a href="https://wiki.analog.com/_detail/university/tools/m2k/scopy/osc-ref.png?id=university%3Atools%3Am2k%3Ascopy%3Aoscilloscope" target="_blank"><img src="https://wiki.analog.com/_media/university/tools/m2k/scopy/osc-ref.png"  />
+  <a href="https://wiki.analog.com/_media/university/tools/m2k/scopy/osc-ref.png?cache=" target="_blank"><img src="https://wiki.analog.com/_media/university/tools/m2k/scopy/osc-ref.png"  />
 </figure></a>
 </div>
 
