@@ -248,9 +248,9 @@ Scopy为每个可用仪器提供了分离窗口的功能，优化视图，方便
 - [4.Signal Generator - 信号发生器](http://wiki.seeedstudio.com/cn/ADALM2000-M2K-Signal-Generator)
 - [5.Logic Analyzer - 逻辑分析仪](http://wiki.seeedstudio.com/cn/ADALM2000-M2K-Logic-Analyzer)
 - [6.Pattern Generator - 模式发生器](http://wiki.seeedstudio.com/cn/ADALM2000-M2K-Pattern-Generator)
-- 7.Digital IO - 数字输入输出控制
-- 8.Voltmeter - 电压表
-- 9.Power Supply - 电源
+- [7.Digital IO - 数字输入输出控制](http://wiki.seeedstudio.com/cn/ADALM2000-M2K-Digital-IO/)
+- [8.Voltmeter - 电压表](http://wiki.seeedstudio.com/cn/ADALM2000-M2K-Voltmeter/)
+- [9.Power Supply - 电源](http://wiki.seeedstudio.com/cn/ADALM2000-M2K-Power-Supply/)
 
 
 ### 脚本
