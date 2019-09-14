@@ -175,6 +175,9 @@ pages:
       - Scopy Signal Generator(信号发生器): ADALM2000-M2K-Signal-Generator.md
       - Scopy Logic Analyzer(逻辑分析仪): ADALM2000-M2K-Logic-Analyzer.md
       - Scopy Pattern Generator(模式发生器): ADALM2000-M2K-Pattern-Generator.md
+      - Scopy Digital IO(数字 IO): ADALM2000-M2K-Digital-IO.md
+      - Scopy Voltmeter(电压表): ADALM2000-M2K-Voltmeter.md
+      - Scopy Power Supply(电源): ADALM2000-M2K-Power-Supply.md
 
     - Shield:
       - Shield: Shield.md
