@@ -40,13 +40,9 @@ Arduino的实现有很多方面，其中最重要的一个环节就是每一块A
 |           101           | 11 or ICSP-4 | 12 or ICSP-1 | 13 or ICSP-3 |  3,3V |
 |        MKR Family       |       8      |      10      |       9      |  3,3V |
 
-The SPI interface - and therefore these pins - is the interface used to program the AVR microcontrollers. Note that MISO, MOSI, and SCK are available in a consistent physical location on the ICSP header; this connector is used also by shields that rely on the SPI interface allowing the design of shields that work on every board.
-
 `SPI`接口为`AVR`微控制器做为编程接口.注意MISO,MOSI,和SCK也可以在开发板`ICSP`的接口上面使用.`SPI`也可以在每块开发板的拓展接口上面使用。
 
 ![](https://github.com/SeeedDocument/Arduino-as--ISP/raw/master/img/ICSPHeader.jpg)
-
-On the Arduino UNO in the following image, we have highlighted in red the connections on the female strips; in yellow the ICSP connector that connects to the ATmega328P. Please note that the Rev.3 board has an ATMega16U2 chip that manages the USB connection and also that chip can be reprogrammed via a dedicated connector labeled ICSP2, just above the ATMega16U2 itself.
 
 在下面的`Arduino UNO`图中，我们红色圆圈标记需要连接的接口；使用黄色的圆圈标记`ICSP`接口
 请注意`Rev.3`开发板里面有负责管理USB连接的`ATMega16U2`芯片，我们可以使用开发板上面的`ICSP1`直接通过`ICSP2`将程序下载到负责管理USB连接的`ATMega16U2`芯片上。
@@ -66,14 +62,11 @@ On the Arduino UNO in the following image, we have highlighted in red the connec
 
 [![](https://github.com/SeeedDocument/Arduino-as--ISP/raw/master/img/MegaToUNO.jpg)](https://github.com/SeeedDocument/Arduino-as--ISP/raw/master/img/MegaToUNO.jpg)
 
-The Arduino MEGA above is programming an Arduino UNO connecting D51-D11, D50-D12, D52-D13, GND-GND, 5V-5V and D10 to RESET. This type of board needs a 10µF electrolytic capacitor connected to RESET and GND with the positive (long leg) connected to RESET. The capacitor has to be placed after the programmer board has been loaded with the ISP sketch.  
-The 10µF electrolytic capacitor connected to RESET and GND of the programming board is needed only for the boards that have an interface between the microcontroller and the computer's USB, like Mega, Uno, Mini, Nano. Boards like Leonardo, Esplora and Micro, with the USB directly managed by the microcontroller don't need the capacitor.  
 
 上图的`Arduino MEGA`正在对`Arduino UNO`进行编程，其连接方式为D51-D11, D50-D12, D52-D13, GND-GND, 5V-5V and D10-RESET。这种类型的开发板需要将10µF电解电容连接到RESET和GND之间，正极接到RESET(长正短负)，在下载进ISP代码后，必须将电容放在对应的位置。只有开发板上面有USB芯片的开发板采将电容放置在RESET和GND之间，其他的没有USB芯片则不需要这个电容。
 
 ## 关于电压
 
-The Arduino family of boards includes 5V and 3.3V devices. When using an Arduino that is not 5V tolerant (Due, Zero, ...) as the programmer, make sure to not expose any of the programmer's pins to 5V. A simple way to accomplish this is to power the complete system (programmer and target) at 3V3
 
 `Arduino`系列的开发板中有工作电压为5v的也有工作电压为3.3v的设备。当使用一些`Arduino`不支持5V电压的开发板(Due, Zero, ...) 作为编程器的时候，不能将编程器的引脚接到被5V供电的开发板上面。一个最简单方式就是两个开发板都供3.3V的电压。
 
@@ -88,23 +81,16 @@ The Arduino family of boards includes 5V and 3.3V devices. When using an Arduino
 
 ## 下载程序
 
-The Arduino that you will use as programmer needs a specific sketch. You find it under Examples > 11\. ArduinoISP> ArduinoISP.  
 
 你将`Arduino`使用你需要一个专门的代码，你可以在`Examples > 11 . ArduinoISP > ArduinoISP.`中找到
 
 ![](https://github.com/SeeedDocument/Arduino-as--ISP/raw/master/img/LoadSketch.jpg)
 
-
 通过查看代码你会发现有很多参数，这些参数随着目标板的变化而变化。但是，这些参数由Arduino软件(IDE)支持的每个引导加载程序/板可用的特定文件设置。其他的参数也被注释将其清楚解释，一般不需要做修改。这个代码也支持通过3个LED将程序处理的情况进行视觉的反馈。
-
 
 [![](https://github.com/SeeedDocument/Arduino-as--ISP/raw/master/img/Arduino_ISP_LEDSOK.jpg)](https://github.com/SeeedDocument/Arduino-as--ISP/raw/master/img/Arduino_ISP_LEDSOK.jpg)
 
-
-
 ## 烧写bootloader
-
-
 
 如果接好了所有的线，则需要通过选择开发板类型来选择不同的`bootloader`的二进制文件和`fuses`的配置。在烧写程序期间，会检查微控制的签名，虽然很多的开发板使用同一款微控制器但是有他们自己的`bootloader`。在`Tools`下面选择`Burn bootloader`,等待`Arduino IDE`下面的窗口的配置信息。
 
@@ -118,11 +104,9 @@ The Arduino that you will use as programmer needs a specific sketch. You find it
 
 ## 编程的技术方面
 
-
 用于编程微控制器的开源软件工具是[avrdude](http://www.nongnu.org/avrdude/)。 该过程分为四个步骤：解锁芯片的引导加载程序部分，设置芯片上的`fuses`，将引导加载程序代码上传到芯片，锁定芯片的引导加载程序部分。
 
 根据存储在与电路板相关的每个参数文件中的偏好来管理`fuses`，从而避免潜在的错误。
-
 
 `fuses`的管理，通常是一组三个字节 - 低，高和扩展 - 是引导程序编程中最精细的方面：错误的保险丝设置可能会破坏微控制器和电路板。 保险丝定义了微控制器功能的许多方面，例如：选择不同的时钟源并改变芯片运行的速度，设置芯片工作前所需的最小电压(掉电)，设置是否使用引导加载程序，设置分配的内存量 引导加载程序(从256到2048字 -  512到4096字节)，禁用复位或串行编程，并在上载新草图时停止擦除EEPROM数据。
 
@@ -138,6 +122,3 @@ The Arduino that you will use as programmer needs a specific sketch. You find it
 * 选择工具>板菜单中与要刻录引导加载程序的板对应的项目(而不是您用作编程器的板)。 有关详细信息，请参阅环境页面上的板描述。
 * 在工具>程序员菜单中选择Arduino作为ISP。
 * 使用Burn Bootloader命令。
-
-
-

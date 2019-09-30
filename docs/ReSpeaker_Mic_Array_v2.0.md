@@ -34,7 +34,7 @@ ReSpeaker Mic Array v2.0 有两个固件，一个包含语音算法，另一个�
 - 12 个可编程 RGB LED 指示灯
 - 语音算法和功能
 - 语音活动检测 Voice Activity Detection
-- DOA
+- DOA(只能输出角度)
 - 波束成形
 - 噪声抑制
 - 消混响
@@ -214,7 +214,7 @@ sudo apt-get update
 sudo pip install pyusb click
 git clone https://github.com/respeaker/usb_4_mic_array.git
 cd usb_4_mic_array
-sudo python dfu.py --download default_firmware.bin  # Change the bin names base on needs
+sudo python dfu.py --download 1_channel_firmware.bin  # 这个是参数可以在https://github.com/respeaker/usb_4_mic_array.git上查看可以选择下载固件哈
 ```
 
 这是固件下载结果。

@@ -19,7 +19,7 @@ Raspberry Pi Foundation 宣布了新版本 **Raspberry Pi 4 B** ，详情请查�
 | CPU主频        | 1.4GHz                      | 1.5GHz                          |
 | 内存           | 1GB                         | 1GB/2GB/4GB                     |
 | USB Host       | 4个2.0                      | 2个2.0和2个3.0                  |
-| 显示接口       | 全尺寸HDMI MIPI DSI显示接口 | 2个Micro HDMI 2.0接口(4K 60FPS) |
+| 显示接口       | 全尺寸HDMI MIPI DSI显示接口 | 2个Micro HDMI 2.0接口(4K 60FPS)   |
 | 蓝牙           | BLE 4.2                     | BLE 5.0                         |
 | GPIO通用扩展口 | 40Pin                       | 40Pin                           |
 | SD卡接口       | Micro SD卡                  | Micro SD卡                      |
@@ -68,6 +68,10 @@ Raspberry Pi Foundation 宣布了新版本 **Raspberry Pi 4 B** ，详情请查�
 ![](https://projects-static.raspberrypi.org/projects/raspberry-pi-setting-up/e22d152dd4f5bee4e6c932d716bc74c6a2098b69/en/images/pi-desktop.png)
 
 假如您没有无屏幕和键盘也没有关系，您可以接着执行下面的操作也能达到控制访问树莓派的功能。
+
+假如使用我们配套的10寸屏幕，则需要下载 [config.txt](https://github.com/SeeedDocument/Raspberry-4-get-start/blob/master/config.txt),将/boot文件夹下面的config.txt覆盖掉。开机进行下图的屏幕配置即可
+![](https://github.com/SeeedDocument/Raspberry-4-get-start/raw/master/img/Screen-Config.jpg)
+
 
 ### 无屏幕和键盘配置树莓派WiFi和SSH
 
@@ -129,4 +133,3 @@ sudo raspi-config
 **步骤 3.** 下载 [Real vnc](https://www.baidu.com/link?url=iW6RVDaZdafJwUX4boQhLuh7MNRw4HkAi4QgoqmnfDXU4bT46q_bCJmDjLUpERyvWlFnof0B4D4VDeaZYD51Ea&wd=&eqid=a185411b00045afd000000065d4beff3)安装并打开，输入树莓派的IP
 
 ![](https://github.com/SeeedDocument/Raspberry-4-get-start/raw/master/img/vnc_display.png)
-

@@ -460,6 +460,9 @@ pages:
     - 气体传感器类别说明: Seeed_Gas_Sensor_Selection_Guide.md
     - Jetson Nano VS Raspberry 4: Raspberry_4_vs_jetson_nano.md
     - Arduino as ISP: Arduino-Bootloader.md
+    - Crazyflie 2.X 入门指南: Getting_started_with_the_Crazyflie_2.X.md
+    - Loco Positioning system 入门指南: Getting-started-with-the-Loco-Positioning-system.md
+    - Arduino Grove 入门学习套件使用手册: Grove-Beginner-Kit-for-Arduino-manual.md
   - 文档协议: license.md
 
 # Google Analytics

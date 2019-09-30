@@ -108,6 +108,9 @@ JetsonNano的启动步骤与其他ARMLinuxBorad相同。这里附了一个简短
 >9. 最后，您将看到这个界面。祝贺你！
 >![Alt text](https://raw.githubusercontent.com/SeeedDocument/forum_doc/master/image/Jetson%20Nano/Jetson%20Nano/interference.jpg)
 
+!!!Note
+
+	jetson nano 有三种供电方式，常用的是DC接口供电和USB供电。如果你的设备开机时，电源灯亮而屏幕不亮，那么很有可能是电源供电不够，这时我们可以采用5VDC的接口来供电。通过将`J48`的两个引脚短接就可以始能5VDC接口供电。
  
 ## 4.视觉Demo
 
