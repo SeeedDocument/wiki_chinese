@@ -175,6 +175,20 @@ pages:
       - Scopy Signal Generator(信号发生器): ADALM2000-M2K-Signal-Generator.md
       - Scopy Logic Analyzer(逻辑分析仪): ADALM2000-M2K-Logic-Analyzer.md
       - Scopy Pattern Generator(模式发生器): ADALM2000-M2K-Pattern-Generator.md
+      - Scopy Digital IO(数字 IO): ADALM2000-M2K-Digital-IO.md
+      - Scopy Voltmeter(电压表): ADALM2000-M2K-Voltmeter.md
+      - Scopy Power Supply(电源): ADALM2000-M2K-Power-Supply.md
+
+    - ADALM PLUTO:
+      - ADALM-PLUTO 概述: ADALM-PLUTO-Overview.md
+      - ADALM-PLUTO 终端用户与学生指南: ADALM-PLUTO-for-End-User.md
+      - ADALM-PLUTO 简介: ADALM-PLUTO-Introduction.md
+      - ADALM-PLUTO 名字来源: ADALM-PLUTO-Name.md
+      - ADALM-PLUTO 内部基本组成: ADALM-PLUTO-Understanding.md
+      - ADALM-PLUTO 多快多远？: ADALM-PLUTO-far-fast.md
+      - ADALM-PLUTO 输出与发射: ADALM-PLUTO-Transmit.md
+
+
 
     - Shield:
       - Shield: Shield.md
