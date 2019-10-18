@@ -162,6 +162,7 @@ pages:
       - ReSpeaker Core v2.0: ReSpeaker_Core_v2.0.md
       - ReSpeaker Core: ReSpeaker_Core.md
       - ReSpeaker Mic Array v2.0: ReSpeaker_Mic_Array_v2.0.md
+      - ReSpeaker USB Mic Array: ReSpeaker-USB-Mic-Array.md
       - ReSpeaker Mic Array: ReSpeaker_Mic_Array.md
       - SoundPi: SoundPi.md
 
@@ -407,7 +408,9 @@ pages:
       - G3-4 Water Flow sensor: G3-4_Water_Flow_sensor.md
       - Grove Starter Kit v3: Grove_Starter_Kit_v3.md
       - Lipo Rider V1.3: Lipo_Rider_V1.3.md
-
+      - Crazyflie 2.X get start: Getting_started_with_the_Crazyflie_2.X.md
+      - Crazyflie 2.X Loco Positioning system: Getting-started-with-the-Loco-Positioning-system.md
+      - Crazyflie 2.X STEM drone bundle: Getting-started-with-the-STEM-drone-bundle.md
 
   - IoT:
     - IoT: IoT.md
@@ -474,8 +477,6 @@ pages:
     - 气体传感器类别说明: Seeed_Gas_Sensor_Selection_Guide.md
     - Jetson Nano VS Raspberry 4: Raspberry_4_vs_jetson_nano.md
     - Arduino as ISP: Arduino-Bootloader.md
-    - Crazyflie 2.X 入门指南: Getting_started_with_the_Crazyflie_2.X.md
-    - Loco Positioning system 入门指南: Getting-started-with-the-Loco-Positioning-system.md
     - Arduino Grove 入门学习套件使用手册: Grove-Beginner-Kit-for-Arduino-manual.md
   - 文档协议: license.md
 

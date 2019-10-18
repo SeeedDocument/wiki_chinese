@@ -539,28 +539,22 @@ from voice_engine.kws import KWS
 from voice_engine.ns import NS
 from voice_engine.doa_respeaker_4mic_array import DOA
 from avs.alexa import Alexa
-#from pixels import pixels
 
 
 def main():
     logging.basicConfig(level=logging.DEBUG)
 
-    src = Source(rate=16000, channels=4, device_name='sysdefault') 
-    ch1 = ChannelPicker(channels=4, pick=1)
+    src = Source(rate=16000, channels=1, device_name='plughw:1,0')
+    ch1 = ChannelPicker(channels=1, pick=1)
     ns = NS(rate=16000, channels=1)
     kws = KWS(model='snowboy')
     doa = DOA(rate=16000)
     alexa = Alexa()
 
-#    alexa.state_listener.on_listening = pixels.listen
-#    alexa.state_listener.on_thinking = pixels.think
-#    alexa.state_listener.on_speaking = pixels.speak
-#    alexa.state_listener.on_finished = pixels.off
 
     def on_detected(keyword):
         direction = doa.get_direction()
         logging.info('detected {} at direction {}'.format(keyword, direction))
- #       pixels.wakeup(direction)
         alexa.listen()
 
     kws.on_detected = on_detected
@@ -586,6 +580,8 @@ def main():
 if __name__ == '__main__':
     main()
 ```
+假如需要使用`mic-array`作为音频输出口的话则如下图进行设置
+![](https://github.com/SeeedDocument/ReSpeaker_Mic_Array_V2/raw/master/img/audio-output.png)
 运行`PLAYER=mpg123 python ns_kws_doa_alexa_with_light.py`, 我们会在终端看到很多 debug 的消息. 当我们看到`status code: 204`的时候, 请说`snowboy`来唤醒 respeaker。接下来 respeaker 上的 led 灯亮起来, 我们可以跟他对话, 比如问，"谁是最帅的?" 或者 "播放刘德华的男人哭吧哭吧不是罪"。小伙伴，尽情的 High 起来吧。
 
 ## FAQ
