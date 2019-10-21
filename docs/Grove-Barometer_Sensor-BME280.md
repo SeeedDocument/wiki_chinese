@@ -134,6 +134,14 @@ BME280 是 BMP180 的升级版，BME280 相对 BMP180 获得了显着的改进�
 如果您使用的是 Seeeduino ，请在  <span style="font-weight:bold">Tools（工具）</span> 菜单下点击 <span style="font-weight:bold">Boards（开发板）</span> 来更改为您使用的板子的型号。
 </div>
 
+
+## 原理图在线预览
+
+
+<div class="altium-ecad-viewer" data-project-src="https://raw.githubusercontent.com/SeeedDocument/Grove-Barometer_Sensor-BME280/master/res/Grove-Barometer_Sensor-BME280-v1.0_Schematics.zip" style="border-radius: 0px 0px 4px 4px; height: 500px; border-style: solid; border-width: 1px; border-color: rgb(241, 241, 241); overflow: hidden; max-width: 1280px; max-height: 700px; box-sizing: border-box;" />
+</div>
+
+
 资源下载
 ---------
 

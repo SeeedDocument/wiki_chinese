@@ -214,6 +214,14 @@ void SenttocircularBar(int index)
     当Grove – Encoder 被按下时，也会产生一个信号，但是基于Grove线的限制，并没有将该信号引出来。
 </div>
 
+
+## 原理图在线预览
+
+
+<div class="altium-ecad-viewer" data-project-src="https://raw.githubusercontent.com/SeeedDocument/Grove-Encoder/master/res/Grove-Encoder_eagle_files.zip" style="border-radius: 0px 0px 4px 4px; height: 500px; border-style: solid; border-width: 1px; border-color: rgb(241, 241, 241); overflow: hidden; max-width: 1280px; max-height: 700px; box-sizing: border-box;" />
+</div>
+
+
 资料下载
 ---------
 

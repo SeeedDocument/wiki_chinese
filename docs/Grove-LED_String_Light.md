@@ -73,6 +73,14 @@ Grove - LED String Light 模块本质上是包装中包含 LED 灯串的 LED 驱
 
 或者，可以在 [Seeed Studio Bazaar](http://www.seeedstudio.com/depot/Grove-LED-String-Light-p-1821.html) 上单独购买。
 
+
+## 原理图在线预览
+
+
+<div class="altium-ecad-viewer" data-project-src="https://github.com/SeeedDocument/Grove-LED_String_Light/raw/master/res/Grove-LED_String_Light.zip" style="border-radius: 0px 0px 4px 4px; height: 500px; border-style: solid; border-width: 1px; border-color: rgb(241, 241, 241); overflow: hidden; max-width: 1280px; max-height: 700px; box-sizing: border-box;" />
+</div>
+
+
 ##  资源下载
 ---
 *   **[原理图]**[[Schematic PDF](https://github.com/SeeedDocument/Grove-LED_String_Light/raw/master/res/Grove-LED_String_Light.pdf)]

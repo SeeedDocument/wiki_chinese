@@ -321,6 +321,15 @@ void loop()
 ```
 
 在您自己的项目中，您可能需要多个手势而不是单个手势来实现一个功能，欢迎分享！
+
+
+## 原理图在线预览
+
+
+<div class="altium-ecad-viewer" data-project-src="https://github.com/SeeedDocument/Grove_Gesture_V_1.0/raw/master/resources/Grove_-_Gesture_v1.0_sch_pcb.zip" style="border-radius: 0px 0px 4px 4px; height: 500px; border-style: solid; border-width: 1px; border-color: rgb(241, 241, 241); overflow: hidden; max-width: 1280px; max-height: 700px; box-sizing: border-box;" />
+</div>
+
+
 ## 资源下载
 ---
 - [Grove - Gesture_v1.0 sch pcb.zip](https://github.com/SeeedDocument/Grove_Gesture_V_1.0/raw/master/resources/Grove_-_Gesture_v1.0_sch_pcb.zip)

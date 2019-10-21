@@ -202,6 +202,15 @@ Electricity sensor 模块是 Grove 系列的成员。它基于 TA12-200 型电�
 ```
     sudo python grove_electricity_sensor.py
 ```
+
+
+## 原理图在线预览
+
+
+<div class="altium-ecad-viewer" data-project-src="https://raw.githubusercontent.com/SeeedDocument/Grove-Electricity_Sensor/master/res/Electricity_sensor_v1.0_eagle_files.zip" style="border-radius: 0px 0px 4px 4px; height: 500px; border-style: solid; border-width: 1px; border-color: rgb(241, 241, 241); overflow: hidden; max-width: 1280px; max-height: 700px; box-sizing: border-box;" />
+</div>
+
+
 ## 资源下载
 ---------
 

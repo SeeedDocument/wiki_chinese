@@ -161,6 +161,13 @@ Seeeduino V4.2 与 Arduino 完全兼容。
 ，UVA 水平可能不成比 UV 指数所描述的更高。广谱 (UVA/UVB) 防晒霜的使用可以帮助解决这个问题。
 
 
+## 原理图在线预览
+
+
+<div class="altium-ecad-viewer" data-project-src="https://github.com/SeeedDocument/Grove-Sunlight_Sensor/raw/master/res/Grove_-_Sunlight_Sensor_v1.0_SCH%26PCB%26PDF.zip" style="border-radius: 0px 0px 4px 4px; height: 500px; border-style: solid; border-width: 1px; border-color: rgb(241, 241, 241); overflow: hidden; max-width: 1280px; max-height: 700px; box-sizing: border-box;" />
+</div>
+
+
 ## 资源下载
 ---
 - **[Eagle 文件]** [Schematic in Eagle File](https://github.com/SeeedDocument/Grove-Sunlight_Sensor/raw/master/res/Grove_-_Sunlight_Sensor_v1.0_SCH%26PCB%26PDF.zip)

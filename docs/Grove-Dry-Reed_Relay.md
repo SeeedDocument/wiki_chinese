@@ -270,6 +270,14 @@ Grove - Dry-Reed Relay 可支持高达 60VDC 1A 的负载。 您可以使用它�
     sudo python grove_relay.py
 ```
 
+
+## 原理图在线预览
+
+
+<div class="altium-ecad-viewer" data-project-src="https://raw.githubusercontent.com/SeeedDocument/Grove-Dry-Reed_Relay/master/res/Grove-Dry-Reed_Relay_Eagle_File.zip" style="border-radius: 0px 0px 4px 4px; height: 500px; border-style: solid; border-width: 1px; border-color: rgb(241, 241, 241); overflow: hidden; max-width: 1280px; max-height: 700px; box-sizing: border-box;" />
+</div>
+
+
 资源下载
 --------
 

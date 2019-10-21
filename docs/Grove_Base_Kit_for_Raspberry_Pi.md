@@ -1285,6 +1285,14 @@ pi@raspberrypi:~/grove.py $
 
 ![](https://raw.githubusercontent.com/SeeedDocument/Grove_Beginner_Kit_for_RaspberryPi/master/img/lesson8.png)
 
+
+## 原理图在线预览
+
+
+<div class="altium-ecad-viewer" data-project-src="https://github.com/SeeedDocument/Grove_Base_Hat_for_Raspberry_Pi/raw/master/res/Raspberry%20Pi%20Grove%20Base%20HAT%20v1.0.zip" style="border-radius: 0px 0px 4px 4px; height: 500px; border-style: solid; border-width: 1px; border-color: rgb(241, 241, 241); overflow: hidden; max-width: 1280px; max-height: 700px; box-sizing: border-box;" />
+</div>
+
+
 ## 资源下载
 
 - **[Zip]** [基于树莓派的Grove Base Hat的Eagle文件](https://github.com/SeeedDocument/Grove_Base_Hat_for_Raspberry_Pi/raw/master/res/Raspberry%20Pi%20Grove%20Base%20HAT%20v1.0.zip)

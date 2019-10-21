@@ -128,10 +128,19 @@ tags: grove_i2c, io_3v3, io_5v, plat_duino, plat_linkit
 3. 通过单击 **Project（项目）-> Upload（CTRL + U）** 将代码载入到主控板上。
 4. 上传后，您就可以让 haptic motor 稳定的运行了。
 
+
+## 原理图在线预览
+
+
+<div class="altium-ecad-viewer" data-project-src="https://raw.githubusercontent.com/SeeedDocument/Grove-Haptic_Motor/master/res/Grove_Haptic_Motor_v0.9_Eagle.zip" style="border-radius: 0px 0px 4px 4px; height: 500px; border-style: solid; border-width: 1px; border-color: rgb(241, 241, 241); overflow: hidden; max-width: 1280px; max-height: 700px; box-sizing: border-box;" />
+</div>
+
+
 资源下载
 ---------
 
--   Schematic files in [Eagle format](https://raw.githubusercontent.com/SeeedDocument/Grove-Haptic_Motor/master/res/Grove_Haptic_Motor_v0.9_Eagle.zip) and [PDF format](https://raw.githubusercontent.com/SeeedDocument/Grove-Haptic_Motor/master/res/Grove_Haptic_Motor_v0.9_SCH.pdf).
+-   [Schematic files in Eagle format](https://raw.githubusercontent.com/SeeedDocument/Grove-Haptic_Motor/master/res/Grove_Haptic_Motor_v0.9_Eagle.zip)
+-   [PDF format](https://raw.githubusercontent.com/SeeedDocument/Grove-Haptic_Motor/master/res/Grove_Haptic_Motor_v0.9_SCH.pdf).
 -   [More about drive circuit DRV2605L](http://www.ti.com/product/DRV2605L).
 -   [Git repository](https://github.com/Seeed-Studio/Grove_Haptic_Motor)
 

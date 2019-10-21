@@ -93,6 +93,14 @@ sku:  104030013
 
  请点击 [Grove-Encoder](http://wiki.seeedstudio.com/cn/Grove-Encoder/) 来学习更多关于此例程的相关资料。
 
+
+## 原理图在线预览
+
+
+<div class="altium-ecad-viewer" data-project-src="https://github.com/SeeedDocument/Grove-Circular_LED/raw/master/res/Grove-circular_LED_eagle_files.zip" style="border-radius: 0px 0px 4px 4px; height: 500px; border-style: solid; border-width: 1px; border-color: rgb(241, 241, 241); overflow: hidden; max-width: 1280px; max-height: 700px; box-sizing: border-box;" />
+</div>
+
+
 ## 资源下载
 ---
 - **[eagle文件]**[Grove-circular LED eagle files](https://github.com/SeeedDocument/Grove-Circular_LED/raw/master/res/Grove-circular_LED_eagle_files.zip)

@@ -494,6 +494,13 @@ Digital light sensor 的两个通道具有不同的响应特性。 这就是为�
 ![](https://raw.githubusercontent.com/SeeedDocument/Grove-Digital_Light_Sensor/master/img/Grovepi_digital_light_sensor_00.png)
 
 
+## 原理图在线预览
+
+
+<div class="altium-ecad-viewer" data-project-src="https://github.com/SeeedDocument/Grove-Digital_Light_Sensor/raw/master/res/Grove-Digital%20%20light%20%20sensor%20v1.0%20eagle%20file.zip" style="border-radius: 0px 0px 4px 4px; height: 500px; border-style: solid; border-width: 1px; border-color: rgb(241, 241, 241); overflow: hidden; max-width: 1280px; max-height: 700px; box-sizing: border-box;" />
+</div>
+
+
 ## 资源下载
 --------
 

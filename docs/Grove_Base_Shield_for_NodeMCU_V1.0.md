@@ -43,6 +43,14 @@ Grove Base Shield 的目的是把任何微控制器的输入和输出引脚简�
     4. 同时使用 4 个 I2C 插槽是不会发生冲突的，因为每个 I2C 器件都有自己的地址。
     5. 由于 Grove 模块都没有使用 SPI 接口，所以本扩展板上也没有 SPI 插座。
 
+
+## 原理图在线预览
+
+
+<div class="altium-ecad-viewer" data-project-src="https://github.com/SeeedDocument/Grove_Base_Shield_for_NodeMCU_V1.0/raw/master/res/Grove_Base_Shield_for_NodeMCU_sch_pcb.rar" style="border-radius: 0px 0px 4px 4px; height: 500px; border-style: solid; border-width: 1px; border-color: rgb(241, 241, 241); overflow: hidden; max-width: 1280px; max-height: 700px; box-sizing: border-box;" />
+</div>
+
+
 ##  资源下载
 ---
 - **[Eagle 文件]**[Grove Base Shield for NodeMCU_sch Eagle file](https://github.com/SeeedDocument/Grove_Base_Shield_for_NodeMCU_V1.0/raw/master/res/Grove_Base_Shield_for_NodeMCU_sch_pcb.rar)

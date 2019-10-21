@@ -53,6 +53,13 @@ Grove Shield for Intel Joule 是将 Intel Joule 桥接到 Grove 模块系列的�
 |[**Gear Stepper Motor with Driver**](https://item.taobao.com/item.htm?spm=a1z10.3-c.w4002-11172317909.9.7975bc17YIO4PM&id=534734937446)|![](https://github.com/SeeedDocument/Grove_Maker_Kit_for_Intel_Joule/raw/master/img/Motor%20with%20Driver.jpg)|它允许您通过将步进电机连接到驱动器板来驱动步进电机，并将驱动器连接到具有 PWM 输出的用于 Intel Joule 的 Grove Shield 上的任何数字端口。 然后您可以使用代码行轻松控制步进电机。|
 
 
+## 原理图在线预览
+
+
+<div class="altium-ecad-viewer" data-project-src="https://github.com/SeeedDocument/Grove_Maker_Kit_for_Intel_Joule/raw/master/res/Grove%20Shield%20for%20Intel%20Joule_eagle.zip" style="border-radius: 0px 0px 4px 4px; height: 500px; border-style: solid; border-width: 1px; border-color: rgb(241, 241, 241); overflow: hidden; max-width: 1280px; max-height: 700px; box-sizing: border-box;" />
+</div>
+
+
 ## 资源下载
 - **[原理图PDF]** [Grove Shield for Intel Joule v1.0.pdf](https://github.com/SeeedDocument/Grove_Maker_Kit_for_Intel_Joule/raw/master/res/Grove%20Shield%20for%20Intel%20Joule%20v1.0.pdf)
 - **[Eagle文件]** [Grove Shield for Intel Joule_eagle.zip](https://github.com/SeeedDocument/Grove_Maker_Kit_for_Intel_Joule/raw/master/res/Grove%20Shield%20for%20Intel%20Joule_eagle.zip)

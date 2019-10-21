@@ -39,6 +39,14 @@ Arduino 可以使用 Grove - DXM512 模块轻松控制 DMX512 设备。以 LED �
 
 *   你可以看到一个有趣的场景。 尝试根据您个人的喜好来更改代码。
 
+
+## 原理图在线预览
+
+
+<div class="altium-ecad-viewer" data-project-src="https://github.com/SeeedDocument/Grove-DMX512/raw/master/res/Grove-DMX512_Eagle_File.zip" style="border-radius: 0px 0px 4px 4px; height: 500px; border-style: solid; border-width: 1px; border-color: rgb(241, 241, 241); overflow: hidden; max-width: 1280px; max-height: 700px; box-sizing: border-box;" />
+</div>
+
+
 ##  资源下载
 ---
 - **[Eagle 文件]**[Grove - DMX512 Eagle File](https://github.com/SeeedDocument/Grove-DMX512/raw/master/res/Grove-DMX512_Eagle_File.zip)

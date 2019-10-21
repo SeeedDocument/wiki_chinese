@@ -69,6 +69,14 @@ Grove - Hall Sensor 基于霍尔效应，霍尔效应是横跨导体中的电流
 - 上传代码。
 - 当南极朝上的磁铁接近传感器时， LED 将会亮起。 否则， LED 将被关闭。
 
+
+## 原理图在线预览
+
+
+<div class="altium-ecad-viewer" data-project-src="https://raw.githubusercontent.com/SeeedDocument/Grove-Hall_Sensor/master/res/Twig_Hall_Sensor_v0.9b.zip" style="border-radius: 0px 0px 4px 4px; height: 500px; border-style: solid; border-width: 1px; border-color: rgb(241, 241, 241); overflow: hidden; max-width: 1280px; max-height: 700px; box-sizing: border-box;" />
+</div>
+
+
 资源下载
 ---------
 

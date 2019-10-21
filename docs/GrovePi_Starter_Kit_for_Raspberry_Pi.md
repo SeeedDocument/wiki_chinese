@@ -170,6 +170,14 @@ Grove - RGB LCD display 将开始显示来自 Grove - Temp&Humi Sensor 的实时
 
 点击 [这里](https://www.dexterindustries.com/grovepi-tutorials-documentation/) 获取更多的使用示例
 
+
+## 原理图在线预览
+
+
+<div class="altium-ecad-viewer" data-project-src="https://github.com/SeeedDocument/GrovePi-Starter-Kit-for-Raspberry-Pi-A-B-B-2-3-CE-certified-/raw/master/res/GrovePi%2BEagle%20FIle.zip" style="border-radius: 0px 0px 4px 4px; height: 500px; border-style: solid; border-width: 1px; border-color: rgb(241, 241, 241); overflow: hidden; max-width: 1280px; max-height: 700px; box-sizing: border-box;" />
+</div>
+
+
 ## 资源下载
 ---------
 -   **[Eagle 文件]** [GrovePi_Plus V3.0 eagle file](https://github.com/SeeedDocument/GrovePi-Starter-Kit-for-Raspberry-Pi-A-B-B-2-3-CE-certified-/raw/master/res/GrovePi%2BEagle%20FIle.zip)

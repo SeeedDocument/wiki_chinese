@@ -189,6 +189,14 @@ void loop() {
 
 根据该图可以看出，我们可以测试的最小浓度为 0.1mg/L，最大浓度为 10mg/L。然而，我们不能提供一个公式，因为比率和浓度之间的关系是非线性的。
 
+
+## 原理图在线预览
+
+
+<div class="altium-ecad-viewer" data-project-src="https://raw.githubusercontent.com/SeeedDocument/Grove-Gas_Sensor-MQ3/master/res/Gas_Sensor_Eagle_files.zip" style="border-radius: 0px 0px 4px 4px; height: 500px; border-style: solid; border-width: 1px; border-color: rgb(241, 241, 241); overflow: hidden; max-width: 1280px; max-height: 700px; box-sizing: border-box;" />
+</div>
+
+
 ## 资源下载
 ---------
 

@@ -195,6 +195,13 @@ void loop() {
 您将会看到每隔5秒，两个风扇分别切换一次状态，但同一时刻只有一个风扇处于开启状态。
 
 
+## 原理图在线预览
+
+
+<div class="altium-ecad-viewer" data-project-src="https://github.com/SeeedDocument/Grove-2-Channel_Solid_State_Relay/raw/master/res/Grove-2-Channel_Solid_State_Relay.zip" style="border-radius: 0px 0px 4px 4px; height: 500px; border-style: solid; border-width: 1px; border-color: rgb(241, 241, 241); overflow: hidden; max-width: 1280px; max-height: 700px; box-sizing: border-box;" />
+</div>
+
+
 ## 资源下载
 
 - **[Zip]** [Grove - 2-通道固态继电器 eagle 文件](https://github.com/SeeedDocument/Grove-2-Channel_Solid_State_Relay/raw/master/res/Grove-2-Channel_Solid_State_Relay.zip)

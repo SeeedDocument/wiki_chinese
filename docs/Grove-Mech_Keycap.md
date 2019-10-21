@@ -380,6 +380,14 @@ KeyboardInterrupt
 
 只需按ctrl+c即可退出此程序
 
+
+## 原理图在线预览
+
+
+<div class="altium-ecad-viewer" data-project-src="https://github.com/SeeedDocument/Grove-Mech_Keycap/raw/master/res/Grove-Mech_Keycap_eagle.zip" style="border-radius: 0px 0px 4px 4px; height: 500px; border-style: solid; border-width: 1px; border-color: rgb(241, 241, 241); overflow: hidden; max-width: 1280px; max-height: 700px; box-sizing: border-box;" />
+</div>
+
+
 ## 资源
 
 - **[Zip]** [Grove-Mech Keycap eagle file](https://github.com/SeeedDocument/Grove-Mech_Keycap/raw/master/res/Grove-Mech_Keycap_eagle.zip)

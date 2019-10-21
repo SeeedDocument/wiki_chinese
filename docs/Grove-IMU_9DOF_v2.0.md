@@ -91,6 +91,14 @@ Platforms Supported
 
 指南针灵敏度轴方向
 
+
+## 原理图在线预览
+
+
+<div class="altium-ecad-viewer" data-project-src="https://raw.githubusercontent.com/SeeedDocument/Grove-IMU_9DOF_v2.0/master/res/Grove-IMU_9DOF_v2.0_sch_pcb.zip" style="border-radius: 0px 0px 4px 4px; height: 500px; border-style: solid; border-width: 1px; border-color: rgb(241, 241, 241); overflow: hidden; max-width: 1280px; max-height: 700px; box-sizing: border-box;" />
+</div>
+
+
 资源下载
 --------
 -   **[Eagle 文件]** [Grove - IMU 9DOF v2.0 Eagle File](https://raw.githubusercontent.com/SeeedDocument/Grove-IMU_9DOF_v2.0/master/res/Grove-IMU_9DOF_v2.0_sch_pcb.zip)

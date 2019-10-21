@@ -125,6 +125,14 @@ BMP280是BMP180的升级版。 BMP280比起BMP180有着了显着的改进。 BMP
 
 **Tips:** 如果您使用Seeeduino，请在上传工程时选择 **Tool(工具)** 下的 **Board(开发板)**。
 
+
+## 原理图在线预览
+
+
+<div class="altium-ecad-viewer" data-project-src="https://github.com/SeeedDocument/Grove-Barometer_Sensor-BMP280/raw/master/res/Grove%20-%20Barometer%20Sensor_BMP280_Schematic.zip" style="border-radius: 0px 0px 4px 4px; height: 500px; border-style: solid; border-width: 1px; border-color: rgb(241, 241, 241); overflow: hidden; max-width: 1280px; max-height: 700px; box-sizing: border-box;" />
+</div>
+
+
 资源下载
 ---------
 

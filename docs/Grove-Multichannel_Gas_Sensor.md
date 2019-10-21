@@ -323,6 +323,14 @@ void loop()
 !!!note
     - 在传感器出厂前已经校准过了，如果您想要重新校准，请确保校准时空气环境是新鲜清新的。校准大致需要几分钟到半小时不等的时间。
 
+
+## 原理图在线预览
+
+
+<div class="altium-ecad-viewer" data-project-src="https://raw.githubusercontent.com/SeeedDocument/Grove-Multichannel_Gas_Sensor/master/res/Grove-Multichannel_Gas_Sensor_v1.0_eagle_files.zip" style="border-radius: 0px 0px 4px 4px; height: 500px; border-style: solid; border-width: 1px; border-color: rgb(241, 241, 241); overflow: hidden; max-width: 1280px; max-height: 700px; box-sizing: border-box;" />
+</div>
+
+
 资源下载
 ---------
 

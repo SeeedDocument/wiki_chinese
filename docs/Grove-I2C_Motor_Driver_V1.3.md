@@ -238,6 +238,14 @@ void StepperRun(int _step);
 
 **_step**  表示您设置为步进电机运行的步骤。 可以填-1024〜1024。 当_step> 0时，步进电机顺时针运行，而_step <0时，步进电机逆时针运行。 当_step为512 / -512时，步进电机将运行一整圈，如果_step为1024 / -1024，则步进电机将运行2圈。 步进电机在完成步骤后会自动停止。
 
+
+## 原理图在线预览
+
+
+<div class="altium-ecad-viewer" data-project-src="https://raw.githubusercontent.com/SeeedDocument/Grove-I2C_Motor_Driver_V1.3/master/res/Grove-I2C_Motor_Driver_v1.3_Eagle_File.zip" style="border-radius: 0px 0px 4px 4px; height: 500px; border-style: solid; border-width: 1px; border-color: rgb(241, 241, 241); overflow: hidden; max-width: 1280px; max-height: 700px; box-sizing: border-box;" />
+</div>
+
+
 ## 资源下载
 
 -   [Grove - I2C Motor Driver V1.3 in Eagle Format](https://raw.githubusercontent.com/SeeedDocument/Grove-I2C_Motor_Driver_V1.3/master/res/Grove-I2C_Motor_Driver_v1.3_Eagle_File.zip)

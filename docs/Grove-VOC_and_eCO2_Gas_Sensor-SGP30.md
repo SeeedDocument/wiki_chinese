@@ -255,6 +255,12 @@ CO2eq Concentration:502ppm
         3- 我们的测试是在办公室进行的，由于和您的环境不同，测试结果可能有差异。
 
 
+## 原理图在线预览
+
+
+<div class="altium-ecad-viewer" data-project-src="https://github.com/SeeedDocument/Grove-VOC_and_eCO2_Gas_Sensor-SGP30/raw/master/res/Grove-VOC_and_eCO2_Gas_Sensor%20-SGP30.zip" style="border-radius: 0px 0px 4px 4px; height: 500px; border-style: solid; border-width: 1px; border-color: rgb(241, 241, 241); overflow: hidden; max-width: 1280px; max-height: 700px; box-sizing: border-box;" />
+</div>
+
 
 ## 资源下载
 

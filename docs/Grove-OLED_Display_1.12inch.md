@@ -232,6 +232,14 @@ Seeed Gray OLED 库提供了完整的软件接口，可以使用 96x96 灰阶 OL
 
     SeeedGrayOled.activateScroll();   //Disable scrolling.
 
+
+## 原理图在线预览
+
+
+<div class="altium-ecad-viewer" data-project-src="https://github.com/SeeedDocument/Grove_OLED_1.12/raw/master/resources/OLED%20Display.zip" style="border-radius: 0px 0px 4px 4px; height: 500px; border-style: solid; border-width: 1px; border-color: rgb(241, 241, 241); overflow: hidden; max-width: 1280px; max-height: 700px; box-sizing: border-box;" />
+</div>
+
+
 ## 资源下载
 ---------
 * **[Eagle 文件]** [Grove-OLED Display 1.12inch in Eagle](https://github.com/SeeedDocument/Grove_OLED_1.12/raw/master/resources/OLED%20Display.zip)

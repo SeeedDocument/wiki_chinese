@@ -317,6 +317,14 @@ delay(10);
         请确保 **upper_limit** 高于 **lower_limit**,否则将会输出不正常。请确保 **critical_limit** 高于 **upper_limit** 。此外还需要一定的延时以确保参数被正确地写入寄存器。
 
 
+
+## 原理图在线预览
+
+
+<div class="altium-ecad-viewer" data-project-src="https://github.com/SeeedDocument/Grove-I2C_High_Accuracy_Temperature_Sensor-MCP9808/raw/master/res/Grove-I2C_High_Accuracy_Temperature_Sensor-MCP9808.zip" style="border-radius: 0px 0px 4px 4px; height: 500px; border-style: solid; border-width: 1px; border-color: rgb(241, 241, 241); overflow: hidden; max-width: 1280px; max-height: 700px; box-sizing: border-box;" />
+</div>
+
+
 ## 资源下载
 
 - **[Zip]** [Grove - I2C High Accuracy Temperature Sensor(MCP9808) Eagle files](https://github.com/SeeedDocument/Grove-I2C_High_Accuracy_Temperature_Sensor-MCP9808/raw/master/res/Grove-I2C_High_Accuracy_Temperature_Sensor-MCP9808.zip)

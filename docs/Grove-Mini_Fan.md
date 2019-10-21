@@ -83,6 +83,14 @@ sku:  105020004
 
 或者，可以在 [Seeed Studio Bazaar](http://www.seeedstudio.com/depot/Grove-Mini-Fan-p-1819.html) 单独购买。
 
+
+## 原理图在线预览
+
+
+<div class="altium-ecad-viewer" data-project-src="https://github.com/SeeedDocument/Grove-Mini_Fan/raw/master/res/Grove-Mini_Fan_v1.0.zip" style="border-radius: 0px 0px 4px 4px; height: 500px; border-style: solid; border-width: 1px; border-color: rgb(241, 241, 241); overflow: hidden; max-width: 1280px; max-height: 700px; box-sizing: border-box;" />
+</div>
+
+
 ##  资源下载
 ---
 *   **[Eagle文件]** [Grove - Mini Fan v1.0 (Eagle Files)](https://github.com/SeeedDocument/Grove-Mini_Fan/raw/master/res/Grove-Mini_Fan_v1.0.zip)

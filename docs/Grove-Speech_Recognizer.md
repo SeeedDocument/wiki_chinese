@@ -204,6 +204,13 @@ void loop()
 ![enter image description here](https://raw.githubusercontent.com/SeeedDocument/Grove_Speech_Recognizer/master/img/monitor.png)
 
 
+## 原理图在线预览
+
+
+<div class="altium-ecad-viewer" data-project-src="https://github.com/SeeedDocument/Grove_Speech_Recognizer/raw/master/res/eagle.zip" style="border-radius: 0px 0px 4px 4px; height: 500px; border-style: solid; border-width: 1px; border-color: rgb(241, 241, 241); overflow: hidden; max-width: 1280px; max-height: 700px; box-sizing: border-box;" />
+</div>
+
+
 ## 资源下载
 
 * **[Eagle文件]** [Schematics in Eagle](https://github.com/SeeedDocument/Grove_Speech_Recognizer/raw/master/res/eagle.zip)

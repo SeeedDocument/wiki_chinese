@@ -460,6 +460,14 @@ void setup()
 
 ![](https://github.com/SeeedDocument/Grove-4-Channel_SPDT_Relay/raw/master/img/J-flash.jpg)
 
+
+## 原理图在线预览
+
+
+<div class="altium-ecad-viewer" data-project-src="https://github.com/SeeedDocument/Grove-8-Channel_Solid_State_Relay/raw/master/res/Grove%20-%208-Channel%20Solid%20State%20Relay.zip" style="border-radius: 0px 0px 4px 4px; height: 500px; border-style: solid; border-width: 1px; border-color: rgb(241, 241, 241); overflow: hidden; max-width: 1280px; max-height: 700px; box-sizing: border-box;" />
+</div>
+
+
 ## 资源下载
 
 - **[Zip]** [Grove-8通道固态继电器eagle文件](https://github.com/SeeedDocument/Grove-8-Channel_Solid_State_Relay/raw/master/res/Grove%20-%208-Channel%20Solid%20State%20Relay.zip)

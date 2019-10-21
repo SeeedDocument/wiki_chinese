@@ -131,6 +131,14 @@ SCL  -  RX
 - (1)使传感器紧密地与您的皮肤接触，并在测量时保持稳定(无运动)以获得准确的心率。如果传感器在测量心率时，不能很好地接触皮肤或进行极端运动，那可能导致不能正确测量。
 - (2)传感器的性能会在血流量更大时得到优化。 在寒冷的日子或用户的循环不畅(例如手脚冷)，传感器性能（心率准确度）可能会因测量位置的血流量较低而受到影响。
 
+
+## 原理图在线预览
+
+
+<div class="altium-ecad-viewer" data-project-src="https://github.com/SeeedDocument/Grove-Finger-clip_Heart_Rate_Sensor_with_shell/raw/master/res/Grove%20-%20Finger-clip%20Heart%20Rate%20Sensor%20eagle%20file.rar" style="border-radius: 0px 0px 4px 4px; height: 500px; border-style: solid; border-width: 1px; border-color: rgb(241, 241, 241); overflow: hidden; max-width: 1280px; max-height: 700px; box-sizing: border-box;" />
+</div>
+
+
 ##  资源下载
 ---
 *   **[Eagle文件]** [Grove - Finger-clip Heart Rate Sensor eagle file](https://github.com/SeeedDocument/Grove-Finger-clip_Heart_Rate_Sensor_with_shell/raw/master/res/Grove%20-%20Finger-clip%20Heart%20Rate%20Sensor%20eagle%20file.rar)
