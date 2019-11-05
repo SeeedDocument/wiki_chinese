@@ -386,11 +386,9 @@ A1:如果按照上述方法安装驱动均失败，请点击下载下面镜像(�
 
 请执行下面的步骤：
 
-- 第一， 烧写下载好的镜像，烧了镜像后，记得换源。
+- 第一， 如果要使用交互功能之前请命令行输入alexa-auth或dueros-auth申请授权，授权成功后会在 /home/pi目录下生成.avs.json文件，这时才能使用交互功能。
 
-- 第二， 如果要使用交互功能之前请命令行输入alexa-auth或dueros-auth申请授权，授权成功后会在 /home/pi目录下生成.avs.json文件，这时才能使用交互功能。
-
-- 第三，/home/pi目录下会有 respeaker的例程文件夹,可以根据用的mic不同而使用相应的例程。但是请烧录系统后在respeaker目录下更新下例程，可以在respeaker目录下执行``` git pull origin master ```命令来更新。
+- 第二，/home/pi目录下会有 respeaker的例程文件夹,可以根据用的mic不同而使用相应的例程。但是请烧录系统后在respeaker目录下更新下例程，可以在respeaker目录下执行``` git pull origin master ```命令来更新。
 
 **Q2: #include "portaudio.h" Error when run "sudo pip install pyaudio".**
 
