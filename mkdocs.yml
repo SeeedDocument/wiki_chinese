@@ -106,6 +106,7 @@ pages:
     - Raspberry:
       - Raspberry: Raspberry.md
       - 7 Inch 1024x600 Capacitive Touch Screen DIY Kit: 7_Inch_1024x600_Capacitive_Touch_Screen_DIY_Kit.md
+      - 720x1280 HDMI IPS LCD Display:  
       - GrovePi Starter Kit for Raspberry Pi: GrovePi_Starter_Kit_for_Raspberry_Pi.md
       - Grove Base Kit for Raspberry Pi: Grove_Base_Kit_for_Raspberry_Pi.md
       - Raspberry Pi Uart Introduce: Raspberry_Pi_4_Model_B_Uart.md
